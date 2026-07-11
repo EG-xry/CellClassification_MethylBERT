@@ -1,0 +1,12 @@
+# Large model weights (kept locally, not committed to keep the repo lean)
+*.safetensors
+*.pickle
+
+# Raw / large sequencing and reference data (kept locally)
+*.pat.gz
+Pretraining/Data/CpG.bed.gz
+Training/Data/train_seq.csv
+Training/Data/test_seq.csv
+
+# OS cruft
+.DS_Store

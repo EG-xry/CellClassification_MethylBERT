@@ -1,0 +1,64 @@
+cType vs DMR_cType Agreement Analysis
+============================================================
+
+Total number of rows processed: 2,367,303
+Total number of unique cTypes: 39
+Overall agreement (cType == DMR_cType): 1,183,982 rows (50.01%)
+
+Agreement Analysis by cType (sorted by agreement proportion):
+------------------------------------------------------------
+cType                          Total      Agreement    Proportion  
+------------------------------------------------------------
+Colon-Fibro                    323        170          52.63       %
+Epid-Kerat                     10,601     5,379        50.74       %
+Blood-Granul                   39,544     19,978       50.52       %
+Thyroid-Ep                     34,151     17,167       50.27       %
+Pancreas-Beta                  33,682     16,921       50.24       %
+Eryth-prog                     49,882     25,052       50.22       %
+Pancreas-Alpha                 34,378     17,240       50.15       %
+Small-Int-Ep                   61,259     30,699       50.11       %
+Pancreas-Delta                 32,496     16,284       50.11       %
+Fallopian-Ep                   38,033     19,043       50.07       %
+Heart-Fibro                    42,567     21,309       50.06       %
+Heart-Cardio                   61,561     30,816       50.06       %
+Skeletal-Musc                  20,633     10,325       50.04       %
+Blood-B                        51,135     25,581       50.03       %
+Pancreas-Acinar                73,595     36,798       50.00       %
+Endothel                       137,770    68,885       50.00       %
+Blood-Mono+Macro               130,690    65,345       50.00       %
+Blood-T                        281,612    140,806      50.00       %
+Breast-Basal-Ep                37,836     18,918       50.00       %
+Neuron                         118,080    59,040       50.00       %
+Head-Neck-Ep                   151,098    75,549       50.00       %
+Gastric-Ep                     178,822    89,411       50.00       %
+Kidney-Ep                      62,942     31,471       50.00       %
+Liver-Hep                      94,054     47,027       50.00       %
+Oligodend                      42,076     21,038       50.00       %
+Pancreas-Duct                  40,346     20,173       50.00       %
+Prostate-Ep                    43,468     21,734       50.00       %
+Dermal-Fibro                   10,720     5,359        49.99       %
+Colon-Ep                       94,519     47,250       49.99       %
+Smooth-Musc                    65,601     32,788       49.98       %
+Ovary-Ep                       33,969     16,970       49.96       %
+Lung-Ep-Bron                   47,671     23,801       49.93       %
+Bladder-Ep                     50,495     25,200       49.91       %
+Blood-NK                       30,656     15,283       49.85       %
+Lung-Ep-Alveo                  61,403     30,597       49.83       %
+Breast-Luminal-Ep              31,753     15,788       49.72       %
+Bone-Osteob                    11,844     5,886        49.70       %
+Gallbladder                    10,125     5,031        49.69       %
+Adipocytes                     15,913     7,870        49.46       %
+
+============================================================
+Summary Statistics:
+Mean agreement proportion: 50.08%
+Median agreement proportion: 50.00%
+Standard deviation: 0.46%
+Min agreement proportion: 49.46%
+Max agreement proportion: 52.63%
+
+Agreement Level Breakdown:
+Perfect agreement (100%): 0 cTypes
+High agreement (≥80%): 0 cTypes
+Medium agreement (50-80%): 27 cTypes
+Low agreement (<50%): 12 cTypes
