@@ -18,7 +18,11 @@ My goal was to push that binary machine into a general one: instead of tumour ve
 
 I forked MethylBERT and rebuilt its objective. The classification head was widened from two outputs to N, one per cell type; each read was relabelled with its own cell type rather than with a match or not flag; and I wrote a preprocessing pipeline that turns raw `.pat` methylation fragments into training rows over the differentially methylated regions (DMRs) of the reference atlas. The atlas is the 39-cell-type whole-genome bisulfite map of Loyfer et al. (*Nature*, 2023), the same reference the deconvolution field has standardized on.
 
-Fine grained classes tend to collapse onto whichever class is most common, so I spent much of the effort fighting that collapse: focal and decoupled-focal losses, class weighting, label smoothing, and class-balanced batch sampling. When the flat 39 way problem refused to learn, I grouped the atlas into functional families, Blood, Metabolic, Structural, Reproductive, Digestive, Excitable, and epithelial Surface types, and trained a specialist model within each. The reproducible pieces live under `Pretraining/` and `Training/`.
+Fine grained classes tend to collapse onto whichever class is most common, so I spent much of the effort fighting that collapse: focal and decoupled-focal losses, class weighting, label smoothing, and class-balanced batch sampling. When the flat 39 way problem refused to learn at all, I moved to a two-stage, hierarchical scheme that follows the atlas's own structure: first group the 39 types into a handful of functional families (Blood, Metabolic, Structural, Reproductive, Digestive, Excitable, and epithelial Surface), then train a specialist classifier to separate the six or seven cell types within each family. The families are not arbitrary; they are the branches of the atlas's methylation dendrogram, where lineage-related cells cluster together. The reproducible pieces live under `Pretraining/` and `Training/`.
+
+![Radial methylation dendrogram of the 39 Loyfer atlas cell types](Figure_Loyfer.webp)
+
+*The 39 human cell types of the Loyfer et al. (2023) atlas, clustered by genome-wide methylation similarity (figure reproduced from Loyfer et al., Nature 2023). The colour-coded clades are the functional families the hierarchical scheme groups into first: immune cells at lower left, epithelia across the top, muscle, fibroblasts, adipocytes and endothelium at lower right, neurons and oligodendrocytes on the right. The second stage then has to separate the leaves within a single clade, cells that sit close together precisely because their methylation is similar, which is exactly what makes within-family classification hard.*
 
 ## Results
 
@@ -38,15 +42,7 @@ The pattern is consistent, and it is worth stating plainly rather than dressing 
 | Full atlas (flat)                                       | 39      | 0.026  | collapses to near chance | —         |
 
 
-Two binary discriminations between distant types reach the low eighties; the maximally distinct trio of a heart muscle cell, a neuron, and an oligodendrocyte reaches the mid-fifties, then begins to overfit. Yet every task that asks the model to separate cousins, one pancreatic endocrine subtype from another, one fibroblast from another, sits within a few points of a coin flip. A representative Structural-family run, with its confusion matrix and training curves, is saved under `Training/Run_Result/bert.model/plots/` and reproduced below.
-
-![Read-level confusion matrix for the six-class Structural model](Training/Run_Result/bert.model/plots/confusion_matrix.png)
-
-*Row-normalised confusion matrix for the Structural family (Adipocytes, Colon-Fibro, Endothel, Heart-Fibro, Skeletal-Musc, Smooth-Musc). The weight sits off the diagonal: reads of most types are pulled into a few attractor columns rather than onto their own class. This is what near-chance accuracy looks like up close, not random scatter but a systematic inability to hold the classes apart.*
-
-![Training and validation curves for the six-class Structural model](Training/Run_Result/bert.model/plots/training_curves.png)
-
-*Training dynamics for the same model. Validation accuracy climbs off the six-class chance line of 0.167 to a plateau near 0.24 by roughly thirty thousand steps, while validation loss bottoms out around twenty thousand steps and then turns back upward. The model extracts the little separable signal the reads carry, then begins to overfit rather than improve.*
+Two binary discriminations between distant types reach the low eighties; the maximally distinct trio of a heart muscle cell, a neuron, and an oligodendrocyte reaches the mid-fifties, then begins to overfit. Yet every task that asks the model to separate cousins, one pancreatic endocrine subtype from another, one fibroblast from another, sits within a few points of a coin flip. Per-class metrics for a representative Structural-family model are recorded in `Training/Run_Result/bert.model/plots/final_metrics.txt`.
 
 The clearest verdict comes from deconvolution rather than accuracy. Given a pure sample of a single known cell type, a working system should assign nearly all of its reads to that one class. Mine did not; pure samples dissolved into a near-uniform spread across the family, with average confidence barely above the uniform floor, or else collapsed onto one class regardless of the input. The aggregate, which is supposed to be the strong part, was not strong.
 
