@@ -1,0 +1,303 @@
+nohup: ignoring input
+=== MethylBERT Fine-tuning Training ===
+Config file: /PUBLIC/shixi/GSE186458_raw/methylbert_run/focal_manual_config.json
+Training steps: 80000
+Batch size: 128
+Learning rate: 5e-06
+Loss function: focal
+Number of classes: 6
+Use balanced batches: True
+Use balanced test evaluation: False
+========================================
+Creating tokenizer...
+Building Vocab
+Loading training dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  544302
+Created mapping for 6 unique cell types
+# of reads in each label:  [102034. 122516.  85557.  77425.  79541.  77229.]
+Total number of unique cell types: 6
+Cell type mapping (first 10): {'Liver-Hep': 0, 'Pancreas-Acinar': 1, 'Pancreas-Alpha': 2, 'Pancreas-Beta': 3, 'Pancreas-Delta': 4, 'Pancreas-Duct': 5}
+Using balanced batch sampling for training...
+Built class indices: [102034, 122516, 85557, 77425, 79541, 77229]
+BalancedBatchSampler: 6 classes
+Original class distribution: [102034 122516  85557  77425  79541  77229]
+Samples per class per batch: 21
+Actual batch size: 126 (requested: 128)
+Max batches per epoch: 3677
+Total samples per epoch: 463302
+Training samples: 544302 (balanced batches: 463302 samples per epoch)
+Loading test dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  181500
+Some weights of MethylBertEmbeddedDMR were not initialized from the model checkpoint at hanyangii/methylbert_hg19_4l and are newly initialized: ['dmr_encoder.0.weight', 'read_classifier.0.bias', 'read_classifier.0.weight', 'read_classifier.3.bias', 'read_classifier.3.weight', 'read_classifier.4.bias
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Created mapping for 6 unique cell types
+# of reads in each label:  [34334. 40618. 28553. 25974. 26405. 25616.]
+Total number of unique cell types: 6
+Cell type mapping (first 10): {'Liver-Hep': 0, 'Pancreas-Acinar': 1, 'Pancreas-Alpha': 2, 'Pancreas-Beta': 3, 'Pancreas-Delta': 4, 'Pancreas-Duct': 5}
+Using standard (unbalanced) test evaluation...
+Test samples: 181500
+Creating trainer...
+Auto-detected 6 classes from training dataset
+Using CUDA GPU (NVIDIA A40)
+Loading pre-trained model...
+Restore the pretrained model hanyangii/methylbert_hg19_4l
+Loading with 6 classes (from dataset)
+Using explicit seq_len: 250
+Using num_classes from hierarchy: 6
+DMR embedding size: 44265
+Focal loss assigned (softmax-based multiclass)
+Focal weight (per-class) length=6; values: [1.0, 1.0, 1.100000023841858, 1.100000023841858, 1.100000023841858, 1.100000023841858]
+Focal gamma: 0.0
+Resolved focal weight (per-class) length=6; values: [1.0, 1.0, 1.1, 1.1, 1.1, 1.1]
+Total Parameters: 88952677
+Optimizer created successfully
+Starting training...
+========================================
+False
+Training Steps:   0%|          | 0/80000 [00:00<?, ?it/s]Training Steps:   0%|          | 0/80000 [00:01<?, ?it/s, eval_acc=nan, eval_loss=nan, loss=1.9580, lr=0.000000, step=0]                                                                                                                        
+    Overall - Loss: 1.9580, Accuracy: 0.183, Avg Confidence: 0.543
+    Per-class breakdown:
+      Liver-Hep      : Acc=0.048, Conf=0.543, Count= 21
+      Pancreas-Acinar: Acc=0.810, Conf=0.568, Count= 21
+      Pancreas-Alpha : Acc=0.095, Conf=0.538, Count= 21
+      Pancreas-Beta  : Acc=0.000, Conf=0.531, Count= 21
+      Pancreas-Delta : Acc=0.095, Conf=0.540, Count= 21
+      Pancreas-Duct  : Acc=0.048, Conf=0.537, Count= 21
+
+Train Step 0 - Loss: 1.9580 / LR: 0.000000
+Running time for iter = 0.79s
+Training Steps:   0%|          | 1/80000 [00:01<33:50:24,  1.52s/it, eval_acc=nan, eval_loss=nan, loss=1.9580, lr=0.000000, step=0]Training Steps:   0%|          | 1/80000 [00:01<33:50:24,  1.52s/it, eval_acc=nan, eval_loss=nan, loss=2.0409, lr=0.000000, step=1]Training Steps:   0%|          | 2/
+    Overall - Loss: 1.9421, Accuracy: 0.175, Avg Confidence: 0.542
+    Per-class breakdown:
+      Liver-Hep      : Acc=0.143, Conf=0.541, Count= 21
+      Pancreas-Acinar: Acc=0.286, Conf=0.544, Count= 21
+      Pancreas-Alpha : Acc=0.143, Conf=0.539, Count= 21
+      Pancreas-Beta  : Acc=0.000, Conf=0.540, Count= 21
+      Pancreas-Delta : Acc=0.190, Conf=0.541, Count= 21
+      Pancreas-Duct  : Acc=0.286, Conf=0.546, Count= 21
+
+Train Step 500 - Loss: 1.9421 / LR: 0.000000
+Running time for iter = 0.13s
+Training Steps:   1%|          | 501/80000 [01:16<3:17:28,  6.71it/s, eval_acc=nan, eval_loss=nan, loss=1.9421, lr=0.000000, step=500]Training Steps:   1%|          | 501/80000 [01:16<3:17:28,  6.71it/s, eval_acc=nan, eval_loss=nan, loss=1.9477, lr=0.000000, step=501]Training Steps:   1%|        
+    Overall - Loss: 1.9576, Accuracy: 0.167, Avg Confidence: 0.541
+    Per-class breakdown:
+      Liver-Hep      : Acc=0.095, Conf=0.538, Count= 21
+      Pancreas-Acinar: Acc=0.143, Conf=0.540, Count= 21
+      Pancreas-Alpha : Acc=0.190, Conf=0.543, Count= 21
+      Pancreas-Beta  : Acc=0.095, Conf=0.541, Count= 21
+      Pancreas-Delta : Acc=0.190, Conf=0.540, Count= 21
+      Pancreas-Duct  : Acc=0.286, Conf=0.544, Count= 21
+                                                                                                                                       Training Steps:   1%|▏         | 1000/80000 [03:31<3:18:24,  6.64it/s, eval_acc=nan, eval_loss=nan, loss=1.9377, lr=0.000001, step=999]                        
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:1000 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.1542
+Step 1000: New best evaluation loss (1.9396 < inf). Saving lowest-loss model...
+Saved read classifier to res/bert.model/read_classification_model.pickle
+Saved DMR encoder to res/bert.model/dmr_encoder.pickle
+Step:1000 Lowest-Loss Model Saved at: res/bert.model/ with Loss: 1.9396
+  EVALUATION Results Analysis (Step 1000):
+    Overall - Loss: 1.9396, Accuracy: 0.157, Avg Confidence: 0.541
+    Per-class breakdown:
+      Class_0        : Acc=0.087, Conf=0.539
+      Class_1        : Acc=0.074, Conf=0.536
+      Class_2        : Acc=0.179, Conf=0.543
+      Class_3        : Acc=0.228, Conf=0.544
+      Class_4        : Acc=0.224, Conf=0.544
+      Class_5        : Acc=0.217, Conf=0.544
+
+Train Step 1000 - Loss: 1.9576 / LR: 0.000001
+Running time for iter = 0.13s
+Total elapsed: 0s | ETA: 0s
+Validation - Loss: 1.9396, Accuracy: 0.1570
+Training Steps:   1%|▏         | 1000/80000 [03:34<3:18:24,  6.64it/s, eval_acc=0.157, eval_loss=1.9396, loss=1.9576, lr=0.000001, step=1000]Training Steps:   1%|▏         | 1001/80000 [03:34<416:36:48, 18.99s/it, eval_acc=0.157, eval_loss=1.9396, loss=1.9576, lr=0.000001, step=1000]Training 
+    Overall - Loss: 1.9275, Accuracy: 0.190, Avg Confidence: 0.542
+    Per-class breakdown:
+      Liver-Hep      : Acc=0.143, Conf=0.541, Count= 21
+      Pancreas-Acinar: Acc=0.048, Conf=0.540, Count= 21
+      Pancreas-Alpha : Acc=0.238, Conf=0.543, Count= 21
+      Pancreas-Beta  : Acc=0.190, Conf=0.542, Count= 21
+      Pancreas-Delta : Acc=0.333, Conf=0.546, Count= 21
+      Pancreas-Duct  : Acc=0.190, Conf=0.541, Count= 21
+
+Train Step 1500 - Loss: 1.9275 / LR: 0.000001
+Running time for iter = 0.13s
+Training Steps:   2%|▏         | 1501/80000 [04:48<3:14:02,  6.74it/s, eval_acc=0.157, eval_loss=1.9396, loss=1.9275, lr=0.000001, step=1500]Training Steps:   2%|▏         | 1501/80000 [04:48<3:14:02,  6.74it/s, eval_acc=0.157, eval_loss=1.9396, loss=1.9242, lr=0.000001, step=1501]Training St
+    Overall - Loss: 1.9247, Accuracy: 0.183, Avg Confidence: 0.542
+    Per-class breakdown:
+      Liver-Hep      : Acc=0.000, Conf=0.537, Count= 21
+      Pancreas-Acinar: Acc=0.190, Conf=0.542, Count= 21
+      Pancreas-Alpha : Acc=0.286, Conf=0.545, Count= 21
+      Pancreas-Beta  : Acc=0.333, Conf=0.546, Count= 21
+      Pancreas-Delta : Acc=0.190, Conf=0.541, Count= 21
+      Pancreas-Duct  : Acc=0.095, Conf=0.541, Count= 21
+                                                                                                                                             Training Steps:   2%|▎         | 2000/80000 [07:01<3:12:04,  6.77it/s, eval_acc=0.157, eval_loss=1.9396, loss=1.9474, lr=0.000001, step=1999]            
+Saved read classifier to res/bert.model/read_classification_model.pickle
+Saved DMR encoder to res/bert.model/dmr_encoder.pickle
+Step:2000 Lowest-Loss Model Saved at: res/bert.model/ with Loss: 1.9200
+  EVALUATION Results Analysis (Step 2000):
+    Overall - Loss: 1.9200, Accuracy: 0.157, Avg Confidence: 0.541
+    Per-class breakdown:
+      Class_0        : Acc=0.091, Conf=0.539
+      Class_1        : Acc=0.050, Conf=0.537
+      Class_2        : Acc=0.171, Conf=0.543
+      Class_3        : Acc=0.266, Conf=0.544
+      Class_4        : Acc=0.228, Conf=0.544
+      Class_5        : Acc=0.218, Conf=0.544
+
+Train Step 2000 - Loss: 1.9247 / LR: 0.000001
+Running time for iter = 0.13s
+
+[... 3031 lines omitted ...]
+
+Total elapsed: 4h 35m 9s | ETA: 3m 28s
+Validation - Loss: 1.7771, Accuracy: 0.2730
+Training Steps:  99%|█████████▉| 79000/80000 [4:38:43<02:35,  6.44it/s, eval_acc=0.273, eval_loss=1.7771, loss=1.5854, lr=0.000000, step=79000]Training Steps:  99%|█████████▉| 79001/80000 [4:38:43<4:59:53, 18.01s/it, eval_acc=0.273, eval_loss=1.7771, loss=1.
+    Overall - Loss: 1.7209, Accuracy: 0.286, Avg Confidence: 0.558
+    Per-class breakdown:
+      Liver-Hep      : Acc=0.143, Conf=0.544, Count= 21
+      Pancreas-Acinar: Acc=0.429, Conf=0.586, Count= 21
+      Pancreas-Alpha : Acc=0.095, Conf=0.556, Count= 21
+      Pancreas-Beta  : Acc=0.333, Conf=0.552, Count= 21
+      Pancreas-Delta : Acc=0.286, Conf=0.550, Count= 21
+      Pancreas-Duct  : Acc=0.429, Conf=0.557, Count= 21
+
+Train Step 79500 - Loss: 1.7209 / LR: 0.000000
+Running time for iter = 0.13s
+Training Steps:  99%|█████████▉| 79501/80000 [4:39:59<01:14,  6.74it/s, eval_acc=0.273, eval_loss=1.7771, loss=1.7209, lr=0.000000, step=79500]Training Steps:  99%|█████████▉| 79501/80000 [4:39:59<01:14,  6.74it/s, eval_acc=0.273, eval_loss=1.7771, loss=1.69
+
+============================================================
+TRAINING COMPLETED - GENERATING FINAL EVALUATION
+============================================================
+Training curves saved to res/bert.model/plots/training_curves.png
+Training curve: reduced from 80000 to 81 points (1 point per 1000 steps max)
+
+========================================
+EVALUATING BEST F1 MODEL (bert_best.model)
+========================================
+Loading best model from res/bert_best.model/ for final analysis...
+Loading best model with 6 classes and 44265 DMR labels
+Best model path: res/bert_best.model/
+Best model directory contents:
+  - config.json
+  - model.safetensors
+  - read_classification_model.pickle
+  - dmr_encoder.pickle
+Calling MethylBertEmbeddedDMR.from_pretrained...
+Using explicit seq_len: 250
+Using num_classes from hierarchy: 6
+DMR embedding size: 44265
+Model loaded successfully from MethylBertEmbeddedDMR.from_pretrained
+Attempting to load additional components...
+Loading DMR encoder from res/bert_best.model/dmr_encoder.pickle
+Successfully restored DMR encoder from res/bert_best.model/dmr_encoder.pickle
+Loading read classifier from res/bert_best.model/read_classification_model.pickle
+Successfully restored read classifier from res/bert_best.model/read_classification_model.pickle
+Additional component loading completed
+Total Parameters: 88952677
+Optimizer created successfully
+Successfully loaded best model from step 71000
+Using best F1 model from step 71000 (F1: 0.2703) for analysis
+
+BEST F1 MODEL EVALUATION (Step 71000):
+
+============================================================
+MULTI-CLASS EVALUATION SUMMARY
+============================================================
+Overall Accuracy: 0.2721
+Macro F1-Score: 0.2703
+Weighted F1-Score: 0.2790
+
+Per-Class Accuracy (Top 10):
+  Pancreas-Duct       : 0.4117
+  Liver-Hep           : 0.3223
+  Pancreas-Delta      : 0.2443
+  Pancreas-Acinar     : 0.2430
+  Pancreas-Beta       : 0.2128
+  Pancreas-Alpha      : 0.2078
+
+Per-Class Accuracy (Bottom 10):
+  Pancreas-Alpha      : 0.2078
+  Pancreas-Beta       : 0.2128
+  Pancreas-Acinar     : 0.2430
+  Pancreas-Delta      : 0.2443
+  Liver-Hep           : 0.3223
+  Pancreas-Duct       : 0.4117
+============================================================
+Confusion matrix saved to res/bert.model/plots/confusion_matrix_best_f1.png
+Best F1 model confusion matrix saved to: res/bert.model/plots/confusion_matrix_best_f1.png
+
+========================================
+EVALUATING LOWEST LOSS MODEL (bert.model)
+========================================
+Loading lowest-loss model from res/bert.model/ for final analysis...
+Loading lowest-loss model with 6 classes and 44265 DMR labels
+Lowest-loss model path: res/bert.model/
+Lowest-loss model directory contents:
+  - model.safetensors
+  - dmr_encoder.pickle
+  - config.json
+  - read_classification_model.pickle
+  - plots
+  - train.csv
+  - eval.csv
+Calling MethylBertEmbeddedDMR.from_pretrained...
+Using explicit seq_len: 250
+Using num_classes from hierarchy: 6
+DMR embedding size: 44265
+Model loaded successfully from MethylBertEmbeddedDMR.from_pretrained
+Attempting to load additional components...
+Loading DMR encoder from res/bert.model/dmr_encoder.pickle
+Successfully restored DMR encoder from res/bert.model/dmr_encoder.pickle
+Loading read classifier from res/bert.model/read_classification_model.pickle
+Successfully restored read classifier from res/bert.model/read_classification_model.pickle
+Additional component loading completed
+Total Parameters: 88952677
+Optimizer created successfully
+Successfully loaded lowest-loss model from step 69000
+Using lowest-loss model from step 69000 (Loss: 1.7737) for analysis
+
+LOWEST LOSS MODEL EVALUATION (Step 69000):
+
+============================================================
+MULTI-CLASS EVALUATION SUMMARY
+============================================================
+Overall Accuracy: 0.2726
+Macro F1-Score: 0.2695
+Weighted F1-Score: 0.2787
+
+Per-Class Accuracy (Top 10):
+  Pancreas-Duct       : 0.4088
+  Liver-Hep           : 0.3329
+  Pancreas-Acinar     : 0.2529
+  Pancreas-Beta       : 0.2202
+  Pancreas-Delta      : 0.2193
+  Pancreas-Alpha      : 0.2027
+
+Per-Class Accuracy (Bottom 10):
+  Pancreas-Alpha      : 0.2027
+  Pancreas-Delta      : 0.2193
+  Pancreas-Beta       : 0.2202
+  Pancreas-Acinar     : 0.2529
+  Liver-Hep           : 0.3329
+  Pancreas-Duct       : 0.4088
+============================================================
+Confusion matrix saved to res/bert.model/plots/confusion_matrix_lowest_loss.png
+Lowest loss model confusion matrix saved to: res/bert.model/plots/confusion_matrix_lowest_loss.png
+Confidence analysis saved to: res/bert.model/plots/confidence_analysis.txt
+
+Final evaluation plots and metrics saved to: res/bert.model/plots
+
+Final analysis completed using lowest-loss model from step 69000
+Best F1-score model (step 71000, Macro-F1 Score 0.2703) is saved in bert_best.model/
+Lowest-loss model (step 69000, Loss: 1.7737) is saved in bert.model/
+============================================================
+========================================
+Training completed!
+
+Saving training configuration...
+Saving training parameters to: /PUBLIC/shixi/GSE186458_raw/methylbert_run/res/train_param.txt
+Training parameters saved successfully!
+========================================
+All tasks completed successfully!

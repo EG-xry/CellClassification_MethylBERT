@@ -1,0 +1,37 @@
+{
+  "description": "Example JSON configuration for batch cell type deconvolution",
+  "notes": [
+    "This configuration file allows processing multiple CSV files in batch",
+    "Global settings apply to all files unless overridden per file",
+    "Each file can have its own specific settings"
+  ],
+  
+  "global_settings": {
+    "model_dir": "Training/Run_Result/bert_best.model",
+    "device": "gpu",
+    "batch_size": 128,
+    "output_format": "tab",
+    "ignore_ctype_mismatch": true,
+    "force_model_classes": true,
+    "use_generic_names": true,
+    "use_dmr_ctype": true
+  },
+
+  "files": [
+    {
+      "csv": "Bladder-Smooth-Muscle_41Z_singular.csv"
+    },
+    {
+      "csv": "Pancreas-Islet-Endothel_42Y_singular.csv"
+    },
+    {
+      "csv": "Adipocytes_T5_singular.csv"
+    },
+    {
+      "csv": "Heart-Fibroblasts_43R_singular.csv"
+    },
+    {
+      "csv": "Prostate-Smooth-Muscle_41Y_singular.csv"
+    }
+  ]
+}

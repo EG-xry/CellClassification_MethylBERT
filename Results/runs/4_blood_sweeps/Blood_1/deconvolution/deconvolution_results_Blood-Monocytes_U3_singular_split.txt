@@ -1,0 +1,122 @@
+CELL TYPE DECONVOLUTION RESULTS
+============================================================
+Input file: Blood-Monocytes_U3_singular_split.csv
+Model directory: Training/Run_Result/bert.model
+Device: cuda:0
+Total reads: 117673
+
+FINAL VERDICT:
+  Dominant Cell Type: Class_4
+  Percentage: 25.85%
+  Overall Confidence: 0.186
+
+CELL TYPE BREAKDOWN:
+  Class_0: 12234 reads (10.4%)
+  Class_1: 17509 reads (14.88%)
+  Class_2: 27590 reads (23.45%)
+  Class_3: 12161 reads (10.33%)
+  Class_4: 30420 reads (25.85%)
+  Class_5: 17759 reads (15.09%)
+
+CONFIDENCE ANALYSIS:
+  Overall Average Confidence: 0.186
+  Overall Confidence Std: 0.019
+
+Confidence by Cell Type:
+  Class_0:
+    Avg: 0.187, Std: 0.019
+    Range: 0.167 - 0.299
+  Class_1:
+    Avg: 0.207, Std: 0.029
+    Range: 0.168 - 0.316
+  Class_2:
+    Avg: 0.179, Std: 0.012
+    Range: 0.167 - 0.295
+  Class_3:
+    Avg: 0.189, Std: 0.019
+    Range: 0.167 - 0.312
+  Class_4:
+    Avg: 0.176, Std: 0.008
+    Range: 0.168 - 0.268
+  Class_5:
+    Avg: 0.187, Std: 0.015
+    Range: 0.168 - 0.296
+
+============================================================
+DMR_cType ANALYSIS BY REGION
+============================================================
+DMR_cType to Region mapping:
+  Blood-Mono+Macro -> Region_0
+  Blood-Granul -> Region_1
+  Blood-NK -> Region_2
+  Eryth-prog -> Region_3
+  Blood-B -> Region_4
+  Blood-T -> Region_5
+
+Detailed breakdown by region:
+
+Region_0 (DMR_cType: Blood-Mono+Macro):
+  Total reads: 13883
+  Dominant cell type: Class_1 (23.02%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	12.19%	1693	0.194
+  Class_1	23.02%	3196	0.205
+  Class_2	19.22%	2668	0.199
+  Class_3	15.2%	2110	0.194
+  Class_4	11.58%	1608	0.186
+  Class_5	18.79%	2608	0.189
+
+Region_1 (DMR_cType: Blood-Granul):
+  Total reads: 24357
+  Dominant cell type: Class_1 (35.19%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	6.97%	1698	0.178
+  Class_1	35.19%	8572	0.218
+  Class_2	18.47%	4499	0.18
+  Class_3	4.93%	1201	0.179
+  Class_4	21.35%	5200	0.175
+  Class_5	13.08%	3187	0.185
+
+Region_2 (DMR_cType: Blood-NK):
+  Total reads: 19374
+  Dominant cell type: Class_4 (28.37%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	7.76%	1503	0.18
+  Class_1	6.4%	1240	0.188
+  Class_2	27.86%	5397	0.176
+  Class_3	14.98%	2903	0.194
+  Class_4	28.37%	5496	0.176
+  Class_5	14.63%	2835	0.185
+
+Region_3 (DMR_cType: Eryth-prog):
+  Total reads: 19473
+  Dominant cell type: Class_4 (32.27%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	8.06%	1570	0.177
+  Class_1	7.06%	1375	0.189
+  Class_2	29.29%	5703	0.175
+  Class_3	8.92%	1737	0.18
+  Class_4	32.27%	6284	0.175
+  Class_5	14.4%	2804	0.192
+
+Region_4 (DMR_cType: Blood-B):
+  Total reads: 22051
+  Dominant cell type: Class_4 (34.99%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	16.35%	3606	0.193
+  Class_1	4.34%	958	0.187
+  Class_2	24.38%	5377	0.176
+  Class_3	6.73%	1485	0.18
+  Class_4	34.99%	7716	0.175
+  Class_5	13.19%	2909	0.185
+
+Region_5 (DMR_cType: Blood-T):
+  Total reads: 18535
+  Dominant cell type: Class_4 (22.21%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	11.68%	2164	0.188
+  Class_1	11.7%	2168	0.193
+  Class_2	21.29%	3946	0.178
+  Class_3	14.7%	2725	0.193
+  Class_4	22.21%	4116	0.18
+  Class_5	18.43%	3416	0.188

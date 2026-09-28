@@ -1,0 +1,1514 @@
+CONFIDENCE PREDICTION ANALYSIS
+================================================================================
+Analysis of low confidence (top 15) and high confidence (top 15) predictions per true cell type
+================================================================================
+
+LOW CONFIDENCE PREDICTIONS
+================================================================================
+Top 15 unique lowest confidence predictions per true cell type
+================================================================================
+
+TRUE CELL TYPE: Fallopian-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 25.0% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: CCA CAG AGC GCC CCA CAC ACA CAG AGC GCG CGA GAC ACT CTC TCC CCA CAG AGG GGG GGG GGC GCT CTG TGT GTA TAG AGA GAC ACA CAG AGG GGA GAA AAC ACG CGC GCG CGC GCT CTG TGG GGC GCA CAC ACA CAG AGA GAG AGA GAA AAG AGA GAG AGC GCG
+      methyl_seq: 2222222221222222222222222222222222021222222222222222221
+      dmr_label: 50073
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.0% - Thyroid-Ep
+      25.0% - Kidney-Ep
+      25.0% - Ovary-Ep
+      25.0% - Fallopian-Ep ✓
+
+ 2. Confidence: 25.1% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: GGC GCC CCA CAG AGG GGC GCG CGC GCG CGG GGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC
+      methyl_seq: 222222120222222222122222222222222222222222222212222
+      dmr_label: 29900
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.1% - Thyroid-Ep
+      25.1% - Kidney-Ep
+      25.0% - Ovary-Ep
+      24.8% - Fallopian-Ep ✓
+
+ 3. Confidence: 25.1% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: AGT GTC TCA CAG AGG GGT GTG TGT GTC TCG CGG GGG GGG GGA GAG AGA GAA AAC ACC CCA CAG AGC GCC CCA CAT ATG TGT GTG TGG GGG GGC GCT CTC TCT CTG TGG GGA GAA AAC ACA CAG AGA GAC ACC CCC CCC CCA CAG AGG GGG GGC GCC CCC CCA CAC ACG CGT GTC TCT CTG TGT GTT TTG TGC GCT CTG TGA GAA AAG AGG GGA GAG AGA GAC ACA CAC ACC CCG
+      methyl_seq: 222222222022222222222222222222222222222222222222222222212222222222222222222221
+      dmr_label: 49277
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.1% - Ovary-Ep
+      25.0% - Fallopian-Ep ✓
+      25.0% - Kidney-Ep
+      24.9% - Thyroid-Ep
+
+ 4. Confidence: 25.1% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: GGT GTC TCA CAG AGG GGC GCC CCT CTC TCG CGA GAG AGC GCT CTC TCC CCT CTG TGA GAA AAT ATC TCT CTC TCC CCC CCA CAC ACG
+      methyl_seq: 22222222202222222222222222221
+      dmr_label: 29943
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.1% - Ovary-Ep
+      25.1% - Kidney-Ep
+      25.0% - Fallopian-Ep ✓
+      24.8% - Thyroid-Ep
+
+ 5. Confidence: 25.1% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: GAG AGC GCC CCA CAG AGG GGA GAT ATC TCG CGT GTG TGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCG CGA GAC ACA CAG AGA GAG AGC GCA CAA AAG AGA GAC ACT CTG TGT GTC TCT CTC TCA CAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAT ATT TTC TCC CCT CTT TTG TGA GAA AAC ACC CCA CAA AAC ACA CAT ATG TGC GCC CCC CCT CTT TTC TCA CAG AGG GGT GTA TAC ACC CCA CAA AAT ATC TCC CCA CAT ATT TTT TTC TCT CTT TTG TGC GCT CTT TTT TTC TCT CTT TTT TTC TCC CCG CGC GCA CAG AGT GTC TCC CCA CAA AAT ATT
+      methyl_seq: 2222222221222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 49885
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.1% - Fallopian-Ep ✓
+      25.1% - Thyroid-Ep
+      24.9% - Kidney-Ep
+      24.9% - Ovary-Ep
+
+ 6. Confidence: 25.1% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: TGG GGC GCA CAG AGG GGG GGT GTG TGC GCG CGA GAG AGG GGG GGA GAG AGT GTG TGA GAG AGG GGA GAC ACC CCT CTG TGA GAG AGG GGT GTT TTA TAA AAC ACA CAC ACA CAG AGG GGG GGG GGT GTG TGG GGA GAT ATG TGC GCA CAG AGG GGT GTG TGT GTG TGG GGG GGC GCT CTG TGG GGC GCT CTC TCA CAG AGC GCC CCA CAG AGG GGG GGA GAC ACC CCG CGA GAG AGA GAG AGG GGA GAG AGG GGG GGC GCT CTC TCA CAG AGG GGC GCG
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222122222222222222221
+      dmr_label: 19726
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.1% - Fallopian-Ep ✓
+      25.1% - Kidney-Ep
+      25.0% - Ovary-Ep
+      24.7% - Thyroid-Ep
+
+ 7. Confidence: 25.2% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: AGC GCA CAT ATC TCC CCA CAA AAG AGC GCG CGT GTC TCA CAA AAG AGT GTA TAT ATG TGC GCG CGG GGA GAC ACA CAC ACA CAA AAG AGC GCA
+      methyl_seq: 2222222221222222222212222222222
+      dmr_label: 29314
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.2% - Fallopian-Ep ✓
+      25.1% - Ovary-Ep
+      24.9% - Thyroid-Ep
+      24.8% - Kidney-Ep
+
+ 8. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGC GCC CCG CGT GTT TTC TCA CAC ACT CTT TTG TGG GGT GTC TCA CAA AAT ATG TGA GAA AAC ACG CGC GCA CAG AGG GGG GGC GCA CAC ACA CAG AGG GGC GCA CAA AAT ATC TCA CAC ACT CTC TCT CTG TGG GGG GGG GGA GAA AAT ATG TGC GCG
+      methyl_seq: 22122222222222222222212222222222222222222222222222221
+      dmr_label: 49797
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep
+      25.1% - Kidney-Ep
+      25.0% - Fallopian-Ep ✓
+      24.8% - Ovary-Ep
+
+ 9. Confidence: 25.2% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: GCC CCT CTC TCC CCC CCG CGG GGG GGT GTT TTC TCC CCC CCG CGC GCC CCA CAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGC GCC CCG CGG GGA GAC ACT CTA TAC ACA CAG AGG GGC
+      methyl_seq: 22222122222221222222222222222222222222222222212222222222
+      dmr_label: 29593
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.2% - Fallopian-Ep ✓
+      25.1% - Ovary-Ep
+      25.0% - Thyroid-Ep
+      24.7% - Kidney-Ep
+
+10. Confidence: 25.2% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: CAC ACT CTT TTG TGA GAC ACC CCT CTC TCG CGA GAG AGA GAA AAC ACC CCC CCC CCA CAC ACA CAA AAA AAA AAT ATC TCA CAC ACG CGC GCA CAA AAA AAT ATC TCA CAA AAG AGA
+      methyl_seq: 222222222122222222222222222212222222222
+      dmr_label: 50057
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.2% - Fallopian-Ep ✓
+      25.2% - Thyroid-Ep
+      25.0% - Ovary-Ep
+      24.6% - Kidney-Ep
+
+11. Confidence: 25.2% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: TTT TTT TTT TTT TTG TGA GAG AGA GAC ACG CGG GGA GAG AGT GTC TCT CTT TTG TGT GTT TTC TCT CTG TGT GTC TCA CAC ACC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGT GTG TGC GCG CGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCC CCA CAG AGC GCT CTC TCA CAG AGT GTC TCT CTC TCC CCC CCA CAG AGG GGT GTT TTC TCA CAC ACA CAT ATC TCA CAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCG
+      methyl_seq: 2222222221222222222222222222222222222222222222222122222122222222222222222222222222222222222222222222222222222221
+      dmr_label: 37642
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.2% - Kidney-Ep
+      25.2% - Fallopian-Ep ✓
+      24.9% - Ovary-Ep
+      24.8% - Thyroid-Ep
+
+12. Confidence: 25.2% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: CCT CTC TCA CAG AGG GGC GCC CCA CAC ACG CGG GGC GCC CCA CAG AGC GCA CAC ACC CCG CGC GCA CAG AGA GAG AGC GCC CCA CAC ACA CAG AGG GGG GGC GCA CAG AGA GAC ACG CGC GCC CCG CGT GTG TGC GCA CAC ACA CAC ACC CCA CAG AGA GAC ACC CCT CTG TGC GCT CTG TGG GGG GGC GCC CCA CAC ACA CAG AGC GCC CCA CAG AGG GGC GCC CCC CCG CGG GGG GGT GTG TGG GGT GTG TGA GAA AAG AGG GGA GAC ACG CGG GGG GGG GGA GAC ACC CCC CCA CAG AGG
+      methyl_seq: 22222222212222222221222222222222222222022022222222222222222222222222222222221222222222222212222222222
+      dmr_label: 38254
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.2% - Kidney-Ep
+      25.1% - Ovary-Ep
+      25.0% - Thyroid-Ep
+      24.6% - Fallopian-Ep ✓
+
+13. Confidence: 25.2% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: ACT CTC TCA CAG AGA GAA AAT ATA TAC ACG CGC GCA CAG AGG GGG GGG GGA GAA AAG AGA GAG AGC GCA CAG AGG GGA GAT ATT TTT TTG TGA GAT ATT TTC TCA CAG AGG GGA GAG AGC GCC CCG CGG GGT GTG TGG GGG GGA GAC ACC CCC CCC
+      methyl_seq: 2222222221222222222222222222222222222222212222222222
+      dmr_label: 20190
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.2% - Kidney-Ep
+      25.2% - Ovary-Ep
+      24.9% - Fallopian-Ep ✓
+      24.7% - Thyroid-Ep
+
+14. Confidence: 25.2% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: TGG GGG GGT GTT TTC TCA CAA AAG AGC GCG CGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCC CCC CCC CCT CTG TGA GAG AGT GTA TAG AGT GTT TTG TGG GGG GGA GAT ATT TTA TAC ACA CAA AAG AGA GAA AAT ATG TGT GTG TGC GCC CCA CAC ACC CCA CAC ACG
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222220
+      dmr_label: 49869
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.2% - Ovary-Ep
+      25.2% - Fallopian-Ep ✓
+      25.0% - Thyroid-Ep
+      24.6% - Kidney-Ep
+
+15. Confidence: 25.2% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: CTG TGG GGC GCT CTA TAA AAC ACA CAC ACG CGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCG CGG GGG GGC GCG CGT GTG TGT GTT TTG TGG GGT GTG TGG GGG GGC GCA CAC ACC CCT CTG TGT GTA TAT ATA TAC ACC CCC CCA CAG AGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATG TGG GGC GCG CGT GTG TGA GAA AAC ACC CCT CTG TGG GGG GGA GAG AGG GGC GCG CGG GGA GAG AGC GCT CTG TGG GGC GCA CAG
+      methyl_seq: 222222222122222222221222222222222222222222222222212220222222222222222222222222222222222222222222202222222222222212222222222
+      dmr_label: 29322
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      25.2% - Fallopian-Ep ✓
+      25.1% - Kidney-Ep
+      25.0% - Ovary-Ep
+      24.7% - Thyroid-Ep
+
+============================================================
+
+TRUE CELL TYPE: Kidney-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 25.1% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: GCT CTC TCT CTG TGT GTC TCG CGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGC GCG CGC GCG CGA GAC ACC CCT CTC TCG
+      methyl_seq: 222222122222222222222222222212121222221
+      dmr_label: 19308
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.1% - Kidney-Ep ✓
+      25.1% - Ovary-Ep
+      25.0% - Fallopian-Ep
+      24.9% - Thyroid-Ep
+
+ 2. Confidence: 25.1% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: CTC TCC CCA CAT ATT TTT TTG TGA GAC ACG CGT GTC TCC CCA CAG AGC GCT CTG TGC GCC CCC CCG CGT GTG TGT GTC TCT CTT TTC TCT CTT TTC TCC CCA CAC ACC CCG
+      methyl_seq: 2222222221222222222220222222222222220
+      dmr_label: 29645
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.1% - Ovary-Ep
+      25.1% - Kidney-Ep ✓
+      25.0% - Thyroid-Ep
+      24.8% - Fallopian-Ep
+
+ 3. Confidence: 25.1% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: AAT ATT TTG TGG GGT GTG TGG GGA GAC ACG CGT GTC TCT CTC TCT CTG TGT GTG TGT GTG TGT GTA TAT ATG TGT GTG TGA GAT ATG TGT GTT TTT TTC TCA CAA AAT ATA TAA AAA AAA AAA AAG AGT GTT TTT TTA TAC ACC CCT CTT TTA TAA AAA AAA AAT ATG TGT GTA TAA AAA AAT ATC TCC CCG CGA GAT ATG TGT GTT TTT TTT TTC TCT CTG TGG GGT GTT TTA TAT ATC TCT CTA TAC ACG
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222122222222222222222220
+      dmr_label: 29858
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.1% - Ovary-Ep
+      25.1% - Thyroid-Ep
+      25.0% - Fallopian-Ep
+      24.8% - Kidney-Ep ✓
+
+ 4. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TGG GGA GAG AGA GAA AAT ATG TGG GGC GCG CGT GTG TGA GAA AAC ACC CCC CCA CAG AGG GGA GAG AGG GGT GTG TGG GGA GAG AGC GCT CTG TGG GGC GCA CAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATT TTG TGT GTG TGC GCC CCA CAC ACT CTA TAC ACA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCG CGA GAC ACA CAG AGA GAG AGC GCA CAA AAG AGA GAC ACT CTC TCA CAG AGT GTC TCT CTC TCA CAA AAA AAA AAA AAA AAG AGA GAA AAA AAA AAA AAA AAA AAA AAA AAA AAT ATG TGA GAT ATT TTT TTA TAC ACA CAG AGT GTT TTT TTA TAT ATG TGT GTT TTA TAT ATA TAT ATA TAA AAA AAT ATT TTT TTT TTT TTC TCC CCA CAT ATT TTA TAG AGA GAG AGC GCC CCA
+      methyl_seq: 2222222220222222222222222222222222222222212222222222222222222222222222212222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 20040
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep
+      25.1% - Kidney-Ep ✓
+      24.9% - Fallopian-Ep
+      24.8% - Ovary-Ep
+
+ 5. Confidence: 25.2% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACC CCA CAT ATG TGT GTT TTG TGG GGC GCC CCA CAG AGG GGA GAT ATG TGG GGG GGC GCT CTC TCG
+      methyl_seq: 22222222212222222222222222222222222222220
+      dmr_label: 49992
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Kidney-Ep ✓
+      25.1% - Fallopian-Ep
+      25.0% - Ovary-Ep
+      24.7% - Thyroid-Ep
+
+ 6. Confidence: 25.2% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: GCT CTC TCT CTG TGT GTC TCG CGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGC GCG CGC GCG CGA GAC ACC CCT CTC TCG
+      methyl_seq: 222222122222222222222222222212121222220
+      dmr_label: 19308
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Kidney-Ep ✓
+      25.1% - Fallopian-Ep
+      24.9% - Ovary-Ep
+      24.8% - Thyroid-Ep
+
+ 7. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TTA TAA AAT ATA TAC ACA CAT ATC TCA CAA AAC ACA CAC ACT CTC TCT CTG TGA GAC ACT CTT TTC TCA CAG AGC GCT CTG TGA GAA AAA AAA AAA AAG AGT GTG TGT GTT TTA TAA AAA AAA AAA AAT ATT TTC TCT CTC TCT CTA TAT ATG TGT GTC TCT CTA TAC ACT CTG TGC GCA CAT ATA TAT ATT TTA TAG AGA GAA AAT ATT TTC TCA CAT ATC TCT CTA TAC ACT CTG TGT GTA TAT ATA TAT ATA TAA AAA AAT ATT TTT TTT TTA TAT ATT TTT TTG TGT GTG TGG GGC GCC CCA CAT ATT TTT TTA TAC ACA CAG AGC GCA CAT ATT TTG TGT GTT TTC TCT CTA TAC ACT CTT TTT TTT TTA TAC ACA CAG AGA GAA AAC ACA CAA AAT ATT TTA TAC ACA CAC ACC CCC CCC CCA CAT ATG TGG GGT GTC TCA CAG AGC GCG
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 19645
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep
+      25.1% - Kidney-Ep ✓
+      24.9% - Ovary-Ep
+      24.8% - Fallopian-Ep
+
+ 8. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GCC CCC CCA CAC ACC CCC CCC CCC CCG CGT GTG TGG GGC GCC CCC CCG CGC GCT CTA TAA AAG AGG GGA GAT ATC TCC CCG CGG GGC GCT CTG TGT GTC TCA CAG AGT GTC TCA CAT ATG TGG GGA GAG AGC GCT CTG TGG GGC GCA CAG AGG GGT GTC TCG
+      methyl_seq: 222222221222222022222222221222222222222222222222222221
+      dmr_label: 20050
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep
+      25.0% - Ovary-Ep
+      25.0% - Kidney-Ep ✓
+      24.9% - Fallopian-Ep
+
+ 9. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GTT TTT TTT TTC TCG CGC GCT CTG TGG GGA GAA AAG AGT GTG TGC GCA CAT ATT TTG TGG GGT GTC TCC CCT CTT TTC TCT CTT TTG TGT GTT TTC TCA CAC ACT CTC TCT CTC TCC CCC CCT CTC TCT CTC TCT CTG TGC GCT CTC TCA CAG AGC GCC CCC CCT CTC TCT CTC TCC CCT CTT TTC TCC CCC CCC CCT CTC TCC CCT CTG TGA GAG AGA GAC ACC CCA CAC ACG
+      methyl_seq: 222212222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 30058
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep
+      25.2% - Fallopian-Ep
+      24.9% - Kidney-Ep ✓
+      24.7% - Ovary-Ep
+
+10. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TGC GCA CAG AGT GTG TGA GAC ACC CCC CCG CGA GAG AGA GAT ATT TTG TGC GCA CAC ACC CCA CAT ATT TTG TGC GCA CAT ATT TTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGA GAG AGA GAC ACA CAA AAG AGA GAG AGC GCA CAA AAG AGA GAC ACT CTC TCC CCG CGT GTC TCT CTC TCA CAG AGA GAA AAA AAA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222212222222222
+      dmr_label: 19343
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep
+      25.2% - Kidney-Ep ✓
+      25.1% - Ovary-Ep
+      24.5% - Fallopian-Ep
+
+11. Confidence: 25.2% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: GGT GTC TCA CAG AGG GGT GTG TGC GCC CCG CGT GTG TGG GGC GCT CTT TTA TAT ATG TGC GCC CCT CTG TGG GGA GAA AAT ATC TCC CCC CCA CAG AGC GCA CAT ATT TTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCA CAG AGG GGC GCG
+      methyl_seq: 22222222212222222222222222222222222222222222221222222220
+      dmr_label: 19748
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Kidney-Ep ✓
+      25.2% - Fallopian-Ep
+      24.9% - Thyroid-Ep
+      24.7% - Ovary-Ep
+
+12. Confidence: 25.2% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: CCA CAG AGC GCC CCT CTG TGG GGG GGC GCG CGA GAC ACA CAG AGA GAG AGT GTA TAA AAG AGA GAC ACT CTC TCC CCG
+      methyl_seq: 22222222202222222222222221
+      dmr_label: 29574
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Kidney-Ep ✓
+      25.1% - Thyroid-Ep
+      24.9% - Fallopian-Ep
+      24.8% - Ovary-Ep
+
+13. Confidence: 25.2% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: GAC ACA CAG AGA GAG AGC GCG CGA GAG AGA GAC ACT CTC TCC CCG CGT GTC TCT CTC TCA CAA AAA AAA AAC ACA CAA AAA AAG AGC GCA CAA AAA AAA AAC ACA CAA AAA AAA AAA AAC ACT CTC TCA CAG AGG GGA GAA AAC ACC CCC CCA CAG AGC GCC CCC CCA CAG AGC GCT CTC TCT CTA TAG AGG GGA GAC ACT CTC TCA CAC ACC CCC CCC CCT CTG TGA GAC ACC CCA CAC ACA CAA AAA AAG AGG GGC GCA CAA AAT ATG TGT GTT TTG TGG GGG GGC GCA CAT ATG TGC GCT CTG TGG GGT GTA TAA AAA AAG AGG GGA GAC ACC CCA CAC ACT CTA TAG AGA GAA AAT ATC TCC CCA CAG AGC GCA CAG AGC GCC CCC CCG CGG GGA GAC ACC CCC CCC CCT CTT TTT TTC TCT CTT TTA TAC ACA CAT ATC TCA CAG AGT GTG TGA GAG AGT GTG TGT GTA TAA AAC ACT CTA TAA AAT ATC TCC CCG
+      methyl_seq: 22222212222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221222222222222222222222222222222222221
+      dmr_label: 38056
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Fallopian-Ep
+      25.2% - Thyroid-Ep
+      24.9% - Kidney-Ep ✓
+      24.6% - Ovary-Ep
+
+14. Confidence: 25.2% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: TGG GGG GGT GTT TTC TCA CAA AAG AGC GCG CGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCC CCC CCC CCT CTG TGA GAG AGT GTA TAG AGT GTT TTG TGG GGG GGA GAT ATT TTA TAC ACA CAA AAG AGA GAA AAT ATG TGT GTG TGC GCC CCA CAC ACC CCA CAC ACG
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222220
+      dmr_label: 49869
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Ovary-Ep
+      25.2% - Fallopian-Ep
+      25.0% - Thyroid-Ep
+      24.6% - Kidney-Ep ✓
+
+15. Confidence: 25.2% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: GTG TGG GGC GCG CGA GAA AAA AAT ATC TCT CTC TCG CGT GTC TCT CTC TCT CTA TAA AAA AAA AAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCA CAG AGG GGC GCA CAC ACG CGG GGT GTG TGG GGT GTG TGC GCA CAT ATG TGC GCC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCG
+      methyl_seq: 22212222222122222222222222222222222222222222212222222222222222222220
+      dmr_label: 20204
+      ctype: Kidney-Ep
+    Probability Distribution:
+      25.2% - Fallopian-Ep
+      25.0% - Thyroid-Ep
+      25.0% - Ovary-Ep
+      24.8% - Kidney-Ep ✓
+
+============================================================
+
+TRUE CELL TYPE: Ovary-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 25.1% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: CTG TGA GAG AGA GAT ATT TTT TTC TCC CCG CGG GGA GAA AAG AGC GCT CTC TCA CAA AAA AAC ACC CCA CAG AGA GAG AGC GCC CCA CAC ACT CTC TCA CAA AAG AGC GCA CAC ACT CTC TCC CCC CCG CGC GCC CCT CTG TGG GGC GCC CCT CTC TCC CCA CAG AGC GCA CAC ACA CAG AGA GAC ACA CAC ACA CAC ACA CAC ACT CTG TGC GCT CTT TTC TCT CTT TTC TCC CCT CTC TCT CTT TTG TGC GCG CGG GGG GGC GCC CCC CCA CAG AGG GGA GAC ACG CGG GGA GAG AGG GGC GCT CTC TCC CCA CAG AGA GAA AAA AAT ATA TAC ACT CTG TGG GGT GTT TTG TGA GAA AAT ATG TGA GAA AAA AAG AGA GAA AAT ATA TAA AAA AAT ATG TGT GTT TTC TCC CCT CTT TTA TAA AAC ACA CAA AAT ATG TGC GCA CAT ATA TAT ATT TTC TCT CTT TTT TTT TTA TAC ACA CAA AAA AAA AAG AGG GGA GAA AAA AAA AAC ACA CAG AGA GAT ATA TAA AAC ACG CGT GTA TAC ACC CCC CCA CAA AAA AAA AAC ACA CAG AGT GTA TAG AGG GGC GCA CAA AAT ATT TTC TCA CAG AGA GAG AGA GAA AAG AGA GAG AGA GAG AGT GTA TAA AAG AGC GCT CTC TCT CTG TGC GCA CAC ACT CTC TCC CCT CTC TCA CAA AAC ACT CTT TTT TTC TCT CTC TCA CAC ACG
+      methyl_seq: 2222222221222222222222222222222222222222221222222222222222222222222222222222222222221222222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222122222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 20069
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.1% - Thyroid-Ep
+      25.0% - Ovary-Ep ✓
+      25.0% - Kidney-Ep
+      24.9% - Fallopian-Ep
+
+ 2. Confidence: 25.1% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: AAT ATT TTG TGG GGT GTG TGG GGA GAC ACG CGT GTC TCT CTC TCT CTG TGT GTG TGT GTG TGT GTA TAT ATG TGT GTG TGA GAT ATG TGT GTT TTT TTC TCA CAA AAT ATA TAA AAA AAA AAA AAG AGT GTT TTT TTA TAC ACC CCT CTT TTA TAA AAA AAA AAT ATG TGT GTA TAA AAA AAT ATC TCC CCG CGA GAT ATG TGT GTT TTT TTT TTC TCT CTG TGG GGT GTT TTA TAT ATC TCT CTA TAC ACG
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222122222222222222222220
+      dmr_label: 29858
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.1% - Ovary-Ep ✓
+      25.1% - Thyroid-Ep
+      25.0% - Fallopian-Ep
+      24.8% - Kidney-Ep
+
+ 3. Confidence: 25.2% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: GGC GCC CCA CAG AGG GGC GCG CGC GCG CGG GGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCG
+      methyl_seq: 2222221212222222221222222222222222222222222222122220
+      dmr_label: 29900
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.2% - Kidney-Ep
+      25.1% - Fallopian-Ep
+      25.1% - Ovary-Ep ✓
+      24.6% - Thyroid-Ep
+
+ 4. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGC GCA CAT ATC TCC CCA CAC ACC CCC CCG CGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGA GAT ATG TGT GTG TGA GAG AGC GCC CCA CAC ACC CCA CAC ACA CAC ACC CCT CTG TGG GGC GCC CCT CTG TGA GAC ACA CAT ATT TTC TCA CAC ACC CCC CCT CTT TTA TAA AAA AAA AAG AGG GGA GAC ACA CAT ATT TTT TTG TGA GAG AGT GTG TGC GCT CTA TAC ACC CCA CAG AGT GTA TAT ATT TTT TTG TGC GCC CCT CTG TGC GCT CTT TTT TTA TAG AGT GTA TAA AAA AAG AGC GCT CTG TGC
+      methyl_seq: 22222222212222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 20084
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep
+      25.1% - Kidney-Ep
+      24.9% - Ovary-Ep ✓
+      24.8% - Fallopian-Ep
+
+ 5. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGC GCT CTT TTC TCC CCC CCC CCC CCG CGG GGC GCA CAC ACA CAG AGT GTT TTG TGG GGT GTC TCA CAC ACG CGG GGG GGT GTG TGC GCC CCC CCT CTG TGG GGT GTC TCT CTT TTT TTG TGG GGA GAA AAT ATT TTC TCT CTG TGG GGG GGC GCT CTG TGG GGG GGG GGC GCT CTG TGC GCG CGT GTG TGG GGG GGG GGG GGA GAG AGG GGG
+      methyl_seq: 22222222122222222222222022222222222222222222222222222222222212222222222
+      dmr_label: 19513
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep
+      25.2% - Fallopian-Ep
+      24.9% - Ovary-Ep ✓
+      24.7% - Kidney-Ep
+
+ 6. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: AGC GCC CCT CTT TTC TCT CTG TGT GTC TCG CGT GTG TGA GAG AGC GCG CGG GGT GTT TTT TTC TCC CCT CTA TAG AGC GCT CTT TTC TCC CCA CAG AGC GCG CGA GAG AGA GAA AAC ACC CCA CAG AGG GGA
+      methyl_seq: 22222222212222212222222222222222212222222222
+      dmr_label: 19867
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep
+      25.1% - Ovary-Ep ✓
+      25.1% - Kidney-Ep
+      24.6% - Fallopian-Ep
+
+ 7. Confidence: 25.2% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: CCA CAG AGC GCC CCT CTG TGG GGG GGC GCG CGA GAC ACA CAG AGA GAG AGC GCG CGA GAG AGA GAC ACT CTC TCG CGG GGT GTC TCT CTC TCA CAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGG GGG GGG GGG GGT GTA TAA AAG AGG GGA GAG AGC GCC CCC CCC CCC CCA CAT ATG TGG GGC GCC CCA CAG AGC GCT CTA TAC ACG
+      methyl_seq: 222222222122222221222222122222222222222222222222222222222222222222222222222222221
+      dmr_label: 19413
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.2% - Ovary-Ep ✓
+      25.0% - Kidney-Ep
+      24.9% - Fallopian-Ep
+      24.8% - Thyroid-Ep
+
+ 8. Confidence: 25.2% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: GAA AAA AAG AGT GTG TGA GAC ACA CAC ACG CGG GGC GCC CCT CTT TTG TGG GGA GAC ACA CAC ACA CAC ACC CCA CAC ACT CTA TAG AGG GGT GTC TCT CTC TCT CTG TGT GTT TTC TCC CCT CTA TAA AAC ACT CTT TTT TTT TTA TAG AGT GTA TAA AAG AGA GAC ACA CAC ACT CTA TAC ACC CCC CCT CTC TCG
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222220
+      dmr_label: 49486
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.2% - Fallopian-Ep
+      25.1% - Ovary-Ep ✓
+      24.9% - Thyroid-Ep
+      24.8% - Kidney-Ep
+
+ 9. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TTA TAT ATC TCC CCT CTG TGG GGC GCC CCG CGG GGG GGA GAC ACT CTG TGT GTG TGT GTA TAA AAG AGG GGA GAC ACT CTT TTT TTG TGA GAA AAG AGG GGT GTC TCG CGG GGC GCC CCA CAT ATC TCC CCA CAT ATC
+      methyl_seq: 2222222221222222222222222222222222212222222222
+      dmr_label: 30266
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep
+      25.2% - Fallopian-Ep
+      25.0% - Kidney-Ep
+      24.5% - Ovary-Ep ✓
+
+10. Confidence: 25.3% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCT CTG TGC GCC CCC CCG CGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGA GAG AGA GAT ATT TTA TAC ACA CAG AGG GGC GCA CAT ATG TGA GAA AAC ACC CCA CAC ACT CTG TGC GCT CTC TCT CTC TCG
+      methyl_seq: 22222222212222122222222222222222222222222222222222222222220
+      dmr_label: 29876
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.3% - Fallopian-Ep
+      25.2% - Kidney-Ep
+      24.9% - Thyroid-Ep
+      24.6% - Ovary-Ep ✓
+
+11. Confidence: 25.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: CAG AGA GAG AGG GGG GGA GAA AAA AAC ACG CGG GGC GCC CCT CTT TTT TTC TCT CTG TGA GAA AAG AGC GCA CAA AAG AGC GCA CAG AGA GAC ACT CTA TAC ACG
+      methyl_seq: 22222222212222222222222222222222221
+      dmr_label: 49481
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.3% - Thyroid-Ep
+      25.3% - Ovary-Ep ✓
+      24.9% - Kidney-Ep
+      24.5% - Fallopian-Ep
+
+12. Confidence: 25.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGC GCA CAT ATC TCC CCT CTC TCA CAC ACG CGT GTT TTG TGA GAT ATG TGC GCT CTT TTG TGC GCA CAC ACA CAG AGG GGG GGA GAC ACT CTC TCA CAC ACT CTG TGG GGC GCA CAT ATC TCA CAC ACC CCT CTG TGG GGT GTC TCG CGT GTC TCT CTG TGG GGG GGA GAG AGC GCC
+      methyl_seq: 22222222212222222222222222222222222222222222222212222222222
+      dmr_label: 29694
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.3% - Thyroid-Ep
+      25.3% - Kidney-Ep
+      24.7% - Ovary-Ep ✓
+      24.7% - Fallopian-Ep
+
+13. Confidence: 25.3% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: GCG CGG GGG GGC GCA CAC ACT CTC TCG CGA GAG AGA GAT ATG TGA GAT ATC TCT CTG TGT GTA TAC ACG CGG GGC GCC CCT CTC TCC CCC CCA CAG AGC GCG
+      methyl_seq: 1222222202222222222222022222222221
+      dmr_label: 29397
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.3% - Fallopian-Ep
+      25.2% - Ovary-Ep ✓
+      25.1% - Kidney-Ep
+      24.4% - Thyroid-Ep
+
+14. Confidence: 25.3% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: CCA CAG AGA GAA AAG AGG GGT GTG TGC GCG CGT GTG TGC GCA CAG AGA GAG AGA GAG AGG GGC GCC CCT CTG TGG GGG GGT GTA TAC ACA CAC ACG CGC GCC CCA CAG AGG GGG GGT GTC TCA CAC
+      methyl_seq: 222222222122222222222222222222212222222222
+      dmr_label: 49387
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.3% - Ovary-Ep ✓
+      25.0% - Fallopian-Ep
+      24.9% - Thyroid-Ep
+      24.8% - Kidney-Ep
+
+15. Confidence: 25.3% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: GGG GGG GGG GGA GAG AGA GAG AGC GCG CGG GGT GTG TGA GAT ATG TGC GCG CGG GGT GTA TAC ACC CCA CAG AGG GGG GGT GTT TTC TCA CAG AGA GAG AGT GTG TGG GGC GCA CAG AGA GAG AGG GGC GCT CTC TCT CTG TGG GGG GGC GCC CCT CTG TGG GGG GGA GAG AGT GTG TGG GGG GGT GTC TCC CCT CTG TGC GCT CTC TCA CAA AAC ACC CCA CAT ATG TGC GCG CGA GAG AGA GAG AGT GTG TGG GGG GGG GGG
+      methyl_seq: 2222222212222222122222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 29312
+      ctype: Ovary-Ep
+    Probability Distribution:
+      25.3% - Ovary-Ep ✓
+      25.3% - Kidney-Ep
+      25.2% - Fallopian-Ep
+      24.2% - Thyroid-Ep
+
+============================================================
+
+TRUE CELL TYPE: Thyroid-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 25.1% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: GCT CTC TCT CTG TGT GTC TCG CGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGC GCG CGC GCG CGA GAC ACC CCT CTC TCG
+      methyl_seq: 222222122222222222222222222212121222221
+      dmr_label: 19308
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.1% - Kidney-Ep
+      25.1% - Ovary-Ep
+      25.0% - Fallopian-Ep
+      24.9% - Thyroid-Ep ✓
+
+ 2. Confidence: 25.1% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: GGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGC GCA CAA AAT ATA TAT ATC TCA CAG AGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCC CCC CCT CTG TGC GCC CCT CTC TCC CCC CCG CGG GGG GGT GTT TTC TCA CAA AAA AAC ACG
+      methyl_seq: 2222222221222222222222222222222222222222212222222221
+      dmr_label: 19562
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.1% - Kidney-Ep
+      25.0% - Thyroid-Ep ✓
+      24.9% - Ovary-Ep
+      24.9% - Fallopian-Ep
+
+ 3. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GAA AAT ATC TCC CCC CCG CGG GGT GTC TCA CAT ATG TGA GAC ACA CAG AGA GAA AAC ACT CTC TCA CAA AAC ACT CTC TCA CAA AAG AGC GCG
+      methyl_seq: 2222212222222222222222222222220
+      dmr_label: 50192
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep ✓
+      25.1% - Fallopian-Ep
+      25.0% - Kidney-Ep
+      24.7% - Ovary-Ep
+
+ 4. Confidence: 25.2% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: ATT TTA TAC ACT CTT TTT TTT TTA TAC ACG CGA GAA AAG AGA GAC ACG CGA GAG AGA GAT ATT TTG TGT GTC TCT CTC TCA CAC ACA CAT ATG TGT GTA TAA AAC ACT CTG TGT GTA TAA AAA AAC ACT CTA TAG AGA GAG AGA GAG AGA GAA AAG AGA GAC ACG
+      methyl_seq: 2222222220222221222222222222222222222222222222222222221
+      dmr_label: 30042
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.2% - Ovary-Ep
+      25.1% - Fallopian-Ep
+      25.0% - Thyroid-Ep ✓
+      24.7% - Kidney-Ep
+
+ 5. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GCT CTT TTC TCT CTC TCC CCT CTG TGC GCG CGG GGC GCA CAA AAG AGC GCA CAG AGC GCC CCA CAA AAA AAC ACT CTT TTG TGA GAG AGT GTC TCA CAG AGT GTT TTA TAC ACA CAA AAG AGA GAC ACA CAT ATC TCT CTC TCT CTA TAC ACC CCT CTC TCC CCC CCC CCT CTG TGA GAT ATC TCC CCC CCA CAC ACA CAG AGC GCT CTA TAC ACA CAG AGG GGA GAG AGG GGA GAC ACG CGC
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222222222222222202
+      dmr_label: 20068
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep ✓
+      25.1% - Ovary-Ep
+      25.0% - Fallopian-Ep
+      24.8% - Kidney-Ep
+
+ 6. Confidence: 25.2% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: AGC GCA CAC ACA CAG AGG GGT GTG TGC GCG CGC GCG CGA GAC ACA CAC ACC CCA CAT ATG TGC GCC CCT CTG TGG GGT GTT TTA TAA AAT ATT TTT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTG TGG GGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTT TTA TAC ACC CCA CAT ATG TGT GTT TTG TGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGT GTC TCT CTA TAG AGA GAA AAC ACT CTC TCC CCT CTG TGA GAG AGC GCT CTC TCG
+      methyl_seq: 22222222212122222222222222222222222222222222222222221222222222222222222222222222222222222222222221
+      dmr_label: 29734
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.2% - Kidney-Ep
+      25.1% - Fallopian-Ep
+      25.0% - Ovary-Ep
+      24.7% - Thyroid-Ep ✓
+
+ 7. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GTT TTT TTT TTC TCG CGC GCT CTG TGG GGA GAA AAG AGT GTG TGC GCA CAT ATT TTG TGG GGT GTC TCC CCT CTT TTC TCT CTT TTG TGT GTT TTC TCA CAC ACT CTC TCT CTC TCC CCC CCT CTC TCT CTC TCT CTG TGC GCT CTC TCA CAG AGC GCC CCC CCT CTC TCT CTC TCC CCT CTT TTC TCC CCC CCC CCT CTC TCC CCT CTG TGA GAG AGA GAC ACC CCA CAC ACG
+      methyl_seq: 222212222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 30058
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep ✓
+      25.2% - Fallopian-Ep
+      24.9% - Kidney-Ep
+      24.7% - Ovary-Ep
+
+ 8. Confidence: 25.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TGC GCA CAG AGT GTG TGA GAC ACC CCC CCG CGA GAG AGA GAT ATT TTG TGC GCA CAC ACC CCA CAT ATT TTG TGC GCA CAT ATT TTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGA GAG AGA GAC ACA CAA AAG AGA GAG AGC GCA CAA AAG AGA GAC ACT CTC TCC CCG CGT GTC TCT CTC TCA CAG AGA GAA AAA AAA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222212222222222
+      dmr_label: 19343
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.2% - Thyroid-Ep ✓
+      25.2% - Kidney-Ep
+      25.1% - Ovary-Ep
+      24.5% - Fallopian-Ep
+
+ 9. Confidence: 25.2% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: GTC TCC CCG CGT GTT TTT TTA TAA AAT ATT TTT TTT TTG TGT GTA TAA AAA AAA AAC ACT CTA TAA AAA AAC ACA CAG AGC GCA CAC ACG CGC GCT CTT TTG TGG GGT GTT TTT TTT TTT TTT TTC TCA CAG AGG GGA GAT ATG TGC GCA CAC ACT CTC TCT CTG TGA GAG AGC GCG CGT GTG TGA GAT ATA TAT ATG TGT GTT TTC TCT CTG TGC GCG CGG GGA GAA AAT ATG TGT GTT TTT TTT TTT TTC TCA CAG AGA GAG AGC GCA CAG AGT GTG TGA GAA AAA AAA AAA AAT ATT TTT TTA TAA AAT ATT TTT TTC TCT CTT TTC TCC CCC CCC CCC CCA CAG AGC GCA CAT ATC TCA CAA AAG AGA GAT ATG TGT GTG TGT GTC TCA CAA AAA AAC ACA CAT ATA TAA AAT ATT TTT TTA TAT ATG TGC GCC CCT CTG TGG GGA GAC ACA CAT ATA TAA AAT ATT TTC TCA CAT ATC TCC CCC CCT CTA TAA AAA AAG AGA GAT ATA TAA AAA AAT ATA TAT ATT TTG TGA GAA AAA AAC ACC CCC CCA CAA AAG AGA GAG AGA GAG AGG GGA GAG AGA GAG AGA GAC ACG
+      methyl_seq: 2212222222222222222222222222202222222222222222222222222222122222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 20058
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.2% - Ovary-Ep
+      25.2% - Thyroid-Ep ✓
+      25.1% - Fallopian-Ep
+      24.5% - Kidney-Ep
+
+10. Confidence: 25.2% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: GCT CTG TGG GGG GGG GGT GTC TCC CCG CGG GGT GTA TAA AAT ATC TCC CCC CCC CCC CCA CAC ACC CCT CTG TGC GCA CAA AAC ACA CAG AGT GTC TCA CAG AGG GGC GCT CTG TGT GTG TGC GCT CTG TGG GGC GCC CCA CAG AGG GGT GTT TTA TAC ACC CCC CCA CAA AAA AAG AGA GAC ACA CAA AAG AGT GTG TGT GTC TCT CTT TTT TTG TGT GTG TGA GAC ACA CAT ATG TGG GGA GAC ACC CCA CAG AGA GAG AGC GCA CAG AGA GAA AAA AAG AGT GTG TGG GGC GCC CCA CAG AGA GAA AAG AGA GAG AGG GGA GAT ATG TGA GAG AGG GGG GGC GCA CAC ACC CCT CTG TGT GTG TGC GCC CCC CCG CGG GGG GGG GGC
+      methyl_seq: 2222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222
+      dmr_label: 30101
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.2% - Ovary-Ep
+      25.1% - Kidney-Ep
+      25.0% - Fallopian-Ep
+      24.6% - Thyroid-Ep ✓
+
+11. Confidence: 25.2% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: TGG GGC GCA CAG AGG GGG GGT GTG TGC GCG CGA GAG AGG GGG GGA GAG AGT GTG TGA GAG AGG GGA GAC ACC CCT CTG TGA GAG AGG GGT GTT TTA TAA AAC ACA CAC ACA CAG AGG GGG GGG GGT GTG TGG GGA GAT ATG TGC GCA CAG AGG GGT GTG TGT GTG TGG GGG GGC GCT CTG TGG GGC GCT CTC TCA CAG AGC GCC CCA CAG AGG GGG GGA GAC ACC CCG CGA GAG AGA GAG AGG GGA GAG AGG GGG GGC GCT CTC TCA CAG AGG GGC GCG
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222222222222122222222222222220
+      dmr_label: 19726
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.2% - Ovary-Ep
+      25.1% - Kidney-Ep
+      24.9% - Thyroid-Ep ✓
+      24.8% - Fallopian-Ep
+
+12. Confidence: 25.3% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: ATT TTA TAG AGC GCC CCA CAG AGG GGC GCG CGT GTG TGG GGT GTG TGG GGC GCG CGC GCA CAT ATG TGC GCC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTA TAG AGC GCG
+      methyl_seq: 22222222202222222122222222222222222222222220
+      dmr_label: 50016
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.3% - Fallopian-Ep
+      25.2% - Thyroid-Ep ✓
+      25.0% - Ovary-Ep
+      24.5% - Kidney-Ep
+
+13. Confidence: 25.3% | Predicted: Ovary-Ep
+    Read Information:
+      dna_seq: GAC ACT CTC TCA CAG AGT GTC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACT CTT TTC TCT CTC TCC CCT CTT TTC TCC CCC CCG CGG GGG GGT GTT TTC TCA CAA AAG AGT GTG TGA GAT ATT TTC TCT CTT TTC TCT CTG TGT GTC TCT CTC TCA CAG AGC GCC CCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGT GTT TTG TGG GGG GGA GAC ACT CTA TAC ACA CAG AGG GGC GCG CGC GCC CCT CTG TGC GCC CCA CAA AAC ACA
+      methyl_seq: 222222222022222222222222222222222022222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 49389
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.3% - Ovary-Ep
+      25.1% - Kidney-Ep
+      25.0% - Fallopian-Ep
+      24.7% - Thyroid-Ep ✓
+
+14. Confidence: 25.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GAC ACC CCT CTT TTG TGC GCA CAG AGC GCG CGG GGG GGC GCC CCA CAT ATG TGA GAG AGC GCA CAT ATG TGA GAA AAA AAT ATG TGA GAA AAA AAC ACC CCA CAT ATG TGT GTG TGT GTG TGT GTT TTA TAG AGC GCG CGC GCT CTT TTG TGG GGC GCA CAG AGA GAG
+      methyl_seq: 22222222202222222222222222222222222222222222212222222222
+      dmr_label: 49813
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.3% - Thyroid-Ep ✓
+      25.2% - Ovary-Ep
+      24.8% - Fallopian-Ep
+      24.6% - Kidney-Ep
+
+15. Confidence: 25.3% | Predicted: Fallopian-Ep
+    Read Information:
+      dna_seq: TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCG CGG GGG GGC GCT CTG TGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATC TCG CGA GAT ATA TAC ACT CTA TAT ATC TCC CCT CTG TGG GGC GCT CTA TAA AAC ACA CAC ACG CGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCA CAT ATC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCA CAG AGG GGC GCG CGT GTG TGG GGT GTG TGG GGC GCA CAG AGG GGC GCG CGC GCC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTC TCA CAG AGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATG TGG GGC GCG
+      methyl_seq: 2222222221222202222222222122222222222221222222222222222222202222222222222222222222222222222222222222222022222222222122222222222222222222222222222222222222222220
+      dmr_label: 29716
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      25.3% - Fallopian-Ep
+      25.0% - Thyroid-Ep ✓
+      24.9% - Kidney-Ep
+      24.8% - Ovary-Ep
+
+============================================================
+
+
+
+HIGH CONFIDENCE PREDICTIONS
+================================================================================
+Top 15 unique highest confidence predictions per true cell type
+================================================================================
+
+TRUE CELL TYPE: Fallopian-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 47.4% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TCA CAC ACT CTG TGC GCA CAC ACC CCC CCG CGC GCG CGA GAC ACC CCT CTC TCC CCT CTG TGA GAG AGC GCT CTC TCA CAG AGG GGC GCT CTC TCA CAA AAG AGT GTG TGA GAT ATC TCC CCT CTT TTC TCC CCA CAC ACC CCT CTC TCA CAG AGC GCC CCA CAC ACC CCT CTG TGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAC ACT CTA TAC ACA CAG AGG GGC GCG CGC GCC CCT CTG TGT GTC TCA CAC ACC CCA CAC ACG CGC GCA CAT ATG TGA GAC ACT CTA TAA AAA
+      methyl_seq: 2222222221202222222222222222222222222222222222222222222222222222222222222222202222222222202222222222
+      dmr_label: 49987
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      47.4% - Thyroid-Ep
+      17.6% - Kidney-Ep
+      17.5% - Ovary-Ep
+      17.5% - Fallopian-Ep ✓
+
+ 2. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GTG TGG GGA GAA AAG AGT GTT TTC TCG CGG GGT GTG TGC GCG CGT GTT TTT TTC TCA CAG AGT GTG TGC GCC CCT CTG TGC GCC CCT CTG TGA GAA AAA AAG AGC GCT CTT TTG TGG GGG GGG GGA GAC ACA CAG AGG GGA GAG AGG GGG GGC GCT CTG TGT GTC TCC CCA CAC ACA CAG AGG GGT GTG TGG GGT GTG TGC GCC CCC CCC CCC CCC CCG CGC GCG
+      methyl_seq: 222222220222202222222222222222222222222222222222222222222222222222222222021
+      dmr_label: 50218
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep
+      17.6% - Fallopian-Ep ✓
+      17.6% - Kidney-Ep
+      17.5% - Ovary-Ep
+
+ 3. Confidence: 47.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGT GTG TGT GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCG CGC GCC CCT CTC TCC CCC CCA CAG AGG GGC GCT CTC TCA CAA AAG AGT GTG TGA GAT ATC TCC CCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTA TAC ACT CTG TGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAC ACT CTA TAC ACA CAG AGG GGC GCA CAC ACA CAT ATG TGC GCC CCA CAC ACC CCG CGC GCG CGC GCC CCT CTG TGG GGC GCT CTA TAA AAT
+      methyl_seq: 222222222022222222222222220222222222222222222222222222222222222222222222222222222222222222222221202222222222
+      dmr_label: 50067
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      47.2% - Thyroid-Ep
+      17.6% - Kidney-Ep
+      17.6% - Fallopian-Ep ✓
+      17.6% - Ovary-Ep
+
+ 4. Confidence: 47.1% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GAA AAA AAC ACT CTC TCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCA CAA AAG AGC GCT CTT TTG TGG GGT GTA TAG AGT GTG TGC GCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTT TTG TGG GGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATC TCG CGC GCT CTT TTG TGA GAA AAC ACC CCC CCA CAG AGG GGA GAG AGG GGC GCA CAG AGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCG
+      methyl_seq: 2222220222222222222222222222222222222222222222222202222222222222222222222222222222222222222212222222222222222222222222222222220
+      dmr_label: 50180
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      47.1% - Thyroid-Ep
+      17.7% - Kidney-Ep
+      17.6% - Ovary-Ep
+      17.6% - Fallopian-Ep ✓
+
+ 5. Confidence: 47.0% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TGG GGG GGT GTT TTC TCA CAA AAG AGC GCG CGA GAT ATT TTC TCT CTC TCG CGT GTC TCT CTC TCA CAG AGT GTC TCT CTC TCT CTT TTG TGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGT GTG TGT GTG TGC GCG CGC GCC CCA CAC ACT CTA TAC ACG
+      methyl_seq: 22222222202222220222222222222222222222222222222222222022222221
+      dmr_label: 50155
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      47.0% - Thyroid-Ep
+      17.7% - Kidney-Ep
+      17.6% - Ovary-Ep
+      17.6% - Fallopian-Ep ✓
+
+ 6. Confidence: 47.0% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TTG TGA GAT ATT TTA TAT ATT TTG TGG GGC GCT CTA TAG AGC GCT CTA TAT ATT TTA TAT ATG TGA GAA AAG AGG GGC GCC CCT CTC TCC CCA CAA AAA AAA AAC ACT CTA TAT ATT TTT TTT TTG TGT GTT TTT TTT TTT TTA TAA AAA AAT ATG TGA GAG AGG GGT GTT TTT TTT TTG TGT GTT TTC TCC CCT CTG TGT GTT TTC TCC CCC CCC CCA CAG AGG GGT GTT TTA TAG AGA GAG AGT GTG TGC GCA CAA AAT ATG TGG GGC GCA CAC ACA CAA AAT ATC TCT CTT TTG TGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCA CAC ACC CCT CTC TCC CCC CCG CGG GGA GAT ATT TTC TCA CAA AAG AGC GCG CGA GAT ATT TTC TCT CTC TCT CTT TTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTT TTC TCA CAG AGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGT GTG TGC GCC CCA CAC ACC CCA
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222022222222202222222222222222222222222222222222222222202222222222
+      dmr_label: 20231
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      47.0% - Thyroid-Ep
+      17.8% - Kidney-Ep
+      17.6% - Ovary-Ep
+      17.6% - Fallopian-Ep ✓
+
+ 7. Confidence: 46.9% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GCA CAG AGC GCG CGC GCA CAG AGA GAA AAG AGA GAC ACG CGG GGA GAA AAA AAA AAA AAC ACT CTT TTA TAA AAT ATA TAG AGG GGA GAA AAA AAT ATA TAC ACG CGC GCA CAC ACT CTC TCC CCC CCG CGC GCG CGC GCG CGT GTG TGT GTC TCA CAA AAC ACT CTC TCA CAT ATA TAG AGA GAG AGG GGA GAA AAT ATT TTC TCC CCA CAA AAG AGT GTG TGG GGA GAG AGC GCA CAG AGC GCA CAC ACC CCA CAC ACG CGC GCA CAG AGA GAA AAA AAA AAT ATG TGC GCA CAC ACG
+      methyl_seq: 2220222222220222222222222222222222022222221212022222222222222222222222222222222222222202222222222221
+      dmr_label: 49807
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      46.9% - Thyroid-Ep
+      17.7% - Kidney-Ep
+      17.7% - Fallopian-Ep ✓
+      17.6% - Ovary-Ep
+
+ 8. Confidence: 46.9% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCA CAC ACC CCT CTT TTG TGC GCT CTG TGG GGT GTT TTC TCA CAA AAG AGC GCA CAA AAC ACT CTC TCC CCT CTC TCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCT CTT TTG TGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGC GCA CAT ATG TGC GCC CCA CAC ACC CCA CAT ATG TGC GCC CCC CCG
+      methyl_seq: 222222022222222222222222222222222222222222222222222222222222222222222222222222222202222222222222220
+      dmr_label: 20121
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      46.9% - Thyroid-Ep
+      17.8% - Kidney-Ep
+      17.7% - Ovary-Ep
+      17.7% - Fallopian-Ep ✓
+
+ 9. Confidence: 46.8% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: CCA CAC ACA CAC ACT CTC TCA CAA AAC ACG CGC GCT CTC TCT CTA TAT ATC TCA CAA AAG AGA GAA AAG AGG GGC GCA CAC ACT CTC TCA CAG AGC GCA CAG AGC GCC CCC CCC CCC CCA CAC ACT CTT TTG TGA GAC ACT CTT TTC TCT CTC TCA CAA AAA AAT ATG TGG GGC GCG CGT GTG TGG GGC GCA CAG AGC GCC CCG CGA GAG AGG GGG GGG GGC GCC CCT CTT TTC TCT CTC TCC CCG CGG GGA GAA AAA AAT ATT TTA TAG AGT GTA
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222221222222220222222222222202222222222
+      dmr_label: 49668
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      46.8% - Thyroid-Ep
+      17.7% - Kidney-Ep
+      17.7% - Fallopian-Ep ✓
+      17.7% - Ovary-Ep
+
+10. Confidence: 46.7% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: AGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGT GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCA CAC ACC CCT CTT TTG TGC GCT CTG TGG GGT GTT TTC TCA CAA AAG AGC GCA CAA AAC ACT CTC TCC CCT CTC TCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCT CTT TTG TGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGC GCA CAT ATG TGC GCC CCA CAC ACC CCA
+      methyl_seq: 22222222202222222022222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 20121
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      46.7% - Thyroid-Ep
+      17.9% - Kidney-Ep
+      17.7% - Ovary-Ep
+      17.7% - Fallopian-Ep ✓
+
+11. Confidence: 46.6% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GAG AGG GGA GAG AGG GGC GCA CAC ACC CCG CGA GAG AGA GAG AGC GCG CGA GAG AGC GCG CGA GAG AGG GGG GGC GCT CTG TGC GCC CCA CAG AGC GCA CAT ATG TGC GCT CTG TGT GTC TCA CAC ACC CCT CTC TCT CTC TCA CAC ACT CTG TGC GCC CCT CTC TCC CCA CAC ACC CCA CAC ACC CCA CAA AAT ATG TGC GCT CTC TCA CAT ATT TTC TCC CCA CAC ACC CCT CTC TCC CCC CCC CCT CTT TTG TGT GTA TAC ACT CTT TTC TCA CAA AAT ATA TAC ACC CCT CTC TCC CCC CCT CTG TGC GCG CGC GCT CTT TTT TTC TCC CCC CCA CAG AGT GTT TTT TTC TCA CAA AAC ACT CTC TCA CAC ACA CAG AGA GAA AAG AGG GGG GGA GAA AAA AAG AGC GCT CTG TGC GCC CCG
+      methyl_seq: 2222222220222220222022222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222222222222222222222222222220
+      dmr_label: 29625
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      46.6% - Thyroid-Ep
+      18.0% - Kidney-Ep
+      17.7% - Ovary-Ep
+      17.7% - Fallopian-Ep ✓
+
+12. Confidence: 46.6% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GAG AGG GGT GTG TGG GGG GGC GCG CGG GGA GAT ATC TCA CAC ACT CTT TTG TGA GAG AGG GGC GCC CCA CAG AGG GGA GAG AGT GTT TTT TTC TCA CAG AGA GAC ACC CCA CAG AGC GCC CCT CTG TGG GGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAT ATC TCC CCT CTG TGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCA CAG AGG GGC GCA CAT ATG TGG GGC GCG
+      methyl_seq: 222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 49536
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      46.6% - Thyroid-Ep
+      17.9% - Kidney-Ep
+      17.8% - Fallopian-Ep ✓
+      17.7% - Ovary-Ep
+
+13. Confidence: 46.5% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: AGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGT GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCA CAC ACC CCT CTT TTG TGC GCT CTG TGG GGT GTT TTC TCA CAA AAG AGC GCA CAA AAC ACT CTC TCC CCT CTC TCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCT CTT TTG TGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGC GCA CAT ATG TGC GCC CCA CAC ACC CCA CAT ATG TGC GCC CCC CCG
+      methyl_seq: 22222222202222222022222222222222222222222222222222222222222222222222222222222222222222222222202222222222222220
+      dmr_label: 20121
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      46.5% - Thyroid-Ep
+      18.0% - Kidney-Ep
+      17.8% - Ovary-Ep
+      17.7% - Fallopian-Ep ✓
+
+14. Confidence: 46.5% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: TGT GTT TTA TAA AAA AAA AAG AGC GCC CCG CGT GTA TAA AAA AAG AGC GCA CAT ATA TAA AAC ACT CTA TAA AAG AGA GAC ACT CTG TGT GTC TCC CCT CTT TTT TTT TTT TTT TTG TGC GCT CTT TTC TCG CGG GGT GTT TTT TTA TAG AGG GGG GGC GCA CAG AGA GAG AGA GAT ATT TTC TCT CTG TGC GCT CTC TCT CTG TGG GGA GAG AGT GTC TCT CTG TGG GGT GTG TGC GCT CTT TTG TGC GCT CTT TTG TGT GTC TCT CTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTG TGA GAA AAA AAC ACA CAA AAA AAG AGT GTC TCG CGC GCT CTC TCA CAG AGG GGC GCG CGA GAG AGT GTG TGC GCG CGG GGT GTG TGG GGC GCA CAT ATG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGA GAA AAA AAC ACT CTT TTC TCT CTG TGC GCC CCT CTC TCC CCC CCG CGA GAG AGT GTT TTC TCA CAA AAA AAT ATG
+      methyl_seq: 222222222022222222222222222222222222222222212222222222222222222222222222222222222222222222222222222222222222222022222220222220222222222222202222222222222222222222202222222222
+      dmr_label: 29974
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      46.5% - Kidney-Ep
+      17.9% - Ovary-Ep
+      17.9% - Thyroid-Ep
+      17.8% - Fallopian-Ep ✓
+
+15. Confidence: 46.4% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGT GTG TGT GTA TAA AAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAT ATT TTG TGC GCA CAA AAC ACC CCT CTC TCC CCG CGC GCC CCT CTC TCC CCC CCA CAG AGG GGT GTT TTC TCA CAA AAG AGC GCA CAA AAT ATT TTC TCT CTT TTC TCC CCG CGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGC GCT CTG TGG GGC GCA CAT ATT TTA TAC ACA CAG AGT GTC TCA CAC ACT CTC TCG CGC GCT CTA TAC ACC CCA CAC
+      methyl_seq: 2222222220222222222222222202222222222222222222222222122222222222222222222222222222222222202222222
+      dmr_label: 49478
+      ctype: Fallopian-Ep
+    Probability Distribution:
+      46.4% - Thyroid-Ep
+      18.0% - Kidney-Ep
+      17.8% - Ovary-Ep
+      17.8% - Fallopian-Ep ✓
+
+============================================================
+
+TRUE CELL TYPE: Kidney-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 47.4% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGT GTA TAT ATC TCC CCA CAG AGC GCC CCG CGC GCG CGG GGC GCA CAC ACA CAG AGG GGC GCA CAG AGT GTC TCA CAG AGG GGC GCC CCC CCG CGC GCC CCA CAT ATG TGA GAA AAG AGT GTG TGG GGC GCA CAC ACT CTT TTG TGG GGG GGG GGC GCA CAA AAC ACC CCC CCG CGC GCA CAG AGA GAG AGC GCC CCC CCA CAG AGC GCC CCA CAA AAA AAG AGA GAA AAA AAG AGC GCA CAC ACG CGT GTG TGT GTT TTT TTC TCG CGG GGT GTG TGA GAG AGA GAA AAG AGC GCG CGA GAG AGT GTG TGT GTG TGG GGT GTT TTG TGT GTT TTC TCT CTG TGC GCA CAG AGG GGG GGA GAA AAA AAG AGA GAA AAA AAC ACC CCC CCT CTC TCC CCC CCG CGG GGG GGC GCG CGT GTG TGC GCA CAG AGA GAG AGC GCA CAG AGA GAT ATG TGA GAG AGC GCT CTC TCA CAC ACT CTG TGA GAA AAC ACA CAA AAT ATT TTC TCG CGG GGG GGG GGG GGT GTG TGA GAT ATT TTT TTC TCA CAG AGC GCG
+      methyl_seq: 2222222220202222222222222222220222222222222222222222222220222222222222222222222220222222022222222202222222222222222222222222222222222022202222222222222222222222222222220222222222222220
+      dmr_label: 49587
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.4% - Thyroid-Ep
+      17.5% - Fallopian-Ep
+      17.5% - Kidney-Ep ✓
+      17.5% - Ovary-Ep
+
+ 2. Confidence: 47.4% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GAC ACT CTC TCC CCG CGG GGG GGG GGA GAT ATC TCA CAA AAG AGT GTG TGA GAT ATT TTC TCT CTC TCC CCT CTG TGA GAC ACT CTC TCA CAG AGC GCC CCT CTA TAC ACC CCG CGG GGG GGT GTA TAG AGC GCT CTG TGG GGG GGA GAC ACT CTA TAC ACA CAG AGG GGC GCG CGC GCA CAT ATG TGC GCC CCA CAC ACC CCA CAC ACG CGC GCC CCC
+      methyl_seq: 2222122222222222222222222222222222222022222222222222222220222222222220222
+      dmr_label: 49888
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.4% - Thyroid-Ep
+      17.6% - Kidney-Ep ✓
+      17.5% - Ovary-Ep
+      17.5% - Fallopian-Ep
+
+ 3. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: CAG AGA GAG AGG GGG GGA GAG AGT GTC TCG CGG GGT GTG TGG GGA GAC ACA CAA AAG AGC GCT CTG TGC GCA CAC ACA CAC ACT CTC TCA CAG AGC GCG CGC GCA CAG AGG GGA GAA AAG AGC GCA CAG AGC GCT CTC TCG CGT GTG TGG GGA GAT ATG TGT GTG TGA GAC ACG CGC GCT CTC TCC CCA CAC ACT CTT TTC TCA CAC ACC CCT CTA TAC ACC CCC CCC CCA CAA AAG AGT GTC TCC CCC CCC CCC CCA CAC ACG CGG GGA GAG AGA GAG AGA GAC ACA CAC ACG CGA GAC ACA CAA AAG AGG GGT GTC TCA CAG AGG GGC GCG CGG GGC GCG CGC GCT CTA TAC ACT CTC TCC CCT CTG TGC GCC CCG CGC GCA CAG AGT GTG TGA GAA AAG AGG GGA GAG AGC GCC CCC CCG CGG GGG GGA GAC ACT CTT TTT TTT TTT TTT TTT TTT TTG TGT GTT TTG TGT GTT TTT TTT TTG TGT GTT TTT TTT TTT TTT TTG TGA GAG AGA GAT ATG TGG GGA GAG AGT GTT TTT TTC TCG CGC GCT CTC TCT CTG TGT GTG TGG GGT GTC
+      methyl_seq: 222222222122222222222222222222221222222222222212222222222122222222222222222222222222222022222222202222222222220220222222222220222222222222220222222222222222222222222222222222222222202222222222
+      dmr_label: 50213
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep
+      17.6% - Kidney-Ep ✓
+      17.5% - Fallopian-Ep
+      17.5% - Ovary-Ep
+
+ 4. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TCA CAC ACC CCC CCA CAC ACT CTG TGC GCG CGT GTC TCG CGA GAT ATC TCC CCT CTC TCC CCA CAC ACG CGG GGG GGG GGG GGC GCC CCT CTA TAC ACC CCA CAC ACA CAC ACA CAC ACT CTG TGC GCT CTC TCT CTG TGA GAC ACG CGA GAG AGG GGC GCA CAT ATT TTC TCC CCA CAC ACC CCG CGG GGG GGT GTC TCA CAA AAT ATT TTG TGC GCC CCT CTA TAC ACT CTT TTG TGG GGG GGA GAG AGA GAG AGC GCT CTC TCT CTC TCA CAG AGT GTA TAT ATC TCC CCG CGT GTG TGT GTC
+      methyl_seq: 222222222022022222222202222222222222222222222222022222222222202222222222222222222222222222222222202222
+      dmr_label: 50085
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep
+      17.6% - Fallopian-Ep
+      17.6% - Ovary-Ep
+      17.5% - Kidney-Ep ✓
+
+ 5. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: AGG GGA GAA AAT ATC TCT CTC TCA CAC ACG CGC GCA CAC ACG CGA GAA AAG AGA GAC ACC CCC CCT CTG TGA GAG AGC GCT CTT TTC TCG CGC GCA CAT ATT TTT TTT TTT TTG TGA GAA AAA AAC ACA CAC ACT CTA TAA AAA AAG AGA GAA AAA AAA AAC ACA CAT ATG TGA GAG AGG GGG GGA GAG AGG GGC GCT CTG TGG GGA GAG AGC GCG CGT GTG TGT GTA TAG AGG GGA GAG AGA GAG AGA GAT ATG TGA GAC ACT CTC TCA CAG AGC GCG CGC GCA CAG AGG GGT GTT TTG TGG GGA GAG AGT GTG TGC GCA CAG AGG GGG GGC GCT CTA TAT ATA TAT ATT TTG TGG GGC GCG CGG GGC GCC CCC CCA
+      methyl_seq: 222222222022202222222222222220222222222222222222222222222222222222222220222222222222222222220222222222222222222222222222022222
+      dmr_label: 50129
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep
+      17.6% - Fallopian-Ep
+      17.6% - Kidney-Ep ✓
+      17.5% - Ovary-Ep
+
+ 6. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TTT TTT TTT TTC TCA CAG AGT GTC TCC CCG CGT GTA TAG AGA GAG AGC GCT CTC TCT CTG TGG GGA GAT ATG TGG GGG GGG GGA GAG AGG GGC GCT CTG TGG GGG GGT GTC TCA CAT ATT TTT TTG TGC GCA CAG AGA GAG AGG GGC GCT CTC TCA CAG AGA GAC ACT CTG TGG GGG GGA GAG AGT GTA TAT ATA TAG AGC GCG CGT GTG TGA GAG AGT GTC TCC CCT CTG TGG GGA GAA AAT ATG TGG GGC GCA CAG AGA GAA AAG AGC GCC CCC CCT CTA TAC ACA CAG AGC GCA CAC ACA CAG AGA GAC ACG CGC GCC CCA CAG AGA GAT ATC TCT CTG TGT GTC TCC CCG CGT GTC TCG CGG GGC GCA CAG AGA GAA AAC ACT CTG TGG GGG GGT GTT TTT TTT
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222222222222222022222222222222222222222222222222222202222222222220220222222222222222
+      dmr_label: 49972
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep
+      17.6% - Kidney-Ep ✓
+      17.6% - Ovary-Ep
+      17.6% - Fallopian-Ep
+
+ 7. Confidence: 47.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGC GCA CAT ATG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCG CGC GCC CCT CTC TCC CCC CCG CGA GAG AGT GTT TTC TCA CAA AAG AGT GTG TGA GAT ATT TTC TCT CTC TCC CCT CTG TGT GTT TTT TTC TCA CAG AGT GTC TCT CTC TCC CCC CCG CGA GAG AGT GTA TAG AGC GCT CTG TGG GGC GCG CGT GTT TTA TAC ACA CAG AGG GGC GCA CAC ACG CGC GCG CGC GCC CCA CAC ACC CCA CAC ACG CGC GCC CCT CTG TGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACC
+      methyl_seq: 22222222202222222222222222022222212222222222222222222222222222222022222222220222222222202022222220222222222222222222222222222222212222222222
+      dmr_label: 50092
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.2% - Thyroid-Ep
+      17.6% - Kidney-Ep ✓
+      17.6% - Ovary-Ep
+      17.6% - Fallopian-Ep
+
+ 8. Confidence: 47.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GAG AGG GGC GCG CGG GGG GGC GCA CAG AGA GAT ATC TCA CAC ACT CTG TGG GGA GAG AGG GGT GTC TCA CAA AAG AGA GAG AGT GTT TTT TTG TGA GAG AGA GAC ACC CCA CAG AGC GCC CCT CTG TGG GGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAG AGT GTA TAG AGC GCC CCA CAG AGG GGC GCG CGT GTG TGG GGC GCG CGG GGC GCA CAC ACG CGT GTG TGC GCC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTT TTG TGG GGG GGA GAG AGA GAC ACT CTG TGA GAT ATC TCC CCA CAG AGG GGA GAG AGA GAA AAT ATC TCA CAC ACT CTT TTG TGA GAA AAC ACC CCT CTG TGG GGG GGA GAG AGG GGC GCA CAG AGA GAG AGG GGC GCT CTC TCC CCA CAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATT TTG TGC
+      methyl_seq: 222122222222222222222222222222222222222222222222222222222222202222222222222222222222222222222022221222212222222222222222222222222222222222222222222222222222222222222222222222222222202222222
+      dmr_label: 50236
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.2% - Thyroid-Ep
+      17.7% - Kidney-Ep ✓
+      17.6% - Ovary-Ep
+      17.6% - Fallopian-Ep
+
+ 9. Confidence: 47.1% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: AGC GCT CTC TCC CCA CAC ACT CTT TTC TCG CGG GGT GTC TCT CTG TGC GCA CAG AGC GCT CTT TTG TGT GTC TCC CCA CAG AGC GCT CTC TCA CAG AGA GAG AGA GAT ATG TGA GAC ACC CCT CTG TGG GGT GTC TCA CAC ACG CGC GCT CTC TCA CAC ACT CTC TCA CAT ATG TGA GAT ATG TGA GAG AGC GCT CTT TTG TGT GTA TAC ACT CTC TCG CGC GCT CTG TGT GTA TAC ACA CAC ACA CAG AGC GCG CGT GTC TCC CCC CCG CGC GCT CTC TCC CCT CTC TCC CCC CCT CTG TGT GTA TAT ATT TTT TTC TCT CTC TCC CCG CGA GAC ACT CTC TCC CCT CTT TTT TTG TGC GCT CTG TGT GTC TCT CTT TTC TCA CAC ACC CCT CTG TGC GCG CGT GTG TGG GGT GTT TTC TCT CTC TCA CAG AGC GCT CTC TCG CGG GGT GTC TCA CAG AGC GCT CTC TCT CTG
+      methyl_seq: 22222222202222222222222222222222222222222222222022222222222222222222222202222222222202222022222222222222222220222222222222222222222220222222222222202222222222
+      dmr_label: 49266
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.1% - Thyroid-Ep
+      17.7% - Kidney-Ep ✓
+      17.6% - Ovary-Ep
+      17.6% - Fallopian-Ep
+
+10. Confidence: 47.1% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GAG AGA GAG AGG GGG GGA GAG AGA GAC ACG CGG GGA GAG AGA GAG AGG GGG GGA GAG AGA GAG AGG GGG GGA GAG AGA GAG AGG GGG GGT GTA TAA AAG AGT GTT TTG TGT GTT TTT TTT TTA TAA AAA AAG AGT GTA TAA AAC ACG CGG GGA GAG AGA GAT ATG TGA GAG AGT GTT TTC TCG CGA GAA AAG AGA GAG AGA GAC ACT CTG TGG GGC GCT CTT TTT TTG TGC GCC CCT CTA TAA AAT ATT TTG TGA GAC ACT CTG TGA GAA AAC ACA CAT ATT TTG TGA GAC ACT CTT TTT TTC TCT CTG TGG GGA GAT ATG TGT GTG TGT GTA TAG AGC GCT CTA TAC ACC CCC CCC CCT CTT TTT TTG TGT GTT TTT TTA TAA AAG AGA GAA AAA AAC ACT CTG TGA GAA AAG AGT GTG TGT GTT TTT TTT TTT TTC TCA CAC ACA CAA AAC ACT CTT TTG TGA GAT ATG TGT GTT TTA TAG AGA GAC ACA CAA AAG AGA
+      methyl_seq: 22222222202222222222222222222222222222222222222202222222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49736
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.1% - Thyroid-Ep
+      17.7% - Fallopian-Ep
+      17.6% - Ovary-Ep
+      17.6% - Kidney-Ep ✓
+
+11. Confidence: 47.1% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: TCT CTG TGG GGA GAT ATC TCC CCC CCC CCG CGG GGA GAA AAT ATA TAA AAA AAG AGG GGA GAC ACA CAA AAT ATT TTT TTC TCG CGG GGC GCC CCA CAG AGG GGC GCG CGC GCT CTG TGT GTG TGG GGC GCT CTT TTA TAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCG CGG GGG GGC GCG CGG GGA GAT ATC TCA CAT ATG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAA AAA AAT ATC TCG CGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCT CTA TAA AAC ACA CAC ACG CGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCA CAT ATC TCT CTC TCT CTA TAC ACT CTA TAC ACA CAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAA AAA AAT ATT TTA TAG AGC GCT CTG TGG GGG GGC GCT CTT TTG TGA GAT ATG TGG GGC GCG
+      methyl_seq: 22222222202222222222222222202222222022222222222022222222222222222222222222212222022212222222222222222222202222222222222222222022222222222222222222222222222222222222222222222222220
+      dmr_label: 29698
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.1% - Kidney-Ep ✓
+      17.7% - Thyroid-Ep
+      17.6% - Fallopian-Ep
+      17.6% - Ovary-Ep
+
+12. Confidence: 47.1% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: GGC GCT CTG TGG GGG GGC GCG CGC GCG CGG GGT GTG TGG GGC GCT CTC TCA CAT ATG TGC GCC CCT CTG TGT GTA TAA AAT ATT TTT TTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATT TTC TCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCA CAG AGG GGT GTG TGG GGA GAT ATC TCA CAC ACG CGA GAC ACG CGT GTC TCA CAG AGT GTA TAG AGA GAT ATT TTG TGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTA TAG AGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAC ACA CAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCG CGG GGG GGT GTA TAT ATG TGA GAT ATG TGG GGC GCG CGT GTG TGC GCA CAC ACC CCA CAT ATA TAG
+      methyl_seq: 2222220202222222222222222222222202222222222222222222222222220222222222222222022022222222222222222222222222222222222222222022222222222222222222222222202222222222212222222222
+      dmr_label: 29485
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.1% - Kidney-Ep ✓
+      17.7% - Thyroid-Ep
+      17.7% - Ovary-Ep
+      17.6% - Fallopian-Ep
+
+13. Confidence: 47.0% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: TCT CTG TGG GGA GAT ATC TCC CCC CCC CCG CGG GGA GAA AAT ATA TAA AAA AAG AGG GGA GAC ACA CAA AAT ATT TTT TTC TCG CGG GGC GCC CCA CAG AGG GGC GCG CGC GCT CTG TGT GTG TGG GGC GCT CTT TTA TAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCG CGG GGG GGC GCG CGG GGA GAT ATC TCA CAT ATG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAA AAA AAT ATC TCG CGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCT CTA TAA AAC ACA CAC ACG CGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCA CAT ATC TCT CTC TCT CTA TAC ACT CTA TAC ACA CAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAA AAA AAT ATT TTA TAG AGC GCT CTG TGG GGG GGC GCT CTT TTG TGA GAT ATG TGG GGC GCG
+      methyl_seq: 22222222202222222222222222212222222022222222222022222222222222222222222222202222022202222222222222222222202222222222222222222022222222222222222222222222222222222222222222222222220
+      dmr_label: 29698
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.0% - Kidney-Ep ✓
+      17.7% - Thyroid-Ep
+      17.7% - Fallopian-Ep
+      17.6% - Ovary-Ep
+
+14. Confidence: 47.0% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: GGC GCT CTG TGG GGG GGC GCG CGC GCG CGG GGT GTG TGG GGC GCT CTC TCA CAT ATG TGC GCC CCT CTG TGT GTA TAA AAT ATT TTT TTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATT TTC TCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCA CAG AGG GGT GTG TGG GGA GAT ATC TCA CAC ACG CGA GAC ACG CGT GTC TCA CAG AGT GTA TAG AGA GAT ATT TTG TGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTA TAG AGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA
+      methyl_seq: 222222020222222222222222222222220222222222222222222222222222022222222222222202202222222222222222222222222222222222222222202222222222
+      dmr_label: 29485
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.0% - Kidney-Ep ✓
+      17.7% - Ovary-Ep
+      17.6% - Fallopian-Ep
+      17.6% - Thyroid-Ep
+
+15. Confidence: 47.0% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: GGC GCT CTG TGG GGG GGC GCG CGC GCG CGG GGT GTG TGG GGC GCT CTC TCA CAT ATG TGC GCC CCT CTG TGT GTA TAA AAT ATT TTT TTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATT TTC TCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCA CAG AGG GGT GTG TGG GGA GAT ATC TCA CAC ACG CGA GAC ACG CGT GTC TCA CAG AGT GTA TAG AGA GAT ATT TTG TGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTA TAG AGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAC ACA CAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCG CGG GGG GGT GTA TAT ATG TGA GAT ATG TGG
+      methyl_seq: 2222220202222222222222222222222202222222222222222222222222220222222222222222022022222222222222222222222222222222222222222022222222222222222222222222202222222222
+      dmr_label: 29485
+      ctype: Kidney-Ep
+    Probability Distribution:
+      47.0% - Kidney-Ep ✓
+      17.7% - Ovary-Ep
+      17.7% - Thyroid-Ep
+      17.6% - Fallopian-Ep
+
+============================================================
+
+TRUE CELL TYPE: Ovary-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 47.4% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TGT GTG TGT GTT TTC TCA CAC ACC CCC CCG CGG GGG GGA GAT ATC TCT CTG TGG GGA GAC ACA CAA AAG AGG GGC GCC CCA CAT ATG TGT GTA TAC ACT CTT TTC TCA CAC ACC CCC CCA CAG AGG GGC GCA CAC ACT CTC TCC CCA CAG AGG GGC GCC CCG CGG GGG GGA GAC ACC CCG CGT GTG TGT GTG TGG GGG GGT GTA TAA AAA AAC ACA CAC ACC CCT CTA TAC ACA CAA AAC ACA CAT ATC TCG CGT GTC TCA CAC ACC CCT CTG TGC GCC CCA CAC ACA CAC ACG CGC GCC CCA CAT ATT TTT TTG TGG GGA GAG AGG GGG GGT GTT TTT TTA TAA AAG AGG GGA GAA AAT ATC TCT CTG TGG GGA GAA AAA AAC ACG CGG GGG GGA GAG AGG GGG GGA GAG AGC GCT CTG TGG GGG GGT GTG TGA GAG AGG GGA GAT ATG TGG GGG GGC GCT CTT TTA TAA AAG AGG GGC GCC CCT CTA TAC ACA CAC ACA CAG AGA GAG AGG GGT GTA TAA AAA AAG AGA GAC ACG CGG GGT GTC TCA CAC ACC CCA CAT ATC TCA
+      methyl_seq: 222222222022222222222222222222222222222222222222222220222220222222222222222222222220222222222222212222222222222222222222222222220222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 49479
+      ctype: Ovary-Ep
+    Probability Distribution:
+      47.4% - Thyroid-Ep
+      17.5% - Fallopian-Ep
+      17.5% - Ovary-Ep ✓
+      17.5% - Kidney-Ep
+
+ 2. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGC GCC CCA CAT ATC TCA CAC ACT CTT TTG TGA GAG AGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAG AGC GCC CCT CTT TTG TGA GAC ACC CCT CTC TCC CCC CCG CGG GGG GGC GCT CTC TCA CAA AAG AGT GTG TGA GAT ATA TAC ACT CTC TCC CCC CCA CAT ATC TCT CTC TCA CAC ACT CTC TCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAC ACT CTA TAC ACA CAG AGT GTC TCT CTG TGC GCG CGC GCC CCA CAC ACC CCA CAC ACG CGC GCC CCT CTC TCG CGC GCT CTA TAA AAT ATT TTT TTT TTT TTG
+      methyl_seq: 2222222222220222222222222222222222222222222222220222222222222222222222222222222222222222222222222222222022222220222202222222222
+      dmr_label: 49920
+      ctype: Ovary-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep
+      17.6% - Kidney-Ep
+      17.5% - Ovary-Ep ✓
+      17.5% - Fallopian-Ep
+
+ 3. Confidence: 47.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: CCC CCT CTC TCC CCT CTC TCC CCT CTC TCG CGC GCC CCG CGT GTG TGC GCG CGC GCC CCT CTC TCC CCA CAT ATG TGA GAC ACC CCT CTC TCG CGC GCC CCA CAC ACC CCT CTT TTC TCC CCG CGT GTC TCA CAT ATC TCT CTC TCC CCT CTC TCC CCA CAC ACC CCT CTC TCC CCT CTC TCC CCT CTC TCC CCT CTC TCT CTG TGC GCC CCT CTC TCC CCT CTC TCC CCT CTC TCG CGC GCC CCC CCT CTC TCC CCC CCG CGG GGA GAA AAT ATT TTC TCC CCA CAC ACC CCT CTC TCG CGG GGC GCC CCA CAC ACC CCA CAG AGG GGT GTA TAG AGC GCT CTG TGC GCG CGT GTT TTT TTG TGA GAT ATT TTC TCC CCC CCA CAG AGG GGA GAT ATC TCT CTT TTG TGC GCC CCC CCC CCA CAG AGA GAA AAG AGC GCG CGA GAC ACA CAG AGG GGT GTG TGT GTG TGG GGA GAT ATG TGG GGG GGC GCT CTG TGC GCT CTG TGC GCT CTC TCC CCA CAC ACC CCA CAG AGC GCT CTG TGT GTT TTT TTC TCA CAT ATG TGG GGC GCC CCA CAG AGG GGA GAA AAA AAA AAT ATG TGC GCG CGG GGA GAA AAG AGC GCT CTC TCT CTC
+      methyl_seq: 222222222022022202222222222222022222222202222222222222222222222222222222222222022222220222222222222022222222222222220222222222222222222222222222220222222222222222222222222222222222222222222222222222221222222222
+      dmr_label: 49369
+      ctype: Ovary-Ep
+    Probability Distribution:
+      47.2% - Thyroid-Ep
+      17.6% - Fallopian-Ep
+      17.6% - Ovary-Ep ✓
+      17.6% - Kidney-Ep
+
+ 4. Confidence: 47.1% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TTT TTT TTT TTT TTG TGA GAG AGA GAC ACG CGA GAA AAG AGC GCT CTT TTC TCG CGT GTT TTC TCT CTT TTT TTC TCT CTC TCC CCC CCA CAG AGG GGC GCT CTG TGT GTA TAG AGT GTG TGA GAA AAG AGT GTG TGG GGC GCG CGC GCG CGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCG CGC GCC CCT CTC TCC CCC CCA CAG AGG GGT GTT TTC TCA CAA AAA AAC ACA CAA AAT ATT TTT TTT TTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCT CTC TCA CAA AAG AGT GTA TAG AGC GCT CTG TGG GGA GAA AAT ATT TTA TAC ACA CAG AGG GGC GCA CAC ACT CTC TCG CGC GCC CCA CAC ACC CCA CAC
+      methyl_seq: 22222222212222222022222222222222222222222222222021222220222222222222222202222222222222222222222222222222222222222222222222222222222222202222222
+      dmr_label: 49886
+      ctype: Ovary-Ep
+    Probability Distribution:
+      47.1% - Thyroid-Ep
+      17.7% - Kidney-Ep
+      17.6% - Ovary-Ep ✓
+      17.6% - Fallopian-Ep
+
+ 5. Confidence: 47.1% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: ATC TCT CTG TGC GCT CTT TTG TGT GTC TCG CGC GCC CCA CAC ACA CAC ACA CAC ACA CAG AGT GTG TGC GCG CGT GTT TTA TAG AGG GGG GGA GAT ATG TGG GGA GAG AGC GCT CTT TTG TGC GCC CCA CAC ACC CCA CAG AGT GTG TGG GGC GCG CGC GCC CCA CAC ACC CCT CTC TCT CTT TTT TTG TGC GCA CAG AGG GGC GCG CGC GCC CCT CTG TGT GTC TCC CCT CTG TGA GAA AAG AGG GGA GAC ACG CGT GTG TGA GAG AGC GCG CGG GGG GGC GCG CGA GAA AAG AGT GTG TGC GCT CTC TCT CTT TTG TGG GGG GGT GTC TCT CTG TGC GCT CTT TTG TGG GGA GAC ACA CAC ACG CGG GGG GGT GTC TCA CAC ACT CTG TGG GGC
+      methyl_seq: 222222222022222222222221222222222222222222222222222022222222222222221222222222222222122222022202222222222222222222222222202222222222
+      dmr_label: 49442
+      ctype: Ovary-Ep
+    Probability Distribution:
+      47.1% - Thyroid-Ep
+      17.6% - Fallopian-Ep
+      17.6% - Kidney-Ep
+      17.6% - Ovary-Ep ✓
+
+ 6. Confidence: 47.1% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TTA TAC ACT CTG TGA GAG AGA GAC ACC CCG CGT GTG TGC GCG CGT GTC TCA CAT ATA TAA AAC ACT CTC TCT CTG TGC GCC CCT CTT TTC TCA CAA AAG AGG GGA GAG AGC GCT CTT TTT TTG TGG GGT GTT TTC TCT CTG TGT GTA TAG AGG GGG GGT GTT TTG TGT GTT TTG TGT GTT TTT TTT TTG TGT GTT TTT TTT TTG TGT GTT TTT TTT TTT TTT TTT TTT TTA TAA AAG AGA GAC ACG CGG GGA GAG AGT GTC TCT CTT TTG TGC GCT CTC TCT CTG TGT GTC TCG CGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGA GAA AAG AGT GTG TGG GGT GTG TGT GTA TAA AAG AGC GCT CTT TTG TGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCG CGC GCC CCT CTC TCC CCT CTG TGG GGG GGT
+      methyl_seq: 22222222202220222222222222222222222222222222222222222222222222222222222222222222202222222222222221222222222222222222222222222222222222222222222202222222222
+      dmr_label: 50155
+      ctype: Ovary-Ep
+    Probability Distribution:
+      47.1% - Thyroid-Ep
+      17.8% - Kidney-Ep
+      17.6% - Fallopian-Ep
+      17.6% - Ovary-Ep ✓
+
+ 7. Confidence: 47.0% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: ATC TCT CTG TGG GGA GAG AGA GAT ATC TCG CGT GTT TTG TGT GTG TGC GCA CAA AAA AAG AGC GCG CGC GCT CTG TGT GTC TCC CCT CTG TGG GGT GTC TCA CAA AAC ACT CTC TCT CTA TAA AAG AGA GAA AAG AGC GCA CAA AAC ACA CAA AAG AGC GCC CCT CTG TGG GGG GGC GCT CTC TCA CAG AGA GAT ATG TGC GCC CCT CTG TGG GGT GTT TTC TCC CCA CAC ACC CCT CTC TCA CAG AGG GGA GAG AGC GCT CTT TTC TCA CAT ATA TAA AAG AGG GGG GGC GCT CTC TCC CCC CCC CCT CTG TGC GCC CCC CCT CTG TGG GGC GCT CTG TGG GGC GCA CAG AGC GCA CAG AGA GAC ACC CCA CAC ACG CGA GAA AAA AAC ACC CCA CAC ACT CTG TGC
+      methyl_seq: 2222222220222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 49397
+      ctype: Ovary-Ep
+    Probability Distribution:
+      47.0% - Thyroid-Ep
+      17.7% - Fallopian-Ep
+      17.6% - Kidney-Ep
+      17.6% - Ovary-Ep ✓
+
+ 8. Confidence: 46.9% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAC ACA CAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCA CAG AGG GGC GCG CGT GTG TGG GGT GTA TAG AGT GTG TGT GTG TGC GCA CAC ACC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCT CTG TGC GCT CTA TAC ACT CTC TCA CAG AGG GGA GAG AGG GGC GCT CTG TGA GAA AAA AAC ACA CAG AGG GGG GGG GGA GAA AAT ATC TCA CAC ACT CTT TTG TGA GAG AGC GCC CCA CAG AGG GGG GGA GAG AGG GGC GCA CAG AGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCA CAA AAG AGA GAT ATT TTG TGC GCG
+      methyl_seq: 222222022222222222222222222222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 49758
+      ctype: Ovary-Ep
+    Probability Distribution:
+      46.9% - Thyroid-Ep
+      17.8% - Kidney-Ep
+      17.7% - Fallopian-Ep
+      17.7% - Ovary-Ep ✓
+
+ 9. Confidence: 46.8% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGA GAT ATT TTT TTT TTA TAC ACC CCA CAT ATG TGT GTT TTG TGG GGC GCC CCA CAG AGG GGC GCT CTG TGG GGT GTT TTT TTC TCG CGA GAA AAC ACT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCA CAA AAG AGT GTG TGT GTT TTC TCT CTG TGC GCC CCC CCA CAC ACC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTA TAG AGG GGA GAT ATT TTA TAC ACA CAG AGA GAC ACG CGT GTG TGA GAG AGC GCC CCA CAC ACC CCA CAT ATG TGC GCC CCC CCG CGG GGC GCT CTT TTC TCT CTC TCT CTG TGA GAG AGC GCC CCT CTT TTT TTT TTA TAG AGT GTG TGT GTA TAT ATG TGT GTG TGT GTC TCT
+      methyl_seq: 22222222202222222222222222222222222222202222222222222222222222222222222022222222222222222222222222212222222222222221222222222222222222222222222222
+      dmr_label: 50223
+      ctype: Ovary-Ep
+    Probability Distribution:
+      46.8% - Thyroid-Ep
+      17.7% - Fallopian-Ep
+      17.7% - Ovary-Ep ✓
+      17.7% - Kidney-Ep
+
+10. Confidence: 46.8% | Predicted: Kidney-Ep
+    Read Information:
+      dna_seq: GGG GGG GGT GTT TTT TTC TCA CAC ACC CCG CGT GTG TGT GTT TTA TAG AGC GCC CCA CAA AAG AGA GAT ATG TGG GGT GTC TCT CTC TCG CGA GAT ATC TCT CTC TCC CCT CTG TGA GAC ACA CAT ATC TCG CGT GTG TGA GAT ATC TCT CTG TGC GCC CCC CCG CGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGC GCC CCA CAT ATG TGA GAG AGC GCC CCA CAC ACC CCG CGT GTG TGC GCC CCC CCG CGG GGC GCC CCC CCA CAT ATG TGC GCC CCA CAG AGG GGT GTT TTA TAA AAT ATT TTT TTT TTT TTA TAT ATA TAC ACT CTG TGG GGT GTT TTA TAA AAT ATT TTT TTT TTT TTA TAT ATA TAT ATA TAC ACT CTG TGG GGT GTT TTA TAT ATA TAC ACA CAG AGG GGT GTT TTA TAA AAT ATT TTT TTT TTT TTA TAT ATA TAC ACC CCG CGG GGG GGG GGA GAG AGG GGG GGG GGG GGA
+      methyl_seq: 2222222220222222222222222222212222222222222122222222220222202222222222222222222222222222222222222022222022222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 29532
+      ctype: Ovary-Ep
+    Probability Distribution:
+      46.8% - Kidney-Ep
+      17.8% - Thyroid-Ep
+      17.7% - Ovary-Ep ✓
+      17.7% - Fallopian-Ep
+
+11. Confidence: 46.7% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GCG CGG GGA GAT ATA TAT ATT TTT TTT TTC TCC CCA CAG AGG GGC GCA CAG AGA GAG AGT GTC TCT CTA TAT ATG TGT GTT TTG TGT GTT TTG TGT GTC TCT CTC TCT CTG TGA GAA AAT ATC TCT CTC TCC CCA CAG AGT GTG TGC GCT CTC TCA CAG AGT GTG TGC GCC CCT CTG TGG GGC GCA CAC ACG CGT GTG TGC GCC CCA CAG AGA GAC
+      methyl_seq: 022222222222222222222222222222222222222222222222222222222222222022222222
+      dmr_label: 49452
+      ctype: Ovary-Ep
+    Probability Distribution:
+      46.7% - Thyroid-Ep
+      17.9% - Kidney-Ep
+      17.7% - Ovary-Ep ✓
+      17.7% - Fallopian-Ep
+
+12. Confidence: 46.6% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: AAT ATC TCT CTG TGG GGA GAA AAA AAC ACG CGG GGG GGA GAG AGG GGG GGA GAG AGC GCT CTG TGG GGG GGT GTG TGA GAG AGG GGA GAT ATG TGG GGG GGC GCT CTT TTA TAA AAG AGG GGC GCC CCT CTA TAC ACA CAC ACA CAG AGA GAG AGG GGT GTA TAA AAA AAG AGA GAC ACG CGG GGT GTC TCA CAC ACC CCA CAT ATC TCA CAA AAG AGG GGT GTT TTC TCC CCT CTC TCA CAG AGA GAA AAG AGA GAA AAC ACT CTC TCG
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222220222222222222222222222222222220
+      dmr_label: 49479
+      ctype: Ovary-Ep
+    Probability Distribution:
+      46.6% - Thyroid-Ep
+      17.8% - Kidney-Ep
+      17.8% - Ovary-Ep ✓
+      17.7% - Fallopian-Ep
+
+13. Confidence: 46.6% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GCA CAC ACT CTG TGC GCT CTA TAC ACG CGC GCC CCC CCG CGG GGC GCT CTA TAA AAT ATT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAT ATG TGG GGG GGG GGT GTT TTT TTC TCA CAC ACC CCA CAT ATG TGT GTT TTG TGG GGC GCC CCA CAA AAG AGC GCC CCG CGG GGT GTC TCT CTC TCA CAA AAA AAC ACT
+      methyl_seq: 222222221222022222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 50237
+      ctype: Ovary-Ep
+    Probability Distribution:
+      46.6% - Thyroid-Ep
+      18.0% - Kidney-Ep
+      17.7% - Ovary-Ep ✓
+      17.7% - Fallopian-Ep
+
+14. Confidence: 46.5% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: CTA TAC ACT CTG TGG GGA GAG AGA GAC ACG CGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATC TCA CAC ACT CTT TTG TGA GAA AAC ACC CCC CCG CGG GGG GGA GAG AGG GGC GCA CAG AGT GTG TGA GAG AGC GCC CCA CAA AAG AGA GAT ATC TCG CGT GTG TGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCG
+      methyl_seq: 2222222221222222222222222222222222220222222222222222222220222222222222222222222220
+      dmr_label: 50169
+      ctype: Ovary-Ep
+    Probability Distribution:
+      46.5% - Thyroid-Ep
+      17.9% - Fallopian-Ep
+      17.8% - Ovary-Ep ✓
+      17.8% - Kidney-Ep
+
+15. Confidence: 46.5% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TCC CCT CTT TTG TGC GCT CTG TGA GAC ACG CGG GGA GAA AAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGT GTG TGT GTC TCC CCA CAC ACT CTT TTC TCA CAG AGG GGA GAG AGC GCG CGA GAC ACA CAA AAT ATC TCA CAC ACC CCG CGG GGC GCT CTC TCC CCT CTG TGT GTT TTG TGA GAT ATC TCC CCC CCA CAG AGA GAA AAG AGC GCT CTG TGT GTA TAT ATT TTT TTG TGC GCA CAG AGA GAA AAC ACA CAC ACA CAA AAA AAG AGT GTG TGG GGG GGA GAC ACA CAG AGA GAT ATG TGC GCT CTG TGT GTG TGG GGC GCA CAA AAC ACC CCC CCA CAG AGT GTA TAG AGC GCT CTT TTG TGC GCA CAG AGG GGA GAT ATT TTT TTT TTA TAA AAC ACC CCT CTG TGA GAA AAG AGG GGA GAA AAA AAA AAA AAG AGA GAA AAG AGG GGC GCT CTC TCT CTG TGT GTG TGT GTT TTT TTT TTG TGA GAA AAA AAT ATC TCT CTG TGA GAG AGG GGG GGT GTT TTC TCC CCA CAA AAC ACA CAA AAG AGC GCA CAT ATT TTC TCA CAG AGA GAG AGT GTT TTG TGC GCA CAG AGG GGT GTT TTC TCC CCA CAG AGC GCC CCC CCC CCG CGG GGC GCT CTC TCT CTG TGT GTC TCA CAC
+      methyl_seq: 222222222022222222222222222222222222222022222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 50126
+      ctype: Ovary-Ep
+    Probability Distribution:
+      46.5% - Thyroid-Ep
+      17.9% - Ovary-Ep ✓
+      17.8% - Fallopian-Ep
+      17.8% - Kidney-Ep
+
+============================================================
+
+TRUE CELL TYPE: Thyroid-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 47.5% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TTC TCC CCC CCA CAC ACA CAC ACT CTC TCG CGG GGG GGG GGC GCA CAC ACG CGG GGG GGT GTA TAG AGG GGG GGC GCT CTT TTC TCT CTC TCG CGC GCC CCT CTG TGT GTG TGT GTG TGC GCA CAC ACC CCC CCT CTC TCT CTG TGG GGT GTG TGC GCG CGT GTG TGC GCT CTG TGA GAA AAG AGT GTT TTG TGG GGA GAG AGC GCG CGG GGT GTC TCG CGC GCT CTA TAA AAA AAG AGC GCC CCC CCT CTT TTC TCC CCC CCA CAC ACA CAG AGA GAC ACT CTA TAG AGG GGC GCA CAC ACT CTT TTG TGT GTA TAA AAG AGG GGC GCC CCG CGC GCT CTC TCG CGC GCC CCC CCG CGT GTG TGT GTG TGT GTG TGT GTG TGC GCG CGC GCT CTG TGG GGT GTG TGC GCT CTT TTG TGG GGT GTC TCA CAA AAG AGT GTG TGG GGG GGA GAC ACG CGT GTC TCT CTT TTG TGC GCT CTG TGA GAA AAG AGC GCC CCT CTT TTT TTG TGC GCC CCA CAC ACA CAT ATT TTC TCG CGG GGG GGG GGC GCA CAG AGG GGT GTG TGT GTA TAC ACG CGG GGC GCT CTT TTG TGT GTC TCA CAG AGC GCC CCC CCC CCA CAT ATG TGG GGG GGA GAA AAG AGC GCC CCC CCG CGT GTC TCT CTT TTC TCC CCT CTG TGG GGT
+      methyl_seq: 2222222220222222022222222222220222222222222222222222022222222222222202220222222222222222222222222222222222222202220222022222222202222222222222222222222022222222222222222222222220222222222222022222222222222222222222202222222222
+      dmr_label: 49523
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.5% - Thyroid-Ep ✓
+      17.5% - Kidney-Ep
+      17.5% - Fallopian-Ep
+      17.5% - Ovary-Ep
+
+ 2. Confidence: 47.4% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGA GAT ATT TTG TGC GCA CAG AGA GAC ACG CGG GGA GAG AGT GTC TCT CTC TCG CGC GCT CTC TCA CAC ACT CTC TCA CAA AAT ATG TGC GCT CTC TCA CAC ACT CTG TGT GTT TTG TGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGT GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCG CGC GCC CCA CAC ACA CAA AAC ACC CCT CTC TCC CCA CAC ACC CCT CTT TTC TCC CCA CAG AGC GCC CCG CGC GCC CCT CTG TGC GCC CCT CTT TTG TGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTA TAA AAG AGA GAT ATT TTA TAC ACA CAG AGC GCC CCT CTC TCT CTG TGC GCC CCC CCG CGG GGC GCC
+      methyl_seq: 222222222022222220222222222222222222222222222222222222222222022222220222202222222222222222222222022222222222222222222222222222222222222222220222
+      dmr_label: 49606
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.4% - Thyroid-Ep ✓
+      17.5% - Kidney-Ep
+      17.5% - Ovary-Ep
+      17.5% - Fallopian-Ep
+
+ 3. Confidence: 47.4% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GCG CGC GCC CCG CGC GCC CCA CAC ACG CGC GCC CCT CTG TGA GAC ACT CTG TGG GGT GTT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTG TGG GGA GAG AGG GGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCG CGC GCC CCC CCT CTG TGT GTT TTG TGA GAC ACC CCG CGG GGG GGC GCT CTG TGG GGT GTC TCT CTC TCC CCA CAG AGC GCT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCG CGA GAG AGT GTG TGT GTT TTC TCT CTG TGC GCC CCC CCG CGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCG CGG GGG GGG GGT GTG TGC GCC CCG CGG GGG GGA GAT ATT TTG TGC GCA CAG AGA GAC ACG CGG GGA GAG AGT GTC TCT CTC TCG CGC GCT CTC TCA CAC ACT CTC TCA CAA AAT ATG TGC GCT CTC TCA CAG AGT GTG TGT GTT TTG TGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGT GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC
+      methyl_seq: 022022220222222222222222222222222222222202222222022222222222022222222222222222222222202222222222220222202222222022222220222222222220222222202222222222222222222222222222222222222222220222222202222
+      dmr_label: 49776
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.4% - Thyroid-Ep ✓
+      17.6% - Kidney-Ep
+      17.5% - Fallopian-Ep
+      17.5% - Ovary-Ep
+
+ 4. Confidence: 47.4% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GAG AGA GAT ATG TGG GGC GCG CGT GTC TCT CTC TCA CAC ACT CTC TCT CTA TAT ATC TCG CGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGC GCC CCT CTC TCA CAA AAT ATC TCT CTT TTG TGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAT ATC TCT CTC TCC CCG CGC GCC CCT CTC TCC CCC CCG CGG GGA GAT ATT TTC TCA CAA AAA AAG AGG GGA GAT ATT TTC TCT CTC TCT CTT TTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGC GCT CTG TGA GAG AGA GAT ATT TTA TAC ACA CAG AGG GGC GCT CTC TCG CGT GTG TGC GCC CCA CAC ACC CCA CAC ACA CAC ACA CAC ACG CGG GGC GCT CTA TAT ATT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA
+      methyl_seq: 2222220222222222222022222222222222222222222222222222222222222222220222222022222222222222222222222222222222222222222222222222222022222222222220222222222222222222222
+      dmr_label: 49500
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.4% - Thyroid-Ep ✓
+      17.6% - Fallopian-Ep
+      17.5% - Kidney-Ep
+      17.5% - Ovary-Ep
+
+ 5. Confidence: 47.4% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGC GCA CAT ATG TGG GGT GTG TGG GGC GCG CGG GGG GGT GTG TGC GCC CCT CTG TGT GTC TCG CGT GTC TCC CCC CCA CAG AGT GTT TTG TGC GCT CTC TCG CGG GGG GGC GCT CTG TGC GCT CTC TCA CAG AGG GGC GCA CAG AGG GGG GGG GGA GAA AAT ATC TCA CAC ACT CTT TTG TGA GAA AAT ATC TCC CCG CGA GAG AGA GAG AGG GGT GTG TGG GGA GAG AGG GGC GCT CTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCA CAA AAG AGA GAT ATT TTG TGC GCG CGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGT GTG TGA GAC ACA CAG AGA GAG AGC GCG CGA
+      methyl_seq: 22222222202222222222022222222222202222222222222222222222222222222022222222222222222222222222222220222222222222222222222222222212
+      dmr_label: 49508
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.4% - Thyroid-Ep ✓
+      17.6% - Ovary-Ep
+      17.5% - Kidney-Ep
+      17.5% - Fallopian-Ep
+
+ 6. Confidence: 47.4% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: AGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGC GCA CAA AAT ATC TCT CTT TTG TGG GGC GCT CTC TCA CAC ACG CGG GGT GTA TAA AAC ACC CCC CCC CCC CCA CAC ACC CCT CTC TCC CCC CCG CGG GGG GGT GTT TTC TCA CAA AAG AGT GTG TGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCC CCC CCA CAG AGC GCC CCT CTC TCG CGT GTG TGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCA CAT ATG TGT GTG TGC GCC CCG CGC GCC CCA CAT ATG TGC GCC CCC CCG CGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACT CTG TGT GTG TGT GTT TTG TGT GTC TCC CCA CAG AGG GGC GCT CTG TGA GAT ATC TCT CTC TCG CGA GAA AAC ACT CTT TTC TCC CCA CAA AAC
+      methyl_seq: 22222222202222222222222202222222222222222022222222222222222222222222222022222222222222222222222222220222222220222222222222222222222222222022222222222222222222222222222202222222222
+      dmr_label: 50045
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.4% - Thyroid-Ep ✓
+      17.6% - Kidney-Ep
+      17.6% - Fallopian-Ep
+      17.5% - Ovary-Ep
+
+ 7. Confidence: 47.4% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: CCA CAC ACT CTT TTT TTC TCC CCA CAC ACG CGG GGT GTC TCT CTC TCC CCC CCT CTC TCT CTG TGA GAG AGG GGC GCC CCC CCA CAG AGC GCC CCT CTA TAG AGG GGC GCT CTG TGG GGA GAC ACT CTG TGT GTA TAC ACT CTG TGC GCC CCG CGC GCC CCA CAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCC CCT CTG TGC GCC CCT CTG TGA GAT ATT TTC TCT CTC TCC CCC CCG CGC GCC CCT CTC TCA CAG AGC GCC CCT CTG TGC GCC CCG CGA GAG AGT GTG TGC GCC CCT CTG TGG GGG GGA GAT ATT TTG TGC GCA CAG AGG GGC GCG CGT GTG TGC GCG CGC GCC CCG CGC GCC
+      methyl_seq: 2222222220222222222222222222222222222222222222222202222222022222222222222222222222222222220222222222222022222222222222222220222022022
+      dmr_label: 49656
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.4% - Thyroid-Ep ✓
+      17.6% - Kidney-Ep
+      17.6% - Ovary-Ep
+      17.5% - Fallopian-Ep
+
+ 8. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: ACT CTA TAC ACA CAG AGG GGT GTG TGC GCG CGC GCA CAC ACT CTG TGC GCT CTA TAC ACG CGC GCC CCC CCG CGG GGC GCT CTA TAA AAT ATT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAT ATG TGG GGG GGG GGT GTT TTT TTC TCA CAC ACC CCA CAT ATG TGT GTT TTG TGG GGC GCC CCA CAA AAG AGC GCC CCG CGG GGT GTC TCT CTC TCA CAA AAA AAC ACT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCA CAA AAG AGA GAG AGA GAT ATC TCC CCA CAC ACC CCT CTG TGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG
+      methyl_seq: 22222222212222222220222022222222222222222222222222222222222222222222222222202222222222222222222222222222222222222022222222222222222
+      dmr_label: 50237
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep ✓
+      17.6% - Kidney-Ep
+      17.5% - Ovary-Ep
+      17.5% - Fallopian-Ep
+
+ 9. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: AGG GGG GGA GAG AGA GAG AGA GAG AGC GCG CGT GTA TAT ATG TGG GGA GAT ATC TCA CAA AAG AGA GAT ATT TTT TTT TTA TAA AAG AGG GGA GAA AAT ATG TGC GCT CTG TGG GGT GTC TCT CTG TGG GGG GGA GAT ATT TTC TCT CTC TCC CCA CAG AGC GCT CTT TTG TGT GTT TTG TGC GCA CAC ACA CAC ACG CGG GGA GAA AAT ATT TTA TAT ATT TTC TCG CGT GTC TCT CTG TGG GGA GAA AAT ATG TGG GGA GAG AGA GAT ATG TGG GGT GTG TGC GCT CTT TTC TCT CTG TGC GCG CGC GCC CCA CAT ATG TGC GCT CTA TAG AGC GCC CCT CTC TCT CTT TTT TTT TTC TCT CTC TCC CCC CCT CTT TTC TCG CGT GTT TTT TTC TCC CCT CTA TAG AGT GTG TGG GGC GCT CTG TGC GCT CTG TGG GGA GAG AGA GAA AAG AGT GTT TTG TGC GCC CCA CAA AAC ACT CTT TTT TTG TGG GGA GAG AGC GCC CCT CTA TAC ACG CGC GCA CAT ATT TTT TTG TGC GCA CAC ACC
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222022222222202222222222222222222222222022222222222222222222222220222222222222222222222222222222222222222222202222222222
+      dmr_label: 50013
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep ✓
+      17.6% - Ovary-Ep
+      17.6% - Kidney-Ep
+      17.5% - Fallopian-Ep
+
+10. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TGC GCA CAG AGT GTG TGG GGT GTG TGC GCG CGA GAT ATC TCG CGC GCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCA CAC ACC CCT CTC TCC CCC CCG CGG GGG GGT GTT TTC TCA CAA AAG AGC GCG CGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCT CTC TCG CGA GAG AGT GTA TAT ATC TCT CTG TGG GGG GGA GAC ACT CTA TAC ACG CGG GGG GGC GCA CAC ACC CCT CTG TGC GCC CCA CAC ACC CCA CAT ATG TGC GCC CCT CTG TGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTA TAA AAA AAA AAA AAT ATT TTA TAT ATT TTT TTT TTA TAG AGT GTT TTT TTA TAT ATT TTT TTT TTA TAT ATT TTT TTA TAG AGA GAC ACG CGA GAG AGT GTG TGA GAG AGT GTC TCT CTC
+      methyl_seq: 222222222122212022222222222222222222222122222222202222222222222222222220222222222222222022222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 50009
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep ✓
+      17.6% - Fallopian-Ep
+      17.6% - Kidney-Ep
+      17.5% - Ovary-Ep
+
+11. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: ATC TCT CTG TGC GCT CTT TTG TGT GTC TCG CGC GCC CCA CAC ACA CAC ACA CAC ACA CAG AGT GTG TGC GCG CGT GTT TTA TAG AGG GGG GGA GAT ATG TGG GGA GAG AGC GCT CTT TTG TGC GCC CCA CAC ACC CCA CAG AGT GTG TGG GGC GCG CGC GCC CCA CAC ACC CCT CTC TCT CTT TTT TTG TGC GCA CAG AGG GGC GCG CGC GCC CCT CTG TGT GTC TCC CCT CTG TGA GAA AAG AGG GGA GAC ACG CGT GTG TGA GAG AGC GCG CGG GGG GGC GCG CGA GAA AAG AGT GTG TGC GCT CTC TCT CTT TTG TGG GGG GGT GTC TCT CTG TGC GCT CTT TTG TGG GGA GAC ACA CAC ACG CGG GGG GGT GTC TCA CAC ACT CTG TGG GGC GCC CCG CGC GCT CTA TAA AAG AGA GAA AAG AGG GGC
+      methyl_seq: 222222222022222222222220222222222222222222222222222022222222222222220222222222222222022222022202222222222222222222222222202222222222202222222222
+      dmr_label: 49442
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep ✓
+      17.6% - Fallopian-Ep
+      17.6% - Ovary-Ep
+      17.5% - Kidney-Ep
+
+12. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: TGC GCT CTC TCT CTA TAG AGA GAA AAC ACG CGC GCA CAC ACT CTC TCA CAT ATT TTA TAA AAT ATA TAC ACA CAA AAC ACA CAA AAA AAA AAA AAG AGT GTT TTC TCA CAA AAG AGA GAA AAA AAC ACA CAC ACA CAA AAA AAT ATG TGA GAG AGC GCA CAG AGA GAC ACT CTC TCA CAC ACT CTC TCA CAC ACA CAT ATG TGC GCA CAG AGG GGT GTG TGC GCC CCA CAC ACT CTT TTC TCA CAA AAA AAC ACC CCC CCA CAT ATA TAA AAG AGC GCA CAT ATG TGC GCA CAC ACT CTG TGA GAC ACG CGC GCA CAT ATT TTC TCT CTC TCG CGA GAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACG CGC GCT CTT TTG TGC GCT CTC TCT CTC TCT CTA TAC ACA CAA AAA AAG AGC GCA CAC ACA CAG AGT GTG TGA GAA AAT ATC TCT CTT TTG TGT GTG TGA GAA AAC ACT CTC TCA CAG AGC GCA CAC ACC CCG CGG GGG GGT GTG TGC GCC CCG CGC GCA CAA AAG AGA GAA AAA AAC ACA CAG
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222022222220222222222222222222222222222222222222222202222222222222222222222222222222222222222222022222202222222222
+      dmr_label: 50202
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep ✓
+      17.6% - Fallopian-Ep
+      17.5% - Kidney-Ep
+      17.5% - Ovary-Ep
+
+13. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGG GGG GGC GCA CAG AGA GAG AGG GGC GCG CGG GGC GCG CGG GGC GCA CAG AGC GCC CCC CCT CTG TGG GGG GGG GGG GGC GCG CGC GCA CAG AGA GAG AGT GTC TCC CCT CTG TGA GAG AGT GTG TGA GAG AGG GGG GGC GCA CAG AGC GCC CCT CTG TGG GGG GGG GGC GCT CTG TGC GCA CAG AGA GAG AGG GGC GCG CGT GTC TCC CCT CTG TGG GGC GCT CTG TGT GTG TGA GAG AGC GCA CAC ACT CTG TGA GAC ACC CCT CTG TGG GGC GCC CCT CTT TTG TGC GCT CTC TCT CTC TCC CCG CGT GTT TTG TGT GTC TCC CCC CCA CAG AGT GTT TTT TTT TTT TTT TTT TTA TAG AGT GTG TGC GCT CTG TGA GAA AAT ATA TAA AAT ATT TTT TTT TTG TGA GAG AGT GTA TAT ATT TTC TCG CGC GCA CAG AGA GAT ATC
+      methyl_seq: 222222222022022222222222222022222222222222222222222222222222222222022222222222222222222222222222222222022222222222222222222222222222222222222220222222
+      dmr_label: 49548
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep ✓
+      17.6% - Ovary-Ep
+      17.6% - Kidney-Ep
+      17.6% - Fallopian-Ep
+
+14. Confidence: 47.3% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GGC GCA CAT ATG TGA GAC ACG CGT GTT TTT TTA TAC ACG CGT GTG TGG GGT GTG TGA GAA AAA AAC ACG CGT GTG TGC GCG CGC GCG CGG GGC GCA CAC ACG CGA GAC ACG CGT GTT TTT TTA TAA AAG AGT GTG TGG GGT GTA TAA AAA AAA AAT ATA TAC ACG CGT GTG TGG GGC GCA CAT ATG TGA GAC ACG CGT GTT TTT TTC TCC CCC CCA CAT ATG TGG GGC GCA CAG AGC GCC CCA CAC ACA CAA AAG AGT GTG TGC GCA CAC ACG CGG GGC GCT CTC TCA CAG AGT GTG TGG GGC GCG CGG GGT GTA TAA AAG AGT GTA TAC ACA CAT ATT TTC TCA CAC ACA CAC ACT CTG TGT GTC TCG CGT GTG TGC GCC CCA CAC ACC CCA CAT ATC
+      methyl_seq: 2222220222220222222222022202022220220222222222222222220222222222022222222222222222222222220222222222202222222222222222222212222222222
+      dmr_label: 49374
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.3% - Thyroid-Ep ✓
+      17.7% - Kidney-Ep
+      17.5% - Fallopian-Ep
+      17.5% - Ovary-Ep
+
+15. Confidence: 47.2% | Predicted: Thyroid-Ep
+    Read Information:
+      dna_seq: GTG TGC GCC CCA CAA AAC ACA CAC ACC CCG CGT GTG TGC GCA CAA AAA AAG AGC GCA CAC ACC CCA CAG AGC GCA CAC ACC CCA CAC ACC CCG CGC GCT CTA TAC ACG CGT GTT TTC TCT CTC TCA CAC ACC CCC CCC CCA CAT ATC TCG CGG GGC GCC CCT CTC TCT CTG TGC GCC CCT CTT TTC TCA CAA AAT ATG TGC GCC CCA CAG AGT GTG TGT GTT TTG TGT GTG TGC GCA CAA AAA AAG AGG GGG GGC GCC CCA CAG AGC GCA CAC ACC CCG CGT GTC TCA CAC ACT CTA TAC ACC CCT CTG TGC GCT CTT TTA TAC ACC CCA CAG AGG GGC GCC CCC CCA CAT ATC TCA CAC ACC CCT CTC TCA CAC ACC CCT CTG TGA GAG AGC GCT CTG TGA GAA AAA AAC ACA CAG AGA GAG AGA GAC ACC CCA CAT ATG TGC GCA CAC ACT CTC TCA CAA AAC ACT CTG TGT GTG TGT GTC TCC CCT CTT TTG TGA GAC ACA CAG AGC GCT CTC TCA CAC ACT CTC TCT CTT TTC TCC CCG CGT GTG TGT GTC TCA CAC ACC CCT CTG TGA
+      methyl_seq: 22222222202222222222222222222202222122222222222221222222222222222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 50139
+      ctype: Thyroid-Ep
+    Probability Distribution:
+      47.2% - Thyroid-Ep ✓
+      17.6% - Kidney-Ep
+      17.6% - Ovary-Ep
+      17.6% - Fallopian-Ep
+
+============================================================
+
+
+
+SUMMARY STATISTICS
+================================================================================
+LOW CONFIDENCE SUMMARY
+------------------------------
+Fallopian-Ep             : 15 examples, avg conf: 25.2%, min conf: 25.0%
+Kidney-Ep                : 15 examples, avg conf: 25.2%, min conf: 25.1%
+Ovary-Ep                 : 15 examples, avg conf: 25.2%, min conf: 25.1%
+Thyroid-Ep               : 15 examples, avg conf: 25.2%, min conf: 25.1%
+
+HIGH CONFIDENCE SUMMARY
+------------------------------
+Fallopian-Ep             : 15 examples, avg conf: 46.9%, max conf: 47.4%
+Kidney-Ep                : 15 examples, avg conf: 47.2%, max conf: 47.4%
+Ovary-Ep                 : 15 examples, avg conf: 46.9%, max conf: 47.4%
+Thyroid-Ep               : 15 examples, avg conf: 47.4%, max conf: 47.5%

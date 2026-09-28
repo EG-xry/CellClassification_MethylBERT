@@ -1,0 +1,23 @@
+CELL TYPE DECONVOLUTION RESULTS
+============================================================
+Input file: Bone_marrow-Erythrocyte_RK_Singular.csv
+Model directory: Training/Run_Result/bert.model
+Device: cuda:0
+Total reads: 137542
+
+FINAL VERDICT:
+  Dominant Cell Type: Class_0
+  Percentage: 37.25%
+  Overall Confidence: 0.239
+
+CELL TYPE BREAKDOWN:
+  Class_0: 51238 reads (37.25%)
+  Class_1: 19782 reads (14.38%)
+  Class_2: 13552 reads (9.85%)
+  Class_3: 16964 reads (12.33%)
+  Class_4: 15312 reads (11.13%)
+  Class_5: 20694 reads (15.05%)
+
+CONFIDENCE ANALYSIS:
+  Overall Average Confidence: 0.239
+  Overall Confidence Std: 0.038

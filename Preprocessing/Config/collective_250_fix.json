@@ -1,0 +1,16 @@
+{
+    "collective_csv_mode": true,
+    "collective_csv_file": "hg38_250.csv",
+    "fasta_file": "hg38.fa",
+    "cpg_bed_file": "CpG.bed.gz",
+    "dedupe_reads": true,
+    "parallel_optimized": true,
+    "recommended_workers": 4,
+    "cell_types": {
+      "Lung-Alveolar-Endothel_Q1": {
+        "pat_file": "GSM5652191_Lung-Alveolar-Endothel-Z000000Q1.pat.gz",
+        "output_file": "Lung-Alveolar-Endothel_Q1_250.csv",
+        "cell_type": "Endothel"
+      }
+    }
+  }

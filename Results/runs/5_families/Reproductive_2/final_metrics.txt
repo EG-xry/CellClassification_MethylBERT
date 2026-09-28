@@ -1,0 +1,26 @@
+FINAL EVALUATION METRICS
+==================================================
+Overall Accuracy: 0.3776
+Macro F1-Score: 0.3717
+Weighted F1-Score: 0.3785
+Final Loss: 1.2615
+
+PER-CLASS ACCURACY
+------------------------------
+Fallopian-Ep             : 0.3329
+Kidney-Ep                : 0.3101
+Ovary-Ep                 : 0.3207
+Thyroid-Ep               : 0.5369
+
+CLASSIFICATION REPORT
+------------------------------
+              precision    recall  f1-score   support
+
+Fallopian-Ep       0.36      0.33      0.34     24144
+   Kidney-Ep       0.44      0.31      0.36     27406
+    Ovary-Ep       0.24      0.32      0.27     18692
+  Thyroid-Ep       0.48      0.54      0.51     25086
+
+    accuracy                           0.38     95328
+   macro avg       0.38      0.38      0.37     95328
+weighted avg       0.39      0.38      0.38     95328

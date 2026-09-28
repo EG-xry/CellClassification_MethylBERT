@@ -1,0 +1,1177 @@
+#!/usr/bin/env python3
+"""
+Optimized MethylBERT training data pipeline for cloud environments and multi-cell type processing
+- Memory-efficient streaming approach
+- Checkpoint/resume functionality  
+- Batch processing for multiple cell types
+- Resource monitoring
+- Better error handling
+- CpG coordinate mapping using CpG.bed.gz for accurate hg38 coordinates
+"""
+
+import gzip
+import csv
+import sys
+import argparse
+import time
+import json
+import os
+import psutil
+import pickle
+from collections import defaultdict
+from pathlib import Path
+from typing import Dict, List, Tuple, Optional
+from tqdm import tqdm
+import pysam
+import bisect
+
+class ProgressTracker:
+    """Track progress and enable checkpoint/resume functionality"""
+    
+    def __init__(self, checkpoint_file: str):
+        self.checkpoint_file = checkpoint_file
+        self.processed_regions = set()
+        self.total_records = 0
+        self.start_time = time.time()
+        
+    def load_checkpoint(self):
+        """Load previous progress if checkpoint exists"""
+        if os.path.exists(self.checkpoint_file):
+            try:
+                with open(self.checkpoint_file, 'r') as f:
+                    data = json.load(f)
+                    self.processed_regions = set(data.get('processed_regions', []))
+                    self.total_records = data.get('total_records', 0)
+                    print(f"Resuming from checkpoint: {len(self.processed_regions)} regions already processed", file=sys.stderr)
+                    return True
+            except Exception as e:
+                print(f"Warning: Could not load checkpoint: {e}", file=sys.stderr)
+        return False
+    
+    def save_checkpoint(self):
+        """Save current progress"""
+        try:
+            data = {
+                'processed_regions': list(self.processed_regions),
+                'total_records': self.total_records,
+                'timestamp': time.time()
+            }
+            with open(self.checkpoint_file, 'w') as f:
+                json.dump(data, f)
+        except Exception as e:
+            print(f"Warning: Could not save checkpoint: {e}", file=sys.stderr)
+    
+    def is_processed(self, region_id: str) -> bool:
+        """Check if region was already processed"""
+        return region_id in self.processed_regions
+    
+    def mark_processed(self, region_id: str, records_count: int):
+        """Mark region as processed"""
+        self.processed_regions.add(region_id)
+        self.total_records += records_count
+        
+    def cleanup(self):
+        """Remove checkpoint file when complete"""
+        try:
+            if os.path.exists(self.checkpoint_file):
+                os.remove(self.checkpoint_file)
+        except Exception as e:
+            print(f"Warning: Could not remove checkpoint file: {e}", file=sys.stderr)
+
+class ResourceMonitor:
+    """Monitor system resources during processing"""
+    
+    def __init__(self):
+        self.process = psutil.Process()
+        self.peak_memory = 0
+        
+    def log_usage(self, context: str = ""):
+        """Log current resource usage"""
+        memory_mb = self.process.memory_info().rss / 1024 / 1024
+        cpu_percent = self.process.cpu_percent()
+        self.peak_memory = max(self.peak_memory, memory_mb)
+        
+        print(f"[Resources{' - ' + context if context else ''}] Memory: {memory_mb:.1f}MB (Peak: {self.peak_memory:.1f}MB), CPU: {cpu_percent:.1f}%", file=sys.stderr)
+
+class CpGCoordinateMapper:
+    """Efficient CpG coordinate mapping using CpG.bed.gz file"""
+    
+    def __init__(self, cpg_bed_file: str):
+        self.cpg_bed_file = cpg_bed_file
+        self.cpg_map = {}  # {chr: [(genomic_pos, cpg_index), ...]}
+        self.load_cpg_mapping()
+    
+    def load_cpg_mapping(self):
+        """Load CpG.bed.gz file into memory for fast coordinate conversion"""
+        print(f"Loading CpG coordinate mapping from {self.cpg_bed_file}...", file=sys.stderr)
+        
+        if not os.path.exists(self.cpg_bed_file):
+            raise FileNotFoundError(f"CpG bed file not found: {self.cpg_bed_file}")
+        
+        start_time = time.time()
+        total_entries = 0
+        
+        with gzip.open(self.cpg_bed_file, 'rt') as f:
+            with tqdm(desc="Loading CpG mapping", unit="entries", file=sys.stderr) as pbar:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith('#'):
+                        continue
+                    
+                    parts = line.split('\t')
+                    if len(parts) < 3:
+                        continue
+                    
+                    chr_name = parts[0]
+                    genomic_pos = int(parts[1])
+                    cpg_index = int(parts[2])
+                    
+                    if chr_name not in self.cpg_map:
+                        self.cpg_map[chr_name] = []
+                    
+                    self.cpg_map[chr_name].append((genomic_pos, cpg_index))
+                    total_entries += 1
+                    pbar.update(1)
+                    
+                    # Progress update every 1M entries
+                    if total_entries % 1000000 == 0:
+                        elapsed = time.time() - start_time
+                        entries_per_sec = total_entries / elapsed
+                        print(f"  Loaded {total_entries:,} CpG entries ({entries_per_sec:,.0f} entries/sec)", file=sys.stderr)
+        
+        # Sort each chromosome's entries by genomic position for binary search
+        print("Sorting CpG entries by genomic position for fast lookup...", file=sys.stderr)
+        for chr_name in self.cpg_map:
+            self.cpg_map[chr_name].sort(key=lambda x: x[0])
+        
+        elapsed = time.time() - start_time
+        print(f"CpG mapping loaded in {elapsed:.1f}s", file=sys.stderr)
+        print(f"Total chromosomes: {len(self.cpg_map)}", file=sys.stderr)
+        print(f"Total CpG entries: {total_entries:,}", file=sys.stderr)
+        
+        # Show chromosome breakdown
+        for chr_name in sorted(self.cpg_map.keys())[:10]:  # Show first 10 chromosomes
+            print(f"  {chr_name}: {len(self.cpg_map[chr_name]):,} CpG sites", file=sys.stderr)
+        if len(self.cpg_map) > 10:
+            print(f"  ... and {len(self.cpg_map) - 10} more chromosomes", file=sys.stderr)
+    
+    def genomic_to_cpg_range(self, chr_name: str, genomic_start: int, genomic_end: int) -> Optional[Tuple[int, int]]:
+        """Convert genomic coordinate range to CpG coordinate range
+        
+        Args:
+            chr_name: Chromosome name
+            genomic_start: Genomic start position
+            genomic_end: Genomic end position
+            
+        Returns:
+            Tuple of (cpg_start, cpg_end) or None if no CpGs found
+        """
+        if chr_name not in self.cpg_map:
+            print(f"Warning: No CpG data for chromosome {chr_name}", file=sys.stderr)
+            return None
+        
+        chr_cpgs = self.cpg_map[chr_name]
+        if not chr_cpgs:
+            return None
+        
+        # Find CpGs that overlap with the genomic range
+        cpg_indices = []
+        
+        # Use binary search to find the range of CpGs within genomic coordinates
+        # Find first CpG >= genomic_start
+        left_idx = bisect.bisect_left(chr_cpgs, (genomic_start, 0))
+        # Find last CpG <= genomic_end
+        right_idx = bisect.bisect_right(chr_cpgs, (genomic_end, float('inf')))
+        
+        if left_idx >= len(chr_cpgs) or right_idx == 0:
+            return None
+        
+        # Collect CpG indices in the range
+        for i in range(left_idx, min(right_idx, len(chr_cpgs))):
+            genomic_pos, cpg_idx = chr_cpgs[i]
+            if genomic_start <= genomic_pos <= genomic_end:
+                cpg_indices.append(cpg_idx)
+        
+        if not cpg_indices:
+            return None
+        
+        cpg_start = min(cpg_indices)
+        cpg_end = max(cpg_indices)
+        
+        return cpg_start, cpg_end
+    
+    def get_cpg_count_in_range(self, chr_name: str, genomic_start: int, genomic_end: int) -> int:
+        """Count CpGs in a genomic range"""
+        cpg_range = self.genomic_to_cpg_range(chr_name, genomic_start, genomic_end)
+        if cpg_range is None:
+            return 0
+        cpg_start, cpg_end = cpg_range
+        return cpg_end - cpg_start + 1
+
+def build_pat_index_with_cpg_coords(pat_file):
+    """
+    Build an optimized index of PAT data by chromosome using CpG coordinates
+    Sorts fragments by CpG position for fast range queries
+    Returns dictionary: {chromosome: [(cpg_start, cpg_end, pattern, count), ...]}
+    """
+    print("Building optimized PAT chromosome index with CpG coordinates...", file=sys.stderr)
+    pat_index = defaultdict(list)
+    
+    line_count = 0
+    start_time = time.time()
+    
+    with gzip.open(pat_file, 'rt') as f:
+        with tqdm(desc="Indexing PAT file", unit="lines", file=sys.stderr) as pbar:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                
+                line_count += 1
+                pbar.update(1)
+                
+                # Progress update every 10M lines
+                if line_count % 10000000 == 0:
+                    elapsed = time.time() - start_time
+                    lines_per_sec = line_count / elapsed
+                    print(f"  Indexed {line_count:,} lines ({lines_per_sec:,.0f} lines/sec)", file=sys.stderr)
+                
+                parts = line.split('\t')
+                if len(parts) < 4:
+                    continue
+                
+                pat_chr = parts[0]
+                cpg_start = int(parts[1])  # CpG coordinate
+                pattern = parts[2]
+                count = int(parts[3])
+                
+                # Only store fragments with actual CpG data
+                num_cpgs = len([c for c in pattern if c in 'CT'])
+                if num_cpgs > 0:
+                    cpg_end = cpg_start + num_cpgs - 1
+                    pat_index[pat_chr].append((cpg_start, cpg_end, pattern, count))
+    
+    # Sort each chromosome's fragments by CpG start position for fast range queries
+    print("Sorting PAT fragments by CpG coordinates for optimization...", file=sys.stderr)
+    for chr_name in pat_index:
+        pat_index[chr_name].sort(key=lambda x: x[0])  # Sort by cpg_start
+    
+    elapsed = time.time() - start_time
+    total_fragments = sum(len(fragments) for fragments in pat_index.values())
+    
+    print(f"Optimized PAT index built in {elapsed:.1f}s", file=sys.stderr)
+    print(f"Total chromosomes: {len(pat_index)}", file=sys.stderr)
+    print(f"Total fragments indexed: {total_fragments:,}", file=sys.stderr)
+    
+    # Show chromosome breakdown
+    for chr_name in sorted(pat_index.keys()):
+        print(f"  {chr_name}: {len(pat_index[chr_name]):,} fragments", file=sys.stderr)
+    
+    return dict(pat_index)
+
+def find_overlapping_pat_for_dmr_fast(pat_index, chr_name, cpg_start, cpg_end):
+    """
+    Safe linear search to find overlapping PAT fragments using sorted CpG coordinates
+    Returns list of (cpg_start, cpg_end, pattern, count) for overlapping fragments
+    """
+    chr_fragments = pat_index.get(chr_name, [])
+    
+    if not chr_fragments:
+        return []
+    
+    print(f"  Searching {len(chr_fragments):,} sorted PAT fragments for {chr_name} CpG range {cpg_start}-{cpg_end}...", file=sys.stderr)
+    
+    overlapping = []
+    
+    # Safe linear search - guaranteed to find all overlaps
+    for pat_cpg_start, pat_cpg_end, pattern, count in chr_fragments:
+        # Check if there is overlap in CpG coordinate space
+        if not (pat_cpg_end < cpg_start or pat_cpg_start > cpg_end):
+            overlapping.append((pat_cpg_start, pat_cpg_end, pattern, count))
+    
+    print(f"  Found {len(overlapping)} overlapping PAT fragments for this DMR", file=sys.stderr)
+    return overlapping
+
+def find_overlapping_pat_for_dmr(pat_index, chr_name, cpg_start, cpg_end):
+    """
+    Find overlapping PAT fragments using CpG coordinate ranges
+    Returns list of (cpg_start, cpg_end, pattern, count) for overlapping fragments
+    """
+    return find_overlapping_pat_for_dmr_fast(pat_index, chr_name, cpg_start, cpg_end)
+
+class CellTypeConfig:
+    """Configuration for different cell types"""
+    
+    def __init__(self, config_file: Optional[str] = None):
+        self.configs = {}
+        if config_file and os.path.exists(config_file):
+            self.load_config(config_file)
+    
+    def load_config(self, config_file: str):
+        """Load cell type configurations from JSON file"""
+        try:
+            with open(config_file, 'r') as f:
+                self.configs = json.load(f)
+                print(f"Loaded configurations for {len(self.configs)} cell types", file=sys.stderr)
+        except Exception as e:
+            print(f"Warning: Could not load config file: {e}", file=sys.stderr)
+    
+    def add_cell_type(self, cell_type: str, csv_file: str, pat_file: str, 
+                     fasta_file: str, output_file: str):
+        """Add a cell type configuration"""
+        self.configs[cell_type] = {
+            'csv_file': csv_file,
+            'pat_file': pat_file, 
+            'fasta_file': fasta_file,
+            'output_file': output_file
+        }
+    
+    def get_cell_types(self) -> List[str]:
+        """Get list of configured cell types"""
+        return list(self.configs.keys())
+    
+    def get_config(self, cell_type: str) -> Dict:
+        """Get configuration for specific cell type"""
+        return self.configs.get(cell_type, {})
+    
+    def save_config(self, config_file: str):
+        """Save configurations to JSON file"""
+        try:
+            with open(config_file, 'w') as f:
+                json.dump(self.configs, f, indent=2)
+                print(f"Saved configurations to {config_file}", file=sys.stderr)
+        except Exception as e:
+            print(f"Warning: Could not save config file: {e}", file=sys.stderr)
+
+def load_dmr_regions_from_csv(csv_file, target_cell_type=None, cpg_mapper=None, filter_sex_chroms=True, allowed_cell_types: Optional[List[str]] = None):
+    """Load DMR regions from CSV file and convert genomic coordinates to CpG coordinates
+    
+    Args:
+        csv_file: Path to CSV file
+        target_cell_type: If specified, only load regions for this cell type
+                         If None, load all regions (for CTC processing mode)
+        cpg_mapper: CpGCoordinateMapper instance for converting genomic to CpG coordinates
+        filter_sex_chroms: If True, skip regions on chrX/chrY
+        allowed_cell_types: If provided, only include regions whose cell type matches any of these
+                            (case-insensitive, partial match; CSV column may be 'cell_type', 'Type', or 'DMR_cType')
+    
+    Returns:
+        List of (chr, genomic_start, genomic_end, cpg_start, cpg_end, dmr_label) tuples
+    """
+    print(f"Loading DMR regions from CSV{' for ' + target_cell_type if target_cell_type else ' (all regions)'}...", file=sys.stderr)
+    dmr_regions = []
+    
+    with open(csv_file, 'r') as f:
+        reader = csv.DictReader(f)
+        
+        # Check if file has a cell type column
+        has_cell_type_column = reader.fieldnames and any(col in reader.fieldnames for col in ('cell_type', 'Type', 'DMR_cType'))
+        
+        # Determine the actual column name to use
+        cell_type_column = None
+        if reader.fieldnames:
+            if 'cell_type' in reader.fieldnames:
+                cell_type_column = 'cell_type'
+            elif 'Type' in reader.fieldnames:
+                cell_type_column = 'Type'
+            elif 'DMR_cType' in reader.fieldnames:
+                cell_type_column = 'DMR_cType'
+        
+        if has_cell_type_column and target_cell_type:
+            print(f"  Filtering for cell type: {target_cell_type} (using column: {cell_type_column})", file=sys.stderr)
+        elif has_cell_type_column and not target_cell_type and not allowed_cell_types:
+            print(f"  Loading ALL regions regardless of cell type (CTC processing mode)", file=sys.stderr)
+        
+        if allowed_cell_types and has_cell_type_column:
+            print(f"  Limiting to DMR cell types: {allowed_cell_types} (case-insensitive, partial match)", file=sys.stderr)
+        elif allowed_cell_types and not has_cell_type_column:
+            print(f"  Warning: DMR cell types were specified but CSV has no cell type column; ignoring filter", file=sys.stderr)
+        
+        # Prepare matching helpers for allowed cell types (case-insensitive, alnum-only partial match)
+        def _canonicalize(text: str) -> str:
+            return ''.join(ch.lower() for ch in text if ch.isalnum())
+        allowed_canon = [_canonicalize(ct) for ct in (allowed_cell_types or [])]
+        
+        # Check if CSV has startCpG and endCpG columns (legacy format)
+        has_cpg_columns = reader.fieldnames and 'startCpG' in reader.fieldnames and 'endCpG' in reader.fieldnames
+        
+        if has_cpg_columns and cpg_mapper:
+            print("  CSV has CpG columns but CpG mapper provided - will use mapper for accurate conversion", file=sys.stderr)
+        elif has_cpg_columns and not cpg_mapper:
+            print("  Using CpG coordinates from CSV (may be inaccurate for hg38)", file=sys.stderr)
+        elif not has_cpg_columns and not cpg_mapper:
+            raise ValueError("CSV file must have startCpG/endCpG columns or CpG mapper must be provided")
+        
+        skipped_regions = 0
+        for i, row in enumerate(reader):
+            # For CTC processing, we load ALL regions regardless of cell type
+            # Only filter by cell type if explicitly specified
+            if has_cell_type_column and target_cell_type and cell_type_column:
+                row_cell_type = row[cell_type_column].strip()
+                if row_cell_type != target_cell_type:
+                    continue
+            
+            # New: filter by a provided list of allowed DMR cell types (case-insensitive, partial match)
+            if has_cell_type_column and allowed_cell_types and cell_type_column:
+                row_cell_type = (row.get(cell_type_column) or '').strip()
+                row_canon = _canonicalize(row_cell_type)
+                if not any(allowed in row_canon for allowed in allowed_canon):
+                    continue
+            
+            chr_name = row['chr']
+            # Filter out sex chromosomes if requested
+            if filter_sex_chroms and chr_name in ('chrX', 'chrY'):
+                continue
+            genomic_start = int(row['start'])
+            genomic_end = int(row['end'])
+            
+            # Convert genomic coordinates to CpG coordinates
+            if cpg_mapper:
+                cpg_range = cpg_mapper.genomic_to_cpg_range(chr_name, genomic_start, genomic_end)
+                if cpg_range is None:
+                    print(f"  Warning: No CpGs found for region {chr_name}:{genomic_start}-{genomic_end}, skipping", file=sys.stderr)
+                    skipped_regions += 1
+                    continue
+                cpg_start, cpg_end = cpg_range
+            else:
+                # Use CpG coordinates from CSV (legacy)
+                cpg_start = int(row['startCpG'])
+                cpg_end = int(row['endCpG'])
+            
+            dmr_regions.append((chr_name, genomic_start, genomic_end, cpg_start, cpg_end, i))
+        
+        if skipped_regions > 0:
+            print(f"  Skipped {skipped_regions} regions with no CpG data", file=sys.stderr)
+    
+    print(f"Loaded {len(dmr_regions)} DMR regions with CpG coordinates", file=sys.stderr)
+    return dmr_regions
+
+def get_cell_types_from_csv(csv_file):
+    """Extract all unique cell types from a collective CSV file
+    
+    Args:
+        csv_file: Path to CSV file with cell_type column
+        
+    Returns:
+        Set of unique cell types found in the file
+    """
+    print(f"Discovering cell types from {csv_file}...", file=sys.stderr)
+    cell_types = set()
+    
+    with open(csv_file, 'r') as f:
+        reader = csv.DictReader(f)
+        
+        if not reader.fieldnames or not any(col in reader.fieldnames for col in ('cell_type', 'Type', 'DMR_cType')):
+            raise ValueError(f"CSV file {csv_file} must have a 'cell_type', 'Type', or 'DMR_cType' column for batch processing")
+        
+        # Select the available column name
+        if 'cell_type' in reader.fieldnames:
+            col = 'cell_type'
+        elif 'Type' in reader.fieldnames:
+            col = 'Type'
+        else:
+            col = 'DMR_cType'
+        
+        for row in reader:
+            value = (row.get(col) or '').strip()
+            if value:
+                cell_types.add(value)
+    
+    print(f"Found {len(cell_types)} unique cell types: {sorted(cell_types)}", file=sys.stderr)
+    return cell_types
+
+def impute_missing_methylation(pattern):
+    """Replace '.' (unknown) in PAT pattern with nearest known methylation value"""
+    if '.' not in pattern:
+        return pattern
+    
+    chars = list(pattern)
+    
+    for i, char in enumerate(chars):
+        if char == '.':
+            left_dist = float('inf')
+            left_val = None
+            right_dist = float('inf') 
+            right_val = None
+            
+            # Search left
+            for j in range(i-1, -1, -1):
+                if chars[j] in 'CT':
+                    left_dist = i - j
+                    left_val = chars[j]
+                    break
+            
+            # Search right
+            for j in range(i+1, len(chars)):
+                if chars[j] in 'CT':
+                    right_dist = j - i
+                    right_val = chars[j]
+                    break
+            
+            # Choose closest (prefer left if tie)
+            if left_dist <= right_dist and left_val is not None:
+                chars[i] = left_val
+            elif right_val is not None:
+                chars[i] = right_val
+    
+    return ''.join(chars)
+
+def create_3mer_sequence(sequence):
+    """Convert DNA sequence to space-separated 3-mers using sliding window approach"""
+    sequence = sequence.upper()
+    
+    if len(sequence) < 3:
+        return ""
+    
+    three_mers = []
+    
+    for i in range(len(sequence) - 2):
+        three_mer = sequence[i:i+3]
+        
+        clean_three_mer = ""
+        for base in three_mer:
+            if base in 'ACGT':
+                clean_three_mer += base
+            else:
+                clean_three_mer += 'N'
+        
+        three_mers.append(clean_three_mer)
+    
+    return ' '.join(three_mers)
+
+def build_cpg_position_map(fasta, chr_name, genomic_start, genomic_end):
+    """Build a mapping from CpG index to genomic position range within a region"""
+    try:
+        ref_sequence = fasta.fetch(chr_name, genomic_start - 1, genomic_end).upper()
+        cpg_map = {}
+        cpg_index = 0
+        
+        for i in range(len(ref_sequence) - 2):
+            triplet = ref_sequence[i:i+3]
+            if len(triplet) == 3 and triplet[1:3] == 'CG':
+                cpg_start_pos = genomic_start + i + 1
+                cpg_end_pos = genomic_start + i + 2
+                cpg_map[cpg_index] = (cpg_start_pos, cpg_end_pos)
+                cpg_index += 1
+        
+        return cpg_map, ref_sequence
+    except Exception as e:
+        print(f"Warning: Error building CpG map for {chr_name}:{genomic_start}-{genomic_end}: {e}", file=sys.stderr)
+        return {}, ""
+
+def process_dmr_region(chr_name, genomic_start, genomic_end, cpg_start, cpg_end, dmr_label, pat_index, fasta):
+    """
+    Process a single DMR region and generate training records using CpG coordinates
+    Outputs the entire DMR region with proper CpG detection for xCG patterns
+    Optimized to build CpG map once per DMR region
+    """
+    try:
+        # Build CpG position mapping once for the entire DMR region
+        cpg_map, ref_sequence = build_cpg_position_map(fasta, chr_name, genomic_start, genomic_end)
+        
+        if not cpg_map or not ref_sequence:
+            return []
+            
+        # Find overlapping PAT fragments using optimized search
+        overlapping_pats = find_overlapping_pat_for_dmr(pat_index, chr_name, cpg_start, cpg_end)
+        
+        if not overlapping_pats:
+            return []
+        
+        records = []
+        
+        for pat_cpg_start, pat_cpg_end, pattern, count in overlapping_pats:
+            # Impute missing methylation values in PAT pattern
+            imputed_pattern = impute_missing_methylation(pattern)
+            
+            # Debug: show imputation if any changes were made
+            if imputed_pattern != pattern:
+                print(f"  Imputed PAT pattern: '{pattern}' → '{imputed_pattern}'", file=sys.stderr)
+            
+            # Find the genomic positions of first and last CpG sites covered by this PAT fragment
+            pat_first_cpg_pos = None
+            pat_last_cpg_pos = None
+            
+            # Map PAT CpG indices to genomic positions using pre-built CpG map
+            for local_cpg_idx, (mapped_start, mapped_end) in cpg_map.items():
+                global_cpg_idx = cpg_start + local_cpg_idx
+                
+                # Check if this CpG is covered by our PAT fragment
+                if pat_cpg_start <= global_cpg_idx <= pat_cpg_end:
+                    if pat_first_cpg_pos is None:
+                        pat_first_cpg_pos = mapped_start  # Position of C in first CpG
+                    pat_last_cpg_pos = mapped_end  # Position of G in last CpG (will be updated)
+            
+            # Skip if we can't find the PAT coverage boundaries
+            if pat_first_cpg_pos is None or pat_last_cpg_pos is None:
+                continue
+            
+            # Add context around the PAT region (max 10 bases each direction)
+            # Start from first CpG, extend backwards up to 10 bases
+            context_start = pat_first_cpg_pos
+            for i in range(1, 11):  # Try up to 10 bases before
+                test_pos = pat_first_cpg_pos - i
+                # Stop if outside DMR region
+                if test_pos < genomic_start:
+                    break
+                # Stop if we encounter another CpG (check if this position + next = CG)
+                ref_offset = test_pos - genomic_start
+                if ref_offset + 1 < len(ref_sequence) and ref_sequence[ref_offset:ref_offset+2] == 'CG':
+                    break
+                context_start = test_pos
+            
+            # End at last CpG, extend forwards up to 10 bases  
+            context_end = pat_last_cpg_pos
+            for i in range(1, 11):  # Try up to 10 bases after
+                test_pos = pat_last_cpg_pos + i
+                # Stop if outside DMR region
+                if test_pos >= genomic_end:
+                    break
+                # Stop if we encounter another CpG (check if prev position + this = CG)
+                ref_offset = test_pos - genomic_start
+                if ref_offset > 0 and ref_sequence[ref_offset-1:ref_offset+1] == 'CG':
+                    break
+                context_end = test_pos
+            
+            # Extract the specific region from reference sequence
+            region_start_offset = context_start - genomic_start
+            region_end_offset = context_end - genomic_start + 1  # +1 for inclusive end
+            
+            # Validate the range
+            if region_start_offset < 0 or region_end_offset > len(ref_sequence):
+                print(f"Warning: Invalid region range {region_start_offset}:{region_end_offset} for sequence length {len(ref_sequence)}", file=sys.stderr)
+                continue
+                
+            overlap_ref_sequence = ref_sequence[region_start_offset:region_end_offset]
+            actual_genomic_start = context_start
+            
+            # Build methylation sequence for 3-mer chunks using sliding window approach
+            methyl_seq = ""
+            
+            # Skip sequences too short for 3-mers
+            if len(overlap_ref_sequence) < 3:
+                continue
+            
+            # Generate methylation values for sliding window 3-mers (len(sequence) - 2 tokens)
+            for i in range(len(overlap_ref_sequence) - 2):
+                # Get the 3-mer at this position
+                triplet = overlap_ref_sequence[i:i+3].upper()
+                
+                # Replace any non-ACGT bases with N
+                clean_triplet = ""
+                for base in triplet:
+                    if base in 'ACGT':
+                        clean_triplet += base
+                    else:
+                        clean_triplet += 'N'
+                triplet = clean_triplet
+                
+                # Check if this 3-mer contains xCG pattern (C in pos 2, G in pos 3)
+                if len(triplet) == 3 and triplet[1:3] == 'CG':  # xCG pattern
+                    # This 3-mer contains a CpG site - check if it's covered by PAT or context
+                    # The C is at genomic position: actual_genomic_start + i + 1
+                    cpg_genomic_pos = actual_genomic_start + i + 1
+                    
+                    # Check if this CpG is within the actual PAT coverage (not context)
+                    if pat_first_cpg_pos <= cpg_genomic_pos <= pat_last_cpg_pos:
+                        # This CpG is covered by PAT - get real methylation value
+                        # Find the corresponding CpG index
+                        cpg_index = None
+                        for local_idx, (mapped_start, mapped_end) in cpg_map.items():
+                            if mapped_start <= cpg_genomic_pos <= mapped_end:
+                                global_cpg_idx = cpg_start + local_idx
+                                # Check if this CpG is covered by our PAT fragment
+                                if pat_cpg_start <= global_cpg_idx <= pat_cpg_end:
+                                    cpg_index = global_cpg_idx
+                                    break
+                        
+                        if cpg_index is not None:
+                            # Get methylation value from PAT pattern
+                            relative_cpg_pos = cpg_index - pat_cpg_start
+                            
+                            if 0 <= relative_cpg_pos < len(imputed_pattern):
+                                pat_base = imputed_pattern[relative_cpg_pos]
+                                if pat_base == 'C':
+                                    methyl_seq += '1'  # Methylated
+                                elif pat_base == 'T':
+                                    methyl_seq += '0'  # Unmethylated
+                                else:
+                                    # Should not happen after imputation, but fallback
+                                    methyl_seq += '2'  # Unknown
+                            else:
+                                methyl_seq += '2'  # Outside PAT range
+                        else:
+                            methyl_seq += '2'  # CpG not found in our data
+                    else:
+                        # This CpG is in context region (not covered by PAT) - mark as unknown
+                        methyl_seq += '2'
+                else:
+                    # Not an xCG pattern - not a CpG site
+                    methyl_seq += '2'
+            
+            # Create DNA sequence for the entire DMR region
+            dna_seq = create_3mer_sequence(overlap_ref_sequence)
+            
+            # CRITICAL FIX: Ensure DNA tokens match methylation characters
+            # With sliding window: DNA tokens = len(sequence) - 2, Methyl chars = len(sequence) - 2
+            dna_tokens = dna_seq.split()
+            if len(dna_tokens) != len(methyl_seq):
+                print(f"Warning: Token count mismatch - DNA: {len(dna_tokens)} tokens, Methyl: {len(methyl_seq)} chars", file=sys.stderr)
+                print(f"  Sequence length: {len(overlap_ref_sequence)}, Expected tokens: {max(0, len(overlap_ref_sequence) - 2)}", file=sys.stderr)
+                print(f"  DNA_seq: {dna_seq}", file=sys.stderr)
+                print(f"  Methyl_seq: {methyl_seq}", file=sys.stderr)
+                continue  # Skip this record if counts don't match
+            
+            # Only add record if we have meaningful data (not all 2s)
+            if dna_seq and methyl_seq and methyl_seq != '2' * len(methyl_seq):
+                # Replicate record based on read count for proper training weight
+                for _ in range(count):
+                    records.append({
+                        'DNA_seq': dna_seq,
+                        'Methyl_seq': methyl_seq,
+                        'DMR_Label': dmr_label
+                    })
+        
+        return records
+        
+    except Exception as e:
+        print(f"Warning: Error processing region {chr_name}:{genomic_start}-{genomic_end}: {e}", file=sys.stderr)
+        return []
+
+def write_csv_append(data, output_file, write_header=False):
+    """Write data to CSV file in append mode for memory efficiency"""
+    mode = 'w' if write_header else 'a'
+    with open(output_file, mode, newline='') as f:
+        writer = csv.writer(f)
+        if write_header:
+            writer.writerow(['DNA_seq', 'Methyl_seq', 'DMR_Label'])
+        for row in data:
+            writer.writerow([
+                row['DNA_seq'],
+                row['Methyl_seq'], 
+                row['DMR_Label']
+            ])
+
+def process_single_cell_type(cell_type: str, config: Dict, args, resume: bool = False, cpg_mapper=None, filter_sex_chroms=True):
+    """Process a single cell type with checkpoint support"""
+    print(f"\n{'='*60}", file=sys.stderr)
+    print(f"Processing Cell Type: {cell_type}", file=sys.stderr)
+    print(f"{'='*60}", file=sys.stderr)
+    
+    # Setup files
+    csv_file = config['csv_file']
+    pat_file = config['pat_file']
+    fasta_file = config['fasta_file']
+    output_file = config['output_file']
+    cpg_bed_file = config.get('cpg_bed_file')
+    
+    # Initialize components
+    checkpoint_file = f"{output_file}.checkpoint"
+    progress = ProgressTracker(checkpoint_file)
+    monitor = ResourceMonitor()
+    
+    # Check for resume
+    resumed = False
+    if resume:
+        resumed = progress.load_checkpoint()
+    
+    # Initialize output file
+    if not resumed and os.path.exists(output_file):
+        if not args.force:
+            print(f"Output file {output_file} exists. Use --force to overwrite.", file=sys.stderr)
+            return
+        os.remove(output_file)
+    
+    # Initialize CpG coordinate mapper if available (only if not provided)
+    if cpg_mapper is None:
+        if cpg_bed_file and os.path.exists(cpg_bed_file):
+            print(f"Loading CpG coordinate mapper from {cpg_bed_file}...", file=sys.stderr)
+            cpg_mapper = CpGCoordinateMapper(cpg_bed_file)
+        elif cpg_bed_file:
+            print(f"Warning: CpG bed file {cpg_bed_file} not found, using CSV coordinates directly", file=sys.stderr)
+    
+    # Load DMR regions (optionally filtered by specified DMR cell types)
+    dmr_regions = load_dmr_regions_from_csv(
+        csv_file,
+        target_cell_type=None,
+        cpg_mapper=cpg_mapper,
+        filter_sex_chroms=filter_sex_chroms,
+        allowed_cell_types=getattr(args, 'dmr_cell_types', None)
+    )
+    
+    # Build PAT index with CpG coordinates (FAST - load once, use many times)
+    print(f"Building PAT index for {cell_type}...", file=sys.stderr)
+    pat_index = build_pat_index_with_cpg_coords(pat_file)
+    
+    # Process regions
+    print(f"Processing {len(dmr_regions)} DMR regions (filtered by cell types if provided) for {cell_type}...", file=sys.stderr)
+    start_time = time.time()
+    
+    # Write header if not resuming
+    if not resumed:
+        write_csv_append([], output_file, write_header=True)
+    
+    with pysam.FastaFile(fasta_file) as fasta:
+        for i, (chr_name, genomic_start, genomic_end, cpg_start, cpg_end, dmr_label) in enumerate(tqdm(dmr_regions, desc=f"Processing {cell_type}")):
+            region_id = f"{chr_name}:{genomic_start}-{genomic_end}"
+            
+            # Skip if already processed (resume functionality)
+            if progress.is_processed(region_id):
+                continue
+            
+            region_start_time = time.time()
+            print(f"\n[{i+1}/{len(dmr_regions)}] Processing region {region_id} (CpG {cpg_start}-{cpg_end})", file=sys.stderr)
+            
+            records = process_dmr_region(
+                chr_name, genomic_start, genomic_end, cpg_start, cpg_end, 
+                dmr_label, pat_index, fasta
+            )
+            
+            # Write records incrementally
+            if records:
+                write_csv_append(records, output_file)
+            
+            # Update progress
+            progress.mark_processed(region_id, len(records))
+            
+            # Save checkpoint every 10 regions
+            if (i + 1) % 10 == 0:
+                progress.save_checkpoint()
+                monitor.log_usage(f"{cell_type} - Region {i+1}")
+            
+            region_time = time.time() - region_start_time
+            total_elapsed = time.time() - start_time
+            newly_processed = (i + 1) - len([r for r in dmr_regions[:i+1] if progress.is_processed(f"{r[0]}:{r[1]}-{r[2]}")])
+            avg_time_per_region = total_elapsed / max(1, newly_processed)  # Avoid division by zero
+            remaining_regions = len([r for r in dmr_regions[i+1:] if not progress.is_processed(f"{r[0]}:{r[1]}-{r[2]}")])
+            estimated_remaining = remaining_regions * avg_time_per_region
+            
+            print(f"  → Found {len(records)} records (Total: {progress.total_records})", file=sys.stderr)
+            print(f"  → Region: {region_time:.1f}s | Avg: {avg_time_per_region:.1f}s/region | Est. remaining: {estimated_remaining/60:.1f}min", file=sys.stderr)
+    
+    # Cleanup checkpoint
+    progress.cleanup()
+    monitor.log_usage(f"{cell_type} - COMPLETED")
+    
+    print(f"\nCompleted {cell_type}! Results saved to {output_file}", file=sys.stderr)
+    print(f"Final record count: {progress.total_records}", file=sys.stderr)
+
+def create_sample_config():
+    """Create a sample configuration file for multiple cell types"""
+    # Option 1: Collective CSV mode (Default)
+    collective_config = {
+        "collective_csv_mode": True,
+        "collective_csv_file": "hg38_all_cell_types.csv",
+        "fasta_file": "hg38.fa",
+        "cpg_bed_file": "../references/hg19/CpG.bed.gz",
+        "cell_types": {
+            "SkeletalMuscle_Sample1": {
+                "pat_file": "GSM5652205_Skeletal-Muscle-Z00000427.pat.gz",
+                "output_file": "skeletal_muscle_sample1_training_data.csv",
+                "cell_type": "SkeletalMuscle"
+            },
+            "SkeletalMuscle_Sample2": {
+                "pat_file": "GSM5652206_Skeletal-Muscle-Z00000428.pat.gz",
+                "output_file": "skeletal_muscle_sample2_training_data.csv",
+                "cell_type": "SkeletalMuscle"
+            },
+            "Lung": {
+                "pat_file": "GSM5652207_Lung-Z00000429.pat.gz",
+                "output_file": "lung_training_data.csv",
+                "cell_type": "Lung"
+            },
+            "Liver": {
+                "pat_file": "GSM5652208_Liver-Z00000430.pat.gz",
+                "output_file": "liver_training_data.csv",
+                "cell_type": "Liver"
+            }
+        }
+    }
+    
+    # Option 2: Individual CSV mode (legacy)
+    individual_config = {
+        "collective_csv_mode": False,
+        "cpg_bed_file": "../references/hg19/CpG.bed.gz",
+        "SkeletalMuscle": {
+            "csv_file": "hg38_Skeletal_Muscle.csv",
+            "pat_file": "GSM5652205_Skeletal-Muscle-Z00000427.pat.gz",
+            "fasta_file": "hg38.fa",
+            "output_file": "skeletal_muscle_training_data.csv"
+        },
+        "Lung": {
+            "csv_file": "hg38_Lung.csv", 
+            "pat_file": "GSM5652206_Lung-Z00000428.pat.gz",
+            "fasta_file": "hg38.fa",
+            "output_file": "lung_training_data.csv"
+        },
+        "Liver": {
+            "csv_file": "hg38_Liver.csv",
+            "pat_file": "GSM5652207_Liver-Z00000429.pat.gz", 
+            "fasta_file": "hg38.fa",
+            "output_file": "liver_training_data.csv"
+        }
+    }
+    
+    # Create collective mode config (default)
+    with open("cell_types_config_collective.json", "w") as f:
+        json.dump(collective_config, f, indent=2)
+    
+    # Create individual mode config (legacy)
+    with open("cell_types_config_individual.json", "w") as f:
+        json.dump(individual_config, f, indent=2)
+    
+    print("Created sample configuration files:", file=sys.stderr)
+    print("  - cell_types_config_collective.json (RECOMMENDED - uses one CSV with cell_type column)", file=sys.stderr)
+    print("  - cell_types_config_individual.json (legacy - separate CSV per cell type)", file=sys.stderr)
+    print("", file=sys.stderr)
+    print("For collective mode, your CSV should have format:", file=sys.stderr)
+    print("  cell_type,chr,start,end", file=sys.stderr)
+    print("  SkeletalMuscle,chr1,1000,2000", file=sys.stderr)
+    print("  Lung,chr1,1500,2500", file=sys.stderr)
+    print("  Liver,chr2,3000,4000", file=sys.stderr)
+    print("", file=sys.stderr)
+    print("For multiple samples of the same cell type, use unique keys with 'cell_type' field:", file=sys.stderr)
+    print("  \"Adipocytes_T7\": {", file=sys.stderr)
+    print("    \"pat_file\": \"sample1.pat.gz\",", file=sys.stderr)
+    print("    \"output_file\": \"adipocytes_t7.csv\",", file=sys.stderr)
+    print("    \"cell_type\": \"Adipocytes\"", file=sys.stderr)
+    print("  },", file=sys.stderr)
+    print("  \"Adipocytes_T9\": {", file=sys.stderr)
+    print("    \"pat_file\": \"sample2.pat.gz\",", file=sys.stderr)
+    print("    \"output_file\": \"adipocytes_t9.csv\",", file=sys.stderr)
+    print("    \"cell_type\": \"Adipocytes\"", file=sys.stderr)
+    print("  }", file=sys.stderr)
+    print("", file=sys.stderr)
+    print("Note: CpG coordinates are now automatically converted from genomic coordinates", file=sys.stderr)
+    print("using the CpG.bed.gz file specified in the configuration.", file=sys.stderr)
+
+def main():
+    parser = argparse.ArgumentParser(description='Optimized MethylBERT training data pipeline for multiple cell types')
+    
+    # Single cell type mode (backwards compatible)
+    parser.add_argument('--csv', help='CSV file with markers and genomic coordinates')
+    parser.add_argument('--pat', help='PAT file with methylation data')
+    parser.add_argument('--fasta', help='Reference genome FASTA file')
+    parser.add_argument('--cpg-bed', help='CpG bed file for accurate coordinate mapping (format: chr pos cpg_index)')
+    parser.add_argument('--output', help='Output CSV file')
+    parser.add_argument('--cell-type', help='Cell type name for single processing mode')
+    parser.add_argument('--filter-sex-chroms', dest='filter_sex_chroms', action='store_true', default=True, help='Filter out DMRs on chrX/chrY (default: True)')
+    parser.add_argument('--no-filter-sex-chroms', dest='filter_sex_chroms', action='store_false', help='Do not filter out DMRs on chrX/chrY')
+    
+    # Batch processing mode
+    parser.add_argument('--config', help='JSON configuration file for multiple cell types')
+    parser.add_argument('--cell-types', nargs='+', help='Specific cell types to process (default: all in config)')
+    parser.add_argument('--create-config', action='store_true', help='Create sample configuration files (collective and individual modes)')
+    parser.add_argument('--discover-cell-types', help='Discover cell types from collective CSV file (requires --csv with cell_type column)')
+    
+    # Processing options
+    parser.add_argument('--force', action='store_true', help='Overwrite existing output files')
+    parser.add_argument('--resume', action='store_true', help='Resume from checkpoint if available')
+    parser.add_argument('--parallel', type=int, default=1, help='Number of cell types to process in parallel (NOT IMPLEMENTED YET)')
+    
+    # New: DMR cell type filters
+    parser.add_argument('--dmr-cell-types', nargs='+', help="Only include DMR regions whose cell type matches any of these (case-insensitive, partial match; uses CSV column 'cell_type', 'Type', or 'DMR_cType')")
+    parser.add_argument('--dmr-cell-types-interactive', action='store_true', help='Enter DMR cell types interactively (one per line), end with a blank line')
+    
+    args = parser.parse_args()
+    
+    # Optional interactive entry of DMR cell types
+    if getattr(args, 'dmr_cell_types_interactive', False) and not getattr(args, 'dmr_cell_types', None):
+        print("Enter DMR cell types to include (one per line). Press Enter on an empty line to finish:", file=sys.stderr)
+        entered: List[str] = []
+        try:
+            while True:
+                line = input().strip()
+                if line == "":
+                    break
+                entered.append(line)
+        except EOFError:
+            pass
+        if entered:
+            args.dmr_cell_types = entered
+    
+    if args.create_config:
+        create_sample_config()
+        return
+    
+    if args.discover_cell_types:
+        try:
+            discovered_types = get_cell_types_from_csv(args.discover_cell_types)
+            print(f"\nDiscovered cell types from {args.discover_cell_types}:", file=sys.stderr)
+            for cell_type in sorted(discovered_types):
+                print(f"  - {cell_type}", file=sys.stderr)
+            return
+        except Exception as e:
+            print(f"Error discovering cell types: {e}", file=sys.stderr)
+            return
+    
+    print("Optimized MethylBERT Training Data Pipeline", file=sys.stderr)
+    print("=" * 50, file=sys.stderr)
+    
+    # Single cell type mode (backwards compatible)
+    if args.csv and args.pat and args.fasta and args.output:
+        cell_type = args.cell_type or "Unknown"
+        config = {
+            'csv_file': args.csv,
+            'pat_file': args.pat,
+            'fasta_file': args.fasta,
+            'output_file': args.output,
+            'cpg_bed_file': getattr(args, 'cpg_bed', None)
+        }
+        process_single_cell_type(cell_type, config, args, args.resume, filter_sex_chroms=args.filter_sex_chroms)
+        return
+    
+    # Batch processing mode
+    if not args.config:
+        print("Error: Either provide individual files (--csv, --pat, --fasta, --output) or --config for batch processing", file=sys.stderr)
+        print("Use --create-config to generate a sample configuration file", file=sys.stderr)
+        return
+    
+    if not os.path.exists(args.config):
+        print(f"Error: Configuration file {args.config} not found", file=sys.stderr)
+        return
+    
+    # Load and parse configuration
+    with open(args.config, 'r') as f:
+        config_data = json.load(f)
+    
+    # Detect configuration mode
+    collective_mode = config_data.get("collective_csv_mode", False)
+    
+    if collective_mode:
+        print("Using collective CSV mode", file=sys.stderr)
+        
+        # Get collective CSV file and common settings
+        collective_csv_file = config_data.get("collective_csv_file")
+        common_fasta_file = config_data.get("fasta_file")
+        common_cpg_bed_file = config_data.get("cpg_bed_file")
+        
+        if not collective_csv_file or not common_fasta_file:
+            print("Error: collective_csv_file and fasta_file are required for collective mode", file=sys.stderr)
+            return
+        
+        if not os.path.exists(collective_csv_file):
+            print(f"Error: Collective CSV file {collective_csv_file} not found", file=sys.stderr)
+            return
+        
+        # Load CpGCoordinateMapper ONCE if common_cpg_bed_file exists
+        shared_cpg_mapper = None
+        if common_cpg_bed_file and os.path.exists(common_cpg_bed_file):
+            print(f"Loading CpG coordinate mapper ONCE from {common_cpg_bed_file} for all cell types...", file=sys.stderr)
+            shared_cpg_mapper = CpGCoordinateMapper(common_cpg_bed_file)
+        
+        # Auto-discover cell types from CSV if not specified
+        if args.cell_types:
+            cell_types_to_process = args.cell_types
+            print(f"Processing specified cell types: {', '.join(cell_types_to_process)}", file=sys.stderr)
+        else:
+            discovered_cell_types = get_cell_types_from_csv(collective_csv_file)
+            
+            # Get configured cell types from the cell_type field in each entry
+            configured_cell_types = set()
+            for entry_key, entry_config in config_data.get("cell_types", {}).items():
+                cell_type = entry_config.get("cell_type", entry_key)  # Use cell_type field or fallback to key
+                configured_cell_types.add(cell_type)
+            
+            # Use intersection of discovered and configured cell types
+            cell_types_to_process = list(discovered_cell_types & configured_cell_types)
+            
+            if not cell_types_to_process:
+                print("Error: No matching cell types found between CSV and configuration", file=sys.stderr)
+                print(f"  CSV contains: {sorted(discovered_cell_types)}", file=sys.stderr)
+                print(f"  Config contains: {sorted(configured_cell_types)}", file=sys.stderr)
+                return
+        
+        print(f"Processing {len(cell_types_to_process)} cell types: {', '.join(cell_types_to_process)}", file=sys.stderr)
+        
+        # Process each cell type
+        overall_start = time.time()
+        processed_count = 0
+        
+        # Find all entries that match each cell type
+        for cell_type in cell_types_to_process:
+            matching_entries = []
+            for entry_key, entry_config in config_data.get("cell_types", {}).items():
+                entry_cell_type = entry_config.get("cell_type", entry_key)
+                if entry_cell_type == cell_type:
+                    matching_entries.append((entry_key, entry_config))
+            
+            if not matching_entries:
+                print(f"Warning: No configuration found for cell type {cell_type}", file=sys.stderr)
+                continue
+            
+            print(f"\nProcessing {len(matching_entries)} sample(s) for cell type: {cell_type}", file=sys.stderr)
+            
+            # Process each sample for this cell type
+            for sample_idx, (entry_key, cell_type_config) in enumerate(matching_entries):
+                processed_count += 1
+                
+                # Build individual cell type config
+                individual_config = {
+                    'csv_file': collective_csv_file,  # Use collective CSV
+                    'pat_file': cell_type_config.get('pat_file'),
+                    'fasta_file': common_fasta_file,  # Use common FASTA
+                    'output_file': cell_type_config.get('output_file'),
+                    'cpg_bed_file': common_cpg_bed_file  # Use common CpG bed file
+                }
+                
+                print(f"\n[{processed_count}] Starting {cell_type} sample {sample_idx+1}/{len(matching_entries)} ({entry_key})...", file=sys.stderr)
+                
+                try:
+                    process_single_cell_type(cell_type, individual_config, args, args.resume, cpg_mapper=shared_cpg_mapper, filter_sex_chroms=args.filter_sex_chroms)
+                except Exception as e:
+                    print(f"Error processing {cell_type} sample {entry_key}: {e}", file=sys.stderr)
+                    if not args.force:
+                        print("Use --force to continue processing other cell types after errors", file=sys.stderr)
+                        break
+    
+    else:
+        print("Using individual CSV mode (legacy)", file=sys.stderr)
+        
+        # Legacy mode: separate CSV files per cell type
+        cell_config = CellTypeConfig(args.config)
+        
+        cell_types_to_process = args.cell_types or cell_config.get_cell_types()
+        
+        if not cell_types_to_process:
+            print("No cell types to process", file=sys.stderr)
+            return
+        
+        print(f"Processing {len(cell_types_to_process)} cell types: {', '.join(cell_types_to_process)}", file=sys.stderr)
+        
+        # Get common CpG bed file if specified
+        common_cpg_bed_file = config_data.get("cpg_bed_file")
+        
+        # Load CpGCoordinateMapper ONCE if common_cpg_bed_file exists
+        shared_cpg_mapper = None
+        if common_cpg_bed_file and os.path.exists(common_cpg_bed_file):
+            print(f"Loading CpG coordinate mapper ONCE from {common_cpg_bed_file} for all cell types...", file=sys.stderr)
+            shared_cpg_mapper = CpGCoordinateMapper(common_cpg_bed_file)
+        
+        # Process each cell type
+        overall_start = time.time()
+        for i, cell_type in enumerate(cell_types_to_process):
+            config = cell_config.get_config(cell_type)
+            if not config:
+                print(f"Warning: No configuration found for cell type {cell_type}", file=sys.stderr)
+                continue
+            
+            # Add CpG bed file to config if not already present
+            if common_cpg_bed_file and 'cpg_bed_file' not in config:
+                config['cpg_bed_file'] = common_cpg_bed_file
+                
+            print(f"\n[{i+1}/{len(cell_types_to_process)}] Starting {cell_type}...", file=sys.stderr)
+            
+            try:
+                process_single_cell_type(cell_type, config, args, args.resume, cpg_mapper=shared_cpg_mapper, filter_sex_chroms=args.filter_sex_chroms)
+            except Exception as e:
+                print(f"Error processing {cell_type}: {e}", file=sys.stderr)
+                if not args.force:
+                    print("Use --force to continue processing other cell types after errors", file=sys.stderr)
+                    break
+    
+    overall_time = time.time() - overall_start
+    print(f"\nBatch processing completed in {overall_time/60:.1f} minutes", file=sys.stderr)
+
+if __name__ == "__main__":
+    main() 

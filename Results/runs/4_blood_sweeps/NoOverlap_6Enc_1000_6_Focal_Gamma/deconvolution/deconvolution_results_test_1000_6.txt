@@ -1,0 +1,23 @@
+CELL TYPE DECONVOLUTION RESULTS
+============================================================
+Input file: test_1000_6.csv
+Model directory: Training/Run_Result/bert.model
+Device: cuda:0
+Total reads: 154757
+
+FINAL VERDICT:
+  Dominant Cell Type: Class_0
+  Percentage: 20.87%
+  Overall Confidence: 0.236
+
+CELL TYPE BREAKDOWN:
+  Class_0: 32295 reads (20.87%)
+  Class_1: 22596 reads (14.6%)
+  Class_2: 21970 reads (14.2%)
+  Class_3: 24317 reads (15.71%)
+  Class_4: 25874 reads (16.72%)
+  Class_5: 27705 reads (17.9%)
+
+CONFIDENCE ANALYSIS:
+  Overall Average Confidence: 0.236
+  Overall Confidence Std: 0.037

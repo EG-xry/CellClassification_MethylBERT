@@ -1,0 +1,45 @@
+Total number of unique cell types: 39
+
+Cell type counts:
+----------------------------------------
+Blood-T: 22
+Head-Neck-Ep: 13
+Blood-Mono+Macro: 11
+Gastric-Ep: 11
+Neuron: 10
+Colon-Ep: 8
+Kidney-Ep: 7
+Heart-Cardio: 6
+Liver-Hep: 6
+Smooth-Musc: 5
+Blood-B: 5
+Bladder-Ep: 5
+Small-Int-Ep: 5
+Oligodend: 4
+Pancreas-Duct: 4
+Pancreas-Acinar: 4
+Ovary-Ep: 4 
+Prostate-Ep: 4 
+Breast-Basal-Ep: 4
+Heart-Fibro: 4
+Lung-Ep-Alveo: 4
+Adipocytes: 3
+Pancreas-Delta: 3
+Pancreas-Beta: 3
+Pancreas-Alpha: 3
+Thyroid-Ep: 3
+Fallopian-Ep: 3
+Eryth-prog: 3
+Blood-NK: 3
+Blood-Granul: 3
+Lung-Ep-Bron: 3
+Breast-Luminal-Ep: 3
+Colon-Fibro: 2
+Skeletal-Musc: 2
+Dermal-Fibro: 1
+Bone-Osteob: 1
+Epid-Kerat: 1
+Gallbladder: 1
+
+Total samples: 206
+

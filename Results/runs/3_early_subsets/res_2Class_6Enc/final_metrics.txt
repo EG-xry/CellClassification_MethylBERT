@@ -1,0 +1,22 @@
+FINAL EVALUATION METRICS
+==================================================
+Overall Accuracy: 0.8297
+Macro F1-Score: 0.8211
+Weighted F1-Score: 0.8284
+Final Loss: 0.4419
+
+PER-CLASS ACCURACY
+------------------------------
+Pancreas-Acinar          : 0.8849
+Pancreas-Duct            : 0.7494
+
+CLASSIFICATION REPORT
+------------------------------
+                 precision    recall  f1-score   support
+
+Pancreas-Acinar       0.84      0.88      0.86    162859
+  Pancreas-Duct       0.82      0.75      0.78    111823
+
+       accuracy                           0.83    274682
+      macro avg       0.83      0.82      0.82    274682
+   weighted avg       0.83      0.83      0.83    274682

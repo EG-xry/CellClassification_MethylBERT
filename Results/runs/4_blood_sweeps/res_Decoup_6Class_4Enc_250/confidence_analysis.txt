@@ -1,0 +1,2310 @@
+CONFIDENCE PREDICTION ANALYSIS
+================================================================================
+Analysis of low confidence (top 15) and high confidence (top 15) predictions per true cell type
+================================================================================
+
+LOW CONFIDENCE PREDICTIONS
+================================================================================
+Top 15 unique lowest confidence predictions per true cell type
+================================================================================
+
+TRUE CELL TYPE: Blood-B
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GAA AAG AGT GTG TGT GTC TCT CTG TGC GCG CGG GGT GTG TGA GAG AGG GGG GGT GTG TGT
+      methyl_seq: 22222222212222222222
+      dmr_label: 1351
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B ✓
+      16.7% - Blood-Granul
+      16.6% - Eryth-prog
+
+ 2. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GTC TCA CAC ACA CAT ATG TGG GGC GCG CGA GAG AGA GAG AGA GAG AGA GAG AGA GAA AAC ACT CTC TCC CCC CCA CAG AGA GAC ACT CTC TCT CTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTG TGA GAA AAA AAT ATG TGG GGA GAG AGT GTC TCT CTC TCG CGC GCT CTG TGT GTG TGT GTC TCA CAG AGC GCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGC GCA CAC ACA CAA AAT ATC TCC CCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGC GCA CAT ATG TGC GCC CCA CAC ACC CCG CGC
+      methyl_seq: 22222222122222222222222222222222222222222222222222222202222222222222222222222222222222222222202222222222222222222222222222222222222222222022222222212
+      dmr_label: 1471
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-NK
+      16.7% - Blood-Granul
+      16.7% - Blood-B ✓
+
+ 3. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: TCA CAA AAG AGG GGA GAG AGA GAT ATC TCG CGA GAA AAG AGG GGG GGA GAC ACA CAG AGG
+      methyl_seq: 22222222212222222222
+      dmr_label: 830
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-NK
+      16.7% - Blood-T
+      16.7% - Blood-Granul
+      16.7% - Blood-B ✓ (not in top 4)
+
+ 4. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: GGT GTG TGG GGT GTG TGC GCG CGA GAT ATC TCA CAG AGA GAG AGC GCT CTC
+      methyl_seq: 22222212222222222
+      dmr_label: 1003
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-T
+      16.8% - Blood-NK
+      16.7% - Blood-Mono+Macro
+      16.7% - Blood-Granul
+      16.6% - Blood-B ✓ (not in top 4)
+
+ 5. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: AGG GGA GAA AAC ACA CAG AGA GAG AGC GCG CGA GAG AGG GGA GAA AAA AAC ACT CTG TGC
+      methyl_seq: 22222222212222222222
+      dmr_label: 1109
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-B ✓
+      16.7% - Blood-T
+      16.6% - Eryth-prog
+
+ 6. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: GCC CCC CCG
+      methyl_seq: 221
+      dmr_label: 1333
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-T
+      16.7% - Blood-NK
+      16.7% - Blood-B ✓
+      16.7% - Blood-Mono+Macro
+
+ 7. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCT CTG TGC GCA CAA AAC ACG CGC GCC CCC CCA CAT ATC TCA CAC ACA CAC
+      methyl_seq: 22222212222222222
+      dmr_label: 1264
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B ✓
+      16.7% - Blood-T
+      16.6% - Blood-NK
+
+ 8. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: TTC TCA CAC ACA CAC ACC CCA CAC ACC CCG
+      methyl_seq: 2222222221
+      dmr_label: 4355
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-Granul
+      16.7% - Blood-NK
+      16.7% - Blood-B ✓
+
+ 9. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GTG TGA GAG AGC GCT CTA TAC ACC CCG
+      methyl_seq: 222222221
+      dmr_label: 565
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-Granul
+      16.7% - Eryth-prog
+      16.7% - Blood-B ✓
+
+10. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCA CAT ATC TCC CCA CAG AGC GCG
+      methyl_seq: 22222221
+      dmr_label: 4173
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-T
+      16.7% - Blood-NK
+      16.7% - Blood-B ✓
+
+11. Confidence: 16.8% | Predicted: Blood-B
+    Read Information:
+      dna_seq: GCC CCA CAG AGG GGA GAG AGT GTT TTC TCG CGG GGG GGA GAA AAA AAG AGA GAG AGG GGA GAA AAA AAT ATG TGG GGT GTT TTG TGG GGA GAT ATC TCG CGG GGT GTG TGG GGA GAG AGC GCA CAC ACA CAG AGG GGG GGG GGG GGG GGT GTT TTT TTT TTT TTA TAG AGG GGG GGC GCT CTG TGT GTG TGA GAA AAA AAC ACT CTA TAA AAC ACG CGT GTG TGA GAA AAC
+      methyl_seq: 22222222212222222222222222222222122222222222222222222222222222222222222022222
+      dmr_label: 594
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-B ✓
+      16.7% - Blood-Granul
+      16.7% - Blood-NK
+      16.7% - Eryth-prog
+
+12. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: TGT GTC TCA CAC ACA CAT ATC TCT CTC TCG CGA GAG AGG GGA GAC ACA CAA AAG AGC GCT
+      methyl_seq: 22222222212222222222
+      dmr_label: 755
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-T
+      16.7% - Blood-B ✓
+      16.6% - Blood-Granul
+
+13. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: ACT CTC TCA CAC ACT CTG TGT GTG TGC GCG
+      methyl_seq: 2222222221
+      dmr_label: 4374
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B ✓
+      16.6% - Blood-T
+      16.6% - Blood-Granul
+
+14. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCC CCA CAC ACC CCC CCG CGC GCC CCT CTC
+      methyl_seq: 22222222212222
+      dmr_label: 587
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-T
+      16.7% - Blood-B ✓
+      16.7% - Blood-Granul
+
+15. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: GCC CCA CAG AGG GGA GAG AGT GTT TTC TCG CGG GGG GGA GAA AAA AAG AGA GAG AGG GGA GAA AAA AAT ATG TGG GGT GTT TTG TGG GGA GAT ATC TCG CGG GGT GTG TGG GGA GAG AGC GCA CAC ACA
+      methyl_seq: 2222222221222222222222222222222202222222222
+      dmr_label: 594
+      ctype: Blood-B
+    Probability Distribution:
+      16.8% - Blood-T
+      16.8% - Eryth-prog
+      16.7% - Blood-NK
+      16.6% - Blood-Mono+Macro
+      16.5% - Blood-B ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Blood-Granul
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: GGA GAA AAG AGA GAA AAG AGG GGA GAC ACG
+      methyl_seq: 2222222221
+      dmr_label: 4386
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-Granul ✓
+      16.7% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.7% - Blood-NK
+
+ 2. Confidence: 16.8% | Predicted: Blood-B
+    Read Information:
+      dna_seq: GTG TGC GCT CTC TCC CCG CGT GTC TCC CCT CTC TCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA
+      methyl_seq: 2222212222222212222222222
+      dmr_label: 977
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-B
+      16.7% - Eryth-prog
+      16.7% - Blood-Mono+Macro
+      16.7% - Blood-T
+      16.5% - Blood-Granul ✓ (not in top 4)
+
+ 3. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: AGG GGA GAA AAC ACA CAG AGA GAG AGC GCG CGA GAG AGG GGA GAA AAA AAC ACT CTG TGC
+      methyl_seq: 22222222212222222222
+      dmr_label: 1109
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-B
+      16.7% - Blood-T
+      16.6% - Eryth-prog
+      16.6% - Blood-Granul ✓ (not in top 4)
+
+ 4. Confidence: 16.8% | Predicted: Blood-B
+    Read Information:
+      dna_seq: TGT GTG TGA GAT ATC TCC CCA CAC ACC CCG
+      methyl_seq: 2222222221
+      dmr_label: 421
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-B
+      16.7% - Blood-NK
+      16.7% - Blood-Granul ✓
+      16.7% - Blood-Mono+Macro
+
+ 5. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: TCA CAC ACA CAT ATA TAG AGC GCA CAC ACG CGA GAG AGA GAT ATA TAA AAT ATT TTC TCT CTA TAT ATT TTT TTT TTG TGA GAA AAA AAT ATC TCA CAC ACA CAG AGC GCA CAG AGT GTG TGG GGC GCA CAC ACC CCC CCA CAG AGA GAG AGG GGC GCG CGG GGA GAC ACA CAC ACT CTC TCC CCC CCC
+      methyl_seq: 222222222122222222222222222222222222222222222222222202222222222
+      dmr_label: 1034
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-Granul ✓
+      16.7% - Blood-T
+      16.7% - Blood-NK
+      16.7% - Eryth-prog
+
+ 6. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: GCC CCC CCG
+      methyl_seq: 221
+      dmr_label: 1333
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-T
+      16.7% - Blood-NK
+      16.7% - Blood-B
+      16.7% - Blood-Mono+Macro
+      16.6% - Blood-Granul ✓ (not in top 4)
+
+ 7. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCT CTG TGC GCA CAA AAC ACG CGC GCC CCC CCA CAT ATC TCA CAC ACA CAC
+      methyl_seq: 22222212222222222
+      dmr_label: 1264
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.7% - Blood-T
+      16.6% - Blood-NK
+      16.6% - Blood-Granul ✓ (not in top 4)
+
+ 8. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GTG TGA GAG AGC GCT CTA TAC ACC CCG
+      methyl_seq: 222222221
+      dmr_label: 565
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-Granul ✓
+      16.7% - Eryth-prog
+      16.7% - Blood-B
+
+ 9. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: CAG AGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGT GTG TGG GGT GTG TGG GGA
+      methyl_seq: 222222222022222222222222222222222222212222222222
+      dmr_label: 972
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-Granul ✓
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-T
+      16.7% - Blood-NK
+
+10. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCA CAT ATC TCC CCA CAG AGC GCG
+      methyl_seq: 22222221
+      dmr_label: 4173
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-T
+      16.7% - Blood-NK
+      16.7% - Blood-B
+      16.6% - Blood-Granul ✓ (not in top 4)
+
+11. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: TGC GCA CAG AGT GTG TGG GGT GTG TGC GCG CGA GAT ATC TCT CTC
+      methyl_seq: 222222222022222
+      dmr_label: 1350
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-Granul ✓
+      16.8% - Blood-NK
+      16.6% - Blood-B
+
+12. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: CCA CAC ACC CCT CTG TGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC CCA CAC ACG CGC GCC CCG
+      methyl_seq: 22222222212222222222222222222222222220222222222221221
+      dmr_label: 1130
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-Granul ✓
+      16.7% - Blood-T
+      16.7% - Eryth-prog
+      16.7% - Blood-Mono+Macro
+
+13. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: ACT CTC TCA CAC ACT CTG TGT GTG TGC GCG
+      methyl_seq: 2222222221
+      dmr_label: 4374
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.6% - Blood-T
+      16.6% - Blood-Granul ✓
+
+14. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCC CCA CAC ACC CCC CCG CGC GCC CCT CTC
+      methyl_seq: 22222222212222
+      dmr_label: 587
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-T
+      16.7% - Blood-B
+      16.7% - Blood-Granul ✓
+
+15. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: CCA CAC ACC CCA CAT ATG TGC GCC CCC CCG CGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTT TTT TTT TTT TTT TTA TAT ATA TAT ATT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACA CAG AGG GGG GGT GTT TTT TTC TCA CAC ACC CCA CAT ATA TAT ATT TTA TAG AGG GGC GCA CAG AGG GGA GAT ATG TGG GGT GTC TCT CTC TCG CGA GAT ATC TCT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCG CGT GTG TGA GAT ATC TCC
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222222122222222222221222222
+      dmr_label: 439
+      ctype: Blood-Granul
+    Probability Distribution:
+      16.8% - Blood-Granul ✓
+      16.8% - Blood-T
+      16.7% - Blood-NK
+      16.7% - Eryth-prog
+
+============================================================
+
+TRUE CELL TYPE: Blood-Mono+Macro
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GAA AAG AGT GTG TGT GTC TCT CTG TGC GCG CGG GGT GTG TGA GAG AGG GGG GGT GTG TGT
+      methyl_seq: 22222222212222222222
+      dmr_label: 1351
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro ✓
+      16.7% - Blood-B
+      16.7% - Blood-Granul
+      16.6% - Eryth-prog
+
+ 2. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: GGA GAA AAG AGA GAA AAG AGG GGA GAC ACG
+      methyl_seq: 2222222221
+      dmr_label: 4386
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-Granul
+      16.7% - Blood-Mono+Macro ✓
+      16.7% - Blood-B
+      16.7% - Blood-NK
+
+ 3. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: AGG GGT GTG TGG GGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTC TCG CGA GAG AGA GAC ACC CCA CAG AGC GCC CCT CTG TGA GAC ACC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCA CAT ATC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCG CGA GAG AGC GCG CGT GTG TGG GGT GTG TGG GGT GTG TGC GCA
+      methyl_seq: 2222222221222222222222212222222222222222222222222222222222222222222222222222222222122202222222222
+      dmr_label: 850
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-T
+      16.7% - Eryth-prog
+      16.7% - Blood-NK
+      16.6% - Blood-Granul
+      16.6% - Blood-Mono+Macro ✓ (not in top 4)
+
+ 4. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: AGG GGA GAA AAC ACA CAG AGA GAG AGC GCG CGA GAG AGG GGA GAA AAA AAC ACT CTG TGC
+      methyl_seq: 22222222212222222222
+      dmr_label: 1109
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-B
+      16.7% - Blood-T
+      16.6% - Eryth-prog
+      16.5% - Blood-Mono+Macro ✓ (not in top 4)
+
+ 5. Confidence: 16.8% | Predicted: Blood-B
+    Read Information:
+      dna_seq: TGT GTG TGA GAT ATC TCC CCA CAC ACC CCG
+      methyl_seq: 2222222221
+      dmr_label: 421
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-B
+      16.7% - Blood-NK
+      16.7% - Blood-Granul
+      16.7% - Blood-Mono+Macro ✓
+
+ 6. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: GCC CCC CCG
+      methyl_seq: 221
+      dmr_label: 1333
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-T
+      16.7% - Blood-NK
+      16.7% - Blood-B
+      16.7% - Blood-Mono+Macro ✓
+
+ 7. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: TTC TCA CAC ACA CAC ACC CCA CAC ACC CCG
+      methyl_seq: 2222222221
+      dmr_label: 4355
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro ✓
+      16.8% - Blood-Granul
+      16.7% - Blood-NK
+      16.7% - Blood-B
+
+ 8. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GTG TGA GAG AGC GCT CTA TAC ACC CCG
+      methyl_seq: 222222221
+      dmr_label: 565
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro ✓
+      16.7% - Blood-Granul
+      16.7% - Eryth-prog
+      16.7% - Blood-B
+
+ 9. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: CAG AGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGT GTG TGG GGT GTG TGG GGA
+      methyl_seq: 222222222022222222222222222222222222212222222222
+      dmr_label: 972
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-Granul
+      16.8% - Blood-Mono+Macro ✓
+      16.7% - Blood-T
+      16.7% - Blood-NK
+
+10. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCA CAT ATC TCC CCA CAG AGC GCG
+      methyl_seq: 22222221
+      dmr_label: 4173
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro ✓
+      16.8% - Blood-T
+      16.7% - Blood-NK
+      16.7% - Blood-B
+
+11. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GAG AGA GAT ATC TCA CAC ACG CGC GCC CCA CAT ATT TTG TGC GCA CAC ACT
+      methyl_seq: 22222212222222222
+      dmr_label: 1134
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro ✓
+      16.8% - Blood-Granul
+      16.8% - Blood-NK
+      16.7% - Blood-T
+
+12. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: TGC GCA CAG AGT GTG TGG GGT GTG TGC GCG CGA GAT ATC TCT CTC
+      methyl_seq: 222222222022222
+      dmr_label: 1350
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro ✓
+      16.8% - Blood-Granul
+      16.8% - Blood-NK
+      16.6% - Blood-B
+
+13. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: TGT GTC TCA CAC ACA CAT ATC TCT CTC TCG CGA GAG AGG GGA GAC ACA CAA AAG AGC GCT
+      methyl_seq: 22222222212222222222
+      dmr_label: 755
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-T
+      16.7% - Blood-B
+      16.6% - Blood-Granul
+      16.6% - Blood-Mono+Macro ✓ (not in top 4)
+
+14. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: ACT CTC TCA CAC ACT CTG TGT GTG TGC GCG
+      methyl_seq: 2222222221
+      dmr_label: 4374
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro ✓
+      16.7% - Blood-B
+      16.6% - Blood-T
+      16.6% - Blood-Granul
+
+15. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCC CCA CAC ACC CCC CCG CGC GCC CCT CTC
+      methyl_seq: 22222222212222
+      dmr_label: 793
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-T
+      16.7% - Blood-B
+      16.7% - Blood-Granul
+      16.6% - Blood-Mono+Macro ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Blood-NK
+------------------------------------------------------------
+
+ 1. Confidence: 16.7% | Predicted: Blood-B
+    Read Information:
+      dna_seq: GGA GAG AGG GGT GTT TTG TGC GCG CGG GGT GTG TGA GAG AGC GCT CTG TGA GAG
+      methyl_seq: 222222212222222222
+      dmr_label: 885
+      ctype: Blood-NK
+    Probability Distribution:
+      16.7% - Blood-B
+      16.7% - Eryth-prog
+      16.7% - Blood-Mono+Macro
+      16.6% - Blood-T
+      16.6% - Blood-NK ✓ (not in top 4)
+
+ 2. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GAA AAG AGT GTG TGT GTC TCT CTG TGC GCG CGG GGT GTG TGA GAG AGG GGG GGT GTG TGT
+      methyl_seq: 22222222212222222222
+      dmr_label: 1351
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.7% - Blood-Granul
+      16.6% - Eryth-prog
+      16.6% - Blood-NK ✓ (not in top 4)
+
+ 3. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: AGG GGA GAA AAC ACA CAG AGA GAG AGC GCG CGA GAG AGG GGA GAA AAA AAC ACT CTG TGC
+      methyl_seq: 22222222212222222222
+      dmr_label: 1109
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-NK ✓
+      16.7% - Blood-B
+      16.7% - Blood-T
+      16.6% - Eryth-prog
+
+ 4. Confidence: 16.8% | Predicted: Blood-B
+    Read Information:
+      dna_seq: TGT GTG TGA GAT ATC TCC CCA CAC ACC CCG
+      methyl_seq: 2222222221
+      dmr_label: 421
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-B
+      16.7% - Blood-NK ✓
+      16.7% - Blood-Granul
+      16.7% - Blood-Mono+Macro
+
+ 5. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: GCC CCC CCG
+      methyl_seq: 221
+      dmr_label: 1506
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-T
+      16.7% - Blood-NK ✓
+      16.7% - Blood-B
+      16.7% - Blood-Mono+Macro
+
+ 6. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCT CTG TGC GCA CAA AAC ACG CGC GCC CCC CCA CAT ATC TCA CAC ACA CAC
+      methyl_seq: 22222212222222222
+      dmr_label: 1264
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.7% - Blood-T
+      16.6% - Blood-NK ✓
+
+ 7. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: TTC TCA CAC ACA CAC ACC CCA CAC ACC CCG
+      methyl_seq: 2222222221
+      dmr_label: 4355
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-Granul
+      16.7% - Blood-NK ✓
+      16.7% - Blood-B
+
+ 8. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GTG TGA GAG AGC GCT CTA TAC ACC CCG
+      methyl_seq: 222222221
+      dmr_label: 565
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-Granul
+      16.7% - Eryth-prog
+      16.7% - Blood-B
+      16.6% - Blood-NK ✓ (not in top 4)
+
+ 9. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: CAG AGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGT GTG TGG GGT GTG TGG GGA
+      methyl_seq: 222222222022222222222222222222222222212222222222
+      dmr_label: 972
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-Granul
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-T
+      16.7% - Blood-NK ✓
+
+10. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCA CAT ATC TCC CCA CAG AGC GCG
+      methyl_seq: 22222221
+      dmr_label: 4173
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-T
+      16.7% - Blood-NK ✓
+      16.7% - Blood-B
+
+11. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: TGC GCA CAG AGT GTG TGG GGT GTG TGC GCG CGA GAT ATC TCT CTC
+      methyl_seq: 222222222022222
+      dmr_label: 1350
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-Granul
+      16.8% - Blood-NK ✓
+      16.6% - Blood-B
+
+12. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: ACT CTC TCA CAC ACT CTG TGT GTG TGC GCG
+      methyl_seq: 2222222221
+      dmr_label: 4374
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.6% - Blood-T
+      16.6% - Blood-Granul
+      16.6% - Blood-NK ✓ (not in top 4)
+
+13. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCC CCA CAC ACC CCC CCG CGC GCC CCT CTC
+      methyl_seq: 22222222212222
+      dmr_label: 587
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-NK ✓
+      16.7% - Blood-T
+      16.7% - Blood-B
+      16.7% - Blood-Granul
+
+14. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GAG AGG GGA GAT ATG TGC GCC CCC CCC CCG CGG GGG GGG GGA GAC ACC CCT CTC TCA CAC
+      methyl_seq: 22222222212222222222
+      dmr_label: 482
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-NK ✓
+      16.8% - Blood-T
+      16.7% - Blood-B
+
+15. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: CAT ATC TCA CAG AGC GCA CAC ACA CAC ACG
+      methyl_seq: 2222222221
+      dmr_label: 677
+      ctype: Blood-NK
+    Probability Distribution:
+      16.8% - Blood-T
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.7% - Blood-NK ✓
+
+============================================================
+
+TRUE CELL TYPE: Blood-T
+------------------------------------------------------------
+
+ 1. Confidence: 16.7% | Predicted: Blood-B
+    Read Information:
+      dna_seq: GGA GAG AGG GGT GTT TTG TGC GCG CGG GGT GTG TGA GAG AGC GCT CTG TGA GAG
+      methyl_seq: 222222212222222222
+      dmr_label: 885
+      ctype: Blood-T
+    Probability Distribution:
+      16.7% - Blood-B
+      16.7% - Eryth-prog
+      16.7% - Blood-Mono+Macro
+      16.6% - Blood-T ✓
+
+ 2. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: TTT TTT TTC TCC CCA CAG AGA GAG AGC GCG CGA GAC ACT CTG TGC GCA CAC ACC CCA CAT
+      methyl_seq: 22222222212222222222
+      dmr_label: 966
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-NK
+      16.7% - Blood-Granul
+      16.7% - Blood-T ✓
+
+ 3. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GAA AAG AGT GTG TGT GTC TCT CTG TGC GCG CGG GGT GTG TGA GAG AGG GGG GGT GTG TGT
+      methyl_seq: 22222222212222222222
+      dmr_label: 1351
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.7% - Blood-Granul
+      16.6% - Eryth-prog
+      16.6% - Blood-T ✓ (not in top 4)
+
+ 4. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: GGA GAA AAG AGA GAA AAG AGG GGA GAC ACG
+      methyl_seq: 2222222221
+      dmr_label: 4386
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-Granul
+      16.7% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.7% - Blood-NK
+      16.7% - Blood-T ✓ (not in top 4)
+
+ 5. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: ATG TGG GGT GTA TAC ACT CTG TGT GTC TCG CGT GTA TAA AAT ATA TAA AAT ATG TGG GGC GCG CGT GTA TAA AAG AGT GTC TCA CAG AGA GAT ATT TTC TCG CGC GCA CAC ACT CTT TTT TTC TCG CGA GAT ATC TCT CTT TTC TCC CCT CTG TGC
+      methyl_seq: 2222222221222222222202222222222221222222212222222222
+      dmr_label: 1229
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-T ✓
+      16.7% - Blood-NK
+      16.7% - Blood-Mono+Macro
+      16.7% - Blood-B
+
+ 6. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: AGG GGA GAA AAC ACA CAG AGA GAG AGC GCG CGA GAG AGG GGA GAA AAA AAC ACT CTG TGC
+      methyl_seq: 22222222212222222222
+      dmr_label: 1109
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-B
+      16.7% - Blood-T ✓
+      16.6% - Eryth-prog
+
+ 7. Confidence: 16.8% | Predicted: Blood-B
+    Read Information:
+      dna_seq: TGT GTG TGA GAT ATC TCC CCA CAC ACC CCG
+      methyl_seq: 2222222221
+      dmr_label: 421
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-B
+      16.7% - Blood-NK
+      16.7% - Blood-Granul
+      16.7% - Blood-Mono+Macro
+      16.5% - Blood-T ✓ (not in top 4)
+
+ 8. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCT CTG TGC GCA CAA AAC ACG CGC GCC CCC CCA CAT ATC TCA CAC ACA CAC
+      methyl_seq: 22222212222222222
+      dmr_label: 1264
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.7% - Blood-T ✓
+      16.6% - Blood-NK
+
+ 9. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: TTC TCA CAC ACA CAC ACC CCA CAC ACC CCG
+      methyl_seq: 2222222221
+      dmr_label: 4355
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-Granul
+      16.7% - Blood-NK
+      16.7% - Blood-B
+      16.5% - Blood-T ✓ (not in top 4)
+
+10. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GTG TGA GAG AGC GCT CTA TAC ACC CCG
+      methyl_seq: 222222221
+      dmr_label: 565
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-Granul
+      16.7% - Eryth-prog
+      16.7% - Blood-B
+      16.6% - Blood-T ✓ (not in top 4)
+
+11. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCA CAT ATC TCC CCA CAG AGC GCG
+      methyl_seq: 22222221
+      dmr_label: 4173
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-T ✓
+      16.7% - Blood-NK
+      16.7% - Blood-B
+
+12. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: TGT GTC TCA CAC ACA CAT ATC TCT CTC TCG CGA GAG AGG GGA GAC ACA CAA AAG AGC GCT
+      methyl_seq: 22222222212222222222
+      dmr_label: 755
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-T ✓
+      16.7% - Blood-B
+      16.6% - Blood-Granul
+
+13. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: ACT CTC TCA CAC ACT CTG TGT GTG TGC GCG
+      methyl_seq: 2222222221
+      dmr_label: 4374
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.6% - Blood-T ✓
+      16.6% - Blood-Granul
+
+14. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCC CCA CAC ACC CCC CCG CGC GCC CCT CTC
+      methyl_seq: 22222222212222
+      dmr_label: 587
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-T ✓
+      16.7% - Blood-B
+      16.7% - Blood-Granul
+
+15. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: CAT ATC TCA CAG AGC GCA CAC ACA CAC ACG
+      methyl_seq: 2222222221
+      dmr_label: 677
+      ctype: Blood-T
+    Probability Distribution:
+      16.8% - Blood-T ✓
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.7% - Blood-NK
+
+============================================================
+
+TRUE CELL TYPE: Eryth-prog
+------------------------------------------------------------
+
+ 1. Confidence: 16.7% | Predicted: Blood-B
+    Read Information:
+      dna_seq: GGA GAG AGG GGT GTT TTG TGC GCG CGG GGT GTG TGA GAG AGC GCT CTG TGA GAG
+      methyl_seq: 222222212222222222
+      dmr_label: 885
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.7% - Blood-B
+      16.7% - Eryth-prog ✓
+      16.7% - Blood-Mono+Macro
+      16.6% - Blood-T
+
+ 2. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: GGA GAA AAG AGA GAA AAG AGG GGA GAC ACG
+      methyl_seq: 2222222221
+      dmr_label: 4386
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-Granul
+      16.7% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.7% - Blood-NK
+      16.4% - Eryth-prog ✓ (not in top 4)
+
+ 3. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: CCT CTG TGC GCC CCA CAT ATC TCA CAC ACG CGC GCC CCT CTG TGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTT TTT TTA TAT ATT TTT TTT TTT TTA TAG AGT GTG TGG GGA GAG AGA GAT ATG TGG GGA GAG AGT GTT TTT TTC TCA CAC ACC CCA CAT ATA TAT ATT TTA TAG AGC GCC CCA CAG AGG GGC GCT CTG TGG GGT GTC TCT CTC TCG CGA GAA AAC ACC CCC CCC CCT CTG TGA GAC ACC CCT CTC TCA CAG AGG GGT GTG TGA GAT ATC TCC CCA CAC ACC CCC CCG
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222221222222222222222222222222220
+      dmr_label: 847
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-T
+      16.8% - Eryth-prog ✓
+      16.7% - Blood-Granul
+      16.7% - Blood-NK
+
+ 4. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: AGG GGA GAA AAC ACA CAG AGA GAG AGC GCG CGA GAG AGG GGA GAA AAA AAC ACT CTG TGC
+      methyl_seq: 22222222212222222222
+      dmr_label: 1109
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-B
+      16.7% - Blood-T
+      16.6% - Eryth-prog ✓
+
+ 5. Confidence: 16.8% | Predicted: Blood-B
+    Read Information:
+      dna_seq: TGT GTG TGA GAT ATC TCC CCA CAC ACC CCG
+      methyl_seq: 2222222221
+      dmr_label: 421
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-B
+      16.7% - Blood-NK
+      16.7% - Blood-Granul
+      16.7% - Blood-Mono+Macro
+      16.6% - Eryth-prog ✓ (not in top 4)
+
+ 6. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: TCA CAC ACA CAT ATA TAG AGC GCA CAC ACG CGA GAG AGA GAT ATA TAA AAT ATT TTC TCT CTA TAT ATT TTT TTT TTG TGA GAA AAA AAT ATC TCA CAC ACA CAG AGC GCA CAG AGT GTG TGG GGC GCA CAC ACC CCC CCA CAG AGA GAG AGG GGC GCG CGG GGA GAC ACA CAC ACT CTC TCC CCC CCC
+      methyl_seq: 222222222122222222222222222222222222222222222222222202222222222
+      dmr_label: 1034
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-Granul
+      16.7% - Blood-T
+      16.7% - Blood-NK
+      16.7% - Eryth-prog ✓
+
+ 7. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: GCC CCC CCG
+      methyl_seq: 221
+      dmr_label: 1495
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-T
+      16.7% - Blood-NK
+      16.7% - Blood-B
+      16.7% - Blood-Mono+Macro
+      16.6% - Eryth-prog ✓ (not in top 4)
+
+ 8. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCT CTG TGC GCA CAA AAC ACG CGC GCC CCC CCA CAT ATC TCA CAC ACA CAC
+      methyl_seq: 22222212222222222
+      dmr_label: 1264
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-B
+      16.7% - Blood-T
+      16.6% - Blood-NK
+      16.6% - Eryth-prog ✓ (not in top 4)
+
+ 9. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: TTC TCA CAC ACA CAC ACC CCA CAC ACC CCG
+      methyl_seq: 2222222221
+      dmr_label: 4355
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-Granul
+      16.7% - Blood-NK
+      16.7% - Blood-B
+      16.5% - Eryth-prog ✓ (not in top 4)
+
+10. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GTG TGA GAG AGC GCT CTA TAC ACC CCG
+      methyl_seq: 222222221
+      dmr_label: 565
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-Granul
+      16.7% - Eryth-prog ✓
+      16.7% - Blood-B
+
+11. Confidence: 16.8% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: CAG AGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGT GTG TGG GGT GTG TGG GGA
+      methyl_seq: 222222222022222222222222222222222222212222222222
+      dmr_label: 972
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-Granul
+      16.8% - Blood-Mono+Macro
+      16.7% - Blood-T
+      16.7% - Blood-NK
+      16.5% - Eryth-prog ✓ (not in top 4)
+
+12. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCA CAT ATC TCC CCA CAG AGC GCG
+      methyl_seq: 22222221
+      dmr_label: 4173
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-T
+      16.7% - Blood-NK
+      16.7% - Blood-B
+      16.5% - Eryth-prog ✓ (not in top 4)
+
+13. Confidence: 16.8% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GAG AGA GAT ATC TCA CAC ACG CGC GCC CCA CAT ATT TTG TGC GCA CAC ACT
+      methyl_seq: 22222212222222222
+      dmr_label: 1134
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-Mono+Macro
+      16.8% - Blood-Granul
+      16.8% - Blood-NK
+      16.7% - Blood-T
+      16.5% - Eryth-prog ✓ (not in top 4)
+
+14. Confidence: 16.8% | Predicted: Blood-T
+    Read Information:
+      dna_seq: TGT GTG TGT GTT TTA TAA AAT ATG TGC GCG CGC GCT CTC TCA CAA AAA AAT ATA TAT ATG TGT GTC TCA CAA AAG AGT GTC TCC CCT CTG TGA GAT ATA TAT ATA TAA AAA AAC ACT CTC TCA CAA AAA AAG AGA GAT ATC TCA CAT ATA TAA AAC ACT CTA TAA AAT ATT TTC TCT CTT TTC TCC CCA CAT ATG TGC GCT CTT TTT TTC TCA CAA AAA AAT ATG TGA GAT ATT TTC TCA CAT ATG TGG GGA GAG AGG GGT GTG TGT GTA TAA AAG AGA GAT ATG TGT GTT TTT TTC TCT CTA TAT ATG TGC GCC CCT CTA TAG AGC GCA CAA AAT ATA TAT ATT TTC TCA CAG AGA GAA AAT ATG TGG GGA GAA AAA AAT ATT TTT TTC TCC CCT CTT TTC TCT CTT TTT TTA TAC ACC CCA CAA AAA AAA AAC ACC CCT CTG TGA GAT ATC TCA CAG AGT GTC TCC CCC CCT CTT TTT TTG TGA GAC ACT CTT TTT TTA TAA AAC ACA CAA AAA AAT ATT TTT TTG TGG GGC GCC CCA CAT ATG TGT GTA TAT ATG TGT GTC TCT CTT TTC TCT CTT TTT TTG TGA GAG AGG GGA GAT ATG TGT GTT TTT TTC TCA CAA AAC ACA CAC ACA CAA AAC ACG CGA GAT ATG TGG GGA GAC ACA CAA AAT ATT
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 794
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-T
+      16.8% - Blood-Granul
+      16.7% - Blood-NK
+      16.7% - Eryth-prog ✓
+
+15. Confidence: 16.8% | Predicted: Blood-NK
+    Read Information:
+      dna_seq: TGT GTC TCA CAC ACA CAT ATC TCT CTC TCG CGA GAG AGG GGA GAC ACA CAA AAG AGC GCT
+      methyl_seq: 22222222212222222222
+      dmr_label: 755
+      ctype: Eryth-prog
+    Probability Distribution:
+      16.8% - Blood-NK
+      16.7% - Blood-T
+      16.7% - Blood-B
+      16.6% - Blood-Granul
+      16.5% - Eryth-prog ✓ (not in top 4)
+
+============================================================
+
+
+
+HIGH CONFIDENCE PREDICTIONS
+================================================================================
+Top 15 unique highest confidence predictions per true cell type
+================================================================================
+
+TRUE CELL TYPE: Blood-B
+------------------------------------------------------------
+
+ 1. Confidence: 34.5% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CCC CCT CTC TCC CCC CCT CTG TGT GTC TCG CGC GCT CTG TGG GGC GCT CTG TGA GAC ACC CCC CCC CCT CTG TGG GGT GTT TTT TTA TAT ATG TGA GAG AGT GTA TAC ACG
+      methyl_seq: 2222222220222222222222222222222222220
+      dmr_label: 4204
+      ctype: Blood-B
+    Probability Distribution:
+      34.5% - Eryth-prog
+      13.1% - Blood-Granul
+      13.1% - Blood-T
+      13.1% - Blood-B ✓
+
+ 2. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GCT CTT TTG TGA GAA AAC ACC CCC CCG CGG GGA GAG AGG GGC GCA CAG AGA GAG AGG GGT GTC TCG CGC GCA CAG AGT GTG TGA GAG AGC GCT CTG TGA GAG AGA GAT ATC TCA CAG AGG GGC GCC CCA CAA AAT ATG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCG CGA GAC ACA CAG AGA GAG AGG GGG GGA GAG AGA GAC ACT CTC TCC CCG
+      methyl_seq: 222222220222222222222022222222222222222222222222222222222222202222222222222220
+      dmr_label: 4343
+      ctype: Blood-B
+    Probability Distribution:
+      34.3% - Eryth-prog
+      13.2% - Blood-Granul
+      13.1% - Blood-T
+      13.1% - Blood-B ✓
+
+ 3. Confidence: 34.2% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GAG AGG GGC GCA CAG AGG GGC GCG CGG GGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAA AAG AGA GAG AGA GAT ATT TTG TGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCT CTG TGT GTG TGC GCA CAT ATG TGG GGT GTG TGG GGT GTG TGC GCA CAC ACG CGC GCC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTC TCA CAG AGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATC TCG
+      methyl_seq: 22222221222222022222222222222222222222222222222222222222222022222222222222222222222222222222222222222220222222222222222222222222222222222222222220
+      dmr_label: 4333
+      ctype: Blood-B
+    Probability Distribution:
+      34.2% - Eryth-prog
+      13.2% - Blood-Granul
+      13.2% - Blood-T
+      13.1% - Blood-B ✓
+
+ 4. Confidence: 33.8% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GGA GAG AGT GTC TCT CTC TCG CGC GCT CTC TCT CTG TGT GTC TCA CAC ACT CTC TCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAA AAT ATG TGG GGC GCG CGC GCG CGA GAT ATT TTT TTT TTG TGG GGC GCT CTC TCA CAT ATT TTG TGC GCA CAA AAC ACC CCT CTC TCC CCA CAC ACC CCT CTC TCC CCT CTG TGG GGG GGT GTT TTC TCA CAA AAG AGC GCG CGA GAT ATT TTC TCT CTC TCC CCT CTA TAC ACC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGC GCT CTG TGC GCG CGA GAT ATT TTA TAC ACA CAG AGG GGC GCA CAC ACT CTC TCA CAC ACC CCA CAC ACC CCA CAC ACG CGC GCC CCC CCA CAG AGC GCT CTA TAA AAT ATT TTT TTT TTT TTC TCT CTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAT ATA TAG AGG GGG GGT GTT TTT TTC TCT CTC TCC CCA CAT ATG TGT GTT TTG TGG GGT GTC TCA CAG AGG GGG GGT GTG TGA GAC ACT CTT TTC TCA CAG AGG GGT GTG TGA GAT ATC TCT CTG TGC GCC CCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAT ATA TAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACT CTG
+      methyl_seq: 222222022222222222222222222222222222120222222222222222222222222222222222222222022222222222222222222222222222220222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4365
+      ctype: Blood-B
+    Probability Distribution:
+      33.8% - Eryth-prog
+      13.3% - Blood-Granul
+      13.2% - Blood-T
+      13.2% - Blood-NK
+      13.2% - Blood-B ✓ (not in top 4)
+
+ 5. Confidence: 33.8% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TGG GGC GCT CTG TGG GGT GTC TCT CTC TCG CGA GAA AAC ACT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCA CAA AAC ACT CTG TGA GAT ATC TCC CCA CAC ACC CCC CCA CAC ACC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAC ACT CTG TGC GCA CAG AGA GAT ATA TAG AGG GGC GCA CAT ATG TGA GAG AGC GCC CCA CAC ACC CCA CAC ACG CGC GCC CCC CCA CAG AGT GTC TCC CCC CCA
+      methyl_seq: 222222222022222222222222222222222222222220222222222222222222222222222222222222222222202222222222
+      dmr_label: 4194
+      ctype: Blood-B
+    Probability Distribution:
+      33.8% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T
+      13.2% - Blood-NK
+      13.2% - Blood-B ✓ (not in top 4)
+
+ 6. Confidence: 33.7% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TGC GCC CCT CTG TGT GTA TAG AGT GTC TCG CGT GTA TAG AGC GCT CTG TGC GCT CTT TTG TGG GGG GGA GAG AGG GGG GGT GTG TGA GAG AGG GGT GTA TAT ATG TGA GAG AGA GAA AAT ATC TCA CAC ACT CTT TTG TGA GAA AAC ACC CCC CCG CGG GGG GGA GAA AAG AGC GCG
+      methyl_seq: 22222222202222222222222222222222222222222222222222202222220
+      dmr_label: 4248
+      ctype: Blood-B
+    Probability Distribution:
+      33.7% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T
+      13.2% - Blood-NK
+      13.2% - Blood-B ✓ (not in top 4)
+
+ 7. Confidence: 33.6% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GAC ACG CGG GGG GGG GGC GCC CCT CTG TGC GCC CCT CTG TGG GGA GAG AGA GAC ACA CAG AGG GGG GGG GGC GCC CCA CAA AAG AGA GAC ACC CCG
+      methyl_seq: 20222222222222222222222222222220
+      dmr_label: 4271
+      ctype: Blood-B
+    Probability Distribution:
+      33.6% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T
+      13.3% - Blood-NK
+      13.2% - Blood-B ✓ (not in top 4)
+
+ 8. Confidence: 33.6% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GCC CCA CAC ACG CGG GGA GAC ACT CTG TGG GGT GTA TAC ACT CTG TGG GGT GTT TTT TTG TGT GTG TGG GGT GTC TCT CTG TGT GTT TTA TAG AGG GGA GAA AAC ACC CCG CGG GGG GGC GCT CTG TGC GCA CAC ACA CAG
+      methyl_seq: 22202222222222222222222222222222222202222222222
+      dmr_label: 4257
+      ctype: Blood-B
+    Probability Distribution:
+      33.6% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T
+      13.3% - Blood-Mono+Macro
+      13.3% - Blood-B ✓ (not in top 4)
+
+ 9. Confidence: 33.5% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GGC GCG CGC GCA CAC ACA CAG AGC GCC CCT CTG TGG GGT GTG TGC GCC CCG CGG GGA GAC ACC CCT CTG TGG GGT GTT TTA TAA AAA AAG AGG GGT GTC TCG CGA GAC ACC CCC CCC CCT CTG TGA GAC ACC CCT CTA TAA AAC ACT CTG TGG GGT GTT TTA TAT ATG TGT GTT TTA TAT ATC TCT CTA TAT ATA TAG AGA GAT ATT TTC TCC CCA CAG AGA GAC ACA CAT ATT TTG TGT GTA TAT ATG TGG GGA GAA AAA AAA AAG AGC GCA CAT ATT TTT TTT TTG TGA GAA AAA AAA AAT ATC TCC CCC CCT CTG TGT GTC TCC CCT CTG TGT GTT TTC TCT CTG TGT GTT TTC TCC CCG
+      methyl_seq: 2122222222222222122222222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 4363
+      ctype: Blood-B
+    Probability Distribution:
+      33.5% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T
+      13.3% - Blood-Mono+Macro
+      13.3% - Blood-B ✓ (not in top 4)
+
+10. Confidence: 33.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: ATG TGC GCA CAG AGA GAT ATA TAA AAC ACG CGC GCT CTG TGG GGG GGG GGA GAC ACT CTC TCA CAG AGA GAA AAG AGG GGT GTT TTG TGA GAG AGC GCC CCG CGA GAA AAG AGC GCT CTG TGC GCA CAG AGA
+      methyl_seq: 22222222202222222222222222222222202222222222
+      dmr_label: 4242
+      ctype: Blood-B
+    Probability Distribution:
+      33.4% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T
+      13.3% - Blood-NK
+      13.3% - Blood-B ✓ (not in top 4)
+
+11. Confidence: 32.8% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: ATT TTA TAG AGC GCC CCA CAA AAG AGC GCG CGT GTG TGG GGT GTG TGT GTT TTG TGG GGG GGC GCA CAC ACC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAG AGC GCT CTG TGC GCT CTC TCG CGG GGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATG TGG GGC GCG CGT GTG TGA GAA AAC ACC CCT CTG TGG GGG GGA GAG AGG GGC GCA CAG AGA GAG AGC GCT CTT TTA TAT ATA TAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC
+      methyl_seq: 2222222220222222222222222222222222222222202222222222222222222222202222222222222222222222222222222022222
+      dmr_label: 568
+      ctype: Blood-B
+    Probability Distribution:
+      32.8% - Eryth-prog
+      13.8% - Blood-B ✓
+      13.4% - Blood-T
+      13.4% - Blood-Mono+Macro
+
+12. Confidence: 32.8% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CCA CAA AAG AGC GCT CTG TGA GAA AAC ACG CGA GAG AGT GTA TAT ATT TTA TAT ATA TAC ACT CTA TAT ATC TCA CAC ACT CTG TGG GGC GCC CCC CCA CAC ACC CCC CCA CAT ATC TCT CTA TAC ACC CCA CAC ACT CTG TGG GGT GTA TAC ACT CTG TGA GAC ACT CTC TCG
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222220
+      dmr_label: 4361
+      ctype: Blood-B
+    Probability Distribution:
+      32.8% - Eryth-prog
+      13.5% - Blood-Granul
+      13.5% - Blood-T
+      13.4% - Blood-NK
+      13.4% - Blood-B ✓ (not in top 4)
+
+13. Confidence: 32.7% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: ATG TGA GAC ACC CCC CCC CCC CCA CAC ACG CGC GCA CAG AGA GAC ACT CTT TTA TAT ATC TCA CAG AGG GGG GGC GCA CAG AGA GAA AAA AAG AGC GCA CAC ACT CTA TAA AAA AAT ATA TAT ATT TTT TTG TGA GAA AAT ATA TAC ACT CTT TTT TTA TAC ACG CGG GGC GCC CCA CAC ACG
+      methyl_seq: 2222222220222222222222222222222222222222222222222222220222220
+      dmr_label: 4226
+      ctype: Blood-B
+    Probability Distribution:
+      32.7% - Eryth-prog
+      13.5% - Blood-Granul
+      13.5% - Blood-T
+      13.4% - Blood-Mono+Macro
+      13.4% - Blood-B ✓ (not in top 4)
+
+14. Confidence: 32.7% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGT GTG TGG GGG GGT GTG TGG GGA GAT ATC TCA CAC ACC CCT CTG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTC TCG
+      methyl_seq: 222222222022222222222222222222222222222220
+      dmr_label: 4269
+      ctype: Blood-B
+    Probability Distribution:
+      32.7% - Eryth-prog
+      13.5% - Blood-Granul
+      13.5% - Blood-T
+      13.5% - Blood-NK
+      13.4% - Blood-B ✓ (not in top 4)
+
+15. Confidence: 32.6% | Predicted: Blood-B
+    Read Information:
+      dna_seq: GCG CGC GCG CGG GGC GCT CTG TGG GGG GGT GTA TAC ACC CCC CCT CTG TGC GCT CTG TGC GCC CCT CTG TGC GCA CAG AGA GAG AGG GGG GGT GTC TCA CAG AGG GGC GCC CCA CAC ACA CAC ACA CAA AAA AAC ACC CCA CAG AGC GCA CAC ACC CCA CAC ACG CGG GGT GTA TAA AAC ACA CAA AAA AAC ACT CTA TAA AAC ACC CCG CGT GTG TGG GGG GGC GCC CCA CAG AGG GGC GCG CGC GCA CAG AGT GTG TGG GGC GCT CTC TCA CAC ACA CAC ACC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCA CAA AAG AGG GGC GCG CGG GGG GGC GCG CGG GGA GAT ATT TTA TAC ACC CCT CTG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATC TCG CGA GAG AGA GAC ACC CCA CAG AGC GCC CCT CTG TGA GAC ACC CCA CAG AGC GCA CAG AGG GGG GGA GAG AGA GAA AAA AAT ATC TCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAT ATT TTA TAG AGC GCC CCG CGG GGG GGG GGT GTG TGG GGT GTG TGG GGC GCG CGC GCA CAT ATG TGC GCC CCA CAG AGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTC TCA CAG AGG GGA GAG AGG GGA GAT ATG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATC TCG CGC GCT CTT TTG TGA GAA AAC ACC CCT CTG
+      methyl_seq: 02022222222222222222222222222222222222222222222222222202222222222222202222222222022222222222222222222222222222222222222222222022202222222222222222222222022222222222222222222222222222202222222222222222222222222202222222222022222222222222222222222222222222222222222222202222222222
+      dmr_label: 398
+      ctype: Blood-B
+    Probability Distribution:
+      32.6% - Blood-B ✓
+      13.5% - Eryth-prog
+      13.5% - Blood-NK
+      13.5% - Blood-Granul
+
+============================================================
+
+TRUE CELL TYPE: Blood-Granul
+------------------------------------------------------------
+
+ 1. Confidence: 34.5% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GCT CTG TGA GAA AAG AGG GGA GAG AGC GCG CGG GGG GGA GAG AGT GTT TTG TGC GCA CAT ATA TAT ATT TTT TTG TGG GGG GGT GTG TGT GTA TAG AGC GCT CTG TGG GGT GTA TAC ACC CCT CTC TCG CGT GTA TAC ACA CAC ACA CAG AGG GGA GAC ACC CCG CGT GTC TCA CAT ATA TAC ACA CAT ATG TGC GCC CCC CCC CCT CTG TGG GGA GAA AAA AAC ACC CCC CCC CCT CTT TTG TGC GCA CAA AAT ATC TCC CCA CAA AAA AAA AAA AAC ACC CCT CTA TAA AAA AAC ACA CAG AGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGT GTG TGT GTG TGA GAT ATT TTG TGA GAT ATC TCG CGA GAC ACA CAC ACT CTG TGT GTG TGC GCA
+      methyl_seq: 222222222022222222222222222222222222222222022222222222022222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4260
+      ctype: Blood-Granul
+    Probability Distribution:
+      34.5% - Eryth-prog
+      13.1% - Blood-Granul ✓
+      13.1% - Blood-T
+      13.1% - Blood-NK
+
+ 2. Confidence: 34.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GCG CGT GTC TCC CCT CTG TGG GGC GCC CCC CCA CAG AGA GAC ACC CCA CAC ACA CAG AGG GGC GCC CCG CGG GGT GTT TTC TCC CCT CTC TCT CTC TCG CGC GCC CCC CCA CAG AGG GGG GGG GGC GCT CTC TCA CAT ATT TTC TCA CAG AGC GCA CAG AGA GAC ACA CAC ACA CAG AGC GCT CTC TCC CCA CAG AGC GCT CTC TCC CCT CTC TCC CCT CTC TCT CTG TGT GTG TGT GTC TCC CCG
+      methyl_seq: 0222222222222222222222022222222202222222222222222222222222222222222222222222222220
+      dmr_label: 4215
+      ctype: Blood-Granul
+    Probability Distribution:
+      34.4% - Eryth-prog
+      13.1% - Blood-Granul ✓
+      13.1% - Blood-T
+      13.1% - Blood-Mono+Macro
+
+ 3. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CTG TGC GCT CTG TGC GCC CCA CAT ATC TCG CGG GGA GAG AGC GCC CCG CGT GTC TCT CTG TGG GGG GGG GGC GCC CCA CAC ACC CCA CAC ACC CCC CCA CAG AGA GAG AGG GGA GAC ACA CAA AAT ATG TGT GTT TTA TAA AAG AGG GGA GAT ATG TGA GAA AAA AAA AAT ATT TTC TCA CAG AGG GGG GGC GCC CCT CTC TCC CCA CAA AAT ATT TTA TAC ACA CAC ACA CAG AGA GAA AAA AAT ATC TCA CAA AAC ACA CAT ATA TAG AGC GCC CCA CAT ATG TGA GAA AAA AAT ATG TGA GAT ATA TAA AAG AGG GGA GAC ACA CAC ACC CCG CGC GCA CAG AGC GCT CTT TTC TCC CCT CTC TCT CTT TTT TTT TTA TAA AAG AGA GAA AAG AGA GAC ACA CAC ACA CAA AAG AGG GGC GCA CAG AGC GCC CCG CGG GGG GGC GCG CGC GCA CAG AGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC
+      methyl_seq: 2222222221222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220222222222222222222222222222222222022202222222222202222222222
+      dmr_label: 4253
+      ctype: Blood-Granul
+    Probability Distribution:
+      34.3% - Eryth-prog
+      13.2% - Blood-Granul ✓
+      13.1% - Blood-T
+      13.1% - Blood-Mono+Macro
+
+ 4. Confidence: 34.2% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CTC TCA CAA AAA AAT ATG TGT GTC TCC CCG CGT GTG TGG GGC GCG CGC GCG CGT GTG TGT GTG TGA GAG AGG GGT GTC TCT CTC TCC CCA CAG AGT GTC TCT CTC TCC CCA CAA AAG AGT GTC TCC CCC CCT CTT TTC TCA CAC ACT CTT TTA TAC ACC CCC CCT CTT TTT TTC TCC CCT CTC TCA CAG AGA GAC ACA CAC ACC CCG CGC GCT CTG TGG GGA GAG AGG GGC GCC CCA
+      methyl_seq: 2222222220222202022222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4380
+      ctype: Blood-Granul
+    Probability Distribution:
+      34.2% - Eryth-prog
+      13.2% - Blood-Granul ✓
+      13.2% - Blood-T
+      13.2% - Blood-NK
+
+ 5. Confidence: 34.1% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TCA CAG AGC GCA CAG AGG GGT GTA TAC ACG CGG GGG GGG GGG GGT GTC TCC CCT CTG TGA GAT ATA TAC ACA CAC ACC CCA CAG AGG GGC GCT CTG TGC GCT CTG TGC GCT CTG TGG GGG GGG GGG GGC GCA CAA AAG AGG GGA GAG AGG GGG GGC GCC CCA CAT ATC TCA CAC ACT CTT TTG TGG GGG GGG GGT GTG TGG GGT GTG TGG GGC GCA CAG AGA GAT ATC TCC CCA CAC ACG
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 4203
+      ctype: Blood-Granul
+    Probability Distribution:
+      34.1% - Eryth-prog
+      13.2% - Blood-Granul ✓
+      13.2% - Blood-T
+      13.2% - Blood-NK
+
+ 6. Confidence: 33.9% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GGG GGC GCA CAC ACG CGG GGT GTG TGG GGC GCT CTC TCA CAC ACT CTC TCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCA CAG AGG GGC GCA CAG AGA GAT ATT TTG TGC GCT CTT TTG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTC TCA CAA AAG AGA GAC ACT CTA TAG AGC GCC CCT CTG TGA GAC ACC CCA CAA AAC ACA CAT ATG TGA GAT ATA TAA AAA AAA AAC ACC CCC CCT CTG TGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATC TCA CAG AGC GCT CTG TGG GGG GGC GCG CGT GTG TGG GGT GTG TGG GGT GTG TGG GGG GGT GTG TGC GCC CCT CTG TGT GTA TAA AAT ATC TCT CTA TAA AAG AGC GCT CTA TAC ACT CTC TCA CAG AGG GGA GAA AAG AGC GCT CTG TGA GAG AGG GGC GCA CAG AGT GTA TAG AGA GAA AAT ATC TCG CGC GCT CTT TTG TGA GAA AAC ACC CCT CTG
+      methyl_seq: 2222022222222222222222222222222222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4403
+      ctype: Blood-Granul
+    Probability Distribution:
+      33.9% - Eryth-prog
+      13.3% - Blood-Granul ✓
+      13.2% - Blood-T
+      13.2% - Blood-Mono+Macro
+
+ 7. Confidence: 33.5% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CAA AAT ATT TTC TCA CAC ACC CCC CCC CCG CGT GTA TAA AAC ACA CAA AAA AAC ACC CCT CTG TGC GCA CAC ACA CAT ATG TGT GTA TAT ATC TCC CCT CTC TCT CTG TGA GAA AAA AAC ACT CTA TAA AAA AAA AAT ATA TAA AAA AAA AAG AGT GTT TTG TGA GAA AAA AAA AAA AAA AAA AAG AGG GGC GCC CCA CAG AGC GCC CCA CAC ACA CAC ACA CAG AGA GAG AGA GAT ATG TGA GAA AAG AGA GAC ACA CAG AGG GGG GGA GAA AAC ACC CCA CAA AAA AAG AGA GAC ACC CCC CCT CTC TCA CAC ACC CCA CAG AGC GCC CCC CCC CCA CAC ACA CAA AAT ATG TGG GGG GGG GGA GAA AAA AAA AAT ATG TGA GAG AGA GAT ATA TAA AAG AGC GCC CCT CTG TGC GCT CTG TGA GAA AAT ATA TAG AGA GAG AGA GAC ACA CAA AAC ACA CAG AGA GAC ACC CCA CAG AGA GAA AAA AAG AGG GGA GAA AAA AAG AGG GGA GAG AGA GAG AGG GGG GGC GCA CAG AGC GCC CCC CCC CCC CCG CGC GCC CCA CAT ATG TGT GTA TAT ATC TCA
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4176
+      ctype: Blood-Granul
+    Probability Distribution:
+      33.5% - Eryth-prog
+      13.3% - Blood-Granul ✓
+      13.3% - Blood-T
+      13.3% - Blood-NK
+
+ 8. Confidence: 33.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GAT ATT TTC TCA CAA AAT ATG TGA GAC ACG CGG GGT GTA TAC ACA CAG AGA GAC ACA CAG AGT GTA TAC ACA CAG AGG GGT GTC TCT CTC TCA CAT ATA TAT ATA TAC ACC CCC CCT CTC TCC CCA CAC ACC CCA CAG AGC GCT CTT TTT TTT TTC TCC CCT CTA TAA AAA AAG AGA GAT ATA TAA AAC ACG CGT GTC TCT CTT TTA TAC ACA CAT ATT TTA TAC ACG
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222222222220222222222220
+      dmr_label: 4359
+      ctype: Blood-Granul
+    Probability Distribution:
+      33.3% - Eryth-prog
+      13.4% - Blood-Granul ✓
+      13.3% - Blood-T
+      13.3% - Blood-NK
+
+ 9. Confidence: 33.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GAG AGC GCC CCC CCC CCG CGG GGC GCC CCT CTA TAC ACT CTC TCG CGA GAT ATT TTA TAT ATG TGT GTT TTA TAT ATC TCT CTG TGT GTA TAG AGA GAT ATT TTC TCC CCA CAG AGA GAC ACA CAT ATT TTG TGT GTA TAT ATG TGG GGA GAA AAA AAA AAG AGC GCA CAC ACT CTG TGT GTG TGA GAA AAA AAA AAC ACC CCC CCT CTT TTG TGT GTC TCC CCT CTG TGT GTT TTC TCT CTG TGT GTT TTC TCC CCA CAA AAT ATC TCT CTG TGA GAT ATT TTA TAC ACC CCG CGG GGT GTG TGC GCA CAT ATG TGC GCA CAG AGC GCC CCC CCC CCC CCA CAG AGT GTC TCG CGT GTG TGT GTA TAC ACC CCC
+      methyl_seq: 22222022222222022222222222222222222222222222222222222222222222222222222222222222222222222222222220222222222222222222202222222
+      dmr_label: 4291
+      ctype: Blood-Granul
+    Probability Distribution:
+      33.3% - Eryth-prog
+      13.4% - Blood-Granul ✓
+      13.4% - Blood-T
+      13.3% - Blood-Mono+Macro
+
+10. Confidence: 33.2% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: AAA AAA AAG AGC GCC CCT CTC TCA CAC ACG CGT GTG TGG GGA GAA AAA AAA AAG AGC GCC CCC CCT CTG TGG GGG GGT GTC TCA CAG AGC GCC CCC CCA CAG AGA GAT ATG TGA GAG AGC GCA CAG AGG GGG GGG GGC GCT CTC TCC CCA CAG AGG GGC GCC CCG CGC GCT CTC TCT CTG TGC GCT CTC TCA CAG AGG GGC GCA CAC ACA CAA AAG AGA GAG AGG GGG GGA GAT ATG TGT GTG TGG GGT GTC TCT CTC TCC CCG CGT GTA TAT ATC TCT CTA TAT ATA TAC ACA CAC ACA CAA AAA AAG AGA GAG AGG GGA GAA AAT ATG TGT GTG TGG GGT GTC TCT CTT TTC TCG CGT GTA TAT ATC TCT CTA TAT ATA TAC ACA CAG AGA GAA AAG AGA GAG AGG GGG GGA GAT ATG TGT GTG TGG GGT GTC TCT CTC TCC CCA CAT ATA TAT ATC TCT CTG TGG GGA GAG AGC GCA CAG AGA GAC ACA CAC ACA CAC ACA CAC ACA CAT ATG TGA GAG AGG GGA GAC ACT CTC TCA CAA AAA AAA AAG AGT GTG TGT GTA TAG AGA GAC ACT CTA TAG AGG GGG GGA GAA AAC ACT CTG TGA GAA AAA AAA AAC ACA CAT ATT TTA TAG AGC GCA CAT ATG TGT GTA TAA AAG AGT GTA TAG AGC GCA CAC ACT CTA TAT ATC TCA CAC ACA CAA AAC ACA CAG AGA GAG AGG GGC GCA CAT ATG TGT GTG TGC GCA CAG AGG GGC GCA CAA AAT ATC TCA CAG AGC GCT CTG TGG GGG GGG GGA GAA AAA AAG AGG GGA GAG AGC GCA CAA AAT ATG TGG GGG GGG GGG GGA GAA AAG AGG GGA GAA AAT ATG TGT GTG TGC GCT CTG TGA GAT ATT TTC TCA CAA AAC ACT CTC TCA CAA AAT ATG TGT GTG TGC GCC CCA CAC ACA CAG AGC GCT CTG TGG GGT GTG TGC GCT CTT TTT TTA TAT ATG TGA GAG AGC GCT CTC TCC CCG CGA GAC ACC CCT CTC TCA CAG AGG GGC GCT
+      methyl_seq: 222222222022222222222222222222222222222222222222222222022222222222222222222222222222222022222222222222222222222222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4290
+      ctype: Blood-Granul
+    Probability Distribution:
+      33.2% - Eryth-prog
+      13.4% - Blood-Granul ✓
+      13.4% - Blood-T
+      13.4% - Blood-Mono+Macro
+
+11. Confidence: 32.9% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TGA GAG AGA GAC ACC CCA CAA AAC ACC CCG CGG GGC GCT CTC TCG
+      methyl_seq: 222222222022220
+      dmr_label: 4283
+      ctype: Blood-Granul
+    Probability Distribution:
+      32.9% - Eryth-prog
+      13.5% - Blood-Granul ✓
+      13.4% - Blood-T
+      13.4% - Blood-NK
+
+12. Confidence: 32.8% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TGG GGG GGG GGG GGG GGG GGG GGG GGC GCG CGC GCC CCT CTG TGG GGA GAG AGT GTG TGT GTG TGG GGG GGA GAG AGG GGA GAA AAG AGC GCG CGG GGG GGT GTT TTT TTC TCC CCC CCA CAT ATG TGG GGC GCT CTG TGG GGG GGT GTG TGA GAT ATA TAA AAC ACC CCC CCA CAA AAA AAC ACC CCT CTC TCG
+      methyl_seq: 22222222202222222222222222222202222222222222222222222222222222220
+      dmr_label: 4232
+      ctype: Blood-Granul
+    Probability Distribution:
+      32.8% - Eryth-prog
+      13.5% - Blood-Granul ✓
+      13.5% - Blood-T
+      13.5% - Blood-NK
+
+13. Confidence: 32.7% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGT GTG TGG GGG GGT GTG TGG GGA GAT ATC TCA CAC ACC CCT CTG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTC TCG
+      methyl_seq: 222222222022222222222222222222222222222220
+      dmr_label: 4269
+      ctype: Blood-Granul
+    Probability Distribution:
+      32.7% - Eryth-prog
+      13.5% - Blood-Granul ✓
+      13.5% - Blood-T
+      13.5% - Blood-NK
+
+14. Confidence: 32.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GAT ATA TAT ATG TGA GAG AGG GGT GTC TCG CGG GGT GTG TGC GCT CTT TTA TAG AGG GGT GTC TCT CTT TTG TGA GAA AAA AAG AGT GTG TGT GTA TAG AGC GCA CAG AGT GTG TGA GAA AAT ATT TTC TCA CAC ACC CCT CTA TAT ATA TAG AGA GAC ACC CCC CCA CAG AGG GGT GTA TAG AGG GGC GCG CGA GAG AGT GTG TGG GGG GGG GGG GGG GGA
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4358
+      ctype: Blood-Granul
+    Probability Distribution:
+      32.3% - Eryth-prog
+      13.6% - Blood-B
+      13.5% - Blood-T
+      13.5% - Blood-NK
+      13.5% - Blood-Granul ✓ (not in top 4)
+
+15. Confidence: 32.3% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: GTG TGG GGT GTG TGA GAT ATG TGT GTC TCG CGC GCC CCT CTC TCT CTT TTG TGA GAC ACA CAG AGC GCC CCG CGC GCA CAT ATT TTC TCC CCT CTA TAG AGA GAC ACA CAG AGC GCG CGC GCT CTC TCA CAG AGG GGG GGC GCG CGC GCC CCT CTC TCC CCC CCC CCC CCA CAG AGG GGA GAC ACC CCC CCA CAG AGC GCG CGC GCC CCT CTC TCT CTT TTG TGC GCA CAC ACT CTG TGT GTG TGC GCC CCC CCG CGG GGA GAC ACC CCA CAG AGG GGC GCG CGA GAG AGC GCC CCC CCT CTG TGT GTG TGG GGT GTT TTT TTC TCA CAG AGA GAC ACA CAC ACT CTC TCC CCT CTG TGC GCA CAG AGT GTT TTT TTG TGC GCG CGA GAA AAA AAA AAT ATG TGT GTC TCT CTA TAC ACT CTT TTC TCT CTA TAA AAA AAT ATA TAC ACG CGT GTT TTG TGT GTT TTT TTC TCA CAT ATC TCA CAC ACC CCG CGA GAT ATG TGC GCT CTG TGT GTG TGT GTT TTC TCC CCA CAA AAT ATA TAC ACT CTG TGC GCC CCT CTC TCT CTG TGA GAT ATC TCT CTT TTG TGG GGG GGA GAA AAA AAC ACT CTT TTG TGA GAG AGC GCG CGC GCG CGC GCG CGG GGG GGA GAA AAT ATC TCT CTG TGA GAG AGG GGG GGT GTT TTG TGC GCT CTT TTC TCT CTA TAG AGA GAT ATC TCC CCT CTC TCC CCC CCG CGG GGT GTC TCC CCC CCC CCC CCT CTC TCC CCG CGG GGC GCT CTG TGC GCC CCC CCA CAG AGA GAG AGC GCT CTG TGG GGC GCG CGC GCC CCC CCC CCT CTT TTC TCT CTC TCC CCT CTC TCG
+      methyl_seq: 22222222202222222222222022222222222222022222222022222222222222222202222222222222222202222222202222222222222222222222222222222220222222222222222222222022222222222220222222222222222222222222222222222222222222202020222222222222222222222222222222022222222220222222222222222202222222222221
+      dmr_label: 745
+      ctype: Blood-Granul
+    Probability Distribution:
+      32.3% - Blood-Granul ✓
+      13.7% - Blood-Mono+Macro
+      13.5% - Blood-B
+      13.5% - Eryth-prog
+
+============================================================
+
+TRUE CELL TYPE: Blood-Mono+Macro
+------------------------------------------------------------
+
+ 1. Confidence: 34.5% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GCT CTT TTG TGC GCA CAG AGG GGC GCC CCG CGG GGC GCT CTG TGA GAG AGC GCC CCC CCA CAC ACG CGC GCC CCC CCA CAC ACC CCC CCG CGG GGA GAA AAC ACT CTT TTG TGT GTG TGC GCT CTA TAG AGC GCC CCC CCA CAC ACA CAA AAG AGC GCG CGC GCC CCA CAC ACG CGG GGC GCA CAG AGC GCC CCC CCC CCG CGG GGT GTT TTC TCC CCC CCG CGC GCC CCC CCG CGC GCA CAC ACC CCT CTC TCT CTC TCC CCC CCT CTC TCC CCA CAC ACA CAC ACC CCT CTC TCC CCC CCT CTG TGC GCA CAA AAG AGC GCT CTG TGA GAG AGG GGG GGA GAG AGC GCC CCG
+      methyl_seq: 2222222220222222222220222222202222222222222222222222022220222222220222222022202222222222222222222222222222222222222220
+      dmr_label: 4301
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      34.5% - Eryth-prog
+      13.1% - Blood-Granul
+      13.1% - Blood-T
+      13.1% - Blood-NK
+      13.1% - Blood-Mono+Macro ✓ (not in top 4)
+
+ 2. Confidence: 34.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GCA CAC ACC CCT CTG TGC GCT CTT TTC TCG CGA GAG AGG GGC GCC CCA CAG AGC GCC CCC CCT CTG TGT GTG TGC GCA CAG AGG GGC GCC CCC CCC CCA CAG AGA GAG AGG GGG GGA GAG AGA GAC ACA CAC ACA CAG AGG GGG GGC GCG CGT GTG TGG GGT GTC TCT CTC TCC CCT CTC
+      methyl_seq: 222222222022222222222222222222222222222222222222202222222222
+      dmr_label: 4174
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      34.4% - Eryth-prog
+      13.1% - Blood-Granul
+      13.1% - Blood-T
+      13.1% - Blood-Mono+Macro ✓
+
+ 3. Confidence: 34.1% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GGG GGG GGC GCC CCC CCG CGA GAA AAA AAA AAG AGT GTC TCA CAA AAA AAG AGA GAT ATC TCA CAT ATG TGC GCA CAG AGT GTT TTA TAG AGT GTA TAA AAG AGC GCA CAG AGA GAA AAG AGT GTA TAG AGA GAC ACC CCT CTG TGG GGC GCA CAC ACT CTG TGG GGA GAA AAG AGC GCT CTG TGT GTC TCT CTG TGA GAC ACC CCT CTC TCA CAC ACA CAT ATA TAC ACG CGC GCT CTG TGC GCT CTC TCT CTC TCT CTT
+      methyl_seq: 222220222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4394
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      34.1% - Eryth-prog
+      13.2% - Blood-Granul
+      13.2% - Blood-T
+      13.2% - Blood-NK
+      13.2% - Blood-Mono+Macro ✓ (not in top 4)
+
+ 4. Confidence: 33.2% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: AAA AAA AAG AGC GCC CCT CTC TCA CAC ACG CGT GTG TGG GGA GAA AAA AAA AAG AGC GCC CCC CCT CTG TGG GGG GGT GTC TCA CAG AGC GCC CCC CCA CAG AGA GAT ATG TGA GAG AGC GCA CAG AGG GGG GGG GGC GCT CTC TCC CCA CAG AGG GGC GCC CCG CGC GCT CTC TCT CTG TGC GCT CTC TCA CAG AGG GGC GCA CAC ACA CAA AAG AGA GAG AGG GGG GGA GAT ATG TGT GTG TGG GGT GTC TCT CTC TCC CCG CGT GTA TAT ATC TCT CTA TAT ATA TAC ACA CAC ACA CAA AAA AAG AGA GAG AGG GGA GAA AAT ATG TGT GTG TGG GGT GTC TCT CTT TTC TCG CGT GTA TAT ATC TCT CTA TAT ATA TAC ACA CAG AGA GAA AAG AGA GAG AGG GGG GGA GAT ATG TGT GTG TGG GGT GTC TCT CTC TCC CCA CAT ATA TAT ATC TCT CTG TGG GGA GAG AGC GCA CAG AGA GAC ACA CAC ACA CAC ACA CAC ACA CAT ATG TGA GAG AGG GGA GAC ACT CTC TCA CAA AAA AAA AAG AGT GTG TGT GTA TAG AGA GAC ACT CTA TAG AGG GGG GGA GAA AAC ACT CTG TGA GAA AAA AAA AAC ACA CAT ATT TTA TAG AGC GCA CAT ATG TGT GTA TAA AAG AGT GTA TAG AGC GCA CAC ACT CTA TAT ATC TCA CAC ACA CAA AAC ACA CAG AGA GAG AGG GGC GCA CAT ATG TGT GTG TGC GCA CAG AGG GGC GCA CAA AAT ATC TCA CAG AGC GCT CTG TGG GGG GGG GGA GAA AAA AAG AGG GGA GAG AGC GCA CAA AAT ATG TGG GGG GGG GGG GGA GAA AAG AGG GGA GAA AAT ATG TGT GTG TGC GCT CTG TGA GAT ATT TTC TCA CAA AAC ACT CTC TCA CAA AAT ATG TGT GTG TGC GCC CCA CAC ACA CAG AGC GCT CTG TGG GGT GTG TGC GCT CTT TTT TTA TAT ATG TGA GAG AGC GCT CTC TCC CCG CGA GAC ACC CCT CTC TCA CAG AGG GGC GCT
+      methyl_seq: 222222222022222222222222222222222222222222222222222222022222222222222222222222222222222022222222222222222222222222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4290
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      33.2% - Eryth-prog
+      13.4% - Blood-Granul
+      13.4% - Blood-T
+      13.4% - Blood-Mono+Macro ✓
+
+ 5. Confidence: 33.0% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CCT CTG TGG GGC GCA CAG AGA GAG AGC GCG CGT GTG TGA GAA AAC ACG CGG GGG GGC GCT CTC TCC CCT CTT TTA TAT ATC TCA CAT ATT TTT TTC TCC CCA CAC ACT CTC TCT CTG TGC GCA CAG AGG GGC GCA CAT ATC TCT CTC TCT CTG TGT GTG TGG GGG GGC GCT CTG TGC GCA CAC ACA CAA AAG AGG GGT GTC TCC CCC CCT CTG TGT GTG TGG GGC GCG CGG GGG GGG GGA GAC ACT CTC TCT CTG TGC GCC CCC CCA CAC ACT CTC TCC CCC CCG
+      methyl_seq: 22222222202222202222222222222222222222222222222222222222222222222222222222202222222222222222220
+      dmr_label: 4321
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      33.0% - Eryth-prog
+      13.5% - Blood-Granul
+      13.4% - Blood-Mono+Macro ✓
+      13.4% - Blood-T
+
+ 6. Confidence: 32.8% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GGC GCC CCT CTA TAC ACT CTC TCG CGA GAT ATT TTA TAT ATG TGT GTT TTA TAT ATC TCT CTG TGT GTA TAG AGA GAT ATT TTC TCC CCA CAG AGA GAC ACA CAT ATT TTG TGT GTA TAT ATG TGG GGA GAA AAA AAA AAG AGC GCA CAC ACT CTG TGT GTG TGA GAA AAA AAA AAC ACC CCC CCT CTT TTG TGT GTC TCC CCT CTG TGT GTT TTC TCT CTG TGT GTT TTC TCC CCA CAA AAT ATC TCT CTG TGA GAT ATT TTA TAC ACC CCG CGG GGT GTG TGC GCA CAT ATG TGC GCA CAG AGC GCC CCC CCC CCC CCA CAG AGT GTC TCG CGT GTG TGT GTA TAC ACC CCC
+      methyl_seq: 2222222022222222222222222222222222222222222222222222222222222222222222222222222222222222220222222222222222222202222222
+      dmr_label: 4291
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      32.8% - Eryth-prog
+      13.5% - Blood-Granul
+      13.4% - Blood-T
+      13.4% - Blood-NK
+      13.4% - Blood-Mono+Macro ✓ (not in top 4)
+
+ 7. Confidence: 32.3% | Predicted: Blood-B
+    Read Information:
+      dna_seq: TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGT GTG TGG GGG GGC GCA CAG AGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATT TTG TGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCT CTA TAA AAC ACG CGT GTG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG
+      methyl_seq: 22222222202222222222222220222222222222222222222222222222202222222222220
+      dmr_label: 449
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      32.3% - Blood-B
+      13.8% - Eryth-prog
+      13.5% - Blood-NK
+      13.5% - Blood-T
+      13.5% - Blood-Mono+Macro ✓ (not in top 4)
+
+ 8. Confidence: 32.2% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: GTG TGA GAC ACA CAA AAG AGC GCA CAC ACG CGT GTT TTG TGT GTG TGT GTC TCC CCT CTC TCA CAG AGC GCC CCT CTG TGA GAT ATG TGG GGC GCA CAC ACA CAT ATT TTA TAC ACC CCG CGT GTC TCT CTG TGG GGG GGC GCC CCG CGG GGG GGT GTC TCC CCA CAC ACC CCA CAT ATG TGG GGC GCC CCC CCG CGC GCA CAC ACG CGA GAA AAG AGT GTC TCG CGC GCA CAT ATG TGA GAC ACT CTC TCA CAG AGT GTG TGG GGT GTG TGC GCA CAG AGG GGA GAG AGC GCG CGC GCA CAC ACG CGG GGT GTC TCT CTC TCC CCG CGT GTC TCC CCT CTC TCC CCC CCC CCT CTC TCT CTC TCG CGG GGA GAA AAG AGA GAG AGC GCC CCG CGG GGG GGT GTC TCA CAT ATG TGG GGA GAG AGG GGC GCC CCT CTC TCG
+      methyl_seq: 222222222022222222222222222222222222222022222222022222222222222202220222220222222222222222222222202221222222122222222222212222222202222222222222220
+      dmr_label: 818
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      32.2% - Blood-Granul
+      13.8% - Blood-Mono+Macro ✓
+      13.6% - Blood-B
+      13.5% - Eryth-prog
+
+ 9. Confidence: 32.2% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: GGG GGA GAG AGG GGC GCG CGG GGA GAG AGC GCT CTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATT TTG TGC GCG CGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTA TAG AGG GGC GCA CAA AAC ACA CAG AGA GAG AGC GCG CGA GAG AGA GAC ACT CTG TGT GTC TCT CTC TCA CAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAC ACT CTC TCA CAG AGG GGT GTA TAG AGA GAA AAG AGA GAG AGG GGA GAA AAG AGG GGA GAC ACT CTT TTG TGT GTT TTG TGC GCA CAG AGT GTA TAA AAA AAT ATA TAA AAC ACA CAG AGA GAG AGC GCT CTA TAC ACT CTG TGT GTA TAG AGA GAT ATC TCC CCT CTT TTG TGA GAG AGT GTA TAG AGT GTT TTA TAA AAA AAT ATA TAA AAT ATA TAT ATA TAA AAA AAA AAT ATA TAA AAA AAT ATT TTT TTT TTC TCT CTG TGA GAA AAA AAA AAC ACT CTA TAA AAT ATC TCT CTG TGC GCC CCT CTT TTT TTG TGG GGG GGA GAT ATA TAA AAA AAA AAG AGA GAT ATG TGA GAC ACA CAC ACA CAT ATA TAC ACT CTA TAC ACA CAC ACC CCC CCT CTC TCC CCA CAC ACA CAT ATA TAT ATA TAT ATG TGT GTC TCA CAA AAC ACT CTA TAC ACA CAT ATG TGA GAA AAT ATA TAT ATT TTA TAT ATC TCA CAA AAG AGT GTA TAA AAG AGA GAG AGA GAC ACT CTA TAC ACT CTG TGC GCA CAG AGC GCA CAC ACC CCA CAC ACT CTG TGG GGC GCC CCT CTG TGA GAA AAG AGC GCA CAA AAT ATG TGA GAG AGA GAA AAC ACC CCT CTG TGG GGA GAG AGT GTG TGG GGA GAA AAT ATC TCA CAC ACT CTG TGA GAC ACA CAG AGT GTG TGA GAA AAA AAA AAT ATG TGG GGA GAA AAA AAG AGG GGA GAA AAA AAC ACC CCC CCA CAA AAG AGT GTA TAA AAC ACA CAG AGT GTT TTA TAC ACA CAA AAG AGA GAA AAA AAC ACA CAA AAA AAT ATG TGA GAT ATC TCA CAG AGA GAT ATT TTT TTG TGG GGT GTG TGA GAA AAA AAA AAT ATT TTC TCA CAA AAT ATA TAT ATA TAA AAA AAC ACA CAA AAC ACA CAT ATA TAG AGA GAA AAG AGA GAA AAT ATA TAG AGA GAA AAA AAA AAA AAG AGG GGA GAG AGA GAT ATC TCA CAC ACG CGA GAA AAA AAT ATC TCT CTC TCC CCT CTC
+      methyl_seq: 2222202222222222222222022222220222222222222222222222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 750
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      32.2% - Blood-Granul
+      13.8% - Blood-Mono+Macro ✓
+      13.6% - Eryth-prog
+      13.5% - Blood-B
+
+10. Confidence: 32.1% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: AGG GGA GAT ATG TGG GGT GTC TCT CTC TCG CGA GAT ATC TCT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCG CGT GTG TGA GAT ATC TCC CCG CGC GCC CCC CCA CAC ACC CCT CTT TTG TGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC CCG CGT GTG TGC GCC CCC CCC CCG CGC GCC CCC CCA CAG AGG GGC GCC CCT CTA TAT ATT TTT TTT TTT TTT TTT TTA TAA AAA AAG AGA GAC ACA CAG AGG GGA GAT ATC TCT CTC TCC CCC CCT CTC TCT CTG TGT GTT TTG TGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTA TAA AAT ATG TGC GCT CTG TGA GAT ATC TCA CAA AAA AAG AGC GCC CCC CCA CAC ACT CTG TGC GCA CAG AGT GTC TCT CTT TTG TGA GAC ACC CCT CTC TCT CTT TTG TGG GGG GGT GTT TTC TCA CAA AAG AGT GTG TGA GAT ATC TCC CCT CTG TGC GCC CCA CAC ACC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCA CAA AAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAC ACC CCA CAC ACA CAG AGG GGC GCA CAC ACA CAC ACA CAC ACC CCA CAC ACA CAC ACC CCT CTG TGG GGG GGT GTA TAA AAT ATT TTT TTA TAA AAA AAA AAT ATT TTT TTT TTT TTG TGT GTG TGT GTA TAG AGA GAG AGA GAC ACA CAA AAG AGG GGT GTC TCT CTC TCA CAC ACT CTA TAT ATG TGT GTT TTG TGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGT GTC TCT CTC TCA CAA AAA AAC ACT CTC TCC CCT CTG TGG GGG GGC GCT CTC TCA CAA AAG AGC GCG CGA GAT ATC TCC CCT CTT TTC TCC CCA CAC
+      methyl_seq: 22222222202222222222222022222202222222222222222222222222222222222220222222222022222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 1029
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      32.1% - Blood-Mono+Macro ✓
+      13.9% - Eryth-prog
+      13.6% - Blood-T
+      13.5% - Blood-B
+
+11. Confidence: 32.1% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATG TGG GGC GCG CGT GTG TGA GAA AAC ACC CCG CGG GGG GGG GGA GAG AGG GGC GCA CAG AGA GAG AGC GCT CTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCA CAA AAG AGA GAT ATT TTG TGC GCG CGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCG CGA GAC ACA CAG AGA GAG AGC GCG CGA GAG AGA GAG AGT GTC TCC CCG CGT GTC TCT CTC TCA CAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGA GAA AAA AAA AAA AAA AAA AAG AGA GAA AAG AGG GGC GCC CCA CAC ACT CTC TCC CCA CAC ACA CAA AAG AGC GCA CAA AAA AAC ACC CCG CGC GCA CAG AGA GAT ATG TGT GTT TTT TTT
+      methyl_seq: 222222022222222222222202222220222222222222222222222222222222220222222222222222222222122222220222222202222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 773
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      32.1% - Blood-Granul
+      13.8% - Blood-Mono+Macro ✓
+      13.7% - Blood-B
+      13.5% - Eryth-prog
+
+12. Confidence: 32.1% | Predicted: Blood-Granul
+    Read Information:
+      dna_seq: GCT CTG TGT GTA TAT ATC TCG CGC GCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAA AAT ATG TGG GGC GCA CAC ACA CAA AAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACT CTT TTC TCC CCG CGC GCC CCT CTC TCC CCC CCA CAA AAG AGT GTT TTC TCA CAA AAG AGC GCG CGA GAT ATT TTC TCT CTG TGT GTT TTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGC GCC CCG CGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCC CCC CCC CCC CCT CTC TCC CCA CAC ACC CCA CAC ACA CAT ATC TCC CCG CGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACA CAG AGG GGG GGT GTT TTT TTC TCA CAC ACC CCA CAT ATG TGT GTT TTG TGG GGC GCC CCA CAG AGA GAA AAT ATG TGG GGT GTC TCT CTC TCA CAA AAT ATC TCT CTC TCT CTT TTG TGA GAC ACC CCT CTC TCG CGT GTT TTA TAT ATC TCT CTG TGC GCC CCT
+      methyl_seq: 2222220222222222222222222222222222202222222222222222022222222222222220222222222222222222222222222220222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 833
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      32.1% - Blood-Granul
+      13.8% - Blood-Mono+Macro ✓
+      13.6% - Eryth-prog
+      13.5% - Blood-NK
+
+13. Confidence: 32.1% | Predicted: Blood-B
+    Read Information:
+      dna_seq: GCA CAG AGT GTT TTG TGG GGG GGC GCC CCG CGT GTG TGA GAG AGA GAG AGG GGT GTT TTC TCT CTT TTC TCT CTT TTA TAC ACT CTG TGG GGA GAG AGG GGA GAA AAA AAC ACT CTC TCC CCG CGG GGG GGG GGC GCT CTT TTT TTG TGC GCA CAT ATT TTT TTC TCT CTC TCC CCA CAC ACG CGT GTC TCC CCC CCT CTG TGC GCT CTG TGA GAG AGG GGT GTT TTC TCT CTG TGA GAG AGC GCC CCA CAT ATT TTT TTG TGC GCA CAA AAG AGT GTT TTT TTG TGT GTG TGC GCC CCC CCT CTC TCA CAT ATG TGT GTG TGT GTG TGC GCC CCT CTG TGA GAG AGG GGG GGC GCC CCG CGG GGG GGG GGG GGC GCA CAC ACC CCT CTG TGT GTG TGC GCA CAT ATA TAT ATG TGC GCT CTC TCA CAA AAG AGG GGG GGC GCT CTT TTT TTC TCT CTG TGT GTG TGC GCA CAC ACA CAC ACA CAT ATG TGG GGC GCA CAC ACC CCT CTG TGC GCA CAG AGT GTG TGC GCG CGG GGT GTC
+      methyl_seq: 222222222022222222222222222222222222222202222222222222222222022222222222222222222222222222222222222222222222222222222220222222222222222222222222222222222222222222222222222222220222
+      dmr_label: 530
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      32.1% - Blood-B
+      13.9% - Eryth-prog
+      13.6% - Blood-NK
+      13.5% - Blood-T
+      13.5% - Blood-Mono+Macro ✓ (not in top 4)
+
+14. Confidence: 32.1% | Predicted: Blood-Mono+Macro
+    Read Information:
+      dna_seq: GCC CCC CCG CGC GCC CCA CAC ACC CCA CAC ACG CGC GCC CCT CTG TGG GGC GCT CTT TTT TTT TTT TTT TTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACC CCA CAT ATG TGT GTT TTA TAG AGC GCC CCA CAG AGG GGA GAT ATG TGG GGT GTC TCT CTC TCG CGA GAT ATC TCT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCG CGT GTG TGA GAT ATC TCC CCG CGC GCC CCC CCA CAC ACC CCT CTT TTG TGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC
+      methyl_seq: 22022222220222222222222222222222222222022222222222222222222222222222202222222222222022222202222222222222222222222222222222222220222222222
+      dmr_label: 1029
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      32.1% - Blood-Mono+Macro ✓
+      13.9% - Eryth-prog
+      13.5% - Blood-Granul
+      13.5% - Blood-B
+
+15. Confidence: 32.1% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GAC ACT CTG TGG GGA GAC ACC CCA CAC ACG CGC GCT CTT TTC TCC CCT CTT TTA TAG AGG GGA GAT ATC TCC CCT CTC TCT CTC TCT CTC TCC CCT CTG TGG GGC GCA CAT ATG TGG GGC GCA CAT ATG TGC GCC CCC CCC CCT CTG TGT GTC TCA CAA AAG AGC GCT CTG TGC GCT CTT TTG TGT GTT TTC TCT CTG TGA GAT ATA TAC ACG CGG GGG GGC GCT CTG TGC GCC CCA CAA AAA
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4205
+      ctype: Blood-Mono+Macro
+    Probability Distribution:
+      32.1% - Eryth-prog
+      13.6% - Blood-Granul
+      13.6% - Blood-T
+      13.6% - Blood-NK
+      13.5% - Blood-Mono+Macro ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Blood-NK
+------------------------------------------------------------
+
+ 1. Confidence: 34.5% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CAA AAA AAG AGC GCC CCT CTA TAT ATC TCG CGC GCT CTG TGT GTC TCT CTC TCC CCC CCT CTG TGC GCT CTG TGG GGC GCC CCC CCC CCT CTG TGA GAG AGG GGA GAG AGA GAG AGC GCG CGC GCT CTG TGA GAA AAA AAG AGA GAA AAG AGG GGC GCC CCT CTG TGC GCT CTG TGT GTT TTG TGT GTC TCC CCC CCC CCT CTC TCA CAC ACA CAC ACC CCA CAC ACA CAG AGC GCA CAG AGC GCA CAA AAG AGC GCC CCT CTA TAC ACA CAC ACA CAG AGT GTG TGC GCG CGG GGT GTC TCA CAG AGC GCC CCT CTA TAT
+      methyl_seq: 22222222202222222222222222222222222222202222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4191
+      ctype: Blood-NK
+    Probability Distribution:
+      34.5% - Eryth-prog
+      13.1% - Blood-Granul
+      13.1% - Blood-T
+      13.1% - Blood-NK ✓
+
+ 2. Confidence: 34.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GGG GGG GGC GCC CCC CCG CGA GAA AAA AAA AAG AGT GTC TCA CAA AAA AAG AGA GAT ATC TCA CAT ATG TGC GCA CAG AGT GTT TTA TAG AGT GTA TAA AAG AGC GCA CAG AGA GAA AAG AGT GTA TAG AGA GAC ACC CCT CTG TGG GGC GCA CAC ACT CTG TGG GGA GAA AAG AGC GCT CTG TGT GTC TCT CTG TGA GAC ACC CCT CTC TCA CAC ACA CAT ATA TAC ACG CGC GCT CTG TGC GCT CTC TCT CTC TCT CTT TTT TTT TTA TAT ATG TGG GGC GCA CAC ACT CTC TCT CTG TGC GCC CCT CTT TTT TTT TTT TTA TAG AGG GGA GAG AGA GAG AGA GAA AAC ACC CCT CTT TTG TGA GAG AGT GTT TTT TTG TGG GGA GAG AGA GAA AAC ACT CTT TTA TAG AGG GGT GTA TAT ATT TTC TCT CTC TCT CTG TGA GAC ACT CTG TGA GAC ACA CAC ACA CAG AGC GCA CAC ACC CCA CAA AAC ACT CTA TAC ACA CAG AGT GTG TGT GTC TCC CCA CAG AGC GCT CTC TCT CTT TTG TGT GTG TGC GCA CAT ATT TTA TAA AAA AAG AGC GCT CTA TAA AAA AAT ATT TTT TTA TAG AGG GGC GCA CAA AAT ATG TGG GGA GAC ACT CTC TCA CAT ATA TAT ATC TCT CTG TGA GAC ACA CAA AAT ATG TGA GAG AGC GCA CAT ATT TTG TGC GCT CTT TTT TTG TGT GTC TCA CAG AGG GGT GTT TTC TCA CAC ACT CTA TAG AGA GAT ATA TAC ACC CCA CAT ATT TTT TTA TAT ATT TTT TTA TAT ATT TTT TTA TAT ATT TTT TTG TGA GAG AGG GGT GTG TGG GGA GAG AGT GTC TCT CTT TTG TGC GCT CTG TGT GTG TGT GTT TTG TGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGT GTG TGT GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACC
+      methyl_seq: 2222202222222222222222222222222222222222222222222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222
+      dmr_label: 4394
+      ctype: Blood-NK
+    Probability Distribution:
+      34.4% - Eryth-prog
+      13.1% - Blood-Granul
+      13.1% - Blood-T
+      13.1% - Blood-NK ✓
+
+ 3. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CTG TGA GAG AGG GGA GAG AGA GAG AGC GCG CGC GCT CTG TGA GAA AAA AAG AGA GAA AAG AGG GGC GCC CCT CTG TGC GCT CTG TGT GTT TTG TGT GTC TCC CCC CCC CCT CTC TCA CAC ACA CAC ACC CCA CAC ACA CAG AGC GCA CAG AGC GCA CAA AAG AGC GCC CCT CTA TAC ACA CAC ACA CAG AGT GTG TGC GCG CGG GGT GTC TCA CAG AGC GCC CCT CTA TAT ATC TCT CTG TGC GCT CTG TGC GCC CCA CAC ACA CAG AGG GGT GTG TGG GGA GAG AGC GCC CCC CCA CAC ACA CAG AGC GCT CTC TCT CTC TCA CAC ACA CAT ATG TGC GCA CAA AAT ATC TCA CAC ACA CAA AAG AGA GAT ATA TAA AAA AAG AGG GGA GAG AGC GCC CCT CTG TGA GAA AAA AAA AAG AGG GGC GCC CCT CTC TCT CTG TGT GTG TGT GTG TGG GGT GTT TTT TTC TCT CTC TCA CAA AAA AAG AGA GAC ACA CAG AGA GAC ACT CTT TTT TTT TTT TTC TCA CAG AGC GCT CTT TTC TCC CCG CGT GTC TCC CCC CCT CTT TTT TTC TCT CTG
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4191
+      ctype: Blood-NK
+    Probability Distribution:
+      34.3% - Eryth-prog
+      13.1% - Blood-Granul
+      13.1% - Blood-T
+      13.1% - Blood-NK ✓
+
+ 4. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TAA AAA AAC ACT CTT TTC TCT CTG TGC GCG CGA GAT ATG TGG GGC GCT CTC TCA CAC ACT CTA TAT ATT TTT TTG TGT GTC TCT CTT TTC TCA CAG AGA GAA AAT ATA TAA AAA AAG AGA GAC ACA CAG AGA GAT ATT TTC TCC CCA CAC ACA CAC ACT CTA TAC ACT CTG TGC GCA CAC ACA CAG AGC GCC CCA CAG AGT GTT TTC TCG CGT GTC TCA CAG AGG GGG GGG GGC GCA CAG AGA GAC ACC CCT CTC TCG CGT GTC TCT CTA TAC ACC CCC CCT CTG TGC GCG CGG GGC GCC CCA CAC ACA CAC ACC CCT CTC TCT CTC TCC CCT CTA TAT ATC TCT CTG TGC GCA CAC ACA CAC ACA CAG AGC GCC CCA CAC ACA CAC ACT CTG TGG GGA GAC ACC CCC CCT CTG TGC GCT CTT TTC TCC CCT CTG TGG GGG GGC GCT CTG TGC GCG CGG GGC GCC CCT CTA TAT ATC TCT CTC TCC
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222022222222222222202222222222022222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4184
+      ctype: Blood-NK
+    Probability Distribution:
+      34.3% - Eryth-prog
+      13.2% - Blood-Granul
+      13.1% - Blood-T
+      13.1% - Blood-Mono+Macro
+      13.1% - Blood-NK ✓ (not in top 4)
+
+ 5. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: AAG AGC GCT CTA TAT ATT TTT TTT TTC TCG CGT GTC TCA CAT ATC TCA CAT ATT TTT TTC TCA CAC ACA CAG AGA GAT ATG TGA GAG AGA GAC ACA CAA AAT ATT TTA TAA AAA AAC ACA CAT ATC TCT CTG TGC GCA CAC ACA CAT ATT TTT TTT TTA TAG AGA GAC ACA CAG AGA GAA AAA AAA AAT ATA TAA AAG AGC GCC CCT CTA TAC ACG CGT GTT TTA TAA AAG AGT GTG TGG GGC GCA
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4284
+      ctype: Blood-NK
+    Probability Distribution:
+      34.3% - Eryth-prog
+      13.2% - Blood-NK ✓
+      13.2% - Blood-T
+      13.1% - Blood-Granul
+
+ 6. Confidence: 34.2% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CTT TTT TTC TCC CCT CTG TGG GGG GGC GCG CGT GTG TGC GCA CAC ACA CAC ACT CTC TCT CTA TAC ACC CCA CAT ATA TAC ACA CAT ATG TGT GTG TGT GTG TGT GTG TGG GGC GCC CCT CTC TCT CTA TAG AGA GAT ATT TTA TAC ACT CTA TAG AGG GGA GAG AGC GCT CTA TAG AGA GAG AGC GCT CTT TTT TTT TTC TCA CAA AAA AAG AGA GAG AGT GTT TTT TTT TTT TTC TCG CGA GAA AAG AGC GCC CCC CCC CCT CTG TGT
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4252
+      ctype: Blood-NK
+    Probability Distribution:
+      34.2% - Eryth-prog
+      13.2% - Blood-Granul
+      13.2% - Blood-T
+      13.2% - Blood-Mono+Macro
+      13.2% - Blood-NK ✓ (not in top 4)
+
+ 7. Confidence: 34.1% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACC CCG CGT GTG TGT GTT TTA TAG AGC GCC CCA CAG AGG GGA GAT ATG TGG GGT GTC TCT CTC TCA CAA AAT ATC TCT CTG TGC GCT CTG TGA GAT ATC TCT CTT TTG TGA GAT ATC TCT CTT TTG TGT GTG TGA GAT ATC TCT CTG TGA GAC ACT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCA CAG AGA GAG AGT GTG TGC GCT CTG TGA GAG AGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC
+      methyl_seq: 222222222022222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222220222222222
+      dmr_label: 4324
+      ctype: Blood-NK
+    Probability Distribution:
+      34.1% - Eryth-prog
+      13.2% - Blood-Granul
+      13.2% - Blood-T
+      13.2% - Blood-Mono+Macro
+      13.2% - Blood-NK ✓ (not in top 4)
+
+ 8. Confidence: 34.0% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GCG CGG GGC GCA CAG AGA GAA AAC ACA CAG AGA GAA AAG AGG GGA GAG AGA GAT ATA TAC ACA CAA AAT ATC TCA CAG AGG GGC GCA CAG AGG GGG GGA GAT ATA TAG AGA GAC ACA CAG AGG GGG GGG GGG GGC GCT CTT TTC TCA CAG AGT GTT TTG TGT GTA TAT ATC TCT CTG TGT GTA TAC ACT CTT TTT TTT TTT TTT TTA TAC ACT CTT TTA TAA AAA AAA AAA AAT ATA TAA AAT ATT TTG TGT GTG TGA GAA AAC ACA CAA AAT ATC TCA CAT ATG TGA GAT ATA TAG AGT GTG TGT GTT TTT TTT TTA TAT ATT TTT TTC TCC CCT CTG TGT GTG TGG GGC GCA CAT ATC TCT CTT TTT TTT TTT TTC TCA CAA AAA AAC ACA CAC ACC CCT CTC TCC CCT CTC TCC CCC CCC CCG CGC GCA CAC ACC CCC CCC CCA CAG AGC GCT CTC TCT CTG TGG GGC GCA CAC ACC CCC CCA CAG AGA GAT ATT TTT TTG TGG GGT GTA TAG AGA GAT ATT TTG TGG GGC GCC CCC CCG CGG GGT GTT TTT TTC TCC CCT CTC TCT CTC TCC CCC CCT CTG TGG GGC GCA CAT ATG TGG GGT GTG TGG GGT GTG TGG GGA GAG AGA GAA AAT ATG TGG GGG GGA GAT ATC TCA CAG AGA GAA AAT ATT TTT TTG TGG GGA GAG AGC GCC CCG
+      methyl_seq: 0222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220222222222222222222222222222222222222220222222222222222222222222222222222222222222222222220
+      dmr_label: 4236
+      ctype: Blood-NK
+    Probability Distribution:
+      34.0% - Eryth-prog
+      13.2% - Blood-Granul
+      13.2% - Blood-T
+      13.2% - Blood-NK ✓
+
+ 9. Confidence: 33.9% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: AGT GTC TCA CAG AGA GAC ACC CCC CCC CCG CGG GGA GAG AGG GGC GCT CTG TGC GCA CAC ACT CTT TTG TGA GAT ATT TTT TTA TAG AGA GAA AAA AAA AAG AGC GCA CAC ACA CAA AAC ACG CGT GTG TGA GAA AAG AGG GGT GTT TTA TAG AGT GTT TTA TAC ACA CAT ATA TAT ATG TGT GTA TAT ATA TAC ACA CAT ATG TGT GTG TGC GCC CCA CAT ATG TGT GTT TTG TGT GTT TTG TGT GTG TGC GCT CTG TGC GCA CAC ACC CCC CCA CAT ATT TTA TAA AAC ACT CTC TCG CGT GTC TCA CAT ATT TTT TTA TAA AAC ACA
+      methyl_seq: 22222222202222222222222222222222222222220222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 1290
+      ctype: Blood-NK
+    Probability Distribution:
+      33.9% - Eryth-prog
+      13.4% - Blood-NK ✓
+      13.3% - Blood-T
+      13.2% - Blood-B
+
+10. Confidence: 33.8% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CCT CTG TGA GAG AGC GCC CCA CAC ACC CCG CGA GAG AGA GAT ATG TGG GGC GCT CTG TGG GGT GTT TTG TGT GTG TGG GGT GTA TAG AGA GAT ATA TAT ATG TGT GTG TGA GAT ATT TTA TAT ATG TGT GTA TAG AGC GCG CGT GTC TCC CCT CTT TTC TCT CTT TTG TGC GCC CCA CAA AAC ACG CGT GTC TCC CCT CTT TTG TGC GCC CCT CTC TCC CCT CTT TTG TGC GCA CAA AAA AAT ATG TGT GTG TGG GGA GAA AAT ATG TGT GTG TGT GTT TTA TAC ACT CTT TTC TCC CCT CTT TTC TCA CAA AAA AAA AAA AAA AAT ATG TGT GTT TTT TTG TGT GTG TGT GTT TTT TTG TGT GTG TGT GTT TTA TAT ATT TTG TGT GTT TTG TGA GAT ATA TAC ACA CAC ACA CAA AAC ACT CTT TTG TGA GAC ACG
+      methyl_seq: 22222222202222222222222222222222222222222222220222222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 4332
+      ctype: Blood-NK
+    Probability Distribution:
+      33.8% - Eryth-prog
+      13.3% - Blood-Granul
+      13.2% - Blood-T
+      13.2% - Blood-Mono+Macro
+      13.2% - Blood-NK ✓ (not in top 4)
+
+11. Confidence: 33.8% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CTG TGT GTG TGG GGC GCT CTG TGT GTC TCG CGG GGA GAG AGG GGA GAG AGG GGG GGG GGC GCT CTT TTC TCA CAG AGG GGC GCG CGG GGT GTG TGG GGA GAG AGA GAC ACA CAG AGG GGC GCG CGT GTG TGG GGA GAC ACA CAG AGT GTA TAG
+      methyl_seq: 222222222022222222222222222022222222222202222222222
+      dmr_label: 4392
+      ctype: Blood-NK
+    Probability Distribution:
+      33.8% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T
+      13.2% - Blood-Mono+Macro
+      13.2% - Blood-NK ✓ (not in top 4)
+
+12. Confidence: 33.7% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TGC GCA CAG AGT GTG TGG GGC GCA CAC ACG CGA GAT ATC TCT CTT TTG TGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCA CAC ACC CCT CTC TCC CCT CTG TGG GGG GGT GTT TTC TCA CAA AAG AGC GCG
+      methyl_seq: 22222222202222222222222222222222222222222222222220
+      dmr_label: 4220
+      ctype: Blood-NK
+    Probability Distribution:
+      33.7% - Eryth-prog
+      13.3% - Blood-T
+      13.3% - Blood-Granul
+      13.3% - Blood-NK ✓
+
+13. Confidence: 33.5% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: AGG GGT GTG TGC GCA CAT ATC TCC CCC CCG CGG GGT GTG TGA GAG AGT GTG TGC GCC CCT CTG TGG GGT GTA TAC ACA CAG AGG GGG GGA GAA AAG AGG GGA GAG AGC GCA CAG AGC GCA CAT ATG TGG GGT GTC TCA CAT ATG TGG GGT GTG TGT GTG TGA GAT ATA TAA AAT ATT TTG TGG GGA GAG AGG GGC GCC CCA CAC ACC CCT CTC TCT CTC TCC CCT CTA TAG AGC GCA CAC ACA CAG AGC GCA CAG AGA GAT ATA TAA AAC ACA CAG AGA GAA AAG AGG GGA GAA AAT ATT TTC TCC CCC CCA CAC ACC CCT CTA TAA AAC ACC CCG CGC GCC CCA CAT ATA TAC ACT CTC
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222022222222
+      dmr_label: 4340
+      ctype: Blood-NK
+    Probability Distribution:
+      33.5% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T
+      13.3% - Blood-NK ✓
+
+14. Confidence: 33.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: AAT ATC TCA CAA AAG AGA GAC ACA CAC ACG CGA GAA AAA AAG AGA GAA AAT ATA TAC ACA CAT ATT TTC TCT CTG TGT GTG TGT GTG TGA GAT ATG TGT GTC TCA CAC ACT CTT TTA TAT ATG TGT GTG TGA GAA AAG AGC GCA CAA AAA AAA AAA AAC ACA CAG AGG GGC GCA CAT ATA TAA AAC ACC CCA CAA AAT ATC TCT CTG TGC GCG CGG GGA GAG AGG GGT GTA TAG AGG GGA GAG
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4355
+      ctype: Blood-NK
+    Probability Distribution:
+      33.4% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T
+      13.3% - Blood-NK ✓
+
+15. Confidence: 33.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GAT ATC TCT CTC TCG CGA GAC ACT CTC TCA CAC ACT CTG TGA GAA AAG AGC GCC CCT CTC TCC CCG CGC GCC CCT CTG TGG GGG GGT GTG TGA GAC ACA CAG AGA GAG AGC GCG CGA GAG AGA GAA AAT ATC TCC CCA CAT ATA TAT ATT TTA TAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAT ATT TTT TTT TTT TTG TGC GCC CCC CCA CAG AGG GGC GCT CTA TAG AGA GAA AAG AGT GTA TAC ACA CAG AGT GTG TGA GAT ATG TGC GCA CAA AAG AGT GTG TGT GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCG
+      methyl_seq: 2222022222222222222220222222222222222022222222222222222222222222222222222222222222222222222222222222222222222022222222222222220
+      dmr_label: 4286
+      ctype: Blood-NK
+    Probability Distribution:
+      33.4% - Eryth-prog
+      13.4% - Blood-T
+      13.3% - Blood-Granul
+      13.3% - Blood-NK ✓
+
+============================================================
+
+TRUE CELL TYPE: Blood-T
+------------------------------------------------------------
+
+ 1. Confidence: 34.5% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCC CCG CGC GCC CCT CTC TCC CCC CCA CAG AGA GAT ATT TTC TCA CAA AAG AGT GTG TGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCG
+      methyl_seq: 222222022222222222222220222222222222222222222222222222222222220
+      dmr_label: 4245
+      ctype: Blood-T
+    Probability Distribution:
+      34.5% - Eryth-prog
+      13.1% - Blood-NK
+      13.1% - Blood-T ✓
+      13.1% - Blood-Granul
+
+ 2. Confidence: 34.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GCC CCG CGG GGG GGG GGC GCA CAG AGG GGG GGC GCC CCT CTG TGG GGC GCT CTT TTT TTG TGG GGC GCA CAG AGT GTT TTG TGA GAA AAG AGG GGG GGG GGC GCA CAG AGG GGA GAG AGG GGG GGA GAT ATC TCT CTA TAT ATT TTC TCT CTG TGC GCG
+      methyl_seq: 20222222222222222222222222222222222222222222222222220
+      dmr_label: 4315
+      ctype: Blood-T
+    Probability Distribution:
+      34.4% - Eryth-prog
+      13.1% - Blood-Granul
+      13.1% - Blood-T ✓
+      13.1% - Blood-NK
+
+ 3. Confidence: 34.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTT TTA TAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGT GTG TGG GGG GGT GTG TGG GGA GAT ATC TCA CAT ATC TCT CTG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTC TCG
+      methyl_seq: 222222220222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 4261
+      ctype: Blood-T
+    Probability Distribution:
+      34.4% - Eryth-prog
+      13.2% - Blood-Granul
+      13.1% - Blood-T ✓
+      13.1% - Blood-NK
+
+ 4. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GTT TTC TCG CGC GCA CAA AAA AAC ACT CTC TCT CTG TGC GCC CCA CAG AGT GTC TCT CTG TGT GTG TGG GGC GCA CAT ATG TGG GGT GTG TGC GCA CAG AGC GCC CCT CTC TCT CTC TCC CCC CCC CCC CCG CGG GGG GGG GGC GCT CTT TTG TGC GCT CTG TGT GTG TGG GGA GAG AGT GTG TGG GGG GGC GCA CAG AGG GGG GGG GGA GAA AAG AGG GGA GAA AAG AGG GGC GCA CAA AAG AGG GGA GAG AGA GAA AAG AGC GCT CTG TGG GGA GAC ACA CAA AAG AGC GCT CTC TCA CAC ACA CAG AGC GCA CAG AGG GGA GAA AAC ACA CAT ATG TGG GGA GAC ACA CAC ACG CGC
+      methyl_seq: 220222222222222222222222222222222222222222202222222222222222222222222222222222222222222222222222222222222222222222222202
+      dmr_label: 4386
+      ctype: Blood-T
+    Probability Distribution:
+      34.3% - Eryth-prog
+      13.2% - Blood-Granul
+      13.1% - Blood-T ✓
+      13.1% - Blood-B
+
+ 5. Confidence: 34.2% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GAC ACC CCC CCT CTC TCT CTC TCA CAC ACG CGC GCA CAG AGA GAC ACC CCC CCC CCC CCT CTT TTA TAG AGA GAG AGT GTT TTG TGT GTA TAA AAG AGC GCC CCC CCT CTT TTA TAA AAG AGA GAG AGG GGG GGA GAC ACA CAG AGG GGA GAA AAT ATT TTG TGC GCT CTC TCA CAC ACT CTT TTG TGG GGG GGG GGA GAC ACC CCT CTC TCA CAG AGT GTT TTG TGT GTT TTG TGG GGA GAG AGA GAC ACC CCT CTG TGA GAG AGT GTC TCT CTT TTG TGC GCC CCG CGG GGA GAG AGC GCT CTC TCC CCC CCG CGG GGC GCC
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222221222222220222
+      dmr_label: 4351
+      ctype: Blood-T
+    Probability Distribution:
+      34.2% - Eryth-prog
+      13.2% - Blood-Granul
+      13.2% - Blood-T ✓
+      13.2% - Blood-NK
+
+ 6. Confidence: 34.1% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GGG GGG GGT GTT TTT TTC TCA CAC ACC CCG CGT GTG TGT GTT TTA TAG AGC GCC CCA CAG AGG GGA GAT ATG TGG GGT GTC TCT CTC TCA CAA AAT ATC TCT CTG TGC GCT CTG TGA GAT ATC TCT CTT TTG TGA GAT ATC TCT CTT TTG TGT GTG TGA GAT ATC TCT CTG TGA GAC ACT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCA CAG AGA GAG AGT GTG TGC GCT CTG TGA GAG AGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC CCG CGC GCA CAC ACC CCC CCG
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222220222220
+      dmr_label: 4324
+      ctype: Blood-T
+    Probability Distribution:
+      34.1% - Eryth-prog
+      13.2% - Blood-Granul
+      13.2% - Blood-T ✓
+      13.2% - Blood-NK
+
+ 7. Confidence: 34.0% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: AAG AGA GAG AGT GTT TTT TTT TTT TTC TCG CGA GAA AAG AGC GCC CCC CCC CCT CTG TGT GTA TAG AGA GAT ATA TAT ATC TCT CTC TCA CAT ATT TTC TCC CCT CTA TAC ACT CTT TTC TCG
+      methyl_seq: 22222222202222222222222222222222222222220
+      dmr_label: 4252
+      ctype: Blood-T
+    Probability Distribution:
+      34.0% - Eryth-prog
+      13.2% - Blood-Granul
+      13.2% - Blood-T ✓
+      13.2% - Blood-NK
+
+ 8. Confidence: 33.8% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CCA CAG AGT GTC TCC CCT CTC TCT CTC TCG CGG GGA GAG AGA GAC ACC CCC CCT CTC TCC CCT CTG TGA GAC ACC CCC CCT CTG TGC GCA CAG AGG GGC GCA CAG AGA GAG AGT GTC TCG CGA GAT ATG TGT GTC TCG
+      methyl_seq: 2222222220222222222222222222222222222221222220
+      dmr_label: 4263
+      ctype: Blood-T
+    Probability Distribution:
+      33.8% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T ✓
+      13.2% - Blood-NK
+
+ 9. Confidence: 33.8% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: ATG TGT GTA TAG AGC GCT CTG TGT GTC TCG CGG GGC GCA CAA AAA AAC ACG CGT GTG TGT GTG TGG GGT GTC TCT CTC TCC CCC CCC CCT CTG TGG GGC GCA CAG AGG GGT GTG TGG GGT GTG TGG GGG GGG GGG GGT GTG TGC GCT CTC TCA CAT ATC TCA CAG AGA GAA AAC ACC CCA CAC ACC CCC CCA CAG AGA GAG AGC GCC CCT CTC TCG CGC GCC CCC CCT CTG TGC GCC CCT CTA TAT
+      methyl_seq: 2222222220222222022222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4357
+      ctype: Blood-T
+    Probability Distribution:
+      33.8% - Eryth-prog
+      13.3% - Blood-T ✓
+      13.3% - Blood-NK
+      13.3% - Blood-Granul
+
+10. Confidence: 33.7% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: AGC GCA CAT ATC TCA CAA AAA AAG AGC GCG CGG GGG GGA GAG AGG GGT GTA TAT ATC TCT CTT TTC TCT CTG TGG GGT GTT TTC TCC CCT CTG TGT GTA TAG AGG GGA GAG AGC GCA CAA AAT ATG TGT GTG TGA GAT ATG TGG GGG GGC GCT CTT TTG TGT GTT TTT TTG TGA GAT ATA TAT ATT TTT TTC TCT CTG TGT GTG TGG GGA GAC ACT CTG TGG GGC GCA CAA AAA AAA AAA AAA AAC ACT CTG TGA GAA AAG AGC GCC CCT CTG TGC GCT CTA TAC ACT CTT TTA TAG AGG GGG GGA GAT ATA TAA AAG AGT GTA TAT ATT TTA TAA AAG AGT GTG TGT GTC TCC CCC CCT CTG TGG GGT GTC TCC CCC CCC CCG
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 4268
+      ctype: Blood-T
+    Probability Distribution:
+      33.7% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T ✓
+      13.3% - Blood-NK
+
+11. Confidence: 33.7% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TTG TGC GCA CAG AGA GAA AAA AAA AAC ACG CGT GTT TTC TCC CCC CCA CAA AAC ACC CCC CCC CCT CTG TGG GGT GTT TTT TTA TAG AGA GAT ATT TTA TAA AAA AAA AAG AGT GTC TCT CTT TTG TGA GAC ACA CAG AGT GTG TGG GGC GCC CCA CAT ATT TTT TTT TTT TTG TGT GTT TTG TGT GTG TGG GGT GTA TAA AAT ATA TAG AGA GAA AAG AGA GAG AGT GTA TAT ATA TAG AGT GTT TTC TCT CTG TGC GCA CAG AGA GAT ATA TAC ACC CCT CTA TAA AAG AGT GTA TAT ATC TCC CCT CTG TGT GTT TTA TAG AGA GAG AGA GAA AAG AGA GAA AAG AGG GGA GAA AAA AAG AGA GAG AGG GGA GAG AGT GTC TCG
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 4221
+      ctype: Blood-T
+    Probability Distribution:
+      33.7% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T ✓
+      13.3% - Blood-NK
+
+12. Confidence: 33.6% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GAC ACG CGG GGG GGG GGC GCC CCT CTG TGC GCC CCT CTG TGG GGA GAG AGA GAC ACA CAG AGG GGG GGG GGC GCC CCA CAA AAG AGA GAC ACC CCG
+      methyl_seq: 20222222222222222222222222222220
+      dmr_label: 4271
+      ctype: Blood-T
+    Probability Distribution:
+      33.6% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T ✓
+      13.3% - Blood-NK
+
+13. Confidence: 33.6% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GGG GGC GCT CTC TCG CGG GGT GTG TGG GGC GCT CTC TCA CAT ATG TGC GCC CCT CTG TGG GGA GAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCA CAA AAG AGG GGT GTG TGG GGG GGC GCA CAG AGA GAT ATC TCA CAC ACC CCT CTG TGA GAG AGT GTT TTC TCA CAA AAG AGA GAC ACC CCA CAG AGC GCT CTT TTG TGG GGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAT ATC TCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCA CAG AGG GGC GCG CGT GTG TGG GGT GTG TGA GAT ATG TGG GGG GGT GTG TGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTC TCG CGA GAG AGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATT TTG TGC GCT CTT TTG TGA GAA AAC ACC CCC CCA CAG AGG GGA GAG AGG GGT GTG TGG GGA GAG AGG GGT GTA TAG AGT GTA TAG AGT GTG TGA GAG AGC GCT CTG TGA GAG AGA GAT ATC TCG CGA GAG AGC GCC CCA CAC ACT CTG TGC GCA
+      methyl_seq: 222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222222222222222222222222022222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4325
+      ctype: Blood-T
+    Probability Distribution:
+      33.6% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T ✓
+      13.3% - Blood-NK
+
+14. Confidence: 33.5% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CTT TTT TTT TTC TCC CCT CTT TTG TGC GCG CGG GGT GTC TCT CTT TTG TGG GGG GGA GAA AAG AGG GGG GGT GTG TGT GTG TGT GTG TGT GTG TGA GAC ACG CGG GGT GTG TGA GAG AGC GCT CTG TGC GCA
+      methyl_seq: 22222222202222222222222222222222202222222222
+      dmr_label: 4385
+      ctype: Blood-T
+    Probability Distribution:
+      33.5% - Eryth-prog
+      13.3% - Blood-Granul
+      13.3% - Blood-T ✓
+      13.3% - Blood-NK
+
+15. Confidence: 33.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TGG GGG GGA GAC ACT CTT TTA TAT ATC TCG CGG GGG GGG GGG GGC GCT CTG TGT GTG TGG GGG GGG GGA GAG AGG GGG GGG GGA GAG AGA GAA AAT ATC TCG CGG GGG GGA GAG AGT GTT TTA TAT ATT TTA
+      methyl_seq: 22222222202222222222222222222222202222222222
+      dmr_label: 4233
+      ctype: Blood-T
+    Probability Distribution:
+      33.4% - Eryth-prog
+      13.4% - Blood-Granul
+      13.3% - Blood-T ✓
+      13.3% - Blood-NK
+
+============================================================
+
+TRUE CELL TYPE: Eryth-prog
+------------------------------------------------------------
+
+ 1. Confidence: 34.5% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CCC CCA CAG AGC GCT CTA TAC ACT CTC TCG CGG GGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATG TGG GGT GTG TGT GTG TGA GAA AAC ACC CCC CCG CGG GGG GGA GAG AGG GGC GCA CAG AGA GAG AGC GCT CTT TTG TGC GCA CAA AAT ATG TGA GAG AGC GCC CCA CAA AAG AGA GAT ATC TCG CGC GCG CGC GCC CCA CAC ACT CTG TGC GCC CCC CCT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCG CGA GAG AGA GAG AGA GAG AGT GTG TGA GAG AGA GAC ACT CTC TCT CTG TGT GTC TCT CTC TCA CAA AAA AAA AAA AAA AAA AAT ATA TAA AAA AAA AAA AAT ATG TGT GTG TGT GTA TAT ATC TCT CTC TCT CTG TGT GTC TCA CAT ATT TTG TGG GGG GGA GAT ATT TTC TCC CCT CTA TAT ATA TAA AAG AGC GCT CTT TTG TGT GTG TGC GCC CCT CTA TAG AGA GAC ACA CAG AGG GGA GAT ATA TAG AGT GTT TTA TAT ATT TTT TTT TTA TAT ATC TCT CTT TTT TTA TAA AAG AGA GAC ACC CCC CCT CTG TGT GTT TTA TAA AAA AAG AGC GCC CCT CTG TGC GCC CCT CTG TGA GAG AGG GGT GTC TCT CTT TTA TAT ATC TCT CTG TGC GCA CAT ATT TTC TCC CCC CCC CCT CTG TGT GTG TGG GGG GGC GCT CTG TGA GAC ACT CTC TCA CAG AGC GCA CAC ACC CCT CTG TGG GGT GTT TTG TGC GCC CCT CTT TTG TGT GTA TAT ATT TTC TCT CTC TCC CCT CTG TGA GAT ATT TTA TAT ATG TGA GAA AAT ATC TCT CTT TTT TTC TCA CAA AAC ACC CCT CTC TCT CTA TAG AGG GGA GAC ACA CAT ATG TGG GGA GAC ACC CCA CAT ATT TTA TAA AAC ACG CGT GTT TTT TTA TAG AGT GTA TAT ATA TAC
+      methyl_seq: 22222222202222222222222222222222222222222122222222222222222222222222222020222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4401
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.5% - Eryth-prog ✓
+      13.1% - Blood-T
+      13.1% - Blood-NK
+      13.1% - Blood-Granul
+
+ 2. Confidence: 34.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TGT GTT TTC TCT CTT TTT TTA TAT ATC TCG CGA GAG AGC GCT CTG TGC GCA CAG AGC GCT CTC TCT CTG TGT GTC TCC CCG CGG GGG GGC GCG CGG GGC GCA CAG AGA GAG AGC GCA CAG AGT GTG TGG GGG GGA GAC ACC CCT CTG TGC GCG CGA GAG AGT GTG TGT GTC TCC CCT CTC TCT CTC TCT CTC TCT CTG TGG GGG GGC GCT CTG TGC GCT CTC TCA CAG AGA GAG AGC GCA CAC ACA CAC ACC CCG CGC GCC CCC CCT CTC TCT CTC TCC CCC CCC CCA CAC ACA CAG AGG GGC GCC CCC CCG CGG GGC GCC CCA CAA AAG AGC GCC CCC CCC
+      methyl_seq: 222222222022222222222222220222022222222222222222220222222222222222222222222222222222022222222222222222202222222222
+      dmr_label: 4214
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.4% - Eryth-prog ✓
+      13.1% - Blood-Granul
+      13.1% - Blood-T
+      13.1% - Blood-Mono+Macro
+
+ 3. Confidence: 34.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GCA CAT ATA TAC ACA CAG AGA GAC ACG CGG GGA GAC ACA CAG AGT GTG TGT GTG TGG GGT GTG TGG GGC GCA CAA AAC ACA CAT ATT TTG TGA GAA AAA AAG AGC GCC CCT CTC TCG CGT GTA TAC ACC CCC CCT CTG TGG GGC GCC CCT CTG TGC GCA CAG AGT GTT TTT TTG TGA GAA AAA AAT ATC TCA CAG AGT GTG TGA GAG AGT GTT TTT TTT TTC TCT CTG TGG GGA GAA AAA AAG AGG GGA GAG AGT GTG TGG GGA GAA AAG AGC GCT CTA TAA AAT ATG TGG GGG GGA GAA AAG AGC GCC CCC CCA CAG AGT GTA TAC ACC CCC CCC CCG CGA GAG AGA GAG AGG GGA GAG AGA GAG AGA
+      methyl_seq: 222222220222222222222222222222222222220222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4342
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.4% - Eryth-prog ✓
+      13.2% - Blood-Granul
+      13.1% - Blood-Mono+Macro
+      13.1% - Blood-T
+
+ 4. Confidence: 34.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GTG TGG GGT GTG TGG GGC GCG CGG GGG GGC GCG CGC GCC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAA AAC ACT CTA TAC ACT CTC TCG CGC GCG CGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATC TCG CGC GCT CTT TTG TGA GAA AAC ACC CCC CCG CGG GGG GGA GAG AGG GGC GCA CAG AGA GAG AGG GGT GTC TCG
+      methyl_seq: 22222202220222222222222222222212022222222222222222220222222222022222222222220
+      dmr_label: 4384
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.4% - Eryth-prog ✓
+      13.2% - Blood-B
+      13.1% - Blood-Granul
+      13.1% - Blood-Mono+Macro
+
+ 5. Confidence: 34.4% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: AGT GTG TGA GAT ATA TAC ACA CAC ACC CCG CGT GTC TCT CTC TCG CGA GAA AAA AAA AAA AAA AAG AGA GAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAC ACC CCA CAC ACT CTG TGC GCA CAT ATA TAG AGA GAA AAA AAT ATG TGA GAT ATA TAA AAC ACA CAC ACA CAC ACC CCA CAA AAA AAC ACT CTC TCA CAG AGG GGC GCT CTG TGA GAT ATG TGG GGT GTT TTT TTC TCC CCT CTT TTC TCG CGC GCG CGG GGC GCA CAG AGA GAA AAC ACA CAG AGA GAA AAG AGG GGA GAG AGA GAT ATA TAC ACA CAA AAT ATC TCA CAG AGG GGC GCA CAG AGG GGG GGA GAT ATA TAG AGA GAC ACA CAG AGG GGG GGG GGG GGC GCT CTT TTC TCA CAG AGT GTT TTG TGT GTA TAT ATC TCT CTG TGT GTA TAC ACT CTT TTT TTT TTT TTT TTA TAC ACT CTT TTA TAA AAA AAA AAA AAT ATA TAA AAT ATT TTG TGT GTG TGA GAA AAC ACA CAA AAT ATC TCA CAT ATG TGA GAT ATA TAG AGT GTG TGT GTT TTT TTT TTA TAT ATT TTT TTC TCC CCT CTG TGT GTG TGG GGC GCA CAT ATC TCT CTT TTT TTT TTT TTC TCA CAA AAA AAC ACA CAC ACC CCT CTC TCC CCT CTC TCC CCC CCC CCG CGC GCA CAC ACC CCC CCC CCA CAG AGC GCT
+      methyl_seq: 2222222220222202222222222222222222222222222222222222222222222222222222222222222222220202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4236
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.4% - Eryth-prog ✓
+      13.2% - Blood-NK
+      13.1% - Blood-T
+      13.1% - Blood-Granul
+
+ 6. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GTT TTT TTG TGT GTG TGG GGC GCT CTC TCG CGA GAT ATA TAT ATC TCC CCT CTT TTC TCC CCA CAG AGG GGC GCA CAA AAA AAT ATG TGC GCA CAA AAT ATA TAG AGA GAA AAG AGC GCC CCC CCC CCC CCG CGG GGG GGG GGG GGT GTG TGT GTT TTG TGT
+      methyl_seq: 222222222022222222222222222222222222222222202222222222
+      dmr_label: 4251
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.3% - Eryth-prog ✓
+      13.1% - Blood-Granul
+      13.1% - Blood-T
+      13.1% - Blood-NK
+
+ 7. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GGC GCG CGG GGC GCG CGG GGA GAG AGC GCA CAG AGG GGC GCG CGG GGC GCA CAT ATC TCG CGG GGA GAA AAG AGC GCG CGG GGG GGC GCT CTG TGG GGC GCG CGG GGT GTG TGC GCC CCA CAG AGC GCG CGG GGT GTG TGG GGG GGA GAG AGA GAG AGA GAA AAG AGC GCC CCA CAA AAA AAC ACT CTC TCC CCT CTG TGG GGC GCA CAG AGC GCG CGG GGA GAG AGA GAG AGC GCT CTG TGG GGA GAC ACC CCC CCG
+      methyl_seq: 20220222222220222220222220222222212222222202222222222222222222222222222022222222222220
+      dmr_label: 4159
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.3% - Eryth-prog ✓
+      13.2% - Blood-Granul
+      13.1% - Blood-Mono+Macro
+      13.1% - Blood-T
+
+ 8. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GTG TGG GGT GTG TGG GGC GCG CGG GGG GGC GCG CGC GCC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAA AAC ACT CTA TAC ACT CTC TCG CGC GCG CGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATC TCG CGC GCT CTT TTG TGA GAA AAC ACC CCC CCG CGG GGG GGA GAG AGG GGC GCA CAG AGA GAG AGG GGT GTC TCG
+      methyl_seq: 22222202221222222222222222222202022222222222222222220222222222022222222222220
+      dmr_label: 4384
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.3% - Eryth-prog ✓
+      13.2% - Blood-B
+      13.1% - Blood-Mono+Macro
+      13.1% - Blood-Granul
+
+ 9. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GCT CTT TTA TAA AAG AGT GTT TTC TCC CCG CGC GCT CTT TTC TCC CCT CTT TTC TCT CTG TGC GCT CTT TTG TGA GAT ATG TGC GCC CCA CAT ATC TCC CCT CTA TAG AGG GGC GCC CCG CGC GCC CCC CCC CCT CTC TCT CTG TGT GTG TGC GCC CCC CCG CGC GCA CAT ATC TCT CTG TGA GAC ACT CTA TAT ATA TAA AAC ACA CAG AGC GCG CGG GGG GGA GAG AGG GGA GAA AAA AAG AGG GGC GCT CTG TGC GCA CAC ACC CCT CTC TCA CAA AAC ACG CGC GCC CCT CTG TGG GGC GCC CCT CTG TGG GGA GAA AAA AAG AGA GAG AGC GCT CTG TGT GTG TGG GGC GCC CCA CAA AAA AAT ATC TCT CTC TCC CCA CAG AGT GTC TCT CTC TCA CAT ATC TCC CCC CCT CTC TCA CAC ACA CAC ACA CAC ACT CTC TCA CAC ACT CTT TTT TTC TCC CCA CAG AGA GAA AAA AAA AAC ACA CAC ACG CGG GGC GCC CCC CCG CGG GGG GGC GCC CCC CCA CAG AGC GCC CCC CCA CAG AGC GCC CCC CCA CAG AGC GCC CCC CCA CAG AGC GCT CTC TCC CCA CAC ACC CCC CCG CGA GAG AGG GGC
+      methyl_seq: 2222222220222222222222222222222222222220222222222222202222222222222222202222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222202222022222222222222222222222222222202222
+      dmr_label: 4362
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.3% - Eryth-prog ✓
+      13.2% - Blood-NK
+      13.1% - Blood-T
+      13.1% - Blood-Mono+Macro
+
+10. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GAG AGC GCA CAC ACC CCG CGA GAA AAC ACT CTC TCC CCA CAT ATG TGC GCC CCA CAA AAG AGC GCG CGC GCA CAA AAT ATT TTC TCT CTA TAA AAA AAT ATA TAC ACT CTA TAC ACA CAT ATA TAG AGT GTA TAG AGC GCT CTC TCA CAT ATG TGT GTG TGG GGT GTC TCT CTT TTC TCA CAC ACA CAA AAC ACA CAC ACC CCT CTA TAG AGG GGA GAA AAG AGT GTA TAA AAG AGT GTA TAC ACC CCA CAT ATT TTA TAC ACT CTC TCT CTC TCT CTT TTT TTG TGC GCT CTT TTT TTA TAC ACA CAG AGA GAA AAG AGA GAC ACA CAG AGA GAC ACA CAA AAA AAT ATA TAG AGC GCC CCA CAG AGC GCA CAG AGT GTT TTC TCC CCA CAC ACA CAG AGC GCG CGA GAC ACT CTC TCA CAG AGG GGG GGG GGA GAC ACT CTG TGC GCC CCA CAG AGG GGG GGT GTT TTC TCA CAA AAA AAT ATC TCC CCT CTG TGC GCT CTC TCC CCT CTG TGC GCT CTA TAG AGA GAT ATG TGC GCC CCA CAC ACT CTT TTC TCT CTG TGC GCT CTG TGC GCT CTC TCT CTT TTC TCA CAT ATT TTG TGC GCT CTG TGC GCC CCC CCT CTA TAG AGA GAC ACA CAA AAG AGG GGC GCC CCA CAG AGG GGC GCC CCC CCT CTG TGC GCG CGG GGC
+      methyl_seq: 2222202222222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222022
+      dmr_label: 4292
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.3% - Eryth-prog ✓
+      13.2% - Blood-NK
+      13.2% - Blood-T
+      13.1% - Blood-Mono+Macro
+
+11. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GAA AAC ACC CCA CAC ACT CTT TTG TGC GCG CGC GCC CCG CGG GGC GCA CAC ACA CAG AGT GTC TCG CGG GGC GCG CGG GGC GCG CGG GGA GAG AGC GCA CAG AGG GGC GCG CGG GGC GCA CAT ATC TCG CGG GGA GAA AAG AGC GCG CGG GGG GGC GCT CTG TGG GGC
+      methyl_seq: 22222222202202222222202202202222222202222202222212222222
+      dmr_label: 4159
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.3% - Eryth-prog ✓
+      13.2% - Blood-Granul
+      13.2% - Blood-T
+      13.1% - Blood-NK
+
+12. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: CCT CTC TCC CCC CCT CTT TTC TCC CCC CCG CGG GGT GTG TGG GGC GCT CTG TGG GGA GAA AAT ATA TAT ATA TAG AGA GAT ATA TAC ACG CGA GAC ACA CAG AGT GTG TGG GGG GGA GAG AGC GCA CAA AAG AGA GAG AGC GCA CAG AGC GCC CCT CTC TCC CCT CTC TCA CAG AGA GAC ACC CCA CAC ACG CGA GAG AGG GGC GCA CAG AGA GAA AAA AAC ACC CCC CCT CTG TGT GTA TAC ACG CGA GAG AGG GGG GGT GTA TAA AAC ACA CAG AGA GAG AGC GCA CAA AAT ATG TGA GAG AGA GAA AAA AAG AGA GAA AAG AGG GGT GTG TGT GTC TCT CTG TGG GGG GGT GTC TCC CCC CCC CCA CAG AGC GCA CAC ACA CAA AAT ATG TGA GAG AGG GGC GCC CCT CTC TCC CCG
+      methyl_seq: 22222222202222222222222222222122222222222222222222222222222222202222222222222222212222222222222222222222222222222222222222222222222222222220
+      dmr_label: 4375
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.3% - Eryth-prog ✓
+      13.2% - Blood-T
+      13.1% - Blood-NK
+      13.1% - Blood-Granul
+
+13. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: GCC CCG CGC GCA CAT ATG TGG GGT GTA TAC ACC CCA CAG AGT GTA TAG AGG GGC GCC CCT CTT TTG TGA GAT ATA TAC ACT CTT TTA TAT ATC TCC CCC CCT CTG TGG GGA GAA AAG AGG GGA GAA AAC ACC CCG CGT GTT TTT TTT TTC TCT CTG TGT GTT TTA TAA AAG AGG GGA GAA AAC ACT CTT TTC TCA CAC ACT CTA TAG AGA GAT ATG TGG GGT GTT TTC TCT CTC TCT CTC TCA CAC ACT CTC TCG CGA GAG AGG GGT GTG TGG GGA GAA AAG AGT GTT TTC TCG CGA GAG AGG GGC GCG CGG GGT GTC TCA CAT ATT TTG TGT GTC TCT CTT TTC TCT CTG TGC GCT CTT TTC TCT CTC TCC CCC CCA CAC ACA CAC ACC CCC CCC CCC CCG CGC GCC CCA CAG AGC GCT CTG TGT GTC TCT
+      methyl_seq: 202222222222222222222222222222222222222222220222222222222222222222222222222222222222022222222222202222022222222222222222222222222222202222222222
+      dmr_label: 4263
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.3% - Eryth-prog ✓
+      13.2% - Blood-Granul
+      13.2% - Blood-Mono+Macro
+      13.1% - Blood-T
+
+14. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: TTG TGA GAC ACC CCC CCA CAT ATG TGC GCG CGG GGA GAT ATG TGC GCG CGC GCC CCT CTT TTC TCA CAG AGA GAG AGC GCA CAG AGT GTA TAA AAA AAA AAC ACA CAA AAG AGT GTA TAA AAG AGT GTG TGA GAA AAT ATA TAC ACA CAT ATA TAA AAG AGA GAT ATT TTA TAA AAC ACC CCT CTC TCA CAT ATT TTC TCA CAT ATC TCG CGT GTT TTT TTG TGG GGA GAG AGC GCT CTT
+      methyl_seq: 22222222202222202222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 4160
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.3% - Eryth-prog ✓
+      13.2% - Blood-T
+      13.2% - Blood-Granul
+      13.2% - Blood-NK
+
+15. Confidence: 34.3% | Predicted: Eryth-prog
+    Read Information:
+      dna_seq: ATG TGC GCC CCA CAG AGT GTT TTA TAC ACG CGG GGG GGC GCA CAC ACG CGG GGC GCT CTC TCA CAC ACT CTT TTG TGG GGC GCT CTT TTG TGG GGG GGG GGC GCC CCA CAC ACT CTT TTC TCA CAA AAC ACG CGG GGG GGC GCT CTC TCC CCT CTT TTC TCT CTG TGG GGA GAT ATG TGA GAT ATC TCC CCA CAG AGG GGT GTG TGA GAC ACC CCG CGA GAC ACT CTC TCG CGG GGT GTC TCA CAG AGC GCG CGG GGC GCG CGG GGG GGG GGT GTG TGG GGT GTG TGA GAG AGC GCG CGA GAG AGC GCC CCC CCA CAC ACA CAT ATA TAG AGG GGT GTC TCC CCA CAG AGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAG AGG GGT GTG TGG GGG GGC GCA CAG AGC GCA CAG AGA GAG AGC GCG CGG GGA GAG AGG GGG GGG GGT GTC TCG CGA GAA AAG AGG GGG GGG GGC GCG CGC GCA CAT ATG TGG GGC GCC CCG CGC GCC CCC CCG CGC GCG CGC GCG CGT GTC TCC CCT CTG TGA GAG AGA GAG AGA GAC ACC CCG CGA GAG AGA GAA AAG AGC GCC CCA CAA AAG AGG GGC GCC CCG CGT GTG TGT GTC TCA CAG AGT GTC TCC CCT CTC TCA CAG AGG GGC GCG
+      methyl_seq: 222222222122222022222222222222222222222222202222222222222222222222222220222202222220220222222222220222222222222222222222222222222222222222222202222222202222222022222220222120202222222222220222222222222202222222222222220
+      dmr_label: 4325
+      ctype: Eryth-prog
+    Probability Distribution:
+      34.3% - Eryth-prog ✓
+      13.2% - Blood-NK
+      13.2% - Blood-B
+      13.2% - Blood-T
+
+============================================================
+
+
+
+SUMMARY STATISTICS
+================================================================================
+LOW CONFIDENCE SUMMARY
+------------------------------
+Blood-B                  : 15 examples, avg conf: 16.8%, min conf: 16.8%
+Blood-Granul             : 15 examples, avg conf: 16.8%, min conf: 16.8%
+Blood-Mono+Macro         : 15 examples, avg conf: 16.8%, min conf: 16.8%
+Blood-NK                 : 15 examples, avg conf: 16.8%, min conf: 16.7%
+Blood-T                  : 15 examples, avg conf: 16.8%, min conf: 16.7%
+Eryth-prog               : 15 examples, avg conf: 16.8%, min conf: 16.7%
+
+HIGH CONFIDENCE SUMMARY
+------------------------------
+Blood-B                  : 15 examples, avg conf: 33.5%, max conf: 34.5%
+Blood-Granul             : 15 examples, avg conf: 33.5%, max conf: 34.5%
+Blood-Mono+Macro         : 15 examples, avg conf: 32.8%, max conf: 34.5%
+Blood-NK                 : 15 examples, avg conf: 34.0%, max conf: 34.5%
+Blood-T                  : 15 examples, avg conf: 33.9%, max conf: 34.5%
+Eryth-prog               : 15 examples, avg conf: 34.3%, max conf: 34.5%

@@ -1,0 +1,20 @@
+# Output of Results/audit_splits.py (run 2026-09-28). Read-only counts on the saved splits; no model involved.
+
+## 1. leaky: early flat 39-class split (../data/train_seq.csv, ../data/test_seq.csv; used by res_1M)
+train rows 799,984, test rows 200,016, cell types 39
+DMR regions in train: 37,918; regions with exactly one cell type: 100.00%
+DMR-lookup accuracy on test (region ID only, no methylation): 1.0000 (covers 99.92% of test)
+test rows with an identical (dna_seq, methyl_seq, dmr_label) row in train: 69.14%
+
+## 2. family: Excitable split (Data/train_Excitable.csv, Data/test_Excitable.csv; used by Excitable_1)
+train rows 296,662, test rows 99,027, cell types 3 (chance 0.333)
+DMR regions: 2,902; regions containing every cell type: 99.86%
+DMR-lookup accuracy on test (region ID only): 0.3862 (covers 100.00% of test)
+test rows with an identical (dna_seq, methyl_seq) read in train: 49.00%
+test rows whose identical training read carries a different cell-type label: 35.42%
+
+## 3. ontarget: unbalanced preprocessing output, one skeletal muscle sample (GSM5652205)
+sample cell type(s): ['Skeletal-Musc']
+rows 1,161,474, reads 3,813,716, DMR label groups 51
+on-target rows (read in a marker region of its own cell type): 1.87%
+on-target reads (weighted by Read_Count): 1.73%

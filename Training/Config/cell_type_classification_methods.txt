@@ -1,0 +1,45 @@
+Classification Method 1: Organ-system clusters (anatomy-first)
+- Immune & Hematopoietic: Blood-T, Blood-B, Blood-NK, Blood-Granul, Blood-Mono+Macro, Eryth-prog
+- GI & Hepatobiliary + Exocrine Pancreas: Gastric-Ep, Small-Int-Ep, Colon-Ep, Liver-Hep, Gallbladder, Pancreas-Duct, Pancreas-Acinar
+- Endocrine & Metabolic: Pancreas-Alpha, Pancreas-Beta, Pancreas-Delta, Thyroid-Ep, Adipocytes
+- Thoracic Organs: Lung-Ep-Alveo, Lung-Ep-Bron, Heart-Cardio, Smooth-Musc
+- Uro- & Reproductive Epithelia: Kidney-Ep, Bladder-Ep, Prostate-Ep, Ovary-Ep, Fallopian-Ep
+- Ectodermal Barrier & Neuro: Neuron, Oligodend, Epid-Kerat, Head-Neck-Ep, Breast-Luminal-Ep, Breast-Basal-Ep
+- Musculoskeletal & Stromal: Skeletal-Musc, Bone-Osteob, Dermal-Fibro, Colon-Fibro, Heart-Fibro
+
+Classification Method 2: Functional roles
+- Immune & Hematopoietic: Blood-T, Blood-B, Blood-NK, Blood-Granul, Blood-Mono+Macro, Eryth-prog
+- Epithelial Barriers (GI/Resp/Surface): Gastric-Ep, Small-Int-Ep, Colon-Ep, Lung-Ep-Alveo, Lung-Ep-Bron, Head-Neck-Ep, Epid-Kerat
+- Exocrine Secretory/Ductal: Pancreas-Acinar, Pancreas-Duct, Liver-Hep, Gallbladder, Breast-Luminal-Ep
+- Endocrine Hormone-Secreting: Pancreas-Alpha, Pancreas-Beta, Pancreas-Delta, Thyroid-Ep, Adipocytes
+- Uro-Genital Epithelium: Kidney-Ep, Bladder-Ep, Ovary-Ep, Prostate-Ep, Fallopian-Ep
+- Excitable & Contractile: Heart-Cardio, Skeletal-Musc, Smooth-Musc, Neuron, Breast-Basal-Ep
+- Support & Matrix-forming (Stromal/Glial): Heart-Fibro, Dermal-Fibro, Colon-Fibro, Bone-Osteob, Oligodend
+
+Classification Method 3: Developmental origin (germ-layer/lineage)
+- Ectoderm & Neural Crest: Neuron, Oligodend, Epid-Kerat, Head-Neck-Ep, Breast-Luminal-Ep, Breast-Basal-Ep
+- Endoderm – Foregut Organs: Lung-Ep-Alveo, Lung-Ep-Bron, Liver-Hep, Gallbladder, Gastric-Ep
+- Endoderm – Mid/Hindgut & Exocrine Pancreas: Small-Int-Ep, Colon-Ep, Pancreas-Acinar, Pancreas-Duct
+- Endoderm – Endocrine Buds: Pancreas-Alpha, Pancreas-Beta, Pancreas-Delta, Thyroid-Ep
+- Mesoderm – Hematopoietic Lineages: Blood-T, Blood-B, Blood-NK, Blood-Granul, Blood-Mono+Macro, Eryth-prog
+- Mesoderm – Urogenital Epithelium: Kidney-Ep, Bladder-Ep, Prostate-Ep, Ovary-Ep, Fallopian-Ep
+- Mesoderm – Mesenchyme/Support: Dermal-Fibro, Colon-Fibro, Bone-Osteob, Adipocytes
+- Mesoderm – Muscle & Heart: Heart-Cardio, Heart-Fibro, Smooth-Musc, Skeletal-Musc
+
+Classification Method 4: Sample-count balanced buckets (ML-friendly)
+- Bucket A — Lymphoid-heavy mix: Blood-T, Kidney-Ep, Pancreas-Beta, Bone-Osteob, Colon-Fibro, Breast-Luminal-Ep
+- Bucket B — Head/neck & cardio blend: Head-Neck-Ep, Heart-Cardio, Pancreas-Alpha, Dermal-Fibro, Blood-NK, Ovary-Ep, Epid-Kerat
+- Bucket C — Myeloid + liver/prostate: Blood-Mono+Macro, Liver-Hep, Pancreas-Delta, Eryth-prog, Skeletal-Musc, Prostate-Ep
+- Bucket D — Gastric/airway + GU: Gastric-Ep, Lung-Ep-Alveo, Thyroid-Ep, Gallbladder, Bladder-Ep, Breast-Basal-Ep
+- Bucket E — Neuro/resp/intestine: Neuron, Smooth-Musc, Lung-Ep-Bron, Small-Int-Ep, Adipocytes, Fallopian-Ep
+- Bucket F — Colon & plasma/ductal: Colon-Ep, Blood-B, Blood-Granul, Oligodend, Heart-Fibro, Pancreas-Duct, Pancreas-Acinar
+
+Classification Method 5: Body-cavity/topology (where they live)
+- Thoracic Organs: Lung-Ep-Alveo, Lung-Ep-Bron, Heart-Cardio, Breast-Luminal-Ep, Breast-Basal-Ep
+- Abdominal Solid Organs: Liver-Hep, Gallbladder, Pancreas-Duct, Pancreas-Acinar, Adipocytes
+- GI Tract Lumen & Wall: Gastric-Ep, Small-Int-Ep, Colon-Ep, Colon-Fibro, Smooth-Musc
+- Pelvic/Urogenital: Kidney-Ep, Bladder-Ep, Prostate-Ep, Ovary-Ep, Fallopian-Ep
+- Integument & Craniofacial Surface: Epid-Kerat, Head-Neck-Ep, Dermal-Fibro, Bone-Osteob
+- Neuro–Muscular Axis: Neuron, Oligodend, Skeletal-Musc, Heart-Fibro
+- Hematologic & Immune: Blood-T, Blood-B, Blood-NK, Blood-Granul, Blood-Mono+Macro, Eryth-prog
+- Endocrine Axis: Pancreas-Alpha, Pancreas-Beta, Pancreas-Delta, Thyroid-Ep

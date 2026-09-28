@@ -1,0 +1,122 @@
+CELL TYPE DECONVOLUTION RESULTS
+============================================================
+Input file: Prostate-Smooth-Muscle_41Y_split.csv
+Model directory: Training/Run_Result/bert_best.model
+Device: cuda:0
+Total reads: 78198
+
+FINAL VERDICT:
+  Dominant Cell Type: Class_3
+  Percentage: 20.63%
+  Overall Confidence: 0.186
+
+CELL TYPE BREAKDOWN:
+  Class_0: 12557 reads (16.06%)
+  Class_1: 15543 reads (19.88%)
+  Class_2: 12556 reads (16.06%)
+  Class_3: 16132 reads (20.63%)
+  Class_4: 8227 reads (10.52%)
+  Class_5: 13183 reads (16.86%)
+
+CONFIDENCE ANALYSIS:
+  Overall Average Confidence: 0.186
+  Overall Confidence Std: 0.012
+
+Confidence by Cell Type:
+  Class_0:
+    Avg: 0.185, Std: 0.01
+    Range: 0.168 - 0.25
+  Class_1:
+    Avg: 0.183, Std: 0.008
+    Range: 0.168 - 0.239
+  Class_2:
+    Avg: 0.186, Std: 0.013
+    Range: 0.168 - 0.285
+  Class_3:
+    Avg: 0.191, Std: 0.014
+    Range: 0.168 - 0.275
+  Class_4:
+    Avg: 0.187, Std: 0.012
+    Range: 0.168 - 0.273
+  Class_5:
+    Avg: 0.185, Std: 0.011
+    Range: 0.168 - 0.248
+
+============================================================
+DMR_cType ANALYSIS BY REGION
+============================================================
+DMR_cType to Region mapping:
+  Smooth-Musc -> Region_0
+  Adipocytes -> Region_1
+  Colon-Fibro -> Region_2
+  Skeletal-Musc -> Region_3
+  Heart-Fibro -> Region_4
+  Endothel -> Region_5
+
+Detailed breakdown by region:
+
+Region_0 (DMR_cType: Smooth-Musc):
+  Total reads: 8734
+  Dominant cell type: Class_3 (33.24%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	14.24%	1244	0.185
+  Class_1	8.03%	701	0.184
+  Class_2	14.21%	1241	0.191
+  Class_3	33.24%	2903	0.194
+  Class_4	11.72%	1024	0.187
+  Class_5	18.56%	1621	0.188
+
+Region_1 (DMR_cType: Adipocytes):
+  Total reads: 16447
+  Dominant cell type: Class_0 (21.09%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	21.09%	3469	0.186
+  Class_1	18.0%	2961	0.183
+  Class_2	13.15%	2162	0.185
+  Class_3	20.65%	3396	0.188
+  Class_4	12.22%	2010	0.187
+  Class_5	14.89%	2449	0.183
+
+Region_2 (DMR_cType: Colon-Fibro):
+  Total reads: 3810
+  Dominant cell type: Class_3 (25.28%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	18.56%	707	0.185
+  Class_1	15.3%	583	0.181
+  Class_2	13.6%	518	0.185
+  Class_3	25.28%	963	0.188
+  Class_4	12.68%	483	0.187
+  Class_5	14.59%	556	0.183
+
+Region_3 (DMR_cType: Skeletal-Musc):
+  Total reads: 16259
+  Dominant cell type: Class_1 (26.08%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	14.5%	2357	0.183
+  Class_1	26.08%	4241	0.182
+  Class_2	17.7%	2878	0.185
+  Class_3	15.8%	2569	0.189
+  Class_4	10.46%	1700	0.19
+  Class_5	15.46%	2514	0.183
+
+Region_4 (DMR_cType: Heart-Fibro):
+  Total reads: 20059
+  Dominant cell type: Class_1 (22.14%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	9.61%	1927	0.183
+  Class_1	22.14%	4441	0.183
+  Class_2	20.0%	4011	0.187
+  Class_3	19.99%	4009	0.196
+  Class_4	8.55%	1716	0.185
+  Class_5	19.72%	3955	0.187
+
+Region_5 (DMR_cType: Endothel):
+  Total reads: 12889
+  Dominant cell type: Class_0 (22.14%)
+  Class	Percentage	Count	Confidence_Avg
+  Class_0	22.14%	2853	0.186
+  Class_1	20.3%	2616	0.182
+  Class_2	13.55%	1746	0.185
+  Class_3	17.78%	2292	0.186
+  Class_4	10.04%	1294	0.186
+  Class_5	16.2%	2088	0.183

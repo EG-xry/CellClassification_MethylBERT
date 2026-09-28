@@ -1,0 +1,30 @@
+FINAL EVALUATION METRICS
+==================================================
+Overall Accuracy: 0.2734
+Macro F1-Score: 0.2614
+Weighted F1-Score: 0.2837
+Final Loss: 1.6590
+
+PER-CLASS ACCURACY
+------------------------------
+Liver-Hep                : 0.4253
+Pancreas-Acinar          : 0.2743
+Pancreas-Alpha           : 0.1555
+Pancreas-Beta            : 0.2374
+Pancreas-Delta           : 0.2017
+Pancreas-Duct            : 0.3523
+
+CLASSIFICATION REPORT
+------------------------------
+                 precision    recall  f1-score   support
+
+      Liver-Hep       0.38      0.43      0.40     35891
+Pancreas-Acinar       0.52      0.27      0.36     42528
+ Pancreas-Alpha       0.26      0.16      0.19     29962
+  Pancreas-Beta       0.26      0.24      0.25     27144
+ Pancreas-Delta       0.20      0.20      0.20     27752
+  Pancreas-Duct       0.10      0.35      0.16     12942
+
+       accuracy                           0.27    176219
+      macro avg       0.29      0.27      0.26    176219
+   weighted avg       0.33      0.27      0.28    176219

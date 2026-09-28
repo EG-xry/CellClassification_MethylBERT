@@ -1,0 +1,23 @@
+CELL TYPE DECONVOLUTION RESULTS
+============================================================
+Input file: Blood-NK_U1_Singular.csv
+Model directory: Training/Run_Result/bert.model
+Device: cuda:0
+Total reads: 151259
+
+FINAL VERDICT:
+  Dominant Cell Type: Class_0
+  Percentage: 38.91%
+  Overall Confidence: 0.238
+
+CELL TYPE BREAKDOWN:
+  Class_0: 58856 reads (38.91%)
+  Class_1: 18923 reads (12.51%)
+  Class_2: 12826 reads (8.48%)
+  Class_3: 40088 reads (26.5%)
+  Class_4: 14611 reads (9.66%)
+  Class_5: 5955 reads (3.94%)
+
+CONFIDENCE ANALYSIS:
+  Overall Average Confidence: 0.238
+  Overall Confidence Std: 0.037

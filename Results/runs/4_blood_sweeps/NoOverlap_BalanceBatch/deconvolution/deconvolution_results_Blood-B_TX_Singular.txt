@@ -1,0 +1,23 @@
+CELL TYPE DECONVOLUTION RESULTS
+============================================================
+Input file: Blood-B_TX_Singular.csv
+Model directory: Training/Run_Result/bert.model
+Device: cuda:0
+Total reads: 106228
+
+FINAL VERDICT:
+  Dominant Cell Type: Class_0
+  Percentage: 48.37%
+  Overall Confidence: 0.234
+
+CELL TYPE BREAKDOWN:
+  Class_0: 51385 reads (48.37%)
+  Class_1: 17051 reads (16.05%)
+  Class_2: 9408 reads (8.86%)
+  Class_3: 12139 reads (11.43%)
+  Class_4: 9788 reads (9.21%)
+  Class_5: 6457 reads (6.08%)
+
+CONFIDENCE ANALYSIS:
+  Overall Average Confidence: 0.234
+  Overall Confidence Std: 0.031

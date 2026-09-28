@@ -1,0 +1,303 @@
+nohup: ignoring input
+/PUBLIC/shixi_home/gaozhouquan/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-0cwpgjn0 because there was an issue with the default path (/PUBLIC/shixi_home/gaozhouquan/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up th
+=== MethylBERT Fine-tuning Training ===
+Config file: /PUBLIC/shixi/GSE186458_raw/methylbert_run/focal_manual_config.json
+Training steps: 100000
+Batch size: 128
+Learning rate: 0.0005
+Loss function: focal
+Number of classes: 6
+Use balanced batches: True
+Use balanced test evaluation: False
+========================================
+Creating tokenizer...
+Building Vocab
+Loading training dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  330682
+Created mapping for 6 unique cell types
+# of reads in each label:  [59203. 32023. 72802. 65036. 31798. 69820.]
+Total number of unique cell types: 6
+Cell type mapping (first 10): {'Adipocytes': 0, 'Colon-Fibro': 1, 'Endothel': 2, 'Heart-Fibro': 3, 'Skeletal-Musc': 4, 'Smooth-Musc': 5}
+Using balanced batch sampling for training...
+Built class indices: [59203, 32023, 72802, 65036, 31798, 69820]
+BalancedBatchSampler: 6 classes
+Original class distribution: [59203 32023 72802 65036 31798 69820]
+Samples per class per batch: 21
+Actual batch size: 126 (requested: 128)
+Max batches per epoch: 1514
+Total samples per epoch: 190764
+Training samples: 330682 (balanced batches: 190764 samples per epoch)
+Loading test dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  110130
+Some weights of MethylBertEmbeddedDMR were not initialized from the model checkpoint at hanyangii/methylbert_hg19_6l and are newly initialized: ['dmr_encoder.0.weight', 'read_classifier.0.bias', 'read_classifier.0.weight', 'read_classifier.3.bias', 'read_classifier.3.weight', 'read_classifier.4.bias
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Created mapping for 6 unique cell types
+# of reads in each label:  [20086. 10500. 24310. 21231. 10596. 23407.]
+Total number of unique cell types: 6
+Cell type mapping (first 10): {'Adipocytes': 0, 'Colon-Fibro': 1, 'Endothel': 2, 'Heart-Fibro': 3, 'Skeletal-Musc': 4, 'Smooth-Musc': 5}
+Using standard (unbalanced) test evaluation...
+Test samples: 110130
+Creating trainer...
+Auto-detected 6 classes from training dataset
+Using CUDA GPU (NVIDIA A40)
+Loading pre-trained model...
+Restore the pretrained model hanyangii/methylbert_hg19_6l
+Loading with 6 classes (from dataset)
+Using explicit seq_len: 250
+Using num_classes from hierarchy: 6
+DMR embedding size: 49260
+Focal loss assigned (softmax-based multiclass)
+Focal weight: None (equal class weighting)
+Focal gamma: 2.0
+Focal loss assigned (softmax-based multiclass)
+Focal weight (per-class) length=6; values: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+Focal gamma: 2.0
+Resolved focal weight (per-class) length=6; values: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+Total Parameters: 104382166
+Optimizer created successfully
+Starting training...
+========================================
+False
+Training Steps:   0%|          | 0/100000 [00:00<?, ?it/s]Training Steps:   0%|          | 0/100000 [00:01<?, ?it/s, eval_acc=nan, eval_loss=nan, loss=1.4047, lr=0.000000, step=0]                                                                                                                      
+    Overall - Loss: 1.4047, Accuracy: 0.175, Avg Confidence: 0.542
+    Per-class breakdown:
+      Adipocytes     : Acc=0.000, Conf=0.543, Count= 21
+      Colon-Fibro    : Acc=0.000, Conf=0.522, Count= 21
+      Endothel       : Acc=0.857, Conf=0.577, Count= 21
+      Heart-Fibro    : Acc=0.095, Conf=0.549, Count= 21
+      Skeletal-Musc  : Acc=0.000, Conf=0.521, Count= 21
+      Smooth-Musc    : Acc=0.095, Conf=0.544, Count= 21
+
+Train Step 0 - Loss: 1.4047 / LR: 0.000000
+Running time for iter = 0.93s
+Training Steps:   0%|          | 1/100000 [00:01<40:27:24,  1.46s/it, eval_acc=nan, eval_loss=nan, loss=1.4047, lr=0.000000, step=0]Training Steps:   0%|          | 1/100000 [00:01<40:27:24,  1.46s/it, eval_acc=nan, eval_loss=nan, loss=1.3998, lr=0.000000, step=1]Training Steps:   0%|          | 
+    Overall - Loss: 1.2440, Accuracy: 0.175, Avg Confidence: 0.542
+    Per-class breakdown:
+      Adipocytes     : Acc=0.143, Conf=0.542, Count= 21
+      Colon-Fibro    : Acc=0.095, Conf=0.541, Count= 21
+      Endothel       : Acc=0.190, Conf=0.541, Count= 21
+      Heart-Fibro    : Acc=0.286, Conf=0.542, Count= 21
+      Skeletal-Musc  : Acc=0.190, Conf=0.542, Count= 21
+      Smooth-Musc    : Acc=0.143, Conf=0.543, Count= 21
+
+Train Step 500 - Loss: 1.2440 / LR: 0.000025
+Running time for iter = 0.19s
+Training Steps:   1%|          | 501/100000 [01:49<6:03:07,  4.57it/s, eval_acc=nan, eval_loss=nan, loss=1.2440, lr=0.000025, step=500]Training Steps:   1%|          | 501/100000 [01:50<6:03:07,  4.57it/s, eval_acc=nan, eval_loss=nan, loss=1.2451, lr=0.000025, step=501]Training Steps:   1%|      
+    Overall - Loss: 1.2262, Accuracy: 0.167, Avg Confidence: 0.542
+    Per-class breakdown:
+      Adipocytes     : Acc=0.286, Conf=0.542, Count= 21
+      Colon-Fibro    : Acc=0.048, Conf=0.542, Count= 21
+      Endothel       : Acc=0.238, Conf=0.543, Count= 21
+      Heart-Fibro    : Acc=0.190, Conf=0.542, Count= 21
+      Skeletal-Musc  : Acc=0.048, Conf=0.541, Count= 21
+      Smooth-Musc    : Acc=0.190, Conf=0.544, Count= 21
+                                                                                                                                        Training Steps:   1%|          | 1000/100000 [04:26<5:55:28,  4.64it/s, eval_acc=nan, eval_loss=nan, loss=1.2342, lr=0.000050, step=999]                        
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:1000 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.1697
+Step 1000: New best evaluation loss (1.2468 < inf). Saving lowest-loss model...
+Saved read classifier to res/bert.model/read_classification_model.pickle
+Saved DMR encoder to res/bert.model/dmr_encoder.pickle
+Step:1000 Lowest-Loss Model Saved at: res/bert.model/ with Loss: 1.2468
+  EVALUATION Results Analysis (Step 1000):
+    Overall - Loss: 1.2468, Accuracy: 0.198, Avg Confidence: 0.542
+    Per-class breakdown:
+      Class_0        : Acc=0.396, Conf=0.542
+      Class_1        : Acc=0.076, Conf=0.543
+      Class_2        : Acc=0.204, Conf=0.541
+      Class_3        : Acc=0.038, Conf=0.541
+      Class_4        : Acc=0.180, Conf=0.543
+      Class_5        : Acc=0.229, Conf=0.543
+
+Train Step 1000 - Loss: 1.2262 / LR: 0.000050
+Running time for iter = 0.19s
+Total elapsed: 0s | ETA: 0s
+Validation - Loss: 1.2468, Accuracy: 0.1978
+Training Steps:   1%|          | 1000/100000 [04:29<5:55:28,  4.64it/s, eval_acc=0.198, eval_loss=1.2468, loss=1.2262, lr=0.000050, step=1000]Training Steps:   1%|          | 1001/100000 [04:29<449:44:28, 16.35s/it, eval_acc=0.198, eval_loss=1.2468, loss=1.2262, lr=0.000050, step=1000]Training St
+    Overall - Loss: 1.2310, Accuracy: 0.183, Avg Confidence: 0.542
+    Per-class breakdown:
+      Adipocytes     : Acc=0.333, Conf=0.544, Count= 21
+      Colon-Fibro    : Acc=0.190, Conf=0.540, Count= 21
+      Endothel       : Acc=0.190, Conf=0.542, Count= 21
+      Heart-Fibro    : Acc=0.333, Conf=0.544, Count= 21
+      Skeletal-Musc  : Acc=0.000, Conf=0.542, Count= 21
+      Smooth-Musc    : Acc=0.048, Conf=0.543, Count= 21
+
+Train Step 1500 - Loss: 1.2310 / LR: 0.000075
+Running time for iter = 0.19s
+Training Steps:   2%|▏         | 1501/100000 [06:15<5:45:09,  4.76it/s, eval_acc=0.198, eval_loss=1.2468, loss=1.2310, lr=0.000075, step=1500]Training Steps:   2%|▏         | 1501/100000 [06:15<5:45:09,  4.76it/s, eval_acc=0.198, eval_loss=1.2468, loss=1.2278, lr=0.000075, step=1501]Training 
+    Overall - Loss: 1.2501, Accuracy: 0.159, Avg Confidence: 0.542
+    Per-class breakdown:
+      Adipocytes     : Acc=0.048, Conf=0.545, Count= 21
+      Colon-Fibro    : Acc=0.048, Conf=0.540, Count= 21
+      Endothel       : Acc=0.190, Conf=0.536, Count= 21
+      Heart-Fibro    : Acc=0.571, Conf=0.549, Count= 21
+      Skeletal-Musc  : Acc=0.000, Conf=0.541, Count= 21
+      Smooth-Musc    : Acc=0.095, Conf=0.543, Count= 21
+                                                                                                                                              Training Steps:   2%|▏         | 2000/100000 [08:53<5:52:17,  4.64it/s, eval_acc=0.198, eval_loss=1.2468, loss=1.2542, lr=0.000100, step=1999]          
+Saved read classifier to res/bert.model/read_classification_model.pickle
+Saved DMR encoder to res/bert.model/dmr_encoder.pickle
+Step:2000 Lowest-Loss Model Saved at: res/bert.model/ with Loss: 1.2288
+  EVALUATION Results Analysis (Step 2000):
+    Overall - Loss: 1.2288, Accuracy: 0.237, Avg Confidence: 0.544
+    Per-class breakdown:
+      Class_0        : Acc=0.081, Conf=0.544
+      Class_1        : Acc=0.139, Conf=0.540
+      Class_2        : Acc=0.253, Conf=0.538
+      Class_3        : Acc=0.719, Conf=0.554
+
+[... 3358 lines omitted ...]
+
+Train Step 97500 - Loss: 1.2443 / LR: 0.000125
+Running time for iter = 0.19s
+Training Steps:  98%|█████████▊| 97501/100000 [7:05:04<08:39,  4.81it/s, eval_acc=0.095, eval_loss=1.2441, loss=1.2443, lr=0.000125, step=97500]Training Steps:  98%|█████████▊| 97501/100000 [7:05:05<08:39,  4.81it/s, eval_acc=0.095, eval_loss=1.2441, loss=1.
+    Overall - Loss: 1.2440, Accuracy: 0.175, Avg Confidence: 0.542
+    Per-class breakdown:
+      Adipocytes     : Acc=0.905, Conf=0.542, Count= 21
+      Colon-Fibro    : Acc=0.000, Conf=0.542, Count= 21
+      Endothel       : Acc=0.143, Conf=0.542, Count= 21
+      Heart-Fibro    : Acc=0.000, Conf=0.542, Count= 21
+      Skeletal-Musc  : Acc=0.000, Conf=0.542, Count= 21
+      Smooth-Musc    : Acc=0.000, Conf=0.542, Count= 21
+                                                                                                                                                Training Steps:  98%|█████████▊| 98000/100000 [7:07:38<06:53,  4.84it/s, eval_acc=0.095, eval_loss=1.2441, loss=1.2443, lr=0.000100, 
+    Overall - Loss: 1.2443, Accuracy: 0.096, Avg Confidence: 0.542
+    Per-class breakdown:
+      Class_0        : Acc=0.000, Conf=0.542
+      Class_1        : Acc=0.000, Conf=0.542
+      Class_2        : Acc=0.000, Conf=0.542
+      Class_3        : Acc=0.000, Conf=0.542
+      Class_4        : Acc=1.000, Conf=0.542
+      Class_5        : Acc=0.000, Conf=0.542
+
+Train Step 98000 - Loss: 1.2440 / LR: 0.000100
+Running time for iter = 0.19s
+Total elapsed: 7h 3m 8s | ETA: 8m 37s
+Validation - Loss: 1.2443, Accuracy: 0.0962
+Training Steps:  98%|█████████▊| 98000/100000 [7:07:38<06:53,  4.84it/s, eval_acc=0.096, eval_loss=1.2443, loss=1.2440, lr=0.000100, step=98000]Training Steps:  98%|█████████▊| 98001/100000 [7:07:38<8:28:50, 15.27s/it, eval_acc=0.096, eval_loss=1.2443, loss=
+    Overall - Loss: 1.2443, Accuracy: 0.190, Avg Confidence: 0.542
+    Per-class breakdown:
+      Adipocytes     : Acc=0.905, Conf=0.542, Count= 21
+      Colon-Fibro    : Acc=0.000, Conf=0.542, Count= 21
+      Endothel       : Acc=0.095, Conf=0.541, Count= 21
+      Heart-Fibro    : Acc=0.143, Conf=0.542, Count= 21
+      Skeletal-Musc  : Acc=0.000, Conf=0.542, Count= 21
+      Smooth-Musc    : Acc=0.000, Conf=0.542, Count= 21
+
+Train Step 98500 - Loss: 1.2443 / LR: 0.000075
+Running time for iter = 0.19s
+Training Steps:  99%|█████████▊| 98501/100000 [7:09:23<05:40,  4.40it/s, eval_acc=0.096, eval_loss=1.2443, loss=1.2443, lr=0.000075, step=98500]Training Steps:  99%|█████████▊| 98501/100000 [7:09:24<05:40,  4.40it/s, eval_acc=0.096, eval_loss=1.2443, loss=1.
+    Overall - Loss: 1.2444, Accuracy: 0.167, Avg Confidence: 0.542
+    Per-class breakdown:
+      Adipocytes     : Acc=0.000, Conf=0.542, Count= 21
+      Colon-Fibro    : Acc=0.429, Conf=0.542, Count= 21
+      Endothel       : Acc=0.000, Conf=0.541, Count= 21
+      Heart-Fibro    : Acc=0.000, Conf=0.542, Count= 21
+      Skeletal-Musc  : Acc=0.190, Conf=0.542, Count= 21
+      Smooth-Musc    : Acc=0.381, Conf=0.542, Count= 21
+                                                                                                                                                Training Steps:  99%|█████████▉| 99000/100000 [7:12:01<03:34,  4.66it/s, eval_acc=0.096, eval_loss=1.2443, loss=1.2442, lr=0.000050, 
+    Overall - Loss: 1.2447, Accuracy: 0.095, Avg Confidence: 0.542
+    Per-class breakdown:
+      Class_0        : Acc=0.000, Conf=0.542
+      Class_1        : Acc=1.000, Conf=0.542
+      Class_2        : Acc=0.000, Conf=0.541
+      Class_3        : Acc=0.000, Conf=0.542
+      Class_4        : Acc=0.000, Conf=0.542
+      Class_5        : Acc=0.000, Conf=0.542
+
+Train Step 99000 - Loss: 1.2444 / LR: 0.000050
+Running time for iter = 0.19s
+Total elapsed: 7h 7m 31s | ETA: 4m 18s
+Validation - Loss: 1.2447, Accuracy: 0.0953
+Training Steps:  99%|█████████▉| 99000/100000 [7:12:01<03:34,  4.66it/s, eval_acc=0.095, eval_loss=1.2447, loss=1.2444, lr=0.000050, step=99000]Training Steps:  99%|█████████▉| 99001/100000 [7:12:01<4:15:27, 15.34s/it, eval_acc=0.095, eval_loss=1.2447, loss=
+    Overall - Loss: 1.2442, Accuracy: 0.175, Avg Confidence: 0.542
+    Per-class breakdown:
+      Adipocytes     : Acc=0.048, Conf=0.542, Count= 21
+      Colon-Fibro    : Acc=0.714, Conf=0.542, Count= 21
+      Endothel       : Acc=0.048, Conf=0.542, Count= 21
+      Heart-Fibro    : Acc=0.095, Conf=0.542, Count= 21
+      Skeletal-Musc  : Acc=0.143, Conf=0.542, Count= 21
+      Smooth-Musc    : Acc=0.000, Conf=0.542, Count= 21
+
+Train Step 99500 - Loss: 1.2442 / LR: 0.000025
+Running time for iter = 0.19s
+Training Steps: 100%|█████████▉| 99501/100000 [7:13:46<01:47,  4.63it/s, eval_acc=0.095, eval_loss=1.2447, loss=1.2442, lr=0.000025, step=99500]Training Steps: 100%|█████████▉| 99501/100000 [7:13:46<01:47,  4.63it/s, eval_acc=0.095, eval_loss=1.2447, loss=1.
+
+============================================================
+TRAINING COMPLETED - GENERATING FINAL EVALUATION
+============================================================
+Loading lowest-loss model from res/bert.model/ for final analysis...
+Loading lowest-loss model with 6 classes and 49260 DMR labels
+Lowest-loss model path: res/bert.model/
+Lowest-loss model directory contents:
+  - model.safetensors
+  - dmr_encoder.pickle
+  - config.json
+  - read_classification_model.pickle
+  - plots
+  - train.csv
+  - eval.csv
+Calling MethylBertEmbeddedDMR.from_pretrained...
+Using explicit seq_len: 250
+Using num_classes from hierarchy: 6
+DMR embedding size: 49260
+Focal loss assigned (softmax-based multiclass)
+Warning: Model not on device yet, using CPU for focal weights
+Focal weight (per-class) length=6; values: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+Focal gamma: 2.0
+Model loaded successfully from MethylBertEmbeddedDMR.from_pretrained
+Attempting to load additional components...
+Loading DMR encoder from res/bert.model/dmr_encoder.pickle
+Successfully restored DMR encoder from res/bert.model/dmr_encoder.pickle
+Loading read classifier from res/bert.model/read_classification_model.pickle
+Successfully restored read classifier from res/bert.model/read_classification_model.pickle
+Additional component loading completed
+Total Parameters: 104382166
+Optimizer created successfully
+Successfully loaded lowest-loss model from step 4000
+Using lowest-loss model from step 4000 (Loss: 1.2158) for final analysis
+
+============================================================
+MULTI-CLASS EVALUATION SUMMARY
+============================================================
+Overall Accuracy: 0.2329
+Macro F1-Score: 0.2063
+Weighted F1-Score: 0.2214
+
+Per-Class Accuracy (Top 10):
+  Heart-Fibro         : 0.5011
+  Adipocytes          : 0.2067
+  Colon-Fibro         : 0.1922
+  Endothel            : 0.1893
+  Smooth-Musc         : 0.1378
+  Skeletal-Musc       : 0.0959
+
+Per-Class Accuracy (Bottom 10):
+  Skeletal-Musc       : 0.0959
+  Smooth-Musc         : 0.1378
+  Endothel            : 0.1893
+  Colon-Fibro         : 0.1922
+  Adipocytes          : 0.2067
+  Heart-Fibro         : 0.5011
+============================================================
+Training curves saved to res/bert.model/plots/training_curves.png
+Training curve: reduced from 100000 to 101 points (1 point per 1000 steps max)
+Confusion matrix saved to res/bert.model/plots/confusion_matrix.png
+Confidence analysis saved to: res/bert.model/plots/confidence_analysis.txt
+
+Final evaluation plots and metrics saved to: res/bert.model/plots
+
+Final analysis completed using lowest-loss model from step 4000
+Best F1-score model (step 5000, Macro-F1 Score 0.2115) is saved in bert_best.model/
+Lowest-loss model (step 4000, Loss: 1.2158) is saved in bert.model/
+============================================================
+========================================
+Training completed!
+
+Saving training configuration...
+Saving training parameters to: /PUBLIC/shixi/GSE186458_raw/methylbert_run/res/train_param.txt
+Training parameters saved successfully!
+========================================
+All tasks completed successfully!

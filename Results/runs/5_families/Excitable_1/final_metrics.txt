@@ -1,0 +1,24 @@
+FINAL EVALUATION METRICS
+==================================================
+Overall Accuracy: 0.5476
+Macro F1-Score: 0.5424
+Weighted F1-Score: 0.5424
+Final Loss: 0.8836
+
+PER-CLASS ACCURACY
+------------------------------
+Heart-Cardio             : 0.6980
+Neuron                   : 0.3960
+Oligodend                : 0.5496
+
+CLASSIFICATION REPORT
+------------------------------
+              precision    recall  f1-score   support
+
+Heart-Cardio       0.61      0.70      0.65     32341
+      Neuron       0.46      0.40      0.42     32551
+   Oligodend       0.56      0.55      0.55     34135
+
+    accuracy                           0.55     99027
+   macro avg       0.54      0.55      0.54     99027
+weighted avg       0.54      0.55      0.54     99027

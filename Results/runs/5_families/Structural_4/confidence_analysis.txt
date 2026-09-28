@@ -1,0 +1,2309 @@
+CONFIDENCE PREDICTION ANALYSIS
+================================================================================
+Analysis of low confidence (top 15) and high confidence (top 15) predictions per true cell type
+================================================================================
+
+LOW CONFIDENCE PREDICTIONS
+================================================================================
+Top 15 unique lowest confidence predictions per true cell type
+================================================================================
+
+TRUE CELL TYPE: Adipocytes
+------------------------------------------------------------
+
+ 1. Confidence: 16.7% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: GTT TTC TCG CGC GCA CAG AGG GGG GGT GTG TGA GAC ACT CTC TCC CCA CAA AAA AAA AAA AAT ATA TAT ATC TCC CCT CTC TCA CAT ATG TGG GGT GTA TAT ATC TCG
+      methyl_seq: 220222222222222222222222222222222221
+      dmr_label: 46013
+      ctype: Adipocytes
+    Probability Distribution:
+      16.7% - Colon-Fibro
+      16.7% - Adipocytes ✓
+      16.7% - Smooth-Musc
+      16.7% - Endothel
+
+ 2. Confidence: 16.8% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: CAA AAA AAA AAC ACT CTA TAG AGC GCC CCG CGC GCA CAT ATG TGT GTG TGG GGT GTG TGG GGC GCG CGG GGG GGC GCG
+      methyl_seq: 22222222212222222222202220
+      dmr_label: 14023
+      ctype: Adipocytes
+    Probability Distribution:
+      16.8% - Heart-Fibro
+      16.8% - Smooth-Musc
+      16.8% - Adipocytes ✓
+      16.7% - Skeletal-Musc
+
+ 3. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: AAG AGG GGC GCT CTT TTT TTT TTG TGC GCG CGA GAC ACA CAC ACA CAA AAA AAC ACC CCA CAG AGA GAC ACC CCC CCT CTG TGT GTC TCA CAC ACC CCG
+      methyl_seq: 222222222122222222222222222222220
+      dmr_label: 14104
+      ctype: Adipocytes
+    Probability Distribution:
+      16.8% - Smooth-Musc
+      16.8% - Adipocytes ✓
+      16.7% - Heart-Fibro
+      16.7% - Endothel
+
+ 4. Confidence: 16.8% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: AGC GCC CCT CTC TCC CCT CTC TCC CCC CCG CGG GGG GGT GTG TGC GCC CCT CTC TCC CCT CTT TTC TCC CCT CTG TGC GCA CAC ACT CTC TCC CCA CAC ACT CTC TCC CCA CAG AGC GCT CTG TGG GGA GAC ACT CTC TCT CTG TGC GCC CCG CGG GGG GGA GAG AGC GCT CTA TAC ACT CTC TCA CAT ATC TCG CGG GGG GGA GAG AGA GAC ACT CTG TGA GAT ATA TAC ACA CAC ACC CCG CGC GCC CCA CAC ACC CCA CAG AGG GGG GGC GCC CCA CAC ACC CCC CCA CAC ACC CCC CCT CTC TCC CCC CCT CTC TCC CCC CCT CTC TCC CCC CCT CTT TTC TCC CCT CTT TTC TCC CCT CTT TTC TCC CCT CTT TTC TCC CCA CAT ATG TGT GTC TCG
+      methyl_seq: 22222222212222222222222222222222222222222222222222122222222222220222222222222222022222222222222222222222222222222222222222222222222221
+      dmr_label: 844
+      ctype: Adipocytes
+    Probability Distribution:
+      16.8% - Skeletal-Musc
+      16.7% - Heart-Fibro
+      16.7% - Colon-Fibro
+      16.7% - Smooth-Musc
+      16.7% - Adipocytes ✓ (not in top 4)
+
+ 5. Confidence: 16.8% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: GAA AAG AGC GCA CAG AGC GCT CTG TGC GCG CGG GGG GGC GCA CAG AGC GCT CTG TGA GAG AGC GCC CCT CTG TGC GCT CTC TCC CCC CCA CAC ACC CCC CCC CCC CCT CTC TCG CGG GGT GTG TGG GGG GGG GGA GAA AAG AGG GGC GCA CAA AAG AGC GCG
+      methyl_seq: 222222222122222222222222222222222222202222222222222221
+      dmr_label: 16655
+      ctype: Adipocytes
+    Probability Distribution:
+      16.8% - Colon-Fibro
+      16.7% - Smooth-Musc
+      16.7% - Adipocytes ✓
+      16.7% - Heart-Fibro
+
+ 6. Confidence: 16.8% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: GCA CAG AGC GCC CCC CCA CAC ACC CCC CCG CGG GGC GCA CAA AAC ACT CTT TTC TCC CCT CTG TGT GTC TCC CCT CTC TCC CCC CCA CAG AGG GGC GCA CAG AGC GCA CAG AGT GTG TGA GAC ACA CAC ACA CAT ATG TGG GGT GTT TTG TGT GTC TCT CTA TAC ACG CGG GGA GAG AGG GGG GGG GGC GCT CTG TGG GGG GGC GCC CCC CCC CCA CAA AAC ACG CGC GCA CAG AGA GAA AAA AAG AGA GAC ACA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222022222222222222222212222222222
+      dmr_label: 46240
+      ctype: Adipocytes
+    Probability Distribution:
+      16.8% - Adipocytes ✓
+      16.8% - Smooth-Musc
+      16.8% - Colon-Fibro
+      16.7% - Endothel
+
+ 7. Confidence: 16.8% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: TGC GCC CCA CAA AAG AGG GGC GCC CCC CCG CGT GTA TAT ATC TCG CGT GTG TGC GCT CTC TCA CAC ACC CCG CGC GCG
+      methyl_seq: 22222222212222022222222021
+      dmr_label: 17126
+      ctype: Adipocytes
+    Probability Distribution:
+      16.8% - Adipocytes ✓
+      16.8% - Endothel
+      16.7% - Smooth-Musc
+      16.7% - Colon-Fibro
+
+ 8. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GAG AGT GTT TTT TTT TTT TTA TAG AGC GCG CGG GGG GGT GTT TTC TCT CTG TGG GGG GGG GGA GAC ACA CAA AAC ACT CTA TAT ATT TTA TAT ATA TAT ATA TAT ATT TTT TTT TTA TAA AAA AAA AAT ATA TAG AGC GCA CAA AAC ACG CGC GCT CTC TCA CAC ACA CAT ATG TGC GCT
+      methyl_seq: 222222222122222222222222222222222222222222222222202222222222
+      dmr_label: 45403
+      ctype: Adipocytes
+    Probability Distribution:
+      16.8% - Smooth-Musc
+      16.8% - Colon-Fibro
+      16.8% - Endothel
+      16.7% - Skeletal-Musc
+      16.4% - Adipocytes ✓ (not in top 4)
+
+ 9. Confidence: 16.8% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: TGC GCT CTG TGG GGA GAG AGG GGC GCC CCG CGA GAC ACT CTG TGG GGT GTC TCC CCA CAT ATA TAC ACT CTT TTG TGC GCT CTT TTC TCC CCA CAG AGG GGT GTC TCC CCC CCT CTG TGG GGG GGG GGA GAG AGC GCT CTT TTG TGG GGA GAG AGG GGC GCC CCA CAG AGA GAA AAG AGC GCC CCC CCA CAG AGG GGC GCT CTT TTT TTG TGC GCG CGC GCC CCT CTG TGT GTG TGC GCC CCC CCA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 932
+      ctype: Adipocytes
+    Probability Distribution:
+      16.8% - Heart-Fibro
+      16.8% - Adipocytes ✓
+      16.8% - Endothel
+      16.7% - Smooth-Musc
+
+10. Confidence: 16.8% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: TCC CCT CTC TCC CCC CCA CAC ACC CCC CCG CGA GAC ACC CCA CAG AGG GGG GGT GTC TCC CCT CTG TGG GGC GCT CTT TTC TCT CTG TGA GAG AGT GTG TGA GAG AGG GGG GGA GAA AAG AGC GCT CTC TCT CTA TAG AGA GAA AAT ATC TCC CCC CCT CTT TTT TTA TAG AGG GGC GCC CCA CAG AGT GTG TGC GCG CGG GGG GGA GAC ACG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222022221
+      dmr_label: 46207
+      ctype: Adipocytes
+    Probability Distribution:
+      16.8% - Skeletal-Musc
+      16.8% - Colon-Fibro
+      16.7% - Smooth-Musc
+      16.6% - Adipocytes ✓
+
+11. Confidence: 16.8% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: GGC GCC CCA CAC ACC CCC CCG CGC GCG CGC GCC CCC CCT CTC TCA CAC ACC CCC CCA CAC ACA CAT ATT TTC TCT CTC TCC CCC CCT CTC TCC CCG CGT GTG TGG GGC GCC CCT CTC TCG
+      methyl_seq: 2222220212222222222222222222222022222221
+      dmr_label: 610
+      ctype: Adipocytes
+    Probability Distribution:
+      16.8% - Adipocytes ✓
+      16.8% - Smooth-Musc
+      16.8% - Endothel
+      16.7% - Colon-Fibro
+
+12. Confidence: 16.8% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: GTG TGT GTC TCG CGG GGT GTG TGT GTC TCT CTG TGT GTG TGT GTC TCT CTG TGT GTC TCC CCT CTC TCA CAC ACA CAC ACT CTG TGA GAG AGC GCT CTG TGT GTA TAT ATC TCG CGC GCC CCT CTT TTG TGG GGA GAT ATC TCG CGG GGT GTG TGG GGT GTA TAT ATG TGC GCA CAA AAT ATC TCT CTG TGT GTC TCA CAC ACC CCC CCT CTT TTT TTG TGA GAT ATG TGT GTT TTT TTA TAA AAG AGA GAG AGC GCA CAC ACA CAG AGC GCA CAA AAA AAG AGC GCG CGG GGG GGC GCC CCC CCG
+      methyl_seq: 222122222222222222222222222222222222212222222220222222222222222222222222222222222222222222222221222220
+      dmr_label: 624
+      ctype: Adipocytes
+    Probability Distribution:
+      16.8% - Colon-Fibro
+      16.8% - Smooth-Musc
+      16.7% - Heart-Fibro
+      16.7% - Adipocytes ✓
+
+13. Confidence: 16.9% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: GAC ACG CGC GCC CCA CAA AAA AAA AAT ATA TAG AGG GGA GAA AAG AGT GTG TGT GTG TGT GTG TGA GAT ATG TGC GCC CCC CCA CAC ACT CTC TCG CGA GAC ACC CCG
+      methyl_seq: 212222222222222222222222222222202221
+      dmr_label: 14211
+      ctype: Adipocytes
+    Probability Distribution:
+      16.9% - Colon-Fibro
+      16.8% - Skeletal-Musc
+      16.8% - Smooth-Musc
+      16.5% - Adipocytes ✓
+
+14. Confidence: 16.9% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: GTG TGG GGA GAG AGA GAC ACC CCA CAC ACG CGG GGT GTG TGT GTC TCC CCC CCT CTT TTT TTC TCC CCT CTT TTC TCC CCC CCA CAT ATC TCG CGT GTA TAA AAG AGT GTC TCC CCC CCC CCG
+      methyl_seq: 22222222212222222222222222222202222222221
+      dmr_label: 45295
+      ctype: Adipocytes
+    Probability Distribution:
+      16.9% - Colon-Fibro
+      16.8% - Skeletal-Musc
+      16.7% - Adipocytes ✓
+      16.7% - Endothel
+
+15. Confidence: 16.9% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: GCT CTC TCG CGC GCA CAC ACC CCC CCT CTG TGA GAA AAA AAC ACT CTT TTT TTG TGA GAC ACT CTC TCA CAC ACA CAC ACA CAG AGC GCA CAT ATC TCT CTC TCC CCG CGC GCA CAC ACC CCC CCT CTG TGG GGT GTG TGG GGT GTG TGC GCT CTG TGA GAG AGG GGA GAA AAG AGG GGA GAG AGA GAC ACC CCG CGG GGA GAG AGT GTG TGG GGG GGG GGC GCC
+      methyl_seq: 221222222222222222222222222222222220222222222222222222222222222212222222222
+      dmr_label: 286
+      ctype: Adipocytes
+    Probability Distribution:
+      16.9% - Adipocytes ✓
+      16.8% - Smooth-Musc
+      16.8% - Heart-Fibro
+      16.7% - Colon-Fibro
+
+============================================================
+
+TRUE CELL TYPE: Colon-Fibro
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: CCT CTG TGG GGA GAA AAA AAA AAG AGT GTG TGA GAC ACT CTT TTC TCC CCC CCA CAG AGG GGG GGA GAC ACA CAC ACA CAG AGC GCT CTA TAC ACT CTC TCT CTC TCT CTG TGA GAA AAG AGA GAG AGC GCT CTT TTT TTT TTT TTC TCC CCC CCC CCA CAG AGG GGT GTC TCC CCC CCA CAG AGC GCA CAC ACC CCC CCC CCT CTA TAC ACA CAC ACT CTT TTC TCC CCC CCT CTA TAG AGG GGG GGC GCT CTT TTT TTT TTT TTT TTC TCC CCT CTG TGC GCC CCC CCA CAG AGG GGC GCC CCC CCC CCT CTG TGC GCC CCT CTT TTT TTA TAA AAT ATT TTC TCC CCC CCT CTG TGG GGG GGA GAG AGA GAA AAA AAT ATC TCC CCT CTA TAG AGA GAC ACC CCC CCC CCT CTA TAA AAG AGC GCC CCC CCG
+      methyl_seq: 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 45686
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.8% - Heart-Fibro
+      16.8% - Adipocytes
+      16.7% - Smooth-Musc
+      16.6% - Skeletal-Musc
+      16.4% - Colon-Fibro ✓ (not in top 4)
+
+ 2. Confidence: 16.8% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: ATG TGT GTT TTG TGT GTT TTA TAT ATC TCG CGA GAC ACA CAC ACA CAT ATT TTT TTT TTT TTG TGC GCA CAC ACA CAC ACA CAG AGT GTT TTT TTT TTA TAG AGG GGG GGA GAG AGT GTA TAC ACG CGT GTG TGA GAC ACT CTC TCT CTC TCT CTA
+      methyl_seq: 2222222221222222222222222222222222222222202222222222
+      dmr_label: 28305
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.8% - Colon-Fibro ✓
+      16.8% - Endothel
+      16.8% - Skeletal-Musc
+      16.6% - Smooth-Musc
+
+ 3. Confidence: 16.9% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: TTG TGG GGA GAA AAA AAC ACA CAC ACC CCG CGA GAT ATG TGG GGT GTC TCC CCC CCT CTA TAA AAG AGG GGC GCC CCT CTC TCC CCA CAC ACG
+      methyl_seq: 2222222221222222222222222222220
+      dmr_label: 48485
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Colon-Fibro ✓
+      16.9% - Adipocytes
+      16.7% - Skeletal-Musc
+      16.7% - Smooth-Musc
+
+ 4. Confidence: 16.9% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: CAC ACT CTG TGT GTC TCC CCT CTT TTC TCG CGG GGC GCT CTC TCT CTG TGA GAA AAC ACC CCT CTC TCT CTC TCA CAT ATC TCT CTG TGG GGA GAC ACT CTA TAT ATG TGG GGT GTA TAT ATG TGG GGC GCA CAA AAT ATT TTG TGC GCA CAT ATT TTA TAT ATT TTG TGT GTT TTG TGG GGT GTT TTT TTT TTC TCT CTC TCC CCA CAA AAT ATC TCC CCC CCT CTC TCT CTC TCT CTC TCT CTT TTG TGG GGA GAA AAT ATC TCA CAT ATT TTC TCT CTA TAT ATG TGT GTG TGC GCA CAT ATT TTT TTT TTT TTT TTC TCA CAG AGA GAA AAT ATA TAG AGT GTA TAT ATT TTC TCT CTT TTA TAA AAG AGA GAC ACT CTT TTA TAC ACA CAT ATT TTT TTT TTA TAT ATC TCA CAG AGG GGC GCC CCA CAC ACT CTC TCA CAA AAC ACT CTA TAA AAA AAA AAA AAA AAC ACT CTT TTA TAA AAA AAA AAA AAG AGT GTT TTT TTT TTC TCA CAA AAT ATT TTT TTG TGT GTA TAA AAC ACC CCA CAT ATT TTC TCT CTG TGA GAG AGT GTC TCA CAA AAC ACA CAC ACT CTG TGT GTA TAG AGC GCT CTC TCC CCC CCT CTT TTT TTA TAC ACT CTT TTT TTT TTC TCT CTT TTC TCC CCA CAA AAA AAC ACT CTA TAT ATC TCA CAC ACC CCC CCC CCG CGC GCT CTA TAA AAG AGT GTT TTT TTC TCT
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 29204
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Skeletal-Musc
+      16.8% - Heart-Fibro
+      16.8% - Endothel
+      16.7% - Smooth-Musc
+      16.6% - Colon-Fibro ✓ (not in top 4)
+
+ 5. Confidence: 16.9% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: CAG AGG GGA GAG AGT GTT TTC TCA CAC ACG CGA GAC ACA CAG AGT GTG TGA GAA AAA AAA AAG AGT GTT TTG TGA GAG AGC GCG
+      methyl_seq: 2222222221222222222222222220
+      dmr_label: 16773
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Colon-Fibro ✓
+      16.9% - Skeletal-Musc
+      16.8% - Adipocytes
+      16.7% - Smooth-Musc
+
+ 6. Confidence: 16.9% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GGG GGG GGT GTT TTG TGG GGA GAC ACG CGC GCT CTC TCC CCT CTT TTC TCT CTG TGC GCT CTC TCT CTG TGA GAA AAG AGA GAT ATA TAA AAT ATG TGC GCT CTG TGG GGT GTC TCT CTC TCT CTG TGA GAG AGG GGC GCA CAG AGT GTG TGC GCC CCT CTC TCT CTG TGC GCT CTC TCC CCA CAG AGG GGC GCT CTT TTC TCC CCG CGA GAG AGG GGG GGA GAG AGT GTC TCC CCC
+      methyl_seq: 2222222202222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 16430
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Smooth-Musc
+      16.9% - Colon-Fibro ✓
+      16.8% - Adipocytes
+      16.7% - Heart-Fibro
+
+ 7. Confidence: 16.9% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: CTG TGC GCC CCA CAG AGG GGA GAG AGC GCG CGT GTA TAC ACA CAG AGA GAG AGG GGT GTT TTT TTA TAC ACA CAC ACA CAA AAT ATC TCT CTG TGA GAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGC GCT CTG TGG GGA GAG AGC GCA CAG AGC GCT CTC TCA CAC ACG CGT GTG TGC GCC CCC CCA CAG AGC GCT CTG TGC GCT CTT TTG TGG GGA GAC ACG CGG GGC
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222122222222222222222022
+      dmr_label: 16814
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Smooth-Musc
+      16.9% - Adipocytes
+      16.8% - Heart-Fibro
+      16.7% - Colon-Fibro ✓
+
+ 8. Confidence: 16.9% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: CAA AAA AAG AGA GAG AGG GGC GCT CTC TCG CGG GGC GCA CAT ATT TTA TAA AAT ATT TTG TGA GAT ATT TTA TAA AAG AGA GAG AGG GGT GTT TTC TCT CTT TTT TTC TCA CAA AAA AAG AGC GCG
+      methyl_seq: 222222222022222222222222222222222222222220
+      dmr_label: 577
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Heart-Fibro
+      16.9% - Smooth-Musc
+      16.8% - Adipocytes
+      16.5% - Skeletal-Musc
+      16.5% - Colon-Fibro ✓ (not in top 4)
+
+ 9. Confidence: 16.9% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GGG GGG GGG GGT GTT TTT TTG TGC GCC CCG CGA GAG AGG GGG GGC GCC CCA CAG AGG GGA GAA AAG AGA GAC ACC CCC CCT CTC TCT CTG TGC GCC CCG CGC GCA CAG AGT GTT TTA TAG AGT GTA TAT ATT TTC TCG
+      methyl_seq: 2222222221222222222222222222222202222222222221
+      dmr_label: 769
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Smooth-Musc
+      16.9% - Skeletal-Musc
+      16.7% - Colon-Fibro ✓
+      16.6% - Adipocytes
+
+10. Confidence: 16.9% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: AGG GGC GCA CAC ACA CAG AGC GCC CCT CTT TTG TGT GTG TGG GGT GTT TTC TCC CCG CGC GCC CCC CCC CCT CTT TTC TCT CTC TCA CAA AAG AGT GTG TGG GGC GCA CAG AGC GCA CAT ATG TGG GGG GGG GGA GAA AAG AGA GAC ACA CAG AGC GCC CCA CAA AAA AAT ATC TCA CAA AAT ATG TGT GTC TCT CTC TCA CAT ATT TTT TTT TTT TTC TCT CTA TAT ATC TCT CTT TTG TGC GCT CTG TGA GAG AGT GTT TTC TCT CTG TGA GAA AAA AAA AAC ACA CAG AGC GCC CCT CTC TCA CAA AAA AAA AAG AGG GGA GAA AAA AAA AAG AGA GAG AGA GAA AAA AAA AAG AGG GGC GCA CAG AGT GTA TAG AGA GAA AAT ATG TGC GCC CCT CTT TTA TAT ATT TTT TTT
+      methyl_seq: 2222222222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 29039
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Smooth-Musc
+      16.8% - Heart-Fibro
+      16.7% - Adipocytes
+      16.6% - Skeletal-Musc
+      16.5% - Colon-Fibro ✓ (not in top 4)
+
+11. Confidence: 16.9% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: CTC TCA CAA AAA AAT ATA TAG AGC GCC CCG CGT GTC TCT CTG TGA GAC ACT CTT TTA TAC ACA CAG AGA GAA AAA AAA AAT ATG TGA GAA AAC ACT CTC TCC CCC CCA CAG AGT GTC TCT CTA TAA AAC ACT CTT TTG TGA GAA AAA AAG AGG GGC GCC CCG CGT GTC TCT CTG TGT GTG TGT GTG TGG GGG
+      methyl_seq: 2222222221222222222222222222222222222222222222222222202222222222
+      dmr_label: 17011
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Adipocytes
+      16.9% - Colon-Fibro ✓
+      16.8% - Smooth-Musc
+      16.6% - Skeletal-Musc
+
+12. Confidence: 16.9% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GCG CGG GGC GCT CTT TTA TAG AGC GCA CAC ACG CGC GCC CCA CAG AGC GCA CAG AGG GGA GAG AGC GCT CTA TAA AAT ATA TAT ATG TGT GTA TAC ACG CGC GCT CTG TGC GCA CAC ACC CCA CAC ACT
+      methyl_seq: 1222222222022222222222222222222212222222222
+      dmr_label: 794
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Smooth-Musc
+      16.9% - Endothel
+      16.7% - Heart-Fibro
+      16.7% - Colon-Fibro ✓
+
+13. Confidence: 16.9% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: TAA AAA AAA AAT ATG TGC GCA CAC ACA CAA AAT ATT TTC TCA CAG AGT GTG TGG GGC GCA CAA AAT ATT TTG TGG GGT GTA TAC ACA CAT ATT TTC TCA CAC ACA CAG AGT GTG TGC GCT CTG TGT GTA TAC ACT CTA TAC ACC CCA CAC ACC CCA CAC ACC CCT CTT TTT TTA TAT ATC TCA CAG AGA GAT ATG TGT GTC TCA CAA AAA AAA AAT ATA TAT ATT TTT TTT TTC TCA CAT ATC TCA CAC ACC CCC CCC CCC CCA CAG AGA GAG AGA GAA AAA AAA AAC ACC CCT CTT TTG TGT GTA TAT ATC TCC CCA CAT ATG TGA GAA AAG AGT GTA TAG AGT GTC TCA CAC ACT CTT TTC TCT CTC TCA CAT ATT TTC TCT
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 28626
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Heart-Fibro
+      16.9% - Adipocytes
+      16.9% - Colon-Fibro ✓
+      16.8% - Smooth-Musc
+
+14. Confidence: 16.9% | Predicted: Endothel
+    Read Information:
+      dna_seq: GCT CTA TAA AAG AGG GGC GCA CAG AGC GCG CGA GAG AGT GTC TCC CCT CTA TAG AGA GAA AAT ATT TTA TAA AAT ATC TCT CTT TTA TAG AGT GTT TTG TGT GTG TGG GGC GCA CAA AAG AGC GCA CAC ACA CAG AGT GTG TGC GCA CAG AGA GAG AGG GGG GGG GGT GTG TGC GCA CAG AGG GGA GAA AAC ACC CCT CTT TTC TCG
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222220
+      dmr_label: 407
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Endothel
+      16.8% - Skeletal-Musc
+      16.8% - Adipocytes
+      16.6% - Smooth-Musc
+      16.4% - Colon-Fibro ✓ (not in top 4)
+
+15. Confidence: 16.9% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: CAG AGG GGA GAT ATG TGC GCA CAA AAC ACG CGC GCT CTG TGT GTC TCA CAA AAG AGG GGA GAC ACA CAT ATA TAT ATT TTT TTA TAG AGG GGA GAA AAA AAA AAG AGC GCA CAG AGC GCT CTC TCC CCT CTT TTC TCT CTC TCC CCA CAG AGA GAG AGC GCT CTC TCA CAT ATC TCC CCC CCT CTC TCC CCT CTC TCC CCT CTG TGG GGG GGC GCG CGT GTG TGT GTC TCC CCA CAC ACT CTG TGA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 17014
+      ctype: Colon-Fibro
+    Probability Distribution:
+      16.9% - Smooth-Musc
+      16.8% - Endothel
+      16.8% - Adipocytes
+      16.7% - Skeletal-Musc
+      16.5% - Colon-Fibro ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Endothel
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: AGT GTT TTT TTA TAG AGG GGG GGG GGC GCG CGG GGG GGT GTG TGA GAT ATT TTC TCC CCT CTA TAC ACA CAG AGC GCC CCC CCA CAG AGG GGC GCC CCC CCA CAG AGG GGC GCC CCC CCA CAC ACA CAG AGG GGG GGG GGT GTT TTT TTA TAT ATG TGT GTT TTA TAC ACA CAA AAT ATA TAT ATA TAA AAA AAC ACT CTG TGG GGG GGG GGC GCT CTT TTT TTA TAA AAC ACA CAA AAC ACT CTT TTT TTG TGA GAG AGA GAC ACA CAG AGT GTT TTT TTC TCT CTT TTA TAT ATT TTT TTT TTT TTA TAG AGG GGG GGT GTT TTG TGG GGG GGG GGC GCG CGG GGG GGG GGA GAG AGT GTG TGG GGA GAG AGG GGT GTT TTG TGT GTC TCT CTT TTA TAA AAG AGA GAA AAT ATG TGC GCA CAA AAA AAT ATG TGG GGG GGG GGC GCA CAG AGG GGG GGC GCA CAC ACA CAG AGT GTG TGG GGC GCT CTC TCA CAC ACG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222022222222222222222222222222222222222222222222222222220
+      dmr_label: 942
+      ctype: Endothel
+    Probability Distribution:
+      16.8% - Adipocytes
+      16.8% - Endothel ✓
+      16.7% - Smooth-Musc
+      16.7% - Skeletal-Musc
+
+ 2. Confidence: 16.8% | Predicted: Endothel
+    Read Information:
+      dna_seq: CAG AGA GAA AAG AGG GGG GGA GAG AGC GCG CGG GGA GAG AGC GCC CCA CAG AGG GGA GAT ATT TTT TTG TGG GGC GCT CTT TTG TGT GTC TCT CTC TCC CCA CAG AGG GGA GAC ACT CTT TTG TGT GTC TCT CTT TTG TGA GAC ACA CAC ACT CTG TGC GCC CCG CGT GTG TGT GTT TTC TCC CCT CTA TAG AGC
+      methyl_seq: 22222222212222222222222222222222222222222222222222222202222222222
+      dmr_label: 697
+      ctype: Endothel
+    Probability Distribution:
+      16.8% - Endothel ✓
+      16.7% - Adipocytes
+      16.7% - Smooth-Musc
+      16.7% - Skeletal-Musc
+
+ 3. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: TGA GAG AGT GTT TTG TGA GAG AGA GAC ACG CGA GAG AGA GAG AGA GAC ACA CAT ATT TTG TGC GCA CAA AAA AAA AAC ACA CAT ATC TCT CTG TGA GAT ATA TAG AGG GGG GGC GCA CAC ACA CAG AGG GGA GAC ACA CAG AGC GCC CCC CCC CCT CTA TAC ACG CGA GAT ATG TGA GAA AAG AGA GAA AAT ATT
+      methyl_seq: 22222222212222222222222222222222222222222222222222222202222222222
+      dmr_label: 28871
+      ctype: Endothel
+    Probability Distribution:
+      16.8% - Smooth-Musc
+      16.8% - Endothel ✓
+      16.7% - Colon-Fibro
+      16.6% - Adipocytes
+
+ 4. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: TTC TCC CCC CCA CAA AAG AGG GGC GCC CCG CGA GAT ATG TGG GGC GCC CCC CCG CGT GTC TCC CCG CGC GCC CCT CTT TTT TTA TAG AGG GGT GTC TCT CTG TGA GAG AGC GCC CCC CCT CTC TCC CCC CCT CTT TTC TCC CCT CTT TTG TGA GAG AGA GAT ATG TGG GGC GCG CGT GTG TGG GGC GCT CTG TGG GGC GCC CCA
+      methyl_seq: 22222222212222222022202222222222222222222222222222222222212222222222
+      dmr_label: 16875
+      ctype: Endothel
+    Probability Distribution:
+      16.8% - Smooth-Musc
+      16.8% - Endothel ✓
+      16.8% - Adipocytes
+      16.7% - Heart-Fibro
+
+ 5. Confidence: 16.8% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: GAG AGG GGA GAG AGG GGC GCT CTC TCC CCG CGA GAA AAA AAA AAA AAA AAT ATG TGG GGG GGG GGC GCA CAG AGC GCT CTG TGC GCC CCC CCA CAG AGA GAG AGA GAG AGA GAA AAA AAC ACC CCC CCA CAA AAC ACC CCT CTC TCC CCG CGG GGG GGG GGC GCC CCG CGG GGG GGC GCC CCC CCC CCT CTA TAT ATC
+      methyl_seq: 222222222022222222222222222222222222222222222222212222202222222222
+      dmr_label: 45280
+      ctype: Endothel
+    Probability Distribution:
+      16.8% - Colon-Fibro
+      16.8% - Smooth-Musc
+      16.8% - Skeletal-Musc
+      16.5% - Adipocytes
+      16.5% - Endothel ✓ (not in top 4)
+
+ 6. Confidence: 16.8% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: TCT CTT TTC TCC CCT CTG TGG GGA GAC ACG CGC GCA CAG AGG GGA GAC ACA CAA AAG AGA GAA AAC ACT CTC TCA CAG AGG GGC GCA CAA AAA AAG AGG GGC GCA CAC ACC CCA CAC ACG CGA GAC ACC CCT CTC TCC CCG
+      methyl_seq: 22222222212222222222222222222222222222202222221
+      dmr_label: 45675
+      ctype: Endothel
+    Probability Distribution:
+      16.8% - Skeletal-Musc
+      16.8% - Colon-Fibro
+      16.7% - Smooth-Musc
+      16.6% - Adipocytes
+      16.5% - Endothel ✓ (not in top 4)
+
+ 7. Confidence: 16.8% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: GCG CGG GGG GGC GCT CTG TGA GAA AAA AAT ATG TGG GGC GCT CTG TGG GGG GGC GCC CCT CTT TTT TTA TAT ATA TAG AGC GCC CCA CAC ACG
+      methyl_seq: 1222222222222222222222222222220
+      dmr_label: 28656
+      ctype: Endothel
+    Probability Distribution:
+      16.8% - Adipocytes
+      16.8% - Colon-Fibro
+      16.7% - Heart-Fibro
+      16.6% - Smooth-Musc
+      16.6% - Endothel ✓ (not in top 4)
+
+ 8. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GGC GCG CGA GAG AGG GGC GCC CCA CAA AAA AAG AGC GCC CCC CCT CTC TCC CCA CAA AAA AAA AAA AAT ATA TAT ATA TAC ACT CTG TGG GGC GCT CTC TCC CCC CCA CAG AGC GCG
+      methyl_seq: 202222222222222222222222222222222222221
+      dmr_label: 45303
+      ctype: Endothel
+    Probability Distribution:
+      16.8% - Smooth-Musc
+      16.8% - Adipocytes
+      16.8% - Colon-Fibro
+      16.7% - Skeletal-Musc
+      16.6% - Endothel ✓ (not in top 4)
+
+ 9. Confidence: 16.8% | Predicted: Endothel
+    Read Information:
+      dna_seq: GTA TAC ACC CCC CCC CCT CTG TGC GCG CGT GTC TCT CTC TCC CCC CCC CCT CTC TCC CCT CTT TTC TCT CTA TAT ATC TCC CCC CCA CAT ATT TTG TGG GGG GGT GTG TGA GAG AGA GAA AAT ATC TCA CAA AAG AGC GCT CTG TGG GGG GGG GGA GAA AAG AGG GGC GCC CCA CAG AGA GAG AGC GCC CCC CCG CGA GAG AGG GGC GCC CCC
+      methyl_seq: 22222222022222222222222222222222222222222222222222222222222222221222222
+      dmr_label: 17267
+      ctype: Endothel
+    Probability Distribution:
+      16.8% - Endothel ✓
+      16.8% - Colon-Fibro
+      16.6% - Heart-Fibro
+      16.6% - Adipocytes
+
+10. Confidence: 16.8% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: CCC CCA CAG AGC GCC CCT CTC TCC CCC CCG CGA GAG AGT GTA TAG AGC GCT CTA TAG AGG GGA GAC ACT CTA TAC ACA CAG AGG GGC GCA CAC ACA CAC ACA CAC ACC CCA CAC ACC CCA CAC ACG CGC GCC CCT CTG TGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGG GGC GCG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACC
+      methyl_seq: 222222222122222222222222222222222222222220222222222222222222222222222222212222222222
+      dmr_label: 45394
+      ctype: Endothel
+    Probability Distribution:
+      16.8% - Colon-Fibro
+      16.8% - Smooth-Musc
+      16.8% - Skeletal-Musc
+      16.7% - Adipocytes
+      16.4% - Endothel ✓ (not in top 4)
+
+11. Confidence: 16.9% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: GCC CCG CGT GTC TCT CTC TCC CCC CCT CTG TGG GGG GGC GCT CTT TTC TCT CTG TGG GGG GGA GAT ATG TGC GCG CGT GTC TCT CTG TGT GTC TCT CTC TCA CAG AGC GCT CTC TCC CCT CTG TGC GCA CAC ACC CCC CCA CAC ACT CTC TCC CCT CTC TCT CTG TGA GAC ACT CTT TTT TTT TTC TCT CTC TCT CTA TAT ATG TGT GTG TGC GCG CGT GTT TTC TCT CTC TCT CTC TCC CCC CCT
+      methyl_seq: 2122222222222222222222220222222222222222222222222222222222222222222222212222222222
+      dmr_label: 995
+      ctype: Endothel
+    Probability Distribution:
+      16.9% - Skeletal-Musc
+      16.8% - Adipocytes
+      16.7% - Colon-Fibro
+      16.6% - Smooth-Musc
+      16.6% - Endothel ✓ (not in top 4)
+
+12. Confidence: 16.9% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCC CCA CAC ACC CCC CCG CGC GCC CCT CTC TCT CTG TGC GCC CCT CTC TCC CCT CTA TAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCT CTG TGG GGC
+      methyl_seq: 22222222212222222222222222222222222222222202222222222
+      dmr_label: 200
+      ctype: Endothel
+    Probability Distribution:
+      16.9% - Colon-Fibro
+      16.8% - Heart-Fibro
+      16.8% - Endothel ✓
+      16.7% - Smooth-Musc
+
+13. Confidence: 16.9% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: GGT GTT TTT TTC TCA CAG AGC GCC CCG CGA GAG AGA GAA AAC ACC CCA CAG AGG GGT GTT TTA TAG AGT GTC TCG CGG GGT GTC TCA CAC ACG
+      methyl_seq: 2222222202222222222222221222220
+      dmr_label: 708
+      ctype: Endothel
+    Probability Distribution:
+      16.9% - Adipocytes
+      16.8% - Colon-Fibro
+      16.7% - Heart-Fibro
+      16.7% - Smooth-Musc
+      16.5% - Endothel ✓ (not in top 4)
+
+14. Confidence: 16.9% | Predicted: Endothel
+    Read Information:
+      dna_seq: GCA CAC ACA CAC ACG CGG GGC GCG CGC GCT CTT TTA TAG AGT GTT TTC TCT CTG TGG GGA GAA AAC ACT CTG TGC GCA CAT ATA TAC ACC CCC CCA CAG AGG GGG GGG GGA GAG AGG GGA GAT ATG TGC GCG CGG GGG GGA GAG AGC GCC CCC
+      methyl_seq: 222212202222222222222222222222222222222222212222222
+      dmr_label: 17259
+      ctype: Endothel
+    Probability Distribution:
+      16.9% - Endothel ✓
+      16.8% - Colon-Fibro
+      16.7% - Skeletal-Musc
+      16.6% - Smooth-Musc
+
+15. Confidence: 16.9% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GGT GTG TGA GAC ACA CAG AGA GAG AGC GCG CGA GAA AAA AAA AAA AAA AAA AAA AAA AAG AGC GCA CAC ACA CAC ACA CAT ATG TGC GCA CAA AAA AAT ATT TTT TTC TCA CAG AGA GAA AAT ATA TAA AAT ATG TGG GGG GGA GAT ATC TCA CAA AAA AAA AAT ATG TGC GCC CCT CTT TTC TCC CCA CAA AAA AAA AAA AAT ATT TTT TTC TCG CGG GGA GAA AAG AGC GCT CTT TTT TTT TTT
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 789
+      ctype: Endothel
+    Probability Distribution:
+      16.9% - Heart-Fibro
+      16.7% - Skeletal-Musc
+      16.7% - Smooth-Musc
+      16.6% - Adipocytes
+      16.6% - Endothel ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Heart-Fibro
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Endothel
+    Read Information:
+      dna_seq: CCT CTC TCC CCC CCC CCT CTC TCC CCC CCG CGA GAG AGG GGT GTC TCT CTC TCC CCT CTT TTC TCT CTG TGC GCC CCA CAA AAT ATC TCA CAC ACC CCT CTG TGC GCC CCT CTA TAA AAT ATG TGC GCC CCC CCC CCT CTG TGC GCA CAC ACC CCC CCT CTG TGG GGT GTG TGT GTC TCA CAG AGG GGC GCA CAG AGC GCC CCC CCC CCC CCC CCA CAG AGA GAG AGC GCT CTG TGC GCA CAT ATC TCC CCC CCT CTC TCC CCC CCT CTC TCC CCT CTG TGT GTA TAG AGT GTT TTA TAA AAC ACC CCA CAA AAT ATG TGC GCT CTC TCT CTA TAT ATG TGA GAG AGC GCC CCT CTC TCT CTC TCT CTC TCA CAG AGC GCC CCA CAA AAG AGA GAC ACC CCT CTT TTG TGG GGC GCA CAT ATC TCA CAG AGC GCT CTC TCA CAC ACC CCA CAC ACT CTG TGC GCC CCC CCC CCG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 49068
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.8% - Endothel
+      16.7% - Skeletal-Musc
+      16.7% - Adipocytes
+      16.7% - Smooth-Musc
+      16.5% - Heart-Fibro ✓ (not in top 4)
+
+ 2. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GCT CTC TCT CTG TGT GTT TTC TCC CCC CCG CGG GGG GGA GAC ACC CCG CGA GAG AGA GAC ACA CAC ACC CCG CGG GGC GCC CCC CCT CTG TGT GTC TCG CGC GCG
+      methyl_seq: 22222222202222202222222122222222021
+      dmr_label: 28653
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.8% - Smooth-Musc
+      16.8% - Heart-Fibro ✓
+      16.8% - Adipocytes
+      16.7% - Colon-Fibro
+
+ 3. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: TGA GAG AGT GTT TTG TGA GAG AGA GAC ACG CGA GAG AGA GAG AGA GAC ACA CAT ATT TTG TGC GCA CAA AAA AAA AAC ACA CAT ATC TCT CTG TGA GAT ATA TAG AGG GGG GGC GCA CAC ACA CAG AGG GGA GAC ACA CAG AGC GCC CCC CCC CCT CTA TAC ACG CGA GAT ATG TGA GAA AAG AGA GAA AAT ATT
+      methyl_seq: 22222222212222222222222222222222222222222222222222222202222222222
+      dmr_label: 28871
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.8% - Smooth-Musc
+      16.8% - Endothel
+      16.7% - Colon-Fibro
+      16.6% - Adipocytes
+      16.6% - Heart-Fibro ✓ (not in top 4)
+
+ 4. Confidence: 16.8% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: CAT ATT TTA TAG AGA GAA AAC ACA CAC ACG CGG GGA GAG AGC GCA CAC ACA CAG AGG GGG GGA GAG AGC GCT CTA TAT ATT TTT TTC TCC CCT CTT TTC TCT CTC TCG
+      methyl_seq: 222222222022222222222222222222222220
+      dmr_label: 16468
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.8% - Adipocytes
+      16.8% - Heart-Fibro ✓
+      16.7% - Smooth-Musc
+      16.6% - Skeletal-Musc
+
+ 5. Confidence: 16.8% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: TAG AGT GTA TAG AGT GTT TTC TCC CCC CCG CGA GAG AGC GCA CAG AGA GAG AGT GTT TTC TCA CAC ACC CCC CCT CTC TCA CAG AGC GCG CGT GTC TCG
+      methyl_seq: 222222222022222222222222222221221
+      dmr_label: 45869
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.8% - Colon-Fibro
+      16.8% - Smooth-Musc
+      16.7% - Heart-Fibro ✓
+      16.7% - Adipocytes
+
+ 6. Confidence: 16.8% | Predicted: Endothel
+    Read Information:
+      dna_seq: CAG AGT GTG TGG GGC GCA CAC ACC CCC CCG CGT GTG TGG GGA GAC ACA CAG AGA GAA AAA AAC ACA CAG AGG GGG GGG GGA GAA AAA AAA AAC ACA CAT ATT TTT TTC TCC CCT CTC TCC CCA CAC ACG CGA GAG AGG GGC GCA CAA AAA AAG AGA GAG
+      methyl_seq: 22222222212222222222222222222222222222222202222222222
+      dmr_label: 48837
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.8% - Endothel
+      16.7% - Skeletal-Musc
+      16.7% - Colon-Fibro
+      16.7% - Adipocytes
+      16.5% - Heart-Fibro ✓ (not in top 4)
+
+ 7. Confidence: 16.8% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: CCA CAC ACA CAG AGG GGG GGA GAC ACC CCG CGG GGG GGC GCT CTG TGG GGG GGG GGA GAG AGC GCG CGA GAG AGC GCA CAA AAC ACC CCC CCT CTG TGC GCT CTT TTC TCC CCC CCC CCG CGA GAG AGA GAG AGC GCA CAC ACA CAT ATG TGT GTG TGC GCC CCG CGA GAG AGA GAG AGG GGA GAA AAC ACA CAG AGC GCT CTG TGT GTC TCT CTC TCC CCA CAC ACC CCC CCC CCG CGC GCG CGC
+      methyl_seq: 2222222220222222222220222222222222222221222222222222221222222222222222222222220212
+      dmr_label: 14015
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.8% - Colon-Fibro
+      16.8% - Smooth-Musc
+      16.8% - Adipocytes
+      16.6% - Heart-Fibro ✓
+
+ 8. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: TGT GTT TTG TGT GTG TGT GTA TAT ATC TCG CGA GAG AGC GCC CCT CTC TCA CAC ACT CTA TAT ATT TTT TTC TCC CCA CAC ACG CGC GCA CAC ACC CCG CGT GTG TGC GCC CCA CAA AAG AGT GTG TGC GCT CTG TGC GCA CAC ACG CGC GCG
+      methyl_seq: 222222222122222222222222222022221222222222222222020
+      dmr_label: 45592
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.8% - Smooth-Musc
+      16.8% - Adipocytes
+      16.8% - Colon-Fibro
+      16.6% - Heart-Fibro ✓
+
+ 9. Confidence: 16.8% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: TGC GCT CTT TTG TGA GAA AAC ACC CCC CCG CGG GGG GGA GAG AGA GAC ACG CGG GGA GAG AGG GGT GTT TTG TGC GCA CAG AGC GCG
+      methyl_seq: 22222222212222220222222222220
+      dmr_label: 16299
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.8% - Adipocytes
+      16.8% - Colon-Fibro
+      16.8% - Smooth-Musc
+      16.6% - Heart-Fibro ✓
+
+10. Confidence: 16.9% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: TTC TCT CTG TGG GGG GGA GAT ATG TGC GCG CGA GAG AGC GCA CAG AGT GTA TAA AAT ATC TCT CTT TTG TGC GCA CAC ACC CCC CCG
+      methyl_seq: 22222222212222222222222222220
+      dmr_label: 335
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.9% - Heart-Fibro ✓
+      16.8% - Adipocytes
+      16.8% - Smooth-Musc
+      16.7% - Skeletal-Musc
+
+11. Confidence: 16.9% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: GTC TCC CCG CGG GGA GAA AAA AAG AGC GCA CAG AGA GAA AAC ACC CCA CAA AAT ATA TAG AGG GGA GAT ATT TTT TTG TGC GCT CTG TGA GAC ACA CAA AAA AAT ATG TGG GGC GCA CAC ACG CGT GTG TGT GTG TGA GAT ATA TAC ACA CAA
+      methyl_seq: 221222222222222222222222222222222222222202222222222
+      dmr_label: 45990
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.9% - Adipocytes
+      16.8% - Smooth-Musc
+      16.8% - Endothel
+      16.8% - Heart-Fibro ✓
+
+12. Confidence: 16.9% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GCA CAA AAC ACC CCG CGT GTG TGG GGC GCT CTG TGG GGA GAA AAG AGT GTG TGA GAA AAA AAA AAT ATG TGT GTA TAA AAA AAA AAA AAC ACC CCC CCT CTC TCC CCC CCA CAC ACG CGG GGC GCC CCT CTC TCG
+      methyl_seq: 222212222222222222222222222222222222220222220
+      dmr_label: 45643
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.9% - Smooth-Musc
+      16.8% - Heart-Fibro ✓
+      16.8% - Skeletal-Musc
+      16.6% - Adipocytes
+
+13. Confidence: 16.9% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: CTC TCA CAA AAC ACA CAC ACA CAG AGC GCG CGC GCC CCT CTG TGG GGC GCA CAG AGA GAG AGA GAA AAG AGC GCA CAG AGT GTT TTC TCC CCT CTC TCT CTG TGT GTC TCT CTA TAC ACT CTC TCC CCA CAG AGG GGG GGG GGC GCT CTC TCA CAC ACA CAC ACG CGC GCC CCC CCC CCT CTC TCT CTG TGT GTA
+      methyl_seq: 22222222212222222222222222222222222222222222222222222202222222222
+      dmr_label: 29073
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.9% - Heart-Fibro ✓
+      16.9% - Endothel
+      16.8% - Adipocytes
+      16.7% - Smooth-Musc
+
+14. Confidence: 16.9% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GCA CAG AGA GAA AAC ACG CGC GCT CTG TGG GGA GAG AGC GCC CCG CGA GAG AGC GCA CAT ATG TGC GCC CCT CTC TCG
+      methyl_seq: 22222122222222022222222220
+      dmr_label: 747
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.9% - Heart-Fibro ✓
+      16.9% - Adipocytes
+      16.7% - Endothel
+      16.6% - Smooth-Musc
+
+15. Confidence: 16.9% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: GGG GGG GGC GCC CCG CGG GGG GGC GCC CCC CCC CCT CTA TAT ATC TCG CGC GCC CCA CAG AGC GCC CCT CTC TCT CTC TCG
+      methyl_seq: 222202222222222022222222221
+      dmr_label: 45280
+      ctype: Heart-Fibro
+    Probability Distribution:
+      16.9% - Skeletal-Musc
+      16.8% - Colon-Fibro
+      16.7% - Smooth-Musc
+      16.6% - Adipocytes
+      16.4% - Heart-Fibro ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Skeletal-Musc
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: TGA GAG AGT GTT TTG TGA GAG AGA GAC ACG CGA GAG AGA GAG AGA GAC ACA CAT ATT TTG TGC GCA CAA AAA AAA AAC ACA CAT ATC TCT CTG TGA GAT ATA TAG AGG GGG GGC GCA CAC ACA CAG AGG GGA GAC ACA CAG AGC GCC CCC CCC CCT CTA TAC ACG CGA GAT ATG TGA GAA AAG AGA GAA AAT ATT
+      methyl_seq: 22222222212222222222222222222222222222222222222222222202222222222
+      dmr_label: 28871
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.8% - Smooth-Musc
+      16.8% - Endothel
+      16.7% - Colon-Fibro
+      16.6% - Adipocytes
+      16.5% - Skeletal-Musc ✓ (not in top 4)
+
+ 2. Confidence: 16.8% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: GCC CCA CAG AGG GGC GCG CGG GGA GAG AGA GAG AGG GGC GCG CGG GGA GAG AGG GGC GCT CTT TTG TGG GGC GCT CTT TTA TAA AAT ATG TGT GTA TAG AGG GGA GAC ACC CCA CAT ATG TGC GCG CGT GTG TGC GCT CTG TGG GGC GCG
+      methyl_seq: 22222122222221222222222222222222222222222022222220
+      dmr_label: 16
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.8% - Skeletal-Musc ✓
+      16.8% - Adipocytes
+      16.8% - Heart-Fibro
+      16.7% - Smooth-Musc
+
+ 3. Confidence: 16.9% | Predicted: Endothel
+    Read Information:
+      dna_seq: GTT TTC TCA CAG AGA GAA AAT ATT TTC TCG CGT GTT TTA TAC ACT CTG TGC GCC CCC CCC CCT CTC TCA CAC ACA CAA AAA AAG AGC GCC CCT CTA TAT ATG TGT GTG TGA GAC ACC CCG CGG GGG GGA GAG AGT GTA TAG AGA GAT ATG
+      methyl_seq: 22222222212222222222222222222222222222202222222222
+      dmr_label: 857
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Endothel
+      16.8% - Skeletal-Musc ✓
+      16.8% - Colon-Fibro
+      16.6% - Adipocytes
+
+ 4. Confidence: 16.9% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: GGT GTA TAG AGA GAC ACC CCG CGG GGA GAG AGG GGG GGG GGG GGA GAA AAG AGC GCC CCC CCA CAA AAA AAA AAC ACC CCT CTC TCC CCT CTT TTG TGA GAG AGG GGA GAG AGG GGT GTT TTT TTT TTT TTC TCC CCC CCT CTC TCT CTA TAC ACC CCC CCG CGG GGC GCC CCT CTG TGA GAT ATT TTG TGA GAG AGA GAT ATC TCT CTG TGA GAA AAC ACT CTC TCC CCT CTC TCA CAG AGG GGT GTG TGG GGG GGA GAA AAG AGA GAG AGA GAG AGC GCT CTT TTT TTG TGG GGA GAT ATA TAA AAT ATT TTT TTT TTC TCA CAC ACC CCG CGT GTT TTA TAT ATC TCT CTC TCC CCT CTT
+      methyl_seq: 2222220222222222222222222222222222222222222222222222202222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 943
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Skeletal-Musc ✓
+      16.8% - Heart-Fibro
+      16.7% - Smooth-Musc
+      16.7% - Adipocytes
+
+ 5. Confidence: 16.9% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GCT CTC TCA CAG AGG GGG GGG GGC GCC CCG CGG GGC GCC CCA CAA AAG AGT GTG TGC GCC CCC CCA CAG AGC GCT CTC TCC CCA CAA AAA AAA AAT ATA TAG AGC GCA CAG AGT GTT TTG TGT GTG TGT GTT TTC TCG CGC GCA CAT ATA TAA AAA AAA AAC ACC CCT
+      methyl_seq: 22222222202222222222222222222222222222222222212222222222
+      dmr_label: 690
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Smooth-Musc
+      16.8% - Colon-Fibro
+      16.7% - Skeletal-Musc ✓
+      16.7% - Heart-Fibro
+
+ 6. Confidence: 16.9% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GCG CGT GTT TTG TGA GAC ACT CTG TGT GTG TGA GAG AGC GCT CTA TAG AGG GGG GGG GGT GTC TCG CGC GCT CTG TGC GCC CCT CTT TTT TTC TCC CCT CTG TGC GCC CCC CCC CCC CCG CGG GGC GCA CAG AGC GCC CCG
+      methyl_seq: 12222222222222222222212222222222222222202222221
+      dmr_label: 371
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Heart-Fibro
+      16.8% - Adipocytes
+      16.8% - Colon-Fibro
+      16.7% - Smooth-Musc
+      16.6% - Skeletal-Musc ✓ (not in top 4)
+
+ 7. Confidence: 16.9% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: CAA AAA AAG AGA GAG AGG GGC GCT CTC TCG CGG GGC GCA CAT ATT TTA TAA AAT ATT TTG TGA GAT ATT TTA TAA AAG AGA GAG AGG GGT GTT TTC TCT CTT TTT TTC TCA CAA AAA AAG AGC GCG
+      methyl_seq: 222222222022222222222222222222222222222220
+      dmr_label: 577
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Heart-Fibro
+      16.9% - Smooth-Musc
+      16.8% - Adipocytes
+      16.5% - Skeletal-Musc ✓
+
+ 8. Confidence: 16.9% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: CCA CAC ACA CAC ACT CTG TGC GCA CAC ACG CGG GGC GCA CAG AGA GAG AGA GAA AAT ATG TGA GAC ACG CGG GGG GGA GAA AAT ATG TGG GGG GGC GCA CAC ACA CAG AGA GAC ACA CAC ACA CAC ACT CTC TCA CAA AAA AAC ACT CTG TGG GGG GGG GGC GCC CCC CCA CAG AGG GGG GGA GAG AGA GAC ACA CAC ACA CAC ACC CCT CTC TCT CTC TCC CCT CTT TTC TCA CAA AAA AAC ACC CCT CTG TGG GGA GAC ACG
+      methyl_seq: 2222222221222222222222022222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 17067
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Adipocytes
+      16.9% - Smooth-Musc
+      16.7% - Colon-Fibro
+      16.6% - Heart-Fibro
+      16.6% - Skeletal-Musc ✓ (not in top 4)
+
+ 9. Confidence: 16.9% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: AAT ATG TGC GCA CAA AAA AAG AGC GCC CCG CGT GTG TGC GCG CGC GCA CAG AGC GCC CCG CGG GGG GGT GTT TTC TCA CAG AGG GGA GAG AGC GCC CCA CAC ACG CGA GAC ACT CTG TGG GGA GAG AGC GCA CAC ACA CAG AGC GCC CCC CCT CTG TGC GCC CCG CGC GCC CCC CCC CCT CTC TCG CGG GGG GGG GGC GCC CCC CCG CGG GGC GCC CCC CCT CTG TGT GTG TGC GCC CCC CCT CTT TTT TTC TCC CCC CCG
+      methyl_seq: 222222222122212222202222222222222202222222222222222222022222212222221222222222222222221
+      dmr_label: 16565
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Smooth-Musc
+      16.9% - Colon-Fibro
+      16.9% - Adipocytes
+      16.8% - Heart-Fibro
+      16.8% - Skeletal-Musc ✓ (not in top 4)
+
+10. Confidence: 16.9% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: TAA AAA AAA AAT ATG TGC GCA CAC ACA CAA AAT ATT TTC TCA CAG AGT GTG TGG GGC GCA CAA AAT ATT TTG TGG GGT GTA TAC ACA CAT ATT TTC TCA CAC ACA CAG AGT GTG TGC GCT CTG TGT GTA TAC ACT CTA TAC ACC CCA CAC ACC CCA CAC ACC CCT CTT TTT TTA TAT ATC TCA CAG AGA GAT ATG TGT GTC TCA CAA AAA AAA AAT ATA TAT ATT TTT TTT TTC TCA CAT ATC TCA CAC ACC CCC CCC CCC CCA CAG AGA GAG AGA GAA AAA AAA AAC ACC CCT CTT TTG TGT GTA TAT ATC TCC CCA CAT ATG TGA GAA AAG AGT GTA TAG AGT GTC TCA CAC ACT CTT TTC TCT CTC TCA CAT ATT TTC TCT
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 28626
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Heart-Fibro
+      16.9% - Adipocytes
+      16.9% - Colon-Fibro
+      16.8% - Smooth-Musc
+      16.2% - Skeletal-Musc ✓ (not in top 4)
+
+11. Confidence: 16.9% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: CAG AGC GCA CAG AGG GGC GCA CAC ACC CCG CGC GCA CAC ACT CTC TCC CCC CCC CCT CTT TTC TCC CCA CAG AGG GGA GAA AAG AGG GGA GAT ATT TTC TCC CCA CAG AGG GGC GCC CCC CCA CAG AGC GCT CTA TAC ACA CAA AAG AGG GGA GAG AGC GCG CGT GTG TGG GGC GCT CTA TAC ACT CTG TGA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222202222222222
+      dmr_label: 45888
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Adipocytes
+      16.9% - Smooth-Musc
+      16.8% - Endothel
+      16.6% - Heart-Fibro
+      16.4% - Skeletal-Musc ✓ (not in top 4)
+
+12. Confidence: 16.9% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GCG CGT GTG TGG GGC GCA CAG AGG GGA GAG AGC GCG CGT GTC TCT CTC TCA CAT ATT TTC TCA CAA AAT ATC TCA CAT ATC TCA CAC ACA CAG AGA GAT ATC TCC CCC CCT CTT TTC TCT CTG TGG GGG GGG GGA GAG AGG GGA GAA AAT ATT TTA TAT ATG TGA GAT ATC TCA CAT ATC TCC CCC CCA CAA AAC ACC CCA CAT ATA TAA AAG AGG GGA GAT ATG TGA GAG AGC GCA CAA AAA AAG AGC GCA CAG AGG GGT GTT TTC TCC CCA CAC ACA CAT ATG TGA GAT ATG TGA GAG AGA GAT ATG TGC GCC CCC CCT CTC TCA CAT ATT TTC TCT CTG TGC GCC CCA CAA AAT ATT TTT TTG TGG GGA GAC ACG
+      methyl_seq: 022222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 45583
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Smooth-Musc
+      16.9% - Skeletal-Musc ✓
+      16.9% - Adipocytes
+      16.9% - Colon-Fibro
+
+13. Confidence: 16.9% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: TTG TGC GCT CTC TCC CCA CAG AGA GAC ACG CGG GGT GTG TGA GAG AGC GCA CAG AGC GCT CTC TCA CAA AAA AAC ACC CCC CCT CTG TGC GCA CAT ATT TTG TGT GTG TGG GGG GGT GTG TGG GGG GGC GCA CAG AGA GAA AAA AAG AGG GGC GCA CAG AGG GGT GTG TGG GGG GGG GGT GTG TGG GGC GCA CAC ACG CGC GCT CTC TCC CCT CTG TGG GGA GAT ATG TGC GCC CCA CAC ACT CTG TGC GCA CAT ATT TTC TCC CCG CGA GAC ACA CAG AGG GGA GAC ACA CAC ACC CCC CCG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222122222222222222222222220222222222220
+      dmr_label: 46168
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Colon-Fibro
+      16.8% - Smooth-Musc
+      16.8% - Adipocytes
+      16.6% - Heart-Fibro
+      16.5% - Skeletal-Musc ✓ (not in top 4)
+
+14. Confidence: 16.9% | Predicted: Endothel
+    Read Information:
+      dna_seq: ACC CCT CTG TGG GGG GGA GAG AGG GGC GCG CGG GGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCT CTG TGA GAG AGA GAT ATT TTG TGT GTA TAC ACC CCA CAT ATT TTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTA TAG AGC GCG CGA GAC ACA CAT ATA TAG AGT GTA TAG AGA GAC ACT CTC TCC CCG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222221222222222222220
+      dmr_label: 28934
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Endothel
+      16.8% - Adipocytes
+      16.8% - Colon-Fibro
+      16.7% - Heart-Fibro
+      16.3% - Skeletal-Musc ✓ (not in top 4)
+
+15. Confidence: 16.9% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: GAG AGT GTC TCC CCG CGG GGC GCA CAC ACA CAG AGA GAG AGC GCA CAG AGC GCA CAG AGG GGC GCT CTC TCT CTG TGG GGG GGC GCA CAG AGA GAT ATG TGT GTC TCA CAG AGC GCT CTA TAA AAG AGG GGT GTC TCA CAC ACG
+      methyl_seq: 222202222222222222222222222222222222222222222220
+      dmr_label: 45721
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      16.9% - Adipocytes
+      16.9% - Heart-Fibro
+      16.8% - Smooth-Musc
+      16.6% - Endothel
+      16.4% - Skeletal-Musc ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Smooth-Musc
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: AGC GCC CCC CCC CCT CTC TCC CCC CCC CCG CGC GCA CAG AGG GGC GCC CCG CGT GTT TTC TCT CTC TCA CAT ATT TTT TTG TGT GTA TAC ACA CAG AGG GGA GAA AAA AAA AAG AGG GGC GCA CAC ACA CAC ACA CAC ACT CTC TCT CTG TGC GCC CCG CGG GGC GCT CTC TCC CCT CTT TTA TAG AGA
+      methyl_seq: 222222222022222212222222222222222222222222222222222212222222222
+      dmr_label: 17036
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Smooth-Musc ✓
+      16.8% - Heart-Fibro
+      16.8% - Colon-Fibro
+      16.5% - Endothel
+
+ 2. Confidence: 16.8% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: GGT GTG TGA GAA AAA AAC ACC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCA CAG AGG GGC GCA CAT ATG TGG GGT GTG TGG GGC GCA CAC ACA CAC ACG CGC GCT CTT TTG TGT GTA TAG AGT GTC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTC TCG CGG GGG GGA GAG AGG GGC GCT CTG TGA GAT ATG TGC GCA CAG AGG GGA GAG AGA GAA AAT ATT TTG TGC GCT CTT TTG TGA GAA AAC ACC CCC CCG CGG GGG GGA GAG AGG GGC GCA CAG AGA GAG
+      methyl_seq: 22222222022222222222222222222222222222222222222222222122222222222222222220222222222222222222222222222222212222222222
+      dmr_label: 369
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Skeletal-Musc
+      16.8% - Smooth-Musc ✓
+      16.7% - Adipocytes
+      16.6% - Heart-Fibro
+
+ 3. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCC CCG CGC GCC CCC CCA CAC ACC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGA GAG AGA GAT ATT TTA TAT ATA TAC ACG CGC GCA CAT ATG TGA GAG AGC GCC CCA CAC ACC CCG
+      methyl_seq: 22222022222222122222222222222222222222220222222222221
+      dmr_label: 28792
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Smooth-Musc ✓
+      16.8% - Heart-Fibro
+      16.8% - Adipocytes
+      16.7% - Colon-Fibro
+
+ 4. Confidence: 16.8% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: CCT CTG TGG GGA GAA AAA AAA AAG AGT GTG TGA GAC ACT CTT TTC TCC CCC CCA CAG AGG GGG GGA GAC ACA CAC ACA CAG AGC GCT CTA TAC ACT CTC TCT CTC TCT CTG TGA GAA AAG AGA GAG AGC GCT CTT TTT TTT TTT TTC TCC CCC CCC CCA CAG AGG GGT GTC TCC CCC CCA CAG AGC GCA CAC ACC CCC CCC CCT CTA TAC ACA CAC ACT CTT TTC TCC CCC CCT CTA TAG AGG GGG GGC GCT CTT TTT TTT TTT TTT TTC TCC CCT CTG TGC GCC CCC CCA CAG AGG GGC GCC CCC CCC CCT CTG TGC GCC CCT CTT TTT TTA TAA AAT ATT TTC TCC CCC CCT CTG TGG GGG GGA GAG AGA GAA AAA AAT ATC TCC CCT CTA TAG AGA GAC ACC CCC CCC CCT CTA TAA AAG AGC GCC CCC CCG
+      methyl_seq: 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 45686
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Heart-Fibro
+      16.8% - Adipocytes
+      16.7% - Smooth-Musc ✓
+      16.6% - Skeletal-Musc
+
+ 5. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GAG AGC GCG CGG GGG GGA GAT ATC TCC CCA CAG AGT GTG TGT GTC TCA CAG AGG GGT GTC TCC CCT CTG TGA GAG AGG GGG GGT GTG TGG GGA GAG AGG GGA GAA AAG AGA GAG AGC GCA CAG AGG GGG GGA GAA AAC ACT CTG TGG GGG GGA GAA AAG AGT GTG TGG GGG GGG GGC GCC CCC CCC CCT CTG TGT GTG TGC GCT CTT TTG TGG GGG GGG GGA GAA AAT ATT TTC TCC CCA CAC ACT CTC TCA CAT ATG TGC GCC CCT CTG TGG GGG GGA GAG AGT GTG TGG GGT GTT TTG TGA GAA AAG AGA GAC ACG CGA GAA AAG AGC GCC CCC CCA CAG AGG GGC
+      methyl_seq: 22122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 49037
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Smooth-Musc ✓
+      16.8% - Endothel
+      16.8% - Colon-Fibro
+      16.6% - Skeletal-Musc
+
+ 6. Confidence: 16.8% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: GAA AAT ATG TGC GCG CGT GTG TGC GCA CAC ACG CGT GTG TGT GTG TGT GTA TAA AAT ATG TGC GCA CAC ACA CAT ATG TGT GTG TGC GCA CAG AGG GGG GGC GCC CCC CCT CTT TTG TGC GCC CCA CAG AGA GAA AAG AGG GGC GCT CTT TTT TTC TCT CTG TGT GTG TGC GCT CTC TCC CCC CCA CAT ATG TGG GGG GGG GGC GCC CCA CAG AGC GCC CCT CTT TTG TGG GGG GGG GGC GCT CTT TTC TCC CCT CTC TCC CCC CCT CTG TGC GCC CCT CTT TTG TGT GTC TCT CTT TTT TTC TCC CCT CTT TTT TTT TTG TGT GTT TTT TTT TTC TCC CCT CTT TTT TTT TTT TTC TCT CTT TTT TTT TTC TCC CCC CCT CTC TCC CCT CTC TCG
+      methyl_seq: 222212222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 48755
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Colon-Fibro
+      16.8% - Smooth-Musc ✓
+      16.7% - Heart-Fibro
+      16.6% - Skeletal-Musc
+
+ 7. Confidence: 16.8% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GTG TGG GGC GCG CGG GGC GCC CCC CCC CCT CTG TGA GAC ACG CGC GCC CCG CGG GGC GCT CTG TGT GTC TCC CCT CTC TCC CCA CAG AGG GGA GAA AAT ATA TAA AAT ATC TCT CTG TGG GGG GGG GGT GTC TCC CCG CGC GCT CTG TGG GGT GTG TGC GCC CCG
+      methyl_seq: 2220222222222022122222222222222222222222222221222222221
+      dmr_label: 13993
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Smooth-Musc ✓
+      16.8% - Heart-Fibro
+      16.8% - Adipocytes
+      16.8% - Colon-Fibro
+
+ 8. Confidence: 16.8% | Predicted: Adipocytes
+    Read Information:
+      dna_seq: GGC GCC CCG CGC GCA CAG AGT GTG TGG GGG GGG GGT GTG TGT GTG TGC GCA CAG AGA GAG AGC GCT CTT TTG TGG GGT GTT TTT TTC TCC CCG
+      methyl_seq: 2212222222222222222222222222220
+      dmr_label: 46122
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Adipocytes
+      16.8% - Skeletal-Musc
+      16.8% - Heart-Fibro
+      16.7% - Smooth-Musc ✓
+
+ 9. Confidence: 16.8% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GAG AGG GGT GTC TCC CCT CTC TCG CGC GCT CTG TGA GAC ACT CTG TGC GCA CAT ATT TTT TTC TCC CCC CCA CAG AGC GCA CAG AGC GCT CTG TGG GGA GAC ACA CAT ATT TTG TGG GGG GGG GGT GTG TGG GGG GGG GGT GTG TGT GTG TGG GGT GTG TGG GGT GTT TTT TTG TGG GGA GAA AAG AGC GCA CAC ACG CGT GTT TTT TTA TAG AGC GCC CCC CCC CCT
+      methyl_seq: 2222222022222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 16892
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Heart-Fibro
+      16.8% - Colon-Fibro
+      16.8% - Smooth-Musc ✓
+      16.7% - Endothel
+
+10. Confidence: 16.8% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: CAA AAG AGG GGC GCA CAT ATA TAC ACA CAG AGC GCC CCT CTC TCT CTG TGA GAG AGT GTA TAT ATC TCC CCA CAT ATA TAT ATA TAA AAT ATC TCT CTG TGA GAA AAG AGG GGG GGG GGC GCC CCA CAC ACA CAG AGG GGC GCC CCA CAA AAT ATT TTA TAC ACA CAG AGT GTC TCT CTG TGA GAC ACT CTT TTG TGG GGA GAG AGG GGT GTG TGA GAT ATT TTC TCA CAG AGA GAT ATG TGG GGC GCT CTA TAG AGA GAA AAA AAA AAG AGG GGG GGC GCC CCC CCC CCC CCT CTC TCT CTG TGT GTT TTA TAG AGC GCA CAT ATT TTT TTT TTA TAA AAT ATA TAT ATA TAA AAA AAA AAT ATT TTG TGG GGT GTG TGA GAT ATT TTT TTA TAG AGT GTG TGC GCA CAA AAT ATA TAA AAA AAA AAT ATG TGC GCA CAG AGC GCC CCA CAT ATT TTA TAG AGT GTT TTA TAC ACA CAC ACA CAG AGG GGG GGC GCT CTG TGC GCT CTC TCC CCC CCG
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 49186
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Skeletal-Musc
+      16.8% - Endothel
+      16.8% - Smooth-Musc ✓
+      16.7% - Heart-Fibro
+
+11. Confidence: 16.8% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: CCC CCA CAG AGC GCC CCT CTC TCC CCC CCG CGA GAG AGT GTA TAG AGC GCT CTA TAG AGG GGA GAC ACT CTA TAC ACA CAG AGG GGC GCA CAC ACA CAC ACA CAC ACC CCA CAC ACC CCA CAC ACG CGC GCC CCT CTG TGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGG GGC GCG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACC
+      methyl_seq: 222222222122222222222222222222222222222220222222222222222222222222222222212222222222
+      dmr_label: 45394
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Colon-Fibro
+      16.8% - Smooth-Musc ✓
+      16.8% - Skeletal-Musc
+      16.7% - Adipocytes
+
+12. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GCT CTC TCA CAT ATG TGC GCA CAC ACC CCG CGT GTC TCT CTC TCT CTT TTT TTC TCT CTC TCA CAT ATC TCC CCC CCT CTA TAA AAC ACT CTA TAC ACT CTT TTT TTC TCT CTT TTG TGT GTA TAC ACT CTC TCT CTA TAA AAT ATT TTA TAT ATT TTT TTA TAT ATA TAT ATG TGC GCA CAC ACA CAT ATC TCT CTT TTT TTT TTC TCT CTG TGC GCT CTC TCT CTG TGC GCT CTT TTT TTA TAA AAT ATG TGA GAA AAT ATC TCC CCC CCT CTG TGC GCT CTA TAC ACG
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 29188
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Smooth-Musc ✓
+      16.8% - Skeletal-Musc
+      16.8% - Colon-Fibro
+      16.6% - Adipocytes
+
+13. Confidence: 16.8% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: AAC ACA CAT ATT TTT TTG TGG GGG GGC GCG CGA GAA AAG AGT GTG TGA GAC ACT CTG TGG GGG GGT GTA TAT ATA TAA AAG AGC GCA CAA AAT ATT TTA TAT ATT TTC TCT CTG TGG GGA GAA AAG AGC GCC CCC CCA CAG AGT GTG TGC GCA CAT ATG TGG GGC GCC CCC CCG CGC GCA CAG AGA GAG AGG GGG GGG GGC GCA
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222202222222222
+      dmr_label: 14058
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.8% - Smooth-Musc ✓
+      16.8% - Colon-Fibro
+      16.7% - Heart-Fibro
+      16.6% - Adipocytes
+
+14. Confidence: 16.9% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: TTC TCT CTG TGG GGG GGA GAT ATG TGC GCG CGA GAG AGC GCA CAG AGT GTA TAA AAT ATC TCT CTT TTG TGC GCA CAC ACC CCC CCG
+      methyl_seq: 22222222212222222222222222220
+      dmr_label: 335
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.9% - Heart-Fibro
+      16.8% - Adipocytes
+      16.8% - Smooth-Musc ✓
+      16.7% - Skeletal-Musc
+
+15. Confidence: 16.9% | Predicted: Smooth-Musc
+    Read Information:
+      dna_seq: GTC TCA CAG AGC GCC CCA CAA AAA AAC ACG CGT GTG TGC GCT CTG TGC GCA CAC ACA CAA AAA AAC ACT CTG TGG GGA GAC ACC CCT CTA TAA AAA AAC ACC CCT CTT TTC TCC CCC CCT CTT TTT TTG TGC GCT CTA TAC ACC CCG CGA GAC ACT CTA TAG AGG GGA GAA AAA AAC
+      methyl_seq: 22222222212222222222222222222222222222222222222202222222222
+      dmr_label: 348
+      ctype: Smooth-Musc
+    Probability Distribution:
+      16.9% - Smooth-Musc ✓
+      16.8% - Endothel
+      16.8% - Heart-Fibro
+      16.7% - Adipocytes
+
+============================================================
+
+
+
+HIGH CONFIDENCE PREDICTIONS
+================================================================================
+Top 15 unique highest confidence predictions per true cell type
+================================================================================
+
+TRUE CELL TYPE: Adipocytes
+------------------------------------------------------------
+
+ 1. Confidence: 26.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: ATC TCA CAA AAA AAT ATA TAG AGA GAC ACG CGC GCA CAA AAT ATA TAA AAA AAA AAA AAA AAT ATG TGA GAT ATA TAA AAA AAG AGG GGG GGG GGA GAT ATA TAT ATC TCA CAC ACC CCA CAC ACC CCG CGA GAT ATC TCC CCC CCA CAC ACA CAG AGA GAA AAA AAT ATA TAC ACA CAA AAA AAC ACT CTA TAC ACC CCA CAT ATC TCA CAG AGA GAG AGA GAA AAT ATA TAC ACT CTA TAC ACA CAA AAA AAC ACA CAC ACC CCT CTC TCT CTA TAC ACA CAC ACA CAA AAA AAT ATA TAA AAA AAC ACT CTA TAG AGA GAA AAA AAA AAT ATC TCT CTA TAA AAA AAA AAG AGA GAA AAA AAT ATG TGG GGA GAT ATA TAA AAA AAT ATT TTC TCC CCT CTC TCG
+      methyl_seq: 2222222220222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 49193
+      ctype: Adipocytes
+    Probability Distribution:
+      26.2% - Endothel
+      15.8% - Skeletal-Musc
+      14.7% - Smooth-Musc
+      14.7% - Adipocytes ✓
+
+ 2. Confidence: 25.8% | Predicted: Endothel
+    Read Information:
+      dna_seq: GAT ATG TGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGT GTG TGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAC ACG CGA GAA AAG AGG GGG GGA GAG AGA GAG AGA
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 17254
+      ctype: Adipocytes
+    Probability Distribution:
+      25.8% - Endothel
+      15.0% - Colon-Fibro
+      14.9% - Adipocytes ✓
+      14.9% - Skeletal-Musc
+
+ 3. Confidence: 25.2% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: GGG GGC GCA CAG AGG GGC GCC CCT CTC TCG CGT GTG TGG GGT GTG TGA GAC ACA CAA AAA AAA AAT ATC TCT CTC TCT CTC TCA CAG AGC GCA CAT ATT TTT TTG TGC GCT CTT TTG TGT GTC TCT CTG TGT GTA TAA AAA AAG AGT GTA TAT ATT TTT TTT TTA TAT ATT TTT TTC TCT CTC TCC CCT CTT TTC TCA CAC ACT CTT TTA TAT ATG TGA GAA AAG AGC GCT CTT TTA TAG AGT GTT TTT TTG TGG GGC GCT CTG TGG GGA GAT ATA TAT ATG TGA GAA AAA AAT ATT TTC TCT CTG TGG GGG GGT GTT TTG TGA GAA AAA AAA AAT ATT TTC TCT CTT TTT TTC TCC CCT CTT TTT TTA TAA AAG AGA GAA AAT ATG TGT GTT TTG TGA GAA AAT ATA TAT ATT TTG TGG GGC GCC CCC CCC CCC CCA CAC ACT CTC TCT CTC TCT CTT TTC TCT CTG TGG GGC GCT CTT TTG TGT GTA TAG AGA GAG AGT GTT TTT TTC TCT CTG TGC GCT CTG TGA GAG AGA GAG AGA GAT ATC TCC CCA CAC ACT CTG TGT GTT TTA TAG AGT GTC TCT CTG TGA GAT ATG TGG GGG GGC GCT CTT TTC TCC CCC CCT CTT TTT TTG TGT GTG TGG GGG GGT GTA TAA AAC ACC CCC CCA CAA AAC ACT CTT TTT TTT TTC TCT CTC TCT CTC TCT CTG TGT
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49044
+      ctype: Adipocytes
+    Probability Distribution:
+      25.2% - Colon-Fibro
+      15.5% - Endothel
+      15.3% - Skeletal-Musc
+      15.0% - Heart-Fibro
+      14.7% - Adipocytes ✓ (not in top 4)
+
+ 4. Confidence: 25.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: AAG AGG GGG GGA GAG AGA GAG AGA GAC ACG CGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAT ATG TGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGT GTG TGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGA GAG AGA GAG AGA GAG AGT GTA TAG AGG GGA GAG AGG GGA GAA AAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 17254
+      ctype: Adipocytes
+    Probability Distribution:
+      25.2% - Endothel
+      15.4% - Colon-Fibro
+      15.1% - Smooth-Musc
+      14.9% - Adipocytes ✓
+
+ 5. Confidence: 25.1% | Predicted: Endothel
+    Read Information:
+      dna_seq: AAT ATA TAA AAA AAC ACA CAT ATA TAC ACG CGT GTG TGT GTG TGC GCA CAT ATG TGT GTG TGT GTC TCT CTT TTT TTA TAT ATA TAG AGC GCA CAC ACC CCA CAT ATG TGA GAT ATT TTT TTA TAT ATA TAG AGT GTC TCC CCT CTT TTT TTG TGG GGG GGT GTA TAT ATA TAT ATA TAC ACC CCC CCA CAG AGT GTA TAA AAT ATG TGG GGG GGA GAT ATT TTG TGC GCT CTG TGG GGG GGT GTC TCA CAA AAA AAT ATG TGG GGT GTA TAT ATT TTT TTC TCT CTA TAG AGT GTT TTC TCT CTA TAG AGA GAT ATC TCC CCC CCT CTG TGA GAG AGG GGA GAA AAT ATC TCG CGC GCC CCA CAC ACA CAC ACT CTG TGA GAC ACT CTT TTC TCC CCA CAC ACA CAA AAT ATG TGG GGT GTT TTG TGA GAA AAC ACT CTA TAG AGT GTT TTT TTA TAC ACA CAG AGT GTC TCC CCC CCA CAC ACC CCA CAA AAC ACA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221222222222222222222222222222222222222222222222222
+      dmr_label: 49230
+      ctype: Adipocytes
+    Probability Distribution:
+      25.1% - Endothel
+      15.7% - Skeletal-Musc
+      15.2% - Colon-Fibro
+      14.8% - Adipocytes ✓
+
+ 6. Confidence: 24.5% | Predicted: Endothel
+    Read Information:
+      dna_seq: CAG AGT GTG TGC GCA CAA AAA AAA AAG AGT GTG TGT GTT TTC TCC CCT CTA TAT ATT TTT TTC TCT CTC TCC CCA CAC ACA CAT ATC TCC CCT CTC TCT CTC TCC CCA CAG AGC GCA CAC ACC CCT CTG TGT GTT TTG TGT GTT TTT TTC TCC CCT CTG TGA GAC ACT CTT TTT TTT TTG TGA GAA AAT ATG TGA GAT ATT TTG TGC GCC CCA CAT ATT TTC TCT CTA TAA AAC ACT CTG TGG GGT GTG TGT GTG TGA GAG AGA GAT ATG TGG GGT GTA TAT ATC TCT CTC TCA CAT ATT TTG TGT GTG TGG GGT GTT TTT TTT TTG TGA GAT ATT TTT TTG TGC GCA CAT ATT TTT TTC TCT CTC TCT CTG TGA GAT ATG TGG GGC GCC CCA CAG AGT GTG TGA GAT ATG TGA GAT ATG TGA GAG AGC GCA CAT ATT TTT TTT TTT TTT TTC TCA CAT ATG TGT GTG TGT GTC TCT CTT TTT TTT TTG TGG GGC GCT CTG
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49230
+      ctype: Adipocytes
+    Probability Distribution:
+      24.5% - Endothel
+      15.9% - Colon-Fibro
+      15.2% - Skeletal-Musc
+      15.0% - Adipocytes ✓
+
+ 7. Confidence: 24.5% | Predicted: Endothel
+    Read Information:
+      dna_seq: TTG TGA GAA AAA AAC ACC CCA CAA AAC ACG CGA GAG AGA GAA AAC ACA CAA AAA AAG AGA GAC ACA CAC ACA CAA AAC ACA CAT ATA TAC ACC CCA CAG AGA GAA AAT ATC TCT CTC TCT CTG TGG GGG GGA GAC ACG CGC GCA CAA AAT ATC TCA CAA AAA AAG AGC GCA CAG AGT GTG TGT GTG TGT GTA TAG AGA GAG AGG GGG GGA GAA AAA AAT ATT TTT TTA TAT ATA TAG AGC GCA CAC ACT CTA TAA AAA AAT ATG TGC GCC CCC CCA CAC ACA CAA AAG AGA GAG AGA GAA AAA AAG AGC GCA CAG AGG GGG GGA GAA AAG AGA GAT ATC TCC CCA CAA AAA AAA AAT ATT TTG TGA GAC ACA CAC ACC CCC CCT CTA TAA AAC ACA CAT ATC TCA CAC ACA CAA AAT ATT TTA TAA AAA AAA AAG AGA GAA AAC ACT CTA TAG AGA GAA AAA AAA AAG
+      methyl_seq: 222222222122222222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49193
+      ctype: Adipocytes
+    Probability Distribution:
+      24.5% - Endothel
+      16.0% - Heart-Fibro
+      15.3% - Smooth-Musc
+      15.1% - Skeletal-Musc
+      14.6% - Adipocytes ✓ (not in top 4)
+
+ 8. Confidence: 23.9% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: AAA AAA AAA AAA AAG AGG GGC GCA CAC ACG CGG GGG GGT GTT TTG TGC GCA CAA AAG AGC GCC CCT CTA TAG AGT GTC TCT CTC TCT CTG TGA GAT ATA TAA AAA AAA AAC ACA CAG AGA GAT ATT TTT TTT TTA TAA AAA AAC ACC CCA CAA AAC ACA CAA AAA AAG AGA GAT ATC TCA CAA AAA AAA AAG AGA GAG AGA GAC ACA CAA AAT ATG TGA GAA AAG AGG GGC GCC CCA CAT ATT TTA TAC ACA CAT ATA TAA AAT ATG TGG GGT GTA TAA AAA AAG AGG GGG GGA GAT ATC TCA CAA AAT ATT TTA TAA AAA AAC ACA CAA AAG AGA GAA AAG AGA GAG AGC GCT CTA TAA AAC ACT CTA TAT ATC TCC CCT CTA TAA
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49159
+      ctype: Adipocytes
+    Probability Distribution:
+      23.9% - Skeletal-Musc
+      16.8% - Endothel
+      15.1% - Smooth-Musc
+      14.9% - Heart-Fibro
+      14.5% - Adipocytes ✓ (not in top 4)
+
+ 9. Confidence: 23.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: TTT TTC TCT CTG TGC GCC CCT CTT TTC TCG CGT GTT TTT TTC TCA CAT ATT TTA TAT ATG TGT GTA TAC ACC CCC CCA CAG AGT GTA TAG AGT GTC TCA CAT ATT TTC TCA CAG AGA GAA AAG AGC GCA CAG AGG GGT GTT TTG TGT GTT TTC TCA CAG AGT GTT TTT TTC TCC CCA CAT ATG TGT GTA TAC ACT CTT TTG TGA GAG AGC GCA CAA AAT ATT TTT TTT TTG TGA GAG AGT GTG TGA GAG AGT GTT TTT TTC TCT CTT TTA TAA AAT ATC TCC CCT CTG TGA GAG AGT GTT TTC TCT CTA TAG AGT GTT TTT TTG TGA GAT ATT TTG TGC GCT CTC TCT CTG TGT GTG TGG GGT GTC TCT CTG TGA GAG AGA GAG AGA GAC ACA CAG AGT GTT TTT TTG TGT GTT TTA TAT ATA TAA AAT ATT TTT TTC TCT CTG TGT GTT TTC TCT CTT TTT TTT TTA TAT ATA TAT ATT TTT TTG TGC GCT CTG TGA GAG AGG GGA GAG AGT GTG TGC GCT CTT TTT TTA TAC ACT CTT TTC TCC CCA CAA AAC ACT CTA TAT ATG TGT GTG TGG GGT GTC TCA CAA AAT ATT TTT TTT TTG TGG GGA GAA AAT ATA TAG AGG GGT GTG TGT GTG TGG GGT GTG TGT GTG TGG GGT GTG TGC GCT CTG TGA GAA AAA AAA AAA AAA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 48939
+      ctype: Adipocytes
+    Probability Distribution:
+      23.2% - Endothel
+      17.4% - Skeletal-Musc
+      15.4% - Colon-Fibro
+      14.9% - Adipocytes ✓
+
+10. Confidence: 23.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTC TCA CAA AAT ATG TGT GTG TGC GCA CAA AAA AAA AAA AAT ATC TCA CAC ACA CAA AAG AGC GCA CAT ATT TTC TCT CTT TTA TAT ATA TAC ACA CAC ACC CCA CAC ACT CTA TAA AAC ACA CAG AGA GAG AGA GAA AAA AAC ACA CAG AGC GCC CCA CAA AAA AAT ATC TCA CAT ATG TGA GAG AGT GTG TGA GAA AAC ACT CTC TCC CCC CCA CAT ATT TTC TCA CAC ACA CAA AAT ATT TTG TGC GCT CTT TTC TCA CAA AAA AAG AGA GAG AGA GAA AAT ATA TAA AAA AAA AAT ATA TAC ACC CCT CTA TAG AGG GGA GAA AAT ATC TCC CCA CAA AAC ACT CTT TTA TAC ACA CAA AAG AGG GGG GGA GAT ATG TGT GTG TGA GAA AAG AGG GGA GAT ATC TCT CTC TCT CTT TTC TCA CAA AAG AGA GAA AAG AGA GAA AAC ACT CTA TAC ACA CAA AAA AAC ACC CCA CAC ACT CTG TGC GCT CTC TCA CAA AAC ACG
+      methyl_seq: 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 48843
+      ctype: Adipocytes
+    Probability Distribution:
+      23.2% - Endothel
+      15.9% - Smooth-Musc
+      15.6% - Skeletal-Musc
+      15.4% - Heart-Fibro
+      15.1% - Adipocytes ✓ (not in top 4)
+
+11. Confidence: 23.2% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GCA CAG AGA GAA AAA AAA AAA AAT ATC TCG CGC GCT CTT TTG TGA GAA AAC ACC CCC CCC CCG CGG GGA GAG AGG GGC GCA CAG AGA GAG AGG GGT GTG TGG GGC GCA CAG AGT GTG TGA GAG AGC GCC CCA CAA AAG AGA GAT ATT TTG TGT GTG TGA GAC ACA CAC ACT CTG TGC GCA CAC ACT CTC TCT CTA TAG AGC GCC CCT CTT TTG TGG GGC GCA CAA AAC ACA CAG AGA GAG AGC GCG CGA GAG AGA GAC ACT CTC TCC CCG CGT GTC TCT CTC TCA CAA AAA AAA AAG AGA GAA AAA AAA AAA AAA AAA AAA AAA AAC ACC CCC CCA CAA AAA AAA AAG AGA GAA AAA AAA AAA AAG AGA GAA AAA AAA AAT ATA TAT ATA TAT ATT TTC TCT CTC TCC CCA CAG AGT GTT TTA TAA AAT ATC TCT CTT TTA TAT ATC TCT CTA TAT ATA TAA AAA AAA AAA AAG
+      methyl_seq: 22222222202222222222022222222222222222222222222222222222222222222222222222222222202222222022222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 28350
+      ctype: Adipocytes
+    Probability Distribution:
+      23.2% - Heart-Fibro
+      16.6% - Smooth-Musc
+      15.5% - Adipocytes ✓
+      15.4% - Skeletal-Musc
+
+12. Confidence: 23.1% | Predicted: Endothel
+    Read Information:
+      dna_seq: TGC GCA CAT ATA TAA AAA AAT ATA TAT ATC TCT CTT TTC TCT CTT TTT TTT TTG TGA GAG AGA GAA AAG AGT GTG TGT GTC TCT CTG TGT GTT TTC TCA CAT ATA TAT ATC TCC CCT CTT TTT TTG TGC GCC CCC CCA CAC ACT CTT TTT TTT TTT TTG TGA GAT ATG TGG GGG GGG GGT GTT TTG TGT GTT TTT TTG TGT GTT TTT TTT TTT TTT TTT TTC TCT CTT TTG TGT GTA TAA AAA AAT ATT TTT TTG TGT GTT TTT TTG TGA GAG AGT GTT TTC TCA CAT ATT TTG TGT GTA TAG AGA GAT ATT TTC TCT CTG TGG GGA GAT ATA TAT ATT TTA TAG AGC GCC CCC CCT CTT TTT TTG TGT GTC TCA CAG AGA GAT ATG TGA GAG AGT GTA TAG AGG GGT GTT TTG TGT GTG TGA GAA AAA AAA AAT ATT TTT TTT TTC TCT CTC TCC CCC CCA CAT ATT TTT TTT TTG TGT GTA TAG AGG GGT GTT TTG TGC
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49230
+      ctype: Adipocytes
+    Probability Distribution:
+      23.1% - Endothel
+      16.0% - Colon-Fibro
+      15.9% - Skeletal-Musc
+      15.1% - Adipocytes ✓
+
+13. Confidence: 23.1% | Predicted: Endothel
+    Read Information:
+      dna_seq: TTG TGC GCT CTC TCT CTT TTC TCT CTC TCG CGA GAG AGG GGA GAA AAT ATA TAT ATC TCT CTT TTT TTG TGT GTG TGG GGC GCG CGT GTT TTC TCT CTC TCT CTA TAT ATA TAT ATT TTT TTC TCC CCT CTA TAC ACA CAT ATT TTT TTG TGA GAA AAT ATG TGT GTT TTG TGG GGC GCC CCT CTG TGC GCC CCT CTT TTG TGC GCT CTA TAG AGA GAT ATT TTG TGG GGG GGT GTA TAA AAG AGT GTT TTC TCT CTC TCT CTT TTG TGG GGA GAT ATA TAA AAT ATA TAT ATC TCC CCT CTG TGC GCA CAG AGA GAG AGT GTG TGT GTT TTT TTT TTC TCC CCA CAA AAC ACT CTT TTG TGG GGT GTT TTC TCC CCG CGT GTT TTC TCT CTC TCC CCC CCT CTG TGT GTC TCA CAC ACT CTT TTT TTC TCA CAG AGA GAT ATA TAC ACA CAC ACC CCA CAA AAT ATC TCA CAG AGA GAC ACG CGT GTA TAG AGA GAT ATT TTT TTG TGG GGT
+      methyl_seq: 222222222122222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221222222222222222222222222222222222202222222222
+      dmr_label: 28855
+      ctype: Adipocytes
+    Probability Distribution:
+      23.1% - Endothel
+      15.6% - Heart-Fibro
+      15.6% - Skeletal-Musc
+      15.5% - Smooth-Musc
+      14.9% - Adipocytes ✓ (not in top 4)
+
+14. Confidence: 23.0% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GAG AGA GAG AGC GCT CTA TAA AAG AGC GCG CGA GAA AAA AAG AGG GGA GAG AGA GAA AAA AAC ACC CCG CGC GCT CTT TTA TAC ACA CAA AAA AAA AAT ATC TCA CAT ATC TCA CAG AGA GAT ATC TCT CTC TCA CAT ATG TGA GAG AGA GAC ACT CTT TTA TAT ATT TTC TCA CAC ACT CTA TAC ACT CTT TTG TGA GAG AGA GAA AAT ATA TAG AGT GTA TAT ATG TGG GGG GGG GGG GGA GAA AAA AAC ACC CCA CAC ACC CCT CTC TCC CCA CAT ATG TGA GAT ATT TTC TCA CAA AAT ATT TTA TAT ATC TCT CTC TCC CCC CCA CAC ACT CTG TGG GGG GGT GTC TCC CCC CCT CTC TCC CCT CTA TAC ACA CAA AAT ATA TAT ATG TGT GTG TGG GGG
+      methyl_seq: 222222222022222222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 28386
+      ctype: Adipocytes
+    Probability Distribution:
+      23.0% - Heart-Fibro
+      16.4% - Smooth-Musc
+      15.7% - Skeletal-Musc
+      15.4% - Adipocytes ✓
+
+15. Confidence: 22.7% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: TTC TCT CTC TCC CCA CAT ATG TGG GGC GCG CGG GGC GCA CAG AGG GGG GGA GAA AAG AGA GAG AGA GAG AGA GAA AAC ACT CTT TTA TAC ACG CGC GCA CAG AGG GGG GGG GGA GAA AAC ACT CTC TCC CCT CTT TTT TTT TTT TTA TAT ATA TAA AAA AAA AAC ACC CCA CAT ATC TCG CGG GGA GAT ATC TCT CTC TCA CAT ATG TGA GAG AGA GAC ACT CTC TCA CAT ATT TTC TCA CAC ACT CTA TAT ATC TCA CAT ATG TGA GAG AGG GGA GAC ACA CAG AGC GCA CAT ATG TGG GGA GAA AAA AAA AAG AGA GAC ACC CCC CCA CAC ACC CCC CCC CCC CCA CAT ATG TGA GAT ATT TTC TCA CAA AAT ATC TCA CAT ATC TCT CTC TCC CCC CCA
+      methyl_seq: 22222222202222222222222222222202222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 28576
+      ctype: Adipocytes
+    Probability Distribution:
+      22.7% - Heart-Fibro
+      16.2% - Smooth-Musc
+      15.7% - Adipocytes ✓
+      15.6% - Skeletal-Musc
+
+============================================================
+
+TRUE CELL TYPE: Colon-Fibro
+------------------------------------------------------------
+
+ 1. Confidence: 25.0% | Predicted: Endothel
+    Read Information:
+      dna_seq: AAA AAT ATG TGT GTT TTC TCA CAT ATC TCG CGG GGC GCA CAG AGA GAC ACA CAA AAG AGA GAG AGA GAT ATA TAA AAA AAC ACA CAA AAA AAT ATT TTG TGT GTA TAG AGT GTA TAT ATA TAC ACA CAC ACA CAG AGA GAA AAA AAA AAT ATG TGC GCA CAA AAT ATA TAT ATT TTA TAT ATT TTC TCA CAT ATC TCT CTA TAT ATG TGG GGA GAA AAA AAA AAA AAA AAT ATG TGC GCA CAG AGT GTA TAC ACT CTG TGA GAT ATA TAT ATA TAT ATG TGC GCT CTA TAC ACA CAA AAT ATG TGT GTG TGA GAA AAT ATG TGA GAA AAC ACA CAT ATC TCC CCA CAA AAA AAA AAC ACA CAT ATT TTA TAT ATA TAC ACT CTA TAA AAG AGT GTG TGA GAA AAA AAG AGA GAA AAG AGC GCT CTA TAG AGA GAC ACA CAC ACA CAA AAA AAA AAT ATA TAC ACC CCA CAC ACG CGT GTA TAC ACT CTG TGT GTG TGT GTG TGA
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 28527
+      ctype: Colon-Fibro
+    Probability Distribution:
+      25.0% - Endothel
+      15.4% - Colon-Fibro ✓
+      15.3% - Skeletal-Musc
+      15.0% - Adipocytes
+
+ 2. Confidence: 24.3% | Predicted: Endothel
+    Read Information:
+      dna_seq: TGT GTC TCT CTC TCT CTG TGC GCA CAC ACG CGT GTG TGA GAG AGA GAT ATG TGG GGG GGT GTT TTT TTC TCC CCT CTG TGA GAA AAT ATA TAC ACA CAG AGC GCA CAC ACA CAC ACT CTG TGA GAT ATG TGG GGG GGT GTC TCT CTT TTG TGA GAC ACT CTC TCT CTT TTT TTA TAT ATC TCC CCA CAA AAT ATT TTT TTG TGC GCC CCA CAG AGT GTC TCT CTG TGT GTG TGT GTC TCT CTT TTT TTT TTA TAA AAT ATT TTG TGG GGA GAG AGC GCA CAT ATT TTT TTA TAG AGC GCC CCC CCA CAT ATT TTT TTA TAC ACA CAT ATT TTT TTA TAA AAA AAG AGT GTT TTA TAA AAT ATA TAT ATT TTG TGT GTT TTA TAT ATG TGT GTG TGT GTG TGA GAA AAT ATT TTT TTG TGA GAT ATC TCC CCT CTG TGT GTC TCA CAT ATT TTA TAT ATG TGA GAT ATG TGT GTT TTA TAG AGC GCT CTG TGG GGT GTT TTG TGT GTT TTT TTT TTG TGC GCT CTC TCG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 48988
+      ctype: Colon-Fibro
+    Probability Distribution:
+      24.3% - Endothel
+      16.2% - Skeletal-Musc
+      15.3% - Adipocytes
+      15.3% - Colon-Fibro ✓
+
+ 3. Confidence: 23.9% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: AAA AAA AAA AAA AAG AGG GGC GCA CAC ACG CGG GGG GGT GTT TTG TGC GCA CAA AAG AGC GCC CCT CTA TAG AGT GTC TCT CTC TCT CTG TGA GAT ATA TAA AAA AAA AAC ACA CAG AGA GAT ATT TTT TTT TTA TAA AAA AAC ACC CCA CAA AAC ACA CAA AAA AAG AGA GAT ATC TCA CAA AAA AAA AAG AGA GAG AGA GAC ACA CAA AAT ATG TGA GAA AAG AGG GGC GCC CCA CAT ATT TTA TAC ACA CAT ATA TAA AAT ATG TGG GGT GTA TAA AAA AAG AGG GGG GGA GAT ATC TCA CAA AAT ATT TTA TAA AAA AAC ACA CAA AAG AGA GAA AAG AGA GAG AGC GCT CTA TAA AAC ACT CTA TAT ATC TCC CCT CTA TAA
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49159
+      ctype: Colon-Fibro
+    Probability Distribution:
+      23.9% - Skeletal-Musc
+      16.8% - Endothel
+      15.1% - Smooth-Musc
+      14.9% - Heart-Fibro
+      14.8% - Colon-Fibro ✓ (not in top 4)
+
+ 4. Confidence: 23.0% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: AAT ATG TGC GCA CAG AGT GTA TAG AGC GCG CGT GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACC CCG CGC GCA CAA AAC ACC CCT CTC TCT CTA TAC ACC CCT CTC TCC CCC CCC CCG CGG GGT GTT TTC TCA CAA AAG AGT GTG TGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCG CGC GCA CAG AGC GCC CCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGC GCT CTG TGA GAT ATT TTT TTA TAT ATA TAG AGG GGC GCA CAT ATG TGC GCG CGC GCC CCA CAC ACC CCA CAA AAA AAC ACC CCT CTG TGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATA TAT ATT TTT TTA TAG AGT GTG TGG GGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCG CGC GCC CCA CAT ATG TGT GTA TAG AGG GGC GCC CCA CAG AGC GCC CCT CTG TGG GGT GTC TCT CTT TTG TGA GAA AAC ACT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCA CAG AGG GGT GTG TGA GAT ATC TCT CTG TGC GCC CCC CCA CAC ACA CAT ATC TCA CAG AGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGA GAG AGT GTG TGA GAG AGC GCC CCA CAC ACT CTG TGC GCG CGC GCC CCC CCA CAG AGC GCC CCA CAA AAG
+      methyl_seq: 2222222221222222212222222122222222222222221222222222222222222220222222222222222222222222222222221222222222222222222222222222222222222222122222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 45714
+      ctype: Colon-Fibro
+    Probability Distribution:
+      23.0% - Skeletal-Musc
+      16.0% - Smooth-Musc
+      15.6% - Colon-Fibro ✓
+      15.5% - Heart-Fibro
+
+ 5. Confidence: 22.8% | Predicted: Endothel
+    Read Information:
+      dna_seq: GTG TGG GGG GGC GCA CAT ATT TTT TTC TCG CGT GTG TGC GCT CTA TAT ATA TAA AAA AAT ATT TTT TTC TCC CCC CCT CTC TCT CTA TAC ACA CAC ACA CAC ACT CTG TGC GCT CTT TTT TTG TGA GAA AAT ATG TGT GTG TGT GTC TCC CCC CCA CAG AGA GAG AGA GAT ATT TTC TCT CTG TGG GGT GTA TAT ATG TGT GTT TTG TGT GTG TGT GTC TCT CTT TTT TTG TGT GTT TTC TCT CTC TCG CGT GTT TTG TGG GGT GTT TTT TTC TCA CAA AAA AAG AGA GAA AAC ACA CAT ATC TCT CTT TTT TTA TAT ATT TTT TTC TCT CTG TGC GCC CCT CTT TTC TCA CAT ATT TTT TTC TCC CCT CTT TTA TAT ATG TGT GTA TAC ACC CCC CCA CAG AGT GTA TAG AGT GTC TCA CAT ATT TTC TCA CAG AGG GGA GAG AGC GCA CAG AGG GGT GTT TTG TGT GTT TTC TCA CAG AGT GTT TTT TTC TCC CCA CAT ATG TGT GTA TAG AGT GTT TTG TGA GAG AGT GTG TGG GGT GTT TTT TTT TTG TGA GAG AGT GTG TGA GAG
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49234
+      ctype: Colon-Fibro
+    Probability Distribution:
+      22.8% - Endothel
+      16.3% - Colon-Fibro ✓
+      15.8% - Adipocytes
+      15.4% - Skeletal-Musc
+
+ 6. Confidence: 21.5% | Predicted: Endothel
+    Read Information:
+      dna_seq: CCT CTG TGT GTT TTG TGT GTG TGT GTG TGC GCA CAG AGC GCC CCT CTA TAG AGG GGG GGA GAC ACT CTT TTG TGG GGT GTG TGC GCC CCC CCT CTG TGC GCA CAT ATC TCC CCC CCA CAG AGT GTT TTG TGC GCT CTC TCT CTA TAG AGC GCA CAA AAT ATG TGG GGC GCT CTA TAA AAA AAG AGG GGG GGG GGC GCC CCA CAA AAG AGG GGT GTA TAC ACA CAG AGC GCT CTT TTG TGG GGG GGC GCC CCA CAT ATG TGG GGC GCT CTT TTC TCA CAG AGA GAG AGG GGG GGT GTG TGG GGA GAA AAG AGC GCC CCC CCC CCA CAA AAG AGT GTC TCT CTT TTG TGG GGC GCA CAG AGC GCT CTT TTC TCC CCA CAC ACA CAT ATG TGG GGT GTT TTG TGA GAG AGC GCC CCT CTG TGC GCA CAG AGG GGT GTG TGC GCA CAT ATA TAG AGA GAA AAG AGT GTC TCA CAC ACA CAA AAG AGA GAA AAT ATT TTG TGA GAG AGG GGT GTT TTT TTG TGG GGG GGA GAA AAC ACC CCT CTC TCC CCT CTC TCC CCT CTA TAG AGA GAT ATT TTT TTC TCA CAG AGA GAG AGG GGA GAT ATG TGT GTA TAA AAG AGG GGA GAA AAA AAT ATG TGC GCC CCT CTG TGG GGA GAT ATG TGT GTC TCC CCA CAG AGG GGC GCA CAA AAA AAC ACG CGT GTT TTT TTG TGC GCT CTG TGC GCA CAG
+      methyl_seq: 222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 48682
+      ctype: Colon-Fibro
+    Probability Distribution:
+      21.5% - Endothel
+      16.2% - Colon-Fibro ✓
+      15.9% - Heart-Fibro
+      15.6% - Adipocytes
+
+ 7. Confidence: 21.5% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: TCC CCC CCT CTT TTA TAG AGA GAA AAT ATT TTG TGG GGG GGC GCA CAG AGC GCC CCA CAA AAG AGT GTC TCC CCC CCT CTC TCC CCC CCT CTT TTC TCT CTG TGG GGG GGA GAT ATC TCA CAG AGT GTA TAA AAT ATC TCT CTG TGG GGA GAT ATT TTT TTC TCC CCA CAT ATT TTA TAG AGC GCT CTG TGG GGG GGT GTT TTG TGG GGT GTG TGT GTT TTC TCC CCT CTT TTA TAA AAT ATC TCT CTG TGA GAA AAA AAT ATT TTC TCC CCT CTG TGA GAC ACT CTA TAA AAA AAA AAC ACA CAC ACC CCA CAG AGG GGT GTC TCT CTT TTG TGG GGA GAC ACA CAA AAT ATT TTT TTC TCC CCC CCA CAA AAA AAT ATG TGT GTA TAG AGT GTA TAG AGA GAA AAG AGA GAT ATG TGA GAA AAT ATT TTC TCC CCC CCT CTT TTC TCT CTC TCC CCT CTT TTC TCT CTA TAT ATG TGC GCA CAT ATC TCT CTA TAT ATT TTC TCA CAT ATC TCT CTT TTC TCT CTA TAT ATG TGC GCA CAA AAC ACC CCA CAG AGG GGA GAC ACC CCT CTT TTT TTC TCG CGT GTA TAT ATC TCT CTC TCT CTT TTC TCT
+      methyl_seq: 222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 29005
+      ctype: Colon-Fibro
+    Probability Distribution:
+      21.5% - Heart-Fibro
+      17.0% - Smooth-Musc
+      15.5% - Skeletal-Musc
+      15.5% - Adipocytes
+      15.2% - Colon-Fibro ✓ (not in top 4)
+
+ 8. Confidence: 21.5% | Predicted: Endothel
+    Read Information:
+      dna_seq: AGG GGC GCA CAG AGC GCA CAC ACT CTC TCG CGG GGG GGC GCT CTG TGG GGC GCC CCG CGG GGC GCC CCC CCA CAG AGC GCA CAG AGG
+      methyl_seq: 22222222212222222212222222222
+      dmr_label: 45529
+      ctype: Colon-Fibro
+    Probability Distribution:
+      21.5% - Endothel
+      16.4% - Adipocytes
+      16.4% - Colon-Fibro ✓
+      15.4% - Skeletal-Musc
+
+ 9. Confidence: 21.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: AGG GGA GAA AAG AGG GGG GGA GAG AGC GCG CGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAC ACG
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 17254
+      ctype: Colon-Fibro
+    Probability Distribution:
+      21.2% - Endothel
+      16.7% - Adipocytes
+      15.8% - Smooth-Musc
+      15.5% - Heart-Fibro
+      15.5% - Colon-Fibro ✓ (not in top 4)
+
+10. Confidence: 21.1% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: CAG AGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAA AAC ACA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATG TGG GGC GCA CAT ATG TGA GAA AAC ACC CCC CCA CAG AGG GGA GAG AGG GGC GCG CGG GGA GAG AGC GCT CTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCA CAA AAG AGA GAT ATC TCA CAT ATG TGC GCT CTA TAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGT GTG TGA GAC ACA CAG AGA GAG AGT GTG TGA GAG AGA GAC ACT CTC
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222222222222222202222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 28815
+      ctype: Colon-Fibro
+    Probability Distribution:
+      21.1% - Heart-Fibro
+      16.5% - Smooth-Musc
+      15.9% - Skeletal-Musc
+      15.8% - Adipocytes
+      15.6% - Colon-Fibro ✓ (not in top 4)
+
+11. Confidence: 21.1% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: TGC GCA CAA AAA AAT ATT TTG TGA GAC ACG CGC GCA CAG AGC GCA CAA AAA AAT ATT TTC TCT CTC TCA CAG AGC GCA CAA AAG AGG GGT GTT TTG TGA GAA AAA AAT ATT TTC TCA CAC ACA CAA AAC ACA CAA AAG AGC GCT CTA TAC ACT CTT TTT TTC TCT CTT TTT TTT TTC TCA CAA AAA AAA AAG AGA GAA AAA AAT ATT TTC TCA CAA AAA AAG AGC GCA CAA AAG AGC GCT CTA TAC ACT CTC TCT CTA TAG AGC GCG CGT GTT TTT TTC TCA CAG AGG GGT GTG TGG GGG GGC GCC CCA CAG AGT GTT TTC TCT CTT TTT TTA TAT ATG TGA GAG AGT GTT TTC TCT CTA TAA AAA AAT ATA TAC ACT CTA TAC ACG CGT GTT TTC TCT CTT TTC TCT CTT TTT TTT TTT TTG TGT GTT TTG TGA GAA AAC ACT CTG TGA GAA AAA AAT ATC TCT CTG TGT GTC TCT CTT TTA TAC ACA CAA AAC ACT CTA TAT ATT TTT TTT TTT TTT TTT TTT TTT TTC TCC CCA CAA AAT ATA TAG AGA GAT ATT TTC TCC CCA CAG AGA GAT ATC TCC CCT CTT TTC TCC CCC CCA CAT ATT TTG TGA GAG AGC GCA CAA AAC
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222220222222222222222222222222222222222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49136
+      ctype: Colon-Fibro
+    Probability Distribution:
+      21.1% - Skeletal-Musc
+      17.4% - Colon-Fibro ✓
+      15.8% - Endothel
+      15.7% - Smooth-Musc
+
+12. Confidence: 21.0% | Predicted: Endothel
+    Read Information:
+      dna_seq: GTG TGC GCA CAC ACG CGC GCA CAC ACC CCC CCT CTT TTG TGG GGT GTG TGG GGA GAG AGT GTC TCG CGA GAG AGA GAG AGC GCA CAT ATG TGA GAA
+      methyl_seq: 22221222222222222222212222222222
+      dmr_label: 143
+      ctype: Colon-Fibro
+    Probability Distribution:
+      21.0% - Endothel
+      16.7% - Colon-Fibro ✓
+      16.4% - Adipocytes
+      15.5% - Skeletal-Musc
+
+13. Confidence: 21.0% | Predicted: Endothel
+    Read Information:
+      dna_seq: AGA GAG AGA GAT ATG TGA GAG AGG GGC GCG CGG GGG GGG GGC GCG CGT GTG TGT GTG TGC GCA CAT ATC TCA CAA
+      methyl_seq: 2222222221222212222222222
+      dmr_label: 749
+      ctype: Colon-Fibro
+    Probability Distribution:
+      21.0% - Endothel
+      16.9% - Colon-Fibro ✓
+      16.6% - Adipocytes
+      16.0% - Skeletal-Musc
+
+14. Confidence: 21.0% | Predicted: Endothel
+    Read Information:
+      dna_seq: TCT CTC TCC CCT CTA TAC ACA CAT ATC TCG CGG GGC GCA CAG AGG GGG GGC GCC CCC CCT CTC TCG CGG GGA GAC ACC CCC CCT CTC
+      methyl_seq: 22222222212222222222212222222
+      dmr_label: 29063
+      ctype: Colon-Fibro
+    Probability Distribution:
+      21.0% - Endothel
+      16.9% - Colon-Fibro ✓
+      16.2% - Skeletal-Musc
+      16.2% - Adipocytes
+
+15. Confidence: 21.0% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GGC GCG CGC GCT CTC TCA CAA AAT ATG TGA GAA AAG AGT GTC TCA CAA AAG AGC GCA CAA AAT ATC TCG CGT GTC TCC CCA CAA AAA AAG AGT GTG TGA GAA AAA AAT ATA TAT ATT TTG TGA GAA AAT ATT TTG TGA GAA AAA AAT ATG TGA GAA AAC ACC CCT CTG TGC GCT CTG TGT GTT TTT TTC TCT CTG TGC GCA CAA AAG AGA GAA AAG AGA GAT ATG TGT GTT TTT TTT TTT TTG TGG GGG GGC GCT CTA TAA AAG AGG GGC GCA CAG AGT GTT TTT TTC TCA CAA AAG AGA GAT ATG TGC GCA CAA AAT ATC TCC CCA CAA AAC ACC CCA CAA AAA AAA AAC ACA CAT ATC TCC CCG CGT GTG TGA GAA AAA AAC ACC CCA CAG AGA
+      methyl_seq: 202222222222222222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 28439
+      ctype: Colon-Fibro
+    Probability Distribution:
+      21.0% - Heart-Fibro
+      16.5% - Skeletal-Musc
+      16.3% - Smooth-Musc
+      15.8% - Adipocytes
+      15.1% - Colon-Fibro ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Endothel
+------------------------------------------------------------
+
+ 1. Confidence: 29.5% | Predicted: Endothel
+    Read Information:
+      dna_seq: AAG AGT GTC TCA CAC ACT CTA TAA AAG AGG GGA GAC ACT CTT TTG TGC GCT CTT TTT TTA TAT ATG TGA GAA AAT ATC TCT CTG TGG GGG GGT GTG TGC GCT CTC TCC CCT CTG TGT GTA TAT ATT TTG TGG GGG GGT GTG TGC GCA CAT ATA TAT ATA TAT ATA TAT ATT TTT TTA TAG AGG GGA GAT ATA TAG AGT GTT TTA TAG AGT GTT TTC TCT CTT TTC TCT CTT TTG TGT GTT TTG TGA GAA AAT ATT TTG TGA GAT ATC TCC CCC CCT CTT TTT TTA TAC ACC CCA CAT ATT TTA TAT ATG TGT GTA TAA AAT ATG TGG GGC GCC CCT CTT TTC TCT CTT TTT TTG TGT GTC TCT CTC TCT CTT TTT TTT TTG TGA GAT ATC TCT CTT TTT TTG TGT GTT TTG TGG GGT GTT
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49165
+      ctype: Endothel
+    Probability Distribution:
+      29.5% - Endothel ✓
+      14.5% - Smooth-Musc
+      14.2% - Heart-Fibro
+      14.0% - Colon-Fibro
+
+ 2. Confidence: 29.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTG TGC GCA CAC ACC CCA CAA AAG AGC GCG CGG GGA GAC ACC CCT CTA TAA AAT ATA TAG AGA GAC ACA CAT ATC TCT CTA TAC ACA CAG AGA GAA AAC ACT CTC TCT CTC TCC CCA CAC ACC CCC CCC CCA CAA AAA AAT ATC TCA CAA AAC ACA CAG AGA GAA AAT ATA TAT ATA TAC ACA CAT ATT TTT TTT TTT TTT TTT TTC TCA CAG AGC GCA CAC ACC CCA CAC ACA CAC ACC CCA CAC ACA CAC ACC CCT CTA TAT ATT TTC TCC CCA CAA AAA AAA AAT ATT TTG TGA GAC ACC CCA CAC ACA CAT ATA TAC ACT CTT TTG TGG GGA GAA AAG AGT GTA TAA AAA AAG AGC GCT CTC TCT CTC TCC CCT CTC TCA CAG AGC GCA CAA AAA AAT ATG TGT GTA TAA AAA AAA AAG AGA GAA AAC ACA CAC ACA CAA AAA AAT ATT TTA TAT ATA TAA AAC ACA CAA AAA AAC ACT CTA TAT ATC TCT CTC TCT CTC TCA CAG AGA GAC ACC CCA CAC ACA CAG AGT GTG TGC GCA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49193
+      ctype: Endothel
+    Probability Distribution:
+      29.2% - Endothel ✓
+      14.7% - Smooth-Musc
+      14.3% - Skeletal-Musc
+      14.1% - Adipocytes
+
+ 3. Confidence: 28.6% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTG TGC GCA CAC ACC CCA CAA AAG AGC GCG CGG GGA GAC ACC CCT CTA TAA AAT ATA TAG AGA GAC ACA CAT ATC TCT CTA TAC ACA CAG AGA GAA AAC ACT CTC TCT CTC TCC CCA CAC ACC CCC CCC CCA CAA AAA AAT ATC TCA CAA AAC ACA CAG AGA GAA AAT ATA TAT ATA TAC ACA CAT ATT TTT TTT TTT TTT TTT TTC TCA CAG AGC GCA CAC ACC CCA CAC ACA CAC ACC CCA CAC ACA CAC ACC CCT CTA TAT ATT TTC TCC CCA CAA AAA AAA AAT ATT TTG TGA GAC ACC CCA CAC ACA CAT ATA TAC ACT CTT TTG TGG GGA GAA AAG AGT GTA TAA AAA AAG AGC GCT CTC TCT CTC TCC CCT CTC TCA CAG AGC GCA CAA AAA AAT ATG TGT GTA TAA AAA AAA AAG AGA GAA AAC ACA CAC ACA CAA AAA AAT ATT TTA TAT ATA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49193
+      ctype: Endothel
+    Probability Distribution:
+      28.6% - Endothel ✓
+      14.9% - Smooth-Musc
+      14.4% - Skeletal-Musc
+      14.2% - Adipocytes
+
+ 4. Confidence: 28.5% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTG TGC GCA CAC ACC CCA CAA AAG AGC GCG CGG GGA GAC ACC CCT CTA TAA AAT ATA TAG AGA GAC ACA CAT ATC TCT CTA TAC ACA CAG AGA GAA AAC ACT CTC TCT CTC TCC CCA CAC ACC CCC CCC CCA CAA AAA AAT ATC TCA CAA AAC ACA CAG AGA GAA AAT ATA TAT ATA TAC ACA CAT ATT TTT TTT TTT TTT TTT TTC TCA CAG AGC GCA CAC ACC CCA CAC ACA CAC ACC CCA CAC ACA CAC ACC CCT CTA TAT ATT TTC TCC CCA CAA AAA AAA AAT ATT TTG TGA GAC ACC CCA CAC ACA CAT ATA TAC ACT CTT TTG TGG GGA GAA AAG AGT GTA TAA AAA AAG AGC GCT CTC TCT CTC TCC CCT CTC TCA CAG AGC GCA CAA AAA AAT ATG TGT GTA TAA AAA AAA AAG AGA GAA AAC ACA CAC ACA CAA AAA AAT ATT TTA TAT ATA TAA AAC ACA CAA AAA AAC ACT CTA TAT ATC TCT CTC
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49193
+      ctype: Endothel
+    Probability Distribution:
+      28.5% - Endothel ✓
+      15.0% - Smooth-Musc
+      14.3% - Skeletal-Musc
+      14.2% - Adipocytes
+
+ 5. Confidence: 28.4% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTG TGC GCA CAC ACC CCA CAA AAG AGC GCG CGG GGA GAC ACC CCT CTA TAA AAT ATA TAG AGA GAC ACA CAT ATC TCT CTA TAC ACA CAG AGA GAA AAC ACT CTC TCT CTC TCC CCA CAC ACC CCC CCC CCA CAA AAA AAT ATC TCA CAA AAC ACA CAG AGA GAA AAT ATA TAT ATA TAC ACA CAT ATT TTT TTT TTT TTT TTT TTC TCA CAG AGC GCA CAC ACC CCA CAC ACA CAC ACC CCA CAC ACA CAC ACC CCT CTA TAT ATT TTC TCC CCA CAA AAA AAA AAT ATT TTG TGA GAC ACC CCA CAC ACA CAT ATA TAC ACT CTT TTG TGG GGA GAA AAG AGT GTA TAA AAA AAG AGC GCT CTC TCT CTC TCC CCT CTC TCA CAG AGC GCA CAA AAA AAT ATG TGT GTA TAA AAA AAA AAG AGA GAA AAC ACA CAC ACA CAA AAA AAT ATT TTA TAT ATA TAA AAC ACA CAA AAA AAC ACT CTA TAT
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49193
+      ctype: Endothel
+    Probability Distribution:
+      28.4% - Endothel ✓
+      15.0% - Smooth-Musc
+      14.4% - Skeletal-Musc
+      14.2% - Adipocytes
+
+ 6. Confidence: 27.9% | Predicted: Endothel
+    Read Information:
+      dna_seq: GAG AGA GAG AGG GGA GAG AGG GGA GAC ACG CGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAT ATG TGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGT GTG TGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGT GTG TGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGA GAG AGA GAG AGA GAG AGT GTA TAG AGG GGA GAG AGG GGA
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 17254
+      ctype: Endothel
+    Probability Distribution:
+      27.9% - Endothel ✓
+      14.7% - Adipocytes
+      14.7% - Colon-Fibro
+      14.5% - Skeletal-Musc
+
+ 7. Confidence: 27.7% | Predicted: Endothel
+    Read Information:
+      dna_seq: GAG AGA GAG AGG GGA GAG AGG GGA GAC ACG CGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAT ATG TGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGT GTG TGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGT GTG TGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGA GAG AGA GAG AGA GAG AGT GTA TAG AGG GGA GAG AGG GGA GAA AAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGG GGA GAG AGG GGA GAG AGG GGA GAA AAG AGG GGG GGA GAG AGA GAG AGA GAC ACG CGA GAG AGG GGA GAG AGG GGA GAA AAG AGG
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 17254
+      ctype: Endothel
+    Probability Distribution:
+      27.7% - Endothel ✓
+      14.9% - Adipocytes
+      14.7% - Colon-Fibro
+      14.5% - Skeletal-Musc
+
+ 8. Confidence: 27.5% | Predicted: Endothel
+    Read Information:
+      dna_seq: CCT CTT TTA TAC ACC CCA CAA AAT ATT TTT TTG TGG GGA GAT ATA TAC ACC CCC CCT CTT TTT TTA TAT ATT TTT TTC TCT CTT TTT TTC TCT CTC TCC CCT CTG TGT GTC TCT CTG TGA GAT ATT TTG TGC GCT CTC TCT CTG TGA GAC ACT CTA TAG AGG GGA GAC ACT CTT TTC TCC CCA CAG AGT GTA TAC ACT CTA TAT ATG TGT GTT TTG TGA GAA AAG AGA GAG AGC GCA CAG AGT GTG TGG GGT GTG TGA GAG AGA GAG AGT GTG TGA GAG AGC GCA CAT ATC TCC CCT CTT TTG TGT GTC TCT CTT TTG TGT GTT TTC TCC CCC CCA CAT ATT TTT TTT TTC TCA CAG AGA GAG AGG GGG GGA GAA AAT ATG TGC GCT CTT TTT TTC TCA CAA AAC ACT CTT TTT TTT TTC TCC CCC CCA CAT ATT TTC TCA
+      methyl_seq: 222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49091
+      ctype: Endothel
+    Probability Distribution:
+      27.5% - Endothel ✓
+      14.9% - Colon-Fibro
+      14.6% - Smooth-Musc
+      14.4% - Adipocytes
+
+ 9. Confidence: 27.3% | Predicted: Endothel
+    Read Information:
+      dna_seq: TAG AGG GGT GTC TCC CCC CCT CTT TTT TTG TGT GTC TCA CAG AGA GAT ATG TGA GAG AGT GTA TAG AGA GAT ATT TTG TGC GCA CAA AAA AAA AAA AAT ATT TTT TTT TTC TCT CTC TCC CCC CCA CAT ATT TTC TCT CTG TGT GTA TAG AGG GGT GTT TTG TGC GCC CCT CTG TGT GTT TTC TCA CAC ACT CTC TCT CTA TAA AAT ATG TGG GGT GTA TAG AGT GTT TTT TTC TCT CTT TTT TTT TTG TGC GCT CTG TGT GTG TGC GCA CAG AGA GAA AAG AGC GCT CTC TCT CTT TTT TTA TAG AGT GTT TTT TTA TAA AAT ATT TTA TAG AGA GAT ATC TCC CCC CCA CAT ATT TTT TTG TGT GTC TCA CAA AAT ATT TTT TTT TTG TGG GGC GCT CTT TTT TTT TTG TGT GTT TTG TGC GCC CCA CAT ATT TTG TGC GCT CTT TTT TTT TTG TGG GGT GTG TGA GAT ATT TTT TTA TAG AGA GAC ACA CAT ATG TGA GAA AAG AGT GTC TCC CCT CTT TTG TGC GCC CCC CCA CAT ATG TGC GCC CCT CTA TAT ATG TGT GTC
+      methyl_seq: 222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49059
+      ctype: Endothel
+    Probability Distribution:
+      27.3% - Endothel ✓
+      14.8% - Smooth-Musc
+      14.7% - Skeletal-Musc
+      14.6% - Colon-Fibro
+
+10. Confidence: 27.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: GTG TGT GTG TGT GTG TGT GTG TGT GTC TCG CGA GAG AGG GGA GAA AAT ATT TTT TTA TAT ATC TCC CCA CAT ATT TTT TTC TCT CTT TTC TCT CTA TAG AGA GAT ATT TTT TTT TTC TCT CTA TAG AGT GTT TTT TTA TAT ATT TTT TTG TGT GTG TGT GTA TAG AGA GAG AGG GGT GTG TGT GTT TTT TTG TGT GTA TAG AGT GTA TAA AAT ATC TCT CTC TCT CTG TGA GAT ATG TGG GGT GTA TAG AGT GTT TTT TTG TGT GTA TAT ATT TTT TTC TCT CTG TGT GTG TGG GGG GGA GAT ATC TCG CGG GGT GTG TGG GGT GTG TGA GAT ATA TAT ATC TCC CCC CCC CCT CTT TTT TTA TAT ATC TCA CAT ATT TTT TTT TTT TTT TTA TAT ATT TTG TGC GCA CAT ATC TCT CTA TAT ATT TTT TTG TGA GAT ATT TTC TCT CTT TTC TCT CTC TCT CTC TCT CTT TTT TTT TTT TTT TTT TTC TCT CTT TTT TTA TAT ATT TTA TAG AGT GTC TCT CTT TTG TGC GCT CTA TAG AGC GCG CGG GGT GTC TCT CTA TAT ATC TCA CAA AAT ATT TTT TTT TTG TGT GTT TTG TGA GAT ATC TCC CCT CTT TTT TTC
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222122222222222222222222222222222222222222222222222222222222222222222222222222222212222222222222222222222222
+      dmr_label: 49234
+      ctype: Endothel
+    Probability Distribution:
+      27.2% - Endothel ✓
+      15.2% - Skeletal-Musc
+      14.7% - Colon-Fibro
+      14.6% - Adipocytes
+
+11. Confidence: 27.0% | Predicted: Endothel
+    Read Information:
+      dna_seq: GAC ACA CAT ATG TGA GAA AAG AGT GTC TCC CCT CTT TTG TGC GCC CCC CCA CAT ATG TGC GCC CCT CTA TAT ATG TGT GTC TCC CCT CTG TGA GAA AAT ATG TGG GGT GTA TAT ATT TTG TGC GCT CTG TGA GAG AGG GGT GTT TTT TTT TTC TCT CTT TTC TCT CTA TAG AGG GGG GGT GTT TTT TTT TTT TTA TAT ATA TAG AGT GTT TTT TTT TTA TAG AGG GGT GTC TCT CTA TAA AAC ACA CAT ATT TTT TTA TAA AAG AGT GTC TCT CTT TTT TTA TAA AAT ATC TCC CCA CAT ATC TCT CTT TTG TGA GAA AAT ATT TTA TAA AAT ATG TGT GTT TTA TAG AGT GTA TAT ATA TAA AAG AGG GGG GGG GGT GTA TAA AAG AGG GGA GAA AAG AGG GGG GGA GAT ATC TCC CCA CAG AGT GTT TTT TTC TCA CAG AGT GTT TTT TTT TTC TCT CTT TTC TCA CAT ATA TAT ATG TGG GGG GGT GTA TAG AGC GCC CCA CAG AGT GTT TTT TTT TTC TCC CCC CCA CAG AGC GCA CAC ACC CCA CAT ATT TTT TTA TAT ATT TTA TAA AAA AAT ATA TAG AGG GGG GGA GAA AAT ATC TCC CCT CTT TTT TTC TCC CCC CCC CCA CAT ATT TTT TTC TCT CTC TCG
+      methyl_seq: 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 49059
+      ctype: Endothel
+    Probability Distribution:
+      27.0% - Endothel ✓
+      14.9% - Colon-Fibro
+      14.7% - Skeletal-Musc
+      14.6% - Adipocytes
+
+12. Confidence: 26.9% | Predicted: Endothel
+    Read Information:
+      dna_seq: GTG TGT GTG TGT GTG TGT GTG TGT GTC TCG CGA GAG AGG GGA GAA AAT ATT TTT TTA TAT ATC TCC CCA CAT ATT TTT TTC TCT CTT TTC TCT CTA TAG AGA GAT ATT TTT TTT TTC TCT CTA TAG AGT GTT TTT TTA TAT ATT TTT TTG TGT GTG TGT GTA TAG AGA GAG AGG GGT GTG TGT GTT TTT TTG TGT GTA TAG AGT GTA TAA AAT ATC TCT CTC TCT CTG TGA GAT ATG TGG GGT GTA TAG AGT GTT TTT TTG TGT GTA TAT ATT TTT TTC TCT CTG TGT GTG TGG GGG GGA GAT ATC TCG CGG GGT GTG TGG GGT GTG TGA GAT ATA TAT ATC TCC CCC CCC CCT CTT TTT TTA TAT ATC TCA CAT ATT TTT TTT TTT TTT TTA TAT ATT TTG TGC GCA CAT ATC TCT CTA TAT ATT TTT TTG TGA GAT ATT TTC TCT CTT TTC TCT CTC TCT CTC TCT CTT TTT TTT TTT TTT TTT TTC TCT CTT TTT TTA TAT ATT TTA TAG AGT GTC TCT CTT TTG TGC GCT CTA TAG AGC GCG CGG GGT GTC TCT CTA TAT ATC TCA CAA AAT ATT TTT TTT TTG TGT GTT TTG TGA GAT ATC TCC CCT CTT TTT TTC
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222122222222222222222222222222222222222222222222222222222222222222222222222222222202222222222222222222222222
+      dmr_label: 49234
+      ctype: Endothel
+    Probability Distribution:
+      26.9% - Endothel ✓
+      15.1% - Skeletal-Musc
+      14.6% - Heart-Fibro
+      14.5% - Smooth-Musc
+
+13. Confidence: 26.7% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTA TAT ATT TTA TAG AGG GGT GTC TCC CCG CGC GCT CTT TTG TGG GGT GTG TGC GCA CAG AGA GAG AGC GCT CTG TGA GAG AGT GTT TTC TCA CAA AAT ATT TTC TCC CCT CTG TGG GGA GAT ATA TAT ATC TCC CCT CTT TTA TAT ATT TTA TAA AAC ACT CTT TTT TTC TCT CTG TGT GTC TCT CTC TCA CAT ATT TTG TGA GAT ATC TCT CTG TGT GTC TCT CTA TAA AAT ATG TGT GTT TTG TGA GAC ACA CAG AGT GTG TGG GGG GGA GAT ATG TGT GTT TTA TAA AAA AAG AGT GTC TCT CTC TCC CCC CCA CAT ATT TTA TAT ATT TTA TAT ATT TTG TGT GTG TGT GTG TGG GGG GGA GAG AGT GTC TCT CTA TAA AAG AGT GTC TCT CTC TCT CTT TTT TTG TGT GTA TAA AAG AGT GTC TCA CAC ACT CTA TAA AAG AGG GGA GAC ACT CTT TTG TGC GCT CTT TTT TTA TAT ATG TGA GAA AAT ATC TCT CTG TGG GGG GGT GTG TGC GCT CTC TCC CCT CTG TGT GTA TAT ATT TTG TGG GGG GGT GTG TGC GCA CAT ATA TAT ATA TAT ATA TAT ATT TTT TTA TAG AGG GGA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49165
+      ctype: Endothel
+    Probability Distribution:
+      26.7% - Endothel ✓
+      14.9% - Skeletal-Musc
+      14.8% - Colon-Fibro
+      14.6% - Adipocytes
+
+14. Confidence: 26.6% | Predicted: Endothel
+    Read Information:
+      dna_seq: CAC ACT CTC TCA CAA AAA AAA AAC ACC CCG CGC GCT CTC TCA CAA AAC ACT CTA TAC ACA CAT ATG TGG GGA GAA AAA AAC ACT CTG TGA GAA AAC ACA CAA AAC ACC CCT CTG TGC GCT CTC TCC CCT CTG TGA GAA AAT ATG TGA GAC ACT CTA TAC ACT CTG TGG GGG GGT GTA TAC ACA CAT ATA TAA AAC ACG CGA GAA AAA AAT ATG TGA GAA AAG AGG GGC GCA CAG AGA GAA AAA AAT ATA TAA AAA AAG AGA GAT ATG TGT GTT TTC TCT CTT TTT TTG TGA GAA AAA AAC ACC CCA CAA AAC ACG CGA GAG AGA GAA AAC ACA CAA AAA AAG AGA GAC ACA CAC ACA CAA AAC ACA CAT ATA TAC ACC CCA CAG AGA GAA AAT ATC TCT CTC TCT CTG TGG GGG GGA GAC ACG CGC GCA CAA AAT ATC TCA CAA AAA AAG AGC GCA CAG AGT GTG TGT GTG TGT GTA TAG AGA GAG AGG GGG GGA GAA AAA AAT ATT TTT TTA TAT ATA TAG AGC GCA CAC ACT CTA TAA AAA AAT ATG TGC GCC CCC CCA CAC ACA CAA AAG AGA GAG AGA GAA AAA AAG AGC GCA CAG AGG GGG GGA
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222022222222222222222222222222222222222222122222222222222222222222222222222222122222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49193
+      ctype: Endothel
+    Probability Distribution:
+      26.6% - Endothel ✓
+      15.3% - Skeletal-Musc
+      14.7% - Smooth-Musc
+      14.5% - Adipocytes
+
+15. Confidence: 26.4% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTA TAT ATT TTA TAG AGG GGT GTC TCC CCG CGC GCT CTT TTG TGG GGT GTG TGC GCA CAG AGA GAG AGC GCT CTG TGA GAG AGT GTT TTC TCA CAA AAT ATT TTC TCC CCT CTG TGG GGA GAT ATA TAT ATC TCC CCT CTT TTA TAT ATT TTA TAA AAC ACT CTT TTT TTC TCT CTG TGT GTC TCT CTC TCA CAT ATT TTG TGA GAT ATC TCT CTG TGT GTC TCT CTA TAA AAT ATG TGT GTT TTG TGA GAC ACA CAG AGT GTG TGG GGG GGA GAT ATG TGT GTT TTA TAA AAA AAG AGT GTC TCT CTC TCC CCC CCA CAT ATT TTA TAT ATT TTA TAT ATT TTG TGT GTG TGT GTG TGG GGG GGA GAG AGT GTC TCT CTA TAA AAG AGT GTC TCT CTC TCT CTT TTT TTG TGT GTA TAA
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49165
+      ctype: Endothel
+    Probability Distribution:
+      26.4% - Endothel ✓
+      15.1% - Skeletal-Musc
+      15.0% - Colon-Fibro
+      15.0% - Adipocytes
+
+============================================================
+
+TRUE CELL TYPE: Heart-Fibro
+------------------------------------------------------------
+
+ 1. Confidence: 26.8% | Predicted: Endothel
+    Read Information:
+      dna_seq: ATC TCA CAA AAA AAT ATA TAG AGA GAC ACG CGC GCA CAA AAT ATA TAA AAA AAA AAA AAA AAT ATG TGA GAT ATA TAA AAA AAG AGG GGG GGG GGA GAT ATA TAT ATC TCA CAC ACC CCA CAC ACC CCG CGA GAT ATC TCC CCC CCA CAC ACA CAG AGA GAA AAA AAT ATA TAC ACA CAA AAA AAC ACT CTA TAC ACC CCA CAT ATC TCA CAG AGA GAG AGA GAA AAT ATA TAC ACT CTA TAC ACA CAA AAA AAC ACA CAC ACC CCT CTC TCT CTA TAC ACA CAC ACA CAA AAA AAT ATA TAA AAA AAC ACT CTA TAG AGA GAA AAA AAA AAT ATC TCT CTA TAA AAA AAA AAG AGA GAA AAA AAT ATG TGG GGA GAT ATA TAA AAA AAT ATT TTC TCC CCT CTC TCG
+      methyl_seq: 2222222221222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 49193
+      ctype: Heart-Fibro
+    Probability Distribution:
+      26.8% - Endothel
+      15.6% - Skeletal-Musc
+      14.6% - Adipocytes
+      14.5% - Smooth-Musc
+      14.1% - Heart-Fibro ✓ (not in top 4)
+
+ 2. Confidence: 26.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: ATC TCA CAA AAA AAT ATA TAG AGA GAC ACG CGC GCA CAA AAT ATA TAA AAA AAA AAA AAA AAT ATG TGA GAT ATA TAA AAA AAG AGG GGG GGG GGA GAT ATA TAT ATC TCA CAC ACC CCA CAC ACC CCG CGA GAT ATC TCC CCC CCA CAC ACA CAG AGA GAA AAA AAT ATA TAC ACA CAA AAA AAC ACT CTA TAC ACC CCA CAT ATC TCA CAG AGA GAG AGA GAA AAT ATA TAC ACT CTA TAC ACA CAA AAA AAC ACA CAC ACC CCT CTC TCT CTA TAC ACA CAC ACA CAA AAA AAT ATA TAA AAA AAC ACT CTA TAG AGA GAA AAA AAA AAT ATC TCT CTA TAA AAA AAA AAG AGA GAA AAA AAT ATG TGG GGA GAT ATA TAA AAA AAT ATT TTC TCC CCT CTC TCG
+      methyl_seq: 2222222220222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 49193
+      ctype: Heart-Fibro
+    Probability Distribution:
+      26.2% - Endothel
+      15.8% - Skeletal-Musc
+      14.7% - Smooth-Musc
+      14.7% - Adipocytes
+      14.2% - Heart-Fibro ✓ (not in top 4)
+
+ 3. Confidence: 25.3% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: CTT TTC TCT CTC TCT CTT TTC TCT CTC TCG CGC GCT CTT TTC TCA CAT ATT TTT TTC TCA CAT ATT TTC TCA CAT ATT TTT TTG TGC GCT CTC TCT CTT TTC TCC CCG CGT GTC TCA CAC ACT CTG TGA GAT ATA TAC ACC CCC CCT CTT TTT TTC TCT CTT TTC TCT CTA TAG AGT GTT TTG TGA GAT ATC TCG CGA GAA AAT ATC TCA CAG AGC GCT CTA TAC ACT CTG TGA GAG AGG GGC GCT CTT TTG TGC GCA CAT ATT TTC TCA CAT ATC TCA CAT ATG TGT GTA TAG AGT GTT TTC TCT CTC TCG
+      methyl_seq: 22222222202222222222222222222222222022222222222222222222222222220222222222222222222222222222222222222220
+      dmr_label: 28855
+      ctype: Heart-Fibro
+    Probability Distribution:
+      25.3% - Heart-Fibro ✓
+      16.2% - Smooth-Musc
+      15.0% - Endothel
+      14.7% - Skeletal-Musc
+
+ 4. Confidence: 25.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: TTG TGA GAA AAA AAC ACC CCA CAA AAC ACG CGA GAG AGA GAA AAC ACA CAA AAA AAG AGA GAC ACA CAC ACA CAA AAC ACA CAT ATA TAC ACC CCA CAG AGA GAA AAT ATC TCT CTC TCT CTG TGG GGG GGA GAT ATG TGC GCA CAC ACT CTC TCA CAA AAA AAG AGC GCA CAG AGT GTG TGT GTG TGT GTA TAG AGA GAG AGG GGG GGA GAA AAA AAT ATT TTT TTA TAT ATA TAG AGC GCA CAC ACT CTA TAA AAA AAT ATG TGC GCC CCC CCT CTC TCA CAA AAG AGA GAG AGA GAA AAA AAG AGC GCA CAG AGG GGA GAA AAA AAG AGA GAT ATC TCT CTA TAA AAA AAA AAT ATT TTG TGA GAC ACA CAC ACC CCC CCT CTA TAA AAC ACA CAT ATC TCA CAC ACA CAA AAT ATT TTA TAA AAA AAA AAG AGA GAA AAC ACT CTA TAG AGA GAA AAA AAA AAG AGC GCA
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49232
+      ctype: Heart-Fibro
+    Probability Distribution:
+      25.2% - Endothel
+      15.5% - Heart-Fibro ✓
+      15.0% - Skeletal-Musc
+      15.0% - Smooth-Musc
+
+ 5. Confidence: 24.6% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: GGG GGC GCA CAG AGG GGC GCC CCT CTC TCG CGT GTG TGG GGT GTG TGA GAC ACA CAA AAA AAA AAT ATC TCT CTC TCT CTC TCA CAG AGC GCA CAT ATT TTT TTG TGC GCT CTT TTG TGT GTC TCT CTG TGT GTA TAA AAA AAG AGT GTA TAT ATT TTT TTT TTA TAT ATT TTT TTC TCT CTC TCC CCT CTT TTC TCA CAC ACT CTT TTA TAT ATG TGA GAA AAG AGC GCT CTT TTA TAG AGT GTT TTT TTG TGG GGC GCT CTG TGG GGA GAT ATA TAT ATG TGA GAA AAA AAT ATT TTC TCT CTG TGG GGG GGT GTT TTG TGA GAA AAA AAA AAT ATT TTC TCT CTT TTT TTC TCC CCT CTT TTT TTA TAA AAG AGA GAA AAT ATG TGT GTT TTG TGA GAA AAT ATA TAT ATT TTG TGG GGC GCC CCC CCC CCC CCA CAC ACT CTC TCT CTC TCT CTT TTC TCT CTG TGG GGC GCT CTT TTG TGT GTA TAG AGA GAG AGT GTT TTT TTC TCT CTG TGC GCT CTG TGA GAG AGA GAG AGA GAT ATC TCC CCA CAC ACT CTG TGT GTT TTA TAG AGT GTC TCT CTG TGA GAT ATG TGG GGG GGC GCT CTT TTC TCC CCC CCT CTT TTT TTG TGT GTG TGG GGG GGT GTA TAA AAC ACC CCC CCA CAA AAC ACT CTT TTT TTT TTC TCT CTC TCT CTC TCT CTG TGT
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49044
+      ctype: Heart-Fibro
+    Probability Distribution:
+      24.6% - Colon-Fibro
+      15.7% - Heart-Fibro ✓
+      15.3% - Skeletal-Musc
+      15.2% - Endothel
+
+ 6. Confidence: 24.5% | Predicted: Endothel
+    Read Information:
+      dna_seq: CAG AGT GTG TGC GCA CAA AAA AAA AAG AGT GTG TGT GTT TTC TCC CCT CTA TAT ATT TTT TTC TCT CTC TCC CCA CAC ACA CAT ATC TCC CCT CTC TCT CTC TCC CCA CAG AGC GCA CAC ACC CCT CTG TGT GTT TTG TGT GTT TTT TTC TCC CCT CTG TGA GAC ACT CTT TTT TTT TTG TGA GAA AAT ATG TGA GAT ATT TTG TGC GCC CCA CAT ATT TTC TCT CTA TAA AAC ACT CTG TGG GGT GTG TGT GTG TGA GAG AGA GAT ATG TGG GGT GTA TAT ATC TCT CTC TCA CAT ATT TTG TGT GTG TGG GGT GTT TTT TTT TTG TGA GAT ATT TTT TTG TGC GCA CAT ATT TTT TTC TCT CTC TCT CTG TGA GAT ATG TGG GGC GCC CCA CAG AGT GTG TGA GAT ATG TGA GAT ATG TGA GAG AGC GCA CAT ATT TTT TTT TTT TTT TTC TCA CAT ATG TGT GTG TGT GTC TCT CTT TTT TTT TTG TGG GGC GCT CTG
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49230
+      ctype: Heart-Fibro
+    Probability Distribution:
+      24.5% - Endothel
+      15.9% - Colon-Fibro
+      15.2% - Skeletal-Musc
+      15.0% - Adipocytes
+      14.4% - Heart-Fibro ✓ (not in top 4)
+
+ 7. Confidence: 24.3% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: ATC TCA CAG AGG GGA GAT ATG TGA GAC ACG CGT GTT TTG TGG GGC GCC CCT CTC TCA CAT ATA TAA AAA AAA AAT ATG TGA GAG AGT GTT TTA TAG AGA GAG AGA GAG AGG GGA GAT ATT TTC TCC CCC CCT CTC TCT CTT TTT TTT TTT TTC TCT CTG TGC GCT CTG TGA GAT ATT TTG TGG GGA GAA AAT ATA TAA AAT ATT TTT TTC TCA CAG AGA GAA AAG AGG GGA GAA AAT ATG TGG GGA GAA AAC ACC CCA CAG AGC GCT CTC TCC CCT CTC TCG CGT GTT TTG TGT GTA TAC ACC CCT CTC TCT CTG TGG GGT GTA TAG AGA GAA AAT ATT TTT TTA TAG AGC GCT CTG TGT GTG TGA GAA AAT ATC TCC CCG CGT GTG TGT GTG TGG GGT GTC TCC CCT CTG TGG GGA GAC ACT CTT TTT TTT TTT TTT TTT TTG TGG GGT GTT TTG TGG GGT GTA TAG AGT GTC TCT
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222022222222222222222222222222222222022222222222222222222222222222222
+      dmr_label: 49095
+      ctype: Heart-Fibro
+    Probability Distribution:
+      24.3% - Heart-Fibro ✓
+      15.3% - Skeletal-Musc
+      15.2% - Smooth-Musc
+      15.2% - Colon-Fibro
+
+ 8. Confidence: 23.9% | Predicted: Endothel
+    Read Information:
+      dna_seq: AAA AAC ACT CTA TAT ATC TCT CTC TCT CTC TCA CAG AGA GAC ACC CCA CAC ACA CAG AGT GTG TGC GCA CAA AAT ATC TCA CAA AAA AAC ACT CTA TAG AGA GAA AAC ACT CTC TCA CAA AAG AGA GAT ATT TTA TAA AAG AGA GAA AAG AGC GCT CTC TCA CAC ACT CTC TCA CAA AAA AAA AAC ACT CTT TTC TCT CTC TCA CAA AAC ACT CTA TAC ACA CAT ATG TGG GGA GAA AAA AAC ACT CTG TGA GAA AAC ACA CAA AAC ACC CCT CTG TGC GCT CTC TCC CCT CTG TGA GAA AAT ATG TGA GAC ACT CTA TAC ACT CTG TGG GGG GGT GTA TAC ACA CAT ATA TAA AAC ACA CAA AAA AAA AAT ATG TGA GAA AAG AGG GGC GCA CAG AGA GAA AAA AAT ATA TAA AAA AAG AGA GAT ATG TGT GTT TTC TCT CTT TTT TTG TGA GAA AAA AAC ACC CCA CAA AAC ACG
+      methyl_seq: 222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 49159
+      ctype: Heart-Fibro
+    Probability Distribution:
+      23.9% - Endothel
+      15.4% - Colon-Fibro
+      15.2% - Adipocytes
+      15.2% - Skeletal-Musc
+      15.2% - Heart-Fibro ✓ (not in top 4)
+
+ 9. Confidence: 23.7% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GCA CAG AGG GGG GGG GGA GAA AAT ATC TCG CGC GCT CTT TTA TAA AAA AAC ACC CCC CCG CGG GGG GGA GAG AGG GGT GTA TAG AGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC TCG CGC GCG CGC GCC CCA CAT ATT TTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGC GCG CGA GAG AGA GAC ACT CTT TTT TTA TAT ATC TCT CTA TAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGA GAA AAG AGA GAA AAG AGA GAA AAG AGG GGC GCT CTC TCT CTG TGA GAG AGA GAT ATT TTT TTG TGG GGC GCC CCA CAC ACA CAT ATC TCA CAG AGT GTT TTC TCT CTC TCA CAT ATG TGG GGT GTA TAA AAC ACG CGA GAC ACA CAG AGT GTG TGT GTC TCC CCT
+      methyl_seq: 2222222221222222222022222222222222222222222122222020222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 28620
+      ctype: Heart-Fibro
+    Probability Distribution:
+      23.7% - Heart-Fibro ✓
+      17.9% - Smooth-Musc
+      14.7% - Adipocytes
+      14.7% - Skeletal-Musc
+
+10. Confidence: 23.7% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GCA CAT ATG TGA GAG AGA GAA AAT ATC TCG CGC GCT CTT TTA TAA AAG AGC GCC CCC CCA CAG AGG GGA GAG AGG GGC GCG CGG GGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCT CTG TGA GAG AGA GAC ACC CCG CGT GTG TGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCG CGA GAC ACA CAG AGA GAA AAT ATG TGA GAG AGA GAC ACT CTC TCC CCG CGT GTC TCT CTC TCA CAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGA GAA AAA AAA AAG AGA GAA AAA AAG AGA GAA AAG AGT GTG TGT GTT TTG TGA GAG AGT GTG TGT GTT TTG TGG GGT GTG TGA GAT ATG TGA GAA AAG AGT GTT TTT TTG TGC GCC CCT CTG TGC GCA CAA AAA AAT ATC TCT CTA TAG AGA GAC ACC CCT CTC TCC CCC CCT CTG TGG GGA GAT ATA TAT ATT TTC TCC CCA CAG AGG GGG GGG GGT GTT TTT TTT TTA TAT ATA TAC ACA CAA AAA AAG AGG GGA GAG AGG GGG GGA GAA AAC ACC CCA CAT ATG TGG GGG GGG GGA GAA AAA AAA AAA AAA AAT ATA TAC ACG CGG GGG GGT GTG TGA GAA AAT ATG TGC GCT
+      methyl_seq: 22222222202222222222222222022222222222222222222221222222222222222222222220222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 28983
+      ctype: Heart-Fibro
+    Probability Distribution:
+      23.7% - Heart-Fibro ✓
+      16.8% - Smooth-Musc
+      15.3% - Adipocytes
+      15.1% - Endothel
+
+11. Confidence: 23.4% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GCT CTT TTA TAA AAA AAC ACC CCC CCG CGG GGG GGA GAG AGG GGT GTA TAG AGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC TCG CGC GCG CGC GCC CCA CAT ATT TTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGC GCG CGA GAG AGA GAC ACT CTT TTT TTA TAT ATC TCT CTA TAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGA GAA AAG AGA GAA AAG AGA GAA AAG AGG GGC GCT CTC TCT CTG TGA GAG AGA GAT ATT TTT TTG TGG GGC GCC CCA CAC ACA CAT ATC TCA CAG AGT GTT TTC TCT CTC TCA CAT ATG TGG GGT GTA TAA AAC ACG CGA GAC ACA CAG AGT GTG TGT GTC TCC CCT
+      methyl_seq: 22222222122222222222222222222222022222020222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 28620
+      ctype: Heart-Fibro
+    Probability Distribution:
+      23.4% - Heart-Fibro ✓
+      16.2% - Smooth-Musc
+      15.2% - Colon-Fibro
+      15.2% - Adipocytes
+
+12. Confidence: 23.4% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTG TGC GCA CAC ACC CCA CAA AAG AGC GCG CGG GGA GAC ACC CCT CTA TAA AAT ATA TAG AGA GAC ACA CAT ATC TCT CTA TAC ACA CAG AGA GAA AAC ACT CTC TCT CTC TCC CCA CAC ACC CCC CCC CCA CAA AAA AAT ATC TCA CAA AAC ACA CAG AGA GAA AAT ATA TAT ATA TAC ACA CAT ATT TTT TTT TTT TTT TTT TTC TCA CAG AGC GCA CAC ACC CCA CAC ACA CAC ACC CCA CAC ACA CAC ACC CCT CTA TAT ATT TTC TCC CCA CAA AAA AAA AAT ATT TTG TGA GAC ACC CCA CAC ACA CAT ATA TAG AGT GTT TTG TGG GGA GAA AAG AGT GTA TAA AAA AAG AGC GCT CTC TCT CTC TCC CCT CTC TCA CAG AGC GCA CAA AAA AAT ATG TGT GTA TAA AAA AAA AAG AGA GAA AAC ACA CAG AGA GAA AAA AAT ATT TTA TAT ATA TAA AAC ACA CAA
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49159
+      ctype: Heart-Fibro
+    Probability Distribution:
+      23.4% - Endothel
+      17.4% - Smooth-Musc
+      15.7% - Heart-Fibro ✓
+      14.7% - Skeletal-Musc
+
+13. Confidence: 23.3% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: AGA GAA AAG AGT GTC TCT CTC TCA CAC ACG CGA GAT ATA TAT ATC TCT CTG TGA GAT ATG TGG GGT GTT TTT TTA TAA AAC ACA CAA AAG AGG GGG GGG GGT GTT TTT TTC TCC CCA CAC ACT CTT TTT TTT TTG TGC GCT CTT TTG TGG GGC GCT CTC TCT CTC TCA CAT ATT TTC TCT CTC TCT CTT TTT TTT TTG TGC GCC CCG CGC GCC CCA CAC ACC CCA CAT ATG TGT GTT TTA TAA AAG AGA GAA AAG AGT GTG TGC GCC CCT CTT TTT TTT TTG TGC GCC CCT CTT TTC TCC CCA CAC ACC CCA CAA AAG AGA GAT ATT TTG TGT GTG TGA GAG AGG GGC GCC CCT CTC TCT CTC TCC CCA CAG AGC GCC CCG CGT GTG TGT GTA TAG AGA GAA AAC ACT CTG TGT GTG TGA GAG AGT GTC TCC CCG
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222222222222222202222222222222222222222222222222222222222222222222222222220222222222222222220
+      dmr_label: 28514
+      ctype: Heart-Fibro
+    Probability Distribution:
+      23.3% - Heart-Fibro ✓
+      16.2% - Smooth-Musc
+      15.9% - Skeletal-Musc
+      15.2% - Adipocytes
+
+14. Confidence: 23.2% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GCA CAG AGG GGA GAG AGA GAA AAT ATC TCG CGC GCT CTT TTG TGA GAA AAA AAC ACT CTG TGG GGA GAA AAG AGG GGC GCG CGG GGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCA CAA AAG AGA GAT ATC TCG CGC GCG CGC GCC CCA CAC ACT CTG TGT GTA TAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGT GTG TGA GAA AAA AAC ACT CTC TCC CCA CAT ATC TCT CTC TCA CAA AAA AAA AAA AAA AAC ACA CAA AAC ACA CAA AAC ACA CAA AAC ACA CAA AAA AAG AGA GAA AAA AAT ATT TTG TGC GCA CAG AGC GCT CTA TAA AAA AAT ATG TGA GAC ACT CTA TAA AAA AAC ACT CTT TTG TGT GTT TTC TCT CTT TTG TGC GCC CCT CTT TTG TGG GGC GCT CTG TGT GTA TAC ACT CTC TCT CTC TCA CAC ACT CTG TGG GGT GTC TCC CCC CCA CAC ACT CTG TGC GCC CCA CAC ACC CCC CCT CTC TCA CAC ACA CAT ATA TAG AGA GAC ACG
+      methyl_seq: 2222222220222222222222222202222222222222222222222120222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 28788
+      ctype: Heart-Fibro
+    Probability Distribution:
+      23.2% - Heart-Fibro ✓
+      17.4% - Smooth-Musc
+      15.1% - Skeletal-Musc
+      14.8% - Adipocytes
+
+15. Confidence: 23.2% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GCT CTT TTA TAA AAA AAC ACC CCC CCG CGG GGG GGA GAG AGG GGT GTA TAG AGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC TCG CGC GCG CGC GCC CCA CAT ATT TTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGC GCG CGA GAG AGA GAC ACT CTT TTT TTA TAT ATC TCT CTA TAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGA GAA AAG AGA GAA AAG AGA GAA AAG AGG GGC GCT CTC TCT CTG TGA GAG AGA GAT ATT TTT TTG TGG GGC GCC CCA CAC ACA CAT ATC TCA CAG AGT GTT TTC TCT CTC TCA CAT ATG TGG GGT GTA TAA AAC ACG CGA GAC ACA CAG AGT GTG TGT GTC TCC CCT CTG TGT GTG TGG GGA GAC ACA CAT ATG TGG GGC GCG
+      methyl_seq: 22222222122222222222222222222222022222020222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222202222222222222222222220
+      dmr_label: 28620
+      ctype: Heart-Fibro
+    Probability Distribution:
+      23.2% - Heart-Fibro ✓
+      16.2% - Smooth-Musc
+      15.5% - Skeletal-Musc
+      15.2% - Colon-Fibro
+
+============================================================
+
+TRUE CELL TYPE: Skeletal-Musc
+------------------------------------------------------------
+
+ 1. Confidence: 28.4% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTG TGC GCA CAC ACC CCA CAA AAG AGC GCG CGG GGA GAC ACC CCT CTA TAA AAT ATA TAG AGA GAC ACA CAT ATC TCT CTA TAC ACA CAG AGA GAA AAC ACT CTC TCT CTC TCC CCA CAC ACC CCC CCC CCA CAA AAA AAT ATC TCA CAA AAC ACA CAG AGA GAA AAT ATA TAT ATA TAC ACA CAT ATT TTT TTT TTT TTT TTT TTC TCA CAG AGC GCA CAC ACC CCA CAC ACA CAC ACC CCA CAC ACA CAC ACC CCT CTA TAT ATT TTC TCC CCA CAA AAA AAA AAT ATT TTG TGA GAC ACC CCA CAC ACA CAT ATA TAG AGT GTT TTG TGG GGA GAA AAG AGT GTA TAA AAA AAG AGC GCT CTC TCT CTC TCC CCT CTC TCA CAG AGC GCA CAA AAA AAT ATG TGT GTA TAA AAA AAA AAG AGA GAA AAC ACA CAG AGA GAA AAA AAT ATT TTA TAT ATA TAA AAC ACA CAA
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49159
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      28.4% - Endothel
+      15.0% - Smooth-Musc
+      14.4% - Skeletal-Musc ✓
+      14.2% - Adipocytes
+
+ 2. Confidence: 25.6% | Predicted: Endothel
+    Read Information:
+      dna_seq: ATC TCA CAA AAA AAT ATA TAG AGA GAC ACG CGC GCA CAA AAT ATA TAA AAA AAA AAA AAA AAT ATG TGA GAT ATA TAA AAA AAG AGG GGG GGG GGA GAT ATA TAT ATC TCA CAC ACC CCA CAC ACC CCG CGA GAT ATC TCC CCC CCA CAC ACA CAG AGA GAA AAA AAT ATA TAC ACA CAA AAA AAC ACT CTA TAC ACC CCA CAT ATC TCA CAG AGA GAG AGA GAA AAT ATA TAC ACT CTA TAC ACA CAA AAA AAC ACA CAC ACC CCT CTC TCT CTA TAC ACA CAC ACA CAA AAA AAT ATA TAA AAA AAC ACT CTA TAG AGA GAA AAA AAA AAT ATC TCT CTA TAA AAA AAA AAG AGA GAA AAA AAT ATG TGG GGA GAT ATA TAA AAA AAT ATT TTC TCC CCT CTC TCG
+      methyl_seq: 2222222221222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 49193
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      25.6% - Endothel
+      16.0% - Skeletal-Musc ✓
+      15.0% - Adipocytes
+      14.6% - Colon-Fibro
+
+ 3. Confidence: 25.4% | Predicted: Endothel
+    Read Information:
+      dna_seq: GCC CCT CTT TTC TCT CTT TTT TTG TGT GTC TCT CTC TCT CTT TTT TTT TTG TGA GAT ATC TCT CTT TTT TTG TGT GTT TTT TTG TGT GTT TTT TTC TCA CAA AAG AGT GTC TCT CTG TGC GCT CTT TTT TTA TAT ATC TCA CAG AGA GAG AGA GAC ACT CTA TAG AGG GGA GAT ATT TTG TGC GCA CAA AAC ACC CCC CCC CCT CTG TGC GCC CCT CTT TTT TTT TTT TTT TTT TTG TGT GTT TTT TTT TTC TCC CCA CAT ATT TTT TTG TGC GCT CTT TTG TGG GGT GTA TAG AGA GAT ATC TCT CTT TTC TCC CCT CTC TCC CCA CAT ATC TCC CCT CTT TTT TTT TTA TAT ATT TTT TTT TTG TGA GAG AGC GCC CCT CTA TAT ATG TGT GTG TGT GTG TGT GTC TCT CTC TCT CTG TGC GCA CAC ACG CGT GTG TGA GAG AGA GAT ATG TGG GGG GGT
+      methyl_seq: 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 48965
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      25.4% - Endothel
+      15.6% - Colon-Fibro
+      15.2% - Skeletal-Musc ✓
+      15.0% - Adipocytes
+
+ 4. Confidence: 25.0% | Predicted: Endothel
+    Read Information:
+      dna_seq: AAA AAT ATG TGT GTT TTC TCA CAT ATC TCG CGG GGC GCA CAG AGA GAC ACA CAA AAG AGA GAG AGA GAT ATA TAA AAA AAC ACA CAA AAA AAT ATT TTG TGT GTA TAG AGT GTA TAT ATA TAC ACA CAC ACA CAG AGA GAA AAA AAA AAT ATG TGC GCA CAA AAT ATA TAT ATT TTA TAT ATT TTC TCA CAT ATC TCT CTA TAT ATG TGG GGA GAA AAA AAA AAA AAA AAT ATG TGC GCA CAG AGT GTA TAC ACT CTG TGA GAT ATA TAT ATA TAT ATG TGC GCT CTA TAC ACA CAA AAT ATG TGT GTG TGA GAA AAT ATG TGA GAA AAC ACA CAT ATC TCC CCA CAA AAA AAA AAC ACA CAT ATT TTA TAT ATA TAC ACT CTA TAA AAG AGT GTG TGA GAA AAA AAG AGA GAA AAG AGC GCT CTA TAG AGA GAC ACA CAC ACA CAA AAA AAA AAT ATA TAC ACC CCA CAC ACG CGT GTA TAC ACT CTG TGT GTG TGT GTG TGA
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 28527
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      25.0% - Endothel
+      15.4% - Colon-Fibro
+      15.3% - Skeletal-Musc ✓
+      15.0% - Adipocytes
+
+ 5. Confidence: 24.4% | Predicted: Endothel
+    Read Information:
+      dna_seq: AAA AAC ACT CTA TAT ATC TCT CTC TCT CTC TCA CAG AGA GAC ACC CCA CAC ACA CAG AGT GTG TGC GCA CAA AAT ATC TCA CAA AAA AAC ACT CTA TAG AGA GAA AAC ACT CTC TCA CAA AAG AGA GAT ATT TTA TAA AAG AGA GAA AAG AGC GCT CTC TCA CAC ACT CTC TCA CAA AAA AAA AAC ACT CTT TTC TCT CTC TCA CAA AAC ACT CTA TAC ACA CAT ATG TGG GGA GAA AAA AAC ACT CTG TGA GAA AAC ACA CAA AAC ACC CCT CTG TGC GCT CTC TCC CCT CTG TGA GAA AAT ATG TGA GAC ACT CTA TAC ACT CTG TGG GGG GGT GTA TAC ACA CAT ATA TAA AAC ACA CAA AAA AAA AAT ATG TGA GAA AAG AGG GGC GCA CAG AGA GAA AAA AAT ATA TAA AAA AAG AGA GAT ATG TGT GTT TTC TCT CTT TTT TTG TGA GAA AAA AAC ACC CCA CAA AAC ACG
+      methyl_seq: 222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 49159
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      24.4% - Endothel
+      15.8% - Colon-Fibro
+      15.4% - Skeletal-Musc ✓
+      15.2% - Adipocytes
+
+ 6. Confidence: 24.0% | Predicted: Endothel
+    Read Information:
+      dna_seq: TGT GTC TCT CTC TCT CTG TGC GCA CAC ACG CGT GTG TGA GAG AGA GAT ATG TGG GGG GGT GTT TTT TTC TCC CCT CTG TGA GAA AAT ATA TAC ACA CAG AGC GCA CAC ACA CAC ACT CTG TGA GAT ATG TGG GGG GGT GTC TCT CTT TTG TGA GAC ACT CTC TCT CTT TTT TTA TAT ATC TCC CCA CAA AAT ATT TTT TTG TGC GCC CCA CAG AGT GTC TCT CTG TGT GTG TGT GTC TCT CTT TTT TTT TTA TAA AAT ATT TTG TGG GGA GAG AGC GCA CAT ATT TTT TTA TAG AGT GTC TCC CCA CAT ATT TTT TTA TAC ACA CAT ATT TTT TTA TAA AAA AAG AGT GTT TTA TAA AAT ATA TAT ATT TTG TGT GTT TTA TAT ATG TGT GTG TGT GTG TGA GAA AAT ATT TTT TTG TGA GAT ATC TCC CCT CTG TGT GTC TCA CAT ATC TCA CAT ATG TGA GAT ATG TGT GTT TTA TAG AGC GCT CTG TGT GTT TTT TTA TAT ATT TTT TTT TTG TGC GCT CTC TCG
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 48965
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      24.0% - Endothel
+      16.2% - Skeletal-Musc ✓
+      15.2% - Adipocytes
+      15.1% - Colon-Fibro
+
+ 7. Confidence: 23.4% | Predicted: Endothel
+    Read Information:
+      dna_seq: TAA AAA AAA AAT ATC TCT CTC TCC CCC CCA CAT ATT TTA TAT ATT TTA TAA AAT ATA TAT ATG TGT GTG TGG GGG GGA GAG AGT GTC TCT CTA TAA AAG AGT GTC TCT CTC TCT CTT TTT TTG TGT GTA TAG AGG GGT GTC TCA CAC ACT CTC TCA CAG AGG GGA GAC ACT CTT TTG TGC GCT CTT TTT TTA TAT ATG TGA GAA AAT ATC TCT CTT TTG TGG GGT GTG TGC GCT CTC TCC CCT CTG TGT GTA TAT ATT TTG TGG GGG GGT GTG TGC GCA CAT ATA TAT ATA TAT ATA TAT ATT TTT TTA TAG AGG GGA GAT ATA TAG AGT GTT TTA TAG AGC GCT CTC TCT CTT TTC TCT CTT TTG TGT GTT TTG TGA GAA AAT ATT TTG TGA GAT ATC TCC CCC CCT CTT TTT TTA TAC ACC CCA CAT ATT TTA TAT ATG TGT GTA TAA AAT ATG TGG GGC
+      methyl_seq: 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 48965
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      23.4% - Endothel
+      15.7% - Skeletal-Musc ✓
+      15.6% - Smooth-Musc
+      15.3% - Heart-Fibro
+
+ 8. Confidence: 23.4% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: AAT ATG TGC GCA CAG AGT GTA TAG AGC GCG CGT GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACC CCG CGC GCA CAA AAC ACC CCT CTC TCT CTA TAC ACC CCT CTC TCC CCC CCC CCG CGG GGT GTT TTC TCA CAA AAG AGT GTG TGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCG CGC GCA CAG AGC GCC CCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGC GCT CTG TGA GAT ATT TTT TTA TAT ATA TAG AGG GGC GCA CAT ATG TGC GCG CGC GCC CCA CAC ACC CCA CAA AAA AAC ACC CCT CTG TGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATA TAT ATT TTT TTA TAG AGT GTG TGG GGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCG CGC GCC CCA CAT ATG TGT GTA TAG AGG GGC GCC CCA CAG AGC GCC CCT CTG TGG GGT GTC TCT CTT TTG TGA GAA AAC ACT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCA CAG AGG GGT GTG TGA GAT ATC TCT CTG TGC GCC CCC CCA CAC ACA CAT ATC TCA CAG AGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGA GAG AGT GTG TGA GAG AGC GCC CCA CAC ACT CTG TGC GCG CGC GCC CCC CCA CAG AGC GCC CCA CAA AAG
+      methyl_seq: 2222222221222222212222222022222222222222221222222222222222222221222222222222222222222222222222221222222222222222222222222222222222222222122222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 45714
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      23.4% - Skeletal-Musc ✓
+      16.0% - Smooth-Musc
+      15.4% - Colon-Fibro
+      15.4% - Heart-Fibro
+
+ 9. Confidence: 23.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTC TCA CAA AAT ATG TGT GTG TGC GCA CAA AAA AAA AAA AAT ATC TCA CAC ACA CAA AAG AGC GCA CAT ATT TTC TCT CTT TTA TAT ATA TAC ACA CAC ACC CCA CAC ACT CTA TAA AAC ACA CAG AGA GAG AGA GAA AAA AAC ACA CAG AGC GCC CCA CAA AAA AAT ATC TCA CAT ATG TGA GAG AGT GTG TGA GAA AAC ACT CTC TCC CCC CCA CAT ATT TTC TCA CAC ACA CAA AAT ATT TTG TGC GCT CTT TTC TCA CAA AAA AAG AGA GAG AGA GAA AAT ATA TAA AAA AAA AAT ATA TAC ACC CCT CTA TAG AGG GGA GAA AAT ATC TCC CCA CAA AAC ACT CTT TTA TAC ACA CAA AAG AGG GGG GGA GAT ATG TGT GTG TGA GAA AAG AGG GGA GAT ATC TCT CTC TCT CTT TTC TCA CAA AAG AGA GAA AAG AGA GAA AAC ACT CTA TAC ACA CAA AAA AAC ACC CCA CAC ACT CTG TGC GCT CTC TCA CAA AAC ACG
+      methyl_seq: 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 48843
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      23.2% - Endothel
+      15.9% - Smooth-Musc
+      15.6% - Skeletal-Musc ✓
+      15.4% - Heart-Fibro
+
+10. Confidence: 23.2% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: AAC ACT CTT TTG TGG GGT GTT TTC TCC CCG CGT GTT TTC TCT CTC TCC CCC CCT CTG TGT GTC TCA CAC ACT CTT TTT TTC TCA CAG AGA GAT ATA TAC ACA CAC ACC CCA CAA AAT ATC TCA CAG AGA GAC ACG CGT GTA TAG AGA GAT ATT TTT TTG TGG GGT GTT TTT TTT TTT TTT TTC TCA CAC ACA CAT ATA TAG AGT GTC TCC CCC CCT CTT TTA TAT ATT TTT TTC TCT CTT TTG TGG GGA GAG AGG GGC GCT CTT TTT TTG TGT GTT TTA TAA AAT ATT TTT TTC TCT CTT TTT TTT TTT TTA TAT ATT TTC TCT CTT TTT TTT TTT TTC TCT CTC TCT CTA TAA AAA AAC ACT CTT TTC TCT CTC TCT CTT TTC TCT CTC TCG CGC GCT CTT TTC TCA CAT ATT TTT TTC TCA CAT ATT TTC TCA CAT ATT TTT TTG TGC GCT CTC TCT CTT TTC TCC CCG CGT GTC TCA CAC ACT CTG TGA GAT ATA TAC
+      methyl_seq: 22222222202222222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222220222222222222222222222222212222222222
+      dmr_label: 28855
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      23.2% - Heart-Fibro
+      17.8% - Smooth-Musc
+      14.9% - Skeletal-Musc ✓
+      14.9% - Adipocytes
+
+11. Confidence: 22.8% | Predicted: Endothel
+    Read Information:
+      dna_seq: TCA CAC ACT CTG TGG GGC GCC CCA CAT ATC TCA CAG AGA GAG AGA GAA AAA AAT ATG TGC GCA CAA AAA AAT ATC TCA CAA AAA AAA AAC ACC CCA CAC ACA CAA AAT ATG TGA GAG AGA GAT ATA TAT ATC TCA CAT ATC TCT CTC TCA CAC ACA CAC ACC CCA CAA AAT ATT TTA TAG AGA GAA AAT ATG TGG GGC GCA CAA AAT ATC TCA CAT ATT TTA TAA AAA AAA AAC ACT CTC TCA CAG AGG GGA GAA AAA AAC ACA CAA AAC ACA CAG AGG GGT GTG TGC GCT CTG TGG GGA GAG AGA GAG AGG GGA GAT ATG TGT GTG TGG GGA GAG AGA GAA AAA AAT ATA TAG AGG GGA GAA AAC ACA CAC ACT CTT TTT TTT TTA TAC ACA CAC ACT CTG TGT GTT TTG TGG GGT GTG TGG GGG GGA GAC ACT CTG TGT GTA TAA AAA AAC ACT CTA TAG AGT GTT TTC TCA CAA AAC ACC CCA CAT ATT TTG TGT GTG TGG GGA GAA AAG AGT GTC TCA CAG AGT GTG TGT GTG TGA GAC ACG
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 49245
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      22.8% - Endothel
+      16.4% - Skeletal-Musc ✓
+      15.4% - Adipocytes
+      15.3% - Smooth-Musc
+
+12. Confidence: 22.5% | Predicted: Endothel
+    Read Information:
+      dna_seq: GTC TCT CTT TTG TGC GCT CTA TAG AGC GCG CGG GGT GTC TCT CTA TAT ATC TCA CAA AAT ATT TTT TTT TTG TGT GTT TTG TGA GAT ATC TCT CTT TTT TTT TTC TCA CAA AAA AAA AAA AAA AAC ACC CCA CAG AGC GCT CTC TCC CCT CTG TGG GGA GAT ATT TTC TCG CGT GTT TTA TAA AAT ATT TTT TTT TTT TTT TTG TGA GAA AAG AGG GGG GGT GTT TTT TTT TTT TTT TTG TGT GTG TGT GTC TCT CTC TCT CTA TAT ATT TTT TTC TCC CCT CTT TTC TCA CAG AGT GTT TTC TCT CTG TGC GCT CTC TCT CTG TGA GAT ATT TTT TTT TTA TAG AGT GTT TTA TAT ATT TTT TTC TCT CTT TTG TGC GCC CCT CTT TTC TCT CTG TGC GCT CTA TAG AGC GCT CTT TTT
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49156
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      22.5% - Endothel
+      15.8% - Smooth-Musc
+      15.8% - Colon-Fibro
+      15.7% - Skeletal-Musc ✓
+
+13. Confidence: 22.4% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: AAT ATG TGC GCA CAG AGT GTA TAG AGC GCG CGT GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACC CCG CGC GCA CAA AAC ACC CCT CTC TCT CTA TAC ACC CCT CTC TCC CCC CCC CCG CGG GGT GTT TTC TCA CAA AAG AGT GTG TGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCG CGC GCA CAG AGC GCC CCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGC GCT CTG TGA GAT ATT TTT TTA TAT ATA TAG AGG GGC GCA CAT ATG TGC GCG CGC GCC CCA CAC ACC CCA CAA AAA AAC ACC CCT CTG TGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATA TAT ATT TTT TTA TAG AGT GTG TGG GGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCG CGC GCC CCA CAT ATG TGT GTA TAG AGG GGC GCC CCA CAG AGC GCC CCT CTG TGG GGT GTC TCT CTT TTG TGA GAA AAC ACT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCA CAG AGG GGT GTG TGA GAT ATC TCT CTG TGC GCC CCC CCA CAC ACA CAT ATC TCA CAG AGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGA GAG AGT GTG TGA GAG AGC GCC CCA CAC ACT CTG TGC GCG CGC GCC CCC CCA CAG AGC GCC CCA CAA AAG
+      methyl_seq: 2222222220222222212222222122222222222222221222222222222222222221222222222222222222222222222222221222222222222222222222222222222222222222122222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 45714
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      22.4% - Skeletal-Musc ✓
+      16.4% - Smooth-Musc
+      16.3% - Heart-Fibro
+      15.2% - Adipocytes
+
+14. Confidence: 22.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: TGT GTG TGG GGT GTG TGC GCT CTG TGA GAA AAA AAA AAA AAA AAA AAT ATG TGT GTA TAT ATA TAT ATT TTC TCT CTG TGT GTT TTG TGA GAT ATT TTT TTG TGG GGG GGG GGT GTG TGG GGA GAG AGA GAG AGT GTT TTC TCT CTG TGT GTA TAG AGA GAT ATG TGT GTC TCT CTA TAT ATT TTA TAG AGG GGT GTC TCC CCA CAC ACT CTT TTG TGT GTT TTG TGC GCA CAG AGA GAG AGC GCT CTG TGA GAG AGT GTT TTC TCA CAA AAT ATT TTC TCC CCT CTG TGG GGG GGT GTA TAT ATC TCC CCT CTT TTG TGT GTT TTG TGA GAC ACT CTT TTT TTC TCT CTG TGT GTC TCT CTC TCG CGT GTT TTG TGA GAT ATC TCT CTG TGT GTC TCT CTA TAA AAT ATG TGT GTT TTG TGA GAC ACA CAG AGT GTG TGG GGG GGG GGT GTG TGT GTT TTA
+      methyl_seq: 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222022222222222222222222222222222222
+      dmr_label: 48965
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      22.2% - Endothel
+      16.0% - Smooth-Musc
+      15.8% - Heart-Fibro
+      15.5% - Adipocytes
+      15.3% - Skeletal-Musc ✓ (not in top 4)
+
+15. Confidence: 22.2% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: TTG TGC GCT CTC TCT CTT TTC TCT CTC TCG CGA GAG AGG GGA GAA AAT ATA TAT ATC TCT CTT TTT TTG TGT GTG TGG GGC GCG CGT GTT TTC TCT CTC TCT CTA TAT ATA TAT ATT TTT TTC TCC CCT CTA TAC ACA CAT ATT TTT TTG TGA GAA AAT ATG TGT GTT TTG TGG GGC GCC CCT CTG TGC GCC CCT CTT TTG TGC GCT CTA TAG AGA GAT ATT TTG TGG GGG GGT GTA TAA AAG AGT GTT TTC TCT CTC TCT CTT TTG TGG GGA GAT ATA TAA AAT ATA TAT ATC TCC CCT CTG TGC GCA CAG AGA GAG AGT GTG TGT GTT TTT TTT TTC TCC CCA CAA AAC ACT CTT TTG TGG GGT GTT TTC TCC CCG CGT GTT TTC TCT CTC TCC CCC CCT CTG TGT GTC TCA CAC ACT CTT TTT TTC TCA CAG AGA GAT ATA TAC ACA CAC ACC CCA CAA AAT ATC TCA CAG AGA GAC ACG CGT GTA TAG AGA GAT ATT TTT TTG TGG GGT
+      methyl_seq: 222222222022222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220222222222222222222222222222222222202222222222
+      dmr_label: 28855
+      ctype: Skeletal-Musc
+    Probability Distribution:
+      22.2% - Heart-Fibro
+      17.6% - Endothel
+      15.9% - Smooth-Musc
+      15.0% - Skeletal-Musc ✓
+
+============================================================
+
+TRUE CELL TYPE: Smooth-Musc
+------------------------------------------------------------
+
+ 1. Confidence: 27.1% | Predicted: Endothel
+    Read Information:
+      dna_seq: ATC TCA CAA AAA AAT ATA TAG AGA GAC ACG CGC GCA CAA AAT ATA TAA AAA AAA AAA AAA AAT ATG TGA GAT ATA TAA AAA AAG AGG GGG GGG GGA GAT ATA TAT ATC TCA CAC ACC CCA CAC ACC CCG CGA GAT ATC TCC CCC CCA CAC ACA CAG AGA GAA AAA AAT ATA TAC ACA CAA AAA AAC ACT CTA TAC ACC CCA CAT ATC TCA CAG AGA GAG AGA GAA AAT ATA TAC ACT CTA TAC ACA CAA AAA AAC ACA CAC ACC CCT CTC TCT CTA TAC ACA CAC ACA CAA AAA AAT ATA TAA AAA AAC ACT CTA TAG AGA GAA AAA AAA AAT ATC TCT CTA TAA AAA AAA AAG AGA GAA AAA AAT ATG TGG GGA GAT ATA TAA AAA AAT ATT TTC TCC CCT CTC TCG
+      methyl_seq: 2222222220222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 49193
+      ctype: Smooth-Musc
+    Probability Distribution:
+      27.1% - Endothel
+      15.3% - Skeletal-Musc
+      14.8% - Smooth-Musc ✓
+      14.4% - Heart-Fibro
+
+ 2. Confidence: 26.7% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTA TAT ATT TTA TAG AGG GGT GTC TCC CCG CGC GCT CTT TTG TGG GGT GTG TGC GCA CAG AGA GAG AGC GCT CTG TGA GAG AGT GTT TTC TCA CAA AAT ATT TTC TCC CCT CTG TGG GGA GAT ATA TAT ATC TCC CCT CTT TTA TAT ATT TTA TAA AAC ACT CTT TTT TTC TCT CTG TGT GTC TCT CTC TCA CAT ATT TTG TGA GAT ATC TCT CTG TGT GTC TCT CTA TAA AAT ATG TGT GTT TTG TGA GAC ACA CAG AGT GTG TGG GGG GGA GAT ATG TGT GTT TTA TAA AAA AAG AGT GTC TCT CTC TCC CCC CCA CAT ATT TTA TAT ATT TTA TAT ATT TTG TGT GTG TGT GTG TGG GGG GGA GAG AGT GTC TCT CTA TAA AAG AGT GTC TCT CTC TCT CTT TTT TTG TGT GTA TAA AAG AGT GTC TCA CAC ACT CTA TAA AAG AGG GGA GAC ACT CTT TTG TGC GCT CTT TTT TTA TAT ATG TGA GAA AAT ATC TCT CTG TGG GGG GGT GTG TGC GCT CTC TCC CCT CTG TGT GTA TAT ATT TTG TGG GGG GGT GTG TGC GCA CAT ATA TAT ATA TAT ATA TAT ATT TTT TTA TAG AGG GGA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49165
+      ctype: Smooth-Musc
+    Probability Distribution:
+      26.7% - Endothel
+      14.9% - Skeletal-Musc
+      14.8% - Colon-Fibro
+      14.6% - Adipocytes
+      14.6% - Smooth-Musc ✓ (not in top 4)
+
+ 3. Confidence: 26.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: ATC TCA CAA AAA AAT ATA TAG AGA GAC ACG CGC GCA CAA AAT ATA TAA AAA AAA AAA AAA AAT ATG TGA GAT ATA TAA AAA AAG AGG GGG GGG GGA GAT ATA TAT ATC TCA CAC ACC CCA CAC ACC CCG CGA GAT ATC TCC CCC CCA CAC ACA CAG AGA GAA AAA AAT ATA TAC ACA CAA AAA AAC ACT CTA TAC ACC CCA CAT ATC TCA CAG AGA GAG AGA GAA AAT ATA TAC ACT CTA TAC ACA CAA AAA AAC ACA CAC ACC CCT CTC TCT CTA TAC ACA CAC ACA CAA AAA AAT ATA TAA AAA AAC ACT CTA TAG AGA GAA AAA AAA AAT ATC TCT CTA TAA AAA AAA AAG AGA GAA AAA AAT ATG TGG GGA GAT ATA TAA AAA AAT ATT TTC TCC CCT CTC TCG
+      methyl_seq: 2222222220222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 49193
+      ctype: Smooth-Musc
+    Probability Distribution:
+      26.2% - Endothel
+      15.8% - Skeletal-Musc
+      14.7% - Smooth-Musc ✓
+      14.7% - Adipocytes
+
+ 4. Confidence: 25.6% | Predicted: Endothel
+    Read Information:
+      dna_seq: ATC TCA CAA AAA AAT ATA TAG AGA GAC ACG CGC GCA CAA AAT ATA TAA AAA AAA AAA AAA AAT ATG TGA GAT ATA TAA AAA AAG AGG GGG GGG GGA GAT ATA TAT ATC TCA CAC ACC CCA CAC ACC CCG CGA GAT ATC TCC CCC CCA CAC ACA CAG AGA GAA AAA AAT ATA TAC ACA CAA AAA AAC ACT CTA TAC ACC CCA CAT ATC TCA CAG AGA GAG AGA GAA AAT ATA TAC ACT CTA TAC ACA CAA AAA AAC ACA CAC ACC CCT CTC TCT CTA TAC ACA CAC ACA CAA AAA AAT ATA TAA AAA AAC ACT CTA TAG AGA GAA AAA AAA AAT ATC TCT CTA TAA AAA AAA AAG AGA GAA AAA AAT ATG TGG GGA GAT ATA TAA AAA AAT ATT TTC TCC CCT CTC TCG
+      methyl_seq: 2222222221222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 49193
+      ctype: Smooth-Musc
+    Probability Distribution:
+      25.6% - Endothel
+      16.0% - Skeletal-Musc
+      15.0% - Adipocytes
+      14.6% - Colon-Fibro
+      14.6% - Smooth-Musc ✓ (not in top 4)
+
+ 5. Confidence: 25.6% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GCA CAG AGG GGG GGG GGA GAA AAT ATC TCG CGC GCT CTT TTA TAA AAA AAC ACC CCC CCG CGG GGG GGA GAG AGG GGT GTA TAG AGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC TCG CGC GCG CGC GCC CCA CAT ATT TTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGC GCG CGA GAG AGA GAC ACT CTT TTT TTA TAT ATC TCT CTA TAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGA GAA AAG AGA GAA AAG AGA GAA AAG AGG GGC GCT CTC TCT CTG TGA GAG AGA GAT ATT TTT TTG TGG GGC GCC CCA CAC ACA CAT ATC TCA CAG AGT GTT TTC TCT CTC TCA CAT ATG TGG GGT GTA TAA AAC ACG CGA GAC ACA CAG AGT GTG TGT GTC TCC CCT CTG TGT GTG TGG GGA GAC ACA CAT ATG TGG GGC GCG
+      methyl_seq: 2222222220222222222122222222222222222222222022222020222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222202222222222222222222220
+      dmr_label: 28620
+      ctype: Smooth-Musc
+    Probability Distribution:
+      25.6% - Heart-Fibro
+      16.7% - Smooth-Musc ✓
+      14.7% - Skeletal-Musc
+      14.5% - Adipocytes
+
+ 6. Confidence: 25.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: ATG TGT GTT TTT TTA TAT ATT TTG TGC GCG CGG GGC GCA CAT ATT TTA TAT ATT TTC TCA CAC ACA CAA AAT ATA TAG AGC GCA CAA AAA AAG AGA GAC ACT CTT TTG TGG GGA GAA AAC ACC CCA CAA AAC ACC CCC CCA CAA AAA AAT ATG TGT GTC TCC CCA CAA AAC ACA CAA AAT ATG TGA GAT ATA TAG AGA GAC ACT CTG TGG GGA GAT ATT TTA TAA AAG AGA GAA AAA AAA AAT ATG TGT GTG TGG GGC GCA CAC ACA CAT ATA TAT ATA TAC ACA CAC ACC CCA CAT ATG TGG GGA GAA AAT ATA TAC ACT CTA TAT ATG TGC GCA CAG AGC GCC CCA CAT ATA TAA AAA AAA AAA AAA AAT ATG TGA GAT ATG TGA GAG AGT GTT TTC TCA CAT ATG TGT GTC TCC CCT CTT TTT TTG TGT GTA TAG AGG GGG GGA GAC ACA CAT ATG TGG GGA GAT ATG TGA GAA AAA AAT ATT TTG TGG GGA GAA AAA AAT ATC TCA CAT ATC TCA CAT ATT TTC TCT CTC TCA CAG AGT GTA TAA AAA AAC ACT CTA TAT ATC TCG CGC GCA CAA AAG AGA GAA AAC ACA CAA AAA
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 49222
+      ctype: Smooth-Musc
+    Probability Distribution:
+      25.2% - Endothel
+      15.8% - Skeletal-Musc
+      15.0% - Colon-Fibro
+      15.0% - Adipocytes
+      14.7% - Smooth-Musc ✓ (not in top 4)
+
+ 7. Confidence: 25.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: TTG TGA GAA AAA AAC ACC CCA CAA AAC ACG CGA GAG AGA GAA AAC ACA CAA AAA AAG AGA GAC ACA CAC ACA CAA AAC ACA CAT ATA TAC ACC CCA CAG AGA GAA AAT ATC TCT CTC TCT CTG TGG GGG GGA GAT ATG TGC GCA CAC ACT CTC TCA CAA AAA AAG AGC GCA CAG AGT GTG TGT GTG TGT GTA TAG AGA GAG AGG GGG GGA GAA AAA AAT ATT TTT TTA TAT ATA TAG AGC GCA CAC ACT CTA TAA AAA AAT ATG TGC GCC CCC CCT CTC TCA CAA AAG AGA GAG AGA GAA AAA AAG AGC GCA CAG AGG GGA GAA AAA AAG AGA GAT ATC TCT CTA TAA AAA AAA AAT ATT TTG TGA GAC ACA CAC ACC CCC CCT CTA TAA AAC ACA CAT ATC TCA CAC ACA CAA AAT ATT TTA TAA AAA AAA AAG AGA GAA AAC ACT CTA TAG AGA GAA AAA AAA AAG AGC GCA
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49232
+      ctype: Smooth-Musc
+    Probability Distribution:
+      25.2% - Endothel
+      15.5% - Heart-Fibro
+      15.0% - Skeletal-Musc
+      15.0% - Smooth-Musc ✓
+
+ 8. Confidence: 25.1% | Predicted: Endothel
+    Read Information:
+      dna_seq: GAG AGT GTA TAG AGG GGT GTT TTG TGC GCG CGA GAA AAA AAA AAT ATT TTT TTT TTC TCT CTC TCC CCC CCA CAT ATT TTT TTT TTG TGT GTA TAG AGG GGT GTT TTG TGC GCC CCT CTG TGT GTT TTC TCA CAC ACT CTC TCT CTG TGA GAT ATG TGG GGT GTA TAG AGT GTT TTT TTC TCT CTT TTT TTT TTG TGC GCT CTG TGT GTG TGC GCA CAG AGA GAA AAG AGC GCT CTC TCT CTT TTT TTA TAG AGT GTT TTT TTA TAA AAT ATT TTA TAG AGA GAT ATC TCC CCC CCA CAT ATT TTT TTG TGT GTC TCA CAA AAT ATT TTT TTT TTG TGG GGC GCT CTT TTT TTT TTG TGT GTT TTG TGC GCC CCA CAT ATT TTG TGC GCT CTT TTT TTT TTG TGG GGT GTG TGT GTT TTT TTT TTA TAG AGA GAC ACA CAT ATG TGA GAA AAG AGT GTC TCC CCT CTT TTG TGC GCC CCC CCA CAT ATG TGC GCC CCT CTA TAT ATG TGT GTC TCC CCT CTG TGA GAA AAT ATG TGG GGT GTA TAA AAT ATG TGC GCC CCT CTA TAG AGG GGT GTT TTT TTT TTC TCT CTT TTC TCT CTA TAG AGG GGG GGT GTT TTT TTT TTT TTA TAT ATG TGG GGT GTT TTT TTT TTA TAG AGG GGT GTC TCT CTA TAA AAC ACG
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 49246
+      ctype: Smooth-Musc
+    Probability Distribution:
+      25.1% - Endothel
+      15.4% - Heart-Fibro
+      15.2% - Adipocytes
+      14.8% - Skeletal-Musc
+      14.7% - Smooth-Musc ✓ (not in top 4)
+
+ 9. Confidence: 24.6% | Predicted: Colon-Fibro
+    Read Information:
+      dna_seq: GGG GGC GCA CAG AGG GGC GCC CCT CTC TCG CGT GTG TGG GGT GTG TGA GAC ACA CAA AAA AAA AAT ATC TCT CTC TCT CTC TCA CAG AGC GCA CAT ATT TTT TTG TGC GCT CTT TTG TGT GTC TCT CTG TGT GTA TAA AAA AAG AGT GTA TAT ATT TTT TTT TTA TAT ATT TTT TTC TCT CTC TCC CCT CTT TTC TCA CAC ACT CTT TTA TAT ATG TGA GAA AAG AGC GCT CTT TTA TAG AGT GTT TTT TTG TGG GGC GCT CTG TGG GGA GAT ATA TAT ATG TGA GAA AAA AAT ATT TTC TCT CTG TGG GGG GGT GTT TTG TGA GAA AAA AAA AAT ATT TTC TCT CTT TTT TTC TCC CCT CTT TTT TTA TAA AAG AGA GAA AAT ATG TGT GTT TTG TGA GAA AAT ATA TAT ATT TTG TGG GGC GCC CCC CCC CCC CCA CAC ACT CTC TCT CTC TCT CTT TTC TCT CTG TGG GGC GCT CTT TTG TGT GTA TAG AGA GAG AGT GTT TTT TTC TCT CTG TGC GCT CTG TGA GAG AGA GAG AGA GAT ATC TCC CCA CAC ACT CTG TGT GTT TTA TAG AGT GTC TCT CTG TGA GAT ATG TGG GGG GGC GCT CTT TTC TCC CCC CCT CTT TTT TTG TGT GTG TGG GGG GGT GTA TAA AAC ACC CCC CCA CAA AAC ACT CTT TTT TTT TTC TCT CTC TCT CTC TCT CTG TGT
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49044
+      ctype: Smooth-Musc
+    Probability Distribution:
+      24.6% - Colon-Fibro
+      15.7% - Heart-Fibro
+      15.3% - Skeletal-Musc
+      15.2% - Endothel
+      14.5% - Smooth-Musc ✓ (not in top 4)
+
+10. Confidence: 24.0% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GTC TCT CTT TTG TGG GGC GCA CAT ATC TCG CGT GTT TTC TCT CTA TAA AAA AAA AAC ACT CTG TGG GGC GCC CCC CCT CTT TTC TCT CTT TTT TTA TAT ATC TCT CTG TGT GTG TGG GGT GTC TCA CAC ACG CGC GCG CGC GCT CTT TTG TGT GTT TTC TCC CCC CCT CTT TTG TGT GTC TCC CCT CTG TGA GAA AAG AGG GGA GAG AGC GCT CTG TGG GGG GGA GAC ACT CTC TCA CAA AAG AGC GCA CAT ATG TGT GTC TCC CCA CAG AGC GCC CCT CTT TTT TTG TGT GTC TCC CCC CCA CAT ATG TGA GAT ATG TGT GTC TCA CAT ATG TGC GCC CCT CTT TTC TCT CTA TAA AAA AAC ACT CTG TGA GAT ATA TAA AAG AGA GAA AAG AGT GTG TGC GCA CAA AAT ATT TTT TTA TAG AGG GGA GAT ATT TTA TAC ACT CTC TCT CTT TTT TTT TTT TTT TTT TTA TAT ATT TTA TAT ATT TTT TTT TTA TAT ATT TTT TTT TTT TTT TTT TTA TAA AAT ATT TTA TAT ATA TAC ACT CTT TTT TTA TAA AAG AGT GTT TTC TCT CTA TAG AGG GGG GGT GTA TAC ACA CAT ATG TGT GTG TGT GTA TAC ACA CAA AAC ACG
+      methyl_seq: 22222222202222222222222222222222222222222220202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 28322
+      ctype: Smooth-Musc
+    Probability Distribution:
+      24.0% - Heart-Fibro
+      16.1% - Smooth-Musc ✓
+      15.2% - Adipocytes
+      15.0% - Endothel
+
+11. Confidence: 23.2% | Predicted: Endothel
+    Read Information:
+      dna_seq: TTT TTC TCT CTG TGC GCC CCT CTT TTC TCG CGT GTT TTT TTC TCA CAT ATT TTA TAT ATG TGT GTA TAC ACC CCC CCA CAG AGT GTA TAG AGT GTC TCA CAT ATT TTC TCA CAG AGA GAA AAG AGC GCA CAG AGG GGT GTT TTG TGT GTT TTC TCA CAG AGT GTT TTT TTC TCC CCA CAT ATG TGT GTA TAC ACT CTT TTG TGA GAG AGC GCA CAA AAT ATT TTT TTT TTG TGA GAG AGT GTG TGA GAG AGT GTT TTT TTC TCT CTT TTA TAA AAT ATC TCC CCT CTG TGA GAG AGT GTT TTC TCT CTA TAG AGT GTT TTT TTG TGA GAT ATT TTG TGC GCT CTC TCT CTG TGT GTG TGG GGT GTC TCT CTG TGA GAG AGA GAG AGA GAC ACA CAG AGT GTT TTT TTG TGT GTT TTA TAT ATA TAA AAT ATT TTT TTC TCT CTG TGT GTT TTC TCT CTT TTT TTT TTA TAT ATA TAT ATT TTT TTG TGC GCT CTG TGA GAG AGG GGA GAG AGT GTG TGC GCT CTT TTT TTA TAC ACT CTT TTC TCC CCA CAA AAC ACT CTA TAT ATG TGT GTG TGG GGT GTC TCA CAA AAT ATT TTT TTT TTG TGG GGA GAA AAT ATA TAG AGG GGT GTG TGT GTG TGG GGT GTG TGT GTG TGG GGT GTG TGC GCT CTG TGA GAA AAA AAA AAA AAA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 48939
+      ctype: Smooth-Musc
+    Probability Distribution:
+      23.2% - Endothel
+      17.4% - Skeletal-Musc
+      15.4% - Colon-Fibro
+      14.9% - Adipocytes
+      14.5% - Smooth-Musc ✓ (not in top 4)
+
+12. Confidence: 23.2% | Predicted: Heart-Fibro
+    Read Information:
+      dna_seq: GCA CAG AGG GGA GAG AGA GAA AAT ATC TCG CGC GCT CTT TTG TGA GAA AAA AAC ACT CTG TGG GGA GAA AAG AGG GGC GCG CGG GGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCA CAA AAG AGA GAT ATC TCG CGC GCG CGC GCC CCA CAC ACT CTG TGT GTA TAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGT GTG TGA GAA AAA AAC ACT CTC TCC CCA CAT ATC TCT CTC TCA CAA AAA AAA AAA AAA AAC ACA CAA AAC ACA CAA AAC ACA CAA AAC ACA CAA AAA AAG AGA GAA AAA AAT ATT TTG TGC GCA CAG AGC GCT CTA TAA AAA AAT ATG TGA GAC ACT CTA TAA AAA AAC ACT CTT TTG TGT GTT TTC TCT CTT TTG TGC GCC CCT CTT TTG TGG GGC GCT CTG TGT GTA TAC ACT CTC TCT CTC TCA CAC ACT CTG TGG GGT GTC TCC CCC CCA CAC ACT CTG TGC GCC CCA CAC ACC CCC CCT CTC TCA CAC ACA CAT ATA TAG AGA GAC ACG
+      methyl_seq: 2222222220222222222222222202222222222222222222222120222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 28788
+      ctype: Smooth-Musc
+    Probability Distribution:
+      23.2% - Heart-Fibro
+      17.4% - Smooth-Musc ✓
+      15.1% - Skeletal-Musc
+      14.8% - Adipocytes
+
+13. Confidence: 23.2% | Predicted: Skeletal-Musc
+    Read Information:
+      dna_seq: AAA AAA AAA AAA AAG AGG GGC GCA CAC ACG CGG GGG GGT GTT TTG TGC GCA CAA AAG AGC GCC CCT CTA TAG AGT GTC TCT CTC TCT CTG TGA GAT ATA TAA AAA AAA AAC ACA CAG AGA GAT ATT TTT TTT TTA TAA AAA AAC ACC CCA CAA AAC ACA CAA AAA AAG AGA GAT ATC TCA CAA AAA AAA AAG AGA GAG AGA GAC ACA CAA AAT ATG TGA GAA AAG AGG GGC GCC CCA CAT ATT TTA TAC ACA CAT ATA TAA AAT ATG TGG GGT GTA TAA AAA AAG AGG GGG GGA GAT ATC TCA CAA AAT ATT TTA TAA AAA AAC ACA CAA AAG AGA GAA AAG AGA GAG AGC GCT CTA TAA AAC ACT CTA TAT ATC TCC CCT CTA TAA
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49159
+      ctype: Smooth-Musc
+    Probability Distribution:
+      23.2% - Skeletal-Musc
+      16.5% - Heart-Fibro
+      15.8% - Endothel
+      15.7% - Smooth-Musc ✓
+
+14. Confidence: 23.1% | Predicted: Endothel
+    Read Information:
+      dna_seq: CTC TCC CCT CTT TTC TCC CCA CAG AGT GTC TCC CCC CCT CTA TAA AAA AAA AAA AAT ATC TCA CAC ACT CTA TAA AAC ACC CCA CAA AAT ATT TTT TTT TTT TTT TTG TGT GTC TCT CTC TCT CTA TAT ATA TAG AGA GAT ATT TTT TTG TGA GAC ACT CTT TTT TTG TGT GTT TTT TTA TAC ACT CTA TAT ATC TCT CTA TAT ATA TAA AAT ATG TGT GTT TTC TCT CTT TTC TCA CAC ACT CTG TGG GGA GAT ATC TCC CCC CCT CTC TCA CAG AGA GAA AAT ATT TTT TTC TCC CCT CTA TAT ATA TAT ATA TAA AAA AAA AAG AGA GAT ATC TCA CAT ATG TGT GTG TGT GTT TTC TCT CTG TGC GCA CAA AAT ATT TTA TAG AGA GAG AGA GAT ATA TAG AGT GTT TTT TTT TTA TAC ACT CTT TTC TCT CTT TTT TTC TCC CCT CTT TTC TCC CCA CAA AAT ATC TCT CTT TTG TGA GAT ATG TGA GAC ACT CTT TTT TTT TTA TAT ATT TTT TTA TAA AAT ATC TCT CTT TTA TAT ATT TTT TTC TCC CCT CTG TGA GAT ATT TTT TTG TGT GTC TCT CTT TTG TGC GCT CTA TAG AGA GAA AAC ACC CCT CTC TCC CCA CAG AGA GAA AAA AAA AAG AGA GAG AGG GGT GTG TGA GAC ACA CAC ACA CAA AAG AGC GCA
+      methyl_seq: 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 48941
+      ctype: Smooth-Musc
+    Probability Distribution:
+      23.1% - Endothel
+      16.7% - Colon-Fibro
+      15.2% - Skeletal-Musc
+      15.1% - Adipocytes
+      15.0% - Smooth-Musc ✓ (not in top 4)
+
+15. Confidence: 23.0% | Predicted: Endothel
+    Read Information:
+      dna_seq: GGA GAT ATG TGA GAA AAC ACC CCT CTC TCG CGA GAG AGG GGA GAC ACA CAT ATT TTA TAT ATG TGC GCT CTG TGA GAG AGT GTG TGA GAA AAA AAT ATA TAA AAG AGC GCC CCA CAG AGG GGC GCA CAC ACA CAA AAA AAA AAG AGA GAA AAC ACA CAG AGA GAC ACA CAC ACT CTG TGT GTG TGT GTG TGA GAT ATT TTC TCC CCA CAC ACT CTT TTA TAC ACA CAT ATG TGA GAG AGG GGT GTG TGT GTC TCT CTG TGG GGA GAG AGT GTG TGC GCT CTC TCA CAG AGT GTC TCT CTC TCA CAT ATG TGG GGA GAG AGA GAC ACA CAG AGA GAA AAA AAA AAT ATA TAG AGA GAA AAT ATG TGG GGT GTG TGG GGT GTT TTG TGC GCC CCA CAG AGG GGG GGG GGA GAT ATA TAA AAG AGG GGA GAG AGT GTT TTG TGG GGG GGG GGA GAT ATA TAG AGC GCA CAT ATG TGT GTT TTT TTG TGC GCA CAT ATT TTT TTA TAA AAT ATA TAG AGG GGT GTA TAC ACA CAA AAA AAA AAT ATT TTT TTC TCA CAT ATT TTT TTT TTA TAA AAG AGA GAA AAG AGA GAT ATG TGA GAA AAA AAG AGT GTT TTT TTT TTA TAT ATA TAG AGA GAT ATG TGG GGT GTT TTG TGG GGT GTG TGG GGT GTG TGA GAT ATA TAG AGT GTT TTG TGC GCA CAC ACA CAA AAA AAA AAA AAG AGG GGT GTG TGA GAA AAT
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 49039
+      ctype: Smooth-Musc
+    Probability Distribution:
+      23.0% - Endothel
+      16.0% - Skeletal-Musc
+      15.8% - Colon-Fibro
+      15.2% - Smooth-Musc ✓
+
+============================================================
+
+
+
+SUMMARY STATISTICS
+================================================================================
+LOW CONFIDENCE SUMMARY
+------------------------------
+Adipocytes               : 15 examples, avg conf: 16.8%, min conf: 16.7%
+Colon-Fibro              : 15 examples, avg conf: 16.9%, min conf: 16.8%
+Endothel                 : 15 examples, avg conf: 16.8%, min conf: 16.8%
+Heart-Fibro              : 15 examples, avg conf: 16.8%, min conf: 16.8%
+Skeletal-Musc            : 15 examples, avg conf: 16.9%, min conf: 16.8%
+Smooth-Musc              : 15 examples, avg conf: 16.8%, min conf: 16.8%
+
+HIGH CONFIDENCE SUMMARY
+------------------------------
+Adipocytes               : 15 examples, avg conf: 24.1%, max conf: 26.2%
+Colon-Fibro              : 15 examples, avg conf: 22.1%, max conf: 25.0%
+Endothel                 : 15 examples, avg conf: 27.7%, max conf: 29.5%
+Heart-Fibro              : 15 examples, avg conf: 24.3%, max conf: 26.8%
+Skeletal-Musc            : 15 examples, avg conf: 23.9%, max conf: 28.4%
+Smooth-Musc              : 15 examples, avg conf: 24.7%, max conf: 27.1%

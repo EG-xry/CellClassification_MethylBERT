@@ -1,0 +1,30 @@
+FINAL EVALUATION METRICS
+==================================================
+Overall Accuracy: 0.5296
+Macro F1-Score: 0.5139
+Weighted F1-Score: 0.5348
+Final Loss: 1.4382
+
+PER-CLASS ACCURACY
+------------------------------
+Breast-Basal-Ep          : 0.5236
+Breast-Luminal-Ep        : 0.5135
+Fallopian-Ep             : 0.5377
+Ovary-Ep                 : 0.4632
+Prostate-Ep              : 0.5635
+Thyroid-Ep               : 0.5360
+
+CLASSIFICATION REPORT
+------------------------------
+                   precision    recall  f1-score   support
+
+  Breast-Basal-Ep       0.61      0.52      0.56    150519
+Breast-Luminal-Ep       0.39      0.51      0.44     71731
+     Fallopian-Ep       0.58      0.54      0.56    119178
+         Ovary-Ep       0.33      0.46      0.38     58431
+      Prostate-Ep       0.58      0.56      0.57    118866
+       Thyroid-Ep       0.59      0.54      0.56    142870
+
+         accuracy                           0.53    661595
+        macro avg       0.51      0.52      0.51    661595
+     weighted avg       0.55      0.53      0.53    661595

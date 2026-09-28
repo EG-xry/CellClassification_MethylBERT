@@ -1,12 +1,28 @@
-# Large model weights (kept locally, not committed to keep the repo lean)
+# Model weights (kept locally)
 *.safetensors
 *.pickle
 
-# Raw / large sequencing and reference data (kept locally)
+# Raw sequencing, reference, and large derived data (kept locally; see README "Data sources")
 *.pat.gz
-Pretraining/Data/CpG.bed.gz
-Training/Data/train_seq.csv
-Training/Data/test_seq.csv
+*.fa
+*.fa.fai
+Preprocessing/Data/CpG.bed.gz
+Preprocessing/Run_Result/skeletal_muscle_speed_dedupe_test.csv
+Preprocessing/Run_Result/skeletal_muscle_training_data.csv
+Preprocessing/Run_Result/skeletal_muscle_training_data_deduplicated.csv
+Data/*.csv
+Training/Data/
 
-# OS cruft
+# Local training outputs (the records of every run are in Results/)
+Training/Run_Result/
+Training/res/
+demo/output/
+
+# Not published: superseded docs, and sample IDs from unpublished CTC data
+README/
+Testing/ctc_config.json
+Testing/example_usage.py
+
+# OS and Python cruft
 .DS_Store
+__pycache__/

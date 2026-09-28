@@ -7,7 +7,7 @@ from functools import partial
 import numpy as np
 import pandas as pd
 import torch
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, Sampler
 
 from methylbert.data.vocab import MethylVocab
 
@@ -356,3 +356,107 @@ class MethylBertFinetuneDataset(MethylBertDataset):
 
 		return item
 
+class BalancedBatchSampler(Sampler):
+	"""
+	Balanced batch sampler that ensures equal representation of each class per batch.
+	
+	This sampler creates batches where each class is equally represented, avoiding the need
+	for massive oversampling. Instead of inflating the dataset size, it cycles through
+	classes to create balanced batches efficiently.
+	
+	Args:
+		dataset: The dataset to sample from (must have ctype_label_count and lines attributes)
+		batch_size: Total batch size for training
+		shuffle: Whether to shuffle samples within classes
+		drop_last: Whether to drop the last incomplete batch
+	"""
+	
+	def __init__(self, dataset, batch_size, shuffle=True, drop_last=False):
+		self.dataset = dataset
+		self.batch_size = batch_size
+		self.shuffle = shuffle
+		self.drop_last = drop_last
+		
+		# Get class counts and number of classes
+		self.class_counts = dataset.ctype_label_count.astype(int)
+		self.num_classes = len(self.class_counts)
+		
+		# Pre-compute indices for each class for efficiency
+		self._build_class_indices()
+		
+		# Calculate samples per class per batch
+		self.samples_per_class_per_batch = max(1, self.batch_size // self.num_classes)
+		self.actual_batch_size = self.samples_per_class_per_batch * self.num_classes
+		
+		# Calculate number of batches we can create based on smallest class
+		min_class_size = min(self.class_counts[self.class_counts > 0])
+		self.max_batches = min_class_size // self.samples_per_class_per_batch
+		
+		if not self.drop_last and min_class_size % self.samples_per_class_per_batch > 0:
+			self.max_batches += 1
+		
+		self.total_samples = self.max_batches * self.actual_batch_size
+		
+		print(f"BalancedBatchSampler: {self.num_classes} classes")
+		print(f"Original class distribution: {self.class_counts}")
+		print(f"Samples per class per batch: {self.samples_per_class_per_batch}")
+		print(f"Actual batch size: {self.actual_batch_size} (requested: {batch_size})")
+		print(f"Max batches per epoch: {self.max_batches}")
+		print(f"Total samples per epoch: {self.total_samples}")
+	
+	def _build_class_indices(self):
+		"""Pre-compute indices for each class for efficient sampling."""
+		self.class_indices = [[] for _ in range(self.num_classes)]
+		
+		# Build indices for each class
+		for idx, sample in enumerate(self.dataset.lines):
+			class_label = sample["ctype_label"]
+			self.class_indices[class_label].append(idx)
+		
+		# Convert to numpy arrays
+		self.class_indices = [np.array(indices) for indices in self.class_indices]
+		
+		print(f"Built class indices: {[len(indices) for indices in self.class_indices]}")
+	
+	def __iter__(self):
+		"""Generate balanced samples for one epoch."""
+		# Shuffle class indices if needed
+		if self.shuffle:
+			for class_idx in range(self.num_classes):
+				if len(self.class_indices[class_idx]) > 0:
+					np.random.shuffle(self.class_indices[class_idx])
+		
+		# Create class pointers for cycling through each class
+		class_pointers = [0] * self.num_classes
+		
+		all_indices = []
+		
+		# Generate balanced batches
+		for batch_num in range(self.max_batches):
+			batch_indices = []
+			
+			# Sample from each class for this batch
+			for class_idx in range(self.num_classes):
+				class_indices = self.class_indices[class_idx]
+				if len(class_indices) > 0:
+					# Take samples_per_class_per_batch from this class
+					for _ in range(self.samples_per_class_per_batch):
+						# Cycle through the class indices
+						idx = class_indices[class_pointers[class_idx] % len(class_indices)]
+						batch_indices.append(idx)
+						class_pointers[class_idx] += 1
+			
+			# Shuffle batch indices to mix classes within the batch
+			if self.shuffle and len(batch_indices) > 0:
+				np.random.shuffle(batch_indices)
+			
+			all_indices.extend(batch_indices)
+		
+		return iter(all_indices)
+	
+	def __len__(self):
+		"""Return the total number of samples per epoch."""
+		return self.total_samples
+
+# Legacy alias for backward compatibility
+ClassBalancedSampler = BalancedBatchSampler

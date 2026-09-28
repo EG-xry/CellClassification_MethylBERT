@@ -1,0 +1,30 @@
+FINAL EVALUATION METRICS
+==================================================
+Overall Accuracy: 0.4296
+Macro F1-Score: 0.3461
+Weighted F1-Score: 0.4314
+Final Loss: 2.2416
+
+PER-CLASS ACCURACY
+------------------------------
+Blood-B                  : 0.5887
+Blood-Granul             : 0.3969
+Blood-Mono+Macro         : 0.1593
+Blood-NK                 : 0.2857
+Blood-T                  : 0.1813
+Eryth-prog               : 0.4679
+
+CLASSIFICATION REPORT
+------------------------------
+                  precision    recall  f1-score   support
+
+         Blood-B       0.61      0.59      0.60     51505
+    Blood-Granul       0.38      0.40      0.39     28742
+Blood-Mono+Macro       0.16      0.16      0.16     10572
+        Blood-NK       0.27      0.29      0.28     17214
+         Blood-T       0.18      0.18      0.18     12954
+      Eryth-prog       0.47      0.47      0.47     33770
+
+        accuracy                           0.43    154757
+       macro avg       0.35      0.35      0.35    154757
+    weighted avg       0.43      0.43      0.43    154757

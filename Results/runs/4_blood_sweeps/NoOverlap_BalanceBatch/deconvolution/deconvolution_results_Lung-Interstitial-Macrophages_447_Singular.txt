@@ -1,0 +1,23 @@
+CELL TYPE DECONVOLUTION RESULTS
+============================================================
+Input file: Lung-Interstitial-Macrophages_447_Singular.csv
+Model directory: Training/Run_Result/bert.model
+Device: cuda:0
+Total reads: 152821
+
+FINAL VERDICT:
+  Dominant Cell Type: Class_0
+  Percentage: 40.71%
+  Overall Confidence: 0.235
+
+CELL TYPE BREAKDOWN:
+  Class_0: 62209 reads (40.71%)
+  Class_1: 31742 reads (20.77%)
+  Class_2: 18366 reads (12.02%)
+  Class_3: 16332 reads (10.69%)
+  Class_4: 14403 reads (9.42%)
+  Class_5: 9769 reads (6.39%)
+
+CONFIDENCE ANALYSIS:
+  Overall Average Confidence: 0.235
+  Overall Confidence Std: 0.032

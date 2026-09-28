@@ -1,0 +1,30 @@
+FINAL EVALUATION METRICS
+==================================================
+Overall Accuracy: 0.2378
+Macro F1-Score: 0.2277
+Weighted F1-Score: 0.2305
+Final Loss: 1.2095
+
+PER-CLASS ACCURACY
+------------------------------
+Adipocytes               : 0.1418
+Colon-Fibro              : 0.3015
+Endothel                 : 0.2704
+Heart-Fibro              : 0.3568
+Skeletal-Musc            : 0.1053
+Smooth-Musc              : 0.2330
+
+CLASSIFICATION REPORT
+------------------------------
+               precision    recall  f1-score   support
+
+   Adipocytes       0.20      0.14      0.17     17135
+  Colon-Fibro       0.22      0.30      0.25     18612
+     Endothel       0.30      0.27      0.28     21568
+  Heart-Fibro       0.25      0.36      0.30     19436
+Skeletal-Musc       0.20      0.11      0.14     18470
+  Smooth-Musc       0.23      0.23      0.23     20963
+
+     accuracy                           0.24    116184
+    macro avg       0.23      0.23      0.23    116184
+ weighted avg       0.23      0.24      0.23    116184

@@ -1,0 +1,303 @@
+nohup: ignoring input
+/PUBLIC/shixi_home/gaozhouquan/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-iei2d2mk because there was an issue with the default path (/PUBLIC/shixi_home/gaozhouquan/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up th
+=== MethylBERT Fine-tuning Training ===
+Config file: /PUBLIC/shixi/GSE186458_raw/methylbert_run/focal_manual_config.json
+Training steps: 40000
+Batch size: 128
+Learning rate: 2e-05
+Loss function: focal
+Number of classes: 6
+Use balanced batches: True
+Use balanced test evaluation: False
+========================================
+Creating tokenizer...
+Building Vocab
+Loading training dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  484870
+Created mapping for 6 unique cell types
+# of reads in each label:  [ 77557.  64914.  68982. 100459. 102260.  70698.]
+Total number of unique cell types: 6
+Cell type mapping (first 10): {'Bladder-Ep': 0, 'Breast-Basal-Ep': 1, 'Breast-Luminal-Ep': 2, 'Head-Neck-Ep': 3, 'Lung-Ep-Alveo': 4, 'Prostate-Ep': 5}
+Using balanced batch sampling for training...
+Built class indices: [77557, 64914, 68982, 100459, 102260, 70698]
+BalancedBatchSampler: 6 classes
+Original class distribution: [ 77557  64914  68982 100459 102260  70698]
+Samples per class per batch: 21
+Actual batch size: 126 (requested: 128)
+Max batches per epoch: 3091
+Total samples per epoch: 389466
+Training samples: 484870 (balanced batches: 389466 samples per epoch)
+Loading test dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  161756
+Some weights of MethylBertEmbeddedDMR were not initialized from the model checkpoint at hanyangii/methylbert_hg19_2l and are newly initialized: ['dmr_encoder.0.weight', 'read_classifier.0.bias', 'read_classifier.0.weight', 'read_classifier.3.bias', 'read_classifier.3.weight', 'read_classifier.4.bias
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Created mapping for 6 unique cell types
+# of reads in each label:  [26102. 21886. 22913. 33161. 34065. 23629.]
+Total number of unique cell types: 6
+Cell type mapping (first 10): {'Bladder-Ep': 0, 'Breast-Basal-Ep': 1, 'Breast-Luminal-Ep': 2, 'Head-Neck-Ep': 3, 'Lung-Ep-Alveo': 4, 'Prostate-Ep': 5}
+Using standard (unbalanced) test evaluation...
+Test samples: 161756
+Creating trainer...
+Auto-detected 6 classes from training dataset
+Using CUDA GPU (NVIDIA A40)
+Loading pre-trained model...
+Restore the pretrained model hanyangii/methylbert_hg19_2l
+Loading with 6 classes (from dataset)
+Using explicit seq_len: 250
+Using num_classes from hierarchy: 6
+DMR embedding size: 45265
+Focal loss assigned (softmax-based multiclass)
+Focal weight (per-class) length=6; values: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+Focal gamma: 2.0
+Resolved focal weight (per-class) length=6; values: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+Total Parameters: 75027933
+Optimizer created successfully
+Starting training...
+========================================
+False
+Training Steps:   0%|          | 0/40000 [00:00<?, ?it/s]Training Steps:   0%|          | 0/40000 [00:01<?, ?it/s, eval_acc=nan, eval_loss=nan, loss=1.3053, lr=0.000000, step=0]                                                                                                                        
+    Overall - Loss: 1.3053, Accuracy: 0.183, Avg Confidence: 0.542
+    Per-class breakdown:
+      Bladder-Ep     : Acc=0.095, Conf=0.537, Count= 21
+      Breast-Basal-Ep: Acc=0.048, Conf=0.534, Count= 21
+      Breast-Luminal-Ep: Acc=0.238, Conf=0.544, Count= 21
+      Head-Neck-Ep   : Acc=0.333, Conf=0.553, Count= 21
+      Lung-Ep-Alveo  : Acc=0.381, Conf=0.553, Count= 21
+      Prostate-Ep    : Acc=0.000, Conf=0.531, Count= 21
+
+Train Step 0 - Loss: 1.3053 / LR: 0.000000
+Running time for iter = 0.69s
+Training Steps:   0%|          | 1/40000 [00:01<12:37:13,  1.14s/it, eval_acc=nan, eval_loss=nan, loss=1.3053, lr=0.000000, step=0]Training Steps:   0%|          | 1/40000 [00:01<12:37:13,  1.14s/it, eval_acc=nan, eval_loss=nan, loss=1.3002, lr=0.000000, step=1]Training Steps:   0%|          | 2/
+    Overall - Loss: 1.2903, Accuracy: 0.175, Avg Confidence: 0.541
+    Per-class breakdown:
+      Bladder-Ep     : Acc=0.143, Conf=0.539, Count= 21
+      Breast-Basal-Ep: Acc=0.143, Conf=0.543, Count= 21
+      Breast-Luminal-Ep: Acc=0.286, Conf=0.542, Count= 21
+      Head-Neck-Ep   : Acc=0.190, Conf=0.541, Count= 21
+      Lung-Ep-Alveo  : Acc=0.095, Conf=0.541, Count= 21
+      Prostate-Ep    : Acc=0.190, Conf=0.542, Count= 21
+
+Train Step 500 - Loss: 1.2903 / LR: 0.000001
+Running time for iter = 0.07s
+Training Steps:   1%|▏         | 501/40000 [00:44<57:31, 11.44it/s, eval_acc=nan, eval_loss=nan, loss=1.2903, lr=0.000001, step=500]Training Steps:   1%|▏         | 501/40000 [00:44<57:31, 11.44it/s, eval_acc=nan, eval_loss=nan, loss=1.2204, lr=0.000001, step=501]Training Steps:   1%|▏     
+    Overall - Loss: 1.2471, Accuracy: 0.167, Avg Confidence: 0.542
+    Per-class breakdown:
+      Bladder-Ep     : Acc=0.190, Conf=0.542, Count= 21
+      Breast-Basal-Ep: Acc=0.143, Conf=0.540, Count= 21
+      Breast-Luminal-Ep: Acc=0.238, Conf=0.542, Count= 21
+      Head-Neck-Ep   : Acc=0.190, Conf=0.544, Count= 21
+      Lung-Ep-Alveo  : Acc=0.095, Conf=0.542, Count= 21
+      Prostate-Ep    : Acc=0.143, Conf=0.543, Count= 21
+Training Steps:   2%|▎         | 1000/40000 [01:40<56:35, 11.49it/s, eval_acc=nan, eval_loss=nan, loss=1.2795, lr=0.000002, step=999]                                                                                                                                     Training Steps:   2%|▎    
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:1000 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.1691
+Step 1000: New best evaluation loss (1.2491 < inf). Saving lowest-loss model...
+Saved read classifier to res/bert.model/read_classification_model.pickle
+Saved DMR encoder to res/bert.model/dmr_encoder.pickle
+Step:1000 Lowest-Loss Model Saved at: res/bert.model/ with Loss: 1.2491
+  EVALUATION Results Analysis (Step 1000):
+    Overall - Loss: 1.2491, Accuracy: 0.174, Avg Confidence: 0.542
+    Per-class breakdown:
+      Class_0        : Acc=0.292, Conf=0.544
+      Class_1        : Acc=0.197, Conf=0.542
+      Class_2        : Acc=0.158, Conf=0.541
+      Class_3        : Acc=0.171, Conf=0.542
+      Class_4        : Acc=0.125, Conf=0.541
+      Class_5        : Acc=0.111, Conf=0.541
+
+Train Step 1000 - Loss: 1.2471 / LR: 0.000002
+Running time for iter = 0.07s
+Total elapsed: 0s | ETA: 0s
+Validation - Loss: 1.2491, Accuracy: 0.1739
+Training Steps:   2%|▎         | 1000/40000 [02:03<56:35, 11.49it/s, eval_acc=0.174, eval_loss=1.2491, loss=1.2471, lr=0.000002, step=1000]Training Steps:   3%|▎         | 1001/40000 [02:03<58:24:38,  5.39s/it, eval_acc=0.174, eval_loss=1.2491, loss=1.2471, lr=0.000002, step=1000]Training Ste
+    Overall - Loss: 1.2434, Accuracy: 0.190, Avg Confidence: 0.542
+    Per-class breakdown:
+      Bladder-Ep     : Acc=0.143, Conf=0.540, Count= 21
+      Breast-Basal-Ep: Acc=0.143, Conf=0.541, Count= 21
+      Breast-Luminal-Ep: Acc=0.333, Conf=0.544, Count= 21
+      Head-Neck-Ep   : Acc=0.190, Conf=0.543, Count= 21
+      Lung-Ep-Alveo  : Acc=0.238, Conf=0.542, Count= 21
+      Prostate-Ep    : Acc=0.095, Conf=0.541, Count= 21
+
+Train Step 1500 - Loss: 1.2434 / LR: 0.000003
+Running time for iter = 0.07s
+Training Steps:   4%|▍         | 1501/40000 [02:48<56:43, 11.31it/s, eval_acc=0.174, eval_loss=1.2491, loss=1.2541, lr=0.000003, step=1501]Training Steps:   4%|▍         | 1502/40000 [02:48<56:51, 11.28it/s, eval_acc=0.174, eval_loss=1.2491, loss=1.2541, lr=0.000003, step=1501]Training Steps:
+    Overall - Loss: 1.2103, Accuracy: 0.246, Avg Confidence: 0.543
+    Per-class breakdown:
+      Bladder-Ep     : Acc=0.524, Conf=0.546, Count= 21
+      Breast-Basal-Ep: Acc=0.238, Conf=0.542, Count= 21
+      Breast-Luminal-Ep: Acc=0.143, Conf=0.542, Count= 21
+      Head-Neck-Ep   : Acc=0.143, Conf=0.542, Count= 21
+      Lung-Ep-Alveo  : Acc=0.238, Conf=0.543, Count= 21
+      Prostate-Ep    : Acc=0.190, Conf=0.542, Count= 21
+Training Steps:   5%|▌         | 2000/40000 [03:50<55:57, 11.32it/s, eval_acc=0.174, eval_loss=1.2491, loss=1.2372, lr=0.000004, step=1999]                                                                                                                                           Training Steps: 
+Saved read classifier to res/bert.model/read_classification_model.pickle
+Saved DMR encoder to res/bert.model/dmr_encoder.pickle
+Step:2000 Lowest-Loss Model Saved at: res/bert.model/ with Loss: 1.2421
+  EVALUATION Results Analysis (Step 2000):
+    Overall - Loss: 1.2421, Accuracy: 0.176, Avg Confidence: 0.542
+    Per-class breakdown:
+      Class_0        : Acc=0.345, Conf=0.542
+      Class_1        : Acc=0.192, Conf=0.542
+      Class_2        : Acc=0.278, Conf=0.542
+      Class_3        : Acc=0.097, Conf=0.542
+      Class_4        : Acc=0.102, Conf=0.541
+      Class_5        : Acc=0.091, Conf=0.542
+
+
+[... 1423 lines omitted ...]
+
+      Head-Neck-Ep   : Acc=0.333, Conf=0.570, Count= 21
+      Lung-Ep-Alveo  : Acc=0.429, Conf=0.570, Count= 21
+      Prostate-Ep    : Acc=0.286, Conf=0.551, Count= 21
+
+Train Step 37500 - Loss: 0.9323 / LR: 0.000005
+Running time for iter = 0.07s
+Training Steps:  94%|█████████▍| 37501/40000 [1:16:27<03:39, 11.36it/s, eval_acc=0.281, eval_loss=1.1563, loss=1.0164, lr=0.000005, step=37501]Training Steps:  94%|█████████▍| 37502/40000 [1:16:27<03:40, 11.33it/s, eval_acc=0.281, eval_loss=1.1563, loss=1.01
+    Overall - Loss: 1.0137, Accuracy: 0.317, Avg Confidence: 0.559
+    Per-class breakdown:
+      Bladder-Ep     : Acc=0.286, Conf=0.555, Count= 21
+      Breast-Basal-Ep: Acc=0.238, Conf=0.553, Count= 21
+      Breast-Luminal-Ep: Acc=0.381, Conf=0.561, Count= 21
+      Head-Neck-Ep   : Acc=0.286, Conf=0.555, Count= 21
+      Lung-Ep-Alveo  : Acc=0.524, Conf=0.580, Count= 21
+      Prostate-Ep    : Acc=0.190, Conf=0.550, Count= 21
+Training Steps:  95%|█████████▌| 38000/40000 [1:17:21<02:55, 11.37it/s, eval_acc=0.281, eval_loss=1.1563, loss=0.9487, lr=0.000004, step=37999]                                                                                                                                       
+    Overall - Loss: 1.1562, Accuracy: 0.282, Avg Confidence: 0.556
+    Per-class breakdown:
+      Class_0        : Acc=0.322, Conf=0.558
+      Class_1        : Acc=0.367, Conf=0.567
+      Class_2        : Acc=0.262, Conf=0.553
+      Class_3        : Acc=0.223, Conf=0.551
+      Class_4        : Acc=0.342, Conf=0.562
+      Class_5        : Acc=0.173, Conf=0.549
+
+Train Step 38000 - Loss: 1.0137 / LR: 0.000004
+Running time for iter = 0.07s
+Total elapsed: 1h 15m 38s | ETA: 3m 58s
+Validation - Loss: 1.1562, Accuracy: 0.2817
+Training Steps:  95%|█████████▌| 38000/40000 [1:17:42<02:55, 11.37it/s, eval_acc=0.282, eval_loss=1.1562, loss=1.0137, lr=0.000004, step=38000]Training Steps:  95%|█████████▌| 38001/40000 [1:17:42<3:06:38,  5.60s/it, eval_acc=0.282, eval_loss=1.1562, loss=1.
+    Overall - Loss: 0.9444, Accuracy: 0.365, Avg Confidence: 0.562
+    Per-class breakdown:
+      Bladder-Ep     : Acc=0.333, Conf=0.558, Count= 21
+      Breast-Basal-Ep: Acc=0.619, Conf=0.584, Count= 21
+      Breast-Luminal-Ep: Acc=0.190, Conf=0.551, Count= 21
+      Head-Neck-Ep   : Acc=0.381, Conf=0.559, Count= 21
+      Lung-Ep-Alveo  : Acc=0.333, Conf=0.562, Count= 21
+      Prostate-Ep    : Acc=0.333, Conf=0.559, Count= 21
+
+Train Step 38500 - Loss: 0.9444 / LR: 0.000003
+Running time for iter = 0.07s
+Training Steps:  96%|█████████▋| 38501/40000 [1:18:26<02:12, 11.29it/s, eval_acc=0.282, eval_loss=1.1562, loss=0.9444, lr=0.000003, step=38500]Training Steps:  96%|█████████▋| 38501/40000 [1:18:27<02:12, 11.29it/s, eval_acc=0.282, eval_loss=1.1562, loss=0.86
+    Overall - Loss: 0.9706, Accuracy: 0.333, Avg Confidence: 0.561
+    Per-class breakdown:
+      Bladder-Ep     : Acc=0.429, Conf=0.563, Count= 21
+      Breast-Basal-Ep: Acc=0.524, Conf=0.588, Count= 21
+      Breast-Luminal-Ep: Acc=0.381, Conf=0.559, Count= 21
+      Head-Neck-Ep   : Acc=0.143, Conf=0.550, Count= 21
+      Lung-Ep-Alveo  : Acc=0.286, Conf=0.556, Count= 21
+      Prostate-Ep    : Acc=0.238, Conf=0.553, Count= 21
+Training Steps:  98%|█████████▊| 39000/40000 [1:19:21<01:28, 11.35it/s, eval_acc=0.282, eval_loss=1.1562, loss=0.9843, lr=0.000002, step=38999]                                                                                                                                       
+    Overall - Loss: 1.1569, Accuracy: 0.281, Avg Confidence: 0.557
+    Per-class breakdown:
+      Class_0        : Acc=0.321, Conf=0.558
+      Class_1        : Acc=0.373, Conf=0.567
+      Class_2        : Acc=0.260, Conf=0.552
+      Class_3        : Acc=0.236, Conf=0.552
+      Class_4        : Acc=0.318, Conf=0.562
+      Class_5        : Acc=0.184, Conf=0.549
+
+Train Step 39000 - Loss: 0.9706 / LR: 0.000002
+Running time for iter = 0.07s
+Total elapsed: 1h 17m 38s | ETA: 1m 59s
+Validation - Loss: 1.1569, Accuracy: 0.2812
+Training Steps:  98%|█████████▊| 39000/40000 [1:19:42<01:28, 11.35it/s, eval_acc=0.281, eval_loss=1.1569, loss=0.9706, lr=0.000002, step=39000]Training Steps:  98%|█████████▊| 39001/40000 [1:19:42<1:18:51,  4.74s/it, eval_acc=0.281, eval_loss=1.1569, loss=0.
+    Overall - Loss: 0.9950, Accuracy: 0.389, Avg Confidence: 0.563
+    Per-class breakdown:
+      Bladder-Ep     : Acc=0.571, Conf=0.569, Count= 21
+      Breast-Basal-Ep: Acc=0.429, Conf=0.569, Count= 21
+      Breast-Luminal-Ep: Acc=0.333, Conf=0.557, Count= 21
+      Head-Neck-Ep   : Acc=0.286, Conf=0.553, Count= 21
+      Lung-Ep-Alveo  : Acc=0.619, Conf=0.581, Count= 21
+      Prostate-Ep    : Acc=0.095, Conf=0.549, Count= 21
+
+Train Step 39500 - Loss: 0.9950 / LR: 0.000001
+Running time for iter = 0.07s
+Training Steps:  99%|█████████▉| 39501/40000 [1:20:26<00:44, 11.30it/s, eval_acc=0.281, eval_loss=1.1569, loss=0.9950, lr=0.000001, step=39500]Training Steps:  99%|█████████▉| 39501/40000 [1:20:26<00:44, 11.30it/s, eval_acc=0.281, eval_loss=1.1569, loss=0.91
+
+============================================================
+TRAINING COMPLETED - GENERATING FINAL EVALUATION
+============================================================
+Loading lowest-loss model from res/bert.model/ for final analysis...
+Loading lowest-loss model with 6 classes and 45265 DMR labels
+Lowest-loss model path: res/bert.model/
+Lowest-loss model directory contents:
+  - model.safetensors
+  - dmr_encoder.pickle
+  - config.json
+  - read_classification_model.pickle
+  - plots
+  - train.csv
+  - eval.csv
+Calling MethylBertEmbeddedDMR.from_pretrained...
+Using explicit seq_len: 250
+Using num_classes from hierarchy: 6
+DMR embedding size: 45265
+Model loaded successfully from MethylBertEmbeddedDMR.from_pretrained
+Attempting to load additional components...
+Loading DMR encoder from res/bert.model/dmr_encoder.pickle
+Successfully restored DMR encoder from res/bert.model/dmr_encoder.pickle
+Loading read classifier from res/bert.model/read_classification_model.pickle
+Successfully restored read classifier from res/bert.model/read_classification_model.pickle
+Additional component loading completed
+Total Parameters: 75027933
+Optimizer created successfully
+Successfully loaded lowest-loss model from step 27000
+Using lowest-loss model from step 27000 (Loss: 1.1423) for final analysis
+
+============================================================
+MULTI-CLASS EVALUATION SUMMARY
+============================================================
+Overall Accuracy: 0.2770
+Macro F1-Score: 0.2672
+Weighted F1-Score: 0.2731
+
+Per-Class Accuracy (Top 10):
+  Breast-Basal-Ep     : 0.3891
+  Lung-Ep-Alveo       : 0.3581
+  Bladder-Ep          : 0.3117
+  Breast-Luminal-Ep   : 0.2300
+  Head-Neck-Ep        : 0.2270
+  Prostate-Ep         : 0.1334
+
+Per-Class Accuracy (Bottom 10):
+  Prostate-Ep         : 0.1334
+  Head-Neck-Ep        : 0.2270
+  Breast-Luminal-Ep   : 0.2300
+  Bladder-Ep          : 0.3117
+  Lung-Ep-Alveo       : 0.3581
+  Breast-Basal-Ep     : 0.3891
+============================================================
+Training curves saved to res/bert.model/plots/training_curves.png
+Training curve: reduced from 40000 to 41 points (1 point per 1000 steps max)
+Confusion matrix saved to res/bert.model/plots/confusion_matrix.png
+Confidence analysis saved to: res/bert.model/plots/confidence_analysis.txt
+
+Final evaluation plots and metrics saved to: res/bert.model/plots
+
+Final analysis completed using lowest-loss model from step 27000
+Best F1-score model (step 35000, Macro-F1 Score 0.2781) is saved in bert_best.model/
+Lowest-loss model (step 27000, Loss: 1.1423) is saved in bert.model/
+============================================================
+========================================
+Training completed!
+
+Saving training configuration...
+Saving training parameters to: /PUBLIC/shixi/GSE186458_raw/methylbert_run/res/train_param.txt
+Training parameters saved successfully!
+========================================
+All tasks completed successfully!

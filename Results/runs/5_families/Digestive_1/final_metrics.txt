@@ -1,0 +1,26 @@
+FINAL EVALUATION METRICS
+==================================================
+Overall Accuracy: 0.3946
+Macro F1-Score: 0.3860
+Weighted F1-Score: 0.3923
+Final Loss: 1.2462
+
+PER-CLASS ACCURACY
+------------------------------
+Colon-Ep                 : 0.3446
+Gastric-Ep               : 0.4080
+Lung-Ep-Alveo            : 0.4974
+Small-Int-Ep             : 0.3031
+
+CLASSIFICATION REPORT
+------------------------------
+               precision    recall  f1-score   support
+
+     Colon-Ep       0.31      0.34      0.33     20383
+   Gastric-Ep       0.40      0.41      0.40     28463
+Lung-Ep-Alveo       0.44      0.50      0.47     30264
+ Small-Int-Ep       0.41      0.30      0.35     27048
+
+     accuracy                           0.39    106158
+    macro avg       0.39      0.39      0.39    106158
+ weighted avg       0.40      0.39      0.39    106158

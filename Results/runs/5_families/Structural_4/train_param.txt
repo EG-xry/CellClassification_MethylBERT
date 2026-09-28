@@ -1,0 +1,32 @@
+train_dataset	data/train_Structural.csv
+test_dataset	data/test_Structural.csv
+output_path	res/
+pretrain	hanyangii/methylbert_hg19_2l
+n_encoder	2
+n_mers	3
+seq_len	250
+batch_size	128
+valid_batch	-1
+corpus_lines	None
+loss	focal
+max_grad_norm	1.0
+gradient_accumulation_steps	1
+steps	40000
+num_workers	8
+with_cuda	True
+log_freq	500
+eval_freq	1000
+lr	2e-05
+adam_weight_decay	0.01
+adam_beta1	0.9
+adam_beta2	0.98
+warm_up	10000
+decrease_steps	30000
+seed	950410
+num_classes	6
+use_safetensors	True
+focal_gamma	0.0
+_comment	Example manual weight values for classes - these will be auto-computed based on frequency if not provided
+focal_weight	[1.0, 1.0, 1.0, 0.95, 1.05, 1.0]
+use_balanced_batches	True
+use_balanced_test_eval	False

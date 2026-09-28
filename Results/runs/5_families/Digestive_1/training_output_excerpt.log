@@ -1,0 +1,303 @@
+nohup: ignoring input
+/PUBLIC/shixi_home/gaozhouquan/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-69at9j80 because there was an issue with the default path (/PUBLIC/shixi_home/gaozhouquan/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up th
+=== MethylBERT Fine-tuning Training ===
+Config file: /PUBLIC/shixi/GSE186458_raw/methylbert_run/focal_manual_config.json
+Training steps: 40000
+Batch size: 100
+Learning rate: 2e-05
+Loss function: focal
+Number of classes: 6
+Use balanced batches: True
+Use balanced test evaluation: False
+========================================
+Creating tokenizer...
+Building Vocab
+Loading training dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  317666
+Created mapping for 4 unique cell types
+# of reads in each label:  [60696. 85867. 89938. 81165.]
+Total number of unique cell types: 4
+Cell type mapping (first 10): {'Colon-Ep': 0, 'Gastric-Ep': 1, 'Lung-Ep-Alveo': 2, 'Small-Int-Ep': 3}
+Using balanced batch sampling for training...
+Built class indices: [60696, 85867, 89938, 81165]
+BalancedBatchSampler: 4 classes
+Original class distribution: [60696 85867 89938 81165]
+Samples per class per batch: 25
+Actual batch size: 100 (requested: 100)
+Max batches per epoch: 2427
+Total samples per epoch: 242700
+Training samples: 317666 (balanced batches: 242700 samples per epoch)
+Loading test dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  106158
+Some weights of MethylBertEmbeddedDMR were not initialized from the model checkpoint at hanyangii/methylbert_hg19_2l and are newly initialized: ['dmr_encoder.0.weight', 'read_classifier.0.bias', 'read_classifier.0.weight', 'read_classifier.3.bias', 'read_classifier.3.weight', 'read_classifier.4.bias
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Created mapping for 4 unique cell types
+# of reads in each label:  [20383. 28463. 30264. 27048.]
+Total number of unique cell types: 4
+Cell type mapping (first 10): {'Colon-Ep': 0, 'Gastric-Ep': 1, 'Lung-Ep-Alveo': 2, 'Small-Int-Ep': 3}
+Using standard (unbalanced) test evaluation...
+Test samples: 106158
+Creating trainer...
+Auto-detected 4 classes from training dataset
+Using CUDA GPU (NVIDIA A40)
+Loading pre-trained model...
+Restore the pretrained model hanyangii/methylbert_hg19_2l
+Loading with 4 classes (from dataset)
+Using explicit seq_len: 250
+Using num_classes from hierarchy: 4
+DMR embedding size: 48261
+Focal loss assigned (softmax-based multiclass)
+Focal weight: None (equal class weighting)
+Focal gamma: 2.0
+Focal loss assigned (softmax-based multiclass)
+Focal weight (per-class) length=4; values: [1.0, 1.0, 1.0, 1.0]
+Focal gamma: 0.0
+Resolved focal weight (per-class) length=4; values: [1.0, 1.0, 1.0, 1.0]
+Total Parameters: 75779425
+Optimizer created successfully
+Starting training...
+========================================
+False
+Training Steps:   0%|          | 0/40000 [00:00<?, ?it/s]Training Steps:   0%|          | 0/40000 [00:00<?, ?it/s, eval_acc=nan, eval_loss=nan, loss=1.4334, lr=0.000000, step=0]                                                                                                                        
+    Overall - Loss: 1.4334, Accuracy: 0.230, Avg Confidence: 0.561
+    Per-class breakdown:
+      Colon-Ep       : Acc=0.000, Conf=0.547, Count= 25
+      Gastric-Ep     : Acc=0.440, Conf=0.570, Count= 25
+      Lung-Ep-Alveo  : Acc=0.200, Conf=0.567, Count= 25
+      Small-Int-Ep   : Acc=0.280, Conf=0.562, Count= 25
+
+Train Step 0 - Loss: 1.4334 / LR: 0.000000
+Running time for iter = 0.58s
+Training Steps:   0%|          | 1/40000 [00:00<10:26:24,  1.06it/s, eval_acc=nan, eval_loss=nan, loss=1.4334, lr=0.000000, step=0]Training Steps:   0%|          | 1/40000 [00:01<10:26:24,  1.06it/s, eval_acc=nan, eval_loss=nan, loss=1.4300, lr=0.000000, step=1]Training Steps:   0%|          | 2/
+    Overall - Loss: 1.4284, Accuracy: 0.210, Avg Confidence: 0.561
+    Per-class breakdown:
+      Colon-Ep       : Acc=0.080, Conf=0.558, Count= 25
+      Gastric-Ep     : Acc=0.200, Conf=0.562, Count= 25
+      Lung-Ep-Alveo  : Acc=0.200, Conf=0.557, Count= 25
+      Small-Int-Ep   : Acc=0.360, Conf=0.567, Count= 25
+
+Train Step 500 - Loss: 1.4284 / LR: 0.000001
+Running time for iter = 0.06s
+Training Steps:   1%|▏         | 501/40000 [00:38<49:35, 13.28it/s, eval_acc=nan, eval_loss=nan, loss=1.4284, lr=0.000001, step=500]Training Steps:   1%|▏         | 501/40000 [00:38<49:35, 13.28it/s, eval_acc=nan, eval_loss=nan, loss=1.4073, lr=0.000001, step=501]Training Steps:   1%|▏     
+    Overall - Loss: 1.4009, Accuracy: 0.320, Avg Confidence: 0.562
+    Per-class breakdown:
+      Colon-Ep       : Acc=0.360, Conf=0.563, Count= 25
+      Gastric-Ep     : Acc=0.280, Conf=0.561, Count= 25
+      Lung-Ep-Alveo  : Acc=0.280, Conf=0.562, Count= 25
+      Small-Int-Ep   : Acc=0.360, Conf=0.562, Count= 25
+Training Steps:   2%|▎         | 1000/40000 [01:30<48:52, 13.30it/s, eval_acc=nan, eval_loss=nan, loss=1.3877, lr=0.000002, step=999]                                                                                                                                     Training Steps:   2%|▎    
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:1000 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.2520
+Step 1000: New best evaluation loss (1.3905 < inf). Saving lowest-loss model...
+Saved read classifier to res/bert.model/read_classification_model.pickle
+Saved DMR encoder to res/bert.model/dmr_encoder.pickle
+Step:1000 Lowest-Loss Model Saved at: res/bert.model/ with Loss: 1.3905
+  EVALUATION Results Analysis (Step 1000):
+    Overall - Loss: 1.3905, Accuracy: 0.258, Avg Confidence: 0.562
+    Per-class breakdown:
+      Class_0        : Acc=0.262, Conf=0.562
+      Class_1        : Acc=0.184, Conf=0.561
+      Class_2        : Acc=0.350, Conf=0.564
+      Class_3        : Acc=0.229, Conf=0.562
+
+Train Step 1000 - Loss: 1.4009 / LR: 0.000002
+Running time for iter = 0.06s
+Total elapsed: 0s | ETA: 0s
+Validation - Loss: 1.3905, Accuracy: 0.2578
+Training Steps:   2%|▎         | 1000/40000 [01:40<48:52, 13.30it/s, eval_acc=0.258, eval_loss=1.3905, loss=1.4009, lr=0.000002, step=1000]Training Steps:   3%|▎         | 1001/40000 [01:40<39:48:39,  3.67s/it, eval_acc=0.258, eval_loss=1.3905, loss=1.4009, lr=0.000002, step=1000]Training Ste
+    Overall - Loss: 1.3958, Accuracy: 0.260, Avg Confidence: 0.562
+    Per-class breakdown:
+      Colon-Ep       : Acc=0.200, Conf=0.561, Count= 25
+      Gastric-Ep     : Acc=0.200, Conf=0.563, Count= 25
+      Lung-Ep-Alveo  : Acc=0.400, Conf=0.562, Count= 25
+      Small-Int-Ep   : Acc=0.240, Conf=0.561, Count= 25
+
+Train Step 1500 - Loss: 1.3958 / LR: 0.000003
+Running time for iter = 0.06s
+Training Steps:   4%|▍         | 1501/40000 [02:18<48:30, 13.23it/s, eval_acc=0.258, eval_loss=1.3905, loss=1.3958, lr=0.000003, step=1500]Training Steps:   4%|▍         | 1501/40000 [02:18<48:30, 13.23it/s, eval_acc=0.258, eval_loss=1.3905, loss=1.3932, lr=0.000003, step=1501]Training Steps:
+    Overall - Loss: 1.3721, Accuracy: 0.340, Avg Confidence: 0.563
+    Per-class breakdown:
+      Colon-Ep       : Acc=0.320, Conf=0.562, Count= 25
+      Gastric-Ep     : Acc=0.320, Conf=0.564, Count= 25
+      Lung-Ep-Alveo  : Acc=0.440, Conf=0.564, Count= 25
+      Small-Int-Ep   : Acc=0.280, Conf=0.563, Count= 25
+Training Steps:   5%|▌         | 2000/40000 [03:10<47:25, 13.35it/s, eval_acc=0.258, eval_loss=1.3905, loss=1.3835, lr=0.000004, step=1999]                                                                                                                                           Training Steps: 
+Saved read classifier to res/bert.model/read_classification_model.pickle
+Saved DMR encoder to res/bert.model/dmr_encoder.pickle
+Step:2000 Lowest-Loss Model Saved at: res/bert.model/ with Loss: 1.3869
+  EVALUATION Results Analysis (Step 2000):
+    Overall - Loss: 1.3869, Accuracy: 0.256, Avg Confidence: 0.562
+    Per-class breakdown:
+      Class_0        : Acc=0.399, Conf=0.563
+      Class_1        : Acc=0.172, Conf=0.562
+      Class_2        : Acc=0.394, Conf=0.563
+      Class_3        : Acc=0.084, Conf=0.561
+
+Train Step 2000 - Loss: 1.3721 / LR: 0.000004
+Running time for iter = 0.06s
+Total elapsed: 1m 39s | ETA: 31m 37s
+Validation - Loss: 1.3869, Accuracy: 0.2563
+Training Steps:   5%|▌         | 2000/40000 [03:20<47:25, 13.35it/s, eval_acc=0.256, eval_loss=1.3869, loss=1.3721, lr=0.000004, step=2000]Training Steps:   5%|▌         | 2001/40000 [03:20<38:49:25,  3.68s/it, eval_acc=0.256, eval_loss=1.3869, loss=1.3721, lr=0.000004, step=2000]Training Ste
+    Overall - Loss: 1.3921, Accuracy: 0.270, Avg Confidence: 0.562
+    Per-class breakdown:
+      Colon-Ep       : Acc=0.320, Conf=0.562, Count= 25
+      Gastric-Ep     : Acc=0.320, Conf=0.562, Count= 25
+      Lung-Ep-Alveo  : Acc=0.360, Conf=0.562, Count= 25
+      Small-Int-Ep   : Acc=0.080, Conf=0.562, Count= 25
+
+[... 1192 lines omitted ...]
+
+Train Step 37000 - Loss: 1.0469 / LR: 0.000006
+Running time for iter = 0.06s
+Total elapsed: 1h 0m 4s | ETA: 4m 52s
+Validation - Loss: 1.2634, Accuracy: 0.4048
+Training Steps:  92%|█████████▎| 37000/40000 [1:01:45<03:42, 13.50it/s, eval_acc=0.405, eval_loss=1.2634, loss=1.0469, lr=0.000006, step=37000]Training Steps:  93%|█████████▎| 37001/40000 [1:01:45<2:49:10,  3.38s/it, eval_acc=0.405, eval_loss=1.2634, loss=1.
+    Overall - Loss: 1.0008, Accuracy: 0.550, Avg Confidence: 0.609
+    Per-class breakdown:
+      Colon-Ep       : Acc=0.640, Conf=0.627, Count= 25
+      Gastric-Ep     : Acc=0.360, Conf=0.585, Count= 25
+      Lung-Ep-Alveo  : Acc=0.560, Conf=0.617, Count= 25
+      Small-Int-Ep   : Acc=0.640, Conf=0.605, Count= 25
+
+Train Step 37500 - Loss: 1.0008 / LR: 0.000005
+Running time for iter = 0.06s
+Training Steps:  94%|█████████▍| 37501/40000 [1:02:24<03:12, 12.95it/s, eval_acc=0.405, eval_loss=1.2634, loss=1.0008, lr=0.000005, step=37500]Training Steps:  94%|█████████▍| 37501/40000 [1:02:24<03:12, 12.95it/s, eval_acc=0.405, eval_loss=1.2634, loss=0.98
+    Overall - Loss: 1.0298, Accuracy: 0.520, Avg Confidence: 0.603
+    Per-class breakdown:
+      Colon-Ep       : Acc=0.680, Conf=0.615, Count= 25
+      Gastric-Ep     : Acc=0.520, Conf=0.592, Count= 25
+      Lung-Ep-Alveo  : Acc=0.600, Conf=0.613, Count= 25
+      Small-Int-Ep   : Acc=0.280, Conf=0.593, Count= 25
+Training Steps:  95%|█████████▌| 38000/40000 [1:03:22<02:30, 13.27it/s, eval_acc=0.405, eval_loss=1.2634, loss=1.0817, lr=0.000004, step=37999]                                                                                                                                       
+    Overall - Loss: 1.2661, Accuracy: 0.401, Avg Confidence: 0.590
+    Per-class breakdown:
+      Class_0        : Acc=0.406, Conf=0.586
+      Class_1        : Acc=0.397, Conf=0.590
+      Class_2        : Acc=0.443, Conf=0.597
+      Class_3        : Acc=0.354, Conf=0.584
+
+Train Step 38000 - Loss: 1.0298 / LR: 0.000004
+Running time for iter = 0.06s
+Total elapsed: 1h 1m 44s | ETA: 3m 14s
+Validation - Loss: 1.2661, Accuracy: 0.4007
+Training Steps:  95%|█████████▌| 38000/40000 [1:03:24<02:30, 13.27it/s, eval_acc=0.401, eval_loss=1.2661, loss=1.0298, lr=0.000004, step=38000]Training Steps:  95%|█████████▌| 38001/40000 [1:03:24<1:52:29,  3.38s/it, eval_acc=0.401, eval_loss=1.2661, loss=1.
+    Overall - Loss: 1.0016, Accuracy: 0.480, Avg Confidence: 0.604
+    Per-class breakdown:
+      Colon-Ep       : Acc=0.400, Conf=0.592, Count= 25
+      Gastric-Ep     : Acc=0.640, Conf=0.624, Count= 25
+      Lung-Ep-Alveo  : Acc=0.480, Conf=0.598, Count= 25
+      Small-Int-Ep   : Acc=0.400, Conf=0.605, Count= 25
+
+Train Step 38500 - Loss: 1.0016 / LR: 0.000003
+Running time for iter = 0.06s
+Training Steps:  96%|█████████▋| 38501/40000 [1:04:01<01:51, 13.44it/s, eval_acc=0.401, eval_loss=1.2661, loss=1.0016, lr=0.000003, step=38500]Training Steps:  96%|█████████▋| 38501/40000 [1:04:02<01:51, 13.44it/s, eval_acc=0.401, eval_loss=1.2661, loss=1.09
+    Overall - Loss: 1.1407, Accuracy: 0.460, Avg Confidence: 0.596
+    Per-class breakdown:
+      Colon-Ep       : Acc=0.520, Conf=0.606, Count= 25
+      Gastric-Ep     : Acc=0.440, Conf=0.598, Count= 25
+      Lung-Ep-Alveo  : Acc=0.600, Conf=0.609, Count= 25
+      Small-Int-Ep   : Acc=0.280, Conf=0.573, Count= 25
+Training Steps:  98%|█████████▊| 39000/40000 [1:04:52<01:14, 13.45it/s, eval_acc=0.401, eval_loss=1.2661, loss=1.0161, lr=0.000002, step=38999]                                                                                                                                       
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:39000 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.3996
+  EVALUATION Results Analysis (Step 39000):
+    Overall - Loss: 1.2652, Accuracy: 0.403, Avg Confidence: 0.590
+    Per-class breakdown:
+      Class_0        : Acc=0.394, Conf=0.585
+      Class_1        : Acc=0.419, Conf=0.592
+      Class_2        : Acc=0.438, Conf=0.596
+      Class_3        : Acc=0.354, Conf=0.584
+
+Train Step 39000 - Loss: 1.1407 / LR: 0.000002
+Running time for iter = 0.06s
+Total elapsed: 1h 3m 22s | ETA: 1m 37s
+Validation - Loss: 1.2652, Accuracy: 0.4032
+Training Steps:  98%|█████████▊| 39000/40000 [1:05:03<01:14, 13.45it/s, eval_acc=0.403, eval_loss=1.2652, loss=1.1407, lr=0.000002, step=39000]Training Steps:  98%|█████████▊| 39001/40000 [1:05:03<1:00:12,  3.62s/it, eval_acc=0.403, eval_loss=1.2652, loss=1.
+    Overall - Loss: 1.0569, Accuracy: 0.530, Avg Confidence: 0.602
+    Per-class breakdown:
+      Colon-Ep       : Acc=0.720, Conf=0.625, Count= 25
+      Gastric-Ep     : Acc=0.400, Conf=0.596, Count= 25
+      Lung-Ep-Alveo  : Acc=0.560, Conf=0.607, Count= 25
+      Small-Int-Ep   : Acc=0.440, Conf=0.580, Count= 25
+
+Train Step 39500 - Loss: 1.0569 / LR: 0.000001
+Running time for iter = 0.06s
+Training Steps:  99%|█████████▉| 39501/40000 [1:05:41<00:37, 13.21it/s, eval_acc=0.403, eval_loss=1.2652, loss=1.0569, lr=0.000001, step=39500]Training Steps:  99%|█████████▉| 39501/40000 [1:05:41<00:37, 13.21it/s, eval_acc=0.403, eval_loss=1.2652, loss=0.97
+
+============================================================
+TRAINING COMPLETED - GENERATING FINAL EVALUATION
+============================================================
+Loading lowest-loss model from res/bert.model/ for final analysis...
+Loading lowest-loss model with 4 classes and 48261 DMR labels
+Lowest-loss model path: res/bert.model/
+Lowest-loss model directory contents:
+  - model.safetensors
+  - dmr_encoder.pickle
+  - config.json
+  - read_classification_model.pickle
+  - plots
+  - train.csv
+  - eval.csv
+Calling MethylBertEmbeddedDMR.from_pretrained...
+Using explicit seq_len: 250
+Using num_classes from hierarchy: 4
+DMR embedding size: 48261
+Focal loss assigned (softmax-based multiclass)
+Warning: Model not on device yet, using CPU for focal weights
+Focal weight (per-class) length=4; values: [1.0, 1.0, 1.0, 1.0]
+Focal gamma: 0.0
+Model loaded successfully from MethylBertEmbeddedDMR.from_pretrained
+Attempting to load additional components...
+Loading DMR encoder from res/bert.model/dmr_encoder.pickle
+Successfully restored DMR encoder from res/bert.model/dmr_encoder.pickle
+Loading read classifier from res/bert.model/read_classification_model.pickle
+Successfully restored read classifier from res/bert.model/read_classification_model.pickle
+Additional component loading completed
+Total Parameters: 75779425
+Optimizer created successfully
+Successfully loaded lowest-loss model from step 26000
+Using lowest-loss model from step 26000 (Loss: 1.2462) for final analysis
+
+============================================================
+MULTI-CLASS EVALUATION SUMMARY
+============================================================
+Overall Accuracy: 0.3946
+Macro F1-Score: 0.3860
+Weighted F1-Score: 0.3923
+
+Per-Class Accuracy (Top 10):
+  Lung-Ep-Alveo       : 0.4974
+  Gastric-Ep          : 0.4080
+  Colon-Ep            : 0.3446
+  Small-Int-Ep        : 0.3031
+
+Per-Class Accuracy (Bottom 10):
+  Small-Int-Ep        : 0.3031
+  Colon-Ep            : 0.3446
+  Gastric-Ep          : 0.4080
+  Lung-Ep-Alveo       : 0.4974
+============================================================
+Training curves saved to res/bert.model/plots/training_curves.png
+Training curve: reduced from 40000 to 41 points (1 point per 1000 steps max)
+Confusion matrix saved to res/bert.model/plots/confusion_matrix.png
+Confidence analysis saved to: res/bert.model/plots/confidence_analysis.txt
+
+Final evaluation plots and metrics saved to: res/bert.model/plots
+
+Final analysis completed using lowest-loss model from step 26000
+Best F1-score model (step 39000, Macro-F1 Score 0.3996) is saved in bert_best.model/
+Lowest-loss model (step 26000, Loss: 1.2462) is saved in bert.model/
+============================================================
+========================================
+Training completed!
+
+Saving training configuration...
+Saving training parameters to: /PUBLIC/shixi/GSE186458_raw/methylbert_run/res/train_param.txt
+Training parameters saved successfully!
+========================================
+All tasks completed successfully!

@@ -1,0 +1,2311 @@
+CONFIDENCE PREDICTION ANALYSIS
+================================================================================
+Analysis of low confidence (top 15) and high confidence (top 15) predictions per true cell type
+================================================================================
+
+LOW CONFIDENCE PREDICTIONS
+================================================================================
+Top 15 unique lowest confidence predictions per true cell type
+================================================================================
+
+TRUE CELL TYPE: Liver-Hep
+------------------------------------------------------------
+
+ 1. Confidence: 16.7% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: TTC TCC CCC CCT CTG TGA GAT ATA TAC ACG CGG GGA GAC ACT CTG TGG GGT GTC TCT CTG TGT GTA TAG AGT GTA TAC ACT CTC TCA CAC ACA CAA AAG AGG GGC GCG CGG GGG GGA GAT ATG TGC
+      methyl_seq: 222222222122222222222222222222222220222222
+      dmr_label: 39313
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.7% - Pancreas-Beta
+      16.7% - Liver-Hep ✓
+      16.7% - Pancreas-Alpha
+      16.7% - Pancreas-Delta
+
+ 2. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: AGA GAA AAC ACT CTC TCT CTG TGC GCC CCG CGC GCT CTT TTA TAT ATC TCT CTG TGG GGG GGG GGA GAA AAA AAT ATC TCT CTC TCT CTC TCT CTG TGA GAC ACA CAG AGA GAT ATT TTT TTG TGT GTT TTT TTA TAC ACG
+      methyl_seq: 22222222202222222222222222222222222222222222221
+      dmr_label: 39748
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Liver-Hep ✓
+      16.7% - Pancreas-Acinar
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Beta
+
+ 3. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: GTG TGA GAC ACA CAT ATT TTT TTG TGC GCG CGG GGT GTC TCT CTA TAA AAC ACA CAC ACA CAA AAG AGT GTC TCA CAC ACA CAA AAT ATT TTC TCT CTT TTC TCC CCC CCG CGG GGA GAA AAA AAA AAC ACT CTT TTC TCT
+      methyl_seq: 22222222202222222222222222222222222212222222222
+      dmr_label: 43381
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Pancreas-Beta
+      16.8% - Liver-Hep ✓
+      16.7% - Pancreas-Alpha
+      16.7% - Pancreas-Duct
+
+ 4. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: GCA CAC ACC CCG CGG GGA GAT ATC TCG CGA GAC ACT CTT TTT TTT TTC TCG CGG GGT GTG TGC GCC CCC CCC CCA CAG AGG GGG GGG GGC GCT CTT TTG TGG GGC GCT CTT TTT TTG TGT GTC TCC CCA CAG AGT GTG TGG GGA GAG AGG GGC GCC CCG CGC GCT CTT TTC TCC CCC CCG CGG GGC GCT CTG TGT GTG TGC GCC CCG CGT GTG TGG GGC GCC CCT CTC TCC
+      methyl_seq: 22212222122222221222222222222222222222222222222222221222222022222222122222222
+      dmr_label: 43280
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Delta
+      16.7% - Pancreas-Beta
+      16.5% - Liver-Hep ✓ (not in top 4)
+
+ 5. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: GCA CAG AGC GCC CCT CTC TCG CGC GCC CCT CTC TCT CTC TCA CAG AGG GGG GGG GGT GTG TGC GCG CGC GCC CCC CCA CAT ATC TCT CTG TGT GTT TTC TCA CAC ACA CAC ACG
+      methyl_seq: 22222212222222222222202222222222222221
+      dmr_label: 41710
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.7% - Liver-Hep ✓
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Acinar
+
+ 6. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: TCT CTT TTG TGA GAT ATG TGA GAA AAT ATA TAA AAA AAC ACC CCC CCA CAT ATC TCT CTC TCT CTT TTG TGT GTT TTT TTC TCT CTG TGG GGT GTT TTC TCT CTA TAT ATA TAA AAT ATA TAA AAT ATC TCA CAG AGT GTC TCA CAT ATA TAT ATG TGT GTA TAG AGT GTA TAG AGG GGT GTA TAT ATA TAT ATA TAT ATC TCC CCT CTT TTT TTT TTA TAA AAA AAC ACC CCT CTC TCA CAT ATC TCT CTT TTT TTT TTT TTA TAG AGG GGT GTA TAA AAA AAA AAT ATG TGG GGG GGA GAA AAG AGA GAA AAG AGA GAA AAC ACA CAC ACA CAC ACT CTC TCC CCA CAA AAG AGT GTC TCC CCT CTC TCA CAA AAA AAA AAA AAG AGA GAA AAA AAG AGC GCC CCC CCG
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 39216
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Acinar
+      16.8% - Pancreas-Duct
+      16.7% - Pancreas-Beta
+      16.4% - Liver-Hep ✓ (not in top 4)
+
+ 7. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: AGG GGC GCA CAG AGC GCC CCA CAT ATT TTT TTT TTC TCC CCA CAC ACT CTC TCC CCT CTG TGG GGA GAT ATT TTA TAC ACT CTA TAA AAG AGC GCA CAA AAC ACA CAT ATT TTC TCA CAA AAC ACC CCT CTG TGT GTC TCA CAG AGA GAA AAA AAC ACT CTA TAG AGG GGG GGC GCA CAT ATA TAC ACA CAA AAA AAT ATT TTC TCT CTA TAT ATT TTA TAT ATA TAG AGC GCC CCA CAC ACT CTA TAT ATA TAT ATT TTT TTA TAA AAC ACA CAC ACA CAA AAG AGA GAG AGC GCC CCT CTG TGG GGA GAT ATA TAA AAT ATA TAA AAG AGG GGT GTC TCA CAG AGA GAG AGA GAC ACG CGT GTA TAT ATT TTT TTT TTA TAG AGA GAG
+      methyl_seq: 2222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 39899
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.8% - Pancreas-Duct
+      16.7% - Pancreas-Beta
+      16.7% - Pancreas-Acinar
+      16.4% - Liver-Hep ✓ (not in top 4)
+
+ 8. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: GCC CCA CAG AGC GCA CAC ACG CGC GCC CCT CTT TTT TTA TAC ACG CGC GCT CTC TCT CTC TCG CGC GCC CCT CTG TGG GGC GCA CAC ACT CTC
+      methyl_seq: 2222221222222212222202222222222
+      dmr_label: 43757
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.7% - Pancreas-Alpha
+      16.7% - Pancreas-Duct
+      16.7% - Liver-Hep ✓
+
+ 9. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: TTT TTA TAC ACT CTG TGA GAT ATG TGC GCG CGG GGA GAT ATA TAC ACA CAA AAC ACA CAA AAA AAT ATT TTC TCT CTG TGT GTT TTT TTG TGA GAA AAC ACA CAA AAG AGA GAA AAA AAT ATC TCC CCC CCT CTG TGG GGA GAG AGC GCG CGG GGG GGG GGG GGT GTG TGG GGG GGG GGG
+      methyl_seq: 222222222022222222222222222222222222222222222222212222222222
+      dmr_label: 41924
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Beta
+      16.7% - Liver-Hep ✓
+
+10. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: CTG TGG GGC GCT CTT TTA TAG AGC GCC CCG CGG GGG GGC GCA CAC ACG CGG GGT GTG TGG GGC GCA CAC ACT CTG TGC
+      methyl_seq: 22222222212222202222222222
+      dmr_label: 38463
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.8% - Pancreas-Alpha
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Beta
+      16.4% - Liver-Hep ✓ (not in top 4)
+
+11. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GGA GAC ACA CAT ATG TGG GGC GCC CCC CCG CGA GAA AAG AGA GAT ATG TGA GAG AGG GGG GGC GCC CCA CAG AGG GGG GGA GAC ACG
+      methyl_seq: 22222222202222222222222222220
+      dmr_label: 30452
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Liver-Hep ✓
+      16.8% - Pancreas-Beta
+      16.8% - Pancreas-Acinar
+      16.7% - Pancreas-Delta
+
+12. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: ATC TCA CAT ATT TTC TCA CAG AGA GAC ACG CGG GGC GCA CAC ACA CAG AGA GAC ACC CCA CAC ACC CCC CCC CCG CGG GGT GTC TCC CCA CAG AGA GAC ACG
+      methyl_seq: 2222222221222222222222221222222220
+      dmr_label: 39787
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Duct
+      16.8% - Liver-Hep ✓
+      16.7% - Pancreas-Acinar
+
+13. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: AAG AGG GGA GAG AGA GAG AGT GTT TTC TCG CGA GAG AGC GCA CAA AAG AGC GCA CAC ACC CCT CTT TTG TGA GAC ACC CCG CGC GCT CTA TAC ACG
+      methyl_seq: 22222222212222222222222222022220
+      dmr_label: 38550
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Beta
+      16.8% - Pancreas-Duct
+      16.6% - Pancreas-Acinar
+      16.6% - Liver-Hep ✓ (not in top 4)
+
+14. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: AGT GTG TGG GGT GTG TGT GTT TTC TCC CCG CGA GAC ACC CCT CTT TTC TCA CAG AGA GAG AGG GGA GAG AGC GCT CTG TGG GGA GAG AGG GGT GTT TTA TAT ATT TTG TGG GGA GAG AGA GAA AAA AAA AAT ATG TGG GGC GCA CAA AAG AGC GCC CCC CCA CAG AGG GGT GTT TTT TTG TGT GTA TAA AAA AAG AGT GTT TTT TTC TCC CCA CAG AGA GAA AAC ACA CAT ATT TTA TAA AAA AAA AAG AGC GCC CCT CTC TCT CTG TGT GTC TCG CGA GAA AAT ATG TGA GAA AAA AAC ACC CCA
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 31269
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Liver-Hep ✓
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Delta
+      16.7% - Pancreas-Acinar
+
+15. Confidence: 16.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: AAT ATA TAC ACC CCT CTC TCA CAG AGC GCG CGT GTG TGA GAC ACC CCT CTC TCA CAG AGT GTA TAT ATT TTC TCG CGG GGG GGG GGT GTG TGT GTG TGT GTG TGG
+      methyl_seq: 22222222202222222222222212222222222
+      dmr_label: 41501
+      ctype: Liver-Hep
+    Probability Distribution:
+      16.8% - Pancreas-Acinar
+      16.8% - Pancreas-Beta
+      16.7% - Pancreas-Duct
+      16.6% - Pancreas-Delta
+      16.6% - Liver-Hep ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Pancreas-Acinar
+------------------------------------------------------------
+
+ 1. Confidence: 16.7% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: ATC TCA CAG AGG GGG GGT GTC TCT CTC TCG CGT GTC TCA CAC ACG CGG GGA GAG AGA GAG AGT GTG TGC GCT CTA TAG AGG GGT GTG TGT GTC TCG CGT GTG TGC
+      methyl_seq: 22222222202222022222222222222221222
+      dmr_label: 42985
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.7% - Pancreas-Alpha
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Acinar ✓
+      16.7% - Pancreas-Delta
+
+ 2. Confidence: 16.7% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: CCA CAC ACA CAG AGT GTG TGG GGA GAC ACG CGG GGT GTG TGC GCG CGG GGA GAT ATC TCA CAG AGG GGT GTG TGT GTG TGC GCA CAA AAG AGG GGT GTG TGG GGA GAC ACA CAG AGA GAC ACT CTC TCA CAC ACG CGC GCT CTG TGG GGA GAG AGG GGG GGC
+      methyl_seq: 222222222122220222222222222222222222222222221222222222
+      dmr_label: 30611
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.7% - Pancreas-Delta
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Beta
+      16.7% - Pancreas-Duct
+      16.5% - Pancreas-Acinar ✓ (not in top 4)
+
+ 3. Confidence: 16.7% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: GAG AGG GGT GTG TGA GAC ACA CAG AGC GCG CGT GTG TGC GCG CGG GGC GCA CAG AGC GCC CCC CCT CTC TCG CGC GCA CAG AGC GCC CCC CCT CTT TTG TGC
+      methyl_seq: 2222222221222022222222212222222222
+      dmr_label: 43202
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.7% - Pancreas-Delta
+      16.7% - Pancreas-Alpha
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Beta
+      16.4% - Pancreas-Acinar ✓ (not in top 4)
+
+ 4. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: ATG TGG GGA GAG AGG GGC GCT CTC TCC CCG CGT GTT TTT TTG TGC GCT CTG TGC GCA CAC ACC CCG CGT GTC TCA CAG AGT GTT TTG TGC GCC CCC
+      methyl_seq: 22222222212222222222202222222222
+      dmr_label: 30786
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.8% - Pancreas-Beta
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Alpha
+      16.5% - Pancreas-Acinar ✓ (not in top 4)
+
+ 5. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: GCT CTC TCA CAA AAG AGC GCG CGG GGG GGT GTG TGC GCA CAG AGA GAC ACC CCT CTA TAC ACC CCA CAA AAT ATC TCA CAG AGG GGC GCG CGC GCA CAG AGT GTG TGC GCC
+      methyl_seq: 2222221222222222222222222222202222222
+      dmr_label: 41613
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Acinar ✓
+      16.7% - Pancreas-Beta
+
+ 6. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: GAG AGA GAT ATT TTG TGC GCG CGC GCC CCA CAT ATT TTG TGC GCA CAC ACT CTC TCG CGA GAG AGC GCC CCT CTG TGG GGG GGC
+      methyl_seq: 2222221222222222220222222222
+      dmr_label: 31127
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Beta
+      16.7% - Pancreas-Acinar ✓
+
+ 7. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: ACC CCA CAG AGT GTC TCT CTG TGG GGC GCG CGA GAA AAC ACA CAT ATG TGG GGC GCG CGA GAA AAA AAC ACC CCC CCT CTG TGT GTC
+      methyl_seq: 22222222212222222202222222222
+      dmr_label: 31123
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Alpha
+      16.7% - Pancreas-Beta
+      16.6% - Pancreas-Acinar ✓ (not in top 4)
+
+ 8. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCA CAG AGG GGC GCA CAG AGA GAT ATC TCC CCC CCG CGA GAG AGA GAT ATC TCA CAG AGG GGA GAG AGC GCT CTC TCG CGA GAG AGA GAC ACC CCA CAG AGC GCC CCT
+      methyl_seq: 22222222212222222222222220222222222222212222222222
+      dmr_label: 38963
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.8% - Pancreas-Alpha
+      16.8% - Liver-Hep
+      16.7% - Pancreas-Acinar ✓
+
+ 9. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: TTT TTG TGA GAG AGT GTT TTT TTG TGC GCG CGA GAT ATT TTA TAT ATC TCA CAC ACC CCA CAT ATA TAT ATT TTG TGC GCT CTC TCT CTA TAG AGA GAA AAA AAT ATA TAT ATA TAT ATA TAG AGT GTA TAC ACG
+      methyl_seq: 222222222022222222222222222222222222222222221
+      dmr_label: 39520
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.7% - Pancreas-Acinar ✓
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Beta
+
+10. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: CCC CCA CAG AGC GCT CTC TCC CCT CTC TCG CGG GGG GGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAA AAG AGA GAC ACA CAA AAT ATT TTG TGC GCC CCT CTG TGA GAA AAC ACC CCC CCC CCG CGG GGA GAG AGG GGC GCA CAG AGA GAG AGG
+      methyl_seq: 222222222022222222222222222222222222222222212222222222
+      dmr_label: 44111
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.7% - Pancreas-Beta
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Delta
+      16.6% - Pancreas-Acinar ✓ (not in top 4)
+
+11. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: GAG AGT GTC TCT CTT TTA TAC ACT CTC TCG CGC GCT CTG TGT GTG TGG GGT GTC TCA CAT ATT TTT TTT TTG TGG GGA GAG AGG GGT GTA TAG AGG GGG GGA GAG AGA GAT ATC TCA CAT ATT TTA TAA AAC ACC CCC CCA CAC ACA CAT ATA TAC ACT CTT TTT TTG TGA GAT ATA TAA AAA AAA AAT ATA TAC ACG CGA GAA AAA AAC ACG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222122220
+      dmr_label: 44194
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Liver-Hep
+      16.7% - Pancreas-Delta
+      16.6% - Pancreas-Duct
+      16.6% - Pancreas-Acinar ✓ (not in top 4)
+
+12. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: AGG GGG GGA GAG AGC GCC CCC CCA CAC ACG CGC GCT CTC TCC CCC CCA CAG AGA GAG AGT GTT TTC TCC CCA CAG AGG GGT GTT TTG TGG GGG GGG GGG GGT GTT TTC TCT CTA TAG AGC GCA CAG AGG GGA GAA AAT ATC TCG
+      methyl_seq: 222222222022222222222222222222222222222222222221
+      dmr_label: 39499
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Alpha
+      16.7% - Pancreas-Beta
+      16.4% - Pancreas-Acinar ✓ (not in top 4)
+
+13. Confidence: 16.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GCC CCG CGC GCA CAC ACG CGT GTC TCT CTG TGG GGG GGG GGG GGC GCT CTA TAC ACA CAC ACA CAT ATC TCG CGC GCT CTG TGG GGT GTG TGA GAA AAA AAA
+      methyl_seq: 2022212222222222222222212222222222
+      dmr_label: 43197
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.8% - Pancreas-Acinar ✓
+      16.8% - Pancreas-Duct
+      16.7% - Liver-Hep
+
+14. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: CCG CGA GAG AGG GGA GAT ATG TGT GTG TGT GTC TCT CTG TGC GCA CAT ATG TGC GCC CCT CTT TTA TAT ATA TAA AAG AGC GCA CAT ATA TAT ATT TTC TCT CTT TTG TGG GGT GTT TTC TCA CAT ATT TTT TTA TAC ACT CTG TGA GAG AGA GAT ATC TCC CCC CCA CAC ACA CAG AGA GAG AGA GAA AAG AGT GTT TTC TCA CAA AAT ATA TAT ATC TCT CTA TAG AGA GAG AGT GTT TTA TAA AAG AGC GCA CAA AAA AAT ATA TAA AAA AAA AAA AAA AAT ATA TAA AAG AGT GTT TTG TGT GTT TTC TCT CTT TTG TGT GTT TTT TTC TCA CAA AAG AGG GGA GAC ACC CCA CAA AAG AGC GCT CTC TCG CGG GGG GGA GAC ACA CAT ATG TGA GAA AAA
+      methyl_seq: 122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 41622
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Acinar ✓
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Alpha
+
+15. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: GCC CCA CAC ACT CTG TGA GAG AGG GGC GCG CGA GAC ACC CCC CCC CCA CAG AGC GCC CCG CGG GGT GTG TGG GGT GTG TGA GAC ACA CAC
+      methyl_seq: 222222222022222222212222222222
+      dmr_label: 38303
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Delta
+      16.7% - Pancreas-Duct
+      16.7% - Liver-Hep
+      16.2% - Pancreas-Acinar ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Pancreas-Alpha
+------------------------------------------------------------
+
+ 1. Confidence: 16.7% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GTG TGC GCG CGT GTG TGC GCG CGT GTG TGG GGA GAA AAG AGT GTG TGG GGG GGA GAG AGT GTA TAT ATG TGC GCA CAG AGT GTC TCG
+      methyl_seq: 22122202222222222222222222220
+      dmr_label: 30445
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.7% - Pancreas-Acinar
+      16.7% - Pancreas-Beta
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Duct
+      16.6% - Pancreas-Alpha ✓ (not in top 4)
+
+ 2. Confidence: 16.7% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: ACA CAA AAC ACA CAC ACT CTT TTC TCC CCG CGA GAT ATT TTA TAC ACC CCA CAT ATC TCC CCA CAA AAA AAA AAG AGT GTT TTT TTT TTG TGC GCG CGA GAT ATT TTT TTT TTT TTG TGA GAA AAT
+      methyl_seq: 222222222022222222222222222222212222222222
+      dmr_label: 43859
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.7% - Pancreas-Alpha ✓
+      16.7% - Pancreas-Duct
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Delta
+
+ 3. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: AAC ACT CTA TAG AGA GAG AGG GGG GGC GCG CGG GGT GTG TGC GCC CCC CCC CCC CCA CAT ATG TGT GTA TAA AAG AGA GAA AAG AGA GAG AGC GCT CTA TAA AAC ACA CAG AGT GTT TTG TGG GGC GCC CCG
+      methyl_seq: 22222222202222222222222222222222222222222221
+      dmr_label: 39590
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Pancreas-Alpha ✓
+      16.7% - Pancreas-Duct
+      16.6% - Pancreas-Beta
+      16.6% - Pancreas-Delta
+
+ 4. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: GCG CGG GGA GAC ACA CAG AGT GTA TAA AAG AGA GAA AAT ATG TGG GGA GAC ACA CAT ATG TGG GGA GAG AGG GGC GCA CAG AGC GCC CCC CCC CCG CGA GAT ATG TGA GAT ATT TTT TTT TTG TGT
+      methyl_seq: 022222222222222222222222222222212222222222
+      dmr_label: 41913
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Pancreas-Alpha ✓
+      16.8% - Pancreas-Beta
+      16.7% - Pancreas-Duct
+      16.6% - Pancreas-Delta
+
+ 5. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: GAG AGA GAG AGC GCC CCC CCG CGC GCC CCA CAC ACA CAC ACA CAC ACG CGT GTG TGA GAG AGG GGC GCC CCG CGT GTA TAG AGC GCA CAT ATT TTA TAT ATT TTC TCA CAT ATT TTT TTT TTC TCC CCG
+      methyl_seq: 2222221222222220222222202222222222222222221
+      dmr_label: 43320
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Pancreas-Alpha ✓
+      16.8% - Liver-Hep
+      16.7% - Pancreas-Delta
+      16.6% - Pancreas-Beta
+
+ 6. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: CCA CAC ACC CCT CTA TAG AGG GGC GCC CCG CGA GAA AAG AGC GCT CTC TCC CCA CAC ACA CAC ACT CTC TCA CAT ATC TCC CCC CCA CAG AGG GGC GCC CCC CCG CGG GGC GCC CCC
+      methyl_seq: 222222222122222222222222222222222202222
+      dmr_label: 43013
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.7% - Pancreas-Alpha ✓
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Beta
+
+ 7. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: CCC CCA CAG AGC GCA CAC ACT CTT TTC TCG CGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCA CAA AAG AGC GCA CAG AGA GAT ATC TCA CAT ATG TGA GAC ACG
+      methyl_seq: 2222222221222222202222222222222222221
+      dmr_label: 41463
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.8% - Pancreas-Alpha ✓
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Beta
+
+ 8. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: GTC TCA CAT ATG TGA GAG AGG GGC GCC CCG CGA GAA AAG AGG GGC GCA CAT ATA TAG AGC GCC CCG CGT GTG TGT GTG TGC GCT CTG TGT GTA TAC
+      methyl_seq: 22222222212222222222202222222222
+      dmr_label: 39072
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.7% - Pancreas-Alpha ✓
+      16.7% - Pancreas-Delta
+      16.7% - Liver-Hep
+
+ 9. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: TTC TCC CCC CCA CAG AGC GCC CCT CTC TCG CGG GGC GCC CCC CCA CAT ATT TTT TTC TCT CTT TTG TGG GGT GTG TGC GCT CTT TTG TGT GTC TCA CAG AGT GTC TCT CTG TGT GTG TGT GTA TAG AGA GAT ATC TCC CCC CCT CTG TGA GAT ATG TGA GAT ATA TAT ATG TGT GTC TCC CCT CTC TCT CTC TCG CGC GCT CTT TTT TTT TTC TCA CAC ACA CAT
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 40225
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Pancreas-Beta
+      16.7% - Pancreas-Delta
+      16.7% - Pancreas-Alpha ✓
+      16.7% - Pancreas-Duct
+
+10. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: AGT GTG TGG GGT GTG TGT GTT TTC TCC CCG CGA GAC ACC CCT CTT TTC TCA CAG AGA GAG AGG GGA GAG AGC GCT CTG TGG GGA GAG AGG GGT GTT TTA TAT ATT TTG TGG GGA GAG AGA GAA AAA AAA AAT ATG TGG GGC GCA CAA AAG AGC GCC CCC CCA CAG AGG GGT GTT TTT TTG TGT GTA TAA AAA AAG AGT GTT TTT TTC TCC CCA CAG AGA GAA AAC ACA CAT ATT TTA TAA AAA AAA AAG AGC GCC CCT CTC TCT CTG TGT GTC TCG CGA GAA AAT ATG TGA GAA AAA AAC ACC CCA
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 31269
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.8% - Pancreas-Alpha ✓
+      16.8% - Pancreas-Delta
+      16.7% - Pancreas-Acinar
+
+11. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: GAC ACG CGT GTG TGG GGC GCA CAA AAG AGA GAC ACT CTG TGC GCT CTC TCC CCA CAC ACA CAT ATT TTA TAC ACG
+      methyl_seq: 2022222222222222222222221
+      dmr_label: 43418
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Alpha ✓
+      16.7% - Pancreas-Beta
+
+12. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: GGA GAC ACC CCC CCA CAC ACG CGA GAG AGT GTC TCA CAG AGT GTC TCT CTG TGA GAT ATA TAA AAT ATG TGA GAG AGG GGC GCT CTC TCA CAG AGG GGG GGG GGC GCC CCC CCG
+      methyl_seq: 22222212222222222222222222222222222220
+      dmr_label: 38908
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Beta
+      16.7% - Pancreas-Alpha ✓
+      16.7% - Liver-Hep
+
+13. Confidence: 16.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: AGA GAA AAC ACT CTG TGT GTT TTA TAC ACG CGG GGT GTC TCT CTC TCA CAA AAG AGC GCT CTC TCT CTA TAA AAA AAG AGC GCT CTC TCA CAT ATA TAT ATA TAC ACT CTT TTT TTA TAT ATT TTC TCA CAT ATA TAG AGG GGA GAG AGA GAC ACT CTC TCC CCC CCA CAC ACA CAG AGA GAT ATC TCA CAT ATA TAT ATT TTC TCA CAT ATA TAC ACT CTA TAT ATA TAT ATT TTA TAT ATA TAG AGT GTA TAG AGT GTT TTA TAT ATA TAA AAA AAT ATT TTT TTT TTT TTA TAT ATC TCT CTT TTA TAA AAA AAA AAA AAG AGA GAA AAA AAC ACA CAA AAC ACT CTC TCT CTA TAA AAA AAA AAT ATT TTT TTA TAT ATC TCA CAT ATG TGA GAT ATC TCT CTC TCA
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 41659
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Pancreas-Acinar
+      16.8% - Pancreas-Alpha ✓
+      16.7% - Pancreas-Duct
+      16.6% - Liver-Hep
+
+14. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: CCC CCT CTG TGG GGC GCT CTT TTT TTC TCG CGT GTC TCC CCT CTG TGT GTT TTT TTC TCA CAT ATG TGA GAG AGG GGA GAT ATG TGG GGC GCC CCC CCC CCT CTT TTG TGG GGA GAC ACT CTC TCT CTC TCA CAC ACC CCG CGT GTG TGA GAG AGC GCC CCC
+      methyl_seq: 222222222022222222222222222222222222222222222212222222
+      dmr_label: 39762
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Alpha ✓
+      16.8% - Pancreas-Beta
+      16.7% - Pancreas-Delta
+
+15. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GGC GCA CAT ATG TGA GAA AAC ACC CCC CCG CGG GGG GGA GAG AGG GGC GCA CAG AGA GAG AGC GCT CTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC TCG
+      methyl_seq: 2222222220222222222222222222222220222221
+      dmr_label: 44130
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.7% - Pancreas-Beta
+      16.7% - Pancreas-Alpha ✓
+      16.7% - Pancreas-Acinar
+
+============================================================
+
+TRUE CELL TYPE: Pancreas-Beta
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: GAG AGG GGG GGG GGT GTT TTC TCC CCC CCG CGC GCA CAG AGC GCC CCG CGT GTG TGT GTG TGA GAT ATC TCG CGG GGA GAA AAG AGA GAG AGG GGC
+      methyl_seq: 22222222212222202222222122222222
+      dmr_label: 43731
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Liver-Hep
+      16.7% - Pancreas-Delta
+      16.7% - Pancreas-Duct
+      16.6% - Pancreas-Beta ✓ (not in top 4)
+
+ 2. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: CTA TAA AAA AAT ATA TAG AGT GTA TAC ACG CGT GTG TGT GTT TTT TTA TAC ACA CAT ATA TAC ACC CCA CAG AGA GAG AGT GTT TTG TGC GCC CCC CCA CAC ACG CGG GGT GTA TAA AAC ACA CAA AAC ACC CCT
+      methyl_seq: 222222222022222222222222222222222212222222222
+      dmr_label: 43080
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Acinar
+      16.7% - Pancreas-Alpha
+      16.6% - Pancreas-Delta
+      16.6% - Pancreas-Beta ✓ (not in top 4)
+
+ 3. Confidence: 16.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: ACA CAG AGA GAG AGA GAG AGG GGC GCC CCG CGC GCG CGG GGC GCT CTG TGG GGG GGT GTG TGC GCG CGC GCA CAG AGA GAA AAC ACT CTA TAC ACG
+      methyl_seq: 22222222202022222222212222222221
+      dmr_label: 43271
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Acinar
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Alpha
+      16.7% - Liver-Hep
+      16.6% - Pancreas-Beta ✓ (not in top 4)
+
+ 4. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: ATC TCT CTG TGG GGG GGA GAG AGA GAC ACG CGG GGG GGC GCA CAC ACT CTC TCG CGG GGT GTG TGC GCC CCA CAG AGG GGC GCA
+      methyl_seq: 2222222220222222212222222222
+      dmr_label: 42056
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.8% - Liver-Hep
+      16.8% - Pancreas-Delta
+      16.7% - Pancreas-Beta ✓
+
+ 5. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: GCC CCT CTG TGT GTG TGA GAC ACA CAC ACG CGG GGC GCC CCC CCT CTC TCA CAG AGG GGA GAG AGA GAT ATC TCC CCT CTG TGA GAG AGA GAA AAC ACT CTT TTG TGT GTG TGC GCC CCC CCA CAA AAG AGG GGT GTA TAG AGT GTC TCG
+      methyl_seq: 22222222212222222222222222222222222222222222222220
+      dmr_label: 30818
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Beta ✓
+      16.8% - Pancreas-Delta
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Alpha
+
+ 6. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: TCT CTT TTG TGA GAT ATG TGA GAA AAT ATA TAA AAA AAC ACC CCC CCA CAT ATC TCT CTC TCT CTT TTG TGT GTT TTT TTC TCT CTG TGG GGT GTT TTC TCT CTA TAT ATA TAA AAT ATA TAA AAT ATC TCA CAG AGT GTC TCA CAT ATA TAT ATG TGT GTA TAG AGT GTA TAG AGG GGT GTA TAT ATA TAT ATA TAT ATC TCC CCT CTT TTT TTT TTA TAA AAA AAC ACC CCT CTC TCA CAT ATC TCT CTT TTT TTT TTT TTA TAG AGG GGT GTA TAA AAA AAA AAT ATG TGG GGG GGA GAA AAG AGA GAA AAG AGA GAA AAC ACA CAC ACA CAC ACT CTC TCC CCA CAA AAG AGT GTC TCC CCT CTC TCA CAA AAA AAA AAA AAG AGA GAA AAA AAG AGC GCC CCC CCG
+      methyl_seq: 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 39216
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Acinar
+      16.8% - Pancreas-Duct
+      16.7% - Pancreas-Beta ✓
+
+ 7. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: GGC GCA CAG AGA GAG AGC GCC CCA CAC ACG CGC GCA CAT ATG TGT GTG TGT GTG TGC GCT CTC TCC CCA CAG AGT GTG TGC GCG CGC GCC CCT CTG TGA GAC ACT CTC TCC CCA CAG AGG GGG GGT GTC TCC CCT CTC TCG
+      methyl_seq: 22222222212222222222222222212222222222222222220
+      dmr_label: 31008
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Beta ✓
+      16.8% - Pancreas-Delta
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Alpha
+
+ 8. Confidence: 16.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GCA CAC ACG CGC GCG CGC GCA CAC ACG CGC GCA CAC ACA CAC ACA CAC ACG CGT GTC TCC CCT CTA TAG AGT GTA TAG AGA GAA AAT ATT TTA TAG AGA GAA AAA AAG AGA GAG AGA GAA AAA AAT ATC TCA CAT ATT TTG TGC GCA CAA AAC ACT CTG TGC GCC CCT CTC TCT CTT TTC TCA CAC ACT CTG TGT GTT TTG TGC GCT CTC TCA CAA AAT ATG TGA GAA AAG AGT GTA TAT ATC TCG CGG GGT GTC TCA CAA AAA AAG AGA GAG AGC
+      methyl_seq: 22020222122222221222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 30525
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Acinar
+      16.8% - Pancreas-Beta ✓
+      16.7% - Pancreas-Delta
+      16.7% - Liver-Hep
+
+ 9. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: TGC GCA CAG AGC GCT CTG TGC GCA CAC ACG CGA GAG AGT GTT TTA TAG AGG GGG GGT GTC TCG CGG GGT GTG TGT GTT TTC TCC CCT CTT TTG TGG GGA GAC ACG CGG GGG GGA GAA AAG AGA GAG AGA GAC ACA CAG AGG GGC GCA CAG AGG GGA GAG AGT GTC TCG
+      methyl_seq: 22222222202222222222122222222222221222222222222222222220
+      dmr_label: 38397
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Beta ✓
+      16.8% - Pancreas-Alpha
+      16.7% - Pancreas-Duct
+      16.7% - Liver-Hep
+
+10. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GGG GGT GTT TTA TAT ATC TCG CGT GTC TCT CTG TGA GAG AGA GAT ATC TCG CGA GAG AGA GAG AGA GAC ACG CGG GGT GTG TGT GTC TCC CCT CTC TCT CTC TCT CTG TGT GTT TTC TCA CAC ACG
+      methyl_seq: 222222022222222202222221222222222222222221
+      dmr_label: 42704
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.8% - Pancreas-Duct
+      16.7% - Pancreas-Acinar
+      16.7% - Pancreas-Delta
+      16.3% - Pancreas-Beta ✓ (not in top 4)
+
+11. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: TGT GTC TCA CAG AGC GCA CAA AAA AAC ACG CGA GAT ATA TAA AAT ATC TCT CTT TTC TCT CTA TAT ATT TTT TTC TCA CAC ACC CCC CCT CTT TTC TCT CTC TCA CAG AGG GGA GAT ATC TCG CGG GGT GTT TTT TTT TTG TGG GGT GTG TGA GAC ACC CCA CAA AAT ATC TCC CCT CTA TAT ATT TTG TGC GCT CTA TAC ACG
+      methyl_seq: 22222222202222222222222222222222222222221222222222222222222222222221
+      dmr_label: 38363
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Duct
+      16.7% - Pancreas-Beta ✓
+      16.7% - Pancreas-Delta
+
+12. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: GCA CAC ACC CCG CGG GGC GCC CCA CAG AGC GCG CGG GGC GCT CTA TAC ACC CCG CGT GTG TGC GCC CCG CGG GGA GAC ACA CAA AAT ATG TGC GCA CAA
+      methyl_seq: 222122222212222221222202222222222
+      dmr_label: 39480
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.8% - Pancreas-Duct
+      16.8% - Liver-Hep
+      16.6% - Pancreas-Alpha
+      16.5% - Pancreas-Beta ✓ (not in top 4)
+
+13. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: CTC TCA CAG AGC GCC CCA CAG AGT GTC TCG CGC GCT CTA TAT ATG TGC GCA CAG AGC GCA CAC ACT CTT TTT TTC TCG CGG GGA GAC ACC CCA CAG AGG GGG GGA GAC ACT CTA TAG AGA GAC ACA CAT ATC TCA CAA AAA AAG AGC GCA CAG AGC GCG
+      methyl_seq: 22222222212222222222222221222222222222222222222222220
+      dmr_label: 30999
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.7% - Pancreas-Alpha
+      16.7% - Pancreas-Duct
+      16.6% - Pancreas-Acinar
+      16.5% - Pancreas-Beta ✓ (not in top 4)
+
+14. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: AGG GGT GTG TGC GCT CTT TTG TGG GGC GCG CGT GTG TGG GGA GAG AGC GCA CAC ACT CTC TCG CGT GTG TGG GGC GCC CCT CTT TTT TTG TGC GCG CGG GGC GCA CAT ATT TTG TGT GTG TGT GTG
+      methyl_seq: 222222222022222222221222222222212222222222
+      dmr_label: 39134
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Delta
+      16.8% - Liver-Hep
+      16.8% - Pancreas-Duct
+      16.6% - Pancreas-Alpha
+      16.6% - Pancreas-Beta ✓ (not in top 4)
+
+15. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: AAA AAA AAC ACA CAC ACT CTG TGT GTC TCG CGG GGA GAC ACT CTT TTG TGC GCT CTT TTT TTC TCT CTG TGC GCT CTT TTT TTA TAT ATG TGA GAT ATG TGT GTC TCC CCG
+      methyl_seq: 2222222221222222222222222222222222220
+      dmr_label: 38891
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Acinar
+      16.8% - Pancreas-Delta
+      16.6% - Pancreas-Beta ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Pancreas-Delta
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: AAA AAC ACT CTG TGC GCC CCA CAT ATC TCG CGT GTT TTT TTT TTA TAA AAT ATA TAA AAT ATC TCT CTT TTT TTT TTC TCC CCT CTT TTC TCT CTG TGC GCC CCA CAG AGT GTT TTT TTT TTA TAA AAT ATA TAT ATC TCT CTA TAG AGC GCC CCA CAT ATA TAG AGG GGG GGG GGC GCA CAG AGG GGG GGG GGA GAA AAA AAC ACA CAA AAT ATA TAT ATA TAA AAT ATG TGG GGA GAT ATT TTT TTG TGC GCT CTG TGA GAC ACA CAC ACA CAT ATG TGG GGA GAT ATA TAT ATT TTT TTA TAA AAA AAA AAG AGC GCC CCC CCT CTT TTG TGT GTT TTG TGC GCA CAA AAT ATA TAT ATC TCA CAT ATA TAG AGT GTG TGA GAT ATT TTC TCC CCA CAC ACA CAA AAT ATG TGA GAT ATT TTC TCC CCA CAA AAA AAA AAC ACT CTT TTG TGT GTG TGG GGG GGC GCT
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 38738
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Beta
+      16.7% - Pancreas-Acinar
+      16.6% - Pancreas-Delta ✓ (not in top 4)
+
+ 2. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: AGA GAA AAA AAT ATA TAA AAC ACC CCC CCG CGG GGG GGG GGC GCA CAG AGA GAG AGG GGT GTG TGA GAG AGA GAG AGC GCA CAG AGG GGC GCT CTG TGG GGG GGC GCA CAT ATG TGC GCT CTG TGG GGC GCT CTC TCA CAC ACG
+      methyl_seq: 222222222022222222222222222222222222222222222221
+      dmr_label: 38814
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.7% - Pancreas-Delta ✓
+      16.7% - Liver-Hep
+      16.6% - Pancreas-Alpha
+
+ 3. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: TGT GTT TTG TGG GGG GGC GCT CTC TCC CCG CGT GTG TGT GTT TTG TGA GAG AGA GAA AAC ACA CAC ACA CAC ACA CAG AGA GAT ATA TAA AAA AAT ATG TGT GTC TCG CGG GGT GTC TCC CCC CCA CAG AGC
+      methyl_seq: 22222222212222222222222222222222222022222222
+      dmr_label: 41614
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Beta
+      16.8% - Pancreas-Delta ✓
+      16.7% - Pancreas-Alpha
+      16.6% - Pancreas-Acinar
+
+ 4. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: TTT TTG TGA GAG AGT GTT TTT TTG TGC GCG CGA GAT ATT TTA TAT ATC TCA CAC ACC CCA CAT ATA TAT ATT TTG TGC GCT CTC TCT CTA TAG AGA GAA AAA AAT ATA TAT ATA TAT ATA TAG AGT GTA TAC ACG
+      methyl_seq: 222222222022222222222222222222222222222222221
+      dmr_label: 39520
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.7% - Pancreas-Acinar
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Beta
+      16.6% - Pancreas-Delta ✓ (not in top 4)
+
+ 5. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: GAA AAA AAC ACT CTA TAC ACT CTA TAC ACG CGT GTT TTT TTT TTC TCT CTG TGC GCA CAG AGT GTC TCT CTT TTA TAC ACC CCT CTG TGT GTT TTT TTC TCA CAG AGA GAG AGC GCG CGT GTG TGG GGT GTG TGG GGA GAG AGA GAA
+      methyl_seq: 2222222221222222222222222222222222222202222222222
+      dmr_label: 38283
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Beta
+      16.8% - Pancreas-Delta ✓
+      16.7% - Pancreas-Alpha
+      16.6% - Pancreas-Acinar
+
+ 6. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: CCG CGA GAG AGG GGA GAT ATG TGT GTG TGT GTC TCT CTG TGC GCA CAT ATG TGC GCC CCT CTT TTA TAT ATA TAA AAG AGC GCA CAT ATA TAT ATT TTC TCT CTT TTG TGG GGT GTT TTC TCA CAT ATT TTT TTA TAC ACT CTG TGA GAG AGA GAT ATC TCC CCC CCA CAC ACA CAG AGA GAG AGA GAA AAG AGT GTT TTC TCA CAA AAT ATA TAT ATC TCT CTA TAG AGA GAG AGT GTT TTA TAA AAG AGC GCA CAA AAA AAT ATA TAA AAA AAA AAA AAA AAT ATA TAA AAG AGT GTT TTG TGT GTT TTC TCT CTT TTG TGT GTT TTT TTC TCA CAA AAG AGG GGA GAC ACC CCA CAA AAG AGC GCT CTC TCG CGG GGG GGA GAC ACA CAT ATG TGA GAA AAA
+      methyl_seq: 122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 41622
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Acinar
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Alpha
+      16.5% - Pancreas-Delta ✓ (not in top 4)
+
+ 7. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: AAA AAC ACA CAG AGC GCA CAC ACA CAC ACG CGT GTT TTA TAG AGG GGA GAG AGG GGC GCA CAG AGA GAA AAC ACC CCC CCC CCC CCA CAG AGA GAT ATC TCC CCG CGT GTG TGG GGC GCC CCT CTT TTG TGG GGT GTC TCG CGA GAG AGT GTT TTC TCA CAC ACA CAT ATG
+      methyl_seq: 222222222022222222222222222222222212222222222212222222222
+      dmr_label: 41990
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Beta
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Delta ✓
+      16.7% - Liver-Hep
+
+ 8. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: TGT GTC TCA CAG AGC GCA CAA AAA AAC ACG CGA GAT ATA TAA AAT ATC TCT CTT TTC TCT CTA TAT ATT TTT TTC TCA CAC ACC CCC CCT CTT TTC TCT CTC TCA CAG AGG GGA GAT ATC TCG CGG GGT GTT TTT TTT TTG TGG GGT GTG TGA GAC ACC CCA CAA AAT ATC TCC CCT CTA TAT ATT TTG TGC GCT CTA TAC ACG
+      methyl_seq: 22222222202222222222222222222222222222221222222222222222222222222221
+      dmr_label: 38363
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Duct
+      16.7% - Pancreas-Beta
+      16.7% - Pancreas-Delta ✓
+
+ 9. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: GGT GTG TGA GAG AGA GAG AGT GTT TTC TCG CGT GTG TGA GAA AAC ACA CAT ATG TGC GCA CAG AGG GGC GCG CGG GGA GAG AGG GGA GAG AGG GGG GGT GTG
+      methyl_seq: 2222222221222222222222202222222222
+      dmr_label: 31112
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Beta
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Alpha
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Delta ✓ (not in top 4)
+
+10. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: CTG TGT GTG TGT GTG TGC GCT CTC TCC CCG CGG GGT GTT TTG TGT GTT TTG TGC GCA CAT ATC TCC CCG CGA GAG AGG GGG GGT GTT TTG TGA GAT ATC TCG
+      methyl_seq: 2222222221222222222222022222222220
+      dmr_label: 42566
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.7% - Pancreas-Acinar
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Delta ✓
+
+11. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: TGA GAC ACC CCC CCA CAC ACC CCA CAC ACG CGG GGC GCT CTC TCT CTG TGG GGA GAG AGT GTC TCG CGG GGA GAT ATT TTT TTC TCC CCA CAC ACC
+      methyl_seq: 22222222202222222222212222222222
+      dmr_label: 31244
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Delta ✓
+      16.8% - Pancreas-Alpha
+      16.7% - Pancreas-Beta
+      16.7% - Pancreas-Duct
+
+12. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: GTT TTT TTA TAT ATA TAG AGC GCT CTC TCG CGA GAT ATA TAG AGT GTG TGT GTG TGT GTT TTC TCT CTC TCT CTA TAA AAG AGA GAC ACT CTC TCT CTG TGT GTA TAC ACT CTC TCA CAT ATT TTT TTA TAT ATA TAT ATA TAA AAA AAA AAG AGG GGA GAT ATT TTT TTA TAA AAA AAA AAT ATC TCT CTT TTT TTG TGT GTA TAA AAT ATA TAA AAA AAC ACC CCT CTG TGT GTT TTC TCA CAT ATT TTA TAA AAA AAC ACA CAA AAA AAA AAC ACT CTT TTC TCA CAC ACA CAG AGA GAA AAA AAT ATG TGA GAG AGT GTC TCA CAT ATT TTC TCT CTG TGG GGG GGT GTA TAG AGC GCC CCA CAA AAA AAC ACT CTT TTT TTC TCT
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 44044
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Duct
+      16.8% - Pancreas-Delta ✓
+      16.7% - Pancreas-Acinar
+      16.6% - Pancreas-Alpha
+
+13. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: AGT GTG TGG GGT GTG TGT GTT TTC TCC CCG CGA GAC ACC CCT CTT TTC TCA CAG AGA GAG AGG GGA GAG AGC GCT CTG TGG GGA GAG AGG GGT GTT TTA TAT ATT TTG TGG GGA GAG AGA GAA AAA AAA AAT ATG TGG GGC GCA CAA AAG AGC GCC CCC CCA CAG AGG GGT GTT TTT TTG TGT GTA TAA AAA AAG AGT GTT TTT TTC TCC CCA CAG AGA GAA AAC ACA CAT ATT TTA TAA AAA AAA AAG AGC GCC CCT CTC TCT CTG TGT GTC TCG CGA GAA AAT ATG TGA GAA AAA AAC ACC CCA
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 31269
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Delta ✓
+      16.7% - Pancreas-Acinar
+
+14. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GCA CAG AGA GAG AGA GAA AAT ATG TGC GCG CGA GAC ACT CTG TGC GCA CAG AGA GAC ACG CGG GGC GCA CAA AAG AGC GCA CAG AGG GGG GGG GGG GGG GGC GCA CAT ATG TGC GCC CCC CCT CTT TTC TCG CGC GCT CTC TCT CTC TCT CTG TGT GTC TCC
+      methyl_seq: 222222222122222222212222222222222222222222202222222222
+      dmr_label: 38764
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.8% - Pancreas-Alpha
+      16.7% - Pancreas-Delta ✓
+      16.7% - Pancreas-Beta
+
+15. Confidence: 16.8% | Predicted: Pancreas-Delta
+    Read Information:
+      dna_seq: GGC GCA CAG AGG GGG GGT GTC TCA CAC ACG CGT GTG TGC GCA CAA AAC ACA CAC ACG CGA GAG AGA GAG AGG GGA GAG AGT GTT TTT TTT TTC TCT CTG TGA GAC ACG CGC GCC CCG
+      methyl_seq: 222222222122222222122222222222222220221
+      dmr_label: 43828
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      16.8% - Pancreas-Delta ✓
+      16.8% - Liver-Hep
+      16.7% - Pancreas-Duct
+      16.7% - Pancreas-Beta
+
+============================================================
+
+TRUE CELL TYPE: Pancreas-Duct
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: CTC TCA CAG AGG GGT GTC TCA CAG AGC GCG CGT GTG TGA GAG AGC GCC CCG CGC GCT CTG TGG GGG GGG GGT GTC TCA CAG AGA GAC ACG CGC GCA CAC ACA CAG AGA GAG AGT GTG TGA
+      methyl_seq: 2222222221222222022222222222212222222222
+      dmr_label: 30933
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.7% - Pancreas-Beta
+      16.7% - Pancreas-Delta
+      16.7% - Pancreas-Alpha
+      16.7% - Pancreas-Duct ✓ (not in top 4)
+
+ 2. Confidence: 16.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: TGC GCA CAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC TCG CGC GCG CGC GCC CCA CAC ACT CTG TGC GCA CAC ACT
+      methyl_seq: 2222222221222220212222222222
+      dmr_label: 30407
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Pancreas-Acinar
+      16.7% - Pancreas-Beta
+      16.7% - Pancreas-Duct ✓
+      16.7% - Liver-Hep
+
+ 3. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: AAC ACT CTC TCA CAT ATG TGA GAG AGC GCG CGC GCC CCA CAT ATG TGG GGG GGG GGA GAC ACA CAG AGA GAA AAG AGC GCC CCT CTT TTT TTG TGT GTG TGA GAC ACT CTC TCG
+      methyl_seq: 22222222212222222222222222222222222220
+      dmr_label: 38895
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Liver-Hep
+      16.7% - Pancreas-Delta
+      16.7% - Pancreas-Beta
+      16.6% - Pancreas-Duct ✓ (not in top 4)
+
+ 4. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GTC TCC CCG CGC GCT CTA TAT ATG TGC GCC CCG CGA GAG AGG GGA GAT ATC TCC CCA CAG AGT GTG TGC GCA CAC ACA CAG AGA GAG AGG GGG GGT GTC TCA CAG AGA GAA AAC ACA CAT ATG TGA GAG AGT GTT TTA TAG AGG GGA GAG AGG GGG GGC GCC CCG CGG GGT GTC TCC CCA CAC ACT CTC TCC
+      methyl_seq: 2212222222122222222222222222222222222222222222222222220222222222
+      dmr_label: 38490
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.8% - Pancreas-Delta
+      16.7% - Pancreas-Duct ✓
+      16.6% - Pancreas-Alpha
+
+ 5. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: CAG AGC GCT CTA TAT ATG TGG GGC GCC CCG CGC GCT CTG TGA GAG AGC GCT CTG TGT GTA TAT ATC TCT CTA TAT ATC TCC CCA CAC ACA CAG AGT GTC TCA CAT ATG TGT GTG TGG GGT GTT TTC TCA CAG AGG GGT GTG TGA GAC ACA CAA AAC ACG
+      methyl_seq: 22222222212222222222222222222222222222222222222222220
+      dmr_label: 39872
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Beta
+      16.7% - Pancreas-Delta
+      16.7% - Pancreas-Acinar
+      16.7% - Pancreas-Duct ✓ (not in top 4)
+
+ 6. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: TGT GTA TAA AAG AGT GTG TGG GGC GCC CCG CGT GTA TAG AGG GGG GGT GTC TCT CTC TCT CTC TCT CTT TTG TGA GAT ATG TGG GGG GGC GCC CCT CTG TGC GCG CGA GAG AGG GGA GAA AAC ACA CAT ATC TCT CTG TGC GCT CTG TGG GGC GCT CTC TCT CTT TTC TCC CCT CTG TGA GAC ACC CCG CGA GAG AGG GGG GGA GAG AGT GTA TAT ATC
+      methyl_seq: 2222222221222222222222222222222222122222222222222222222222222202222222222
+      dmr_label: 38653
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Pancreas-Beta
+      16.8% - Liver-Hep
+      16.7% - Pancreas-Delta
+      16.7% - Pancreas-Duct ✓
+
+ 7. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: GCA CAC ACG CGC GCT CTC TCA CAG AGA GAA AAG AGG GGG GGG GGC GCT CTG TGC GCA CAC ACG CGG GGC GCA CAG AGG GGA GAC ACT CTT TTG
+      methyl_seq: 2202222222222222222212222222222
+      dmr_label: 41368
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Pancreas-Beta
+      16.8% - Pancreas-Delta
+      16.7% - Pancreas-Alpha
+      16.7% - Pancreas-Duct ✓
+
+ 8. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: CCG CGA GAG AGG GGA GAT ATG TGT GTG TGT GTC TCT CTG TGC GCA CAT ATG TGC GCC CCT CTT TTA TAT ATA TAA AAG AGC GCA CAT ATA TAT ATT TTC TCT CTT TTG TGG GGT GTT TTC TCA CAT ATT TTT TTA TAC ACT CTG TGA GAG AGA GAT ATC TCC CCC CCA CAC ACA CAG AGA GAG AGA GAA AAG AGT GTT TTC TCA CAA AAT ATA TAT ATC TCT CTA TAG AGA GAG AGT GTT TTA TAA AAG AGC GCA CAA AAA AAT ATA TAA AAA AAA AAA AAA AAT ATA TAA AAG AGT GTT TTG TGT GTT TTC TCT CTT TTG TGT GTT TTT TTC TCA CAA AAG AGG GGA GAC ACC CCA CAA AAG AGC GCT CTC TCG CGG GGG GGA GAC ACA CAT ATG TGA GAA AAA
+      methyl_seq: 122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 41622
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Pancreas-Duct ✓
+      16.8% - Pancreas-Acinar
+      16.7% - Liver-Hep
+      16.7% - Pancreas-Alpha
+
+ 9. Confidence: 16.8% | Predicted: Pancreas-Duct
+    Read Information:
+      dna_seq: GGC GCA CAG AGC GCG CGC GCT CTG TGA GAC ACC CCT CTA TAG AGC GCG CGT GTC TCA CAC ACG CGC GCG CGG GGA GAT ATG TGG GGC GCA CAC ACA CAT ATA TAG AGG GGC GCC CCG
+      methyl_seq: 222202222222222122221202222222222222221
+      dmr_label: 42511
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Pancreas-Duct ✓
+      16.8% - Pancreas-Delta
+      16.8% - Pancreas-Beta
+      16.7% - Pancreas-Alpha
+
+10. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: TGC GCC CCA CAC ACA CAG AGG GGC GCC CCG CGA GAG AGG GGG GGC GCT CTG TGT GTG TGA GAC ACT CTG TGC GCT CTT TTC TCT CTC TCT CTC TCG CGA GAG AGG GGT GTC TCA CAG AGT GTT TTA
+      methyl_seq: 222222222122222222222222222222202222222222
+      dmr_label: 42706
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.7% - Pancreas-Alpha
+      16.7% - Pancreas-Duct ✓
+      16.7% - Pancreas-Delta
+
+11. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: TCT CTG TGC GCA CAA AAA AAC ACT CTC TCG CGA GAT ATA TAG AGG GGA GAA AAG AGT GTG TGG GGG GGG GGT GTA TAG AGG GGA GAG AGA GAG AGG GGG GGT GTC TCT CTG TGT GTG TGG GGA GAC ACC CCA CAC ACA CAC ACG CGC GCT CTG TGG GGT GTC TCC CCC CCA CAT ATT TTC TCT CTC TCC CCT CTC TCG
+      methyl_seq: 222222222122222222222222222222222222222222222220222222222222222221
+      dmr_label: 42739
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Liver-Hep
+      16.8% - Pancreas-Beta
+      16.7% - Pancreas-Delta
+      16.4% - Pancreas-Duct ✓ (not in top 4)
+
+12. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GGA GAG AGG GGG GGA GAG AGG GGC GCC CCG CGG GGG GGA GAT ATG TGC GCC CCT CTG TGT GTG TGT GTG TGT GTC TCC CCT CTG TGA GAG AGT GTA TAT ATT TTC TCC CCG CGG GGA GAT ATA TAA AAG AGT GTA TAC ACA
+      methyl_seq: 22222222202222222222222222222222222212222222222
+      dmr_label: 30400
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.8% - Pancreas-Alpha
+      16.7% - Pancreas-Delta
+      16.6% - Pancreas-Acinar
+      16.6% - Pancreas-Duct ✓ (not in top 4)
+
+13. Confidence: 16.8% | Predicted: Pancreas-Beta
+    Read Information:
+      dna_seq: TTA TAT ATA TAA AAG AGT GTT TTC TCC CCG CGT GTT TTA TAA AAG AGT GTT TTT TTT TTG TGA GAA AAT ATG TGG GGT GTC TCT CTG TGC GCC CCC CCA CAC ACC CCT CTC TCT CTA TAC ACT CTT TTT TTT TTC TCC CCC CCA CAT ATG TGA GAG AGC GCT CTA TAA AAT ATT TTA TAT ATT TTT TTT TTT TTC TCA CAC ACC CCC CCT CTT TTC TCG CGT GTT TTT TTT TTC TCC CCA CAG AGA GAA AAA AAC ACG CGA GAG AGA GAG AGT GTT TTT TTT TTC TCA CAT ATG TGG GGG GGC GCG CGA GAT ATG TGA GAG AGG GGC
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222221222222222222122222222222222202222222
+      dmr_label: 30526
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Pancreas-Beta
+      16.8% - Pancreas-Duct ✓
+      16.8% - Pancreas-Acinar
+      16.7% - Liver-Hep
+
+14. Confidence: 16.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: AGT GTG TGG GGT GTG TGT GTT TTC TCC CCG CGA GAC ACC CCT CTT TTC TCA CAG AGA GAG AGG GGA GAG AGC GCT CTG TGG GGA GAG AGG GGT GTT TTA TAT ATT TTG TGG GGA GAG AGA GAA AAA AAA AAT ATG TGG GGC GCA CAA AAG AGC GCC CCC CCA CAG AGG GGT GTT TTT TTG TGT GTA TAA AAA AAG AGT GTT TTT TTC TCC CCA CAG AGA GAA AAC ACA CAT ATT TTA TAA AAA AAA AAG AGC GCC CCT CTC TCT CTG TGT GTC TCG CGA GAA AAT ATG TGA GAA AAA AAC ACC CCA
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 31269
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Liver-Hep
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Delta
+      16.7% - Pancreas-Acinar
+      16.3% - Pancreas-Duct ✓ (not in top 4)
+
+15. Confidence: 16.8% | Predicted: Pancreas-Alpha
+    Read Information:
+      dna_seq: CAC ACA CAG AGT GTG TGG GGG GGC GCC CCG CGT GTC TCT CTC TCA CAC ACC CCC CCG CGA GAC ACC CCC CCC CCA CAC ACT CTA TAA
+      methyl_seq: 22222222202222222212222222222
+      dmr_label: 40008
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      16.8% - Pancreas-Alpha
+      16.8% - Pancreas-Beta
+      16.8% - Pancreas-Duct ✓
+      16.7% - Pancreas-Delta
+
+============================================================
+
+
+
+HIGH CONFIDENCE PREDICTIONS
+================================================================================
+Top 15 unique highest confidence predictions per true cell type
+================================================================================
+
+TRUE CELL TYPE: Liver-Hep
+------------------------------------------------------------
+
+ 1. Confidence: 35.0% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GTG TGG GGC GCC CCA CAC ACC CCT CTC TCG CGC GCT CTG TGA GAC ACC CCC CCT CTG TGC GCT CTG TGA GAC ACC CCG CGT GTG TGG GGC GCG CGG GGC GCT CTG TGG GGC GCT CTG TGG GGC GCT CTC TCT CTT TTC TCT CTA TAC ACC CCG CGA GAC ACC CCC CCC CCT CTG TGT GTG TGG GGG GGC GCC CCC CCT CTC TCC CCT CTC TCA CAT ATT TTG TGC GCC CCG CGG GGC GCC CCT CTG TGG GGC GCC CCC CCT CTT TTG TGT GTG TGC GCC CCC CCA CAT ATC TCC CCT CTT TTG TGT GTT TTG TGC GCT CTC TCG CGG GGA GAC ACA CAC ACG CGG GGG GGT GTG TGC GCC CCA CAG AGC GCC CCA CAA AAA AAA AAA AAG AGT GTT TTG TGG GGA GAG AGT GTG TGA GAA AAA AAA AAG AGA GAC ACC CCC CCT CTG TGG GGC GCA CAC ACC CCC CCG CGC GCC CCC CCG CGA GAC ACA CAC ACC CCT CTG TGC GCG CGT GTG TGA GAG AGC GCC CCC CCT CTA TAG
+      methyl_seq: 22222222202222222222222220222202222222222222222222022222222222222222222222220222222222222222222222222222222022222022222222222222222222222222222222222222222022202222222202222222222
+      dmr_label: 30391
+      ctype: Liver-Hep
+    Probability Distribution:
+      35.0% - Liver-Hep ✓
+      13.0% - Pancreas-Acinar
+      13.0% - Pancreas-Beta
+      13.0% - Pancreas-Duct
+
+ 2. Confidence: 34.9% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: TGT GTG TGG GGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC TCG CGC GCG CGA GAC ACA CAC ACT CTG TGC GCG CGC GCT CTC TCC CCA CAA AAC ACC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGC GCG CGA GAA AAA AAC ACT CTC TCC CCA CAT ATC TCA CAC ACA CAA AAA AAC ACA CAA AAA AAA AAC ACA CAA AAA AAA AAC ACA CAA AAA AAA AAC ACA CAA AAA AAA AAC ACA CAC ACA CAA AAC ACA CAA AAG AGC GCA CAA AAA AAC ACA CAA AAA AAC ACA CAA AAA AAA AAA AAA AAA AAC ACA CAA AAA AAA AAG AGC GCG CGA GAA AAA AAA AAG AGA GAA AAT ATG TGG
+      methyl_seq: 2222222221222220202222222022222222222222222222220222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 30395
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.9% - Liver-Hep ✓
+      13.0% - Pancreas-Acinar
+      13.0% - Pancreas-Duct
+      13.0% - Pancreas-Beta
+
+ 3. Confidence: 34.9% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GGG GGA GAC ACC CCA CAG AGA GAG AGC GCG CGG GGC GCG CGT GTT TTC TCA CAG AGG GGT GTA TAT ATG TGA GAA AAG AGT GTC TCC CCC CCC CCC CCT CTG TGG GGC GCC CCC CCA CAT ATT TTG TGC GCG CGT GTG TGC GCT CTG TGT GTC TCC CCT CTT TTC TCT CTG TGG GGG GGT GTC TCC CCC CCA CAG AGT GTC TCA CAA AAC ACC CCG CGG GGA GAC ACG CGA GAG AGC GCT CTA TAT ATA TAG AGT GTC TCA CAG AGA GAA AAC ACA CAA AAG AGC GCC CCA CAG AGC GCC CCC CCT CTG TGC GCC CCT CTG TGC GCC CCA CAG AGT GTG TGT GTC TCG CGG GGA GAA AAC ACC CCA CAA AAA AAG AGT
+      methyl_seq: 222222222022022222222222222222222222222222202222222222222222222222222220222022222222222222222222222222222222222222202222222222
+      dmr_label: 30899
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.9% - Liver-Hep ✓
+      13.1% - Pancreas-Acinar
+      13.0% - Pancreas-Duct
+      13.0% - Pancreas-Beta
+
+ 4. Confidence: 34.9% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GCC CCG CGG GGG GGG GGA GAC ACG CGG GGA GAA AAC ACC CCT CTG TGG GGT GTG TGA GAC ACA CAA AAT ATG TGA GAC ACC CCA CAC ACG CGG GGC GCT CTC TCC CCC CCC CCG CGT GTG TGG GGT GTC TCT CTG TGC GCA CAA AAT ATC TCA CAG AGG GGG GGG GGA GAC ACC CCG CGG GGG GGC GCC CCA CAC ACC CCT CTA TAG AGT GTT TTT TTG TGG GGC GCC CCT CTC TCT CTA TAC ACT CTA TAC ACA CAA AAC ACA CAT ATC TCT CTC TCG CGG GGG GGC GCG CGC GCT CTG TGG GGG GGT GTT TTC TCT CTT TTC TCC CCT CTG TGC GCA CAC ACC CCA CAC ACG CGT GTG TGG GGG GGC GCT CTT
+      methyl_seq: 20222220222222222222222222222022222220222222222222222222220222222222222222222222222222222222022202222222222222222222202222222
+      dmr_label: 30316
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.9% - Liver-Hep ✓
+      13.1% - Pancreas-Acinar
+      13.1% - Pancreas-Duct
+      13.0% - Pancreas-Beta
+
+ 5. Confidence: 34.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GCA CAT ATC TCG CGG GGC GCG CGT GTG TGG GGG GGT GTT TTC TCC CCT CTT TTT TTC TCC CCC CCT CTG TGG GGC GCC CCC CCT CTT TTA TAG AGG GGG GGC GCT CTG TGC GCT CTC TCT CTG TGG GGG GGC GCT CTT TTT TTC TCT CTG TGC GCC CCT CTG TGG GGC GCC CCC CCC CCA CAG AGC GCA CAC ACT CTC TCA CAC ACG CGT GTC TCC CCG CGG GGT GTG TGT GTT TTG TGC GCG CGG GGC GCT CTG TGC GCG CGT GTG TGG GGA GAG AGT GTT TTC TCA CAG AGG GGT GTC TCA CAT ATG TGG GGA GAT ATG TGT GTT TTA TAG AGG GGT GTC TCA CAA AAG AGC GCA CAC ACC CCA CAG AGT GTT TTC TCT CTG TGC GCG CGA GAA AAA AAC ACT CTT TTG TGG GGG GGA GAT ATC TCT CTT TTG TGC GCT CTG TGC GCT CTG TGC GCT CTC TCC CCC CCT CTG TGA GAC ACC CCC CCA CAG AGC GCT CTC TCT CTC TCT CTG TGG GGC GCA CAG AGC GCT CTG TGC GCT CTC TCC CCA CAG AGG GGC GCC CCC CCC CCG CGT GTG TGC GCA CAC ACA CAA AAG AGT GTT
+      methyl_seq: 22212202222222222222222222222222222222222222222222222222222222222222022202222222022222022222222222222222222222222222222222222222202222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 30487
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.8% - Liver-Hep ✓
+      13.1% - Pancreas-Acinar
+      13.0% - Pancreas-Alpha
+      13.0% - Pancreas-Duct
+
+ 6. Confidence: 34.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: TAC ACA CAG AGG GGC GCA CAT ATG TGC GCG CGC GCC CCA CAC ACC CCA CAG AGC GCC CCC CCG CGG GGC GCT CTA TAA AAT ATT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAT ATG TGG GGG GGG GGT GTT TTT TTT TTT TTC TCC CCA CAT ATG TGT GTT TTG TGG GGT GTC TCA CAG AGG GGC GCT CTA TAG AGT GTC TCT CTC TCA CAA AAA AAC ACT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCA CAG AGG GGT GTG TGA GAT ATC TCC CCT CTG TGC GCT CTC TCT CTC TCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGT GTA TAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACT CTG TGC GCG CGC GCC CCC CCG
+      methyl_seq: 222222222122222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222022222222222222222222222222202222222222202220
+      dmr_label: 30938
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.8% - Liver-Hep ✓
+      13.0% - Pancreas-Acinar
+      13.0% - Pancreas-Alpha
+      13.0% - Pancreas-Beta
+
+ 7. Confidence: 34.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GGC GCC CCC CCT CTG TGG GGT GTG TGC GCG CGG GGC GCA CAG AGG GGG GGC GCG CGA GAC ACG CGA GAT ATT TTT TTC TCA CAA AAG AGG GGG GGC GCC CCG CGG GGC GCC CCT CTG TGA GAC ACC CCT CTC TCT CTA TAC ACA CAC ACC CCT CTC TCC CCA CAC ACC CCC CCT CTC TCA CAT ATC TCA CAC ACT CTG TGA GAT ATG TGG GGC GCC CCA CAG AGA GAG AGC GCT CTT TTG TGA GAC ACC CCT CTT TTC TCA CAG AGC GCA CAC ACA CAG AGA GAC ACT CTC TCT CTG TGG GGA GAC ACC CCG CGG GGT GTG TGT GTG TGG GGG GGC GCT CTG
+      methyl_seq: 222222222022222220220222222222222022222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 30776
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.8% - Liver-Hep ✓
+      13.1% - Pancreas-Acinar
+      13.1% - Pancreas-Duct
+      13.0% - Pancreas-Beta
+
+ 8. Confidence: 34.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GTT TTG TGC GCT CTC TCT CTG TGT GTC TCG CGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGC GCG CGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAT ATC TCG CGC GCA CAA AAG AGC GCT CTC TCT CTG TGC GCC CCT CTC TCC CCC CCG CGG GGG GGT GTT TTC TCA CAC ACG CGC GCC CCA CAC ACT CTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCG
+      methyl_seq: 222222222022222222222222222222202022222022222220222222222222222022222220222222222222222222222221
+      dmr_label: 30522
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.8% - Liver-Hep ✓
+      13.1% - Pancreas-Duct
+      13.0% - Pancreas-Beta
+      13.0% - Pancreas-Acinar
+
+ 9. Confidence: 34.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GGA GAG AGG GGT GTG TGC GCA CAC ACC CCG CGG GGT GTT TTC TCG CGT GTG TGG GGT GTC TCC CCG CGC GCG CGA GAG AGT GTA TAC ACC CCT CTG TGG GGC GCG CGC GCG CGG GGG GGC GCG CGC GCT CTG TGA GAG AGG GGC GCC CCA CAC ACG CGG GGG GGA GAG AGC GCG CGG GGT GTT TTC TCC CCG CGG GGG GGG GGC GCA CAT ATG TGG GGA GAG AGC GCG
+      methyl_seq: 2222222220222202222220202222222222020222022222222221222220222220222222222220
+      dmr_label: 30703
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.8% - Liver-Hep ✓
+      13.2% - Pancreas-Acinar
+      13.0% - Pancreas-Duct
+      13.0% - Pancreas-Alpha
+
+10. Confidence: 34.7% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: CCA CAT ATC TCC CCA CAG AGC GCC CCC CCG CGG GGC GCC CCC CCA CAG AGC GCG CGC GCT CTT TTG TGG GGG GGC GCT CTT TTG TGT GTC TCC CCT CTG TGG GGA GAC ACA CAC ACC CCT CTA TAA AAC ACA CAC ACC CCC CCA CAC ACC CCT CTG TGC GCC CCC CCT CTC TCG CGT GTG TGG GGC GCC CCA CAG AGC GCA CAG AGT GTG TGG GGC GCC CCT CTG TGC GCG CGT GTG TGG GGC GCT CTG TGG GGG GGA GAG AGC GCC CCC CCG CGG GGT GTC TCA CAG AGA GAG AGG GGC GCC CCG CGC GCC CCG CGG GGG GGG GGC GCC CCC CCT CTC TCA CAG AGT GTA TAG AGG GGT GTG TGC GCG CGT GTC TCG CGT GTG TGG GGG GGC GCG CGC GCT CTG TGG GGG GGG GGA GAC ACG CGG GGC GCA CAG AGC GCG CGG GGG GGT GTG TGC GCC CCC CCT CTG TGG GGC GCG CGG GGG GGC GCC CCG CGC
+      methyl_seq: 222222222022222220222222222222222222222222222222222222222022222222222222222202222222222222022222222220220222222222222222220220222220222222220222220222222222220222202
+      dmr_label: 30538
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.7% - Liver-Hep ✓
+      13.1% - Pancreas-Acinar
+      13.1% - Pancreas-Duct
+      13.0% - Pancreas-Alpha
+
+11. Confidence: 34.7% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GGC GCT CTC TCA CAC ACC CCC CCT CTC TCG CGG GGC GCT CTG TGC GCA CAT ATA TAG AGA GAA AAG AGG GGC GCC CCT CTC TCG CGA GAA AAC ACC CCC CCC CCG CGT GTG TGA GAA AAC ACG CGG GGC GCT CTT TTC TCT CTC TCG CGT GTT TTG TGG GGA GAG AGT GTA TAG AGT GTC TCG CGG GGA GAG AGC GCG CGG GGA GAA AAG AGG GGT GTA TAA AAT ATG TGT GTC TCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGC GCC CCC CCA CAG AGC GCG CGA GAG AGT GTA TAG AGA GAA AAA AAG AGT GTG TGT GTC TCC CCT CTT TTG TGC GCC CCA CAG AGG GGG GGG GGC GCC CCC CCG CGC GCT CTC TCC CCG CGT GTG TGT GTC TCT CTG TGT GTG TGC GCT CTC TCT CTC TCC CCT CTG TGC GCC CCC CCG CGC GCA CAC ACA CAG AGC GCG CGT GTG TGG GGC GCC CCA CAG AGC GCA CAC
+      methyl_seq: 222222222122222222222222222022222202222202222222022222222222022220222222222222222222222222222202222222222222222222222222220222202222222222222222222022222202222222222
+      dmr_label: 30420
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.7% - Liver-Hep ✓
+      13.1% - Pancreas-Acinar
+      13.0% - Pancreas-Beta
+      13.0% - Pancreas-Duct
+
+12. Confidence: 34.7% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: CAG AGG GGT GTT TTC TCA CAA AAG AGC GCG CGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAC ACC CCC CCT CTA TAC ACC CCA CAA AAG AGT GTA TAG AGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGT GTG TGC GCC CCT CTG TGC GCC CCG CGC GCC CCA CAC ACG CGC GCC CCT CTG TGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAC ACA CAC ACA CAT ATG TGT GTG TGA GAT ATT TTT TTC TCG CGC GCA CAA AAT ATG TGT GTT TTG TGG GGC GCC CCA CAG AGG GGC GCG CGG GGT GTC TCT CTC TCC CCA CAA AAC ACT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCA CAG AGG GGT GTG TGA GAT ATC TCA CAG AGA GAG AGG GGT GTT TTA TAT ATT TTA TAC ACG CGT GTG TGT GTG TGT GTA TAT ATG TGG GGC GCG
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222202222022222222222222222222222222222222222222202222222222222220222222222222222222222222222222222222222022222222220
+      dmr_label: 30912
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.7% - Liver-Hep ✓
+      13.1% - Pancreas-Acinar
+      13.1% - Pancreas-Duct
+      13.1% - Pancreas-Beta
+
+13. Confidence: 34.7% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GTG TGC GCG CGG GGA GAT ATG TGG GGT GTA TAC ACG CGG GGC GCT CTA TAC ACC CCC CCT CTG TGG GGC GCC CCA CAG AGG GGA GAC ACA CAG AGG GGT GTA TAT ATT TTG TGA GAC ACG CGT GTA TAC ACA CAG AGG GGT GTC TCA CAA AAA AAG AGA GAG AGG GGA GAC ACA CAC ACT CTG TGG GGG GGT GTT TTC TCA CAG AGC GCC CCA CAC ACC CCT CTC TCC CCA CAG AGG GGT GTT TTG TGG GGG GGG GGT GTC TCA CAG AGC GCA CAT ATC TCC CCG CGC GCT CTC TCC CCA CAG AGC GCT CTT TTC TCC CCA CAG AGA GAC ACC CCC CCT CTG TGG GGA GAG AGG GGC GCC CCC CCC CCC CCG
+      methyl_seq: 2202222222202222222222222222222222222220222222222222222222222222222222222222222222222222222222022222222222222222222222222220
+      dmr_label: 31084
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.7% - Liver-Hep ✓
+      13.1% - Pancreas-Acinar
+      13.1% - Pancreas-Alpha
+      13.0% - Pancreas-Beta
+
+14. Confidence: 34.7% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GCC CCA CAG AGC GCA CAC ACG CGA GAG AGT GTT TTC TCT CTC TCT CTG TGA GAT ATT TTG TGA GAC ACA CAC ACC CCG CGT GTA TAC ACG CGG GGT GTC TCC CCT CTA TAT ATG TGC GCT CTG TGC GCT CTG TGG GGC GCT CTT TTC TCA CAT ATC TCT CTT TTC TCA CAC ACC CCA CAC ACC CCT CTC TCT CTC TCT CTG TGC GCC CCA CAC ACC CCC CCA CAT ATG TGC GCT CTG TGC GCT CTG TGG GGC GCT CTG TGG GGA GAG AGC GCC CCC CCT CTG TGG GGA GAG AGT GTC TCT CTG TGT GTG TGC GCG CGG GGA GAT ATC TCC CCT CTG TGA GAA AAG
+      methyl_seq: 2222220222222222222222222022202222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 30555
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.7% - Liver-Hep ✓
+      13.1% - Pancreas-Acinar
+      13.1% - Pancreas-Duct
+      13.1% - Pancreas-Alpha
+
+15. Confidence: 34.7% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GCA CAT ATC TCG CGG GGC GCG CGT GTG TGG GGG GGT GTT TTC TCC CCT CTT TTT TTC TCC CCC CCT CTG TGG GGC GCC CCC CCT CTT TTA TAG AGG GGG GGC GCT CTG TGC GCT CTC TCT CTG TGG GGG GGC GCT CTT TTT TTC TCT CTG TGC GCC CCT CTG TGG GGC GCC CCC CCC CCA CAG AGC GCA CAC ACT CTC TCA CAC ACG CGT GTC TCC CCG CGG GGT GTG TGT GTT TTG TGC GCG CGG GGC GCT CTG TGC GCG CGT GTG TGG GGA GAG AGT GTT TTC TCA CAG AGG GGT GTC TCA CAT ATG TGG GGA GAT ATG TGT GTT TTA TAG AGG GGT GTC TCA CAA AAG AGC GCA CAC ACC CCA CAG AGT GTT TTC TCT CTG TGC GCG CGA GAA AAA AAC ACT CTT TTG TGG GGG GGA GAT ATC TCT CTT TTG TGC GCT CTG TGC GCT CTG TGC GCT CTC TCC CCC CCT CTG TGA GAC ACC CCC CCA CAG AGC GCT CTC TCT CTC TCT CTG
+      methyl_seq: 222022022222222222222222222222222222222222222222222222222222222222220222022222220222220222222222222222222222222222222222222222222022222222222222222222222222222222222222222
+      dmr_label: 30487
+      ctype: Liver-Hep
+    Probability Distribution:
+      34.7% - Liver-Hep ✓
+      13.2% - Pancreas-Acinar
+      13.0% - Pancreas-Duct
+      13.0% - Pancreas-Alpha
+
+============================================================
+
+TRUE CELL TYPE: Pancreas-Acinar
+------------------------------------------------------------
+
+ 1. Confidence: 34.9% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GCT CTC TCG CGC GCT CTT TTG TGA GAT ATG TGA GAG AGG GGT GTC TCG CGT GTT TTG TGA GAG AGC GCT CTT TTG TGC GCG CGC GCA CAC ACC CCG CGC GCT CTG TGC GCC CCT CTT TTC TCT CTG TGG GGG GGG GGG GGA GAG AGG GGC GCT CTC TCT CTG TGG GGA GAT ATG TGT GTC TCT CTC TCT CTA TAA AAA AAG AGA GAG AGG GGT GTC TCC CCT CTG TGG GGG GGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCG CGA GAA AAG AGA GAG AGC GCC CCG CGG GGC GCG CGG GGT GTT TTG TGT GTC TCC CCG CGT GTG TGT GTT TTC TCT CTG TGC GCA CAG AGG GGG GGG GGC GCT CTG TGC GCG CGC GCC CCC CCA CAG AGA GAA AAG AGG GGA GAG AGC GCC CCA CAA AAT ATG TGT GTA TAG AGA GAC ACG CGC
+      methyl_seq: 22022222222222202222222222022220222222222222222222222222222222222222222222222222222222202222222022022222220222222222222222220222222222222222222222202
+      dmr_label: 38298
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.9% - Pancreas-Acinar ✓
+      13.0% - Liver-Hep
+      13.0% - Pancreas-Alpha
+      13.0% - Pancreas-Duct
+
+ 2. Confidence: 34.9% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGC GCT CTG TGG GGG GGC GCG CGC GCG CGG GGT GTG TGG GGT GTT TTC TCA CAT ATG TGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCG CGG GGG GGC GCC CCA CAA AAC ACA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTT TTG TGA GAG AGA GAC ACC CCA CAG AGC GCC CCT CTG TGG GGC GCC CCA CAA AAG AGA GAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAA AAT ATA TAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATA TAA AAG AGC GCC CCA CAG AGG GGC GCG CGT GTG TGG GGT GTG TGG GGC GCC CCG CGG GGC GCG CGC GCC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAG AGC GCT CTG TGC GCT CTC TCG CGG GGG GGA GAG AGG GGC GCT CTG TGA GAG
+      methyl_seq: 222222021222222222222222222222222222222222222202222022222222202222222222222222222222222222222222222222222202222222222222222222222222222220222222221220222222222222222222202222222222
+      dmr_label: 38818
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.9% - Pancreas-Acinar ✓
+      13.1% - Liver-Hep
+      13.0% - Pancreas-Beta
+      13.0% - Pancreas-Duct
+
+ 3. Confidence: 34.9% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGG GGC GCC CCC CCG CGG GGC GCG CGG GGC GCG CGT GTC TCC CCT CTT TTG TGG GGG GGG GGT GTG TGG GGG GGC GCC CCC CCG CGG GGC GCA CAC ACC CCA CAC ACA CAA AAC ACG CGG GGC GCC CCT CTG TGT GTG TGC GCT CTG TGC GCT CTG TGT GTT TTG TGC GCA CAG AGC GCC CCG CGA GAC ACG CGT GTG TGG GGA GAC ACG CGC GCC CCT CTT TTC TCA CAA AAC ACC CCT CTG TGC GCT CTC TCC CCT CTG TGG GGA GAG AGA GAT ATG TGA GAA AAG AGC GCT CTG TGA GAA AAG AGC GCG CGG GGC GCG CGG GGC GCG CGT GTC TCA CAG AGC GCG CGG GGC GCC CCC CCA CAA AAC ACC CCT CTG TGC GCC CCG CGC GCG
+      methyl_seq: 22220220220222222222222222202222222222022222222222222222222202202222202222222222222222222222222222222220220220222220222222222222020
+      dmr_label: 39180
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.9% - Pancreas-Acinar ✓
+      13.1% - Pancreas-Duct
+      13.0% - Liver-Hep
+      13.0% - Pancreas-Delta
+
+ 4. Confidence: 34.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGC GCT CTG TGG GGG GGC GCG CGC GCG CGG GGT GTG TGG GGT GTT TTC TCA CAT ATG TGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCG CGG GGG GGC GCC CCA CAA AAC ACA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTT TTG TGA GAG AGA GAC ACC CCA CAG AGC GCC CCT CTG TGG GGC GCC CCA CAA AAG AGA GAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAA AAT ATA TAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATA TAA AAG AGC GCC CCA CAG AGG GGC GCG CGT GTG TGG GGT GTG TGG GGC GCC CCG CGG GGC GCG CGC GCC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAG AGC GCT CTG TGC GCT CTC TCG CGG GGG GGA GAG AGG GGC GCT CTG TGA GAG
+      methyl_seq: 222222020222222222222222222222222222222222222202222022222222212222222222222222222222222222222222222222222202222222222222222222222222222220222222220220222222222222222222202222222222
+      dmr_label: 38818
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.8% - Pancreas-Acinar ✓
+      13.1% - Liver-Hep
+      13.0% - Pancreas-Beta
+      13.0% - Pancreas-Duct
+
+ 5. Confidence: 34.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GCC CCC CCG CGC GCC CCA CAC ACC CCA CAT ATG TGC GCC CCC CCA CAG AGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACT CTG TGT GTG TGT GTT TTG TGG GGC GCC CCA CAG AGG GGC GCT CTG TGG GGT GTC TCT CTT TTG TGA GAA AAC ACT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCG CGT GTG TGA GAT ATC TCC CCG CGC GCC CCC CCG CGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAT ATG TGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC CCA CAT ATG TGC GCC CCC CCG
+      methyl_seq: 2202222222222222222222222222222222222222220222222222222222222222222222222222222222222220222222022202222022222222222222222222222222202222222222222220
+      dmr_label: 38779
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.8% - Pancreas-Acinar ✓
+      13.1% - Liver-Hep
+      13.1% - Pancreas-Duct
+      13.0% - Pancreas-Beta
+
+ 6. Confidence: 34.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: ATC TCC CCT CTG TGA GAG AGC GCC CCC CCG CGG GGG GGT GTG TGT GTG TGT GTG TGG GGA GAT ATA TAC ACA CAG AGC GCC CCT CTG TGC GCG CGT GTG TGA GAT ATC TCC CCT CTG TGA GAG AGC GCC CCC CCA CAG AGG GGT GTG TGT GTG TGC GCG CGG GGA GAT ATA TAC ACA CAG AGC GCC CCT CTG TGT GTG TGT GTG TGA GAC ACC CCC CCT CTG TGA GAG AGC GCC CCC CCG CGG GGG GGT GTG TGT GTG TGT GTG TGG GGA GAT ATA TAC ACA CAG AGG GGC GCT CTG TGC GCG CGT GTG TGA GAT ATC TCC CCT CTG TGA GAG AGC GCC CCC CCA CAG AGG GGT GTG TGT GTG TGA GAG AGG GGT GTG TGG GGA GAG AGG GGC GCC CCG CGT GTG TGT GTG TGA GAT ATC TCC CCT CTG TGA GAG AGC GCC CCC CCG CGG GGG GGT GTG TGT GTG TGT GTG TGG GGA GAT ATA TAC ACA CAG AGC GCC CCT CTG TGC GCG CGT GTG TGA GAC ACC CCC CCT CTG TGA GAG AGC GCC CCC CCA CAG AGG GGT GTG TGT GTG TGC GCG CGG GGA GAT ATA TAC ACA CAG AGC GCC CCT
+      methyl_seq: 2222222220222222222222222222220222222222222222222222022222222222222222222222222022222222222222222222022222222222222222222222222222220222222222222222022222222222222222222022222222222222222222202222222222
+      dmr_label: 39077
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.8% - Pancreas-Acinar ✓
+      13.1% - Pancreas-Beta
+      13.0% - Pancreas-Duct
+      13.0% - Pancreas-Alpha
+
+ 7. Confidence: 34.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGG GGC GCC CCC CCG CGG GGC GCG CGG GGC GCG CGT GTC TCC CCT CTT TTG TGG GGG GGG GGT GTG TGG GGG GGC GCC CCC CCG CGG GGC GCA CAC ACC CCA CAC ACA CAA AAC ACG CGG GGC GCC CCT CTG TGT GTG TGC GCT CTG TGC GCT CTG TGT GTT TTG TGC GCA CAG AGC GCC CCG CGA GAC ACG CGT GTG TGG GGA GAC ACG CGC GCC CCT CTT TTC TCA CAA AAC ACC CCT CTG TGC GCT CTC TCC CCT CTG TGG GGA GAG AGA GAT ATG TGA GAA AAG AGC GCT CTG TGA GAA AAG AGC GCG CGG GGC GCG CGG GGC GCG CGT GTC TCA CAG AGC
+      methyl_seq: 2222022022022222222222222220222222222202222222222222222222220220222220222222222222222222222222222222222022022022222
+      dmr_label: 39180
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.8% - Pancreas-Acinar ✓
+      13.1% - Pancreas-Duct
+      13.0% - Pancreas-Delta
+      13.0% - Liver-Hep
+
+ 8. Confidence: 34.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: AAG AGA GAA AAG AGA GAT ATG TGA GAC ACG CGC GCG CGC GCC CCC CCA CAT ATC TCA CAA AAG AGC GCG CGC GCT CTG TGC GCC CCC CCC CCA CAA AAG AGT GTG TGC GCA CAA AAA AAG AGT GTC TCT CTA TAC ACA CAT ATC TCG CGA GAG AGC GCG CGA GAG AGA GAC ACG CGA GAA AAG AGG GGC GCT CTG TGC GCG CGC GCG CGC GCA CAG AGA GAT ATG TGA GAT ATG TGT GTG TGC GCA CAA AAG AGA GAA AAC ACT CTG TGC GCA CAA AAG AGC GCA CAC ACG CGC GCC CCT CTT TTC TCT CTG TGC GCT CTG
+      methyl_seq: 22222222202022222222220222222222222222222222222202220222202222222202022222222222222222222222222212222222222
+      dmr_label: 38895
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.8% - Pancreas-Acinar ✓
+      13.1% - Pancreas-Alpha
+      13.1% - Liver-Hep
+      13.0% - Pancreas-Beta
+
+ 9. Confidence: 34.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GAC ACG CGA GAG AGG GGA GAT ATG TGT GTG TGC GCT CTG TGC GCG CGC GCT CTA TAC ACC CCA CAG AGT GTT TTT TTG TGT GTG TGA GAA AAG AGA GAA AAG AGA GAA AAG AGG GGG GGC GCT CTA TAC ACG CGT GTG TGC GCG CGG GGC GCT CTG TGC GCA CAC ACA CAC ACC CCA CAA AAC ACA CAA AAG AGG GGG GGC GCG CGA GAC ACC CCT CTC TCA CAA AAC ACC CCT CTG TGG GGA GAG AGC GCT CTG TGC GCA CAC ACT CTG TGC GCG CGA GAC ACC CCT CTG TGG GGT GTG TGG GGG
+      methyl_seq: 202222222222220222222222222222222222222222202220222222222222222222202222222222222222222222202222222222
+      dmr_label: 38598
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.8% - Pancreas-Acinar ✓
+      13.1% - Pancreas-Alpha
+      13.1% - Pancreas-Beta
+      13.0% - Pancreas-Duct
+
+10. Confidence: 34.7% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: CCT CTG TGC GCA CAA AAC ACC CCA CAC ACG CGC GCC CCC CCC CCG CGC GCT CTA TAA AAT ATT TTT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACC CCG CGT GTG TGT GTT TTA TAG AGC GCC CCA CAA AAG AGA GAT ATG TGG GGT GTC TCT CTC TCG CGA GAT ATC TCT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCG CGT GTG TGA GAT ATC TCC CCT CTC TCC CCC CCG CGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC CCG CGC GCG CGC GCC CCC CCG CGG GGC GCC CCG CGA GAT ATC TCA CAT ATT TTA TAT ATC TCT CTC TCT CTA TAC ACT CTC TCT CTT TTA TAT ATC TCC CCT CTA TAC ACA CAC ACG CGG GGT GTT TTC TCA CAG AGA GAC ACC
+      methyl_seq: 222222222022220222222222222222222222222222022222222220222222222222222222202222222222222022222222220222202222222222222222222222222220222222222020222122202222222222222222222222222221222222222
+      dmr_label: 39132
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.7% - Pancreas-Acinar ✓
+      13.1% - Liver-Hep
+      13.0% - Pancreas-Beta
+      13.0% - Pancreas-Duct
+
+11. Confidence: 34.7% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: TCT CTA TAG AGA GAG AGC GCC CCC CCA CAG AGG GGC GCT CTG TGC GCC CCA CAG AGC GCG CGG GGG GGC GCC CCC CCG CGG GGC GCG CGG GGC GCG CGT GTC TCC CCT CTT TTG TGG GGG GGG GGT GTG TGG GGG GGC GCC CCC CCG CGG GGC GCA CAC ACC CCA CAC ACA CAA AAC ACG CGG GGC GCC CCT CTG TGT GTG TGC GCT CTG TGC GCT CTG TGT GTT TTG TGC GCA CAG AGC GCC CCG CGA GAC ACG CGT GTG TGG GGA GAC ACG CGC GCC CCT CTT TTC TCA CAA AAC ACC CCT CTG TGC GCT CTC TCC CCT CTG TGG GGA GAG AGA GAT ATG TGA GAA AAG AGC GCT CTG TGA GAA AAG AGC GCG CGG GGC
+      methyl_seq: 2222222222222222222022222022022022222222222222220222222222202222222222222222222220220222220222222222222222222222222222222222022
+      dmr_label: 39180
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.7% - Pancreas-Acinar ✓
+      13.1% - Liver-Hep
+      13.1% - Pancreas-Duct
+      13.0% - Pancreas-Delta
+
+12. Confidence: 34.7% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: AAG AGA GAA AAG AGA GAT ATG TGA GAC ACG CGC GCG CGC GCC CCC CCA CAT ATC TCA CAA AAG AGC GCG CGC GCT CTG TGC GCC CCC CCC CCA CAA AAG AGT GTG TGC GCA CAA AAA AAG AGT GTC TCT CTA TAC ACA CAT ATC TCG CGA GAG AGC GCG CGA GAG AGA GAC ACG CGA GAA AAG AGG GGC GCT CTG TGC
+      methyl_seq: 222222222020222222222202222222222222222222222222022202222022222222
+      dmr_label: 38895
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.7% - Pancreas-Acinar ✓
+      13.1% - Liver-Hep
+      13.1% - Pancreas-Alpha
+      13.1% - Pancreas-Beta
+
+13. Confidence: 34.7% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: TTT TTT TTT TTT TTG TGA GAG AGA GAC ACG CGG GGA GAG AGT GTC TCT CTC TCG CGC GCT CTC TCT CTG TGT GTC TCA CAC ACC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAA AAT ATG TGG GGC GCG CGT GTG TGA GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTC TCT CTG TGT GTC TCT CTC TCC CCT CTG TGG GGG GGT GTT TTC TCA CAA AAG AGC GCA CAA AAT ATT TTC TCT CTC TCC CCT CTA TAC ACC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCG CGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAT ATA TAG AGG GGC GCG CGC GCC CCT CTG TGC GCC CCA CAC ACC CCA
+      methyl_seq: 2222222220222222202222222222222222222222222222202222222022222222222222222222222222222222222222222222222222222220222222222222222222202222222222
+      dmr_label: 39073
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.7% - Pancreas-Acinar ✓
+      13.1% - Liver-Hep
+      13.1% - Pancreas-Beta
+      13.0% - Pancreas-Duct
+
+14. Confidence: 34.7% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: CTG TGA GAC ACA CAT ATA TAA AAG AGC GCG CGC GCG CGT GTC TCA CAG AGT GTC TCA CAC ACA CAC ACG CGC GCC CCT CTC TCT CTA TAA AAG AGG GGC GCT CTT TTC TCA CAC ACA CAG AGG GGG GGA GAA AAA AAG AGA GAC ACG CGA GAG AGA GAA AAG AGA GAT ATA TAG AGA GAG AGG GGA GAC ACG CGA GAA AAG AGA GAC ACC CCT CTT TTG TGT GTC TCT CTT TTG TGT GTT TTC TCT CTG TGC GCT CTT TTT TTT TTA TAG AGC GCT CTC TCC CCA CAG AGA GAA AAC ACT CTT TTG TGG GGC GCG CGG GGG GGG GGA GAG AGC GCA CAC ACA CAG AGG GGG GGC GCT CTT TTT TTA TAT ATT TTG TGA GAT ATC TCG
+      methyl_seq: 222222222020222222222202222222222222222222222222022222222222222022222222222222222222222222222222222222220222222222222222222222220
+      dmr_label: 39017
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.7% - Pancreas-Acinar ✓
+      13.1% - Pancreas-Duct
+      13.1% - Liver-Hep
+      13.1% - Pancreas-Alpha
+
+15. Confidence: 34.7% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGC GCG CGG GGC GCT CTG TGG GGA GAG AGA GAG AGC GCA CAA AAC ACG CGA GAG AGA GAG AGG GGG GGA GAG AGC GCG CGG GGC GCA CAG AGC GCG CGG GGA GAT ATG TGC GCA CAC ACA CAA AAG AGC GCT CTA TAA AAA AAT ATA TAA AAC ACG CGC GCC CCT CTT TTC TCC CCA CAG AGG GGC GCC CCC CCT CTG TGC GCG CGT GTG TGA GAA AAG AGT GTC TCA CAT ATC TCC CCC CCC CCC CCA CAC ACG CGT GTG TGC GCG CGC GCG CGC GCG CGG GGA GAC ACA CAA AAG AGA GAA AAG AGC GCT CTC TCT CTC TCC CCA CAA AAG AGA GAT ATC TCG CGA GAG AGA GAC ACG CGC GCT CTC TCA CAC ACG CGC GCT CTG TGG GGC GCC CCA CAA AAG AGA GAA AAC ACT CTA TAC ACA CAT ATC TCA CAA AAA AAT ATC TCG CGC GCT CTG TGA GAC ACG CGG GGC GCC CCA CAC ACC CCA CAT ATC TCC CCT CTG TGA GAC ACC CCA CAT ATG TGT GTC TCC CCA CAG AGC GCA CAG AGC GCC CCG CGC GCC CCT CTC TCC CCC CCA CAG AGG GGC
+      methyl_seq: 202222222222222022222222202222202222222222222222222022222222222222202222222222222222022202020222222222222222222222022220222220222222222222222222222220222220222222222222222222222222222202222222222
+      dmr_label: 38285
+      ctype: Pancreas-Acinar
+    Probability Distribution:
+      34.7% - Pancreas-Acinar ✓
+      13.1% - Liver-Hep
+      13.1% - Pancreas-Alpha
+      13.1% - Pancreas-Duct
+
+============================================================
+
+TRUE CELL TYPE: Pancreas-Alpha
+------------------------------------------------------------
+
+ 1. Confidence: 34.7% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGC GCT CTG TGG GGG GGC GCG CGC GCG CGG GGT GTG TGG GGT GTT TTC TCA CAT ATG TGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCG CGG GGG GGC GCC CCA CAA AAC ACA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTT TTG TGA GAG AGA GAC ACC CCA CAG AGC GCC CCT CTG TGG GGC GCC CCA CAA AAG AGA GAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAA AAT ATA TAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATA TAA AAG AGC GCC CCA CAG AGG GGC GCG CGT GTG TGG GGT GTG TGG GGC GCC CCG CGG GGC GCG CGC GCC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAG AGC GCT CTG TGC GCT CTC TCG CGG GGG GGA GAG AGG GGC GCT CTG TGA GAG
+      methyl_seq: 222222121222222222222222222222222222222222222212222022222222212222222222222222222222222222222222222222222212222222222222222222222222222220222222220220222222222222222222202222222222
+      dmr_label: 38818
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      34.7% - Pancreas-Acinar
+      13.1% - Pancreas-Beta
+      13.1% - Liver-Hep
+      13.1% - Pancreas-Duct
+      13.0% - Pancreas-Alpha ✓ (not in top 4)
+
+ 2. Confidence: 34.3% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: AGT GTG TGA GAG AGA GAT ATT TTC TCC CCG CGT GTT TTT TTC TCA CAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGG GGT GTC TCC CCA CAT ATT TTC TCC CCA CAA AAG AGA GAT ATG TGC GCC CCA CAA AAT ATC TCA CAT ATC TCC CCC CCT CTG TGT GTT TTG TGA GAG AGA GAA AAA AAC ACA CAC ACG CGG GGC GCG CGG GGA GAC ACG CGA GAT ATT TTA TAG AGA GAG AGC GCT CTA
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222022022212222222222
+      dmr_label: 30885
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      34.3% - Liver-Hep
+      13.2% - Pancreas-Duct
+      13.2% - Pancreas-Acinar
+      13.1% - Pancreas-Alpha ✓
+
+ 3. Confidence: 34.2% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: AGG GGC GCA CAC ACT CTT TTT TTC TCC CCG CGC GCA CAG AGG GGT GTC TCA CAG AGC GCA CAG AGT GTG TGA GAT ATG TGT GTT TTG TGG GGC GCT CTG TGC GCC CCA CAG AGC GCT CTC TCT CTC TCG CGA GAG AGC GCT CTG TGC GCC CCC CCG CGC GCA CAG AGA GAG AGC GCT CTT TTC TCT CTG TGT GTG TGT GTA TAA AAT ATC TCC CCT CTG TGT GTG TGA GAG AGT GTT TTT TTT TTT TTC TCA CAG AGG GGG GGG GGC GCT CTT TTG TGT GTG TGA GAT ATA TAG AGG GGC GCC CCA CAT ATG TGA GAA AAC ACC CCT CTG TGG GGA GAG AGG GGC GCT CTG TGG GGA GAC ACA CAG AGC GCC CCA CAT ATG TGG GGC GCA CAC ACA CAC ACA CAG AGA GAA AAG AGA GAT ATG TGG GGA GAA AAG AGG GGG GGC GCA CAA AAA AAG AGG GGT GTC TCA CAG AGA GAG AGC GCC CCC CCT CTT TTT TTC TCC CCA CAG AGG GGA GAC ACA CAA AAC ACT CTT TTC TCA CAG AGA GAA AAC ACA CAC ACC CCG CGC GCA CAG AGA GAC
+      methyl_seq: 222222222022222222222222222222222222222222022222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222022222
+      dmr_label: 31094
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      34.2% - Liver-Hep
+      13.2% - Pancreas-Acinar
+      13.1% - Pancreas-Duct
+      13.1% - Pancreas-Beta
+      13.1% - Pancreas-Alpha ✓ (not in top 4)
+
+ 4. Confidence: 34.1% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GAA AAC ACT CTC TCG CGG GGG GGA GAG AGG GGC GCG CGG GGA GAG AGG GGT GTT TTG TGT GTG TGG GGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC TCG CGC GCG CGA GAC ACA CAC ACT CTG TGC GCG CGC GCT CTC TCC CCA CAA AAC ACC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGC GCG CGA GAA AAA AAC ACT CTC TCC CCA CAT ATC TCA CAC ACA CAA AAA AAC ACA CAA AAA AAA AAC ACA CAA AAA AAA AAC ACA CAA AAA AAA AAC ACA CAA AAA AAA AAC ACA CAC ACA CAA AAC ACA CAA AAG AGC GCA CAA AAA AAC ACA CAA AAA AAC ACA CAA AAA AAA AAA AAA AAA AAC ACA CAA AAA AAA AAG AGC GCG CGA GAA AAA AAA AAG AGA GAA AAT ATG TGG
+      methyl_seq: 22220222222122222222222222221222220202222222022222222222222222222221222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 30395
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      34.1% - Liver-Hep
+      13.4% - Pancreas-Acinar
+      13.1% - Pancreas-Alpha ✓
+      13.1% - Pancreas-Duct
+
+ 5. Confidence: 34.1% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: TTT TTG TGG GGG GGA GAG AGT GTC TCC CCG CGA GAG AGG GGC GCG CGG GGG GGC GCA CAG AGA GAT ATC TCA CAC ACT CTT TTG TGA GAG AGC GCT CTC TCA CAA AAG AGA GAG AGT GTT TTC TCG CGA GAA AAA AAC ACC CCA CAA AAC ACC CCT CTG TGA GAC ACC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACT CTC TCC CCA CAT ATC TCT CTT TTT TTA TAC ACG CGA GAA AAA AAA AAA AAT ATT TTA TAA AAA
+      methyl_seq: 2222222220222212222222222222222222222222212222222222222222222222222222222222222202222222222
+      dmr_label: 30920
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      34.1% - Liver-Hep
+      13.2% - Pancreas-Beta
+      13.2% - Pancreas-Acinar
+      13.2% - Pancreas-Alpha ✓
+
+ 6. Confidence: 34.0% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: TGC GCT CTG TGA GAT ATT TTG TGG GGC GCG CGT GTG TGT GTT TTT TTA TAC ACA CAA AAA AAC ACC CCT CTT TTG TGA GAG AGT GTT TTA TAG AGA GAT ATA TAC ACA CAG AGA GAG AGT GTG TGC GCC CCG CGA GAT ATT TTG TGG GGT GTG TGT GTA TAT
+      methyl_seq: 222222222022222222222222222222222222222222202222222222
+      dmr_label: 39005
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      34.0% - Pancreas-Acinar
+      13.3% - Pancreas-Duct
+      13.2% - Pancreas-Alpha ✓
+      13.2% - Liver-Hep
+
+ 7. Confidence: 33.9% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGA GAT ATG TGG GGC GCG CGG GGC GCG CGT GTC TCC CCT CTG TGC GCC CCT CTT TTC TCT CTC TCT CTG TGC GCC CCG CGA GAG AGA GAA AAT ATG TGG GGG GGG GGC GCC CCG CGC GCC CCT CTT TTG TGT GTG TGA GAT ATT TTC TCC CCT CTG TGT GTC TCC CCA CAG AGA GAA AAA AAA AAT ATC TCA CAG AGC GCT CTT TTG TGG GGG GGT GTG TGC GCA CAG AGG GGT GTG TGG GGC GCT CTG TGT GTG TGT GTT TTG TGG GGA GAG AGC GCT CTG TGT GTG TGG GGT GTG TGG GGC GCA CAC ACC CCT CTG TGC GCA CAG AGT GTC TCC CCC CCG CGC GCC CCT CTG TGT GTC TCT CTC TCT CTT TTC TCC CCC CCA CAC ACC CCC CCT CTT TTT TTG TGT GTT TTT TTT TTT TTG TGT GTC TCT CTT TTC TCT CTC TCT CTG TGG GGT GTT TTT TTC TCA CAG AGA GAT ATC TCT CTT TTT TTT TTG TGT GTG TGT GTT TTT TTG TGT GTG TGC GCA CAT ATA TAT ATA TAT ATT TTT TTT TTG TGT GTC TCA CAC ACA CAT ATT TTG TGT GTT TTG TGC GCG CGG GGC GCC CCT CTT TTT TTT TTT TTC
+      methyl_seq: 22222022022222222222222220222222222220222222222222222222222222222222222222222222222222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222221222222222
+      dmr_label: 38572
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      33.9% - Pancreas-Acinar
+      13.4% - Liver-Hep
+      13.2% - Pancreas-Duct
+      13.2% - Pancreas-Beta
+      13.2% - Pancreas-Alpha ✓ (not in top 4)
+
+ 8. Confidence: 33.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GCG CGA GAT ATG TGC GCC CCA CAC ACT CTG TGA GAA AAT ATT TTG TGT GTA TAT ATG TGC GCT CTT TTA TAA AAA AAA AAA AAT ATG TGC GCC CCT CTA TAA AAA AAT ATG TGC GCG CGC GCC CCA CAG AGG GGT GTG TGC GCG CGG GGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTC TCA CAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCG CGG GGG GGA GAG AGG GGA GAT ATC TCA CAC
+      methyl_seq: 02222222222222222222222222222222222222022222222022222222202222222222222222222222222222222202222222222
+      dmr_label: 30900
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      33.8% - Liver-Hep
+      13.4% - Pancreas-Acinar
+      13.3% - Pancreas-Alpha ✓
+      13.2% - Pancreas-Beta
+
+ 9. Confidence: 33.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: TTG TGT GTC TCA CAA AAC ACA CAT ATC TCG CGG GGG GGG GGT GTT TTC TCA CAG AGA GAA AAG AGG GGA GAC ACA CAG AGC GCC CCG CGA GAG AGA GAG AGT GTA TAC ACA CAT ATG TGG GGG GGG GGG GGT GTG TGT GTC TCC CCT CTA TAG AGC GCA CAC ACT CTC TCG CGG GGT GTT TTT TTT TTG TGC GCC CCC
+      methyl_seq: 222222222022222222222222222202222222222222222222222222220222222222
+      dmr_label: 41596
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      33.8% - Liver-Hep
+      13.3% - Pancreas-Beta
+      13.2% - Pancreas-Duct
+      13.2% - Pancreas-Acinar
+      13.2% - Pancreas-Alpha ✓ (not in top 4)
+
+10. Confidence: 33.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: CAG AGG GGG GGC GCA CAC ACA CAG AGC GCG CGT GTC TCA CAA AAG AGC GCC CCC CCT CTG TGG GGA GAG AGT GTT TTC TCC CCT CTC TCT CTT TTG TGG GGC GCT CTA TAA AAC ACT CTC TCC CCC CCA CAA AAC ACC CCC CCC CCA CAT ATC TCC CCG CGC GCC CCT CTT TTC TCG CGC GCC CCC CCT CTC TCA CAC ACT CTG TGT GTC TCC CCC CCT CTG TGT GTC TCT CTC TCA CAC ACT CTG TGA GAG AGT GTG TGA GAA AAA AAG AGC GCA CAG AGT GTG TGT GTC TCA CAG AGC GCA CAC ACT CTT TTG TGG GGG GGC GCC CCA CAG AGG GGT GTA TAA AAA AAT ATA TAG AGA GAT ATA TAA AAA AAT ATA TAG AGA GAC ACT CTT TTG TGC GCA CAC ACA CAA AAA AAA AAA AAT ATA TAC ACA CAG AGG GGG GGT GTA TAA AAT ATT TTG TGA GAG AGA GAA AAA AAG AGC GCC CCA CAG AGA GAA AAT ATT TTT TTA TAA AAA AAC ACC CCC CCA CAA AAA AAT ATC TCG CGC GCC CCC CCT CTG TGG GGC GCT CTC TCT
+      methyl_seq: 2222222220222222222222222222222222222222222222222222022222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 30416
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      33.8% - Liver-Hep
+      13.4% - Pancreas-Acinar
+      13.3% - Pancreas-Duct
+      13.2% - Pancreas-Beta
+      13.2% - Pancreas-Alpha ✓ (not in top 4)
+
+11. Confidence: 33.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: CTC TCA CAC ACT CTC TCT CTG TGT GTC TCG CGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTT TTC TCA CAG AGT GTG TGG GGC GCG CGC GCA CAA AAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAA AAG AGC GCT CTC TCC CCG CGC GCC CCT CTC TCC CCC CCA CAG AGG GGT GTT TTC TCA CAC ACG CGC GCC CCA CAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCG
+      methyl_seq: 222222222122222222222222222222202222222022222222222222220222222222222220222222222222222222222221
+      dmr_label: 30481
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      33.8% - Liver-Hep
+      13.3% - Pancreas-Duct
+      13.2% - Pancreas-Delta
+      13.2% - Pancreas-Beta
+      13.2% - Pancreas-Alpha ✓ (not in top 4)
+
+12. Confidence: 33.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GGT GTG TGC GCG CGT GTG TGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTC TCG CGG GGG GGA GAG AGG GGC GCT CTA TAA AAG AGG GGT GTG TGG GGG GGA GAA AAA AAA AAT ATC TCG CGT GTT TTT TTC TCA CAA AAC ACC CCC CCA CAG AGG GGA GAG AGG GGC GCA CAA AAA AAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCT CTA TAG AGA GAT ATT TTG TGC GCG CGC GCC CCA CAC ACT CTG TGC GCA CAC ACT
+      methyl_seq: 2220222222222222222222222022222222222222222222202222222222222222222222222222222222222222202222222222
+      dmr_label: 30837
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      33.8% - Liver-Hep
+      13.5% - Pancreas-Acinar
+      13.2% - Pancreas-Beta
+      13.2% - Pancreas-Alpha ✓
+
+13. Confidence: 33.7% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GGT GTG TGC GCG CGT GTG TGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTC TCG CGG GGG GGA GAG AGG GGC GCT CTA TAA AAG AGG GGT GTG TGG GGG GGA GAA AAA AAA AAT ATC TCG CGT GTT TTT TTC TCA CAA AAC ACC CCC CCA CAG AGG GGA GAG AGG GGC GCA CAA AAA AAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCT CTA TAG AGA GAT ATT TTG TGC GCG CGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAG AGA GAG AGC GCA CAG AGG GGA GAC ACT CTC TCT CTG TGT GTC TCT CTC TCG CGA GAA AAA AAA AAC ACA CAA AAA AAT ATA
+      methyl_seq: 22202222222222222222222221222222222222222222222022222222222222222222222222222222222222222022222222222222222222222222222222222222222212222222222
+      dmr_label: 30837
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      33.7% - Liver-Hep
+      13.5% - Pancreas-Acinar
+      13.2% - Pancreas-Beta
+      13.2% - Pancreas-Alpha ✓
+
+14. Confidence: 33.6% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GAA AAG AGC GCG CGG GGG GGC GCG CGG GGA GAT ATC TCA CAC ACT CTT TTG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTC TCA CAA AAG AGA GAC ACC CCA CAG AGC GCC CCC CCG CGG GGC GCC CCA CAA AAC ACA CAT ATG TGA GAT ATG TGA GAA AAA AAC ACC CCC CCT CTG TGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAC ACT CTC TCG
+      methyl_seq: 222022202222222222222222222222222222222221222222222222222222222222222222222222222222222220
+      dmr_label: 31016
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      33.6% - Liver-Hep
+      13.4% - Pancreas-Alpha ✓
+      13.3% - Pancreas-Beta
+      13.3% - Pancreas-Delta
+
+15. Confidence: 33.4% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GCA CAG AGG GGT GTT TTG TGC GCG CGG GGT GTG TGA GAG AGC GCC CCA CAA AAG AGA GAT ATC TCA CAC ACA CAC ACC CCT CTC TCT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGT GTG TGA GAC ACA CAG AGA GAG AGT GTG TGA GAG AGA GAT ATC TCC CCA CAT ATA TAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGA GAC ACT CTG TGT GTC TCA CAA AAC ACG CGA GAT ATA TAG AGA GAA AAT ATG TGA GAT ATG TGG GGC GCA CAG AGA GAT ATA TAT ATT TTT TTC TCA CAC ACA CAT ATT TTT TTT TTT TTT TTT TTC TCT CTT TTT TTT TTT TTT TTT TTG TGA GAG AGA GAC ACA CAG AGA GAG AGT GTC TCT CTT TTG TGC GCT CTC TCT CTG TGT GTC TCA CAC ACC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA
+      methyl_seq: 22222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 38371
+      ctype: Pancreas-Alpha
+    Probability Distribution:
+      33.4% - Pancreas-Acinar
+      13.5% - Liver-Hep
+      13.3% - Pancreas-Alpha ✓
+      13.3% - Pancreas-Beta
+
+============================================================
+
+TRUE CELL TYPE: Pancreas-Beta
+------------------------------------------------------------
+
+ 1. Confidence: 34.6% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GCA CAA AAT ATC TCC CCC CCA CAG AGC GCG CGC GCT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCG CGG GGG GGC GCA CAG AGA GAT ATC TCA CAC
+      methyl_seq: 22222222202222222222222222202222222222
+      dmr_label: 30370
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      34.6% - Liver-Hep
+      13.2% - Pancreas-Acinar
+      13.1% - Pancreas-Beta ✓
+      13.1% - Pancreas-Duct
+
+ 2. Confidence: 34.4% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: TAC ACA CAG AGA GAC ACA CAT ATG TGC GCG CGC GCC CCA CAC ACC CCA CAC ACG CGC GCC CCC CCG CGG GGG GGT GTA TAA AAT ATT TTT TTT TTG TGT GTA TAC ACT CTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCC CCC CCC CCA CAT ATG TGT GTT TTG TGG GGT GTC TCA CAG AGG GGC GCT CTG TGG GGT GTC TCT CTT TTG TGA GAA AAC ACT CTC TCC CCC CCG CGA GAC ACC CCT CTC TCA CAG AGG GGT GTG
+      methyl_seq: 22222222212222222022202222222222222222222222222202222222222222222222222222222222222222202222222222
+      dmr_label: 30643
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      34.4% - Liver-Hep
+      13.2% - Pancreas-Acinar
+      13.1% - Pancreas-Alpha
+      13.1% - Pancreas-Beta ✓
+
+ 3. Confidence: 34.1% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: CAG AGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCA CAG AGG GGT GTG TGG GGA GAT ATC TCA CAC ACC CCT CTG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTC TCG CGA GAG AGA GAC ACC CCA CAG AGC GCC CCT CTG TGA GAC ACC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGC GCA CAA AAC ACC CCC CCT CTG TGA GAC ACG CGC GCT CTA TAC ACT CTA TAA AAG AGT GTA TAA AAT ATA TAC ACA CAA AAA AAA AAT ATT TTA TAG AGC GCC CCG CGG GGG GGT GTG TGT GTG TGG GGT GTG TGG
+      methyl_seq: 2222222220222222222222222222222222222022222222222222222222222222222220222222222222222222222222222222222022222222222222222222222202222222222
+      dmr_label: 38553
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      34.1% - Pancreas-Acinar
+      13.2% - Pancreas-Alpha
+      13.2% - Pancreas-Beta ✓
+      13.2% - Liver-Hep
+
+ 4. Confidence: 34.0% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: TGG GGC GCC CCA CAG AGG GGC GCA CAC ACG CGG GGT GTG TGG GGC GCT CTC TCA CAT ATG TGC GCC CCT CTG TGT GTA TAA AAT ATC TCT CTT TTC TCG CGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCG CGG GGT GTG TGG GGA GAT ATC TCG CGC GCC CCT CTG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTC TCG CGT GTG TGA GAC ACC CCA CAG AGC GCC CCT CTG TGG GGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCT CTG TGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATG TGC GCA CAG AGA GAA AAA AAT ATT TTA TAG AGC GCC CCG
+      methyl_seq: 22222222202222222222222222222222022222220222202222222122222222222222222122222222222222222222222222222222222222222222222222222222220
+      dmr_label: 38412
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      34.0% - Pancreas-Acinar
+      13.3% - Pancreas-Beta ✓
+      13.3% - Liver-Hep
+      13.2% - Pancreas-Duct
+
+ 5. Confidence: 33.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: TCC CCA CAG AGC GCC CCT CTG TGG GGC GCG CGA GAC ACC CCG CGA GAG AGC GCA CAA AAG AGA GAC ACT CTG TGT GTC TCA CAT ATT TTT TTA TAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGG GGC GCC CCA CAG AGG GGT GTG TGT GTG TGA GAT ATG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAC ACC CCC CCC CCA CAA AAC ACA CAC ACT CTC TCT CTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCA CAA AAG AGC GCG CGG GGA GAT ATC TCT CTC TCC CCT CTG TGA GAG AGG GGT GTC TCG CGG GGG GGA GAG AGT GTT TTC TCG CGA GAG AGA GAC ACC CCA CAG AGC GCC CCT
+      methyl_seq: 22222222202221222222222222222222222222222222222222222222222222222222222222222202222222222222222222222222220222222220222222222222220222222202222222222
+      dmr_label: 39200
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      33.8% - Pancreas-Acinar
+      13.6% - Liver-Hep
+      13.2% - Pancreas-Duct
+      13.1% - Pancreas-Beta ✓
+
+ 6. Confidence: 33.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: CTG TGA GAG AGG GGT GTG TGG GGG GGC GCG CGG GGA GAT ATC TCA CAC ACC CCT CTG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTC TCA CAA AAG AGA GAT ATC TCA CAG AGC GCC CCT CTG TGG GGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCC CCA CAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCA CAG AGG GGC GCA CAC ACG CGG GGT GTG TGG GGT GTG TGG GGG GGT GTG
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222022222222222222222222222222222222202222222222
+      dmr_label: 31258
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      33.8% - Liver-Hep
+      13.4% - Pancreas-Acinar
+      13.2% - Pancreas-Duct
+      13.2% - Pancreas-Delta
+      13.2% - Pancreas-Beta ✓ (not in top 4)
+
+ 7. Confidence: 33.7% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GTC TCC CCC CCA CAC ACT CTT TTG TGC GCG CGC GCA CAG AGA GAA AAC ACC CCC CCG CGG GGC GCT CTG TGG GGG GGG GGA GAT ATG TGG GGC GCC CCA CAT ATC TCT CTG TGG GGG GGC GCA CAT ATT TTC TCT CTC TCG CGT GTG TGG GGC GCA CAG AGC GCA CAC ACT CTG TGG GGC GCA CAG AGA GAA AAG AGT GTA TAC ACT CTT TTG TGC GCC CCC CCA CAG AGG GGT GTA TAC ACT CTC TCA CAC ACA CAG AGT GTA TAC ACC CCG CGC GCA CAG AGT GTC TCG CGC GCT CTT TTG TGA GAT ATG TGT GTA TAA AAT ATC TCT CTG TGG GGA GAA AAA AAA AAA AAC ACC CCG CGG GGA GAA AAA AAG AGC GCC CCA CAG AGA GAA AAA AAG AGC GCC CCA CAG AGA GAT ATG TGT GTA TAA AAC ACT CTT TTT TTC TCC CCC CCA CAT ATC TCT CTA TAC ACA CAA AAG AGC GCT CTG TGG GGG GGA GAA AAG AGG GGC GCA CAG AGC GCT CTC
+      methyl_seq: 222222222022222222022222222222222222222222222202222222222222222222222222222222222222222222022222022222222222222222222220222222222222222222222222222222222222222222222222222222
+      dmr_label: 38474
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      33.7% - Pancreas-Acinar
+      13.5% - Liver-Hep
+      13.3% - Pancreas-Duct
+      13.2% - Pancreas-Beta ✓
+
+ 8. Confidence: 33.6% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: TAC ACA CAG AGA GAG AGT GTG TGC GCC CCG CGA GAT ATT TTG TGG GGT GTG TGT GTA TAT ATT TTT TTA TAC ACA CAA AAT ATC TCC CCC CCT CTG TGA GAG AGC GCT CTA TAG AGA GAC ACA CAT ATA TAA AAA AAG AGA GAC ACT CTC TCT CTC TCC CCA CAC ACG
+      methyl_seq: 22222222202222222222222222222222222222222222222222222220
+      dmr_label: 39005
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      33.6% - Pancreas-Acinar
+      13.3% - Pancreas-Alpha
+      13.3% - Pancreas-Duct
+      13.3% - Pancreas-Beta ✓
+
+ 9. Confidence: 33.6% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: CTC TCA CAG AGC GCT CTA TAT ATT TTC TCG CGG GGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATC TCG CGC GCT CTT TTG TGA GAA AAC ACC CCT CTG TGG GGG GGA GAG AGG GGC GCG CGG GGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC TCG CGT GTG TGC GCC CCA CAT ATT TTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAC ACA CAG AGA GAG AGT GTG TGA GAG AGA GAC ACT CTC TCT CTG TGT GTC TCT CTC TCA CAA AAA AAA AAA AAA AAA AAA AAG AGA GAA AAA
+      methyl_seq: 2222222220222222222222222222222022222222222222220222222222222222202222212222222222222222222222222222222222222222222222222222222
+      dmr_label: 31010
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      33.6% - Liver-Hep
+      13.5% - Pancreas-Acinar
+      13.3% - Pancreas-Alpha
+      13.3% - Pancreas-Beta ✓
+
+10. Confidence: 33.5% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GTC TCA CAG AGG GGA GAG AGA GAT ATC TCG CGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCT CTA TAA AAC ACA CAC ACG CGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCT CTG TGG GGC GCA CAT ATG TGG GGT GTG TGG GGC GCG CGG GGG GGC
+      methyl_seq: 222222222022222222222222222220222222222202222222222222222222222222222222222222222222222222220222
+      dmr_label: 30955
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      33.5% - Liver-Hep
+      13.5% - Pancreas-Acinar
+      13.4% - Pancreas-Duct
+      13.2% - Pancreas-Beta ✓
+
+11. Confidence: 33.5% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GTC TCA CAG AGG GGA GAG AGT GTT TTC TCG CGA GAG AGA GAC ACC CCA CAG AGT GTC TCT CTG TGG GGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCA CAG AGG GGC GCG CGT GTG TGG GGT GTA TAG AGT GTG TGC GCA CAC ACA CAC ACC CCT CTG TGT GTA TAA AAT ATC TCA CAC ACA CAG AGC GCT CTA TAC ACT CTC TCA CAG AGG GGA GAG AGG GGC GCT CTG TGC GCG CGG GGC GCA CAA AAG AGA GAG AGA GAA AAT
+      methyl_seq: 222222222022222222222222222222222222222221222222222222222222222222222222202222222222222222222222222222222222222222212222222222
+      dmr_label: 30716
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      33.5% - Liver-Hep
+      13.5% - Pancreas-Acinar
+      13.3% - Pancreas-Delta
+      13.3% - Pancreas-Beta ✓
+
+12. Confidence: 33.5% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GAG AGA GAT ATG TGG GGT GTC TCC CCC CCG CGA GAC ACA CAC ACA CAG AGC GCT CTA TAC ACT CTC TCC CCC CCC CCA CAC ACA CAT ATT TTC TCC CCT CTA TAG AGT GTG TGA GAA AAG AGG GGA GAA AAC ACT CTG TGA GAG AGG GGG GGC GCT CTC TCT CTG TGG GGT GTG TGG GGG GGG GGA GAA AAA AAG AGA GAA AAC ACC CCA CAG AGG GGT GTG TGG GGA GAG AGG GGC GCA CAT ATC TCG CGC GCT CTG TGC GCA CAA AAC ACC CCC CCT
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 41547
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      33.5% - Liver-Hep
+      13.4% - Pancreas-Acinar
+      13.4% - Pancreas-Duct
+      13.3% - Pancreas-Beta ✓
+
+13. Confidence: 33.5% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GCC CCC CCT CTA TAG AGG GGA GAA AAC ACG CGG GGG GGG GGC GCC CCC CCG CGC GCT CTT TTG TGA GAT ATG TGG GGT GTT TTC TCC CCC CCA CAT ATG TGG GGT GTA TAT ATC TCG CGT GTC TCT CTG TGG GGG GGG GGA GAG AGT GTC TCC CCA CAG AGC GCT CTC TCC CCT CTG TGG GGT GTA TAG AGG GGA GAG AGG GGG GGG GGC GCA CAG AGG GGG GGC GCC CCC CCA CAG AGC GCC CCC CCG CGG GGC GCC
+      methyl_seq: 22222222202222220222222222222222222222022222222222222222222222222222222222222222220222
+      dmr_label: 41806
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      33.5% - Liver-Hep
+      13.7% - Pancreas-Acinar
+      13.3% - Pancreas-Beta ✓
+      13.2% - Pancreas-Delta
+
+14. Confidence: 33.5% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: TTC TCT CTA TAT ATT TTA TAA AAG AGC GCG CGA GAG AGG GGA GAT ATC TCA CAT ATG TGC GCC CCA CAA AAC ACC CCT CTC TCT CTC TCT CTT TTG TGG GGG GGT GTT TTG TGT GTG TGG GGG GGA GAA AAT ATG TGT GTA TAA AAC ACA CAA AAG AGT GTG TGG GGC GCC CCC CCC CCG CGC GCA CAG AGG GGA GAA AAG AGG GGG GGC GCC CCA CAA AAT ATG TGT GTA TAG AGA GAG AGC GCC CCT CTG TGA GAT ATG TGT GTG TGG GGG GGG GGC GCG CGA GAG AGT GTC TCT CTT TTA TAA AAC ACC CCG CGA GAC ACG CGG GGC GCA CAG AGC GCT CTG TGC GCA CAG AGC GCG CGT GTT TTA TAG AGC GCA CAG AGA GAA AAA AAG AGA GAG AGA GAT ATT TTG TGC GCC CCC CCT CTC TCG CGC
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222220222222222222222222222222222222222022222222220220222222222220222222222222222222222202
+      dmr_label: 39190
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      33.5% - Pancreas-Acinar
+      13.5% - Liver-Hep
+      13.3% - Pancreas-Duct
+      13.3% - Pancreas-Beta ✓
+
+15. Confidence: 33.4% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: ACA CAG AGA GAG AGC GCC CCT CTG TGC GCG CGT GTG TGA GAC ACC CCC CCT CTG TGA GAG AGC GCC CCC CCG CGG GGG GGT GTG TGT GTG TGT GTG TGG GGA GAT ATA TAC ACA CAG AGC GCC CCT CTG TGC GCG CGT GTG TGA GAC ACC CCC CCT CTG TGA GAG AGC GCC CCC CCA CAG AGG GGT GTG TGT GTG TGT GTG TGG GGA GAT ATA TAC ACA CAG AGC GCC CCT CTG TGC GCG CGT GTG TGA GAC ACC CCC CCT CTG TGA GAG AGC GCC CCC CCA CAG AGG GGT GTG TGT GTG TGC GCG CGG GGA GAT ATA TAC ACA CAG AGC GCC CCT CTG TGC GCG CGT GTG TGA GAC ACC CCC CCT CTG TGA GAG AGC GCC CCC CCA CAG AGG GGT GTG TGT GTG TGT GTG TGG GGA GAT ATA TAC ACA CAG AGC GCC CCT CTG TGC GCG CGT GTG TGA GAC ACC CCC CCT CTG TGA GAG AGC GCC CCC CCG CGG GGG GGT GTG TGT GTG TGT GTG TGG GGA GAT ATA TAC ACA CAG AGG GGC GCT CTG TGC GCG CGT GTG TGA GAT ATC TCC CCT CTG TGA GAG AGC GCC CCC CCA CAG AGG GGT GTG TGT GTG TGC GCA CAG AGG GGT GTG TGG GGA GAG AGG GGC GCC CCG CGT GTG TGT GTG TGA GAT ATC TCC CCT CTG TGA GAG AGC GCC CCC CCG CGG GGG GGT GTG TGT GTG TGT GTG TGG GGA
+      methyl_seq: 2222222220222222222222202222222222222222222202222222222222222222222222222222222022222222222222222222202222222222220222222222222222222222222222222222202222222222222022222222222222222222022222222222222222222222222222222022222222222222202222222222
+      dmr_label: 39077
+      ctype: Pancreas-Beta
+    Probability Distribution:
+      33.4% - Pancreas-Acinar
+      13.5% - Pancreas-Beta ✓
+      13.3% - Liver-Hep
+      13.3% - Pancreas-Alpha
+
+============================================================
+
+TRUE CELL TYPE: Pancreas-Delta
+------------------------------------------------------------
+
+ 1. Confidence: 34.4% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: AGG GGC GCC CCC CCA CAT ATT TTA TAC ACG CGA GAA AAA AAG AGA GAG AGA GAA AAA AAT ATG TGA GAA AAA AAA AAC ACC CCT CTA TAT ATA TAT ATC TCC CCC CCT CTC TCC CCC CCA CAA AAA AAG AGG GGG GGG GGA GAG AGA GAC ACA CAA AAA AAA AAA AAA AAG AGA GAA AAG AGT GTT TTC TCA CAA AAG AGG GGA GAT ATC TCC CCG CGA GAA AAT ATG TGC GCA CAC ACC CCC CCA CAA AAG AGA GAG AGG GGA GAC ACT CTC TCC CCT CTT TTC TCG CGG GGC GCC CCT CTT TTC TCT CTT TTC TCC CCT CTG TGT GTT TTC TCT CTG TGC GCT CTC TCT CTG TGC GCG CGT GTA TAT ATC TCG CGC GCC CCC CCA CAA AAA AAA AAA AAT ATC TCA CAA AAA AAG AGG GGA GAG AGA GAA AAC ACA CAT ATC TCC CCT CTG TGG GGC GCC CCT CTG TGT GTC TCC CCA CAT ATT TTG TGG GGT GTG TGA GAT ATG TGT GTT TTG TGC GCG CGA GAA AAG AGA GAA AAA AAC ACT CTG TGG
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222222222222222222202222222222222222222222202222222222222222222222202222022222222222222222222222222222222222222222222222202222222222
+      dmr_label: 38423
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      34.4% - Pancreas-Acinar
+      13.2% - Pancreas-Beta
+      13.1% - Liver-Hep
+      13.1% - Pancreas-Duct
+      13.1% - Pancreas-Delta ✓ (not in top 4)
+
+ 2. Confidence: 34.3% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: CTC TCT CTG TGT GTG TGA GAG AGG GGC GCG CGG GGC GCC CCA CAG AGG GGC GCG CGG GGG GGC GCC CCT CTC TCC CCA CAA AAG AGG GGC GCC CCC CCT CTG TGC GCT CTC TCC CCC CCA CAG AGT GTG TGG GGG GGC GCG CGC GCC CCT CTA TAT ATG TGA GAA AAG AGT GTC TCT CTT TTC TCG CGC GCC CCC CCG CGG GGG GGA GAG AGG GGC GCG CGG GGT GTG TGG GGG GGT GTG TGC GCG CGG GGG GGT GTG TGC GCA CAG AGC GCT CTC TCG CGG GGG GGC GCC CCC CCT CTG TGC GCT CTG TGC GCC CCT CTG TGG GGA GAG AGA GAT ATG TGA GAG AGG GGA GAC ACG
+      methyl_seq: 22222222202222222022222222222222222222222222220222222222222220222022222202222222202222222222022222222222222222222222220
+      dmr_label: 38311
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      34.3% - Pancreas-Acinar
+      13.3% - Liver-Hep
+      13.2% - Pancreas-Duct
+      13.1% - Pancreas-Beta
+      13.1% - Pancreas-Delta ✓ (not in top 4)
+
+ 3. Confidence: 34.3% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGT GTG TGA GAC ACA CAG AGA GAG AGC GCG CGA GAG AGA GAC ACT CTC TCC CCG CGT GTC TCT CTC TCA CAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGA GAG AGT GTA TAA AAT ATA TAG AGC GCT CTA TAG AGC GCT CTG TGG GGG GGT GTG TGC GCA CAG AGT GTG TGA GAT ATG TGC GCC CCC CCA CAC ACC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTT TTG TGG GGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGG GGA GAT ATC TCG CGG GGT GTT TTG TGA GAG AGC GCC CCC CCT
+      methyl_seq: 22222222202222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 39191
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      34.3% - Pancreas-Acinar
+      13.2% - Pancreas-Duct
+      13.2% - Pancreas-Beta
+      13.1% - Pancreas-Alpha
+      13.1% - Pancreas-Delta ✓ (not in top 4)
+
+ 4. Confidence: 34.1% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GAG AGC GCT CTG TGA GAG AGA GAT ATC TCG CGC GCA CAC ACC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGC GCG CGA GAC ACC CCG CGA GAG AGC GCA CAA AAG AGA GAC ACT CTG TGT GTC TCA CAT ATT TTT TTA TAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGG GGC GCC CCA CAG AGG GGT GTG TGT GTG TGA GAT ATG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAC ACC CCC
+      methyl_seq: 2222222220222222222222222222222202221222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 39200
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      34.1% - Pancreas-Acinar
+      13.2% - Pancreas-Beta
+      13.2% - Liver-Hep
+      13.2% - Pancreas-Alpha
+      13.1% - Pancreas-Delta ✓ (not in top 4)
+
+ 5. Confidence: 34.0% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGG GGA GAG AGG GGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATC TCG CGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCT CTA TAA AAC ACA CAC ACA CAG AGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAT ATA TAT ATA TAC ACA CAA AAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCG CGG GGG GGC GCG CGT GTG TGG GGT GTG TGG GGC GCG CGG GGG GGC GCG CGC GCC CCT CTG TGT GTA TAG AGT GTC TCC CCC CCA CAG AGC GCT CTA TAC ACT CTC TCG CGG GGG GGA GAG AGG GGC GCT CTG TGA GAG
+      methyl_seq: 2222222220222222222222202222222222222222222222222222221222222222222222222222222222202220222222202221222222222222222222212222222222
+      dmr_label: 39235
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      34.0% - Pancreas-Acinar
+      13.4% - Pancreas-Duct
+      13.2% - Liver-Hep
+      13.1% - Pancreas-Alpha
+      13.1% - Pancreas-Delta ✓ (not in top 4)
+
+ 6. Confidence: 33.9% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GAC ACC CCA CAA AAG AGA GAA AAC ACC CCG CGG GGC GCC CCC CCC CCC CCA CAC ACG CGG GGC GCG CGC GCC CCG CGG GGG GGC GCC CCC CCC CCG CGG GGT GTG TGC GCA CAG AGG GGA GAC ACA CAC ACA CAG AGA GAG AGG GGC GCC CCA CAC ACC CCC CCC CCC CCG CGG GGG GGG GGA GAG AGG GGG GGG GGA GAC ACG CGC GCC CCC CCG CGA GAC ACG CGG GGG GGT GTC TCC CCC CCT CTG TGC GCC CCG CGA GAA AAC ACC CCC CCG CGG GGG GGG GGC GCC CCA CAG AGA GAG AGC GCC CCG CGG GGC GCC CCA CAA AAG AGG GGG GGT GTC TCT CTG TGC GCG CGG GGA GAG AGC GCC
+      methyl_seq: 222222222022222222022022022222202222222222222222222222220222222222202220220222222222202222202222222222202222222222222022222
+      dmr_label: 38285
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      33.9% - Pancreas-Acinar
+      13.5% - Liver-Hep
+      13.2% - Pancreas-Duct
+      13.2% - Pancreas-Alpha
+      13.1% - Pancreas-Delta ✓ (not in top 4)
+
+ 7. Confidence: 33.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GTG TGA GAA AAG AGT GTG TGC GCA CAC ACG CGG GGG GGC GCG CGT GTC TCA CAG AGG GGT GTC TCC CCG CGA GAC ACA CAT ATG TGC GCG CGC GCA CAG AGG GGG GGG GGC GCT CTT TTC TCC CCC CCT CTG TGA GAC ACA CAT ATG TGG GGG GGG GGC GCA CAG AGG GGT GTC TCA CAC ACC CCG CGT GTG TGC GCG CGG GGG GGA GAC ACT CTG TGC GCA CAA AAG AGG GGG GGG GGC GCA CAG AGA GAG AGA GAG AGA GAG AGG GGC GCG CGG GGG GGC GCT CTC TCA CAG AGT GTA TAG AGG GGC GCA CAG AGG GGG GGC GCT CTG TGG GGC GCG CGC GCA CAG AGG GGT GTG TGG GGA GAG AGA GAG AGC GCG CGC GCG CGT GTG TGG GGT GTC TCC CCC CCT CTG TGT GTG TGC GCG CGT GTG TGA GAG AGG GGA GAG AGG GGA GAC ACG CGG GGT GTG TGG GGG GGG GGA GAA AAC ACC
+      methyl_seq: 222222222022202222222202222220222222222222222222222222222222202220222222222222222222222222022222222222222222222202222222222220202222222222220222222222202222222222
+      dmr_label: 38498
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      33.8% - Pancreas-Acinar
+      13.5% - Liver-Hep
+      13.2% - Pancreas-Duct
+      13.2% - Pancreas-Beta
+      13.1% - Pancreas-Delta ✓ (not in top 4)
+
+ 8. Confidence: 33.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GCA CAT ATG TGG GGC GCG CGG GGC GCT CTT TTC TCA CAG AGG GGG GGG GGT GTT TTT TTG TGG GGG GGT GTC TCT CTC TCG CGT GTG TGG GGC GCG CGT GTA TAC ACC CCA CAG AGA GAA AAG AGG GGT GTG TGG GGT GTG TGA GAG AGT GTG TGC GCT CTG TGC GCA CAA AAA AAA AAG AGC GCT CTC TCC CCG CGA GAA AAG AGC GCC CCC CCA CAT ATA TAA AAG AGC GCG CGT GTG TGT GTT TTG TGG GGT GTC TCG CGG GGA GAA AAG AGA GAG AGT GTA TAC ACG CGC GCA CAC ACG CGT GTA TAC ACT CTG TGT GTC TCG CGG GGA GAA AAG AGT GTC TCA CAA AAC ACC CCA CAG AGC GCT CTC TCT CTG TGG GGC GCA CAT ATT TTC TCG CGA GAA AAA AAA AAT ATA TAC ACC
+      methyl_seq: 222221222222222222222222221222202222222222222222222222222222222202222222222220222222220222222222022212222222022222222222222222222222022222222
+      dmr_label: 30295
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      33.8% - Liver-Hep
+      13.5% - Pancreas-Acinar
+      13.2% - Pancreas-Alpha
+      13.2% - Pancreas-Delta ✓
+
+ 9. Confidence: 33.6% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GCT CTG TGG GGC GCT CTC TCT CTC TCG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAA AAC ACA CAC ACT CTT TTT TTG TGG GGG GGA GAT ATG TGC GCC CCG CGA GAG AGA GAC ACA CAG AGG GGC GCG CGG GGA GAT ATC TCA CAC ACC CCT CTG TGA GAG AGC GCC CCT CTC TCA CAG AGG GGG GGG GGT GTT TTC TCG CGA GAG AGA GAC ACC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAA AAC ACG CGT GTG TGG GGA GAG AGA GAA AAA AAC ACC CCC CCC CCA CAT ATC TCT CTC TCT CTG TGC GCT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCA CAG AGG GGC GCA CAG AGG GGG GGT GTG TGG GGC GCG CGC
+      methyl_seq: 2222222212222222222222222222222222220222222220222222222222222222222220222222222222222220222222222222222222222222222222222222222222222222222202
+      dmr_label: 30480
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      33.6% - Liver-Hep
+      13.6% - Pancreas-Acinar
+      13.2% - Pancreas-Delta ✓
+      13.2% - Pancreas-Alpha
+
+10. Confidence: 33.6% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: CCA CAA AAA AAA AAC ACC CCC CCA CAC ACG CGG GGC GCA CAC ACA CAC ACA CAA AAC ACA CAG AGA GAG AGC GCA CAA AAT ATG TGC GCC CCA CAA AAA AAG AGC GCT CTC TCT CTC TCT CTA TAA AAA AAC ACA CAC ACG CGC GCT CTT TTC TCA CAT ATG TGC GCA CAG AGT GTG TGG GGG GGG GGG GGC GCA CAT ATC TCT CTA TAG AGC GCC CCA CAC ACA CAG AGA GAG AGC GCA CAA AAC ACA CAG AGG GGG GGG GGC GCC CCT CTG TGG GGA GAG AGG GGC GCT CTC TCA CAG AGG GGT GTT TTC TCC CCC CCG CGC GCA CAG AGG GGC GCA CAC ACC CCA CAG AGA GAC ACA CAC ACG CGG GGC GCT CTC TCC CCC CCC CCT CTC TCG CGA GAC ACC CCT CTG TGG GGT GTG TGA GAC
+      methyl_seq: 2222222221222222222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222122222222222222022222222202222222222
+      dmr_label: 30428
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      33.6% - Liver-Hep
+      13.4% - Pancreas-Alpha
+      13.3% - Pancreas-Beta
+      13.3% - Pancreas-Acinar
+      13.2% - Pancreas-Delta ✓ (not in top 4)
+
+11. Confidence: 33.4% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: TAC ACA CAG AGG GGC GCA CAC ACC CCC CCG CGC GCC CCA CAC ACC CCA CAT ATG TGC GCC CCC CCA CAG AGC GCT CTA TAA AAT ATG TGT GTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACC CCT CTG TGG GGT GTT TTT TTC TCA CAC ACC CCA CAT ATC TCT CTT TTG TGG GGC GCC CCA CAG AGG GGC GCT CTG TGG GGT GTC TCC CCT CTG TGA GAA AAC ACT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCG
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 31236
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      33.4% - Liver-Hep
+      13.5% - Pancreas-Acinar
+      13.4% - Pancreas-Alpha
+      13.3% - Pancreas-Beta
+      13.2% - Pancreas-Delta ✓ (not in top 4)
+
+12. Confidence: 33.3% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: TGG GGC GCA CAG AGT GTG TGG GGT GTC TCG CGC GCG CGG GGA GAG AGA GAG AGC GCG CGG GGG GGA GAG AGG GGG GGA GAT ATC TCG CGT GTG TGG GGG GGG GGG GGG GGA GAG AGA
+      methyl_seq: 222222222020222222022222222202222222222
+      dmr_label: 42075
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      33.3% - Liver-Hep
+      13.8% - Pancreas-Acinar
+      13.4% - Pancreas-Beta
+      13.2% - Pancreas-Alpha
+      13.2% - Pancreas-Delta ✓ (not in top 4)
+
+13. Confidence: 33.2% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: CTG TGC GCA CAA AAG AGC GCT CTC TCC CCG CGC GCC CCT CTC TCC CCC CCG CGG GGG GGT GTT TTC TCA CAC ACG CGC GCC CCA CAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCA CAA AAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAC ACT CTA TAC ACA CAA AAG AGC GCG CGC GCC CCA CAC ACC CCA CAT ATG TGC GCC CCC CCA CAG AGC GCT CTT TTG TGT GTT TTT TTT TTT TTT TTG TGT GTT TTT TTG TGT GTT TTT TTG TGT GTT TTT TTG TGT GTT TTT TTG TGT GTT TTT TTG TGT GTT TTT TTG TGT GTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGT GTT TTT TTC TCA CAC ACC
+      methyl_seq: 2222222220222222022222221222222222222222222222222222222222222222222202222222222222222222222222222222222222222222222222222222222222222222221222222222
+      dmr_label: 30553
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      33.2% - Liver-Hep
+      13.7% - Pancreas-Acinar
+      13.4% - Pancreas-Duct
+      13.3% - Pancreas-Delta ✓
+
+14. Confidence: 33.1% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GCC CCC CCC CCC CCT CTT TTT TTT TTC TCG CGT GTG TGT GTG TGA GAC ACG CGG GGC GCC CCA CAC ACT CTC TCC CCT CTC TCC CCA CAG AGG GGG GGC GCC CCT CTC TCG CGG GGC GCA CAG AGA GAC ACA CAG AGG GGA GAA AAA AAG AGC GCT CTG TGC GCC CCC CCA CAT ATG TGC GCC CCG CGC GCC CCA CAG AGC GCC CCC CCA CAT ATG TGA GAC ACA CAG AGC GCA CAG AGC GCA CAG AGC GCT CTT TTC TCT CTG TGG GGT GTC TCC CCC CCC CCA CAG AGA GAG AGC GCC CCA CAG AGC GCA CAA AAT ATC TCC CCC CCT CTG TGG GGT GTG TGC GCA CAC ACG CGC
+      methyl_seq: 22222222202222221222222222222222222202222222222222222222222220222222222222222222222222222222222222222222222222222222212
+      dmr_label: 30465
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      33.1% - Liver-Hep
+      13.6% - Pancreas-Acinar
+      13.4% - Pancreas-Beta
+      13.4% - Pancreas-Alpha
+      13.3% - Pancreas-Delta ✓ (not in top 4)
+
+15. Confidence: 33.0% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GAG AGA GAT ATT TTG TGC GCG CGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCT CTT TTG TGG GGG GGC GCG CGA GAC ACA CAG AGA GAG AGC GCG CGA GAG AGA GAC ACT CTC TCC CCA CAT ATC TCT CTC TCA CAA AAA AAA AAA AAA AAA AAA AAC ACC CCC CCA CAA AAA AAA AAA AAA AAA AAC ACA CAA AAA AAA AAC ACA CAA AAA AAA AAA AAA AAC ACA CAA AAA AAA AAA AAA AAA AAC ACA CAA AAA AAA AAA AAA AAA AAC ACA CAA AAA AAT ATT TTC TCC CCT CTG TGA GAC ACT CTT TTC TCA CAA AAG AGT GTG TGA GAT ATC TCA CAA AAT ATC TCC CCT CTC TCC CCC
+      methyl_seq: 2222220222222222222222222222022222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 30390
+      ctype: Pancreas-Delta
+    Probability Distribution:
+      33.0% - Liver-Hep
+      13.7% - Pancreas-Acinar
+      13.5% - Pancreas-Duct
+      13.3% - Pancreas-Delta ✓
+
+============================================================
+
+TRUE CELL TYPE: Pancreas-Duct
+------------------------------------------------------------
+
+ 1. Confidence: 34.4% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GTG TGT GTG TGG GGC GCG CGG GGG GGA GAC ACT CTT TTT TTG TGA GAT ATT TTG TGC GCT CTA TAG AGC GCA CAA AAC ACT CTT TTC TCG CGT GTC TCC CCT CTC TCA CAC ACT CTG TGC GCC CCG CGC GCC CCC CCA CAC ACT CTG TGC GCA CAT ATC TCA CAG AGG GGT GTG TGT GTG TGC GCG CGG GGG GGG GGA GAT ATG TGA GAT ATA TAC ACC CCC CCT CTG TGA GAG AGA GAC ACC CCT CTG TGG GGC GCC CCA CAT ATC TCG CGT GTC TCC CCG CGG GGG GGG GGG GGC GCG CGG GGA GAA AAG AGC GCC CCT CTG TGA GAT ATA TAC ACT CTC TCT CTG TGC GCT CTT TTT TTT TTT TTC TCT CTG TGA GAG AGC GCA CAG AGC GCT CTT TTC TCT CTC TCC CCG
+      methyl_seq: 222220222222222222222222222220222222222220222222222222222222202222222222222222222222222220222022222022222222222222222222222222222222222220
+      dmr_label: 38300
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      34.4% - Pancreas-Acinar
+      13.3% - Pancreas-Duct ✓
+      13.2% - Liver-Hep
+      13.1% - Pancreas-Beta
+
+ 2. Confidence: 34.3% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: CCA CAA AAT ATG TGT GTG TGG GGG GGC GCG CGG GGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTC TCA CAA AAG AGA GAC ACC CCA CAG AGG GGC GCT CTG TGG GGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCA CAT ATC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCT CTG TGG GGG GGC GCG
+      methyl_seq: 2222222220222222022222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 30596
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      34.3% - Liver-Hep
+      13.3% - Pancreas-Acinar
+      13.1% - Pancreas-Duct ✓
+      13.1% - Pancreas-Alpha
+
+ 3. Confidence: 34.1% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: TGG GGA GAG AGT GTC TCC CCC CCA CAC ACG CGG GGC GCA CAT ATC TCA CAG AGC GCT CTA TAT ATG TGA GAG AGA GAC ACC CCA CAT ATG TGA GAT ATC TCG CGA GAG AGG GGA GAC ACG CGT GTG TGC GCA CAG AGT GTC TCG CGC GCT CTG TGC GCT CTG TGG GGA GAC ACG CGA GAG AGG GGA GAG AGC GCA CAG AGG GGA GAG AGC GCA CAG AGA GAT ATG TGT GTT TTC TCG CGC GCC CCT CTT TTC TCC CCG CGG GGT GTC TCC CCC CCG CGG GGG GGC GCG CGC GCG CGC GCT CTC TCC CCA CAC ACC CCG CGA GAC ACA CAC ACT CTT TTT TTT TTA TAA AAC ACT CTA TAC ACG
+      methyl_seq: 2222222220222222222222222222222220222220222222202222222220222222222222222222220222222022222022202022222220222222222222220
+      dmr_label: 38268
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      34.1% - Pancreas-Acinar
+      13.3% - Liver-Hep
+      13.2% - Pancreas-Alpha
+      13.2% - Pancreas-Duct ✓
+
+ 4. Confidence: 34.1% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GGG GGC GCG CGG GGC GCT CTC TCG CGC GCC CCA CAC ACA CAC ACA CAA AAC ACC CCC CCT CTC TCT CTG TGC GCC CCT CTG TGG GGT GTT TTT TTT TTG TGC GCA CAA AAA AAA AAA AAA AAA AAG AGG GGA GAC ACC CCA CAT ATC TCT CTG TGA GAA AAG AGG GGC GCC CCA CAC ACC CCG CGG GGG GGT GTA TAG AGT GTG TGG GGG GGT GTG TGG GGA GAG AGA GAG AGG GGC GCC CCA CAG AGT GTC TCC CCA CAG AGA GAG AGT GTG TGA GAG AGG GGT GTG TGG GGC GCC CCG CGG GGC GCA CAC ACA CAA AAA AAG AGT GTC TCC CCA CAA AAG AGG GGA GAC ACT CTC TCT CTG TGC GCT CTG TGC GCC CCA CAC ACC CCG CGA GAC ACC CCC CCC CCC CCG CGT GTG TGG GGC GCC CCT CTG TGC GCA CAG
+      methyl_seq: 220222202222222222222222222222222222222222222222222222222222022222222222222222222222222222222222222022222222222222222222222222222022222202222222222
+      dmr_label: 30590
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      34.1% - Liver-Hep
+      13.5% - Pancreas-Acinar
+      13.1% - Pancreas-Duct ✓
+      13.1% - Pancreas-Alpha
+
+ 5. Confidence: 34.1% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: ACC CCA CAC ACA CAC ACC CCA CAT ATC TCG CGG GGC GCC CCA CAC ACT CTG TGT GTC TCA CAG AGG GGG GGG GGC GCA CAG AGC GCC CCG CGG GGG GGG GGG GGT GTC TCT CTC TCA CAG AGA GAT ATG TGA GAC ACA CAG AGG GGG GGT GTA TAG AGG GGG GGC GCA CAG AGG GGG GGA GAC ACA CAT ATA TAC ACC CCC CCA CAG AGA GAA AAG AGT GTG TGG GGG GGT GTA TAG AGC GCC CCG CGC GCC CCC CCT CTC TCC CCA CAG AGT GTT
+      methyl_seq: 22222222202222222222222222222022222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 44128
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      34.1% - Liver-Hep
+      13.4% - Pancreas-Acinar
+      13.2% - Pancreas-Duct ✓
+      13.1% - Pancreas-Beta
+
+ 6. Confidence: 34.0% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGA GAG AGT GTG TGT GTC TCG CGA GAT ATT TTG TGG GGT GTG TGC GCA CAC ACT CTC TCC CCC CCA CAA AAA AAC ACC CCT CTT TTG TGA GAG AGC GCT CTA TAA AAA AAC ACA CAC ACA CAG AGG GGG GGT GTG TGC GCT CTG TGA GAT ATT TTG TGG GGT GTG TGT GTA TAT ATT TTT TTA TAC ACA CAA AAT ATC TCC CCC CCT CTG TGA GAG AGC GCT CTA TAG AGA GAT ATA TAT ATA TAA AAA AAG AGA GAC ACT CTC TCT CTC TCC CCA CAC ACG
+      methyl_seq: 2222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 38950
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      34.0% - Pancreas-Acinar
+      13.2% - Pancreas-Beta
+      13.2% - Pancreas-Delta
+      13.2% - Liver-Hep
+      13.2% - Pancreas-Duct ✓ (not in top 4)
+
+ 7. Confidence: 33.9% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: GAT ATG TGA GAG AGC GCC CCA CAG AGC GCG CGC GCT CTA TAC ACG CGG GGG GGG GGA GAC ACG CGT GTC TCC CCT CTG TGC GCA CAG AGA GAT ATC TCC CCG CGC GCA CAT ATT TTG TGG GGC GCT CTC TCC CCA CAC ACG CGC GCC CCC CCG CGT GTG TGC GCT CTG TGG GGT GTG TGC GCT CTG TGA GAG AGC GCC CCG CGC GCC CCT CTG TGG GGA GAC ACA CAC ACC CCA CAT ATC TCC CCG CGG GGC GCA CAG AGG GGC GCC CCC CCT CTG TGG GGT GTG TGC GCG CGG GGC GCA CAG AGG GGG GGC
+      methyl_seq: 22222222202222022222022222222222202222222222221222122222222222222202222222222222212222222222222212222222
+      dmr_label: 30776
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      33.9% - Liver-Hep
+      13.3% - Pancreas-Acinar
+      13.3% - Pancreas-Duct ✓
+      13.2% - Pancreas-Delta
+
+ 8. Confidence: 33.8% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: TTT TTT TTT TTT TTG TGA GAG AGA GAC ACG CGG GGA GAG AGT GTT TTT TTC TCA CAC ACT CTC TCT CTT TTT TTT TTG TGC GCC CCC CCA CAG AGG GGC GCT CTA TAG AGA GAG AGT GTA TAC ACA CAG AGT GTA TAA AAA AAG AGG GGG GGA GAT ATC TCT CTA TAG AGG GGC GCT CTC TCG CGC GCT CTG TGC GCA CAA AAC ACC CCT CTC TCT CTG TGT GTC TCC CCC CCC CCC CCG CGG GGG GGT GTT TTC TCA CAC
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222022222222222222222202222222
+      dmr_label: 30436
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      33.8% - Liver-Hep
+      13.5% - Pancreas-Acinar
+      13.2% - Pancreas-Duct ✓
+      13.2% - Pancreas-Beta
+
+ 9. Confidence: 33.8% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: TTA TAG AGC GCA CAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACC CCG CGT GTG TGT GTT TTA TAG AGC GCC CCA CAG AGG GGA GAT ATG TGG GGT GTC TCT CTC TCG CGA GAT ATC TCT CTC TCC CCT CTG TGA GAT ATC TCT CTC TCG CGT GTG TGA GAT ATC TCC CCA CAC ACC CCT CTG TGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGC GCA CAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC CCG CGT GTG TGC GCC CCC CCG CGG GGC GCC CCC CCC CCA CAG AGC GCT CTA TAA AAT ATT TTT TTT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAT ATG TGG GGG GGG GGT GTT TTT TTC TCA CAC ACC CCA CAT ATG TGT GTC TCG CGT GTC TCC CCA CAG AGG GGC GCT CTG TGG
+      methyl_seq: 22222222212222222222022222222222222222220222222222222202222222222222220222222222222222222222222222022222222202222202222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 39057
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      33.8% - Pancreas-Acinar
+      13.5% - Liver-Hep
+      13.3% - Pancreas-Duct ✓
+      13.2% - Pancreas-Beta
+
+10. Confidence: 33.7% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGC GCT CTG TGT GTG TGG GGG GGC GCC CCG CGC GCC CCC CCT CTC TCA CAC ACC CCT CTT TTG TGG GGA GAA AAG AGC GCA CAG AGC GCC CCG CGC GCC CCT CTC TCC CCA CAT ATA TAG AGC GCC CCG CGC GCC CCT CTG TGT GTG TGT GTA TAT ATA TAC ACC CCC CCA CAG AGG GGC GCC CCG CGT GTG TGT GTG TGG GGT GTC TCA CAT ATA TAG AGC GCC CCG CGA GAT ATG TGC GCC CCC CCC CCA CAC ACA CAC ACC CCA CAC ACG CGC GCC CCC CCC CCG CGG GGC GCT CTG TGT GTT TTG TGG GGC GCC CCT CTC TCC CCA CAC ACC CCA CAT ATC TCC CCG CGC GCA CAG AGG GGT GTG TGG GGC GCC CCT CTC TCC CCC CCA CAT ATC TCT CTG TGC GCC CCG CGC GCC CCA CAA AAA AAA AAC ACC CCT CTG
+      methyl_seq: 2222222221222222222222222222220222222222220222222222222222222022222222222220222222222222220222202222222222222222222202222222222222222222202222222222
+      dmr_label: 38339
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      33.7% - Pancreas-Acinar
+      13.6% - Pancreas-Duct ✓
+      13.2% - Pancreas-Beta
+      13.2% - Pancreas-Delta
+
+11. Confidence: 33.6% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGG GGC GCA CAC ACG CGT GTG TGA GAG AGA GAA AAG AGA GAA AAC ACG CGT GTG TGC GCG CGT GTC TCC CCT CTG TGC GCG CGG GGT GTT TTG TGC GCT CTG TGG GGG GGT GTG TGG GGA GAG AGA GAG AGT GTT TTC TCT CTG TGC GCA CAG AGA GAT ATG TGT GTC TCT CTG TGT GTC TCC CCT CTC TCC CCC CCG CGG GGG GGC GCA CAT ATG TGT GTG TGA GAG AGA GAA AAT ATG TGT GTG TGC GCA CAT ATG TGC GCT CTG TGC GCG CGG GGT GTT TTG TGC GCT CTG TGG GGG GGT GTG TGG GGA GAG AGA GAG AGT GTT TTC TCT CTG TGC GCA CAG AGA GAT ATG TGT GTC TCT CTG TGT GTC TCT CTT TTC TCC CCC CCG CGG GGG GGC GCA CAC ACG CGT GTG TGA GAA AAA AAA AAG AGA GAA AAC ACC CCT CTG TGC GCA CAT ATC TCC CCT CTG TGC GCG CGA GAT ATT TTG TGC GCT CTG TGG GGG GGT GTG TGG GGC GCG CGT GTG TGT GTT TTC TCT CTG TGC GCA CAG
+      methyl_seq: 22220222222222202220222222022222222222222222222222222222222222222022222222222222222222222202222222222222222222222222222222222222202222202222222222222222222220222222222222202222222222
+      dmr_label: 38962
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      33.6% - Pancreas-Acinar
+      13.5% - Liver-Hep
+      13.3% - Pancreas-Duct ✓
+      13.2% - Pancreas-Alpha
+
+12. Confidence: 33.6% | Predicted: Liver-Hep
+    Read Information:
+      dna_seq: AGT GTG TGA GAG AGA GAT ATT TTC TCC CCG CGT GTT TTT TTC TCA CAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGG GGT GTC TCC CCA CAT ATT TTC TCC CCA CAA AAG AGA GAT ATG TGC GCC CCA CAA AAT ATC TCA CAT ATC TCC CCC CCT CTG TGT GTT TTG TGA GAG AGA GAA AAA AAC ACA CAC ACG CGG GGC GCG CGG GGA GAC ACG CGA GAT ATT TTA TAG AGA GAG AGC GCT CTA TAG AGC GCA CAC ACG CGC GCT CTG TGA GAT ATC TCT CTT TTT TTG TGA GAG AGT GTT TTT TTT TTA TAC ACG CGG GGA GAA AAA AAA AAA AAT ATC TCA CAA
+      methyl_seq: 2222222221222222222222222222222222222222222222222222222222222222222222222221220222022222222222222022222222222222222202222222222
+      dmr_label: 30885
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      33.6% - Liver-Hep
+      13.6% - Pancreas-Acinar
+      13.3% - Pancreas-Duct ✓
+      13.2% - Pancreas-Alpha
+
+13. Confidence: 33.6% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: CCT CTG TGG GGT GTA TAA AAG AGG GGC GCG CGG GGA GAG AGG GGA GAC ACA CAC ACA CAC ACC CCA CAA AAA AAC ACT CTG TGC GCA CAC ACT CTG TGG GGC GCC CCC CCT CTG TGT GTC TCA CAG AGG GGG GGG GGA GAC ACA CAC ACG CGG GGC GCA CAC ACC CCC CCT CTC TCG CGT GTG TGG GGG GGA GAC ACC CCA CAG AGG GGC GCT CTC TCA CAG AGC GCC CCC CCT CTC TCG CGG GGG GGG GGT GTG TGG GGC GCA CAC ACG CGA GAG AGG GGT GTC TCC CCT CTG TGC GCA CAG AGG GGC GCT CTG TGC GCA CAG AGG GGA GAC ACC CCC CCT CTC TCA CAC ACA CAC ACT CTC TCC CCA CAG AGC GCC CCC CCC CCG CGT GTC TCT CTG TGG GGT GTG TGA GAC ACC CCC CCA CAA AAC ACC CCC CCG CGG GGG GGC GCC CCC CCG CGT GTG TGG GGT GTG TGC GCA CAT ATG TGC GCT CTG TGG GGG GGG GGA GAA AAG AGG GGC GCC CCA CAC ACT CTG TGG GGC GCC CCG CGG GGC GCC CCC CCC CCT CTG TGG GGG GGC
+      methyl_seq: 22222222202222222222222222222222222222222222222220222222220222222222222222222220222222222022222222222222222222222222222222222222122222222222222220222220222222222222222222222222222202222222222
+      dmr_label: 38602
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      33.6% - Pancreas-Acinar
+      13.4% - Liver-Hep
+      13.3% - Pancreas-Beta
+      13.3% - Pancreas-Alpha
+      13.2% - Pancreas-Duct ✓ (not in top 4)
+
+14. Confidence: 33.5% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAG AGC GCC CCT CTC TCT CTG TGC GCC CCT CTC TCC CCA CAG AGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGC GCG CGC GCT CTC TCA CAC ACC CCA CAC ACC CCA CAC ACG CGC GCC CCT CTG TGG GGC GCT CTA TAC ACT CTT TTT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACC CCA CAT ATG TGT GTT TTC TCT CTA TAC ACT CTG TGG GGT GTC TCT CTC TCA CAA AAA AAC ACT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCA CAG AGG GGT GTG TGA GAT ATC TCC CCA CAC ACC CCC CCA CAC ACC CCT CTT TTG TGG GGC GCT CTT TTC TCC CCC CCA CAA AAA AAG AGT GTC TCC CCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGT GTG TGA GAG AGC GCC CCA CAG AGC GCA CAC ACA CAC ACC CCT CTG TGG GGC GCA CAA AAT ATT TTT TTA TAT ATC TCA CAT ATT TTA TAG AGT GTC TCT CTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTG TGA GAG AGA GAC ACA CAG AGA GAG AGT GTC TCT CTC TCG CGC GCT CTC TCT CTG TGT GTC TCA CAC ACC
+      methyl_seq: 222202222222222222222222222222222222222202222222222212222222222222222222222222222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 39145
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      33.5% - Pancreas-Acinar
+      13.4% - Liver-Hep
+      13.3% - Pancreas-Duct ✓
+      13.3% - Pancreas-Delta
+
+15. Confidence: 33.5% | Predicted: Pancreas-Acinar
+    Read Information:
+      dna_seq: GGG GGC GCG CGG GGA GAT ATC TCA CAC ACT CTT TTG TGA GAT ATC TCC CCT CTC TCT CTT TTC TCA CAA AAG AGA GAG AGC GCA CAG AGC GCC CCT CTG TGG GGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTC TCA CAA AAG AGC GCC CCC CCC CCA CAT ATC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAG AGA GAA AAT ATA TAC ACG CGA GAA AAA AAA AAC ACA CAA AAT ATT TTA TAG AGC GCC CCA CAG AGG GGC GCA CAT ATG TGG GGT GTG TGG GGC GCA CAC ACG CGT GTG TGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCT CTA TAG AGC GCT CTA TAC ACT CTC TCG
+      methyl_seq: 22022222222222222222222222222222222222222222222222222222222222222222222022222222222222222222222222202222222222222222222220
+      dmr_label: 38559
+      ctype: Pancreas-Duct
+    Probability Distribution:
+      33.5% - Pancreas-Acinar
+      13.4% - Pancreas-Duct ✓
+      13.4% - Liver-Hep
+      13.3% - Pancreas-Alpha
+
+============================================================
+
+
+
+SUMMARY STATISTICS
+================================================================================
+LOW CONFIDENCE SUMMARY
+------------------------------
+Liver-Hep                : 15 examples, avg conf: 16.8%, min conf: 16.7%
+Pancreas-Acinar          : 15 examples, avg conf: 16.8%, min conf: 16.7%
+Pancreas-Alpha           : 15 examples, avg conf: 16.8%, min conf: 16.7%
+Pancreas-Beta            : 15 examples, avg conf: 16.8%, min conf: 16.8%
+Pancreas-Delta           : 15 examples, avg conf: 16.8%, min conf: 16.8%
+Pancreas-Duct            : 15 examples, avg conf: 16.8%, min conf: 16.8%
+
+HIGH CONFIDENCE SUMMARY
+------------------------------
+Liver-Hep                : 15 examples, avg conf: 34.8%, max conf: 35.0%
+Pancreas-Acinar          : 15 examples, avg conf: 34.8%, max conf: 34.9%
+Pancreas-Alpha           : 15 examples, avg conf: 33.9%, max conf: 34.7%
+Pancreas-Beta            : 15 examples, avg conf: 33.8%, max conf: 34.6%
+Pancreas-Delta           : 15 examples, avg conf: 33.7%, max conf: 34.4%
+Pancreas-Duct            : 15 examples, avg conf: 33.9%, max conf: 34.4%

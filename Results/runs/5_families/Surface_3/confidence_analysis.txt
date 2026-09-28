@@ -1,0 +1,2297 @@
+CONFIDENCE PREDICTION ANALYSIS
+================================================================================
+Analysis of low confidence (top 15) and high confidence (top 15) predictions per true cell type
+================================================================================
+
+LOW CONFIDENCE PREDICTIONS
+================================================================================
+Top 15 unique lowest confidence predictions per true cell type
+================================================================================
+
+TRUE CELL TYPE: Bladder-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: ATT TTC TCC CCT CTC TCC CCC CCA CAC ACG CGA GAC ACA CAA AAA AAG AGT GTT TTT TTT TTA TAC ACC CCC CCT CTC TCA CAG AGG GGA GAA AAT ATT TTG TGT GTG TGC GCT CTC TCA CAC ACA CAA AAC ACA CAG AGC GCT CTT TTT TTC TCC CCT CTC TCC CCT CTA TAG AGA GAG AGA GAT ATT TTT TTC TCT CTG TGC GCC CCG CGA GAG AGA GAA AAC ACA CAT ATA TAC ACA
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 1433
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Head-Neck-Ep
+      16.8% - Bladder-Ep ✓
+      16.8% - Breast-Basal-Ep
+      16.7% - Prostate-Ep
+
+ 2. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: AAT ATG TGT GTT TTT TTA TAT ATT TTC TCG CGT GTA TAG AGT GTG TGG GGG GGC GCT CTT TTG TGT GTT TTC TCA CAA AAA AAT ATC TCA CAG AGA GAA AAT ATC TCT CTG TGA GAA AAC ACA CAA AAG AGG GGG GGT GTC TCA CAT ATG TGC GCA CAT ATT TTG TGC GCA CAT ATT TTT TTG TGA GAT ATT TTA TAA AAT ATA TAT ATG TGT GTC TCT CTC TCT CTT TTT TTA TAG AGT GTC TCT CTC TCT CTT TTT TTT TTA TAA AAT ATC TCT CTA TAT ATA TAA AAT ATT TTG TGT GTT TTA TAA AAC ACC CCT CTT TTA TAC ACC CCA CAC ACC CCT CTC TCA CAC ACT CTC TCC CCC CCC CCT CTG TGC GCC CCT CTT TTT TTA TAA AAA AAA AAG AGC GCA CAA AAG AGA GAA AAA AAA AAA AAA AAT ATT TTG TGG GGA GAT ATC TCA CAC ACC CCT CTG TGG GGT GTA TAG AGA GAA AAA AAG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 1454
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Head-Neck-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Lung-Ep-Alveo
+      16.7% - Bladder-Ep ✓
+
+ 3. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCA CAA AAG AGT GTC TCT CTA TAT ATC TCG CGG GGT GTG TGC GCT CTG TGG GGA GAA AAA AAA AAG AGT GTC TCT CTT TTT TTG TGG GGA GAC ACT CTC TCA CAC ACT CTA TAG AGC GCG CGG GGG GGA GAA AAT ATG TGG GGC GCT CTT
+      methyl_seq: 22222222212222222222222222222222222222212222222222
+      dmr_label: 10272
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Prostate-Ep
+      16.7% - Bladder-Ep ✓
+      16.6% - Breast-Luminal-Ep
+
+ 4. Confidence: 16.8% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: ACA CAA AAA AAA AAG AGA GAC ACC CCC CCT CTT TTT TTC TCA CAA AAC ACT CTT TTC TCA CAT ATC TCG CGA GAT ATG TGC GCC CCT CTA TAT ATG TGG GGC GCA CAA AAT ATG TGG GGC GCT CTT TTG TGG GGA GAG AGA GAA AAT ATA TAA AAA AAA AAC ACC CCA CAG AGT GTG TGC GCT CTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTG TGA GAG AGA GAA AAA AAG AGA GAG AGT GTC TCT CTT TTG TGC GCA CAC ACT CTG TGT GTT TTG TGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGC GCA CAC ACA CAA AAT ATC TCT CTC TCG
+      methyl_seq: 22222222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 10200
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Prostate-Ep
+      16.8% - Head-Neck-Ep
+      16.8% - Bladder-Ep ✓
+      16.6% - Breast-Basal-Ep
+
+ 5. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCC CCC CCG CGC GCT CTT TTC TCA CAG AGC GCC CCT CTC TCC CCT CTA TAA AAA AAG AGT GTG TGC GCT CTG TGA GAG AGA GAT ATT TTA TAC ACA CAG AGG GGC GCA CAT ATG TGA GAG AGC GCC CCA CAC ACC CCG CGC GCG CGC GCC CCC CCG CGG GGC GCC CCC CCA CAA AAC ACG
+      methyl_seq: 220222222222222222222222222222222222222222222121222122222221
+      dmr_label: 25062
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.7% - Head-Neck-Ep
+      16.7% - Breast-Luminal-Ep
+      16.7% - Bladder-Ep ✓
+
+ 6. Confidence: 16.8% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: AGA GAA AAT ATG TGA GAG AGA GAA AAC ACG CGC GCC CCC CCT CTT TTC TCT CTA TAG AGT GTA TAA AAG AGA GAT ATC TCC CCG
+      methyl_seq: 2222222220222222222222222221
+      dmr_label: 24473
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Prostate-Ep
+      16.8% - Lung-Ep-Alveo
+      16.8% - Head-Neck-Ep
+      16.8% - Bladder-Ep ✓
+
+ 7. Confidence: 16.8% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: GCA CAC ACC CCT CTC TCG CGG GGC GCT CTT TTC TCC CCC CCA CAC ACA CAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGT GTG TGT GTG TGA GAG AGC GCC CCA CAC ACT CTG TGC GCA CAC ACC CCC CCG CGG GGC GCC CCA CAT ATT TTT TTG TGA GAC ACC CCC CCT CTA TAA AAA AAT ATT TTA TAA AAT ATG TGT GTG TGA GAG AGG GGT GTT TTT TTT TTC TCA CAC ACT CTA TAA AAA AAG AGA GAA AAA AAC ACT CTA TAA AAT ATG TGG GGA GAA AAG AGC GCA CAT ATA TAA AAT ATG TGT GTG TGG GGA GAG AGA GAT ATC TCC CCG
+      methyl_seq: 22222122222222222222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 8582
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Bladder-Ep ✓
+      16.8% - Prostate-Ep
+      16.8% - Breast-Basal-Ep
+      16.6% - Head-Neck-Ep
+
+ 8. Confidence: 16.8% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: GTC TCC CCA CAA AAG AGC GCC CCG CGT GTT TTC TCA CAT ATG TGC GCC CCT CTG TGG GGA GAG AGC GCT CTC TCC CCG CGG GGA GAG AGA GAC ACA CAG AGA GAT ATC
+      methyl_seq: 222222202222222222222222202222222222
+      dmr_label: 10618
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Breast-Luminal-Ep
+      16.8% - Head-Neck-Ep
+      16.8% - Bladder-Ep ✓
+      16.7% - Prostate-Ep
+
+ 9. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: TGG GGG GGC GCC CCC CCA CAC ACC CCC CCG CGG GGC GCA CAC ACA CAG AGA GAT ATG TGC GCC CCA CAC ACC CCA CAT ATG TGC GCT CTT TTT TTC TCG CGA GAG AGG GGC GCC CCG
+      methyl_seq: 222222222122222222222222222222220222220
+      dmr_label: 1689
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Prostate-Ep
+      16.7% - Head-Neck-Ep
+      16.7% - Breast-Luminal-Ep
+      16.5% - Bladder-Ep ✓ (not in top 4)
+
+10. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCA CAG AGA GAG AGC GCG CGG GGG GGT GTC TCC CCA CAC ACC CCC CCT CTC TCC CCC CCA CAG AGT GTT TTT TTC TCC CCC CCC CCG
+      methyl_seq: 22222122222222222222222222221
+      dmr_label: 44286
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Head-Neck-Ep
+      16.7% - Bladder-Ep ✓
+      16.6% - Prostate-Ep
+
+11. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGA GAC ACT CTG TGG GGG GGT GTG TGC GCG CGC GCG CGT GTG TGC GCA CAG AGG GGG GGA GAT ATC TCA CAG AGA GAA AAG AGC GCC CCG CGG GGT GTT TTG TGG GGT GTG TGG GGG GGT
+      methyl_seq: 2222222220202222222222222222202222222222
+      dmr_label: 1075
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Bladder-Ep ✓
+      16.7% - Breast-Luminal-Ep
+      16.5% - Prostate-Ep
+
+12. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: CTT TTC TCA CAA AAG AGC GCT CTC TCC CCG CGC GCC CCT CTC TCC CCC CCG CGG GGG GGT GTT TTC TCA CAC ACC CCC CCC CCA CAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCG
+      methyl_seq: 2222222221222222122222222222222222222222222222220
+      dmr_label: 31550
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.8% - Head-Neck-Ep
+      16.8% - Lung-Ep-Alveo
+      16.7% - Breast-Luminal-Ep
+      16.6% - Prostate-Ep
+      16.5% - Bladder-Ep ✓ (not in top 4)
+
+13. Confidence: 16.9% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: GAA AAA AAG AGG GGA GAA AAA AAT ATC TCG CGT GTT TTC TCT CTG TGG GGA GAG AGA GAT ATC TCA CAT ATT TTC TCT CTA TAG AGG GGT GTT TTA TAA AAA AAG AGG GGA GAA AAA AAG AGA GAG AGT GTT TTG TGC GCG CGC GCA CAA AAA AAG AGA GAA AAG AGA GAG
+      methyl_seq: 222222222122222222222222222222222222222222222212222222222
+      dmr_label: 10411
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.9% - Bladder-Ep ✓
+      16.8% - Breast-Luminal-Ep
+      16.7% - Prostate-Ep
+      16.6% - Head-Neck-Ep
+
+14. Confidence: 16.9% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: AAT ATG TGA GAA AAC ACT CTT TTT TTC TCG CGC GCT CTC TCC CCT CTG TGC GCT CTC TCT CTA TAA AAA AAC ACC CCC CCT CTG TGC GCC CCT CTC TCA CAG AGT GTC TCT CTC TCT CTT TTT TTC TCT CTG TGC GCC CCT CTT TTA TAT ATG TGC GCC CCC CCC CCT CTC TCA CAG AGT GTT TTG TGA GAA AAT ATT TTC TCT CTT TTT TTC TCT CTT TTC TCT CTG TGA GAG AGG GGA GAG AGG GGT GTA TAA AAG AGA GAA AAT ATT TTG TGA GAG AGG GGT GTC TCG CGC GCT CTG TGC GCA CAG AGT GTC TCT CTG TGG GGT GTA TAC ACC CCG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222222221
+      dmr_label: 32008
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.9% - Bladder-Ep ✓
+      16.8% - Head-Neck-Ep
+      16.7% - Breast-Luminal-Ep
+      16.6% - Lung-Ep-Alveo
+
+15. Confidence: 16.9% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: CAG AGT GTG TGC GCA CAA AAC ACC CCC CCG CGA GAA AAA AAG AGG GGC GCC CCA CAG AGT GTC TCT CTC TCA CAC ACT CTT TTT TTC TCA CAC ACC CCA CAT ATG TGC GCC CCC CCC CCC CCC CCA CAA AAC ACA CAG AGC GCA CAC ACC CCA CAA AAA AAT ATT TTG TGA GAT ATT TTT TTC TCC CCA CAG AGG GGC GCA CAA AAC ACA CAG AGG GGT GTG TGA GAA AAC ACA CAG AGG GGG GGT GTT TTG TGA GAG AGT GTA TAC ACT CTT TTG TGT GTC TCC CCC CCA CAG AGG GGC GCT CTC TCC CCA CAG AGG GGC GCA CAT ATG TGC GCC CCT CTG TGC GCT CTG TGG GGG GGA GAA AAA AAG AGT GTA TAA AAG AGC GCA CAG AGG GGG GGC GCT CTT TTT TTC TCA CAG AGG GGT GTT TTT TTT TTG TGT GTG TGA GAC ACT CTC TCC CCC CCC CCA CAT ATC TCT CTG TGC GCT CTG TGC GCA CAA AAC ACT CTT TTC TCT CTG TGT GTG TGC GCT CTG TGT GTG TGT GTC TCT CTA TAC ACA CAC ACC CCC CCC CCT CTG TGG GGT GTT TTC TCA CAC ACC CCC CCT CTC TCT CTC TCC CCC CCC CCT CTA TAG AGA GAT ATT TTC TCC CCG CGT GTC TCC CCA CAG AGG GGA GAA AAA AAC
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 1955
+      ctype: Bladder-Ep
+    Probability Distribution:
+      16.9% - Breast-Luminal-Ep
+      16.8% - Head-Neck-Ep
+      16.8% - Lung-Ep-Alveo
+      16.7% - Bladder-Ep ✓
+
+============================================================
+
+TRUE CELL TYPE: Breast-Basal-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCA CAA AAG AGT GTC TCT CTA TAT ATC TCG CGG GGT GTG TGC GCT CTG TGG GGA GAA AAA AAA AAG AGT GTC TCT CTT TTT TTG TGG GGA GAC ACT CTC TCA CAC ACT CTA TAG AGC GCG CGG GGG GGA GAA AAT ATG TGG GGC GCT CTT
+      methyl_seq: 22222222212222222222222222222222222222212222222222
+      dmr_label: 10272
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Prostate-Ep
+      16.7% - Bladder-Ep
+      16.6% - Breast-Luminal-Ep
+      16.6% - Breast-Basal-Ep ✓ (not in top 4)
+
+ 2. Confidence: 16.8% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: CAA AAG AGA GAG AGG GGT GTT TTG TGC GCG CGT GTA TAT ATT TTT TTT TTC TCA CAT ATT TTT TTT TTT TTG TGC GCA CAC ACG CGG GGA GAG AGC GCC
+      methyl_seq: 222222222122222222222222222122222
+      dmr_label: 44490
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.8% - Bladder-Ep
+      16.8% - Lung-Ep-Alveo
+      16.8% - Breast-Basal-Ep ✓
+      16.7% - Breast-Luminal-Ep
+
+ 3. Confidence: 16.8% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: TGG GGG GGA GAT ATA TAT ATG TGC GCC CCG CGA GAG AGA GAA AAT ATA TAA AAC ACA CAC ACG CGC GCC CCA CAC ACG
+      methyl_seq: 22222222212222222222022220
+      dmr_label: 8286
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.8% - Breast-Basal-Ep ✓
+      16.8% - Prostate-Ep
+      16.7% - Breast-Luminal-Ep
+      16.7% - Bladder-Ep
+
+ 4. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: TTT TTC TCA CAG AGG GGA GAG AGG GGC GCG CGA GAG AGA GAC ACC CCA CAC ACA CAG AGC GCA CAC ACA CAG AGT GTC TCA CAT ATG TGG GGT GTG TGA GAA AAT ATC TCC CCT CTG TGA GAT ATG TGC GCG
+      methyl_seq: 22222222212222222222222222222222222222222220
+      dmr_label: 25169
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Prostate-Ep
+      16.6% - Breast-Basal-Ep ✓
+      16.6% - Head-Neck-Ep
+
+ 5. Confidence: 16.8% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: TCA CAA AAG AGA GAG AGA GAT ATT TTC TCG CGC GCC CCT CTT TTG TGG GGC GCA CAG AGG GGA GAT ATA TAT ATT TTT TTC TCT CTG TGT GTA TAA AAC ACC CCA CAT ATC TCT CTG TGC GCA CAG AGC GCT CTA TAG AGT GTA TAT ATT TTC TCG CGA GAG AGT GTA TAT ATG TGA GAA AAC ACA
+      methyl_seq: 22222222212222222222222222222222222222222222222222212222222222
+      dmr_label: 24851
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.8% - Breast-Luminal-Ep
+      16.8% - Lung-Ep-Alveo
+      16.8% - Breast-Basal-Ep ✓
+      16.8% - Prostate-Ep
+
+ 6. Confidence: 16.8% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GCA CAT ATC TCA CAT ATG TGG GGG GGC GCG CGC GCC CCT CTG TGT GTA TAT ATT TTC TCC CCC CCC CCA CAA AAA AAC ACT CTA TAC ACC CCT CTC TCA CAG AGA GAC ACT CTT TTA TAC ACA CAA AAA AAT ATC TCG CGA GAG AGA GAA AAG AGC GCT CTG TGC GCA
+      methyl_seq: 22222222212222222222222222222222222222222222212222222222
+      dmr_label: 1706
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.8% - Breast-Basal-Ep ✓
+      16.8% - Prostate-Ep
+      16.7% - Lung-Ep-Alveo
+      16.7% - Breast-Luminal-Ep
+
+ 7. Confidence: 16.8% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: GGG GGA GAG AGA GAG AGA GAG AGC GCC CCG CGC GCC CCC CCA CAT ATA TAT ATC TCA CAG AGG GGG GGC GCC CCT CTC TCG CGG GGG GGA GAT ATA TAG AGT GTA TAT ATA
+      methyl_seq: 2222222221222222222222222202222222222
+      dmr_label: 8732
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.8% - Breast-Luminal-Ep
+      16.8% - Breast-Basal-Ep ✓
+      16.8% - Head-Neck-Ep
+      16.8% - Prostate-Ep
+
+ 8. Confidence: 16.8% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: AGT GTC TCC CCC CCT CTC TCC CCT CTC TCG CGC GCC CCT CTC TCA CAT ATT TTC TCC CCC CCG CGA GAT ATT TTC TCA CAC ACT CTC TCC CCG CGT GTT TTG TGC GCT CTA TAT ATA TAG AGG GGT GTA TAT ATG TGT GTT TTT TTG TGA GAA AAA AAC ACC CCC CCC CCA CAG AGC GCG CGT GTG TGG GGT GTA TAG AGA GAT ATT TTT
+      methyl_seq: 2222222221222222222212222222221222222222222222222222222222202222222222
+      dmr_label: 10994
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.8% - Prostate-Ep
+      16.8% - Lung-Ep-Alveo
+      16.8% - Breast-Basal-Ep ✓
+      16.7% - Head-Neck-Ep
+
+ 9. Confidence: 16.9% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: CCC CCT CTT TTT TTT TTC TCT CTC TCC CCG CGT GTT TTT TTT TTC TCC CCT CTC TCT CTC TCG CGC GCT CTT TTG TGC GCC CCC CCT CTA TAG AGT GTG TGT GTA TAT ATT TTC TCC CCC CCG
+      methyl_seq: 22222222202222222222122222222222222222221
+      dmr_label: 10214
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.9% - Breast-Basal-Ep ✓
+      16.8% - Breast-Luminal-Ep
+      16.8% - Prostate-Ep
+      16.6% - Bladder-Ep
+
+10. Confidence: 16.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: TGG GGA GAA AAG AGT GTT TTC TCT CTC TCG CGA GAC ACT CTT TTA TAA AAG AGG GGA GAA AAA AAG AGA GAA AAA AAA AAA AAA AAA AAA AAT ATT TTA TAT ATT TTT TTA TAC ACT CTA TAA AAG AGG GGT GTT TTG TGC GCG
+      methyl_seq: 222222222122222222222222222222222222222222222221
+      dmr_label: 31671
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.9% - Lung-Ep-Alveo
+      16.8% - Head-Neck-Ep
+      16.8% - Breast-Luminal-Ep
+      16.7% - Prostate-Ep
+      16.4% - Breast-Basal-Ep ✓ (not in top 4)
+
+11. Confidence: 16.9% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: AGC GCA CAG AGA GAG AGC GCC CCA CAC ACG CGT GTT TTG TGG GGC GCG CGG GGA GAC ACA CAG AGG GGA GAC ACC CCT
+      methyl_seq: 22222222202222212222222222
+      dmr_label: 8906
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.9% - Prostate-Ep
+      16.8% - Bladder-Ep
+      16.7% - Lung-Ep-Alveo
+      16.6% - Breast-Luminal-Ep
+      16.4% - Breast-Basal-Ep ✓ (not in top 4)
+
+12. Confidence: 16.9% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: GGG GGG GGC GCG CGG GGG GGG GGG GGG GGC GCA CAA AAT ATG TGG GGC GCG CGA GAA AAG AGC GCT CTA TAA AAG AGT GTT TTA TAG AGA GAA AAG AGC GCC CCG CGC GCG
+      methyl_seq: 2221222222222222122222222222222222121
+      dmr_label: 44935
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.9% - Breast-Luminal-Ep
+      16.9% - Lung-Ep-Alveo
+      16.8% - Head-Neck-Ep
+      16.6% - Breast-Basal-Ep ✓
+
+13. Confidence: 16.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GAG AGC GCA CAC ACC CCT CTG TGA GAC ACG CGA GAA AAG AGA GAG AGT GTT TTT TTC TCC CCA CAC ACT CTT TTT TTT TTA TAA AAT ATA TAC ACA CAG AGT GTT TTG TGA GAA AAC ACC CCG CGA GAA AAA AAG AGA GAA AAA AAA AAT ATA TAT ATT TTA TAT ATT TTG TGT GTA TAG AGT GTA TAA AAA AAT ATT TTT TTC TCC CCT CTT TTT TTA TAA AAA AAA AAA AAA AAG AGC GCA CAA AAT ATA TAT ATT TTG TGA GAT ATG TGT GTT TTC TCC CCC CCG
+      methyl_seq: 222222222122222222222222222222222222222212222222222222222222222222222222222222222222222222222221
+      dmr_label: 31311
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.9% - Lung-Ep-Alveo
+      16.8% - Head-Neck-Ep
+      16.8% - Breast-Luminal-Ep
+      16.6% - Prostate-Ep
+      16.6% - Breast-Basal-Ep ✓ (not in top 4)
+
+14. Confidence: 16.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGA GAA AAG AGA GAG AGT GTG TGT GTC TCG CGT GTA TAG AGG GGG GGC GCA CAG AGC GCA CAT ATG TGT GTA TAA AAA AAA AAC ACG
+      methyl_seq: 22222222202222222222222222220
+      dmr_label: 44853
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.9% - Lung-Ep-Alveo
+      16.8% - Breast-Luminal-Ep
+      16.8% - Prostate-Ep
+      16.8% - Bladder-Ep
+      16.2% - Breast-Basal-Ep ✓ (not in top 4)
+
+15. Confidence: 16.9% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: TGA GAG AGA GAC ACT CTA TAT ATC TCC CCG CGC GCT CTT TTT TTG TGG GGC GCT CTG TGC GCA CAG AGG GGG GGC GCT CTT TTG TGA GAC ACG CGG GGG GGC GCC CCT CTG TGC GCC CCT CTC TCA CAG AGA GAT ATG TGA GAG AGC GCT CTT TTT TTG TGG GGG GGG GGA GAG AGT GTG TGA GAA AAA AAG AGT GTG TGG GGC GCT CTG TGC GCC CCT CTG TGG GGG GGA GAC ACC CCC CCT CTG TGG GGG GGC GCG CGC GCC CCT CTG TGG GGT GTG TGT GTT TTT
+      methyl_seq: 222222222122222222222222222222122222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 24597
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      16.9% - Prostate-Ep
+      16.9% - Bladder-Ep
+      16.8% - Lung-Ep-Alveo
+      16.6% - Head-Neck-Ep
+      16.5% - Breast-Basal-Ep ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Breast-Luminal-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: TCC CCA CAG AGG GGA GAT ATG TGG GGC GCG CGC GCT CTA TAG AGA GAG AGG GGA GAA AAG AGC GCG CGC GCC CCC CCC CCT CTC TCA CAG AGA GAC
+      methyl_seq: 22222222212222222222202222222222
+      dmr_label: 1086
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Breast-Luminal-Ep ✓
+      16.7% - Breast-Basal-Ep
+      16.7% - Lung-Ep-Alveo
+      16.7% - Prostate-Ep
+
+ 2. Confidence: 16.8% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: CCT CTT TTC TCT CTC TCT CTC TCT CTC TCG CGC GCT CTC TCT CTC TCT CTT TTT TTA TAT ATT TTT TTT TTG TGG GGT GTT TTG TGC GCC CCA CAC ACG
+      methyl_seq: 222222222022222222222222222222221
+      dmr_label: 25185
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Bladder-Ep
+      16.8% - Head-Neck-Ep
+      16.7% - Breast-Basal-Ep
+      16.7% - Breast-Luminal-Ep ✓
+
+ 3. Confidence: 16.8% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: ATG TGC GCC CCT CTG TGA GAA AAC ACC CCG CGC GCA CAG AGA GAG AGG GGC GCC CCA CAG AGG GGC GCA CAT ATT TTC TCC CCT CTC TCC CCA CAG AGA GAA AAC ACC CCT CTC TCC CCT CTC TCC CCC CCA CAC ACA CAG AGG GGA GAG AGC GCT CTT TTA TAC ACT CTA TAC ACA CAC ACG CGT GTG TGC GCC
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222202222
+      dmr_label: 8879
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Breast-Basal-Ep
+      16.7% - Breast-Luminal-Ep ✓
+      16.7% - Lung-Ep-Alveo
+      16.7% - Head-Neck-Ep
+
+ 4. Confidence: 16.8% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: TGA GAC ACA CAC ACC CCC CCC CCA CAC ACG CGC GCA CAT ATG TGA GAA AAG AGG GGC GCA CAG AGG GGT GTG TGC GCA CAC ACA CAG AGG GGT GTG TGG GGT GTT TTC TCT CTC TCA CAC ACG
+      methyl_seq: 22222222202222222222222222222222222222220
+      dmr_label: 10119
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Prostate-Ep
+      16.8% - Breast-Basal-Ep
+      16.8% - Breast-Luminal-Ep ✓
+      16.7% - Bladder-Ep
+
+ 5. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: AAT ATG TGT GTT TTT TTA TAT ATT TTC TCG CGT GTA TAG AGT GTG TGG GGG GGC GCT CTT TTG TGT GTT TTC TCA CAA AAA AAT ATC TCA CAG AGA GAA AAT ATC TCT CTG TGA GAA AAC ACA CAA AAG AGG GGG GGT GTC TCA CAT ATG TGC GCA CAT ATT TTG TGC GCA CAT ATT TTT TTG TGA GAT ATT TTA TAA AAT ATA TAT ATG TGT GTC TCT CTC TCT CTT TTT TTA TAG AGT GTC TCT CTC TCT CTT TTT TTT TTA TAA AAT ATC TCT CTA TAT ATA TAA AAT ATT TTG TGT GTT TTA TAA AAC ACC CCT CTT TTA TAC ACC CCA CAC ACC CCT CTC TCA CAC ACT CTC TCC CCC CCC CCT CTG TGC GCC CCT CTT TTT TTA TAA AAA AAA AAG AGC GCA CAA AAG AGA GAA AAA AAA AAA AAA AAT ATT TTG TGG GGA GAT ATC TCA CAC ACC CCT CTG TGG GGT GTA TAG AGA GAA AAA AAG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 1454
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Head-Neck-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Lung-Ep-Alveo
+      16.7% - Bladder-Ep
+      16.5% - Breast-Luminal-Ep ✓ (not in top 4)
+
+ 6. Confidence: 16.8% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: CAG AGC GCC CCC CCT CTG TGG GGG GGC GCG CGA GAT ATT TTC TCC CCT CTC TCA CAA AAG AGG GGG GGC GCA CAG AGC GCC CCA CAC ACG CGC GCG
+      methyl_seq: 22222222202222222222222222222120
+      dmr_label: 31673
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Prostate-Ep
+      16.8% - Breast-Luminal-Ep ✓
+      16.8% - Bladder-Ep
+      16.7% - Lung-Ep-Alveo
+
+ 7. Confidence: 16.8% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: ACA CAA AAG AGG GGC GCC CCT CTG TGC GCG CGG GGT GTG TGC GCA CAG AGG GGT GTA TAG AGA GAC ACT CTT TTT TTG TGC GCA CAA AAG AGC GCT CTG TGG GGT GTC TCT CTA TAA AAG AGC GCA CAC ACA CAA AAG AGG GGT GTG TGA GAC ACT CTC TCT CTG TGC GCG
+      methyl_seq: 222222222122222222222222222222222222222222222222222222221
+      dmr_label: 1524
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Prostate-Ep
+      16.7% - Breast-Basal-Ep
+      16.7% - Lung-Ep-Alveo
+      16.7% - Breast-Luminal-Ep ✓
+
+ 8. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: GGC GCA CAC ACA CAC ACC CCG CGC GCA CAA AAC ACA CAT ATC TCC CCG CGC GCT CTT TTC TCC CCT CTG TGG GGG GGC
+      methyl_seq: 22222202222222212222222222
+      dmr_label: 8361
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Head-Neck-Ep
+      16.8% - Prostate-Ep
+      16.8% - Lung-Ep-Alveo
+      16.6% - Bladder-Ep
+      16.6% - Breast-Luminal-Ep ✓ (not in top 4)
+
+ 9. Confidence: 16.8% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: TCC CCA CAG AGT GTG TGG GGT GTG TGC GCG CGA GAT ATC TCT CTC TCA CAG AGC GCT CTC TCA CAT ATT TTG TGC GCA CAA AAC ACC CCT CTC TCT CTG TGC GCC CCT CTC TCC CCT CTG TGG GGG GGT GTG TGC GCA CAA AAG AGC GCG CGA GAT ATT TTC TCT CTC TCC CCT CTG TGC
+      methyl_seq: 222222222122222222222222222222222222222222222222212222222222
+      dmr_label: 1657
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Breast-Luminal-Ep ✓
+      16.8% - Bladder-Ep
+      16.7% - Head-Neck-Ep
+      16.7% - Prostate-Ep
+
+10. Confidence: 16.8% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: GCA CAC ACC CCT CTC TCG CGG GGC GCT CTT TTC TCC CCC CCA CAC ACA CAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGT GTG TGT GTG TGA GAG AGC GCC CCA CAC ACT CTG TGC GCA CAC ACC CCC CCG CGG GGC GCC CCA CAT ATT TTT TTG TGA GAC ACC CCC CCT CTA TAA AAA AAT ATT TTA TAA AAT ATG TGT GTG TGA GAG AGG GGT GTT TTT TTT TTC TCA CAC ACT CTA TAA AAA AAG AGA GAA AAA AAC ACT CTA TAA AAT ATG TGG GGA GAA AAG AGC GCA CAT ATA TAA AAT ATG TGT GTG TGG GGA GAG AGA GAT ATC TCC CCG
+      methyl_seq: 22222122222222222222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 8582
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Bladder-Ep
+      16.8% - Prostate-Ep
+      16.8% - Breast-Basal-Ep
+      16.6% - Head-Neck-Ep
+      16.6% - Breast-Luminal-Ep ✓ (not in top 4)
+
+11. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCT CTG TGC GCG CGC GCT CTC TCA CAA AAC ACC CCC CCG CGG GGC GCC CCT CTG TGG GGT GTT TTC TCA CAC ACG CGG GGC GCG CGA GAA AAG AGT GTC TCC CCC CCC CCA CAG AGG GGC GCC CCG
+      methyl_seq: 222122222222122222222222022122222222222221
+      dmr_label: 44273
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.7% - Prostate-Ep
+      16.7% - Bladder-Ep
+      16.7% - Head-Neck-Ep
+      16.4% - Breast-Luminal-Ep ✓ (not in top 4)
+
+12. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GTT TTC TCG CGA GAA AAA AAT ATA TAC ACC CCC CCC CCC CCA CAG AGC GCA CAC ACT CTG TGA GAC ACA CAC ACC CCA CAT ATG TGC GCC CCA CAG AGC GCC CCT CTC TCT CTT TTC TCG CGT GTC TCT CTC TCA CAA AAA AAC ACA CAT
+      methyl_seq: 22122222222222222222222222222222222222212222222222
+      dmr_label: 8973
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Prostate-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Head-Neck-Ep
+      16.3% - Breast-Luminal-Ep ✓ (not in top 4)
+
+13. Confidence: 16.8% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: TCA CAA AAG AGA GAG AGA GAT ATT TTC TCG CGC GCC CCT CTT TTG TGG GGC GCA CAG AGG GGA GAT ATA TAT ATT TTT TTC TCT CTG TGT GTA TAA AAC ACC CCA CAT ATC TCT CTG TGC GCA CAG AGC GCT CTA TAG AGT GTA TAT ATT TTC TCG CGA GAG AGT GTA TAT ATG TGA GAA AAC ACA
+      methyl_seq: 22222222212222222222222222222222222222222222222222212222222222
+      dmr_label: 24851
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Breast-Luminal-Ep ✓
+      16.8% - Lung-Ep-Alveo
+      16.8% - Breast-Basal-Ep
+      16.8% - Prostate-Ep
+
+14. Confidence: 16.8% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GCA CAT ATC TCA CAT ATG TGG GGG GGC GCG CGC GCC CCT CTG TGT GTA TAT ATT TTC TCC CCC CCC CCA CAA AAA AAC ACT CTA TAC ACC CCT CTC TCA CAG AGA GAC ACT CTT TTA TAC ACA CAA AAA AAT ATC TCG CGA GAG AGA GAA AAG AGC GCT CTG TGC GCA
+      methyl_seq: 22222222212222222222222222222222222222222222212222222222
+      dmr_label: 1706
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.8% - Breast-Basal-Ep
+      16.8% - Prostate-Ep
+      16.7% - Lung-Ep-Alveo
+      16.7% - Breast-Luminal-Ep ✓
+
+15. Confidence: 16.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: TGA GAT ATT TTT TTA TAA AAA AAG AGC GCG CGT GTC TCC CCT CTC TCT CTT TTA TAC ACC CCT CTT TTC TCT CTA TAA AAA AAC ACT CTT TTT TTC TCA CAT ATT TTC TCT CTC TCC CCC CCT CTC TCT CTA TAC ACG
+      methyl_seq: 2222222221222222222222222222222222222222222221
+      dmr_label: 44480
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      16.9% - Lung-Ep-Alveo
+      16.8% - Breast-Luminal-Ep ✓
+      16.8% - Breast-Basal-Ep
+      16.7% - Bladder-Ep
+
+============================================================
+
+TRUE CELL TYPE: Head-Neck-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GCC CCA CAT ATC TCT CTC TCT CTT TTC TCG CGC GCA CAG AGG GGT GTC TCG CGA GAA AAC ACT CTC TCT CTC TCC CCC CCA
+      methyl_seq: 222222222022222212222222222
+      dmr_label: 8436
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.8% - Breast-Basal-Ep
+      16.8% - Prostate-Ep
+      16.7% - Head-Neck-Ep ✓
+      16.7% - Breast-Luminal-Ep
+
+ 2. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCT CTG TGG GGC GCA CAT ATT TTC TCC CCG CGC GCT CTC TCT CTT TTG TGC GCT CTC TCA CAG AGA GAA AAA AAT ATC TCC CCG CGG GGA GAG AGC
+      methyl_seq: 22222222202222222222222222212222
+      dmr_label: 8315
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Breast-Luminal-Ep
+      16.7% - Breast-Basal-Ep
+      16.7% - Prostate-Ep
+      16.6% - Head-Neck-Ep ✓ (not in top 4)
+
+ 3. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: AAT ATG TGT GTT TTT TTA TAT ATT TTC TCG CGT GTA TAG AGT GTG TGG GGG GGC GCT CTT TTG TGT GTT TTC TCA CAA AAA AAT ATC TCA CAG AGA GAA AAT ATC TCT CTG TGA GAA AAC ACA CAA AAG AGG GGG GGT GTC TCA CAT ATG TGC GCA CAT ATT TTG TGC GCA CAT ATT TTT TTG TGA GAT ATT TTA TAA AAT ATA TAT ATG TGT GTC TCT CTC TCT CTT TTT TTA TAG AGT GTC TCT CTC TCT CTT TTT TTT TTA TAA AAT ATC TCT CTA TAT ATA TAA AAT ATT TTG TGT GTT TTA TAA AAC ACC CCT CTT TTA TAC ACC CCA CAC ACC CCT CTC TCA CAC ACT CTC TCC CCC CCC CCT CTG TGC GCC CCT CTT TTT TTA TAA AAA AAA AAG AGC GCA CAA AAG AGA GAA AAA AAA AAA AAA AAT ATT TTG TGG GGA GAT ATC TCA CAC ACC CCT CTG TGG GGT GTA TAG AGA GAA AAA AAG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 1454
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.8% - Head-Neck-Ep ✓
+      16.8% - Breast-Basal-Ep
+      16.7% - Lung-Ep-Alveo
+      16.7% - Bladder-Ep
+
+ 4. Confidence: 16.8% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: TTC TCA CAG AGG GGT GTC TCC CCC CCC CCG CGG GGA GAC ACT CTG TGC GCA CAG AGC GCG CGC GCC CCT CTC TCC CCT CTT TTC TCA CAC
+      methyl_seq: 222222222022222222212222222222
+      dmr_label: 1491
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.8% - Breast-Basal-Ep
+      16.8% - Breast-Luminal-Ep
+      16.6% - Prostate-Ep
+      16.6% - Head-Neck-Ep ✓
+
+ 5. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CCA CAA AAG AGG GGA GAC ACT CTT TTC TCG CGT GTA TAC ACA CAA AAA AAT ATG TGG GGT GTC TCC CCG CGA GAA AAA AAG AGG GGT GTA TAA AAT ATT TTC TCA CAT ATT TTC TCT CTC TCG
+      methyl_seq: 22222222212222222222221222222222222222220
+      dmr_label: 8161
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Breast-Luminal-Ep
+      16.7% - Prostate-Ep
+      16.6% - Head-Neck-Ep ✓
+
+ 6. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: CCA CAA AAA AAT ATC TCT CTC TCA CAC ACG CGT GTG TGG GGA GAG AGA GAT ATG TGT GTA TAA AAT ATC TCT CTC TCC CCG
+      methyl_seq: 222222222122222222222222220
+      dmr_label: 10786
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.8% - Head-Neck-Ep ✓
+      16.8% - Lung-Ep-Alveo
+      16.8% - Prostate-Ep
+      16.8% - Bladder-Ep
+
+ 7. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: AGG GGC GCT CTG TGG GGT GTC TCT CTC TCG CGA GAA AAC ACT CTC TCC CCC CCG CGA GAC ACC CCT CTC TCA CAG AGG GGT GTG TGA GAT ATC TCC CCG CGT GTC TCC CCA CAC ACC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCA CAT ATG TGA GAG AGC GCC CCA CAC ACT CTG TGC GCG CGC GCC CCT CTG TGG GGC GCC CCG
+      methyl_seq: 222222222022222221222222222222221222222221222222222222222222222222222222222222222122222220
+      dmr_label: 1657
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Prostate-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Bladder-Ep
+      16.2% - Head-Neck-Ep ✓ (not in top 4)
+
+ 8. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: GGC GCC CCA CAG AGG GGT GTG TGT GTC TCG CGG GGT GTC TCA CAT ATT TTC TCC CCT CTG TGG GGC GCT CTG TGG GGG GGC GCT CTT TTC TCT CTG TGT GTG TGC GCT CTG TGG GGA GAC ACC CCC CCT CTC TCC CCA CAG AGC GCT CTC TCC CCC CCC CCT CTG TGA GAA AAG AGG GGC GCA CAA AAC ACC CCC CCC CCT CTA TAG AGC GCC CCC CCA CAC ACT CTC TCA CAA AAG AGT GTC TCC CCT CTC TCA CAT ATA TAG AGG GGA GAG AGG GGC GCT CTG TGC GCA CAC ACC CCC CCT CTG TGT GTA TAG AGC GCC CCT CTG TGC GCA CAG AGC GCA CAG AGG GGG GGC GCC CCG
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 8189
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.8% - Head-Neck-Ep ✓
+      16.8% - Lung-Ep-Alveo
+      16.7% - Prostate-Ep
+      16.6% - Bladder-Ep
+
+ 9. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GAG AGG GGC GCC CCG CGG GGC GCG CGG GGA GAT ATC TCA CAC ACA CAA AAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATC TCG
+      methyl_seq: 22221221222222222222222222220
+      dmr_label: 1592
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Breast-Basal-Ep
+      16.7% - Bladder-Ep
+      16.6% - Breast-Luminal-Ep
+      16.5% - Head-Neck-Ep ✓ (not in top 4)
+
+10. Confidence: 16.8% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: CCT CTA TAC ACA CAC ACA CAT ATG TGC GCG CGT GTC TCA CAG AGC GCC CCA CAA AAC ACC CCA CAC ACA CAT ATA TAC ACT CTC TCG
+      methyl_seq: 22222222202222222222222222220
+      dmr_label: 24594
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.8% - Breast-Basal-Ep
+      16.8% - Breast-Luminal-Ep
+      16.8% - Bladder-Ep
+      16.7% - Head-Neck-Ep ✓
+
+11. Confidence: 16.9% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: GAA AAA AAG AGG GGA GAA AAA AAT ATC TCG CGT GTT TTC TCT CTG TGG GGA GAG AGA GAT ATC TCA CAT ATT TTC TCT CTA TAG AGG GGT GTT TTA TAA AAA AAG AGG GGA GAA AAA AAG AGA GAG AGT GTT TTG TGC GCG CGC GCA CAA AAA AAG AGA GAA AAG AGA GAG
+      methyl_seq: 222222222122222222222222222222222222222222222212222222222
+      dmr_label: 10411
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.9% - Bladder-Ep
+      16.8% - Breast-Luminal-Ep
+      16.7% - Prostate-Ep
+      16.6% - Head-Neck-Ep ✓
+
+12. Confidence: 16.9% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: GGC GCA CAG AGC GCC CCA CAT ATT TTC TCG CGC GCT CTC TCT CTG TGC GCG CGT GTG TGG GGG GGA GAG AGG GGG GGT GTG
+      methyl_seq: 222222222122222202222222222
+      dmr_label: 8049
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.9% - Breast-Luminal-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Bladder-Ep
+      16.7% - Head-Neck-Ep ✓
+
+13. Confidence: 16.9% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: GGT GTA TAG AGT GTT TTG TGA GAA AAC ACG CGA GAA AAT ATG TGA GAA AAC ACC CCA CAA AAT ATT TTG TGT GTA TAT ATA TAC ACA CAC ACC CCC CCT CTG TGG GGG GGA GAG AGC GCT CTA TAC ACT CTT TTC TCC CCG CGG GGT GTA TAC ACC CCT CTC TCT CTT TTA
+      methyl_seq: 222222222122222222222222222222222222222222222212222222222
+      dmr_label: 8092
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.9% - Breast-Luminal-Ep
+      16.8% - Prostate-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Lung-Ep-Alveo
+      16.3% - Head-Neck-Ep ✓ (not in top 4)
+
+14. Confidence: 16.9% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: GCT CTG TGG GGA GAG AGT GTC TCC CCC CCG CGG GGC GCT CTG TGC GCG CGT GTC TCA CAC ACA CAA AAG AGC GCA CAG AGT GTG TGG GGC GCG CGC GCT CTC TCA CAC ACT CTT TTC TCC CCT
+      methyl_seq: 22222222212222212222222222222212222222222
+      dmr_label: 8740
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.9% - Breast-Luminal-Ep
+      16.8% - Lung-Ep-Alveo
+      16.8% - Head-Neck-Ep ✓
+      16.7% - Breast-Basal-Ep
+
+15. Confidence: 16.9% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: CTT TTG TGA GAG AGG GGG GGA GAG AGC GCG CGC GCT CTG TGT GTT TTG TGG GGG GGA GAA AAA AAG AGG GGA GAA AAT ATT TTT TTT TTT TTG TGC GCC CCT CTC TCA CAA AAT ATT TTG TGG GGG GGC GCA CAA AAC ACT CTT TTT TTT TTT TTC TCC CCT CTG TGC GCT CTA TAT ATT TTT TTA TAA AAT ATA TAT ATG TGC GCA CAT ATA TAC ACT CTC TCT CTT TTC TCT CTT TTG TGA GAG AGC GCA CAG AGT GTT TTA TAA AAA AAG AGA GAC ACG CGC GCA CAG AGA GAA AAG AGA GAA AAA AAG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 8873
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      16.9% - Breast-Luminal-Ep
+      16.8% - Prostate-Ep
+      16.7% - Bladder-Ep
+      16.7% - Head-Neck-Ep ✓
+
+============================================================
+
+TRUE CELL TYPE: Lung-Ep-Alveo
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: GGT GTG TGC GCC CCG CGT GTC TCC CCT CTA TAC ACA CAG AGT GTC TCG CGT GTG TGG GGC GCA CAC ACC CCC CCT CTC
+      methyl_seq: 22220222222222212222222222
+      dmr_label: 8891
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Breast-Luminal-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Prostate-Ep
+      16.7% - Bladder-Ep
+      16.6% - Lung-Ep-Alveo ✓ (not in top 4)
+
+ 2. Confidence: 16.8% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: TGT GTA TAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC TCA CAT ATG TGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAA AAT ATC TCT CTG TGG GGG GGC GCG
+      methyl_seq: 2222222220222222222222222222222222222221
+      dmr_label: 25095
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Bladder-Ep
+      16.8% - Head-Neck-Ep
+      16.7% - Lung-Ep-Alveo ✓
+      16.7% - Breast-Luminal-Ep
+
+ 3. Confidence: 16.8% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: GAG AGG GGC GCG CGG GGG GGT GTG TGG GGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATC TCG
+      methyl_seq: 22202222222222122222222222221
+      dmr_label: 24452
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Prostate-Ep
+      16.7% - Lung-Ep-Alveo ✓
+      16.7% - Breast-Luminal-Ep
+      16.7% - Breast-Basal-Ep
+
+ 4. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: ATT TTC TCC CCT CTC TCC CCC CCA CAC ACG CGA GAC ACA CAA AAA AAG AGT GTT TTT TTT TTA TAC ACC CCC CCT CTC TCA CAG AGG GGA GAA AAT ATT TTG TGT GTG TGC GCT CTC TCA CAC ACA CAA AAC ACA CAG AGC GCT CTT TTT TTC TCC CCT CTC TCC CCT CTA TAG AGA GAG AGA GAT ATT TTT TTC TCT CTG TGC GCC CCG CGA GAG AGA GAA AAC ACA CAT ATA TAC ACA
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 1433
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Head-Neck-Ep
+      16.8% - Bladder-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Prostate-Ep
+      16.4% - Lung-Ep-Alveo ✓ (not in top 4)
+
+ 5. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCG CGT GTT TTC TCC CCT CTT TTC TCT CTG TGC GCA CAC ACA CAC ACG CGT GTG TGG GGA GAA AAC ACG CGC GCA CAG AGC GCA CAT ATT TTT TTC TCG
+      methyl_seq: 122222222222222022222202222222220
+      dmr_label: 44593
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo ✓
+      16.7% - Breast-Basal-Ep
+      16.7% - Prostate-Ep
+      16.7% - Bladder-Ep
+
+ 6. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: GAC ACC CCT CTC TCT CTG TGC GCC CCC CCG CGG GGA GAC ACC CCT CTG TGT GTC TCG CGA GAG AGG GGG GGA GAG AGG GGG GGG GGA
+      methyl_seq: 22222222212222222202222222222
+      dmr_label: 44328
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Head-Neck-Ep
+      16.8% - Lung-Ep-Alveo ✓
+      16.7% - Bladder-Ep
+      16.7% - Prostate-Ep
+
+ 7. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: AAT ATG TGT GTT TTT TTA TAT ATT TTC TCG CGT GTA TAG AGT GTG TGG GGG GGC GCT CTT TTG TGT GTT TTC TCA CAA AAA AAT ATC TCA CAG AGA GAA AAT ATC TCT CTG TGA GAA AAC ACA CAA AAG AGG GGG GGT GTC TCA CAT ATG TGC GCA CAT ATT TTG TGC GCA CAT ATT TTT TTG TGA GAT ATT TTA TAA AAT ATA TAT ATG TGT GTC TCT CTC TCT CTT TTT TTA TAG AGT GTC TCT CTC TCT CTT TTT TTT TTA TAA AAT ATC TCT CTA TAT ATA TAA AAT ATT TTG TGT GTT TTA TAA AAC ACC CCT CTT TTA TAC ACC CCA CAC ACC CCT CTC TCA CAC ACT CTC TCC CCC CCC CCT CTG TGC GCC CCT CTT TTT TTA TAA AAA AAA AAG AGC GCA CAA AAG AGA GAA AAA AAA AAA AAA AAT ATT TTG TGG GGA GAT ATC TCA CAC ACC CCT CTG TGG GGT GTA TAG AGA GAA AAA AAG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 1454
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Head-Neck-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Lung-Ep-Alveo ✓
+      16.7% - Bladder-Ep
+
+ 8. Confidence: 16.8% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: ATC TCT CTG TGC GCT CTC TCC CCA CAC ACG CGC GCT CTG TGG GGA GAT ATT TTC TCC CCA CAA AAC ACA CAT ATG TGC GCT CTG TGG GGC GCC CCC CCG CGG GGA GAG AGC
+      methyl_seq: 2222222221222222222222222222222202222
+      dmr_label: 44957
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Prostate-Ep
+      16.8% - Breast-Luminal-Ep
+      16.8% - Lung-Ep-Alveo ✓
+      16.7% - Head-Neck-Ep
+
+ 9. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: ATT TTC TCC CCT CTC TCT CTT TTC TCC CCG CGC GCC CCT CTG TGC GCC CCC CCA CAC ACC CCT CTC TCC CCA CAG AGA GAG AGC GCG
+      methyl_seq: 22222222202222222222222222221
+      dmr_label: 1683
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo ✓
+      16.8% - Prostate-Ep
+      16.8% - Head-Neck-Ep
+      16.7% - Bladder-Ep
+
+10. Confidence: 16.8% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: GCA CAC ACC CCT CTC TCG CGG GGC GCT CTT TTC TCC CCC CCA CAC ACA CAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGT GTG TGT GTG TGA GAG AGC GCC CCA CAC ACT CTG TGC GCA CAC ACC CCC CCG CGG GGC GCC CCA CAT ATT TTT TTG TGA GAC ACC CCC CCT CTA TAA AAA AAT ATT TTA TAA AAT ATG TGT GTG TGA GAG AGG GGT GTT TTT TTT TTC TCA CAC ACT CTA TAA AAA AAG AGA GAA AAA AAC ACT CTA TAA AAT ATG TGG GGA GAA AAG AGC GCA CAT ATA TAA AAT ATG TGT GTG TGG GGA GAG AGA GAT ATC TCC CCG
+      methyl_seq: 22222122222222222222222222222222222222222222222221222222222222222222222222222222222222222222222222222222222222222222221
+      dmr_label: 8582
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Bladder-Ep
+      16.8% - Prostate-Ep
+      16.8% - Breast-Basal-Ep
+      16.6% - Head-Neck-Ep
+      16.4% - Lung-Ep-Alveo ✓ (not in top 4)
+
+11. Confidence: 16.8% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: TCC CCA CAT ATT TTA TAA AAT ATC TCC CCG CGT GTC TCC CCA CAT ATG TGC GCC CCA CAG AGG GGA GAA AAT ATA TAC ACG
+      methyl_seq: 222222222122222222222222220
+      dmr_label: 25154
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Breast-Basal-Ep
+      16.7% - Breast-Luminal-Ep
+      16.7% - Lung-Ep-Alveo ✓
+      16.6% - Bladder-Ep
+
+12. Confidence: 16.8% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: TCC CCA CAA AAG AGA GAT ATC TCA CAC ACG CGA GAG AGA GAC ACT CTG TGC GCG CGC GCT CTC TCA CAC ACA CAG AGC GCC CCT
+      methyl_seq: 2222222221222222202222222222
+      dmr_label: 1585
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Bladder-Ep
+      16.8% - Lung-Ep-Alveo ✓
+      16.8% - Prostate-Ep
+      16.7% - Breast-Luminal-Ep
+
+13. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GTT TTC TCG CGA GAA AAA AAT ATA TAC ACC CCC CCC CCC CCA CAG AGC GCA CAC ACT CTG TGA GAC ACA CAC ACC CCA CAT ATG TGC GCC CCA CAG AGC GCC CCT CTC TCT CTT TTC TCG CGT GTC TCT CTC TCA CAA AAA AAC ACA CAT
+      methyl_seq: 22122222222222222222222222222222222222212222222222
+      dmr_label: 8973
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo ✓
+      16.8% - Prostate-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Head-Neck-Ep
+
+14. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: ACT CTT TTC TCT CTG TGG GGG GGG GGC GCG CGA GAG AGC GCT CTG TGC GCT CTG TGG GGG GGA GAC ACT CTT TTT TTT TTG TGG GGC GCC CCC CCA CAG AGC GCA CAG AGG GGC GCA CAC ACA CAG AGT GTT TTG TGG GGA GAA AAA AAT ATT TTT TTA TAA AAT ATA TAC ACT CTG TGC GCC CCT CTG TGG GGG GGA GAC ACA CAG AGA GAT ATT TTT TTT TTA TAA AAA AAA AAA AAG AGA GAT ATG TGG GGC GCT CTG TGG GGT GTA TAC ACA CAA AAG AGT GTA TAG AGT GTT TTC TCA CAG AGT GTC TCA CAA AAG AGT GTA TAC ACT CTG TGA GAG AGA GAT ATC TCA CAA AAG AGT GTT TTT TTT TTT TTG TGC GCT CTC TCA CAC ACG
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 31997
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Head-Neck-Ep
+      16.8% - Bladder-Ep
+      16.8% - Lung-Ep-Alveo ✓
+      16.8% - Prostate-Ep
+
+15. Confidence: 16.8% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: AGG GGA GAG AGG GGC GCA CAC ACT CTC TCG CGC GCC CCC CCA CAC ACC CCT CTG TGG GGA GAC ACC CCT CTG TGG GGA GAC ACA CAC ACC CCG
+      methyl_seq: 2222222221222222222222222222220
+      dmr_label: 1622
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      16.8% - Prostate-Ep
+      16.8% - Bladder-Ep
+      16.7% - Head-Neck-Ep
+      16.7% - Breast-Luminal-Ep
+      16.6% - Lung-Ep-Alveo ✓ (not in top 4)
+
+============================================================
+
+TRUE CELL TYPE: Prostate-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 16.8% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: AGA GAG AGT GTG TGG GGC GCA CAG AGC GCG CGA GAA AAA AAT ATG TGA GAG AGA GAG AGA GAG AGA GAA AAT ATC TCG CGT GTG TGG GGC GCC CCC CCT CTA TAT ATT TTG TGA GAG AGC GCG CGT GTG TGC GCC CCT CTG TGC GCT CTC TCA CAC ACT CTG TGT GTT TTC TCT CTG TGA GAC ACA CAC ACG CGT GTT TTC TCT CTA TAC ACT CTT TTG TGT
+      methyl_seq: 22222222212222222222222221222222222222220222222222222222222222212222222222
+      dmr_label: 25259
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.8% - Breast-Luminal-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Lung-Ep-Alveo
+      16.7% - Head-Neck-Ep
+      16.7% - Prostate-Ep ✓ (not in top 4)
+
+ 2. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: ATT TTC TCC CCT CTC TCC CCC CCA CAC ACG CGA GAC ACA CAA AAA AAG AGT GTT TTT TTT TTA TAC ACC CCC CCT CTC TCA CAG AGG GGA GAA AAT ATT TTG TGT GTG TGC GCT CTC TCA CAC ACA CAA AAC ACA CAG AGC GCT CTT TTT TTC TCC CCT CTC TCC CCT CTA TAG AGA GAG AGA GAT ATT TTT TTC TCT CTG TGC GCC CCG CGA GAG AGA GAA AAC ACA CAT ATA TAC ACA
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 1433
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.8% - Head-Neck-Ep
+      16.8% - Bladder-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Prostate-Ep ✓
+
+ 3. Confidence: 16.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: AAT ATG TGT GTT TTT TTA TAT ATT TTC TCG CGT GTA TAG AGT GTG TGG GGG GGC GCT CTT TTG TGT GTT TTC TCA CAA AAA AAT ATC TCA CAG AGA GAA AAT ATC TCT CTG TGA GAA AAC ACA CAA AAG AGG GGG GGT GTC TCA CAT ATG TGC GCA CAT ATT TTG TGC GCA CAT ATT TTT TTG TGA GAT ATT TTA TAA AAT ATA TAT ATG TGT GTC TCT CTC TCT CTT TTT TTA TAG AGT GTC TCT CTC TCT CTT TTT TTT TTA TAA AAT ATC TCT CTA TAT ATA TAA AAT ATT TTG TGT GTT TTA TAA AAC ACC CCT CTT TTA TAC ACC CCA CAC ACC CCT CTC TCA CAC ACT CTC TCC CCC CCC CCT CTG TGC GCC CCT CTT TTT TTA TAA AAA AAA AAG AGC GCA CAA AAG AGA GAA AAA AAA AAA AAA AAT ATT TTG TGG GGA GAT ATC TCA CAC ACC CCT CTG TGG GGT GTA TAG AGA GAA AAA AAG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 1454
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.8% - Head-Neck-Ep
+      16.8% - Breast-Basal-Ep
+      16.7% - Lung-Ep-Alveo
+      16.7% - Bladder-Ep
+      16.5% - Prostate-Ep ✓ (not in top 4)
+
+ 4. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: AGG GGT GTA TAG AGG GGA GAC ACT CTC TCG CGT GTA TAG AGG GGC GCT CTC TCC CCT CTC TCT CTA TAA AAT ATC TCC CCC CCG
+      methyl_seq: 2222222221222222222222222220
+      dmr_label: 10170
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Head-Neck-Ep
+      16.8% - Prostate-Ep ✓
+      16.7% - Breast-Luminal-Ep
+
+ 5. Confidence: 16.8% | Predicted: Prostate-Ep
+    Read Information:
+      dna_seq: ACA CAA AAG AGG GGC GCC CCT CTG TGC GCG CGG GGT GTG TGC GCA CAG AGG GGT GTA TAG AGA GAC ACT CTT TTT TTG TGC GCA CAA AAG AGC GCT CTG TGG GGT GTC TCT CTA TAA AAG AGC GCA CAC ACA CAA AAG AGG GGT GTG TGA GAC ACT CTC TCT CTG TGC GCG
+      methyl_seq: 222222222122222222222222222222222222222222222222222222221
+      dmr_label: 1524
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.8% - Prostate-Ep ✓
+      16.7% - Breast-Basal-Ep
+      16.7% - Lung-Ep-Alveo
+      16.7% - Breast-Luminal-Ep
+
+ 6. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CAA AAG AGC GCA CAG AGA GAT ATC TCC CCG CGC GCA CAG AGA GAA AAA AAT ATG TGC GCA CAC ACA CAT ATA TAC ACC CCC CCC CCG
+      methyl_seq: 22222222212222222222222222220
+      dmr_label: 1403
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.7% - Prostate-Ep ✓
+      16.7% - Breast-Basal-Ep
+      16.6% - Bladder-Ep
+
+ 7. Confidence: 16.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCT CTC TCT CTG TGG GGG GGA GAG AGC GCG CGT GTC TCT CTG TGT GTC TCT CTT TTA TAT ATG TGC GCG CGA GAT ATT TTG TGA GAG AGC GCT CTA TAA
+      methyl_seq: 222222222022222222222212222222222
+      dmr_label: 10949
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.8% - Lung-Ep-Alveo
+      16.8% - Head-Neck-Ep
+      16.8% - Breast-Luminal-Ep
+      16.6% - Breast-Basal-Ep
+      16.4% - Prostate-Ep ✓ (not in top 4)
+
+ 8. Confidence: 16.8% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: CCT CTA TAC ACA CAC ACA CAT ATG TGC GCG CGT GTC TCA CAG AGC GCC CCA CAA AAC ACC CCA CAC ACA CAT ATA TAC ACT CTC TCG
+      methyl_seq: 22222222202222222222222222220
+      dmr_label: 24594
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.8% - Breast-Basal-Ep
+      16.8% - Breast-Luminal-Ep
+      16.8% - Bladder-Ep
+      16.7% - Head-Neck-Ep
+      16.2% - Prostate-Ep ✓ (not in top 4)
+
+ 9. Confidence: 16.8% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCT CTG TGG GGG GGC GCG CGT GTG TGG GGA GAT ATA TAC ACG
+      methyl_seq: 22222222212222222222222222222222222222222022222221
+      dmr_label: 31298
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.8% - Bladder-Ep
+      16.8% - Head-Neck-Ep
+      16.8% - Breast-Luminal-Ep
+      16.6% - Lung-Ep-Alveo
+      16.5% - Prostate-Ep ✓ (not in top 4)
+
+10. Confidence: 16.9% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: GAA AAA AAG AGG GGA GAA AAA AAT ATC TCG CGT GTT TTC TCT CTG TGG GGA GAG AGA GAT ATC TCA CAT ATT TTC TCT CTA TAG AGG GGT GTT TTA TAA AAA AAG AGG GGA GAA AAA AAG AGA GAG AGT GTT TTG TGC GCG CGC GCA CAA AAA AAG AGA GAA AAG AGA GAG
+      methyl_seq: 222222222122222222222222222222222222222222222212222222222
+      dmr_label: 10411
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.9% - Bladder-Ep
+      16.8% - Breast-Luminal-Ep
+      16.7% - Prostate-Ep ✓
+      16.6% - Head-Neck-Ep
+
+11. Confidence: 16.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGA GAC ACG CGC GCT CTG TGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC
+      methyl_seq: 2212222222222202222222222
+      dmr_label: 10514
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.9% - Lung-Ep-Alveo
+      16.8% - Prostate-Ep ✓
+      16.8% - Breast-Luminal-Ep
+      16.7% - Bladder-Ep
+
+12. Confidence: 16.9% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: CTG TGC GCA CAA AAG AGC GCT CTC TCC CCG CGC GCC CCT CTC TCC CCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCG
+      methyl_seq: 222222222022222222222222222222221
+      dmr_label: 1959
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.9% - Breast-Luminal-Ep
+      16.8% - Breast-Basal-Ep
+      16.8% - Lung-Ep-Alveo
+      16.7% - Head-Neck-Ep
+      16.3% - Prostate-Ep ✓ (not in top 4)
+
+13. Confidence: 16.9% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: CCC CCA CAG AGG GGA GAA AAT ATT TTC TCG CGA GAG AGA GAC ACC CCA CAG AGC GCC CCT CTA TAG AGC GCA CAA AAC ACA CAT ATA TAG AGC GCG
+      methyl_seq: 22222222212222222222222222222220
+      dmr_label: 1981
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.9% - Breast-Luminal-Ep
+      16.9% - Lung-Ep-Alveo
+      16.8% - Breast-Basal-Ep
+      16.6% - Prostate-Ep ✓
+
+14. Confidence: 16.9% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: CAG AGT GTG TGC GCA CAA AAC ACC CCC CCG CGA GAA AAA AAG AGG GGC GCC CCA CAG AGT GTC TCT CTC TCA CAC ACT CTT TTT TTC TCA CAC ACC CCA CAT ATG TGC GCC CCC CCC CCC CCC CCA CAA AAC ACA CAG AGC GCA CAC ACC CCA CAA AAA AAT ATT TTG TGA GAT ATT TTT TTC TCC CCA CAG AGG GGC GCA CAA AAC ACA CAG AGG GGT GTG TGA GAA AAC ACA CAG AGG GGG GGT GTT TTG TGA GAG AGT GTA TAC ACT CTT TTG TGT GTC TCC CCC CCA CAG AGG GGC GCT CTC TCC CCA CAG AGG GGC GCA CAT ATG TGC GCC CCT CTG TGC GCT CTG TGG GGG GGA GAA AAA AAG AGT GTA TAA AAG AGC GCA CAG AGG GGG GGC GCT CTT TTT TTC TCA CAG AGG GGT GTT TTT TTT TTG TGT GTG TGA GAC ACT CTC TCC CCC CCC CCA CAT ATC TCT CTG TGC GCT CTG TGC GCA CAA AAC ACT CTT TTC TCT CTG TGT GTG TGC GCT CTG TGT GTG TGT GTC TCT CTA TAC ACA CAC ACC CCC CCC CCT CTG TGG GGT GTT TTC TCA CAC ACC CCC CCT CTC TCT CTC TCC CCC CCC CCT CTA TAG AGA GAT ATT TTC TCC CCG CGT GTC TCC CCA CAG AGG GGA GAA AAA AAC
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 1955
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.9% - Breast-Luminal-Ep
+      16.8% - Head-Neck-Ep
+      16.8% - Lung-Ep-Alveo
+      16.7% - Bladder-Ep
+      16.3% - Prostate-Ep ✓ (not in top 4)
+
+15. Confidence: 16.9% | Predicted: Breast-Luminal-Ep
+    Read Information:
+      dna_seq: CTT TTG TGA GAG AGG GGG GGA GAG AGC GCG CGC GCT CTG TGT GTT TTG TGG GGG GGA GAA AAA AAG AGG GGA GAA AAT ATT TTT TTT TTT TTG TGC GCC CCT CTC TCA CAA AAT ATT TTG TGG GGG GGC GCA CAA AAC ACT CTT TTT TTT TTT TTC TCC CCT CTG TGC GCT CTA TAT ATT TTT TTA TAA AAT ATA TAT ATG TGC GCA CAT ATA TAC ACT CTC TCT CTT TTC TCT CTT TTG TGA GAG AGC GCA CAG AGT GTT TTA TAA AAA AAG AGA GAC ACG CGC GCA CAG AGA GAA AAG AGA GAA AAA AAG
+      methyl_seq: 22222222212222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 8873
+      ctype: Prostate-Ep
+    Probability Distribution:
+      16.9% - Breast-Luminal-Ep
+      16.8% - Prostate-Ep ✓
+      16.7% - Bladder-Ep
+      16.7% - Head-Neck-Ep
+
+============================================================
+
+
+
+HIGH CONFIDENCE PREDICTIONS
+================================================================================
+Top 15 unique highest confidence predictions per true cell type
+================================================================================
+
+TRUE CELL TYPE: Bladder-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 35.0% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CAC ACA CAC ACA CAC ACA CAG AGG GGC GCG CGC GCA CAC ACA CAG AGG GGC GCG CGC GCA CAC ACA CAC ACA CAG AGG GGC GCA CAC ACA CAC ACA CAC ACA CAC ACG CGC GCA CAT ATG TGC GCA CAC ACA CAC ACA CAC ACA CAG AGG GGC GCA CAT ATA TAC ACA CAG AGG GGC GCG CGT GTA TAC ACA CAA AAA AAA AAA AAC ACA
+      methyl_seq: 2222222220222222202222222222222222202222222222222222222222202222222222
+      dmr_label: 31352
+      ctype: Bladder-Ep
+    Probability Distribution:
+      35.0% - Lung-Ep-Alveo
+      13.0% - Head-Neck-Ep
+      13.0% - Breast-Basal-Ep
+      13.0% - Prostate-Ep
+      13.0% - Bladder-Ep ✓ (not in top 4)
+
+ 2. Confidence: 34.7% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGA GAT ATT TTA TAC ACA CAA AAG AGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACT CTG TGC GCG CGC GCC CCC CCG CGG GGC GCC CCC CCG CGC GCG CGC GCC CCC CCG CGG GGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTT TTT TTG TGT GTA TAG AGA GAG AGA GAT ATG TGG GGG GGC GCT CTT TTT TTC TCA CAC ACC CCA CAC ACA CAT ATT TTT TTG TGC GCC CCC CCG CGG GGC GCT CTG TGG GGT GTC TCT CTC TCC CCA CAC ACC CCT CTT TTC TCC CCT CTG TGA GAG AGT GTT TTC TCA CAA AAG AGT GTG TGA GAT ATC TCT CTG TGC GCC CCT CTG TGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA
+      methyl_seq: 22222222212222222222202220222202022202222222222222222222222222222222222222222222222222022222222222222222222222222222222222222222202222222222
+      dmr_label: 32193
+      ctype: Bladder-Ep
+    Probability Distribution:
+      34.7% - Lung-Ep-Alveo
+      13.2% - Head-Neck-Ep
+      13.0% - Bladder-Ep ✓
+      13.0% - Breast-Basal-Ep
+
+ 3. Confidence: 34.6% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCC CCT CTC TCC CCC CCG CGG GGG GGT GTT TTC TCA CAA AAG AGT GTG TGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTT TTC TCC CCA CAA AAG AGT GTA TAG AGT GTT TTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGC GCC CCC CCA CAC ACC CCA CAC ACC CCA
+      methyl_seq: 22222022222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 31926
+      ctype: Bladder-Ep
+    Probability Distribution:
+      34.6% - Lung-Ep-Alveo
+      13.2% - Head-Neck-Ep
+      13.1% - Bladder-Ep ✓
+      13.1% - Prostate-Ep
+
+ 4. Confidence: 34.4% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CGC GCT CTC TCC CCC CCG CGG GGC GCC CCA CAA AAC ACA CAA AAG AGC GCA CAC ACA CAT ATT TTA TAT ATA TAA AAG AGC GCA CAG AGG GGG GGA GAC ACT CTT TTG TGA GAA AAA AAT ATG TGC GCA CAC ACT CTT TTA TAT ATA TAC ACA CAC ACT CTG TGA GAA AAA AAC ACA CAT ATA TAA AAA AAT ATA TAT ATC TCA CAT ATG TGT GTG TGA GAA AAG AGA GAA AAG AGT GTC TCT CTA TAA AAG AGT GTG TGA GAG AGC GCC CCT CTG TGC GCT CTG TGC GCA CAG AGA GAT ATA TAC ACC CCT CTG TGG GGC GCC CCC CCA CAG AGT GTC TCA CAA AAC ACA CAG AGC GCC CCA CAG AGC GCT CTC TCT CTA TAA AAC ACG CGG GGC
+      methyl_seq: 222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222022
+      dmr_label: 31855
+      ctype: Bladder-Ep
+    Probability Distribution:
+      34.4% - Lung-Ep-Alveo
+      13.2% - Bladder-Ep ✓
+      13.1% - Head-Neck-Ep
+      13.1% - Prostate-Ep
+
+ 5. Confidence: 34.4% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GAC ACG CGA GAA AAC ACT CTC TCC CCA CAT ATT TTA TAT ATG TGC GCA CAG AGC GCT CTT TTT TTT TTT TTT TTC TCC CCC CCT CTA TAT ATA TAG AGT GTA TAT ATT TTT TTA TAA AAC ACC CCT CTA TAA AAT ATT TTA TAG AGA GAT ATA TAT ATA TAT ATA TAT ATT TTT TTC TCC CCT CTT TTG TGT GTT TTT TTA TAT ATT TTC TCA CAT ATC TCT CTT TTC TCT CTC TCT CTC TCA CAC ACT CTA TAT ATA TAC ACT CTC TCC CCA CAG AGT GTT TTT TTC TCA CAC ACG CGA GAA AAG AGG GGC GCA CAG AGA GAT ATA TAC ACT CTT TTG TGA GAT ATC TCT CTA TAC ACT CTT TTT TTG TGT GTT TTC TCA CAT ATG TGG GGC GCT CTA TAC ACT CTT
+      methyl_seq: 2022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222222222222222222222222222222
+      dmr_label: 32160
+      ctype: Bladder-Ep
+    Probability Distribution:
+      34.4% - Lung-Ep-Alveo
+      13.2% - Head-Neck-Ep
+      13.2% - Bladder-Ep ✓
+      13.1% - Prostate-Ep
+
+ 6. Confidence: 33.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: AAA AAA AAT ATG TGT GTT TTA TAC ACC CCG CGT GTA TAT ATT TTG TGA GAA AAC ACT CTG TGA GAA AAA AAG AGC GCC CCT CTT TTC TCA CAT ATA TAA AAC ACT CTA TAA AAC ACT CTG TGT GTA TAA AAT ATA TAC ACA CAG AGC GCA CAC ACC CCT CTT TTA TAC ACT CTC TCC CCA CAC ACG CGT GTA TAG AGA GAG AGG GGA GAT ATG TGC GCC CCT CTC TCC CCT CTG TGA GAC ACC CCA CAA AAA AAT ATA TAG AGT GTG TGT GTT TTG TGT GTG TGG GGT GTA TAT ATT TTT TTT TTC TCT CTG TGC GCA CAC ACT CTT TTT TTA TAA AAA AAG AGT GTC TCG CGT GTT TTG TGT GTG TGC GCC CCG CGG GGG GGG GGG GGA GAA AAT ATG TGT GTT TTC TCT
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222220222222222222222222222222222222222222222222222222222222022222220222222222222
+      dmr_label: 31329
+      ctype: Bladder-Ep
+    Probability Distribution:
+      33.8% - Lung-Ep-Alveo
+      13.4% - Bladder-Ep ✓
+      13.3% - Prostate-Ep
+      13.2% - Head-Neck-Ep
+
+ 7. Confidence: 33.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GTG TGG GGC GCG CGT GTC TCG CGG GGC GCC CCC CCA CAC ACT CTA TAC ACA CAA AAC ACC CCT CTC TCC CCA CAC ACC CCT CTC TCC CCC CCA CAG AGG GGT GTT TTC TCC CCT CTG TGC GCT CTT TTT TTA TAG AGC GCC CCT CTG TGC GCC CCT CTT TTG TGG GGC GCC CCT CTC TCC CCC CCA CAA AAG AGT GTA TAG AGT GTT TTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGT GTG TGG GGG GGC GCA CAC ACC CCA CAC ACC CCG CGT GTG TGC GCC CCC CCA CAA AAC ACT CTA TAA AAT ATT TTT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAT ATT TTA TAG AGA GAG AGA GAT ATG TGG GGG GGG GGT GTT TTT TTC TCA CAC ACT CTA TAT ATG TGT GTT TTG TGG GGC GCC CCA CAG AGG GGG GGT GTG TGG GGT GTC TCT CTC TCA CAA AAA AAC ACT CTC TCC CCT CTG TGA GAC ACT CTT TTC TCA CAA AAG AGT GTG TGA GAT ATT TTC TCC CCA CAC ACC CCT CTG TGC GCC CCG CGT GTG TGG GGC GCC CCT CTC TCC CCC CCA
+      methyl_seq: 2220220222222222222222222222222222222222222222222222222222222222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222212222222222
+      dmr_label: 32040
+      ctype: Bladder-Ep
+    Probability Distribution:
+      33.8% - Lung-Ep-Alveo
+      13.4% - Head-Neck-Ep
+      13.3% - Prostate-Ep
+      13.3% - Bladder-Ep ✓
+
+ 8. Confidence: 33.7% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: ATG TGA GAT ATC TCC CCA CAC ACC CCC CCG CGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAG AGA GAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC CCG CGC GCG
+      methyl_seq: 2222222220222202222222222222222222222222220222222222020
+      dmr_label: 1672
+      ctype: Bladder-Ep
+    Probability Distribution:
+      33.7% - Lung-Ep-Alveo
+      13.4% - Bladder-Ep ✓
+      13.3% - Head-Neck-Ep
+      13.2% - Breast-Basal-Ep
+
+ 9. Confidence: 33.6% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GAT ATC TCC CCA CAC ACC CCC CCG CGC GCC CCT CTT TTG TGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC CCG CGC GCG
+      methyl_seq: 22222220222222222222222222222222222222220222222222020
+      dmr_label: 24609
+      ctype: Bladder-Ep
+    Probability Distribution:
+      33.6% - Lung-Ep-Alveo
+      13.3% - Bladder-Ep ✓
+      13.3% - Breast-Basal-Ep
+      13.2% - Head-Neck-Ep
+
+10. Confidence: 33.6% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GTG TGT GTC TCC CCC CCA CAT ATT TTC TCG CGT GTT TTT TTA TAA AAG AGC GCC CCT CTC TCA CAC ACA CAA AAC ACA CAG AGT GTC TCC CCT CTG TGA GAA AAA AAG AGG GGC GCT CTA TAG AGT GTC TCT CTC TCC CCG CGT GTG TGT GTC TCC CCC CCA CAA AAT ATG TGT GTT TTA TAT ATT TTT TTA TAC ACA CAA AAG AGG GGA GAA AAA AAC ACT CTT TTG TGG GGG GGC GCT CTA TAA AAG AGA GAG AGC GCT CTC TCT CTC TCT CTG TGA GAC ACG CGG GGT GTT TTG TGC GCA CAG AGA GAG AGT GTC TCT CTG TGT GTA TAG AGA GAT ATG TGG GGT GTG TGG GGA GAC ACC CCG CGG GGA GAC ACA CAT ATC TCA CAG AGA GAG
+      methyl_seq: 222222222122222222222222222222222222222222222202222222222222222222222222222222222222222222222202222222222222222222222222202222222222
+      dmr_label: 32221
+      ctype: Bladder-Ep
+    Probability Distribution:
+      33.6% - Lung-Ep-Alveo
+      13.5% - Bladder-Ep ✓
+      13.3% - Prostate-Ep
+      13.2% - Breast-Luminal-Ep
+
+11. Confidence: 33.6% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAG AGT GTT TTT TTC TCC CCA CAC ACC CCT CTT TTC TCG CGG GGT GTT TTT TTC TCA CAA AAG AGG GGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCT CTG TGA GAG AGT GTA TAG AGC GCT CTG TGG GGA GAA AAT ATT TTA TAC ACA CAG AGG GGC GCA CAC ACC CCT CTG TGC GCT CTA TAC ACC CCA CAC ACG CGC GCC CCC CCA CAG AGC GCT CTA TAA AAT ATT TTT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGT GTC TCG CGG GGG GGG GGT GTT TTT TTC TCG CGC GCC CCA CAT ATG TGT GTT TTG TGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGC GCC CCT CTC TCA CAA AAA AAC ACC CCC CCC CCT CTG TGA GAC ACC CCT CTC TCA CAG AGG GGC GCG CGA GAT ATC TCT CTG TGC GCC CCC
+      methyl_seq: 222212222222222222222222222122222222222222222222222222222222222222222222222222222222222222022222222222222222222222222222220222222202222222222222222222222222222222222222222022222222
+      dmr_label: 8524
+      ctype: Bladder-Ep
+    Probability Distribution:
+      33.6% - Breast-Basal-Ep
+      13.7% - Breast-Luminal-Ep
+      13.2% - Head-Neck-Ep
+      13.2% - Lung-Ep-Alveo
+      13.2% - Bladder-Ep ✓ (not in top 4)
+
+12. Confidence: 33.6% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCT CTG TGC GCC CCC CCG CGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACT CTG
+      methyl_seq: 22222222202222022222222222222222222222222202222222222
+      dmr_label: 44817
+      ctype: Bladder-Ep
+    Probability Distribution:
+      33.6% - Lung-Ep-Alveo
+      13.6% - Head-Neck-Ep
+      13.3% - Bladder-Ep ✓
+      13.2% - Prostate-Ep
+
+13. Confidence: 33.6% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GTC TCC CCT CTC TCA CAT ATG TGG GGC GCG CGA GAC ACA CAC ACT CTA TAG AGG GGA GAG AGT GTG TGG GGA GAG AGC GCG CGG GGT GTA TAC ACT CTA TAC ACT CTA TAT ATC TCC CCC CCC CCA CAC ACT CTT TTT TTA TAC ACC CCG CGA GAA AAA AAA AAG AGT GTT TTG TGG GGG GGC GCA CAC ACT CTG TGG GGC GCC CCC CCA CAA AAA AAG AGC GCC CCT CTC TCA CAC ACG CGG GGC GCA CAA AAG AGA GAA AAG AGG GGA
+      methyl_seq: 222222222022222222222222220222222222222222222222202222222222222222222222222222202222222222
+      dmr_label: 31315
+      ctype: Bladder-Ep
+    Probability Distribution:
+      33.6% - Lung-Ep-Alveo
+      13.6% - Head-Neck-Ep
+      13.3% - Prostate-Ep
+      13.2% - Bladder-Ep ✓
+
+14. Confidence: 33.4% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: ATT TTT TTG TGG GGG GGG GGA GAG AGC GCG CGC GCT CTA TAA AAG AGT GTA TAA AAA AAT ATA TAA AAA AAG AGC GCT CTC TCT CTT TTG TGC GCT CTT TTT TTT TTC TCC CCT CTC TCC CCC CCA CAG AGC GCT CTC TCT CTG TGC GCA CAG AGT GTG TGA GAG AGA GAG AGT GTG TGG GGA GAG AGT GTC TCA CAG AGC GCG CGT GTT TTT TTC TCT CTT TTC TCT CTT TTG
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 32036
+      ctype: Bladder-Ep
+    Probability Distribution:
+      33.4% - Lung-Ep-Alveo
+      13.4% - Head-Neck-Ep
+      13.3% - Bladder-Ep ✓
+      13.3% - Prostate-Ep
+
+15. Confidence: 33.3% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GAG AGG GGC GCT CTG TGA GAG AGG GGC GCG CGG GGG GGA GAG AGA GAA AAT ATC TCG CGC GCT CTT TTG TGA GAA AAC ACC CCT CTG TGG GGG GGA GAA AAG AGC GCA CAG AGA GAG AGA GAT ATT TTG TGT GTG TGG GGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATT TTG TGC GCG CGC GCC CCA CAT ATT TTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGC GCG
+      methyl_seq: 22222222202222222202222222222222222222222222222222220222222202222222222222222222222222222220
+      dmr_label: 31372
+      ctype: Bladder-Ep
+    Probability Distribution:
+      33.3% - Lung-Ep-Alveo
+      13.4% - Bladder-Ep ✓
+      13.4% - Prostate-Ep
+      13.4% - Head-Neck-Ep
+
+============================================================
+
+TRUE CELL TYPE: Breast-Basal-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 34.9% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GGG GGG GGC GCT CTC TCC CCC CCC CCG CGA GAG AGC GCA CAG AGG GGG GGC GCA CAG AGT GTG TGC GCC CCC CCA CAC ACA CAG AGG GGA GAG AGC GCC CCC CCC CCT CTT TTT TTT TTC TCT CTG TGA GAT ATC TCA CAC ACC CCT CTC TCC CCA CAC ACC CCC CCC CCA CAT ATC TCT CTC TCT CTC TCT CTT TTC TCT CTC TCG CGG GGT GTC TCT CTC TCA CAG AGC GCG CGG GGC GCA CAT ATG TGG GGT GTG TGG GGT GTG TGG GGT GTG TGG GGC GCT CTG TGA GAC ACA CAA AAG AGA GAC ACC CCT CTC TCG CGG GGA GAG AGC GCT CTC TCT CTA TAC ACC CCA CAG AGA GAA AAG AGA GAC ACC CCT CTA TAC ACT CTG TGG GGG GGC GCC CCA CAG AGC GCT CTA TAC ACA CAA AAC ACA CAT ATA TAC ACC CCG CGT GTG TGC GCG CGT GTG TGC GCC CCT CTT TTC TCT CTC TCA CAC ACT CTC TCC CCG CGC GCT CTC TCC CCC CCC CCG
+      methyl_seq: 2222222202222222222222222222222222222222222222222222222222222222222202222222202222222222222222222222222222022222222222222222222222222222222222222222022202222222222222202222220
+      dmr_label: 8641
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.9% - Breast-Basal-Ep ✓
+      13.1% - Breast-Luminal-Ep
+      13.0% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+
+ 2. Confidence: 34.8% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GCG CGG GGG GGC GCG CGC GCA CAC ACC CCC CCA CAT ATC TCC CCA CAT ATG TGT GTC TCC CCA CAC ACC CCC CCG CGC GCA CAT ATA TAC ACC CCT CTG TGC GCT CTG TGA GAG AGG GGC GCC CCC CCA CAG AGG GGC GCT CTG TGA GAG AGG GGC GCG CGC GCT CTC TCC CCC CCC CCG CGC GCA CAG AGG GGC GCC CCC CCG CGG GGA GAT ATC TCT CTT TTG TGT GTT TTC TCT CTG TGA GAG AGC GCT CTT TTC TCG CGA GAT ATG TGT GTG TGT GTG TGT GTG TGA GAG AGG GGC GCT CTA TAC ACC CCC CCG CGC GCA CAT ATT TTC TCT CTC TCG CGC GCC CCA CAT ATC TCG CGA GAT ATG TGC GCT CTC TCA CAG AGC GCA CAC ACC CCC CCA CAG AGT GTC TCA CAC ACC CCC CCA CAC ACG CGG GGC GCC CCA CAC ACT CTC TCC CCG CGG GGC GCC CCT CTG TGC GCG CGC GCC CCG CGC GCT CTT TTT TTG TGC GCC CCC CCC CCC CCA CAG AGG GGA GAG AGT GTG TGA GAG AGC GCT CTG TGT GTG TGG GGA GAG AGA GAG AGA GAG AGA GAA AAG AGC GCA CAA AAA AAG AGT GTG TGA GAC ACC CCG
+      methyl_seq: 0222022222222222222222220222222222222222222222222222022222202222222022222222222222222202222222222222222220222222202222202222222222222222222222202222222202222220221222222222222222222222222222222222222222222221
+      dmr_label: 8439
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.8% - Breast-Basal-Ep ✓
+      13.1% - Breast-Luminal-Ep
+      13.0% - Prostate-Ep
+      13.0% - Head-Neck-Ep
+
+ 3. Confidence: 34.7% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: ACC CCT CTG TGC GCC CCT CTC TCT CTC TCG CGC GCA CAC ACC CCC CCA CAC ACT CTG TGC GCA CAG AGC GCT CTG TGG GGA GAG AGG GGT GTC TCA CAC ACA CAG AGC GCA CAG AGA GAT ATC TCT CTG TGG GGC GCA CAG AGA GAG AGC GCG CGG GGC GCG CGG GGC GCG CGC GCA CAT ATC TCC CCG CGC GCT CTC TCA CAG AGC GCC CCA CAT ATC TCC CCG CGG GGG GGA GAA AAC ACT CTG TGC GCA CAG AGC GCG CGG GGC GCA CAG AGG GGA GAG AGC GCT CTG TGG GGA GAG AGC GCG CGC GCG CGA GAG AGG GGA GAG AGG GGA GAG AGG GGC GCC CCC CCT CTG TGG GGC GCA CAT ATC TCC CCA CAA AAG AGC GCG CGT GTT TTT TTC TCC CCG CGT GTG TGC GCC CCG CGA GAG AGC
+      methyl_seq: 22222222202222222222222222222222222222222222222222022022022222022222222222022222222222022222222222222020222222222222222222222222022222022220222
+      dmr_label: 8657
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.7% - Breast-Basal-Ep ✓
+      13.1% - Breast-Luminal-Ep
+      13.1% - Head-Neck-Ep
+      13.0% - Bladder-Ep
+
+ 4. Confidence: 34.7% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: ACC CCT CTG TGC GCC CCT CTC TCT CTC TCG CGC GCA CAC ACC CCC CCA CAC ACT CTG TGC GCA CAG AGC GCT CTG TGG GGA GAG AGG GGT GTC TCA CAC ACA CAG AGC GCA CAG AGA GAT ATC TCT CTG TGG GGC GCA CAG AGA GAG AGC GCG CGG GGC GCG CGG GGC GCG CGC GCA CAT ATC TCC CCG CGC GCT CTC TCA CAG AGC GCC CCA CAT ATC TCC CCG CGG GGG GGA GAA AAC ACT CTG TGC GCA CAG AGC GCG CGG GGC GCA CAG AGG GGA GAG AGC GCT CTG TGG GGA GAG AGC GCG CGC GCG CGA GAG AGG GGA GAG AGG GGA GAG AGG GGC GCC CCC CCT CTG TGG GGC GCA CAT ATC TCC CCA CAA AAG AGC GCG CGT GTT TTT TTC TCC
+      methyl_seq: 22222222202222222222222222222222222222222222222222022022022222022222222222022222222222022222222222222020222222222222222222222222022222
+      dmr_label: 8657
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.7% - Breast-Basal-Ep ✓
+      13.1% - Breast-Luminal-Ep
+      13.0% - Head-Neck-Ep
+      13.0% - Bladder-Ep
+
+ 5. Confidence: 34.7% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GGG GGG GGC GCC CCA CAG AGG GGC GCC CCG CGC GCG CGG GGC GCC CCG CGA GAT ATG TGA GAG AGA GAT ATA TAG AGG GGC GCT CTT TTC TCA CAT ATC TCT CTG TGC GCT CTT TTT TTC TCT CTG TGC GCC CCG CGG GGT GTG TGC GCA CAT ATC TCT CTG TGG GGC GCC CCC CCG CGT GTG TGT GTC TCC CCT CTG TGC GCT CTC TCA CAG AGA GAG AGT GTA TAG AGA GAT ATG TGG GGC GCT CTA TAC ACG CGG GGT GTG TGC GCG CGG GGA GAT ATG TGC GCC CCC CCA CAG AGC GCT CTC TCC CCG CGT GTG TGC GCA CAG AGG GGC GCC CCC CCG CGG GGA GAA AAC ACA CAC ACA CAC ACG CGG GGA GAT ATG TGG GGC GCA
+      methyl_seq: 2222222220202220222222222222222222222222222202222222222222022222222222222222222222220222202222222222222022222222202222222202222222
+      dmr_label: 8680
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.7% - Breast-Basal-Ep ✓
+      13.2% - Breast-Luminal-Ep
+      13.0% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+
+ 6. Confidence: 34.7% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GGA GAG AGA GAT ATC TCA CAC ACG CGC GCC CCG CGC GCT CTG TGC GCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAG AGT GTG TGG GGC GCG CGC GCA CAA AAT ATC TCT CTT TTG TGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAG AGT GTC TCT CTC TCC CCG CGC GCC CCT CTC TCC CCT CTG TGG GGG GGT GTT TTC TCA CAA AAG AGT GTG TGA GAT ATC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCA CAA AAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAT ATA TAG AGC GCC CCA CAT ATC TCT CTG TGC GCT CTA TAC ACC CCA CAT ATG TGC GCC CCC CCA CAG AGC GCT CTA
+      methyl_seq: 2222222022022222222222222222222222022222222222222222222222202222222222222222222222222222222222222222222222222222222222222222222222222222
+      dmr_label: 8801
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.7% - Breast-Basal-Ep ✓
+      13.1% - Breast-Luminal-Ep
+      13.1% - Lung-Ep-Alveo
+      13.0% - Head-Neck-Ep
+
+ 7. Confidence: 34.7% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: TTC TCC CCC CCT CTG TGG GGA GAT ATC TCG CGT GTA TAG AGA GAA AAC ACC CCC CCT CTG TGC GCA CAG AGC GCG CGG GGT GTA TAA AAT ATG TGA GAG AGG GGC GCA CAG AGT GTG TGA GAC ACC CCG CGC GCA CAG AGA GAT ATG TGG GGG GGC GCC CCA CAA AAG AGA GAG AGT GTG TGT GTG TGG GGG GGC GCA CAC ACC CCA CAC ACT CTG TGA GAC ACC CCC CCT CTG TGG GGG GGC GCT CTG TGG GGG GGG GGG GGG GGT GTT TTG TGC GCG CGT GTG TGT GTG TGT GTG TGG GGG GGA GAC
+      methyl_seq: 2222222220222222222222220222222222222222220222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 8702
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.7% - Breast-Basal-Ep ✓
+      13.2% - Breast-Luminal-Ep
+      13.1% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+
+ 8. Confidence: 34.6% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GTG TGA GAC ACA CAC ACA CAC ACG CGT GTG TGC GCC CCC CCT CTT TTT TTT TTC TCA CAG AGC GCC CCC CCC CCC CCG CGA GAC ACC CCA CAG AGC GCT CTC TCC CCC CCT CTT TTG TGT GTG TGA GAA AAC ACC CCC CCT CTT TTG TGG GGG GGT GTC TCT CTA TAC ACC CCA CAT ATG TGG GGT GTG TGC GCA CAC ACA CAG AGC GCC CCT CTC TCT CTC TCC CCT CTT TTC TCA CAC ACC CCT CTT TTT TTA TAC ACC CCC CCC CCG CGA GAT ATC TCA CAG AGC GCC CCC CCC CCG CGG GGC GCA CAC ACA CAG AGC GCA CAG AGG GGC GCC CCT CTC TCA CAC ACC CCC CCA CAG AGC GCA CAG AGG GGC GCA CAG AGG GGA GAC ACG CGT GTG TGG GGC GCA CAA AAA AAC ACG
+      methyl_seq: 22222220222222222222222220222222222222222222222222222222222222222222222222222222222222222022222222202222222222222222222222222222220222222220
+      dmr_label: 8321
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.6% - Breast-Basal-Ep ✓
+      13.2% - Breast-Luminal-Ep
+      13.1% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+
+ 9. Confidence: 34.6% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GCA CAT ATG TGA GAA AAG AGC GCG CGT GTG TGA GAG AGG GGT GTT TTA TAG AGC GCG CGC GCA CAC ACA CAC ACT CTT TTC TCC CCA CAT ATG TGA GAG AGG GGT GTG TGC GCT CTG TGA GAG AGG GGC GCT CTG TGA GAA AAG AGG GGA GAC ACG CGA GAG AGA GAT ATG TGC GCT CTC TCA CAG AGC GCC CCT CTC TCT CTC TCG CGC GCT CTG TGC GCA CAC ACT CTA TAT ATA TAG AGC GCA CAA AAT ATG TGC GCG CGC GCT CTG TGC GCA CAG AGG GGA GAG AGA GAA AAG AGG GGA GAG AGC GCT CTG TGG GGC GCC CCG CGC GCC CCT CTC TCA CAC ACG CGC GCT CTG TGC GCC CCG CGC GCA CAG AGC GCC CCT CTG TGC GCA CAG AGG GGA GAG AGG GGA GAG AGG GGT GTA TAG AGG GGG GGG GGG GGA GAC ACA CAC ACC CCC CCT CTG TGC GCA CAC ACC CCC CCC CCG
+      methyl_seq: 22222220222222222202222222222222222222222222222222202222222222222222122222222222222222022222222222222222222202222220222220222222222222222222222222222222222222220
+      dmr_label: 8594
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.6% - Breast-Basal-Ep ✓
+      13.2% - Breast-Luminal-Ep
+      13.1% - Head-Neck-Ep
+      13.1% - Prostate-Ep
+
+10. Confidence: 34.6% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: TTC TCC CCC CCT CTG TGG GGA GAT ATC TCG CGT GTA TAG AGA GAA AAC ACC CCC CCT CTG TGC GCA CAG AGC GCG CGG GGT GTA TAA AAT ATG TGA GAG AGG GGC GCA CAG AGT GTG TGA GAC ACC CCG CGC GCA CAG AGA GAT ATG TGG GGG GGC GCC CCA CAA AAG AGA GAG AGT GTG TGT GTG TGG GGG GGC GCA CAC ACC CCA CAC ACT CTG TGA GAC ACC CCC CCT CTG TGG GGG GGC GCT CTG TGG GGG GGG GGG GGG GGT GTT TTG TGC GCG CGT GTG TGT GTG TGT GTG TGG GGG GGA GAC ACG CGC GCT CTG TGG GGG GGA GAA AAG AGG GGA
+      methyl_seq: 222222222022222222222222022222222222222222022222222222222222222222222222222222222222222222220222222222202222222222
+      dmr_label: 8702
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.6% - Breast-Basal-Ep ✓
+      13.1% - Breast-Luminal-Ep
+      13.1% - Head-Neck-Ep
+      13.1% - Prostate-Ep
+
+11. Confidence: 34.6% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: AGT GTG TGG GGT GTC TCT CTT TTG TGC GCG CGG GGA GAA AAG AGC GCG CGG GGT GTC TCG CGT GTT TTG TGA GAG AGC GCA CAG AGC GCT CTC TCC CCA CAT ATG TGT GTT TTG TGC GCT CTC TCT CTG TGC GCT CTC TCC CCT CTC TCT CTT TTC TCC CCA CAG AGC GCT CTC TCC CCT CTC TCC CCT CTC TCC CCA CAG AGC GCT CTG TGT GTG TGC GCG CGA GAT ATC TCC CCG CGA GAG AGC GCT CTT TTC TCC CCA CAG AGA GAC ACG CGC GCC CCG CGC GCT CTT TTC TCT CTC TCA CAT ATC TCC CCA CAG AGC GCA CAG AGC GCG CGC GCG CGG GGA GAC ACC CCT CTG TGG GGC GCG CGG GGG GGG GGA GAG AGA GAG AGG GGA GAG
+      methyl_seq: 222222222022222122202222222222222222222222222222222222222222222222222222202222022222222222022022222222222222220202222222212222222222
+      dmr_label: 8843
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.6% - Breast-Basal-Ep ✓
+      13.3% - Breast-Luminal-Ep
+      13.1% - Lung-Ep-Alveo
+      13.0% - Head-Neck-Ep
+
+12. Confidence: 34.6% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GCC CCA CAG AGC GCG CGG GGG GGG GGA GAT ATG TGA GAG AGC GCT CTG TGG GGT GTG TGC GCG CGC GCT CTG TGT GTG TGC GCT CTG TGT GTG TGG GGA GAT ATG TGC GCC CCG CGC GCC CCA CAC ACC CCG CGC GCC CCT CTA TAC ACG CGA GAG AGA GAA AAC ACA CAT ATC TCC CCT CTC TCA CAA AAT ATG TGC GCC CCA CAT ATC TCA CAA AAA AAG AGC GCG CGG GGC GCC CCG CGA GAG AGG GGA GAC ACG CGC GCA CAG AGC GCC CCA CAA AAC ACA CAG AGG GGG GGC GCT CTG TGC GCC CCA CAG AGT GTG TGC GCA CAT ATC TCT CTG TGA GAA AAT ATC TCT CTG TGC GCC CCC CCT CTC TCC CCA CAG AGG GGT GTG TGG GGG GGC GCA CAC ACC CCT CTG TGT GTA TAC ACC CCA CAG AGC GCA CAG AGC GCT CTT TTC TCT CTC TCC CCA CAC ACA CAT ATT TTC TCG CGC GCT CTG TGT GTG TGG GGA GAG AGA GAT
+      methyl_seq: 222202222222222222220222222222222222202222202222202222222222222222222222222022202222202222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 8240
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.6% - Breast-Basal-Ep ✓
+      13.1% - Breast-Luminal-Ep
+      13.1% - Head-Neck-Ep
+      13.1% - Bladder-Ep
+
+13. Confidence: 34.6% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: ACT CTG TGA GAC ACC CCT CTC TCC CCC CCG CGC GCT CTT TTG TGG GGC GCC CCT CTG TGA GAA AAG AGC GCA CAA AAG AGT GTG TGC GCT CTC TCC CCA CAG AGG GGC GCG CGG GGG GGC GCA CAG AGC GCT CTC TCC CCT CTG TGC GCT CTC TCC CCG CGC GCG CGC GCC CCG CGC GCT CTG TGC GCA CAC ACC CCT CTG TGG GGT GTG TGC GCC CCG CGG GGT GTA TAC ACC CCA CAG AGC GCG
+      methyl_seq: 2222222220222222222222222222222222220222222222222222020220222222222222220222222220
+      dmr_label: 8371
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.6% - Breast-Basal-Ep ✓
+      13.3% - Breast-Luminal-Ep
+      13.1% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+
+14. Confidence: 34.6% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GAT ATG TGT GTT TTA TAC ACG CGT GTT TTG TGT GTT TTT TTA TAG AGG GGA GAA AAG AGA GAA AAC ACA CAT ATG TGT GTG TGG GGA GAA AAT ATC TCA CAC ACC CCT CTA TAG AGG GGT GTA TAG AGG GGC GCG CGA GAT ATT TTG TGG GGG GGA GAA AAA AAG AGG GGG GGA GAG AGG GGA GAG AGT GTG TGT GTT TTT TTG TGT GTA TAA AAC ACC CCT CTT TTG TGA GAG AGG GGG GGC GCA CAG AGC GCG CGT GTG TGG GGG GGT GTG TGT GTC TCC CCT CTT TTC TCT CTG TGC GCG CGA GAC ACG CGC GCC CCG CGC GCC CCC CCA CAA AAG AGC GCG CGT GTG TGC GCC CCA CAG AGG GGC GCA CAG AGT GTG TGG GGT GTG TGG GGT GTC TCC CCT CTG TGC GCA CAG AGG GGC GCC CCG CGG GGC GCT CTC TCC CCT CTC TCT CTG TGG
+      methyl_seq: 222222022222222222222222222222222222222222220222222222222222222222222222222222222222022222222222222202202202222222022222222222222222222222222202222222222
+      dmr_label: 8133
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.6% - Breast-Basal-Ep ✓
+      13.1% - Breast-Luminal-Ep
+      13.1% - Head-Neck-Ep
+      13.1% - Lung-Ep-Alveo
+
+15. Confidence: 34.6% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: AAG AGG GGG GGC GCT CTC TCC CCC CCC CCG CGG GGC GCG CGC GCT CTG TGT GTC TCC CCC CCC CCA CAC ACG CGT GTG TGC GCC CCA CAG AGC GCT CTG TGC GCT CTG TGC GCA CAG AGG GGG GGC GCC CCT CTT TTC TCT CTC TCC CCA CAG AGG GGC GCG CGC GCT CTG TGG GGT GTT TTC TCC CCG CGC GCT CTG TGG GGT GTA TAC ACA CAT ATG TGG GGC GCC CCA CAC ACG CGT GTA TAG AGC GCT CTC TCT CTG TGC GCT CTG TGC GCA CAG AGC GCT CTG TGT GTT TTT TTC TCT CTG TGG GGT GTA TAC ACT CTG TGA GAA AAT ATC TCA CAC ACC CCT CTT TTC TCT CTC TCC CCT CTT TTC TCT CTC TCC CCT CTC TCC CCT CTT TTC TCC CCA CAC ACA CAC ACG
+      methyl_seq: 2222222220220222222222202222222222222222222222222222202222222202222222222222220222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 8828
+      ctype: Breast-Basal-Ep
+    Probability Distribution:
+      34.6% - Breast-Basal-Ep ✓
+      13.3% - Breast-Luminal-Ep
+      13.0% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+
+============================================================
+
+TRUE CELL TYPE: Breast-Luminal-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 34.7% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: AGT GTG TGG GGT GTC TCT CTT TTG TGC GCG CGG GGA GAA AAG AGC GCG CGG GGT GTC TCG CGT GTT TTG TGA GAG AGC GCA CAG AGC GCT CTC TCC CCA CAT ATG TGT GTT TTG TGC GCT CTC TCT CTG TGC GCT CTC TCC CCT CTC TCT CTT TTC TCC CCA CAG AGC GCT CTC TCC CCT CTC TCC CCT CTC TCC CCA CAG AGC GCT CTG TGT GTG TGC GCG CGA GAT ATC TCC CCG CGA GAG AGC GCT CTT TTC TCC CCA CAG AGA GAC ACG CGC GCC CCG CGC GCT CTT TTC TCT CTC TCA CAT ATC TCC CCA CAG AGC GCA CAG AGC GCG CGC GCG CGG GGA GAC ACC CCT CTG TGG GGC GCG CGG GGG GGG GGA GAG AGA GAG AGG GGA GAG AGG GGA GAG AGG GGG GGG GGA GAC ACG CGG GGT GTT TTC TCA CAA AAT ATC TCC CCC
+      methyl_seq: 2222222220222221222122222222222222222222222222222222222222222222222222222022220222222222220220222222222222222202022222222022222222222222222202222222222
+      dmr_label: 8843
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.7% - Breast-Basal-Ep
+      13.2% - Breast-Luminal-Ep ✓
+      13.0% - Lung-Ep-Alveo
+      13.0% - Head-Neck-Ep
+
+ 2. Confidence: 34.6% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GTC TCA CAT ATC TCG CGT GTC TCT CTC TCC CCG CGG GGA GAA AAC ACA CAG AGT GTT TTT TTT TTA TAT ATC TCT CTT TTT TTC TCA CAA AAA AAA AAT ATG TGG GGA GAA AAA AAT ATT TTG TGC GCA CAC ACC CCC CCA CAT ATT TTC TCA CAC ACC CCA CAA AAG AGC GCT CTC TCT CTC TCC CCA CAC ACT CTC TCC CCT CTC TCT CTC TCT CTC TCT CTC TCG CGC GCC CCC CCG CGC GCC CCC CCC CCT CTG TGG GGG GGG GGG GGT GTC TCA CAC ACC CCT CTT TTT TTC TCT CTA TAG AGT GTT TTT TTG TGC GCA CAA AAC ACT CTC TCT CTA TAT ATG TGA GAG AGT GTT TTT TTA TAA AAC ACT CTA TAC ACT CTC TCT CTA TAG AGA GAC ACA CAC ACT CTT TTG TGA GAT ATA TAG AGA GAT ATA TAA AAG AGT GTG TGG GGA GAA AAT ATC TCA CAT ATA TAC ACC CCG CGT GTG TGT GTT TTT TTA TAA AAT ATT TTT
+      methyl_seq: 222202222202222222222222222222222222222222222222222222222222222222222222222022212222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 31880
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.6% - Lung-Ep-Alveo
+      13.1% - Bladder-Ep
+      13.1% - Breast-Basal-Ep
+      13.1% - Head-Neck-Ep
+      13.1% - Breast-Luminal-Ep ✓ (not in top 4)
+
+ 3. Confidence: 34.4% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGG GGG GGA GAG AGC GCT CTC TCG CGT GTG TGT GTT TTG TGA GAA AAC ACG CGG GGG GGG GGA GAC ACC CCG CGA GAG AGT GTT TTT TTC TCC CCG CGT GTT TTT TTG TGG GGG GGA GAA AAG AGA GAT ATG TGG GGA GAG AGA GAG AGT GTC TCG CGC GCA CAG AGA GAC ACA CAT ATG TGC GCT CTG TGC GCA CAC ACA CAG AGT GTG TGT GTG TGG GGA GAT ATG TGT GTA TAG AGT GTT TTA TAA AAC ACA CAC ACG CGG GGC GCT CTG TGA GAA AAC ACC CCG CGT GTG TGC GCA CAC ACT CTC TCA CAG AGA GAA AAA AAA AAG AGG GGC GCT CTA TAC ACA CAA AAA AAG AGG GGT GTA TAA AAA AAT ATC TCC CCT CTC TCT CTA TAT ATT TTA TAC ACA CAT ATA TAC ACT CTT TTT TTT TTT TTA TAC ACA CAA AAT ATT TTA TAA AAA AAA AAA AAT ATC TCA CAA AAA AAA AAG AGG GGT GTT TTA TAA AAA AAA AAC ACA CAA AAC ACA CAG AGT GTG TGA GAA AAA AAA AAA AAG AGT GTG TGT GTG TGG GGC GCG CGA GAA AAA AAT ATA TAG AGT GTT TTT TTT
+      methyl_seq: 22222220222222220222222022222220222222222222222222202222222222222222222222222222222222022222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 31917
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.4% - Lung-Ep-Alveo
+      13.1% - Head-Neck-Ep
+      13.1% - Bladder-Ep
+      13.1% - Prostate-Ep
+      13.1% - Breast-Luminal-Ep ✓ (not in top 4)
+
+ 4. Confidence: 34.3% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GGG GGG GGC GCT CTC TCT CTC TCG CGA GAG AGA GAA AAC ACA CAC ACG CGC GCA CAT ATT TTA TAC ACT CTA TAT ATG TGT GTG TGT GTT TTT TTT TTC TCC CCA CAG AGC GCT CTG TGG GGT GTG TGG GGC GCT CTC TCG CGG GGC GCC CCC CCG CGA GAT ATG TGT GTC TCG CGT GTG TGG GGA GAG AGA GAT ATG TGC GCA CAC ACG CGA GAT ATG TGT GTG TGA GAC ACA CAG AGC GCG CGC GCA CAG AGG GGA GAC ACC CCC CCT CTA TAA AAG AGC GCT CTC TCT CTT TTG TGG GGT GTT TTC TCA CAC ACC CCT CTC TCA CAA AAG AGG GGC GCC CCA CAC ACT CTC TCG CGG GGA GAA AAC ACT CTC TCT CTG TGT GTG
+      methyl_seq: 222222202222222122222222222222222222222222222212222022222022222222222022222222220222222222222222222222222222222222222212222222222
+      dmr_label: 8916
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.3% - Breast-Basal-Ep
+      13.4% - Breast-Luminal-Ep ✓
+      13.1% - Head-Neck-Ep
+      13.1% - Lung-Ep-Alveo
+
+ 5. Confidence: 34.3% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: ACC CCA CAA AAT ATG TGC GCA CAG AGC GCG CGG GGA GAG AGA GAT ATC TCC CCC CCA CAC ACG CGC GCC CCG CGG GGC GCG CGC GCT CTC TCC CCA CAC ACC CCT CTC TCA CAT ATC TCT CTA TAG AGG GGA GAC ACC CCT CTG TGT GTG TGC GCC CCC CCA CAC ACC CCG
+      methyl_seq: 222222222022222222220220220222222222222222222222222222220
+      dmr_label: 8944
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.3% - Breast-Basal-Ep
+      13.3% - Breast-Luminal-Ep ✓
+      13.2% - Head-Neck-Ep
+      13.1% - Prostate-Ep
+
+ 6. Confidence: 34.3% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: TGC GCA CAG AGT GTG TGA GAT ATC TCC CCG CGA GAG AGA GAT ATC TCA CAC ACG CGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGC GCG CGA GAA AAA AAC ACT CTC TCC CCG CGT GTC TCT CTC TCA CAA AAA AAA AAA AAA
+      methyl_seq: 2222222220222222202222222222222222222222222222220222222212222222222
+      dmr_label: 31314
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.3% - Lung-Ep-Alveo
+      13.2% - Head-Neck-Ep
+      13.2% - Prostate-Ep
+      13.1% - Breast-Luminal-Ep ✓
+
+ 7. Confidence: 34.2% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: AAC ACC CCT CTC TCT CTG TGG GGC GCC CCG CGG GGC GCG CGG GGC GCG CGC GCC CCT CTC TCT CTG TGC GCT CTT TTG TGA GAG AGT GTT TTT TTT TTG TGC GCT CTC TCG CGT GTG TGC GCC CCT CTT TTC TCT CTG TGG GGG GGC GCT CTT TTC TCT CTT TTC TCT CTG TGC GCC CCC CCA CAC ACT CTT TTG TGG GGC GCC CCT CTG TGG GGA GAT ATC TCA CAG AGG GGC GCA CAG AGC GCA CAC ACC CCA CAC ACC CCG CGG GGC GCC CCA CAG AGG GGA GAT ATC TCC
+      methyl_seq: 22222222202202202222222222222222222202222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 8095
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.2% - Breast-Basal-Ep
+      13.5% - Breast-Luminal-Ep ✓
+      13.1% - Head-Neck-Ep
+      13.1% - Prostate-Ep
+
+ 8. Confidence: 34.2% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: AGG GGG GGC GCT CTG TGC GCT CTT TTC TCG CGA GAG AGC GCG CGG GGG GGA GAT ATT TTG TGG GGG GGG GGC GCA CAG AGC GCG CGT GTG TGG GGG GGA GAA AAC ACC CCT CTA TAG AGA GAG AGT GTG TGG GGG GGA GAG AGA GAG AGA GAT ATT TTA TAA AAG AGC GCT CTG TGA GAA AAG AGG GGA GAA AAG AGA GAT ATT TTT TTT TTG TGT GTG TGG GGT GTA TAA AAG AGG GGG GGG GGT GTG TGA GAT ATA TAT ATT TTG TGT GTG TGG GGG GGG GGT GTT TTG TGT GTT TTA TAG AGA GAA AAG AGA GAA AAA AAC ACA CAT ATT TTT TTG TGT GTC TCA CAT ATT TTT TTA TAG AGA GAA AAT ATT TTA TAT ATT TTG TGG GGT GTG TGA GAT ATG TGG GGC GCC CCT CTG TGG GGA GAT ATA TAC ACG CGG GGT GTT TTT TTT TTG TGT GTA TAT ATG
+      methyl_seq: 222222222022202222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 8787
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.2% - Breast-Basal-Ep
+      13.3% - Breast-Luminal-Ep ✓
+      13.1% - Prostate-Ep
+      13.1% - Bladder-Ep
+
+ 9. Confidence: 34.2% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CTC TCA CAG AGC GCT CTC TCA CAC ACC CCG CGC GCA CAA AAC ACC CCT CTT TTC TCA CAC ACC CCT CTC TCC CCT CTG TGA GAG AGT GTT TTT TTA TAA AAG AGT GTG TGA GAT ATT TTC TCT CTC TCC CCG CGG GGC GCC CCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCG CGA GAC ACT CTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCA CAT ATG TGG GGG GGC GCC CCA CAC ACT CTA TAC ACG CGC GCC CCT CTG TGG GGC GCA CAA AAA AAT ATT TTT TTT TTG TGT GTA TAT ATT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACA CAG AGG GGG GGT GTT TTT TTC TCT CTC TCC CCA CAT ATG TGT GTT TTG TGG GGT GTC TCA CAG AGG GGC GCT CTG TGG GGT GTC TCT CTT TTG TGA GAA AAC ACT CTC TCT CTG TGA GAC ACC CCT CTC TCA CAG AGG GGT GTG TGA GAT ATC TCC CCG CGC GCC CCC
+      methyl_seq: 222222222022222222222222222222222222222222212222222222222122222222222222222222222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222220222
+      dmr_label: 31889
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.2% - Lung-Ep-Alveo
+      13.3% - Head-Neck-Ep
+      13.2% - Bladder-Ep
+      13.1% - Prostate-Ep
+      13.1% - Breast-Luminal-Ep ✓ (not in top 4)
+
+10. Confidence: 34.2% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GTG TGT GTA TAT ATA TAG AGC GCC CCC CCG CGT GTT TTC TCT CTC TCT CTA TAC ACC CCC CCA CAG AGC GCC CCT CTC TCT CTT TTG TGA GAG AGC GCG CGT GTC TCT CTT TTG TGC GCC CCA CAA AAA AAG AGA GAA AAA AAA AAA AAC ACC CCC CCC CCA CAG AGT GTG TGA GAG AGA GAG AGA GAG AGG GGC GCG CGC GCT CTC TCC CCC CCA CAT ATC TCC CCA CAT ATA TAC ACT CTC TCA CAC ACG CGT GTC TCA CAT ATT TTG TGA GAA AAG AGT GTG TGC GCT CTT TTA TAG AGT GTG TGG GGT GTT TTT TTT TTC TCA CAT ATG TGA GAT ATA TAT ATA TAA AAG AGG GGG GGG GGT GTC TCC CCT CTT TTT TTC TCA CAT ATT TTC TCT CTT TTT TTT TTC TCC CCA CAG AGT GTT TTT TTC TCA CAT ATC TCC CCA CAT ATC TCC CCT CTT TTG TGT GTC TCC CCG
+      methyl_seq: 222222222022222222222222222222220222222222222222222222222222222220222222222222222220222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 31381
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.2% - Lung-Ep-Alveo
+      13.2% - Head-Neck-Ep
+      13.2% - Bladder-Ep
+      13.2% - Prostate-Ep
+      13.1% - Breast-Luminal-Ep ✓ (not in top 4)
+
+11. Confidence: 34.1% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GCT CTG TGG GGC GCA CAC ACC CCC CCG CGT GTG TGC GCC CCA CAG AGC GCA CAC ACT CTC TCG CGG GGA GAA AAC ACT CTG TGC GCC CCT CTG TGC GCC CCC CCC CCC CCT CTG TGG GGC GCA CAG AGC GCA CAG AGC GCC CCG CGG GGC GCG CGT GTA TAT ATT TTT TTG TGT GTG TGC GCG CGC GCA CAG AGT GTG TGG GGC GCC CCG CGG GGA GAT ATC TCC CCC CCA CAC
+      methyl_seq: 222222220222222222220222222222222222222222222220220222222222022222222022222222
+      dmr_label: 8130
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.1% - Breast-Basal-Ep
+      13.5% - Breast-Luminal-Ep ✓
+      13.2% - Head-Neck-Ep
+      13.1% - Prostate-Ep
+
+12. Confidence: 34.0% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGA GAG AGA GAC ACT CTC TCA CAA AAC ACG CGA GAA AAG AGA GAG AGT GTG TGA GAG AGT GTA TAC ACA CAG AGC GCT CTG TGA GAA AAG AGG GGA GAG AGC GCC CCG CGG GGG GGG GGA GAG AGC GCA CAG AGA GAA AAA AAG AGT GTA TAT ATA TAT ATG TGC GCG CGT GTC TCA CAG AGG GGT GTA TAT ATG TGA GAG AGG GGA GAA AAG AGA GAA AAA AAA AAT ATA TAG AGA GAT ATT TTT TTT TTG TGG GGA GAA AAG AGT GTT TTA TAT ATG TGA GAG AGA GAA AAC ACT CTG TGT GTA TAG AGA GAG AGA GAG AGT GTG TGA GAG AGT GTT TTG TGA GAG AGT GTA TAT ATA TAG AGT GTT TTT TTG TGT GTG TGA GAT ATT TTT TTT TTG TGA GAG AGG GGG GGC GCC CCT CTC TCT CTA TAA AAA AAA AAG AGT GTA TAT ATT TTA TAA AAT ATG TGC GCA CAG AGC GCA CAG AGC GCA CAG AGC GCC CCG CGC GCT CTG TGC GCA CAC
+      methyl_seq: 22222222202222222222222222222222222022222222222222222221222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220222222
+      dmr_label: 32021
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.0% - Lung-Ep-Alveo
+      13.3% - Head-Neck-Ep
+      13.3% - Bladder-Ep
+      13.1% - Breast-Basal-Ep
+      13.1% - Breast-Luminal-Ep ✓ (not in top 4)
+
+13. Confidence: 34.0% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GGC GCG CGG GGT GTG TGC GCT CTG TGG GGG GGG GGG GGC GCC CCA CAT ATG TGG GGC GCG CGG GGC GCG CGG GGC GCA CAT ATT TTG TGC GCT CTG TGG GGG GGG GGG GGA GAG AGG GGT GTG TGG GGA GAG AGA GAT ATG TGA GAT ATG TGG GGC GCG CGT GTA TAG AGG GGC GCC CCA CAC ACC CCC CCC CCC CCG CGC GCA CAC ACT CTG TGC GCT CTC TCA CAG AGC GCG CGG GGA GAG AGA GAG AGG GGC GCG CGA GAG AGG GGG GGC
+      methyl_seq: 2022222222222222222022022222222222222222222222222222022222222222202222222222202222222122222
+      dmr_label: 8581
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.0% - Breast-Basal-Ep
+      13.3% - Breast-Luminal-Ep ✓
+      13.2% - Head-Neck-Ep
+      13.2% - Bladder-Ep
+
+14. Confidence: 34.0% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: AAC ACC CCC CCT CTG TGC GCA CAG AGC GCG CGG GGT GTA TAA AAT ATG TGA GAG AGG GGC GCA CAG AGT GTG TGA GAC ACC CCG CGC GCA CAG AGA GAT ATG TGG GGG GGC GCC CCA CAA AAG AGA GAG AGT GTG TGT GTG TGG GGG GGC GCA CAC ACC CCA CAC ACT CTG TGA GAC ACC CCC CCT CTG TGG GGG GGC GCT CTG TGG GGG GGG GGG GGG GGT GTT TTG TGC GCG CGT GTG TGT GTG TGT GTG TGG GGG GGA GAC ACG CGC GCT CTG TGG GGG GGA GAA AAG AGG GGA GAC ACA CAA AAA AAG AGG GGG GGC GCG CGG GGT GTC TCC CCT CTG TGG GGT GTG TGA GAA AAG AGC GCC CCC CCC CCG CGA GAC ACA CAG AGG GGA GAG AGG GGG GGT GTC TCG CGG GGT GTT TTT TTC TCA CAG AGT GTC TCT CTT TTG TGG GGC GCC CCG CGC GCA CAG AGT GTC TCC CCC CCT CTT TTT TTG TGG GGC GCC CCT CTC TCT CTC TCC CCC CCT CTA TAT ATA TAT ATG TGT GTG TGC GCC CCA CAC ACT CTC TCA CAG AGT GTA TAA AAG AGC GCA CAG AGC GCA CAG AGT GTG TGT GTG TGG GGG GGC GCG CGG GGC GCA CAT ATA TAC ACC CCC CCT CTC
+      methyl_seq: 2222222220222222222222222220222222222222222222222222222222222222222222222222202222222222022222222222222222202222222222222222022222222222022222222222222202222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 8702
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.0% - Breast-Basal-Ep
+      13.5% - Breast-Luminal-Ep ✓
+      13.1% - Prostate-Ep
+      13.1% - Bladder-Ep
+
+15. Confidence: 34.0% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: TGG GGG GGC GCA CAA AAG AGA GAG AGC GCG CGT GTG TGG GGA GAG AGA GAC ACC CCA CAG AGG GGG GGA GAG AGG GGA GAG AGG GGC GCT CTG TGC GCT CTG TGC GCT CTG TGT GTA TAG AGC GCA CAC ACA CAT ATC TCC CCC CCA CAC ACC CCC CCA CAG AGA GAT ATG TGG GGC GCA CAG AGT GTG TGC GCT CTG TGG GGT GTG TGG GGG GGA GAT ATA TAG AGG GGA GAC ACC CCA CAA AAG AGA GAC ACC CCC CCT CTA TAA AAT ATA TAC ACA CAC ACG CGT GTT TTG TGA GAG AGT GTG TGT GTC TCT CTC TCT CTA TAA AAC ACC CCT CTG TGA GAA AAT ATT TTC TCT CTT TTG TGA GAG AGA GAC ACC CCA CAC ACA CAG AGG GGT GTG TGT GTT TTT TTT TTT TTC TCA CAG AGA GAT ATT TTT TTC TCA CAG AGA GAT ATT TTT TTT TTT TTT TTC TCA CAG AGC GCT CTT TTT TTT TTG TGG GGA GAA AAT ATA TAT ATT TTT TTG TGC GCA CAT ATT TTA TAT ATA TAC ACT CTT TTA TAC ACC CCG CGG GGT GTT TTG TGA GAG AGC GCA CAT ATC
+      methyl_seq: 22222222202222222222222222222222222222222222222222222222222222222222222222222222222222222222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 8401
+      ctype: Breast-Luminal-Ep
+    Probability Distribution:
+      34.0% - Breast-Basal-Ep
+      13.4% - Breast-Luminal-Ep ✓
+      13.2% - Head-Neck-Ep
+      13.2% - Prostate-Ep
+
+============================================================
+
+TRUE CELL TYPE: Head-Neck-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 34.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GAG AGA GAT ATC TCA CAC ACG CGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGC GCG CGA GAA AAA AAC ACT CTC TCC CCG CGT GTC TCT CTC TCA CAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAT ATT TTC TCC CCT CTT TTA TAA AAC ACG
+      methyl_seq: 2222220222222222222222222222222222222022222220222222222222222222222222222220
+      dmr_label: 31314
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.9% - Lung-Ep-Alveo
+      13.0% - Breast-Luminal-Ep
+      13.0% - Head-Neck-Ep ✓
+      13.0% - Prostate-Ep
+
+ 2. Confidence: 34.7% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CAA AAC ACC CCA CAT ATC TCA CAC ACC CCG CGC GCC CCA CAT ATC TCG CGT GTC TCT CTC TCC CCG CGG GGA GAA AAC ACA CAG AGT GTT TTT TTT TTA TAT ATC TCT CTT TTT TTC TCA CAA AAA AAA AAT ATG TGG GGA GAA AAA AAT ATT TTC TCC CCA CAC ACC CCC CCA CAT ATT TTC TCA CAC ACC CCA CAA AAG AGC GCT CTC TCT CTC TCC CCA CAT ATT TTC TCC CCT CTC TCT CTC TCT CTC TCT CTC TCG CGC GCC CCC
+      methyl_seq: 222222222122222122222022222222222222222222222222222222222222222222222222222222222222220222
+      dmr_label: 31819
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.7% - Lung-Ep-Alveo
+      13.1% - Head-Neck-Ep ✓
+      13.1% - Bladder-Ep
+      13.1% - Prostate-Ep
+
+ 3. Confidence: 34.7% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: AGG GGC GCA CAG AGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATT TTG TGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCT CTA TAA AAT ATA TAC ACG CGG GGT GTG TGA GAA AAA AAC ACC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAC ACG
+      methyl_seq: 2222222220222222222222222222222222222222222022222222022222222222221
+      dmr_label: 31761
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.7% - Lung-Ep-Alveo
+      13.2% - Head-Neck-Ep ✓
+      13.1% - Bladder-Ep
+      13.0% - Prostate-Ep
+
+ 4. Confidence: 34.5% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: ATC TCC CCT CTC TCA CAC ACT CTG TGC GCG CGG GGC GCA CAT ATT TTG TGT GTT TTC TCA CAT ATC TCG CGC GCG CGC GCC CCC CCC CCA CAA AAA AAC ACT CTG TGG GGA GAA AAA AAC ACA CAG AGC GCT CTC TCA CAA AAT ATC TCG CGA GAT ATC TCC CCT CTC TCA CAG AGC GCG CGG GGA GAA AAC ACG CGG GGA GAG AGA GAA AAA AAT ATC TCA CAT ATG TGG GGC GCC CCT CTC TCT CTT TTC TCA CAC ACG CGC GCG CGA GAT ATG TGA GAA AAA AAT ATA TAT ATT TTA TAT ATG TGC GCT CTG TGC GCA CAA AAT ATG TGA GAA AAA AAA AAG AGA GAA AAA AAC ACA CAA AAA AAA AAT ATT TTC TCT CTG TGC GCT CTG TGC GCA CAC ACA CAC ACG CGG GGC GCA CAG AGG GGG GGA GAG AGG GGA
+      methyl_seq: 222222222022222222222202022222222222222222222222202222222220222202222222222222222222220202222222222222222222222222222222222222222222222202222222222
+      dmr_label: 24440
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.5% - Head-Neck-Ep ✓
+      13.1% - Bladder-Ep
+      13.1% - Prostate-Ep
+      13.1% - Breast-Luminal-Ep
+
+ 5. Confidence: 34.4% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CGC GCT CTC TCC CCC CCG CGG GGC GCC CCA CAA AAC ACA CAA AAG AGC GCA CAC ACA CAT ATT TTA TAT ATA TAA AAG AGC GCA CAG AGG GGG GGA GAC ACT CTT TTG TGA GAA AAA AAT ATG TGC GCA CAC ACT CTT TTA TAT ATA TAC ACA CAC ACT CTG TGA GAA AAA AAC ACA CAT ATA TAA AAA AAT ATA TAT ATC TCA CAT ATG TGT GTG TGA GAA AAG AGA GAA AAG AGT GTC TCT CTA TAA AAG AGT GTG TGA GAG AGC GCC CCT CTG TGC GCT CTG TGC GCA CAG AGA GAT ATA TAC ACC CCT CTG TGG GGC GCC CCC CCA CAG AGT GTC TCA CAA AAC ACA CAG AGC GCC CCA CAG AGC GCT CTC TCT CTA TAA AAC ACG CGG GGC
+      methyl_seq: 222220222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222022
+      dmr_label: 31855
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.4% - Lung-Ep-Alveo
+      13.2% - Bladder-Ep
+      13.1% - Head-Neck-Ep ✓
+      13.1% - Prostate-Ep
+
+ 6. Confidence: 34.3% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: ATC TCC CCT CTC TCA CAC ACT CTG TGC GCG CGG GGC GCA CAT ATT TTG TGT GTT TTC TCA CAT ATC TCG CGC GCG CGC GCC CCC CCC CCA CAA AAA AAC ACT CTG TGG GGA GAA AAA AAC ACA CAG AGC GCT CTC TCA CAA AAT ATC TCG CGA GAT ATC TCC CCT CTC TCA CAG AGC GCG CGG GGA GAA AAC ACG CGG GGA GAG AGA GAA AAA AAT ATC TCA CAT ATG TGG GGC GCC CCT CTC TCT CTT TTC TCA CAC ACG CGC GCG CGA GAT ATG TGA GAA AAA AAT ATA TAT ATT TTA TAT ATG TGC GCT CTG TGC GCA CAA AAT ATG TGA GAA AAA AAA AAG AGA GAA AAA AAC ACA CAA AAA AAA AAT ATT TTC TCT CTG TGC GCT CTG TGC GCA CAC ACA CAC ACG CGG GGC GCA CAG AGG GGG GGA GAG AGG GGA
+      methyl_seq: 222222222022222222222202022222222222222222222222202222222220222202222222222222222222220202222222222222222222222222222222222222222222222212222222222
+      dmr_label: 24440
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.3% - Head-Neck-Ep ✓
+      13.2% - Bladder-Ep
+      13.2% - Breast-Luminal-Ep
+      13.1% - Prostate-Ep
+
+ 7. Confidence: 34.3% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: TCC CCA CAT ATT TTC TCC CCT CTT TTC TCG CGT GTC TCA CAA AAT ATC TCA CAA AAA AAC ACA CAC ACA CAC ACT CTT TTC TCT CTT TTA TAC ACT CTT TTT TTT TTT TTC TCC CCC CCA CAC ACT CTT TTA TAA AAG AGG GGG GGT GTT TTT TTT TTG TGA GAG AGA GAG AGA GAA AAT ATT TTA TAA AAA AAT ATG TGA GAA AAA AAC ACA CAG AGC GCA CAT ATC TCT CTC TCT CTG TGA GAA AAA AAG AGT GTG TGT GTT TTC TCT CTG TGA GAG AGC GCA CAG AGA GAG AGT GTG TGA GAC ACA CAC ACT CTC TCC CCG CGG GGT GTT TTA TAA AAT ATG TGA GAA AAT ATC TCT CTT TTA TAA AAT ATT TTT TTA TAC ACT CTT TTT TTT TTA TAA AAC ACT CTT TTC TCG CGT GTT TTA TAC ACG
+      methyl_seq: 222222222122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220222222222222222222222222222222022220
+      dmr_label: 32110
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.3% - Lung-Ep-Alveo
+      13.2% - Bladder-Ep
+      13.1% - Head-Neck-Ep ✓
+      13.1% - Breast-Luminal-Ep
+
+ 8. Confidence: 34.2% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: ATT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGT GTG TGG GGG GGT GTG TGG GGA GAT ATC TCA CAC ACC CCT CTT TTA TAG AGG GGT GTC TCA CAG AGG GGA GAG AGT GTT TTC TCG CGA GAG AGA GAC ACC CCA CAG AGC GCC CCT CTG TGG GGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAA AAC ACC CCT CTC TCT CTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCG CGG GGG GGC GCG CGT GTG TGG GGT GTG TGG GGC GCA CAG AGG GGT GTG TGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCG CGG GGC GCT CTT TTC TCT CTT TTG TGT GTG TGA GAA AAG AGT GTT TTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATC TCA CAC ACT CTT TTG TGA GAA AAG AGC GCC CCT CTG TGG GGA GAG AGG GGC GCG CGG GGA GAA AAG AGT GTT TTG TGC GCA CAG
+      methyl_seq: 222222222022222222222222222222222222222220222222222222222222222222222222222222222222222222222222222202220222222222222222222222220222222222222222222222222222222222222222222222202222222222
+      dmr_label: 32108
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.2% - Lung-Ep-Alveo
+      13.2% - Head-Neck-Ep ✓
+      13.2% - Breast-Basal-Ep
+      13.2% - Bladder-Ep
+
+ 9. Confidence: 34.2% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCC CCC CCG CGC GCC CCA CAC ACC CCT CTC TCG CGC GCC CCC CCG CGG GGC GCT CTA TAC ACT CTT TTT TTT TTT TTT TTG TGT GTA TAT ATA TAC ACT CTT TTA TAA AAT ATA TAG AGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCA CAC ACC CCG CGT GTG TGT GTT TTA TAA AAC ACC CCA CAG AGG GGA GAT ATG TGG GGT GTC TCT CTC TCG CGA GAT ATC TCT CTC TCC CCT CTG TGA GAC ACC CCT CTC TCG
+      methyl_seq: 22022222220222122222222222222222222222222221222222222202222222222222222222022222222222220
+      dmr_label: 31617
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.2% - Lung-Ep-Alveo
+      13.2% - Prostate-Ep
+      13.2% - Head-Neck-Ep ✓
+      13.2% - Bladder-Ep
+
+10. Confidence: 34.2% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CAT ATT TTC TCT CTG TGG GGA GAC ACC CCG CGA GAG AGG GGG GGG GGC GCT CTC TCA CAG AGA GAT ATC TCC CCA CAG AGT GTG TGA GAC ACT CTT TTA TAT ATA TAC ACG CGA GAA AAG AGA GAG AGA GAA AAG AGG GGA GAA AAC ACA CAA AAA AAC ACC CCC CCA CAG AGA GAG AGA GAC ACA CAC ACA CAG AGA GAG AGA GAA AAG AGA GAA AAG AGC GCC CCA CAC ACG CGC GCC CCG CGG GGG GGA GAC ACA CAG AGA GAC ACG CGC GCA CAG AGA GAG AGA GAT ATC TCA CAG AGA GAG AGT GTG TGA GAC ACG
+      methyl_seq: 22222222202222222222222222222222222202222222222222222222222222222222222222222022022222222022222222222222220
+      dmr_label: 32245
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.2% - Lung-Ep-Alveo
+      13.2% - Breast-Luminal-Ep
+      13.2% - Head-Neck-Ep ✓
+      13.2% - Bladder-Ep
+
+11. Confidence: 34.1% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: AGG GGC GCA CAG AGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATT TTG TGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCT CTA TAA AAT ATA TAC ACG CGG GGT GTG TGA GAA AAA AAC ACC CCG CGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAC ACG
+      methyl_seq: 2222222220222222222222222222222222222222222022222222122222222222220
+      dmr_label: 31761
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.1% - Lung-Ep-Alveo
+      13.4% - Head-Neck-Ep ✓
+      13.1% - Prostate-Ep
+      13.1% - Bladder-Ep
+
+12. Confidence: 34.1% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: ATC TCC CCT CTC TCA CAC ACT CTG TGC GCG CGG GGC GCA CAT ATT TTG TGT GTT TTC TCA CAT ATC TCG CGC GCG CGC GCC CCC CCC CCA CAA AAA AAC ACT CTG TGG GGA GAA AAA AAC ACA CAG AGC GCT CTC TCA CAA AAT ATC TCG CGA GAT ATC TCC CCT CTC TCA CAG AGC GCG CGG GGA GAA AAC ACG CGG GGA GAG AGA GAA AAA AAT ATC TCA CAT ATG TGG GGC GCC CCT CTC TCT CTT TTC TCA CAC ACG CGC GCG CGA GAT ATG TGA GAA AAA AAT ATA TAT ATT TTA TAT ATG TGC GCT CTG TGC GCA CAA AAT ATG TGA GAA AAA AAA AAG AGA GAA AAA AAC ACA CAA AAA AAA AAT ATT TTC TCT CTG TGC GCT CTG TGC GCA CAC ACA CAC ACG CGG GGC GCA CAG AGG GGG GGA GAG AGG GGA GAA AAT ATC TCT CTC TCC CCT CTA TAG AGG GGC GCG
+      methyl_seq: 222222222022222222222212022222222222222222222222212222222220222202222222222222222222220202222222222222222222222222222222222222222222222202222222222222222222220
+      dmr_label: 24440
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.1% - Head-Neck-Ep ✓
+      13.2% - Bladder-Ep
+      13.2% - Breast-Luminal-Ep
+      13.2% - Prostate-Ep
+
+13. Confidence: 34.0% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: CAT ATG TGC GCC CCA CAA AAG AGC GCC CCG CGA GAA AAG AGC GCT CTG TGG GGA GAC ACT CTG TGT GTA TAC ACT CTG TGC GCC CCA CAC ACC CCA CAT ATC TCT CTC TCG CGG GGC GCT CTC TCA CAC ACT CTG TGC GCA CAG AGC GCC CCT CTC TCC CCC CCT CTG TGG GGT GTT TTG TGA GAT ATT TTC TCT CTC TCC CCT CTG TGC GCC CCT CTC TCA CAG AGC GCC CCT CTG TGC GCC CCC CCA CAG AGT GTG TGC GCC CCT CTG TGC GCG CGA GAT ATT TTG TGC GCA CAG AGG GGC GCA CAC ACG CGC GCG CGC GCC CCG CGC GCC CCA CAC ACG CGC GCC CCT CTG TGA GAC ACT CTG TGG GGT GTT TTT TTT TTC TCG CGT GTA TAT ATG TGT GTT TTT TTT TTT TTG TGG GGT GTG TGG GGA GAG AGA GAC ACG CGG GGG GGG GGT GTT TTT TTC TCG CGC GCT CTG TGT GTG TGT GTT TTG TGG GGC GCC CCG CGG GGG GGC GCT CTG TGG GGT GTC TCT CTC TCC CCA CAG AGC GCT CTC TCC CCT CTA TAA AAC ACC CCG CGC
+      methyl_seq: 222222222022222222222222222222222222022222222222222222222222222222222222222222222222222222202222222222202022022220222222222222220222222222222222222022222220222222222220222222222222222222222202
+      dmr_label: 24545
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.0% - Head-Neck-Ep ✓
+      13.4% - Bladder-Ep
+      13.3% - Prostate-Ep
+      13.1% - Lung-Ep-Alveo
+
+14. Confidence: 34.0% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: GCG CGG GGT GTG TGG GGC GCT CTC TCA CAC ACA CAC ACC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGG GGA GAA AAT ATT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGT GTG TGG GGG GGC GCG CGG GGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAT ATG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATT TTG TGA GAA AAA AAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCT CTA TAA AAC ACA CAC ACG CGG GGT GTG TGA GAA AAA AAC ACC CCC CCT CTG TGT GTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAA AAA AAA AAA AAT ATT TTA TAG AGC GCT CTG TGG GGG GGC GCG CGT GTG TGG GGT GTG TGG GGC GCA CAG AGG
+      methyl_seq: 0222222222222222222222222222222222222202222222202222220222222222222222222222222222222222222222220222222222222222222222222222222222222222222222202222222222
+      dmr_label: 25233
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.0% - Head-Neck-Ep ✓
+      13.2% - Bladder-Ep
+      13.2% - Prostate-Ep
+      13.2% - Lung-Ep-Alveo
+
+15. Confidence: 34.0% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCC CCG CGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGT GTG TGG GGG GGC GCG CGG GGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATC TCG CGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCC CCA CAA AAC ACA CAT ATG TGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCC CCC CCC CCC CCT CTC TCT CTC TCT CTA TAC ACT CTA TAA AAA AAA AAA AAT ATA TAC ACA CAA AAA AAA AAA AAT ATT TTA TAG AGC GCT CTG TGG GGG GGC GCG CGT GTG TGG GGT GTG TGG GGC
+      methyl_seq: 2022222222022222222222222222222222222202222222202222220222222222222202222222222222222222222222222222222222222222222222222222222222222202222222
+      dmr_label: 31419
+      ctype: Head-Neck-Ep
+    Probability Distribution:
+      34.0% - Lung-Ep-Alveo
+      13.4% - Head-Neck-Ep ✓
+      13.2% - Bladder-Ep
+      13.2% - Prostate-Ep
+
+============================================================
+
+TRUE CELL TYPE: Lung-Ep-Alveo
+------------------------------------------------------------
+
+ 1. Confidence: 35.1% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAA AAT ATC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAG AGA GAG AGT GTC TCC CCA
+      methyl_seq: 222222222022222222222222222202222222222222222222202222222222222222222202222222222222222220222222222222222222220222222222222222222022222222222222222202222222222222222222202222222222222222222202222222222222222222202222222222
+      dmr_label: 31553
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      35.1% - Lung-Ep-Alveo ✓
+      13.0% - Head-Neck-Ep
+      13.0% - Bladder-Ep
+      13.0% - Prostate-Ep
+
+ 2. Confidence: 35.0% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAA AAT ATC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAT ATT TTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC
+      methyl_seq: 22222222202222222222222222220222222222222222222221222222222222222222220222222222222222222220222222222222222222220222222222222222222220222222222222222222022222222222222222202222222222
+      dmr_label: 31553
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      35.0% - Lung-Ep-Alveo ✓
+      13.0% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+      13.0% - Bladder-Ep
+
+ 3. Confidence: 34.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: TAC ACA CAC ACA CAT ATG TGC GCA CAC ACG CGC GCA CAC ACA CAC ACA CAC ACA CAG AGG GGC GCA CAC ACA CAT ATA TAA AAA AAA AAA AAC ACA CAC ACA CAC ACA CAT ATA TAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAG AGG GGC GCA CAC ACA CAC ACA CAG AGG GGC GCG CGC GCA CAC ACA CAA AAA AAC ACA CAC ACA CAG AGG GGC GCA CAA AAA AAC ACA CAT ATG TGC GCA CAT ATG TGC GCA CAC ACA CAC ACA CAC ACA CAC ACA CAC ACA CAT ATG TGC GCA CAC ACA CAC ACA CAC ACA CAG AGG GGC GCG CGC GCA CAC ACA CAG AGG GGC GCG CGC GCA CAC ACA CAC ACA CAG AGG GGC GCA CAC ACA CAC ACA CAC ACA CAC ACG CGC GCA CAT ATG TGC GCA CAC ACA CAC ACA CAC ACA CAG AGG GGC GCA CAT ATA TAC ACA CAG AGG GGC GCG CGT GTA TAC ACA CAA AAA AAA AAA AAC ACA CAC ACA CAC ACG CGC GCA CAT ATG TGC GCA CAC ACA CAC ACA CAC ACA CAC ACG CGC GCA CAT ATG TGC GCA CAC ACG
+      methyl_seq: 2222222220222222222222222222222222222222222222222222222222212222222222222222222222222222222222222222222222222022222220222222222222222220222222222222222222222220222222222222212222222222222022222220
+      dmr_label: 31352
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.9% - Lung-Ep-Alveo ✓
+      13.0% - Head-Neck-Ep
+      13.0% - Bladder-Ep
+      13.0% - Prostate-Ep
+
+ 4. Confidence: 34.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGC GCG CGC GCG CGG GGT GTG TGG GGC GCT CTC TCA CAT ATT TTC TCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCG CGG GGG GGT GTG TGG GGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATC TCG CGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCT CTA TAA AAC ACA CAC ACG CGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG CGT GTC TCT CTC TCT CTG TGC GCT CTA TAA AAA AAA AAA AAT ATA TAC ACG CGA GAA AAA AAA AAA AAA AAA AAT ATT TTA TAG AGC GCC CCG CGA GAG AGC
+      methyl_seq: 20202222222222222222222222222222222222222022220222222222202222222222222022222222222222222220222222222202222222222222222022222222222220222
+      dmr_label: 31795
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.9% - Lung-Ep-Alveo ✓
+      13.1% - Head-Neck-Ep
+      13.0% - Bladder-Ep
+      13.0% - Prostate-Ep
+
+ 5. Confidence: 34.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: TAA AAG AGC GCC CCA CAC ACC CCA CAC ACG CGC GCC CCT CTG TGG GGC GCC CCT CTT TTA TAT ATT TTT TTA TAA AAT ATT TTT TTT TTT TTT TTT TTG TGA GAG AGA GAC ACC CCG CGA GAG AGT GTC TCT CTC TCA CAC ACT CTC TCC CCA CAG AGC GCC CCC CCA CAG AGG GGC GCT CTG TGG GGA GAG AGT GTG TGC GCA CAA AAT ATG TGG GGC GCG CGC GCA CAA AAT ATC TCT CTT TTG TGA GAC ACT CTC TCA CAC ACT CTG TGC GCA CAA AAC ACC CCT CTT TTC TCA CAC ACC CCT CTC TCC CCT CTG TGG GGG GGT GTT TTC TCA CAA AAG AGT GTG TGG GGC GCT CTC TCT CTC TCC CCT CTG TGT GTC TCT CTC TCA CAG AGC GCC CCT CTC TCC CCC CCG CGA GAG AGT GTA TAG AGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCA CAC ACG CGC
+      methyl_seq: 22222222202222222222222222222222222222022222222222222222222222222222222220222222222222222222222222222222222222222222222222222222222222222022222222222222222222202
+      dmr_label: 32204
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.9% - Lung-Ep-Alveo ✓
+      13.1% - Bladder-Ep
+      13.0% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+
+ 6. Confidence: 34.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGT GTG TGG GGT GTG TGG GGT GTG TGC GCG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCT CTC TCA CAG AGC GCT CTA TAC ACT CTC TCG CGG GGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATC TCG CGC GCT CTT TTG TGA GAA AAC ACC CCT CTG TGG GGG GGA GAG AGG GGC GCG CGG GGA GAG AGG GGT GTT TTG TGT GTG TGG GGT GTA TAA AAG AGT GTC TCG CGA GAG AGA GAT ATT TTG TGC GCG CGC GCC CCA CAT ATT TTG TGC GCA CAC ACT
+      methyl_seq: 22222222202222222222222222222122222222222222222222202222222222222222022222222222222220222222202222222222
+      dmr_label: 32055
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.9% - Lung-Ep-Alveo ✓
+      13.1% - Breast-Luminal-Ep
+      13.0% - Head-Neck-Ep
+      13.0% - Breast-Basal-Ep
+
+ 7. Confidence: 34.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: TTA TAC ACC CCA CAG AGG GGC GCA CAC ACG CGG GGT GTG TGG GGC GCG CGC GCG CGC GCG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCT CTC TCA CAG AGC GCT CTA TAC ACT CTC TCG CGA GAG AGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAG AGG GGA GAG AGA GAA AAT ATT TTG TGC GCT CTT TTG TGA GAA AAC ACC CCT CTA TAG AGG GGA GAG AGG GGT GTG TGG GGA GAG AGG GGT GTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCT CTG TGA GAG AGA GAT ATC TCG CGC GCG CGC GCC CCA CAT ATT TTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCT CTT TTG TGG GGG GGC GCA CAA AAC ACA CAA AAG AGA GAG AGC GCG
+      methyl_seq: 222222222022222021202222222222222222222122222222222222222222222222222222222222222222222222222222222220202222222222222222222222222222220
+      dmr_label: 32163
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.9% - Lung-Ep-Alveo ✓
+      13.1% - Bladder-Ep
+      13.1% - Prostate-Ep
+      13.0% - Head-Neck-Ep
+
+ 8. Confidence: 34.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: AAT ATA TAG AGT GTA TAG AGG GGC GCC CCG CGG GGG GGC GCG CGC GCG CGG GGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCT CTT TTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCG CGG GGG GGT GTG TGG GGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATC TCG CGA GAG AGA GAC ACC CCA CAT ATC TCC CCT CTG TGG GGC GCT CTA TAA AAC ACA CAC ACG CGG GGT GTG TGA GAA AAA AAC ACC CCC CCC CCG
+      methyl_seq: 2222222220222020222222222022222222222222222222222222202222122222222220222222222222202222222222222222222022222222220
+      dmr_label: 31662
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.8% - Lung-Ep-Alveo ✓
+      13.0% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+      13.0% - Bladder-Ep
+
+ 9. Confidence: 34.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAA AAT ATC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAG AGT GTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAC ACA CAG AGA GAT ATT TTC TCC CCA CAC ACA CAC ACT CTC TCC CCA CAC ACG CGT GTT TTA TAG AGA GAG AGT
+      methyl_seq: 222222222022222222222222222202222222222222222222202222222222222222222202222222222222222222202222222222222222222202222222222222222222212222222
+      dmr_label: 31553
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.8% - Lung-Ep-Alveo ✓
+      13.1% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+      13.0% - Breast-Luminal-Ep
+
+10. Confidence: 34.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GTC TCA CAT ATC TCG CGT GTC TCT CTC TCC CCG CGG GGA GAA AAC ACA CAG AGT GTT TTT TTT TTA TAT ATC TCT CTT TTT TTC TCA CAA AAA AAA AAT ATG TGG GGA GAA AAA AAT ATT TTG TGC GCA CAC ACC CCC CCA CAT ATT TTC TCA CAC ACC CCA CAA AAG AGC GCT CTC TCT CTC TCC CCA CAC ACT CTC TCC CCT CTC TCT CTC TCT CTC TCT CTC TCG CGC GCC CCC CCG CGC GCC CCC CCC CCT CTG TGG GGG GGG GGG GGT GTC TCA CAC ACC CCT CTT TTT TTC TCT CTA TAG AGT GTT TTT TTG TGC GCA CAA AAC ACT CTC TCT CTA TAT ATG TGA GAG AGT GTT TTT TTA TAA AAC ACT CTA TAC ACT CTC TCT CTA TAG AGA GAC ACA CAC ACT CTT TTG TGA GAT ATA TAG AGA GAT ATA TAA AAG AGT GTG TGG GGA GAA AAT ATC TCA CAT ATA TAC ACC CCG CGT GTG TGT GTT TTT TTA TAA AAT ATT TTT
+      methyl_seq: 222212222202222222222222222222222222222222222222222222222222222222222222222022202222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 31880
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.8% - Lung-Ep-Alveo ✓
+      13.1% - Bladder-Ep
+      13.0% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+
+11. Confidence: 34.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGC GCG CGT GTG TGG GGT GTG TGG GGC GCA CAC ACG CGC GCG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAC ACG CGT GTA TAC ACT CTC TCA CAG AGG GGA GAG AGG GGC GCT CTG TGA GAG AGG GGC GCA CAT ATG TGA GAG AGA GAA AAT ATC TCT CTT TTT TTT TTG TGA GAA AAC ACG CGT GTG TGG GGG GGA GAG AGG GGT GTG TGA GAA AAC ACG CGT GTT TTG TGC GCA CAG AGT GTG TGA GAA
+      methyl_seq: 202222222220202222222222222022222222222222222222222222222222222022222222222202222222222
+      dmr_label: 31272
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.8% - Lung-Ep-Alveo ✓
+      13.1% - Breast-Basal-Ep
+      13.0% - Head-Neck-Ep
+      13.0% - Bladder-Ep
+
+12. Confidence: 34.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGC GCC CCC CCA CAC ACG CGT GTA TAC ACT CTC TCA CAC ACC CCC CCT CTC TCT CTC TCA CAA AAG AGC GCA CAG AGC GCT CTT TTG TGC GCT CTC TCT CTT TTC TCA CAA AAG AGA GAA AAG AGG GGG GGC GCT CTT TTG TGA GAC ACC CCA CAC ACA CAT ATT TTG TGT GTA TAG AGG GGT GTC TCG CGT GTG TGG GGT GTG TGA GAA AAG AGT GTA TAC ACC CCA CAT ATG TGG GGC GCT CTG TGG GGT GTG TGG GGA GAT ATG TGA GAA AAG AGT GTG TGG GGA GAT ATG TGG GGC GCT CTT TTT TTG TGA GAA AAC ACC CCG CGG GGG GGC GCT CTG TGG GGG GGA GAA AAG
+      methyl_seq: 22222022222222222222222222222222222222222222222222222222222222022222222222222222222222222222222222222222222202222222222
+      dmr_label: 31583
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.8% - Lung-Ep-Alveo ✓
+      13.1% - Breast-Basal-Ep
+      13.1% - Head-Neck-Ep
+      13.0% - Prostate-Ep
+
+13. Confidence: 34.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGG GGA GAA AAG AGT GTT TTG TGT GTC TCG CGT GTG TGC GCT CTG TGA GAG AGG GGT GTG TGG GGT GTA TAG AGG GGA GAC ACG CGT GTG TGG GGC GCT CTT TTC TCT CTA TAA AAG AGG GGT GTC TCT CTC TCA CAC ACT CTC TCA CAG AGC GCT CTC TCT CTG TGA GAG AGA GAA AAC ACC CCC CCA CAC ACA CAG AGA GAA AAT ATA TAC ACT CTT TTG TGA GAA AAC ACA CAT ATA TAT ATT TTT TTC TCG CGA GAG AGG GGG GGC GCA CAC ACT CTT TTC
+      methyl_seq: 22222222202222222222222222202222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 31458
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.8% - Lung-Ep-Alveo ✓
+      13.1% - Head-Neck-Ep
+      13.1% - Bladder-Ep
+      13.0% - Prostate-Ep
+
+14. Confidence: 34.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGC GCT CTC TCC CCG CGG GGC GCC CCT CTT TTG TGG GGC GCC CCA CAG AGT GTC TCC CCA CAG AGA GAA AAA AAG AGG GGG GGA GAC ACT CTC TCC CCC CCA CAC ACA CAG AGT GTG TGC GCA CAG AGC GCG CGG GGC GCA CAG AGG GGC GCT CTG TGA GAA AAG AGG GGG GGC GCT CTC TCC CCT CTC TCA CAA AAG AGT GTG TGC GCC CCA CAC ACC CCA CAA AAA AAG AGT GTG TGG GGG GGA GAG AGC GCC CCC CCA CAG AGG GGC GCA CAG AGA GAG AGG GGA GAG AGG GGT GTG TGC GCC CCG CGA GAG AGA GAG AGT GTG TGA GAG AGC GCG CGA GAG AGA GAG AGT GTG TGA GAG AGC GCG
+      methyl_seq: 222212222222222222222222222222222222222222202222222222222222222222222222222222222222222222222222222222022222222202222222220
+      dmr_label: 31331
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.8% - Lung-Ep-Alveo ✓
+      13.1% - Head-Neck-Ep
+      13.1% - Prostate-Ep
+      13.0% - Bladder-Ep
+
+15. Confidence: 34.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGC GCA CAG AGG GGA GAA AAA AAA AAC ACG CGG GGC GCG CGT GTG TGA GAA AAC ACC CCC CCG CGG GGG GGA GAG AGG GGT GTG TGG GGA GAG AGC GCT CTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCC CCG CGA GAG AGA GAT ATC TCG CGC GCG CGC GCG CGA GAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGA GAA AAA AAC ACA CAG AGA GAG AGC GCG CGA GAG AGA GAC ACT CTC TCC CCA CAG AGT GTC TCT CTC TCA CAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAG AGA GAA AAA AAG AGA GAA AAA AAG AGA GAA AAA AAG AGA GAA AAA AAG AGA GAA AAA AAG AGC GCA CAC ACA CAG AGT GTC TCT CTG TGC GCT CTA TAA AAG AGG GGA GAG AGA GAA AAA AAA AAC ACA CAA AAT ATC TCA CAT ATG TGA GAG AGA GAA AAA AAT ATC TCT CTT TTC TCT CTG TGA GAC ACT CTT TTG TGC GCC CCC CCA CAG AGG GGA GAT ATC TCA CAG AGG GGC GCG
+      methyl_seq: 2222222220220222222202222222222222222222222212222202020222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222220
+      dmr_label: 32103
+      ctype: Lung-Ep-Alveo
+    Probability Distribution:
+      34.8% - Lung-Ep-Alveo ✓
+      13.1% - Prostate-Ep
+      13.0% - Breast-Luminal-Ep
+      13.0% - Head-Neck-Ep
+
+============================================================
+
+TRUE CELL TYPE: Prostate-Ep
+------------------------------------------------------------
+
+ 1. Confidence: 34.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCA CAC ACA CAG AGG GGC GCG CGC GCA CAC ACA CAC ACA CAG AGG GGC GCA CAC ACA CAC ACA CAC ACA CAC ACG CGC GCA CAT ATG TGC GCA CAC ACA CAC ACA CAC ACA CAG AGG GGC GCA CAT ATA TAC ACA CAG AGG GGC GCG CGT GTA TAC ACA CAA AAA AAA AAA AAC ACA CAC ACA CAC ACG CGC GCA CAT ATG TGC GCA CAC ACA CAC ACA
+      methyl_seq: 2222220222222222222222221222222222222222222222220222222222222202222222222
+      dmr_label: 31352
+      ctype: Prostate-Ep
+    Probability Distribution:
+      34.9% - Lung-Ep-Alveo
+      13.0% - Head-Neck-Ep
+      13.0% - Prostate-Ep ✓
+      13.0% - Breast-Basal-Ep
+
+ 2. Confidence: 34.7% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GAC ACA CAA AAA AAA AAC ACC CCG CGC GCC CCA CAT ATC TCG CGT GTC TCA CAT ATC TCA CAT ATG TGG GGC GCC CCC CCA CAT ATT TTC TCT CTC TCA CAA AAT ATG TGA GAG AGC GCT CTC TCT CTT TTG TGG GGG GGT GTA TAC ACA CAC ACC CCT CTC TCC CCC CCA CAG AGA GAC ACG CGG GGT GTG TGT GTG TGG GGC GCG CGG GGC GCC CCG CGG GGG GGC GCA CAG AGA GAG AGG GGG GGG GGC GCT CTC TCA CAC ACT CTT TTC TCC CCC CCA CAA AAA AAA AAG AGG GGG GGG GGC GCG CGG GGC GCC CCG CGG GGG GGC GCA CAG AGA GAC ACG CGC GCA CAC ACC CCC CCC CCC CCC CCA CAC ACC CCT CTC TCC CCC CCG CGG GGA GAG AGG GGG GGG GGG GGC
+      methyl_seq: 2222222122222022222222222222222222222222222222222222222222220222222212221222222222222222222222222222221222022222220222222222222222022222222
+      dmr_label: 31325
+      ctype: Prostate-Ep
+    Probability Distribution:
+      34.7% - Lung-Ep-Alveo
+      13.1% - Bladder-Ep
+      13.1% - Head-Neck-Ep
+      13.0% - Prostate-Ep ✓
+
+ 3. Confidence: 34.7% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCT CTT TTC TCC CCG CGG GGG GGC GCT CTC TCC CCG CGA GAA AAG AGG GGG GGA GAA AAG AGG GGA GAC ACC CCC CCG CGC GCG CGG GGG GGG GGT GTG TGT GTT TTG TGG GGG GGT GTG TGG GGA GAA AAA AAG AGA GAG AGC GCG CGG GGG GGT GTA TAT ATA TAG AGA GAC ACA CAA AAG AGC GCT CTG TGG GGA GAA AAG AGG GGT GTC TCC CCT CTT TTA TAT ATG TGC GCA CAT ATG TGT GTA TAT ATG TGC GCA CAC ACA CAG AGG GGA GAC ACC CCG CGG GGG GGC GCG CGT GTG TGA GAG AGG GGC GCC CCC CCC CCG CGA GAG AGA GAC ACA CAG AGG GGG GGC GCT CTT TTG TGG GGT GTA TAT ATG TGC GCA CAG AGT GTA TAA AAG AGT GTG TGC GCT CTT TTT TTA TAT ATT TTA TAA AAT ATA TAC ACG CGA GAA AAC ACA CAC ACT CTC TCT CTT TTG
+      methyl_seq: 22221222222022222222222220202222222222222222222202222222222222222222222222222222222222222222220222022222222202222222222222222222222222222222222222202222222222
+      dmr_label: 31513
+      ctype: Prostate-Ep
+    Probability Distribution:
+      34.7% - Lung-Ep-Alveo
+      13.1% - Bladder-Ep
+      13.1% - Head-Neck-Ep
+      13.1% - Prostate-Ep ✓
+
+ 4. Confidence: 34.6% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GCA CAG AGT GTC TCA CAC ACT CTA TAC ACG CGG GGG GGG GGC GCG CGA GAG AGT GTG TGT GTG TGC GCA CAG AGA GAT ATG TGC GCC CCC CCG CGC GCG CGG GGG GGC GCA CAG AGC GCA CAG AGG GGT GTG TGC GCC CCT CTC TCC CCC CCA CAC ACC CCT CTC TCT CTC TCC CCT CTC TCC CCT CTC TCT CTC TCT CTC TCC CCA CAG AGC GCA CAC ACC CCT CTG TGG GGG GGT GTT TTT TTT TTT TTC TCC CCT CTC TCA CAG AGC GCC CCT CTT TTC TCC CCC CCC CCA CAT ATC TCT CTC TCC CCT CTA TAC ACG CGC GCC CCC CCC CCA CAC ACC CCT CTG TGG GGA GAA AAG AGC GCC CCA CAG AGT GTG TGC GCC CCA CAG AGC GCT CTC TCC CCC CCC CCC CCC CCA CAT ATG TGC GCT CTC TCT CTT TTC TCC CCC CCG CGG GGA GAA AAA AAG AGT GTG TGC GCA CAA AAA AAC ACA CAG AGG GGC
+      methyl_seq: 2222222220222202222222222222220202222222222222222222222222222222222222222222222222222222222222222222222222022222222222222222222222222222222222222222202222222222222222
+      dmr_label: 31359
+      ctype: Prostate-Ep
+    Probability Distribution:
+      34.6% - Lung-Ep-Alveo
+      13.1% - Head-Neck-Ep
+      13.1% - Bladder-Ep
+      13.1% - Breast-Basal-Ep
+      13.1% - Prostate-Ep ✓ (not in top 4)
+
+ 5. Confidence: 34.4% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: AGG GGG GGC GCA CAC ACC CCT CTC TCC CCA CAC ACC CCC CCC CCC CCA CAG AGG GGT GTC TCT CTC TCC CCC CCG CGC GCC CCA CAG AGT GTA TAG AGA GAC ACT CTC TCA CAG AGT GTA TAG AGA GAG AGC GCA CAT ATC TCC CCC CCC CCA CAG AGC GCA CAA AAG AGG GGT GTC TCT CTG TGA GAG AGG GGT GTG TGG GGG GGA GAG AGC GCG CGA GAG AGG GGG GGC GCT CTG TGC GCG CGC GCT CTG TGC GCG CGA GAA AAG AGC GCA CAC ACA CAG AGC GCT CTG TGC GCC CCA CAG AGT GTT TTG TGT GTG TGG GGG GGT GTT TTG TGG GGT GTG TGG GGC GCT CTC TCG CGG GGG GGC GCC CCC CCC CCA CAG AGC GCG
+      methyl_seq: 222222222222222222222222022222222222222222222222222222222222222222222220222222220222202222222222222222222222222222222202222222220
+      dmr_label: 8659
+      ctype: Prostate-Ep
+    Probability Distribution:
+      34.4% - Breast-Basal-Ep
+      13.2% - Breast-Luminal-Ep
+      13.1% - Head-Neck-Ep
+      13.1% - Prostate-Ep ✓
+
+ 6. Confidence: 34.2% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: AGG GGC GCC CCC CCT CTA TAA AAC ACC CCG CGA GAA AAA AAG AGG GGA GAG AGG GGA GAG AGC GCA CAA AAG AGG GGA GAG AGT GTG TGC GCT CTC TCC CCG CGT GTG TGT GTG TGG GGG GGC GCA CAA AAA AAG AGC GCG CGG GGG GGT GTG TGC GCT CTC TCT CTT TTG TGG GGA GAA AAA AAT ATC TCG CGA GAT ATT TTC TCC CCA CAG AGG GGA GAA AAG AGA GAG AGA GAG AGA GAG AGT GTG TGG GGG GGG GGA GAG AGG GGA GAG AGA GAC ACA CAG AGA GAG AGG GGG GGC GCG CGA GAA AAC ACA CAG AGA GAG AGC GCT CTC
+      methyl_seq: 222222222022222222222222222222222022222222222212222222222222222122222222222222222222222222222222222202222222222
+      dmr_label: 31634
+      ctype: Prostate-Ep
+    Probability Distribution:
+      34.2% - Lung-Ep-Alveo
+      13.2% - Prostate-Ep ✓
+      13.2% - Head-Neck-Ep
+      13.2% - Bladder-Ep
+
+ 7. Confidence: 34.1% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: AGG GGC GCT CTG TGG GGG GGC GCA CAC ACG CGG GGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCT CTA TAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGT GTG TGG GGG GGC GCG CGG GGA GAT ATC TCA CAT ATG TGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATC TCG CGA GAG AGT GTC TCC CCA CAT ATC TCC CCT CTG TGA GAC ACT CTA TAA AAC ACA CAC ACA CAG AGT GTG TGA GAA AAA AAC ACC CCT CTC TCG
+      methyl_seq: 2222222221222222222022222222222222222222222222202222222202222222222222222222212222222222222222222222222222221
+      dmr_label: 32198
+      ctype: Prostate-Ep
+    Probability Distribution:
+      34.1% - Lung-Ep-Alveo
+      13.4% - Head-Neck-Ep
+      13.1% - Breast-Basal-Ep
+      13.1% - Bladder-Ep
+      13.1% - Prostate-Ep ✓ (not in top 4)
+
+ 8. Confidence: 33.9% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GTG TGA GAT ATC TCC CCG CGC GCC CCC CCG CGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGG GGG GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC CCG CGC GCG CGC GCC CCC CCA CAG AGC GCT CTC TCT CTC TCT CTG TGT GTT TTT TTC TCA CAA AAG AGT GTG TGT GTT TTT TTG TGA GAT ATT TTT TTA TAG AGA GAG AGG GGC GCT CTA TAC ACA CAA AAA AAG AGG GGA GAT ATG TGA GAA AAG AGA GAG AGG GGG GGC GCT CTC TCA CAA AAG AGG GGC GCC CCT CTC TCA CAA AAA AAC ACA CAG AGA GAG AGC GCA CAA AAG AGG GGT GTA TAA AAA AAT ATG TGA GAG AGT GTT TTT TTC TCT CTC TCC CCG CGG GGC GCT CTG TGC GCT CTA TAG AGA GAG
+      methyl_seq: 22222122202222122222222222222222222222222212222222220202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 31418
+      ctype: Prostate-Ep
+    Probability Distribution:
+      33.9% - Lung-Ep-Alveo
+      13.5% - Head-Neck-Ep
+      13.2% - Prostate-Ep ✓
+      13.2% - Bladder-Ep
+
+ 9. Confidence: 33.8% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: AGG GGA GAG AGC GCC CCC CCT CTG TGC GCG CGC GCA CAC ACC CCC CCG CGG GGG GGT GTA TAT ATC TCG CGG GGT GTT TTG TGG GGG GGG GGT GTG TGT GTG TGC GCC CCC CCT CTT TTC TCC CCA CAG AGA GAT ATC TCT CTC TCC CCC CCT CTC TCC CCC CCT CTT TTG TGG GGT GTT TTT TTG TGT GTC TCA CAT ATA TAG AGG GGT GTG TGA GAC ACC CCA CAC ACA CAT ATT TTT TTT TTA TAA AAT ATT TTA TAC ACC CCA CAG AGC GCT CTT TTT TTT TTA TAT ATG TGC GCC CCC CCG CGT GTC TCA CAA AAT ATT TTT TTG TGG GGG GGA GAA AAC ACG
+      methyl_seq: 22222222202222202222220222222222222222222222222222222222222222222222222222222222222222222222222222222022222222222220
+      dmr_label: 10429
+      ctype: Prostate-Ep
+    Probability Distribution:
+      33.8% - Lung-Ep-Alveo
+      13.3% - Prostate-Ep ✓
+      13.3% - Bladder-Ep
+      13.2% - Head-Neck-Ep
+
+10. Confidence: 33.8% | Predicted: Head-Neck-Ep
+    Read Information:
+      dna_seq: AGA GAG AGA GAA AAA AAT ATA TAG AGC GCG CGT GTT TTG TGG GGC GCA CAA AAG AGG GGC GCG CGG GGG GGA GAT ATC TCG CGG GGG GGG GGC GCT CTG TGA GAT ATG TGA GAA AAA AAA AAT ATG TGA GAT ATA TAC ACA CAG AGG GGC GCT CTT TTT TTT TTA TAT ATA TAT ATT TTT TTC TCT CTG TGC GCA CAG AGG GGA GAG AGT GTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTT TTC TCA CAT ATT TTC TCC CCA CAA AAG AGC GCA CAT ATA TAC ACC CCA CAG AGA GAG AGT GTT TTT TTC TCA CAC ACC CCA CAA AAA AAG AGC GCA CAG AGG GGT GTA TAG AGA GAA AAA AAG AGA GAA AAT ATG TGT GTG TGA GAG AGA GAA AAG AGG GGG GGC GCC CCG CGG GGG GGC GCG CGC GCG CGG GGT GTG TGG GGC GCT CTC TCA CAC ACG CGC GCC CCT CTG TGT GTA TAA AAT ATC TCC CCC CCA CAG AGC GCA CAC ACT CTT TTT TTG TGG GGG GGA GAG AGG GGC GCC CCG CGA GAG AGG GGC GCG CGG GGG GGC GCG CGG GGA GAT ATC TCA CAC ACG CGA GAG AGG GGT GTC TCA CAG AGG GGA GAG AGA GAT ATC TCG
+      methyl_seq: 2222222220222222222202222202222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222022202022222222202222222222222222222222222220222202220222222022222222222220
+      dmr_label: 24430
+      ctype: Prostate-Ep
+    Probability Distribution:
+      33.8% - Head-Neck-Ep
+      13.4% - Lung-Ep-Alveo
+      13.3% - Bladder-Ep
+      13.2% - Prostate-Ep ✓
+
+11. Confidence: 33.6% | Predicted: Breast-Basal-Ep
+    Read Information:
+      dna_seq: GAC ACT CTT TTC TCA CAG AGC GCG CGG GGT GTG TGA GAG AGA GAA AAG AGA GAG AGC GCG CGT GTG TGG GGA GAG AGG GGG GGA GAG AGG GGG GGA GAG AGA GAG AGA GAG AGG GGG GGC GCA CAC ACC CCC CCA CAG AGG GGT GTG TGG GGG GGC GCC CCC CCC CCG CGA GAG AGG GGT GTA TAC ACC CCA CAT ATG TGG GGC GCA CAC ACC CCC CCA CAC ACA CAG AGC GCC CCC CCG CGA GAG AGT GTG TGG GGC GCC CCG
+      methyl_seq: 2222222022222222222022222222222222222222222222222222222022222222222222222222222022222220
+      dmr_label: 8244
+      ctype: Prostate-Ep
+    Probability Distribution:
+      33.6% - Breast-Basal-Ep
+      13.5% - Breast-Luminal-Ep
+      13.3% - Lung-Ep-Alveo
+      13.2% - Head-Neck-Ep
+      13.2% - Prostate-Ep ✓ (not in top 4)
+
+12. Confidence: 33.5% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGC GCC CCA CAC ACC CCG CGC GCA CAC ACC CCC CCG CGG GGC GCC CCG CGT GTT TTA TAT ATA TAT ATC TCA CAT ATG TGA GAC ACA CAT ATT TTT TTT TTA TAA AAA AAT ATG TGA GAA AAA AAC ACC CCT CTG TGC GCT CTC TCC CCC CCT CTC TCC CCT CTT TTG TGA GAA AAG AGA GAG AGG GGA GAC ACA CAA AAA AAT ATA TAC ACG CGT GTT TTA TAT ATT TTT TTT TTT TTT TTT TTT TTA TAT ATG TGT GTG TGG GGT GTA TAT ATT TTT TTG TGA GAC ACA CAA AAT ATC TCT CTT TTT TTC TCC CCA CAG AGA GAT ATA TAT ATT TTG TGC GCC CCC CCC CCA CAT ATA TAC ACA CAC ACA CAG AGT GTG TGC GCA CAT ATT TTT TTG TGC GCT CTA TAG AGA GAA AAG AGA GAT ATT TTA TAC ACA CAA AAG AGG GGA GAA AAA AAA AAA AAG AGG GGA GAA AAG AGA GAA AAT ATT TTC TCA CAA AAA AAC ACA CAA AAC ACT CTG TGG GGG GGC GCA CAA AAA AAA AAA AAA AAA AAT ATA TAC ACT CTG TGA GAG AGT GTA TAC ACC CCG CGA GAT ATT TTT TTA TAA AAT ATT TTT TTA
+      methyl_seq: 222222222122222222212222202220222222222222222222222222222222222222222222222222222222022222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 32040
+      ctype: Prostate-Ep
+    Probability Distribution:
+      33.5% - Lung-Ep-Alveo
+      13.5% - Head-Neck-Ep
+      13.4% - Prostate-Ep ✓
+      13.2% - Bladder-Ep
+
+13. Confidence: 33.3% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: CTG TGG GGT GTC TCA CAT ATT TTC TCC CCG CGG GGA GAA AAT ATT TTA TAC ACC CCA CAC ACA CAT ATT TTT TTT TTG TGA GAA AAA AAC ACT CTA TAA AAA AAT ATG TGC GCA CAA AAT ATA TAA AAA AAA AAA AAA AAA AAC ACT CTC TCC CCC CCT CTT TTA TAG AGT GTG TGG GGA GAG AGG GGC GCG CGG GGA GAG AGC GCT CTT TTG TGC GCA CAG AGT GTG TGA GAG AGC GCT CTG TGA GAG AGA GAT ATC TCG CGC GCG CGC GCC CCA CAC ACT CTG TGC GCA CAC ACT CTC TCC CCA CAG AGC GCC CCT CTG TGG GGG GGC GCG CGA GAC ACA CAG AGA GAA AAC ACG CGA GAG AGA GAC ACT CTC TCT CTG TGT GTC
+      methyl_seq: 222222222022222222222222222222222222222222222222222222222222222022222222222222222222220202222222222222222222220222222202222222222
+      dmr_label: 10280
+      ctype: Prostate-Ep
+    Probability Distribution:
+      33.3% - Lung-Ep-Alveo
+      13.6% - Prostate-Ep ✓
+      13.4% - Bladder-Ep
+      13.3% - Head-Neck-Ep
+
+14. Confidence: 33.3% | Predicted: Bladder-Ep
+    Read Information:
+      dna_seq: TAC ACA CAG AGG GGT GTG TGC GCC CCC CCG CGC GCC CCA CAT ATC TCA CAC ACG CGC GCC CCT CTG TGG GGC GCT CTG TGA GAC ACT CTT TTT TTT TTT TTG TGT GTG TGT GTG TGT GTT TTT TTT TTT TTA TAG AGT GTA TAG AGA GAG AGA GAC ACG CGG GGG GGT GTT TTT TTC TCA CAC ACC CCA CAT ATG TGT GTA TAG AGG GGC GCC CCA CAG AGG GGC GCT CTG TGG GGT GTC TCT CTT TTG TGA GAA AAT ATT TTC TCC CCT CTG TGA GAC ACC CCT CTC TCA CAG AGG GGT GTG TGA GAT ATC TCC CCA CAC ACC CCC CCG CGC GCC CCT CTC TCG CGG GGC GCC CCT CTC TCC CCC CCA CAA AAA AAG AGT GTG TGC GCT CTG TGC GCG CGA GAT ATT TTA TAC ACA CAG AGG GGC GCG CGT GTG TGA GAG AGT GTC TCA CAC ACC CCG CGC GCG CGC GCC CCC CCA CAG AGC GCC CCT CTA TAT ATA TAG AGT GTG TGA GAG AGG GGA GAA AAT ATT TTT TTA TAC ACA CAG AGA GAT ATG TGA GAA AAA AAC ACG
+      methyl_seq: 222222222122222220222222222222222222222222222222222202222222222222222222222222222222222222222222222222222222202222022222222222222222022222222202222222220202222222222222222222222222222222220
+      dmr_label: 1427
+      ctype: Prostate-Ep
+    Probability Distribution:
+      33.3% - Bladder-Ep
+      13.5% - Prostate-Ep ✓
+      13.4% - Lung-Ep-Alveo
+      13.3% - Head-Neck-Ep
+
+15. Confidence: 33.2% | Predicted: Lung-Ep-Alveo
+    Read Information:
+      dna_seq: GTC TCA CAT ATC TCG CGT GTC TCT CTC TCC CCG CGG GGA GAA AAC ACA CAG AGT GTT TTT TTT TTA TAT ATC TCT CTT TTT TTC TCA CAA AAA AAA AAT ATG TGG GGA GAA AAA AAT ATT TTG TGC GCA CAC ACC CCC CCA CAT ATT TTC TCA CAC ACC CCA CAA AAG AGC GCT CTC TCT CTC TCC CCA CAC ACT CTC TCC CCT CTC TCT CTC TCT CTC TCT CTC TCG CGC GCC CCC CCG CGC GCC CCC CCC CCT CTG TGG GGG GGG GGG GGT GTC TCA CAC ACC CCT CTT TTT TTC TCT CTA TAG AGT GTT TTT TTG TGC GCA CAA AAC ACT CTC TCT CTA TAT ATG TGA GAG AGT GTT TTT TTA TAA AAC ACT CTA TAC ACT CTC TCT CTA TAG AGA GAC ACA CAC ACT CTT TTG TGA GAT ATA TAG AGA GAT ATA TAA AAG AGT GTG TGG GGA GAA AAT ATC TCA CAT ATA TAC ACC CCG CGT GTG TGT GTT TTT TTA TAA AAT ATT TTT
+      methyl_seq: 222212222202222222222222222222222222222222222222222222222222222222222222222122202222222222222222222222222222222222222222222222222222222222222222222222222222222202222222222
+      dmr_label: 31880
+      ctype: Prostate-Ep
+    Probability Distribution:
+      33.2% - Lung-Ep-Alveo
+      13.5% - Breast-Basal-Ep
+      13.4% - Bladder-Ep
+      13.3% - Head-Neck-Ep
+      13.3% - Prostate-Ep ✓ (not in top 4)
+
+============================================================
+
+
+
+SUMMARY STATISTICS
+================================================================================
+LOW CONFIDENCE SUMMARY
+------------------------------
+Bladder-Ep               : 15 examples, avg conf: 16.8%, min conf: 16.8%
+Breast-Basal-Ep          : 15 examples, avg conf: 16.9%, min conf: 16.8%
+Breast-Luminal-Ep        : 15 examples, avg conf: 16.8%, min conf: 16.8%
+Head-Neck-Ep             : 15 examples, avg conf: 16.8%, min conf: 16.8%
+Lung-Ep-Alveo            : 15 examples, avg conf: 16.8%, min conf: 16.8%
+Prostate-Ep              : 15 examples, avg conf: 16.8%, min conf: 16.8%
+
+HIGH CONFIDENCE SUMMARY
+------------------------------
+Bladder-Ep               : 15 examples, avg conf: 34.0%, max conf: 35.0%
+Breast-Basal-Ep          : 15 examples, avg conf: 34.7%, max conf: 34.9%
+Breast-Luminal-Ep        : 15 examples, avg conf: 34.2%, max conf: 34.7%
+Head-Neck-Ep             : 15 examples, avg conf: 34.3%, max conf: 34.9%
+Lung-Ep-Alveo            : 15 examples, avg conf: 34.9%, max conf: 35.1%
+Prostate-Ep              : 15 examples, avg conf: 34.0%, max conf: 34.9%

@@ -1,0 +1,30 @@
+FINAL EVALUATION METRICS
+==================================================
+Overall Accuracy: 0.2767
+Macro F1-Score: 0.2727
+Weighted F1-Score: 0.2774
+Final Loss: 1.6886
+
+PER-CLASS ACCURACY
+------------------------------
+Bladder-Ep               : 0.2939
+Breast-Basal-Ep          : 0.3379
+Breast-Luminal-Ep        : 0.2781
+Head-Neck-Ep             : 0.2290
+Lung-Ep-Alveo            : 0.3377
+Prostate-Ep              : 0.1785
+
+CLASSIFICATION REPORT
+------------------------------
+                   precision    recall  f1-score   support
+
+       Bladder-Ep       0.26      0.29      0.28     26102
+  Breast-Basal-Ep       0.30      0.34      0.32     21886
+Breast-Luminal-Ep       0.21      0.28      0.24     22913
+     Head-Neck-Ep       0.31      0.23      0.26     33161
+    Lung-Ep-Alveo       0.38      0.34      0.36     34065
+      Prostate-Ep       0.19      0.18      0.18     23629
+
+         accuracy                           0.28    161756
+        macro avg       0.27      0.28      0.27    161756
+     weighted avg       0.28      0.28      0.28    161756

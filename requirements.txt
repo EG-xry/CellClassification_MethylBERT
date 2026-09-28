@@ -1,0 +1,15 @@
+# Python 3.11
+# Versions follow upstream MethylBERT 2.0.2 (pyproject.toml), except transformers,
+# which matches the version recorded in the saved model configs (4.54.1).
+torch==2.4.1
+transformers==4.54.1
+safetensors==0.5.3
+numpy==2.1.1
+pandas==2.2.2
+scikit-learn==1.5.1
+scipy==1.14.1
+matplotlib==3.9.2
+seaborn==0.13.2
+tqdm==4.66.5
+pysam==0.22.1
+psutil==6.0.0

@@ -1,185 +1,126 @@
-# MethylBERT Pipeline
+# Read level cell type classification with MethylBERT
 
-A comprehensive pipeline for processing methylation data and training MethylBERT transformer models for cell type classification.
+**Can one DNA methylation read tell us which of 39 human cell types it came from?** We fine-tuned MethylBERT on the Loyfer et al. (2023) atlas to find out. For single reads with hard labels, the answer is mostly no.
 
-## Overview
+1. Our first 39 class model scored 99%, but the marker region alone gave away the label; after we removed that leak, accuracy within families of related cell types stayed near chance across 45 runs.
+2. Only about 2% of reads fall in a marker region of their own cell type, and 35% of test reads in one family have an identical training read with a different label, so a single hard label per read has little to fit.
+3. We split the atlas into lineage families to make the task smaller; it helped in some families (Excitable 0.55, chance 0.33) and barely in others (Structural 0.25, chance 0.17).
+4. The group that built MethylBERT then completed the goal: read classification across all 39 types, using data driven soft labels in place of hard ones ([Rizdvanetskyi et al., 2026](https://arxiv.org/abs/2607.04987)).
 
-This pipeline consists of two main components:
+**Full write-up: [REPORT.md](REPORT.md)**. All 45 runs: [Results/](Results/README.md).
 
-1. **Pretraining**: Converts raw methylation data (BED files, PAT files, FASTA files, and DMR CSV files) into trainable data for MethylBERT
-2. **Training**: Fine-tunes MethylBERT transformer models for cell type classification
+## Results
 
-## Project Structure
+| Task | Classes | Chance | Accuracy | Macro F1 | Note |
+| --- | --- | --- | --- | --- | --- |
+| Flat 39 class, first split | 39 | 0.026 | 0.991 | 0.969 | Leak: region ID alone predicts the label |
+| Flat 39 class, region balanced | 39 | 0.026 | 0.520 | 0.511 | Matches what the region alone would score (about 0.50) |
+| Pancreas acinar vs duct | 2 | 0.500 | 0.833 | 0.825 | Upper bound; split not saved |
+| Excitable (cardiomyocyte, neuron, oligodendrocyte) | 3 | 0.333 | 0.548 | 0.542 | Upper bound; read level split |
+| Digestive epithelia | 4 | 0.250 | 0.395 | 0.386 | |
+| Reproductive epithelia | 4 | 0.250 | 0.378 to 0.394 | 0.372 to 0.382 | 2 runs |
+| Blood | 6 | 0.167 | 0.198 to 0.430 | 0.189 to 0.348 | 19 runs; 0.430 is on an unbalanced test set |
+| Surface epithelia | 6 | 0.167 | 0.276 to 0.277 | 0.267 to 0.273 | 3 runs |
+| Metabolic (liver, pancreas) | 6 | 0.167 | 0.244 to 0.273 | 0.239 to 0.270 | 3 runs |
+| Structural (fibroblast, muscle, fat, endothelium) | 6 | 0.167 | 0.217 to 0.246 | 0.175 to 0.228 | 6 runs |
 
-```
-MethylBERT_Pipeline/
-├── Pretraining/                    # Data preprocessing pipeline
-│   ├── analyze_methylation_batch_optimized.py  # Main preprocessing script
-│   ├── Config/
-│   │   ├── cell_types_config_collective.json   # Configuration for batch processing
-│   │   └── cell_types_config_individual.json   # Configuration for individual processing
-│   ├── Data/                       # Input data files
-│   │   ├── CpG.bed.gz             # CpG coordinate mapping
-│   │   ├── GSM5652205_Skeletal-Muscle-Z00000427.hg38.pat.gz  # PAT methylation file
-│   │   ├── hg38_all_1000.csv      # DMR regions CSV
-│   │   └── hg38.fa                # Reference genome FASTA
-│   ├── Run_Result/                # Output results
-│   └── Toolbox/                   # Utility scripts
-└── Training/                      # Model training pipeline
-    ├── run_training.py            # Main training script
-    ├── finetune_config.json       # Training configuration
-    ├── Data/                      # Training datasets
-    │   ├── combined_test_100k.csv # 100k test samples
-    │   ├── combined_test_1M.csv   # 1M test samples
-    │   ├── test_seq.csv          # Test sequences
-    │   └── train_seq.csv         # Training sequences
-    ├── Run_Result/               # Training results and models
-    │   └── bert.model/           # Trained model files
-    └── src/                      # MethylBERT source code
-```
+- Accuracy is per read, from the checkpoint with the lowest eval loss.
+- Pure samples, which should resolve to one class, came out near uniform or collapsed onto one class ([details](Results/README.md#pure-sample-deconvolution)).
 
-## Part 1: Pretraining
+## How train and test were split
 
-The pretraining component processes raw methylation data to create trainable datasets for MethylBERT.
+- **First split** (the 0.991 row): 80/20 random split of reads within each cell type (`Training/Toolbox/split_data_simple.py`).
+- **Later splits**: 75/25 with `Training/Toolbox/split_data_flexible.py`.
+  - Whole samples go to one side only for cell types with 4 or more samples.
+  - Cell types with 3 or fewer samples are pooled and split by unique read.
+  - Which mode built each dataset was not recorded.
+- **The Excitable split behaves like a read level split.** 49% of its test reads have an identical read in training ([audit](Results/audit_results.txt)).
+- **So reads from the same donor can sit on both sides.** That inflates accuracy. The near chance results stand, but 0.83 and 0.55 are upper bounds.
 
-### Purpose
-Converts the following input files into MethylBERT-compatible training data:
-- **BED files**: CpG coordinate mappings
-- **PAT files**: Methylation pattern data
-- **FASTA files**: Reference genome sequences
-- **CSV DMR files**: Differentially methylated regions
-
-### Output Format
-The processed data contains four columns:
-- `DNA_seq`: DNA sequence
-- `Methyl_seq`: Methylation sequence
-- `DMR_Label`: DMR classification label
-- `cType`: Cell type label
-
-### Usage
-
-#### For Cloud/Linux Batch Processing
-
-Use the optimized batch version with the collective configuration:
+## Quick start
 
 ```bash
-cd Pretraining
-python analyze_methylation_batch_optimized.py --config Config/cell_types_config_collective.json
+git clone https://github.com/EG-xry/CellClassification_MethylBERT.git
+cd CellClassification_MethylBERT
+python3.11 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+python demo/run_demo.py
 ```
 
-#### Configuration
+- The demo fine-tunes for 60 steps on 780 reads from the Excitable family (`demo/data/`), then evaluates.
+- It downloads the pretrained `hanyangii/methylbert_hg19_2l` checkpoint on first use.
+- It takes about 40 seconds on an Apple M4 Max and writes metrics and plots to `demo/output/`.
+- It shows that the pipeline runs; 60 steps is not a result.
 
-The `cell_types_config_collective.json` file contains:
-- **collective_csv_mode**: Set to `true` for batch processing
-- **collective_csv_file**: Points to `hg38_all_1000.csv` (DMR regions)
-- **fasta_file**: Reference genome file (`hg38.fa`)
-- **cpg_bed_file**: CpG coordinate mapping (`CpG.bed.gz`)
-- **cell_types**: Dictionary of cell type configurations with:
-  - `pat_file`: PAT methylation file path
-  - `output_file`: Output CSV file name
-  - `cell_type`: Cell type label
+## Repository
 
-#### Key Features
-- **Memory-efficient streaming**: Handles large datasets without loading everything into memory
-- **Checkpoint/resume functionality**: Can resume interrupted processing
-- **Batch processing**: Processes multiple cell types efficiently
-- **Resource monitoring**: Tracks memory and CPU usage
-- **Error handling**: Robust error recovery and logging
-
-## Part 2: Training
-
-The training component fine-tunes MethylBERT transformer models for cell type classification.
-
-### Purpose
-Trains MethylBERT models to classify different cell types using the processed methylation data.
-
-### Available Datasets
-
-Three dataset sizes are available for training:
-
-1. **100k dataset**: `combined_test_100k.csv` - 100,000 samples
-2. **1M dataset**: `combined_test_1M.csv` - 1,000,000 samples  
-3. **Full dataset**: `combined_test.csv` - Complete dataset (~17M samples)
-
-The full dataset training and testing split is already uploaded to cloud storage.
-
-### Usage
-
-#### Running Training
-
-```bash
-cd Training
-python run_training.py
+```
+Preprocessing/          .pat.gz reads + marker regions -> training rows
+  analyze_methylation_batch_optimized.py   main script
+  Config/               sample-to-cell-type maps (206 atlas samples)
+  Data/                 marker region lists (hg38_all_1000.csv, hg38_250.csv)
+  Toolbox/              format converters and helpers
+Training/
+  run_training.py       fine-tuning entry point (python Training/run_training.py -c <config>)
+  src/methylbert/       modified MethylBERT (see MODIFICATIONS.md and LICENSE there)
+  Config/               configs for each loss and family
+  Toolbox/              combine, split, convert, and analysis tools
+Testing/                pure-sample deconvolution and CTC scripts
+Results/                all 45 runs, split audits, run index
+Data/                   read/region agreement and cell type proportion tables
+demo/                   one-command demo
+REPORT.md               full write-up
 ```
 
-#### Configuration
+## Full pipeline
 
-Edit `finetune_config.json` to customize training parameters:
+Steps 2 to 4 ask for file names interactively (step 2 opens a small window if tkinter is available).
 
-```json
-{
-  "train_dataset": "data/train_seq.csv",
-  "test_dataset": "data/test_seq.csv", 
-  "output_path": "res/",
-  "pretrain": "./methylbert_2l",
-  "n_encoder": 2,
-  "n_mers": 3,
-  "seq_len": 150,
-  "batch_size": 32,
-  "steps": 500000,
-  "lr": 0.0001,
-  "num_classes": 39
-}
-```
+1. **Preprocess** each atlas sample into rows of `DNA_seq, Methyl_seq, DMR_Label, cType, DMR_cType, Read_Count`. Run from the folder holding the inputs (see Data sources):
+   ```bash
+   cd Preprocessing/Data
+   python ../analyze_methylation_batch_optimized.py \
+     --config ../Config/cell_types_config_collective.json --dedupe-reads --parallel 4
+   ```
+2. **Combine** the per-sample files of one family: `python Training/Toolbox/Combined_CSV.py`.
+3. **Split** into train and test: `python Training/Toolbox/split_data_flexible.py`.
+   - Mode 4 assigns whole samples by hand; use it to hold out donors.
+4. **Convert** to the 4-column training format: `python Training/Toolbox/convert_data_format_flexible.py`.
+5. **Train**: `python Training/run_training.py -c Training/Config/<config>.json`.
+6. **Deconvolve** a pure sample: `python Testing/cell_type_deconvolution.py --csv <sample>.csv --model_dir <run>/bert.model`.
 
-#### Key Parameters
+The CTC scripts in `Testing/` (`process_ctc_pat_files.py`, `predict_cell_type.py`) were written for circulating tumour cell data but never run to results. `predict_cell_type.py` does not pass methylation to the model; do not use it as is.
 
-- **train_dataset/test_dataset**: Path to training and test data
-- **output_path**: Directory for saving model outputs
-- **pretrain**: Path to pre-trained model
-- **n_encoder**: Number of transformer encoder layers
-- **n_mers**: K-mer size for tokenization
-- **seq_len**: Sequence length for training
-- **batch_size**: Training batch size
-- **steps**: Number of training steps
-- **lr**: Learning rate
-- **num_classes**: Number of cell type classes (39)
+## Data sources
 
-### Results
-
-#### Model Outputs
-- **bert.model/**: Contains trained model files:
-  - `config.json`: Model configuration
-  - `model.safetensors`: Model weights
-  - `dmr_encoder.pickle`: DMR encoder
-  - `read_classification_model.pickle`: Classification model
-  - `train.csv`/`eval.csv`: Training and evaluation logs
-  - `plots/`: Training visualizations
-
-#### Available Models
-- **bert.model/**: Model trained on 1M dataset (included in repository)
-- **bert.model_step0/**: Initial model state
+- **Methylation atlas**: Loyfer et al. (2023), GEO [GSE186458](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186458).
+  - 206 hg38 `.pat.gz` files, GSM5652176 to GSM5652382 (GSM5652260 not used).
+  - Not included in this repository.
+- **Marker regions**: `Preprocessing/Data/hg38_all_1000.csv` (about 1,000 per cell type) and `hg38_250.csv` (up to 250 per type).
+  - Both derive from the Loyfer atlas markers.
+  - The 250 list was lifted to hg38 with UCSC liftOver (`Preprocessing/Toolbox/hglft_genome_12e3e_1b8300.bed`).
+  - The exact source table was not recorded.
+- **Reference files** (not included):
+  - hg38 genome FASTA (UCSC)
+  - `CpG.bed.gz` CpG index in wgbstools format
+- **Pretrained model**: `hanyangii/methylbert_hg19_{2,4,6}l` on Hugging Face (Jeong et al., 2025).
 
 ## Requirements
 
-### Dependencies
-- Python 3.7+
-- PyTorch
-- pysam
-- tqdm
-- psutil
-- scikit-learn
+- Python 3.11.
+- Pinned versions are in `requirements.txt`, checked by installing into a clean environment and running the demo.
+- Training used CUDA GPUs; the demo also runs on Apple MPS or CPU.
 
-### Data Requirements
-- Reference genome FASTA file (hg38.fa)
-- CpG coordinate mapping (CpG.bed.gz)
-- PAT methylation files
-- DMR regions CSV file
+## License and credit
 
-## Notes
+- This repository's code is MIT licensed ([LICENSE](LICENSE)).
+- `Training/src/methylbert/` is a modified copy of [MethylBERT](https://github.com/CompEpigen/methylbert) by Yunhee Jeong, MIT licensed.
+  - The original license is kept in that folder.
+  - The changes are listed in [MODIFICATIONS.md](Training/src/methylbert/MODIFICATIONS.md).
+- `Figure_Loyfer.webp` is Figure 2 of Loyfer et al., *Nature* 613, 355–364 (2023), reproduced unchanged under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-- The pretraining pipeline is optimized for cloud environments with Linux
-- Use the batch version (`analyze_methylation_batch_optimized.py`) for processing multiple cell types
-- The training pipeline supports different dataset sizes for experimentation
-- Model checkpoints and progress tracking are built into both pipelines
-- Resource monitoring helps optimize performance on different hardware configurations
+### References
+
+- Jeong, Y. et al. (2025). MethylBERT enables read-level DNA methylation pattern identification and tumour deconvolution using a Transformer-based model. *Nature Communications* 16, 788.
+- Loyfer, N. et al. (2023). A DNA methylation atlas of normal human cell types. *Nature* 613, 355–364.
+- Rizdvanetskyi, D., Roos, N. and Lutsik, P. (2026). Data-driven soft labeling scales DNA read classification to whole-body cell-type deconvolution. arXiv:2607.04987.

@@ -1,0 +1,96 @@
+FINAL EVALUATION METRICS
+==================================================
+Overall Accuracy: 0.5200
+Macro F1-Score: 0.5111
+Weighted F1-Score: 0.5407
+Final Loss: 1.9727
+
+PER-CLASS ACCURACY
+------------------------------
+Adipocytes               : 0.4626
+Bladder-Ep               : 0.4888
+Blood-B                  : 0.4974
+Blood-Granul             : 0.4956
+Blood-Mono+Macro         : 0.5000
+Blood-NK                 : 0.4833
+Blood-T                  : 0.7027
+Bone-Osteob              : 0.4642
+Breast-Basal-Ep          : 0.4970
+Breast-Luminal-Ep        : 0.4847
+Colon-Ep                 : 0.5056
+Colon-Fibro              : 0.2724
+Dermal-Fibro             : 0.3881
+Endothel                 : 0.5003
+Epid-Kerat               : 0.4619
+Eryth-prog               : 0.5051
+Fallopian-Ep             : 0.4949
+Gallbladder              : 0.4555
+Gastric-Ep               : 0.5143
+Head-Neck-Ep             : 0.4950
+Heart-Cardio             : 0.4938
+Heart-Fibro              : 0.4897
+Kidney-Ep                : 0.4942
+Liver-Hep                : 0.4744
+Lung-Ep-Alveo            : 0.4966
+Lung-Ep-Bron             : 0.4940
+Neuron                   : 0.5071
+Oligodend                : 0.4749
+Ovary-Ep                 : 0.4667
+Pancreas-Acinar          : 0.4942
+Pancreas-Alpha           : 0.4991
+Pancreas-Beta            : 0.4975
+Pancreas-Delta           : 0.4935
+Pancreas-Duct            : 0.4840
+Prostate-Ep              : 0.4844
+Skeletal-Musc            : 0.5299
+Small-Int-Ep             : 0.4997
+Smooth-Musc              : 0.5007
+Thyroid-Ep               : 0.4972
+
+CLASSIFICATION REPORT
+------------------------------
+                   precision    recall  f1-score   support
+
+       Adipocytes       0.50      0.46      0.48     15913
+       Bladder-Ep       0.54      0.49      0.51     50495
+          Blood-B       0.61      0.50      0.55     51135
+     Blood-Granul       0.64      0.50      0.56     39544
+ Blood-Mono+Macro       0.76      0.50      0.60    130690
+         Blood-NK       0.50      0.48      0.49     30656
+          Blood-T       0.31      0.70      0.43    281612
+      Bone-Osteob       0.49      0.46      0.47     11844
+  Breast-Basal-Ep       0.54      0.50      0.52     37836
+Breast-Luminal-Ep       0.47      0.48      0.48     31753
+         Colon-Ep       0.74      0.51      0.60     94519
+      Colon-Fibro       0.44      0.27      0.34       323
+     Dermal-Fibro       0.54      0.39      0.45     10720
+         Endothel       0.84      0.50      0.63    137770
+       Epid-Kerat       0.39      0.46      0.42     10601
+       Eryth-prog       0.52      0.51      0.51     49882
+     Fallopian-Ep       0.50      0.49      0.50     38033
+      Gallbladder       0.52      0.46      0.48     10125
+       Gastric-Ep       0.80      0.51      0.62    178822
+     Head-Neck-Ep       0.77      0.49      0.60    151098
+     Heart-Cardio       0.61      0.49      0.55     61561
+      Heart-Fibro       0.56      0.49      0.52     42567
+        Kidney-Ep       0.62      0.49      0.55     62942
+        Liver-Hep       0.78      0.47      0.59     94054
+    Lung-Ep-Alveo       0.62      0.50      0.55     61403
+     Lung-Ep-Bron       0.54      0.49      0.52     47671
+           Neuron       0.71      0.51      0.59    118080
+        Oligodend       0.62      0.47      0.54     42076
+         Ovary-Ep       0.52      0.47      0.49     33969
+  Pancreas-Acinar       0.71      0.49      0.58     73595
+   Pancreas-Alpha       0.48      0.50      0.49     34378
+    Pancreas-Beta       0.46      0.50      0.48     33682
+   Pancreas-Delta       0.44      0.49      0.46     32496
+    Pancreas-Duct       0.50      0.48      0.49     40346
+      Prostate-Ep       0.53      0.48      0.51     43468
+    Skeletal-Musc       0.09      0.53      0.16     20633
+     Small-Int-Ep       0.66      0.50      0.57     61259
+      Smooth-Musc       0.50      0.50      0.50     65601
+       Thyroid-Ep       0.60      0.50      0.54     34151
+
+         accuracy                           0.52   2367303
+        macro avg       0.56      0.49      0.51   2367303
+     weighted avg       0.61      0.52      0.54   2367303

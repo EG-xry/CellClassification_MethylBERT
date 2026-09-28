@@ -1,0 +1,303 @@
+nohup: ignoring input
+/PUBLIC/shixi_home/gaozhouquan/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-ovtn97h6 because there was an issue with the default path (/PUBLIC/shixi_home/gaozhouquan/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up th
+=== MethylBERT Fine-tuning Training ===
+Config file: /PUBLIC/shixi/GSE186458_raw/methylbert_run/focal_manual_config.json
+Training steps: 60000
+Batch size: 128
+Learning rate: 8e-05
+Loss function: focal
+Number of classes: 6
+Use balanced batches: True
+Use balanced test evaluation: False
+========================================
+Creating tokenizer...
+Building Vocab
+Loading training dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  521572
+Created mapping for 6 unique cell types
+# of reads in each label:  [153073.  86735.  65431.  52062.  68072.  96199.]
+Total number of unique cell types: 6
+Cell type mapping (first 10): {'Blood-B': 0, 'Blood-Granul': 1, 'Blood-Mono+Macro': 2, 'Blood-NK': 3, 'Blood-T': 4, 'Eryth-prog': 5}
+Using balanced batch sampling for training...
+Built class indices: [153073, 86735, 65431, 52062, 68072, 96199]
+BalancedBatchSampler: 6 classes
+Original class distribution: [153073  86735  65431  52062  68072  96199]
+Samples per class per batch: 21
+Actual batch size: 126 (requested: 128)
+Max batches per epoch: 2479
+Total samples per epoch: 312354
+Training samples: 521572 (balanced batches: 312354 samples per epoch)
+Loading test dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  173858
+Some weights of MethylBertEmbeddedDMR were not initialized from the model checkpoint at hanyangii/methylbert_hg19_6l and are newly initialized: ['dmr_encoder.0.weight', 'read_classifier.0.bias', 'read_classifier.0.weight', 'read_classifier.3.bias', 'read_classifier.3.weight', 'read_classifier.4.bias
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Created mapping for 6 unique cell types
+# of reads in each label:  [51548. 28686. 21733. 17220. 22933. 31738.]
+Total number of unique cell types: 6
+Cell type mapping (first 10): {'Blood-B': 0, 'Blood-Granul': 1, 'Blood-Mono+Macro': 2, 'Blood-NK': 3, 'Blood-T': 4, 'Eryth-prog': 5}
+Using standard (unbalanced) test evaluation...
+Test samples: 173858
+Creating trainer...
+Auto-detected 6 classes from training dataset
+Using CUDA GPU (NVIDIA A40)
+Loading pre-trained model...
+Restore the pretrained model hanyangii/methylbert_hg19_6l
+Loading with 6 classes (from dataset)
+Using explicit seq_len: 500
+Using num_classes from hierarchy: 6
+DMR embedding size: 19277
+Focal loss assigned (softmax-based multiclass)
+Focal weight: None (equal class weighting)
+Focal gamma: 2.0
+Focal loss assigned (softmax-based multiclass)
+Focal weight (per-class) length=6; values: [0.800000011920929, 1.0, 1.100000023841858, 1.2000000476837158, 1.100000023841858, 1.0]
+Focal gamma: 2.0
+Resolved focal weight (per-class) length=6; values: [0.8, 1.0, 1.1, 1.2, 1.1, 1.0]
+Total Parameters: 246249933
+Optimizer created successfully
+Starting training...
+========================================
+False
+Training Steps:   0%|          | 0/60000 [00:00<?, ?it/s]Training Steps:   0%|          | 0/60000 [00:01<?, ?it/s, eval_acc=nan, eval_loss=nan, loss=1.5799, lr=0.000000, step=0]                                                                                                                        
+    Overall - Loss: 1.5799, Accuracy: 0.151, Avg Confidence: 0.542
+    Per-class breakdown:
+      Blood-B        : Acc=0.810, Conf=0.589, Count= 21
+      Blood-Granul   : Acc=0.000, Conf=0.533, Count= 21
+      Blood-Mono+Macro: Acc=0.000, Conf=0.535, Count= 21
+      Blood-NK       : Acc=0.000, Conf=0.522, Count= 21
+      Blood-T        : Acc=0.048, Conf=0.531, Count= 21
+      Eryth-prog     : Acc=0.048, Conf=0.541, Count= 21
+
+Train Step 0 - Loss: 1.5799 / LR: 0.000000
+Running time for iter = 0.84s
+Training Steps:   0%|          | 1/60000 [00:01<21:10:16,  1.27s/it, eval_acc=nan, eval_loss=nan, loss=1.5799, lr=0.000000, step=0]Training Steps:   0%|          | 1/60000 [00:01<21:10:16,  1.27s/it, eval_acc=nan, eval_loss=nan, loss=1.6900, lr=0.000000, step=1]Training Steps:   0%|          | 2/
+    Overall - Loss: 1.2393, Accuracy: 0.175, Avg Confidence: 0.544
+    Per-class breakdown:
+      Blood-B        : Acc=0.095, Conf=0.537, Count= 21
+      Blood-Granul   : Acc=0.143, Conf=0.542, Count= 21
+      Blood-Mono+Macro: Acc=0.143, Conf=0.545, Count= 21
+      Blood-NK       : Acc=0.238, Conf=0.548, Count= 21
+      Blood-T        : Acc=0.238, Conf=0.545, Count= 21
+      Eryth-prog     : Acc=0.190, Conf=0.544, Count= 21
+
+Train Step 500 - Loss: 1.2393 / LR: 0.000008
+Running time for iter = 0.44s
+Training Steps:   1%|          | 501/60000 [04:04<8:02:29,  2.06it/s, eval_acc=nan, eval_loss=nan, loss=1.2393, lr=0.000008, step=500]Training Steps:   1%|          | 501/60000 [04:04<8:02:29,  2.06it/s, eval_acc=nan, eval_loss=nan, loss=1.2383, lr=0.000008, step=501]Training Steps:   1%|        
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:999 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.1601
+  Loss Contribution Analysis (Step 1000):
+    Overall - Loss: 1.2684, Accuracy: 0.135, Avg Confidence: 0.543
+    Per-class breakdown:
+      Blood-B        : Acc=0.143, Conf=0.540, Count= 21
+      Blood-Granul   : Acc=0.000, Conf=0.541, Count= 21
+      Blood-Mono+Macro: Acc=0.190, Conf=0.546, Count= 21
+      Blood-NK       : Acc=0.333, Conf=0.549, Count= 21
+      Blood-T        : Acc=0.095, Conf=0.543, Count= 21
+      Eryth-prog     : Acc=0.048, Conf=0.540, Count= 21
+
+Train Step 1000 - Loss: 1.2684 / LR: 0.000016
+Running time for iter = 0.44s
+Training Steps:   2%|▏         | 1001/60000 [11:01<609:09:00, 37.17s/it, eval_acc=0.171, eval_loss=1.2697, loss=1.2684, lr=0.000016, step=1000]Training Steps:   2%|▏         | 1001/60000 [11:02<609:09:00, 37.17s/it, eval_acc=0.171, eval_loss=1.2697, loss=1.2701, lr=0.000016, step=1001]Trainin
+    Overall - Loss: 1.2384, Accuracy: 0.254, Avg Confidence: 0.544
+    Per-class breakdown:
+      Blood-B        : Acc=0.190, Conf=0.542, Count= 21
+      Blood-Granul   : Acc=0.095, Conf=0.543, Count= 21
+      Blood-Mono+Macro: Acc=0.095, Conf=0.545, Count= 21
+      Blood-NK       : Acc=0.571, Conf=0.551, Count= 21
+      Blood-T        : Acc=0.333, Conf=0.544, Count= 21
+      Eryth-prog     : Acc=0.238, Conf=0.541, Count= 21
+
+Train Step 1500 - Loss: 1.2384 / LR: 0.000024
+Running time for iter = 0.44s
+Training Steps:   3%|▎         | 1501/60000 [15:03<7:52:27,  2.06it/s, eval_acc=0.171, eval_loss=1.2697, loss=1.2384, lr=0.000024, step=1500]Training Steps:   3%|▎         | 1501/60000 [15:04<7:52:27,  2.06it/s, eval_acc=0.171, eval_loss=1.2697, loss=1.2831, lr=0.000024, step=1501]Training St
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:1999 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.1615
+  Loss Contribution Analysis (Step 2000):
+    Overall - Loss: 1.2098, Accuracy: 0.206, Avg Confidence: 0.546
+    Per-class breakdown:
+      Blood-B        : Acc=0.333, Conf=0.551, Count= 21
+      Blood-Granul   : Acc=0.048, Conf=0.544, Count= 21
+      Blood-Mono+Macro: Acc=0.238, Conf=0.545, Count= 21
+      Blood-NK       : Acc=0.476, Conf=0.549, Count= 21
+      Blood-T        : Acc=0.095, Conf=0.545, Count= 21
+      Eryth-prog     : Acc=0.048, Conf=0.542, Count= 21
+
+Train Step 2000 - Loss: 1.2098 / LR: 0.000032
+Running time for iter = 0.44s
+Training Steps:   3%|▎         | 2001/60000 [22:00<599:34:55, 37.22s/it, eval_acc=0.191, eval_loss=1.2351, loss=1.2098, lr=0.000032, step=2000]Training Steps:   3%|▎         | 2001/60000 [22:01<599:34:55, 37.22s/it, eval_acc=0.191, eval_loss=1.2351, loss=1.2345, lr=0.000032, step=2001]Trainin
+    Overall - Loss: 1.2323, Accuracy: 0.167, Avg Confidence: 0.544
+    Per-class breakdown:
+      Blood-B        : Acc=0.286, Conf=0.547, Count= 21
+      Blood-Granul   : Acc=0.000, Conf=0.541, Count= 21
+      Blood-Mono+Macro: Acc=0.000, Conf=0.542, Count= 21
+      Blood-NK       : Acc=0.524, Conf=0.549, Count= 21
+      Blood-T        : Acc=0.190, Conf=0.546, Count= 21
+      Eryth-prog     : Acc=0.000, Conf=0.541, Count= 21
+
+Train Step 2500 - Loss: 1.2323 / LR: 0.000040
+Running time for iter = 0.44s
+Training Steps:   4%|▍         | 2501/60000 [26:03<7:44:12,  2.06it/s, eval_acc=0.191, eval_loss=1.2351, loss=1.2323, lr=0.000040, step=2500]Training Steps:   4%|▍         | 2501/60000 [26:04<7:44:12,  2.06it/s, eval_acc=0.191, eval_loss=1.2351, loss=1.2441, lr=0.000040, step=2501]Training St
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:2999 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.2296
+  Loss Contribution Analysis (Step 3000):
+    Overall - Loss: 1.2030, Accuracy: 0.246, Avg Confidence: 0.546
+    Per-class breakdown:
+
+[... 1393 lines omitted ...]
+
+Training Steps:  95%|█████████▌| 57001/60000 [10:22:12<29:58:49, 35.99s/it, eval_acc=0.372, eval_loss=1.5097, loss=0.3585, lr=0.000024, step=57000]Training Steps:  95%|█████████▌| 57001/60000 [10:22:13<29:58:49, 35.99s/it, eval_acc=0.372, eval_loss=1.5097, l
+    Overall - Loss: 0.3427, Accuracy: 0.778, Avg Confidence: 0.632
+    Per-class breakdown:
+      Blood-B        : Acc=0.762, Conf=0.630, Count= 21
+      Blood-Granul   : Acc=0.905, Conf=0.650, Count= 21
+      Blood-Mono+Macro: Acc=0.714, Conf=0.620, Count= 21
+      Blood-NK       : Acc=0.810, Conf=0.646, Count= 21
+      Blood-T        : Acc=0.714, Conf=0.620, Count= 21
+      Eryth-prog     : Acc=0.762, Conf=0.627, Count= 21
+
+Train Step 57500 - Loss: 0.3427 / LR: 0.000020
+Running time for iter = 0.44s
+Training Steps:  96%|█████████▌| 57501/60000 [10:26:14<20:07,  2.07it/s, eval_acc=0.372, eval_loss=1.5097, loss=0.3427, lr=0.000020, step=57500]Training Steps:  96%|█████████▌| 57501/60000 [10:26:15<20:07,  2.07it/s, eval_acc=0.372, eval_loss=1.5097, loss=0.
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:57999 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.3472
+  Loss Contribution Analysis (Step 58000):
+    Overall - Loss: 0.3515, Accuracy: 0.730, Avg Confidence: 0.633
+    Per-class breakdown:
+      Blood-B        : Acc=0.619, Conf=0.634, Count= 21
+      Blood-Granul   : Acc=0.714, Conf=0.627, Count= 21
+      Blood-Mono+Macro: Acc=0.619, Conf=0.623, Count= 21
+      Blood-NK       : Acc=0.810, Conf=0.641, Count= 21
+      Blood-T        : Acc=0.905, Conf=0.645, Count= 21
+      Eryth-prog     : Acc=0.714, Conf=0.629, Count= 21
+
+Train Step 58000 - Loss: 0.3515 / LR: 0.000016
+Running time for iter = 0.44s
+Training Steps:  97%|█████████▋| 58001/60000 [10:33:10<20:36:41, 37.12s/it, eval_acc=0.377, eval_loss=1.5346, loss=0.3515, lr=0.000016, step=58000]Training Steps:  97%|█████████▋| 58001/60000 [10:33:10<20:36:41, 37.12s/it, eval_acc=0.377, eval_loss=1.5346, l
+    Overall - Loss: 0.4194, Accuracy: 0.651, Avg Confidence: 0.625
+    Per-class breakdown:
+      Blood-B        : Acc=0.476, Conf=0.599, Count= 21
+      Blood-Granul   : Acc=0.429, Conf=0.591, Count= 21
+      Blood-Mono+Macro: Acc=0.619, Conf=0.630, Count= 21
+      Blood-NK       : Acc=0.905, Conf=0.664, Count= 21
+      Blood-T        : Acc=0.762, Conf=0.641, Count= 21
+      Eryth-prog     : Acc=0.714, Conf=0.627, Count= 21
+
+Train Step 58500 - Loss: 0.4194 / LR: 0.000012
+Running time for iter = 0.44s
+Training Steps:  98%|█████████▊| 58501/60000 [10:37:11<12:03,  2.07it/s, eval_acc=0.377, eval_loss=1.5346, loss=0.4194, lr=0.000012, step=58500]Training Steps:  98%|█████████▊| 58501/60000 [10:37:11<12:03,  2.07it/s, eval_acc=0.377, eval_loss=1.5346, loss=0.
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:58999 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.3476
+  Loss Contribution Analysis (Step 59000):
+    Overall - Loss: 0.3425, Accuracy: 0.722, Avg Confidence: 0.632
+    Per-class breakdown:
+      Blood-B        : Acc=0.476, Conf=0.609, Count= 21
+      Blood-Granul   : Acc=0.667, Conf=0.621, Count= 21
+      Blood-Mono+Macro: Acc=0.857, Conf=0.640, Count= 21
+      Blood-NK       : Acc=0.762, Conf=0.649, Count= 21
+      Blood-T        : Acc=0.952, Conf=0.649, Count= 21
+      Eryth-prog     : Acc=0.619, Conf=0.625, Count= 21
+
+Train Step 59000 - Loss: 0.3425 / LR: 0.000008
+Running time for iter = 0.44s
+Training Steps:  98%|█████████▊| 59001/60000 [10:44:06<10:14:35, 36.91s/it, eval_acc=0.379, eval_loss=1.5455, loss=0.3425, lr=0.000008, step=59000]Training Steps:  98%|█████████▊| 59001/60000 [10:44:06<10:14:35, 36.91s/it, eval_acc=0.379, eval_loss=1.5455, l
+    Overall - Loss: 0.2459, Accuracy: 0.810, Avg Confidence: 0.647
+    Per-class breakdown:
+      Blood-B        : Acc=0.762, Conf=0.639, Count= 21
+      Blood-Granul   : Acc=0.810, Conf=0.643, Count= 21
+      Blood-Mono+Macro: Acc=0.857, Conf=0.644, Count= 21
+      Blood-NK       : Acc=0.810, Conf=0.668, Count= 21
+      Blood-T        : Acc=0.905, Conf=0.638, Count= 21
+      Eryth-prog     : Acc=0.714, Conf=0.647, Count= 21
+
+Train Step 59500 - Loss: 0.2459 / LR: 0.000004
+Running time for iter = 0.44s
+Training Steps:  99%|█████████▉| 59501/60000 [10:48:07<04:29,  1.85it/s, eval_acc=0.379, eval_loss=1.5455, loss=0.2459, lr=0.000004, step=59500]Training Steps:  99%|█████████▉| 59501/60000 [10:48:08<04:29,  1.85it/s, eval_acc=0.379, eval_loss=1.5455, loss=0.
+Step 59999: New best Macro-F1 Score (0.3482 > 0.3476). Saving best model...
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:59999 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.3482
+
+============================================================
+TRAINING COMPLETED - GENERATING FINAL EVALUATION
+============================================================
+Loading best model from res/bert_best.model/ for final analysis...
+Loading best model with 6 classes and 19277 DMR labels
+Best model path: res/bert_best.model/
+Best model directory contents:
+  - config.json
+  - model.safetensors
+  - read_classification_model.pickle
+  - dmr_encoder.pickle
+Calling MethylBertEmbeddedDMR.from_pretrained...
+Using explicit seq_len: 500
+Using num_classes from hierarchy: 6
+DMR embedding size: 19277
+Focal loss assigned (softmax-based multiclass)
+Warning: Model not on device yet, using CPU for focal weights
+Focal weight (per-class) length=6; values: [0.800000011920929, 1.0, 1.100000023841858, 1.2000000476837158, 1.100000023841858, 1.0]
+Focal gamma: 2.0
+Model loaded successfully from MethylBertEmbeddedDMR.from_pretrained
+Attempting to load additional components...
+Loading DMR encoder from res/bert_best.model/dmr_encoder.pickle
+Successfully restored DMR encoder from res/bert_best.model/dmr_encoder.pickle
+Loading read classifier from res/bert_best.model/read_classification_model.pickle
+Successfully restored read classifier from res/bert_best.model/read_classification_model.pickle
+Additional component loading completed
+Total Parameters: 246249933
+Optimizer created successfully
+Successfully loaded best model from step 59999
+Using best model from step 59999 (Macro-F1 Score: 0.3482) for final analysis
+
+============================================================
+MULTI-CLASS EVALUATION SUMMARY
+============================================================
+Overall Accuracy: 0.3807
+Macro F1-Score: 0.3482
+Weighted F1-Score: 0.3870
+
+Per-Class Accuracy (Top 10):
+  Blood-B             : 0.4884
+  Eryth-prog          : 0.4468
+  Blood-Granul        : 0.3452
+  Blood-T             : 0.2873
+  Blood-NK            : 0.2731
+  Blood-Mono+Macro    : 0.2591
+
+Per-Class Accuracy (Bottom 10):
+  Blood-Mono+Macro    : 0.2591
+  Blood-NK            : 0.2731
+  Blood-T             : 0.2873
+  Blood-Granul        : 0.3452
+  Eryth-prog          : 0.4468
+  Blood-B             : 0.4884
+============================================================
+Training curves saved to res/bert.model/plots/training_curves.png
+Training curve: reduced from 60000 to 61 points (1 point per 1000 steps max)
+Confusion matrix saved to res/bert.model/plots/confusion_matrix.png
+Confidence analysis saved to: res/bert.model/plots/confidence_analysis.txt
+
+Final evaluation plots and metrics saved to: res/bert.model/plots
+
+Copying best model files from res/bert_best.model to res/bert.model/
+  Copied model.safetensors
+  Copied config.json
+  Copied read_classification_model.pickle
+  Copied dmr_encoder.pickle
+Best model files (step 59999, Macro-F1 Score 0.3482) are now in the main output directory
+============================================================
+========================================
+Training completed!
+
+Saving training configuration...
+Saving training parameters to: /PUBLIC/shixi/GSE186458_raw/methylbert_run/res/train_param.txt
+Training parameters saved successfully!
+========================================
+All tasks completed successfully!

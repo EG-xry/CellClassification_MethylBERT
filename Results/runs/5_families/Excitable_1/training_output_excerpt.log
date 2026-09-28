@@ -1,0 +1,303 @@
+nohup: ignoring input
+/PUBLIC/shixi_home/gaozhouquan/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-bmotvx_1 because there was an issue with the default path (/PUBLIC/shixi_home/gaozhouquan/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up th
+=== MethylBERT Fine-tuning Training ===
+Config file: /PUBLIC/shixi/GSE186458_raw/methylbert_run/focal_manual_config.json
+Training steps: 50000
+Batch size: 64
+Learning rate: 5e-05
+Loss function: focal
+Number of classes: 6
+Use balanced batches: True
+Use balanced test evaluation: False
+========================================
+Creating tokenizer...
+Building Vocab
+Loading training dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  296662
+Created mapping for 3 unique cell types
+# of reads in each label:  [ 97226.  97690. 101746.]
+Total number of unique cell types: 3
+Cell type mapping (first 10): {'Heart-Cardio': 0, 'Neuron': 1, 'Oligodend': 2}
+Using balanced batch sampling for training...
+Built class indices: [97226, 97690, 101746]
+BalancedBatchSampler: 3 classes
+Original class distribution: [ 97226  97690 101746]
+Samples per class per batch: 21
+Actual batch size: 63 (requested: 64)
+Max batches per epoch: 4629
+Total samples per epoch: 291627
+Training samples: 296662 (balanced batches: 291627 samples per epoch)
+Loading test dataset...
+Detected header format: dna_seq, methyl_seq, ctype, dmr_label
+Total number of sequences :  99027
+Some weights of MethylBertEmbeddedDMR were not initialized from the model checkpoint at hanyangii/methylbert_hg19_2l and are newly initialized: ['dmr_encoder.0.weight', 'read_classifier.0.bias', 'read_classifier.0.weight', 'read_classifier.3.bias', 'read_classifier.3.weight', 'read_classifier.4.bias
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Created mapping for 3 unique cell types
+# of reads in each label:  [32341. 32551. 34135.]
+Total number of unique cell types: 3
+Cell type mapping (first 10): {'Heart-Cardio': 0, 'Neuron': 1, 'Oligodend': 2}
+Using standard (unbalanced) test evaluation...
+Test samples: 99027
+Creating trainer...
+Auto-detected 3 classes from training dataset
+Using CUDA GPU (NVIDIA A40)
+Loading pre-trained model...
+Restore the pretrained model hanyangii/methylbert_hg19_2l
+Loading with 3 classes (from dataset)
+Using explicit seq_len: 250
+Using num_classes from hierarchy: 3
+DMR embedding size: 37267
+Focal loss assigned (softmax-based multiclass)
+Focal weight: None (equal class weighting)
+Focal gamma: 2.0
+Focal loss assigned (softmax-based multiclass)
+Focal weight (per-class) length=3; values: [1.0, 1.0, 1.0]
+Focal gamma: 0.0
+Resolved focal weight (per-class) length=3; values: [1.0, 1.0, 1.0]
+Total Parameters: 73019679
+Optimizer created successfully
+Starting training...
+========================================
+False
+Training Steps:   0%|          | 0/50000 [00:00<?, ?it/s]Training Steps:   0%|          | 0/50000 [00:00<?, ?it/s, eval_acc=nan, eval_loss=nan, loss=1.1208, lr=0.000000, step=0]                                                                                                                        
+    Overall - Loss: 1.1208, Accuracy: 0.317, Avg Confidence: 0.583
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.190, Conf=0.572, Count= 21
+      Neuron         : Acc=0.333, Conf=0.585, Count= 21
+      Oligodend      : Acc=0.429, Conf=0.592, Count= 21
+
+Train Step 0 - Loss: 1.1208 / LR: 0.000000
+Running time for iter = 0.37s
+Training Steps:   0%|          | 1/50000 [00:00<9:52:54,  1.41it/s, eval_acc=nan, eval_loss=nan, loss=1.1208, lr=0.000000, step=0]Training Steps:   0%|          | 1/50000 [00:00<9:52:54,  1.41it/s, eval_acc=nan, eval_loss=nan, loss=1.1189, lr=0.000000, step=1]Training Steps:   0%|          | 2/50
+    Overall - Loss: 1.0836, Accuracy: 0.349, Avg Confidence: 0.585
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.429, Conf=0.587, Count= 21
+      Neuron         : Acc=0.286, Conf=0.582, Count= 21
+      Oligodend      : Acc=0.333, Conf=0.586, Count= 21
+
+Train Step 500 - Loss: 1.0836 / LR: 0.000003
+Running time for iter = 0.04s
+Training Steps:   1%|          | 501/50000 [00:29<46:41, 17.67it/s, eval_acc=nan, eval_loss=nan, loss=1.0836, lr=0.000003, step=500]Training Steps:   1%|          | 501/50000 [00:29<46:41, 17.67it/s, eval_acc=nan, eval_loss=nan, loss=1.1246, lr=0.000003, step=501]Training Steps:   1%|          | 
+    Overall - Loss: 1.0868, Accuracy: 0.381, Avg Confidence: 0.584
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.286, Conf=0.584, Count= 21
+      Neuron         : Acc=0.333, Conf=0.582, Count= 21
+      Oligodend      : Acc=0.524, Conf=0.586, Count= 21
+Training Steps:   2%|▏         | 1000/50000 [01:10<46:48, 17.45it/s, eval_acc=nan, eval_loss=nan, loss=1.0902, lr=0.000005, step=999]                                                                                                                                     Training Steps:   2%|▏    
+Saved read classifier to res/bert_best.model/read_classification_model.pickle
+Saved DMR encoder to res/bert_best.model/dmr_encoder.pickle
+Step:1000 Best Model Saved at: res/bert_best.model/ with Macro-F1 Score: 0.3109
+Step 1000: New best evaluation loss (1.1008 < inf). Saving lowest-loss model...
+Saved read classifier to res/bert.model/read_classification_model.pickle
+Saved DMR encoder to res/bert.model/dmr_encoder.pickle
+Step:1000 Lowest-Loss Model Saved at: res/bert.model/ with Loss: 1.1008
+  EVALUATION Results Analysis (Step 1000):
+    Overall - Loss: 1.1008, Accuracy: 0.342, Avg Confidence: 0.583
+    Per-class breakdown:
+      Class_0        : Acc=0.253, Conf=0.582
+      Class_1        : Acc=0.644, Conf=0.587
+      Class_2        : Acc=0.137, Conf=0.579
+
+Train Step 1000 - Loss: 1.0868 / LR: 0.000005
+Running time for iter = 0.04s
+Total elapsed: 0s | ETA: 0s
+Validation - Loss: 1.1008, Accuracy: 0.3416
+Training Steps:   2%|▏         | 1000/50000 [01:23<46:48, 17.45it/s, eval_acc=0.342, eval_loss=1.1008, loss=1.0868, lr=0.000005, step=1000]Training Steps:   2%|▏         | 1001/50000 [01:23<53:58:46,  3.97s/it, eval_acc=0.342, eval_loss=1.1008, loss=1.0868, lr=0.000005, step=1000]Training Ste
+    Overall - Loss: 1.1136, Accuracy: 0.222, Avg Confidence: 0.582
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.238, Conf=0.581, Count= 21
+      Neuron         : Acc=0.286, Conf=0.582, Count= 21
+      Oligodend      : Acc=0.143, Conf=0.581, Count= 21
+
+Train Step 1500 - Loss: 1.1136 / LR: 0.000008
+Running time for iter = 0.04s
+Training Steps:   3%|▎         | 1501/50000 [01:52<45:41, 17.69it/s, eval_acc=0.342, eval_loss=1.1008, loss=1.1136, lr=0.000008, step=1500]Training Steps:   3%|▎         | 1501/50000 [01:52<45:41, 17.69it/s, eval_acc=0.342, eval_loss=1.1008, loss=1.1080, lr=0.000008, step=1501]Training Steps:
+    Overall - Loss: 1.1007, Accuracy: 0.317, Avg Confidence: 0.583
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.429, Conf=0.584, Count= 21
+      Neuron         : Acc=0.429, Conf=0.583, Count= 21
+      Oligodend      : Acc=0.095, Conf=0.580, Count= 21
+Training Steps:   4%|▍         | 2000/50000 [02:40<44:37, 17.93it/s, eval_acc=0.342, eval_loss=1.1008, loss=1.0951, lr=0.000010, step=1999]                                                                                                                                           Training Steps: 
+Saved read classifier to res/bert.model/read_classification_model.pickle
+Saved DMR encoder to res/bert.model/dmr_encoder.pickle
+Step:2000 Lowest-Loss Model Saved at: res/bert.model/ with Loss: 1.0980
+  EVALUATION Results Analysis (Step 2000):
+    Overall - Loss: 1.0980, Accuracy: 0.350, Avg Confidence: 0.583
+    Per-class breakdown:
+      Class_0        : Acc=0.417, Conf=0.583
+      Class_1        : Acc=0.577, Conf=0.585
+      Class_2        : Acc=0.070, Conf=0.580
+
+Train Step 2000 - Loss: 1.1007 / LR: 0.000010
+Running time for iter = 0.04s
+Total elapsed: 1m 21s | ETA: 32m 26s
+Validation - Loss: 1.0980, Accuracy: 0.3499
+Training Steps:   4%|▍         | 2000/50000 [02:44<44:37, 17.93it/s, eval_acc=0.350, eval_loss=1.0980, loss=1.1007, lr=0.000010, step=2000]Training Steps:   4%|▍         | 2001/50000 [02:44<48:08:07,  3.61s/it, eval_acc=0.350, eval_loss=1.0980, loss=1.1007, lr=0.000010, step=2000]Training Ste
+    Overall - Loss: 1.0838, Accuracy: 0.429, Avg Confidence: 0.584
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.571, Conf=0.586, Count= 21
+      Neuron         : Acc=0.429, Conf=0.583, Count= 21
+      Oligodend      : Acc=0.286, Conf=0.583, Count= 21
+
+Train Step 2500 - Loss: 1.0838 / LR: 0.000013
+Running time for iter = 0.04s
+Training Steps:   5%|▌         | 2501/50000 [03:13<45:07, 17.54it/s, eval_acc=0.350, eval_loss=1.0980, loss=1.0838, lr=0.000013, step=2500]Training Steps:   5%|▌         | 2501/50000 [03:13<45:07, 17.54it/s, eval_acc=0.350, eval_loss=1.0980, loss=1.1158, lr=0.000013, step=2501]Training Steps:
+    Overall - Loss: 1.1026, Accuracy: 0.317, Avg Confidence: 0.583
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.238, Conf=0.584, Count= 21
+      Neuron         : Acc=0.381, Conf=0.582, Count= 21
+
+[... 1271 lines omitted ...]
+
+Training Steps:  93%|█████████▎| 46501/50000 [1:02:57<03:22, 17.31it/s, eval_acc=0.546, eval_loss=0.9397, loss=0.6746, lr=0.000017, step=46500]Training Steps:  93%|█████████▎| 46501/50000 [1:02:57<03:22, 17.31it/s, eval_acc=0.546, eval_loss=0.9397, loss=0.62
+    Overall - Loss: 0.6528, Accuracy: 0.651, Avg Confidence: 0.642
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.857, Conf=0.670, Count= 21
+      Neuron         : Acc=0.524, Conf=0.634, Count= 21
+      Oligodend      : Acc=0.571, Conf=0.623, Count= 21
+Training Steps:  94%|█████████▍| 47000/50000 [1:03:41<02:50, 17.64it/s, eval_acc=0.546, eval_loss=0.9397, loss=0.7427, lr=0.000015, step=46999]                                                                                                                                       
+    Overall - Loss: 0.9584, Accuracy: 0.546, Avg Confidence: 0.625
+    Per-class breakdown:
+      Class_0        : Acc=0.635, Conf=0.643
+      Class_1        : Acc=0.455, Conf=0.609
+      Class_2        : Acc=0.547, Conf=0.623
+
+Train Step 47000 - Loss: 0.6528 / LR: 0.000015
+Running time for iter = 0.04s
+Total elapsed: 1h 2m 24s | ETA: 3m 58s
+Validation - Loss: 0.9584, Accuracy: 0.5455
+Training Steps:  94%|█████████▍| 47000/50000 [1:03:48<02:50, 17.64it/s, eval_acc=0.546, eval_loss=0.9584, loss=0.6528, lr=0.000015, step=47000]Training Steps:  94%|█████████▍| 47001/50000 [1:03:48<2:50:38,  3.41s/it, eval_acc=0.546, eval_loss=0.9584, loss=0.
+    Overall - Loss: 0.5647, Accuracy: 0.746, Avg Confidence: 0.653
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.810, Conf=0.672, Count= 21
+      Neuron         : Acc=0.762, Conf=0.642, Count= 21
+      Oligodend      : Acc=0.667, Conf=0.644, Count= 21
+
+Train Step 47500 - Loss: 0.5647 / LR: 0.000012
+Running time for iter = 0.04s
+Training Steps:  95%|█████████▌| 47501/50000 [1:04:17<02:22, 17.55it/s, eval_acc=0.546, eval_loss=0.9584, loss=0.5647, lr=0.000012, step=47500]Training Steps:  95%|█████████▌| 47501/50000 [1:04:17<02:22, 17.55it/s, eval_acc=0.546, eval_loss=0.9584, loss=0.67
+    Overall - Loss: 0.7677, Accuracy: 0.571, Avg Confidence: 0.633
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.857, Conf=0.674, Count= 21
+      Neuron         : Acc=0.381, Conf=0.606, Count= 21
+      Oligodend      : Acc=0.476, Conf=0.618, Count= 21
+Training Steps:  96%|█████████▌| 48000/50000 [1:05:01<01:54, 17.53it/s, eval_acc=0.546, eval_loss=0.9584, loss=0.6695, lr=0.000010, step=47999]                                                                                                                                       
+    Overall - Loss: 0.9594, Accuracy: 0.545, Avg Confidence: 0.625
+    Per-class breakdown:
+      Class_0        : Acc=0.637, Conf=0.643
+      Class_1        : Acc=0.444, Conf=0.608
+      Class_2        : Acc=0.555, Conf=0.624
+
+Train Step 48000 - Loss: 0.7677 / LR: 0.000010
+Running time for iter = 0.04s
+Total elapsed: 1h 3m 45s | ETA: 2m 39s
+Validation - Loss: 0.9594, Accuracy: 0.5452
+Training Steps:  96%|█████████▌| 48000/50000 [1:05:08<01:54, 17.53it/s, eval_acc=0.545, eval_loss=0.9594, loss=0.7677, lr=0.000010, step=48000]Training Steps:  96%|█████████▌| 48001/50000 [1:05:08<1:55:06,  3.45s/it, eval_acc=0.545, eval_loss=0.9594, loss=0.
+    Overall - Loss: 0.7578, Accuracy: 0.540, Avg Confidence: 0.631
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.667, Conf=0.646, Count= 21
+      Neuron         : Acc=0.333, Conf=0.613, Count= 21
+      Oligodend      : Acc=0.619, Conf=0.634, Count= 21
+
+Train Step 48500 - Loss: 0.7578 / LR: 0.000007
+Running time for iter = 0.04s
+Training Steps:  97%|█████████▋| 48501/50000 [1:05:37<01:24, 17.68it/s, eval_acc=0.545, eval_loss=0.9594, loss=0.7578, lr=0.000007, step=48500]Training Steps:  97%|█████████▋| 48501/50000 [1:05:38<01:24, 17.68it/s, eval_acc=0.545, eval_loss=0.9594, loss=0.58
+    Overall - Loss: 0.6559, Accuracy: 0.667, Avg Confidence: 0.642
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.714, Conf=0.643, Count= 21
+      Neuron         : Acc=0.476, Conf=0.617, Count= 21
+      Oligodend      : Acc=0.810, Conf=0.665, Count= 21
+Training Steps:  98%|█████████▊| 49000/50000 [1:06:21<00:58, 17.10it/s, eval_acc=0.545, eval_loss=0.9594, loss=0.6428, lr=0.000005, step=48999]                                                                                                                                       
+    Overall - Loss: 0.9602, Accuracy: 0.544, Avg Confidence: 0.625
+    Per-class breakdown:
+      Class_0        : Acc=0.643, Conf=0.644
+      Class_1        : Acc=0.435, Conf=0.608
+      Class_2        : Acc=0.554, Conf=0.624
+
+Train Step 49000 - Loss: 0.6559 / LR: 0.000005
+Running time for iter = 0.04s
+Total elapsed: 1h 5m 5s | ETA: 1m 19s
+Validation - Loss: 0.9602, Accuracy: 0.5442
+Training Steps:  98%|█████████▊| 49000/50000 [1:06:29<00:58, 17.10it/s, eval_acc=0.544, eval_loss=0.9602, loss=0.6559, lr=0.000005, step=49000]Training Steps:  98%|█████████▊| 49001/50000 [1:06:29<58:45,  3.53s/it, eval_acc=0.544, eval_loss=0.9602, loss=0.65
+    Overall - Loss: 0.6698, Accuracy: 0.667, Avg Confidence: 0.638
+    Per-class breakdown:
+      Heart-Cardio   : Acc=0.714, Conf=0.663, Count= 21
+      Neuron         : Acc=0.476, Conf=0.610, Count= 21
+      Oligodend      : Acc=0.810, Conf=0.641, Count= 21
+
+Train Step 49500 - Loss: 0.6698 / LR: 0.000002
+Running time for iter = 0.04s
+Training Steps:  99%|█████████▉| 49501/50000 [1:06:59<00:32, 15.45it/s, eval_acc=0.544, eval_loss=0.9602, loss=0.6698, lr=0.000002, step=49500]Training Steps:  99%|█████████▉| 49501/50000 [1:06:59<00:32, 15.45it/s, eval_acc=0.544, eval_loss=0.9602, loss=0.78
+
+============================================================
+TRAINING COMPLETED - GENERATING FINAL EVALUATION
+============================================================
+Loading lowest-loss model from res/bert.model/ for final analysis...
+Loading lowest-loss model with 3 classes and 37267 DMR labels
+Lowest-loss model path: res/bert.model/
+Lowest-loss model directory contents:
+  - model.safetensors
+  - dmr_encoder.pickle
+  - config.json
+  - read_classification_model.pickle
+  - plots
+  - train.csv
+  - eval.csv
+Calling MethylBertEmbeddedDMR.from_pretrained...
+Using explicit seq_len: 250
+Using num_classes from hierarchy: 3
+DMR embedding size: 37267
+Focal loss assigned (softmax-based multiclass)
+Warning: Model not on device yet, using CPU for focal weights
+Focal weight (per-class) length=3; values: [1.0, 1.0, 1.0]
+Focal gamma: 0.0
+Model loaded successfully from MethylBertEmbeddedDMR.from_pretrained
+Attempting to load additional components...
+Loading DMR encoder from res/bert.model/dmr_encoder.pickle
+Successfully restored DMR encoder from res/bert.model/dmr_encoder.pickle
+Loading read classifier from res/bert.model/read_classification_model.pickle
+Successfully restored read classifier from res/bert.model/read_classification_model.pickle
+Additional component loading completed
+Total Parameters: 73019679
+Optimizer created successfully
+Successfully loaded lowest-loss model from step 23000
+Using lowest-loss model from step 23000 (Loss: 0.8836) for final analysis
+
+============================================================
+MULTI-CLASS EVALUATION SUMMARY
+============================================================
+Overall Accuracy: 0.5476
+Macro F1-Score: 0.5424
+Weighted F1-Score: 0.5424
+
+Per-Class Accuracy (Top 10):
+  Heart-Cardio        : 0.6980
+  Oligodend           : 0.5496
+  Neuron              : 0.3960
+
+Per-Class Accuracy (Bottom 10):
+  Neuron              : 0.3960
+  Oligodend           : 0.5496
+  Heart-Cardio        : 0.6980
+============================================================
+Training curves saved to res/bert.model/plots/training_curves.png
+Training curve: reduced from 50000 to 51 points (1 point per 1000 steps max)
+Confusion matrix saved to res/bert.model/plots/confusion_matrix.png
+Confidence analysis saved to: res/bert.model/plots/confidence_analysis.txt
+
+Final evaluation plots and metrics saved to: res/bert.model/plots
+
+Final analysis completed using lowest-loss model from step 23000
+Best F1-score model (step 31000, Macro-F1 Score 0.5470) is saved in bert_best.model/
+Lowest-loss model (step 23000, Loss: 0.8836) is saved in bert.model/
+============================================================
+========================================
+Training completed!
+
+Saving training configuration...
+Saving training parameters to: /PUBLIC/shixi/GSE186458_raw/methylbert_run/res/train_param.txt
+Training parameters saved successfully!
+========================================
+All tasks completed successfully!

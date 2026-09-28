@@ -12,9 +12,17 @@ METHYLBERT_PRETRAINED_CONFIG_ARCHIVE_MAP = {
 
 class MethylBERTConfig(BertConfig):
     pretrained_config_archive_map = METHYLBERT_PRETRAINED_CONFIG_ARCHIVE_MAP
-    loss="cross_entropy"  # Changed default to cross_entropy for multi-class
-    num_labels=-1
-    num_classes=39  # Default for multi-class classification
+    loss = "decoupled_focal" 
+    num_labels = None  # Number of classification classes (HuggingFace convention)
+    num_classes = None  # Will be auto-detected from dataset
+    num_dmr_embeddings = None  # Number of DMR embeddings (auto-detected from dataset)
+    label_smoothing = 0.0  # Default label smoothing for cross-entropy
+    focal_weight = None  # Default None -> auto-compute per-class weights from dataset  
+    focal_gamma = 2.0  # Default gamma for focal loss
+    # New decoupled focal loss parameters
+    use_decoupled_focal = True  # Whether to use decoupled focal loss
+    focal_alpha_pos = None  # Positive example weights (auto-computed if None)
+    focal_alpha_neg = None  # Negative example weights (auto-computed if None)
 
 class Config(object):
     def __init__(self, config_dict: dict):
@@ -41,11 +49,11 @@ def get_config(**kwargs):
             # Logging and evaluation
             ('log_freq', 10),  # How often to log training progress
             ('eval_freq', 1),  # How often to evaluate on validation set
-            ('save_freq', None),  # How often to save model checkpoints
             
             # Model architecture
             ('n_hidden', None),  # Number of hidden layers (if specified)
-            ('num_classes', 39),  # Number of classes for multi-class classification
+            ('num_classes', None),  # Number of classes for multi-class classification (auto-detected from dataset)
+            ('dropout', 0.1),  # Global dropout probability for model
             
             # Training control
             ('decrease_steps', 200),  # Steps for learning rate decay
@@ -53,8 +61,19 @@ def get_config(**kwargs):
             ('gradient_accumulation_steps', 1),  # Gradient accumulation for large batches
             ('max_grad_norm', 1.0),  # Maximum gradient norm for clipping
             
-            # Loss function
-            ('loss', 'cross_entropy')  # Loss function: 'bce', 'focal_bce', or 'cross_entropy'
+            # Balanced sampling control
+            ('use_balanced_batches', True),  # Whether to use balanced batch sampling for training
+            ('use_balanced_test_eval', True),  # Whether to use balanced sampling for test evaluation
+            
+            # Loss function (default to focal loss) and related params
+            ('loss', 'decoupled_focal'),  # 'focal', 'bce', 'cross_entropy', or 'decoupled_focal'
+            ('label_smoothing', 0.0),  # Epsilon for label smoothing with cross-entropy
+            ('focal_weight', None),  # None -> auto-compute per-class weights from dataset, or provide list to override
+            ('focal_gamma', 2.0),  # Gamma parameter for focal loss
+            # Decoupled focal loss parameters
+            ('use_decoupled_focal', True),  # Whether to use decoupled focal loss
+            ('focal_alpha_pos', None),  # Positive example weights (auto-computed if None)
+            ('focal_alpha_neg', None),  # Negative example weights (auto-computed if None)
           ]
         )
 
